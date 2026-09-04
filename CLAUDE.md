@@ -2,10 +2,16 @@
 
 **Nivå:** Projekt (`C:\Users\kentl\OneDrive\AI\Studier\CLAUDE.md`)
 **Gäller:** Claude Code-sessioner som är öppnade i den här mappen
-**Skapad:** 2026-09-04
+**Skapad:** 2026-09-04 · **Senast ändrad:** 2026-09-04
 
 Den här filen kompletterar den globala `C:\Users\kentl\.claude\CLAUDE.md`
 (som alltid gäller). Vid konflikt: fråga Kent.
+
+Filen håller bara **stabila** fakta: scope, struktur, repo-identitet,
+konventioner. Rörligt innehåll – kursstrategi, val av tillämpningsområde,
+planering – bor i vanliga arbetsdokument (t.ex. `personlig-kursplan.md`) och
+beslut loggas i `beslutslogg.md`. Skriv inte in "aktuellt läge" här; det
+blir inaktuellt och riskerar att låsa fast tänkandet.
 
 ---
 
@@ -20,8 +26,23 @@ Uppdrag som hör hemma här: allt som rör pågående eller kommande kurser
 CSN), samt anteckningar och uppgifter kopplade till en kurs.
 
 Uppdrag som **inte** hör hemma här: Kents blogginlägg, jobbansökningar,
-AI-tekniska projekt, kalkyler och liknande – de har egna mappar/repon.
-Om ett uppdrag tydligt hör hemma någon annanstans: stanna och fråga.
+AI-tekniska projekt, fristående kalkyler och liknande – de har egna
+mappar/repon. Om ett uppdrag tydligt hör hemma någon annanstans: stanna
+och fråga.
+
+---
+
+## Lärandeprojekt – håll tänkandet öppet
+
+`2026_host/AI_for_chefer/` (kursen AI101A) är ett **lärandeprojekt**.
+Kursupplägg, val av tillämpningsområde (just nu: vindkraftskalkyler som case
+för båda delproven) och prioritering mellan lärandemål är **hypoteser under
+utveckling** – inte beslut.
+
+När Kent tänker högt om kursen: brainstorma med honom, ställ frågor, föreslå
+alternativ. Behandla inte tidigare val i repot – inklusive utkasten i
+`delprov1-*` och `delprov2-*` – som låsta. Den här filen är ett skydd mot
+inlåsning, inte en källa till den.
 
 ---
 
@@ -29,15 +50,23 @@ Om ett uppdrag tydligt hör hemma någon annanstans: stanna och fråga.
 
 ```
 Studier/
-└── 2026_host/                     # höstterminen 2026
-    ├── AI_for_chefer/             # AI101A – AI för chefer och ledare (HKR)
-    │   ├── antagen_till_kursen_...jpg
-    │   └── kursplan/AI101A-kursplan.pdf
+├── CLAUDE.md
+├── README.md
+└── 2026_host/                         # höstterminen 2026
+    ├── AI_for_chefer/                 # AI101A – AI för chefer och ledare (HKR)
+    │   ├── README.md
+    │   ├── personlig-kursplan.md      # levande: läsplan, koppling litteratur–lärandemål
+    │   ├── Bilder/
+    │   ├── kursplan/AI101A-kursplan.pdf
+    │   ├── litteratur/litteraturlista.md
+    │   ├── delprov1-vindkraftskalkyler/
+    │   └── delprov2-handlingsplan/
     └── Policy_i_energi_och_klimat/
 ```
 
 Namnkonvention: en mapp per termin (`ÅÅÅÅ_host` / `ÅÅÅÅ_var`), och under den
-en mapp per kurs.
+en mapp per kurs. Ingen egen `CLAUDE.md` per kursmapp – strategin lever i
+kursens arbetsdokument, inte i en regelfil.
 
 ---
 
@@ -56,17 +85,21 @@ en mapp per kurs.
 
 - **Git commit/push:** Kent gör det själv via Cursor. Claude Code committar/
   pushar bara på Kents uttryckliga begäran (se globala reglerna).
-- **README:** håll `README.md` uppdaterad med aktuell kurs och struktur;
-  den ska innehålla både GitHub-URL och lokal sökväg.
+- **README:** håll `README.md` (rot och kursmapp) uppdaterad med aktuell
+  kurs och struktur; ska innehålla både GitHub-URL och lokal sökväg.
 - **Källor:** följ Kents Harvard-/referensstandard om texter med externa
   påståenden skrivs här (se skill `kent-referens-skill`).
 - **Svenska** som standard i all text.
+- **Beslut** som är värda att minnas loggas i `beslutslogg.md` med datum –
+  inte i den här filen.
 
 ---
 
-## Aktuellt läge (2026-09-04)
+## Uppdateringslogg
 
-- **AI101A – AI för chefer och ledare** (HKR, antagningskod HKR-09GQQ).
-  Registreringsperiod 2–9 nov 2026. Kalenderpåminnelser inlagda.
-- "Ansökan om studier" inskickad till AEA (a-kassan) 2026-09-04; avvaktar
-  godkännande. Avstämning inlagd i kalendern 26 okt 2026.
+- 2026-09-04 (skapad): scope, struktur, repo-identitet, konventioner,
+  "Aktuellt läge"-avsnitt.
+- 2026-09-04 (revision): "Aktuellt läge" borttaget och flyttat till
+  `beslutslogg.md`; nytt avsnitt "Lärandeprojekt – håll tänkandet öppet";
+  struktur uppdaterad mot faktiskt innehåll. Bakgrund: samtal med Kent om
+  att en lokal CLAUDE.md inte ska låsa fast provisoriska val.

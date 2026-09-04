@@ -7,6 +7,8 @@ anteckningar och material, organiserat per termin.
 
 ```
 Studier/
+├── CLAUDE.md                      # stabila projektregler (scope, konventioner, repo-identitet)
+├── beslutslogg.md                 # daterade beslut och lägesnoteringar
 └── 2026_host/                     # höstterminen 2026
     ├── AI_for_chefer/             # AI101A – AI för chefer och ledare (Högskolan Kristianstad)
     │   ├── README.md              # kursöversikt, examination, vald inriktning
