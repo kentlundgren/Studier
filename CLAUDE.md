@@ -34,15 +34,18 @@ och fråga.
 
 ## Lärandeprojekt – håll tänkandet öppet
 
-`2026_host/AI_for_chefer/` (kursen AI101A) är ett **lärandeprojekt**.
-Kursupplägg, val av tillämpningsområde (just nu: vindkraftskalkyler som case
-för båda delproven) och prioritering mellan lärandemål är **hypoteser under
-utveckling** – inte beslut.
+Kursmapparna under `2026_host/` är **lärandeprojekt**. Kursupplägg, val av
+tillämpningsområde/case och prioritering mellan lärandemål är **hypoteser
+under utveckling** – inte beslut.
 
-När Kent tänker högt om kursen: brainstorma med honom, ställ frågor, föreslå
-alternativ. Behandla inte tidigare val i repot – inklusive utkasten i
-`delprov1-*` och `delprov2-*` – som låsta. Den här filen är ett skydd mot
-inlåsning, inte en källa till den.
+- `AI_for_chefer/` (AI101A): vindkraftskalkyler som case för båda delproven.
+- `Policy_i_energi_och_klimat/` (ETE409): sektor och policyinstrument för
+  essän (UPG2) är uttryckligen **öppet** – se `essa-upg2/disposition-essa.md`.
+
+När Kent tänker högt om en kurs: brainstorma med honom, ställ frågor, föreslå
+alternativ. Behandla inte tidigare val i repot – inklusive utkast i
+`delprov1-*`, `delprov2-*` och `essa-upg2/` – som låsta. Den här filen är
+ett skydd mot inlåsning, inte en källa till den.
 
 ---
 
@@ -61,7 +64,11 @@ Studier/
     │   ├── litteratur/litteraturlista.md
     │   ├── delprov1-vindkraftskalkyler/
     │   └── delprov2-handlingsplan/
-    └── Policy_i_energi_och_klimat/
+    └── Policy_i_energi_och_klimat/     # ETE409 (LiU)
+        ├── README.md
+        ├── personlig-kursplan.md
+        ├── litteratur/litteraturlista.md
+        └── essa-upg2/                 # UPG2 – sektor/policyinstrument ännu öppet
 ```
 
 Namnkonvention: en mapp per termin (`ÅÅÅÅ_host` / `ÅÅÅÅ_var`), och under den

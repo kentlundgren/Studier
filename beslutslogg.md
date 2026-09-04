@@ -6,6 +6,22 @@ här är beslut *av dagsläget* – de får omprövas. Stabila konventioner bor 
 
 ---
 
+## 2026-09-05
+
+- **Andra kursmappen skapad:** `2026_host/Policy_i_energi_och_klimat/`
+  (ETE409 "Policys i energi- och klimatomställningen", LiU, kurstillfälle
+  HT 2026). README, personlig kursplan, litteraturlista (Thollander m.fl.
+  2019 och 2020) och en öppen disposition för essän (UPG2).
+- **UPG2 (öppet, ej låst):** sektor (industri/transport/byggnader/förnybart)
+  och policyinstrument för den individuella essän är inte valda. En möjlig
+  – inte beslutad – koppling till vindkraftskalkylerna nämns i
+  `essa-upg2/disposition-essa.md`.
+- **Kursmatrisen på LiU** är den generella CDIO-kompetensmatrisen, inte en
+  lärandemål-till-examination-koppling. Kopplingen i kursens
+  `personlig-kursplan.md` är Claudes tolkning, flaggad som sådan.
+
+---
+
 ## 2026-09-04
 
 - **Repot skapat** och kopplat till <https://github.com/kentlundgren/Studier>

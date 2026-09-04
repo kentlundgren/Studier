@@ -23,12 +23,18 @@ Studier/
     │   │   └── analys-tillampningsomrade.md   # utkast: AI-stödda ekonomiska kalkylverktyg
     │   └── delprov2-handlingsplan/
     │       └── handlingsplan-vindkraftskalkyler.md  # utkast: handlingsplan för Skånes vindkraftsakademi
-    └── Policy_i_energi_och_klimat/
+    └── Policy_i_energi_och_klimat/ # ETE409 – Policys i energi- och klimatomställningen (LiU)
+        ├── README.md
+        ├── personlig-kursplan.md
+        ├── litteratur/
+        │   └── litteraturlista.md
+        └── essa-upg2/
+            └── disposition-essa.md  # öppen disposition – sektor/policyinstrument ej valt
 ```
 
-## Pågående kurs
+## Pågående kurser
 
-**AI101A – AI för chefer och ledare**, Högskolan Kristianstad (antagningskod HKR-09GQQ)
+### AI101A – AI för chefer och ledare (Högskolan Kristianstad, antagningskod HKR-09GQQ)
 
 - Registreringsperiod: 2–9 november 2026
 - Välkomstbrev: <https://www.hkr.se/kurs/ai101a/valkomstbrev/>
@@ -48,6 +54,22 @@ Båda examinationsmomenten byggs kring Kents vindkraftskalkyler som case –
 utkast finns i `delprov1-*` och `delprov2-*`.
 
 Studierna ska godkännas av a-kassan (AEA) – ansökan om studier inskickad 4 september 2026.
+
+### ETE409 – Policys i energi- och klimatomställningen (Linköpings universitet)
+
+- Kursöversikt: <https://liu.se/utbildning/kurs/ete409>
+- Kursplan (HT 2026): <https://studieinfo.liu.se/kurs/ETE409/ht-2026#syllabus>
+- Examinationsmoment: <https://studieinfo.liu.se/kurs/ETE409/ht-2026#examination>
+- Kurslitteratur: <https://studieinfo.liu.se/kurs/ETE409/ht-2026#literature>
+
+Se [`2026_host/Policy_i_energi_och_klimat/`](2026_host/Policy_i_energi_och_klimat/)
+för kursöversikt ([README](2026_host/Policy_i_energi_och_klimat/README.md)),
+[personlig kursplan](2026_host/Policy_i_energi_och_klimat/personlig-kursplan.md)
+och [litteraturlista](2026_host/Policy_i_energi_och_klimat/litteratur/litteraturlista.md)
+(två titlar av Thollander m.fl. – svensk grundbok och engelsk companion-volym
+om energikartläggning, energiledning och styrmedel). Examination: digitala
+kunskapstest per modul (UPG3) och en individuell policyessä (UPG2), där sektor
+och policyinstrument ännu är ett öppet val – se `essa-upg2/disposition-essa.md`.
 
 ## Repo
 
