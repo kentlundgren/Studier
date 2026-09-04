@@ -19,6 +19,20 @@ här är beslut *av dagsläget* – de får omprövas. Stabila konventioner bor 
 - **Kursmatrisen på LiU** är den generella CDIO-kompetensmatrisen, inte en
   lärandemål-till-examination-koppling. Kopplingen i kursens
   `personlig-kursplan.md` är Claudes tolkning, flaggad som sådan.
+- **Sammanfattande README** skapad på `2026_host/README.md` (jämförelse av
+  AI101A och ETE409), plus `2026_host/notebooklm-prompt.md` för en AI-pod
+  om terminens kurser.
+- **CDIO/UPG förklarat i detalj** i ETE409:s `personlig-kursplan.md`
+  (avsnitt 1): CDIO = Conceive-Design-Implement-Operate, grundat år 2000 av
+  MIT, Chalmers, KTH och LiU; UPG = "uppgift" (Ladok-momentkod); varför
+  UPG1 saknas i just ETE409 är Claudes rimliga gissning, inte ett
+  bekräftat faktum.
+- **Kandidatämne för UPG2 (fortfarande öppet, ej beslutat):** vindkraftens
+  intäktsdelning till närboende (ny lag, ikraftträdande 1 juli 2026) –
+  konkret utformat i `essa-upg2/disposition-essa.md` avsnitt 4, med
+  källhänvisning till regeringens pressmeddelande. Samma sakfråga används
+  redan i AI101A-mappens delprovsutkast – flaggat som något att stämma av
+  med respektive kursledning om Kent går vidare med det.
 
 ---
 

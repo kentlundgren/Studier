@@ -10,6 +10,7 @@ Studier/
 ├── CLAUDE.md                      # stabila projektregler (scope, konventioner, repo-identitet)
 ├── beslutslogg.md                 # daterade beslut och lägesnoteringar
 └── 2026_host/                     # höstterminen 2026
+    ├── README.md                  # sammanfattande översikt över terminens båda kurser
     ├── AI_for_chefer/             # AI101A – AI för chefer och ledare (Högskolan Kristianstad)
     │   ├── README.md              # kursöversikt, examination, vald inriktning
     │   ├── personlig-kursplan.md  # vad som ska läsas till vilket delmoment
@@ -33,6 +34,9 @@ Studier/
 ```
 
 ## Pågående kurser
+
+Sammanfattande jämförelse av terminens båda kurser (fakta, litteratur,
+examination, koppling mellan dem): [`2026_host/README.md`](2026_host/README.md).
 
 ### AI101A – AI för chefer och ledare (Högskolan Kristianstad, antagningskod HKR-09GQQ)
 
