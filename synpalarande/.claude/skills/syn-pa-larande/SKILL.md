@@ -15,7 +15,7 @@ description: >-
   Kombinera med kent-skrivstil (röst), kent-respons (svar på andras inlägg) och
   kent-referens-skill (källhänvisningar).
 metadata:
-  last_updated: "2026-09-07 (skapad – utkast v0.1; SKILL.md + references/)"
+  last_updated: "2026-09-07 (utkast v0.1; skärpt avsnitt 3 och 5 efter Kents LG-svar)"
   status: "UTKAST v0.1 – grundstommen finns, öppna frågor kvar (se sista avsnittet)"
 ---
 
@@ -92,9 +92,11 @@ den.
   figuren/underlaget innan du citerar exakt vad paradigmet innebär*).
 - Bärande idé: **feedback är inte en slutkommentar utan en del av lärprocessen**
   — löpande, dialogisk, framåtsyftande.
-- **Formell dialog är bra, inte obehagligt.** Ett muntligt förhör där du får
-  förklara vad du gjort och hur du tänkt testar rätt sak: förståelse och
-  ägarskap, inte produktionsförmåga.
+- **Formell dialog är bra, inte obehagligt.** Ett muntligt förhör — i dialog
+  med både lärare *och* kurskamrater — där du får förklara vad du gjort och hur
+  du tänkt testar rätt sak: förståelse och ägarskap, inte produktionsförmåga.
+  En kurs som bygger in aktivt deltagande och sådan dialog sorterar själv ut de
+  som förstått från de som inte gjort det, och då spelar verktyget mindre roll.
 
 ## 4. Nätbaserat lärande — Kents praktiska erfarenhet
 
@@ -123,13 +125,18 @@ Kent är medvetet **mer "liberal" än många kollegor och studiekamrater** här.
   som levererar så att du *slipper* förstå. Det första är lärande. Det andra är
   att lura sig själv. (Släkt med Kim Freimanns distinktion lärverktyg vs. "låta
   AI göra jobbet".)
+- **AI kan producera, inte delta.** En modell kan med bra prompter hjälpa dig
+  med texten och inlämningen. Den kan inte föra din talan i forumet vecka efter
+  vecka, inte ställa den fråga som visar att du faktiskt brottas med uppgiften.
+  Det aktiva deltagandet (avsnitt 1) är alltså den del som inte går att
+  delegera — och därför den som säger mest om lärandet.
 - **Kents tre villkor på sig själv** (använd dessa som prövostenar i texter om
   AI och studier):
   1. **Förstår jag det jag lämnar in?**
   2. **Tar jag fullt ansvar för texten — även när den blivit till tillsammans
      med en modell?**
   3. **Har jag bidragit till gruppens lärande under kursens gång?**
-  Kan han svara ja på alla tre är han med, med gott samvete.
+  Kan han svara ja på alla tre deltar han med gott samvete.
 - **Examinationsproblemet ≠ AI-problemet.** Att en hemtenta går att fuska på är
   ett kontroll- och deltagandeproblem som fanns långt före generativ AI. Lösningen
   är examinationsformer som testar resonemang och ägarskap (muntligt förhör om
