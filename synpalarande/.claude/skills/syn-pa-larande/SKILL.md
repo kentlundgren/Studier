@@ -15,7 +15,7 @@ description: >-
   Kombinera med kent-skrivstil (röst), kent-respons (svar på andras inlägg) och
   kent-referens-skill (källhänvisningar).
 metadata:
-  last_updated: "2026-09-07 (utkast v0.1; skärpt avsnitt 3 och 5 efter Kents LG-svar)"
+  last_updated: "2026-09-07 (utkast v0.1; README + Nr1-koppling tillagd)"
   status: "UTKAST v0.1 – grundstommen finns, öppna frågor kvar (se sista avsnittet)"
 ---
 
@@ -165,12 +165,18 @@ När du skriver eller resonerar i Kents anda om lärande:
 - **Hämta rösten från `kent-skrivstil`** och, om det är ett svar på någon annans
   text, formen från `kent-respons`.
 
-## 7. Stödfiler
+## 7. Stödfiler och besläktat material
 
 | Fil | Innehåll |
 |---|---|
+| `README.md` | Kort beskrivning av skillen för den som bläddrar på GitHub. |
 | `references/blogginlagg.md` | De elva inläggen på *Syn på lärande* — datum, titel, kärna, URL-status. Läs när ett inlägg ska citeras eller länkas. |
 | `references/litteratur.md` | Harvard-poster för Kents inspiratörer och teoretiska källor. **Stub v0.1** — fylls på efter avstämning med Kent. |
+
+Besläktat i samma repo: `synpalarande/Nr1/` är Kents första fristående
+redogörelse som utgår från en text (Dick Harrisons inlägg). Upplägget där —
+text som avstamp, argument för och emot, egen sammanvägning — är tänkt att
+återkomma och är ett konkret exempel på hur den här skillen tillämpas.
 
 ## 8. Öppna frågor att stämma av med Kent (utkast v0.1)
 
