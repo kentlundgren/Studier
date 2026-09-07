@@ -89,6 +89,22 @@ body {
   margin: 2.8rem 0 1rem;
   padding-top: 0.4rem;
   letter-spacing: -0.005em;
+  scroll-margin-top: 1.5rem;
+}
+
+.anchor {
+  margin-left: 0.35rem;
+  font-weight: 400;
+  color: var(--ink-faint);
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 0.12s ease, color 0.12s ease;
+}
+h2:hover .anchor,
+.anchor:focus { opacity: 1; }
+.anchor:hover { color: var(--accent); }
+@media (hover: none) {
+  .anchor { opacity: 0.45; }
 }
 
 .prose em { font-style: italic; }
@@ -119,6 +135,7 @@ a:hover { color: var(--accent-strong); }
 .refs__bar h2 {
   font-size: 1.25rem;
   margin: 0;
+  scroll-margin-top: 1.5rem;
 }
 
 .refs__toggle {
