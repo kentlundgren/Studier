@@ -15,7 +15,7 @@ description: >-
   Kombinera med kent-skrivstil (röst), kent-respons (svar på andras inlägg) och
   kent-referens-skill (källhänvisningar).
 metadata:
-  last_updated: "2026-09-07 (utkast v0.1; README + Nr1-koppling tillagd)"
+  last_updated: "2026-09-07 (utkast v0.1; AI-hållningen avstämd, Nr-formatet dokumenterat)"
   status: "UTKAST v0.1 – grundstommen finns, öppna frågor kvar (se sista avsnittet)"
 ---
 
@@ -129,18 +129,26 @@ Kent är medvetet **mer "liberal" än många kollegor och studiekamrater** här.
   med texten och inlämningen. Den kan inte föra din talan i forumet vecka efter
   vecka, inte ställa den fråga som visar att du faktiskt brottas med uppgiften.
   Det aktiva deltagandet (avsnitt 1) är alltså den del som inte går att
-  delegera — och därför den som säger mest om lärandet.
+  delegera, och därför den som säger mest om lärandet.
 - **Kents tre villkor på sig själv** (använd dessa som prövostenar i texter om
   AI och studier):
   1. **Förstår jag det jag lämnar in?**
-  2. **Tar jag fullt ansvar för texten — även när den blivit till tillsammans
+  2. **Tar jag fullt ansvar för texten, även när den blivit till tillsammans
      med en modell?**
   3. **Har jag bidragit till gruppens lärande under kursens gång?**
   Kan han svara ja på alla tre deltar han med gott samvete.
-- **Examinationsproblemet ≠ AI-problemet.** Att en hemtenta går att fuska på är
-  ett kontroll- och deltagandeproblem som fanns långt före generativ AI. Lösningen
-  är examinationsformer som testar resonemang och ägarskap (muntligt förhör om
-  egen kod, aktivt forumdeltagande), inte att förbjuda verktyg.
+- **Villkoren är ett ideal, inte ett intyg.** Kent formulerar det själv som att
+  han lever upp till dem *nästan* fullt ut, inte perfekt (hans ordalydelse till
+  LG, med ett blinkande ";>)" efter). Den ärligheten hör med. Skriv inte in
+  hållningen som om den vore en garanti han utfärdar; det är något han siktar
+  mot.
+- **Ironin han pekar på.** Att skriva om AI i lärandet med hjälp av AI känns
+  "nästan lite ironiskt", men det är också poängen: verktyget spelar mindre
+  roll om man förstår och står för det man lämnar ifrån sig.
+- **Examinationsproblemet är inte AI-problemet.** Att en hemtenta går att fuska
+  på är ett kontroll- och deltagandeproblem som fanns långt före generativ AI.
+  Lösningen är examinationsformer som testar resonemang och ägarskap (muntligt
+  förhör om egen kod, aktivt forumdeltagande), inte att förbjuda verktyg.
 - **Obehaget han ändå erkänner:** skannad ID-handling och ansiktskontroll under
   inspelade förhör är en integritetsfråga värd att ta på allvar.
 
@@ -173,10 +181,22 @@ När du skriver eller resonerar i Kents anda om lärande:
 | `references/blogginlagg.md` | De elva inläggen på *Syn på lärande* — datum, titel, kärna, URL-status. Läs när ett inlägg ska citeras eller länkas. |
 | `references/litteratur.md` | Harvard-poster för Kents inspiratörer och teoretiska källor. **Stub v0.1** — fylls på efter avstämning med Kent. |
 
-Besläktat i samma repo: `synpalarande/Nr1/` är Kents första fristående
-redogörelse som utgår från en text (Dick Harrisons inlägg). Upplägget där —
-text som avstamp, argument för och emot, egen sammanvägning — är tänkt att
-återkomma och är ett konkret exempel på hur den här skillen tillämpas.
+### Nr-serien: ett etablerat format
+
+`synpalarande/Nr1/` är Kents första fristående redogörelse som utgår från en
+text (Dick Harrisons inlägg om "en generation analfabeter"). Formatet är tänkt
+att återkomma och är den vanliga mallen när Kent bygger en sådan text:
+
+1. **Vad texten säger** — kort referat av inlägget som är avstamp.
+2. **Det som ger den rätt** — data och källor som stöder påståendet.
+3. **Det som talar emot** — data, källor och invändningar åt andra hållet.
+4. **Vad jag själv landar i** — egen ståndpunkt, utifrån syn på lärande.
+
+Slutsatsen ramas alltid in som *en bild av frågan, inte ett facit*. Texten
+ligger på GitHub, inte på bloggen, men får gärna länka till ett konkret
+blogginlägg där det stärker resonemanget. Anknytningen till den som tipsade om
+texten (t.ex. LG) hålls till en mening. Källorna följer
+`kent-referens-skill` fullt ut, med ihopfällbar referenslista.
 
 ## 8. Öppna frågor att stämma av med Kent (utkast v0.1)
 
@@ -188,9 +208,12 @@ till:
 2. **Gerver och "skolans drivkrafter"** — hur mycket väger den ingången i dag
    jämfört med Gärdenfors? Bloggen ger Gerver stort utrymme, men dina senare
    texter handlar mest om performativt lärande och nätkurser.
-3. **AI-hållningen** (avsnitt 5) — är de tre villkoren den slutliga
-   formuleringen, eller ska något till (t.ex. transparens mot kursledaren om
-   att AI använts)?
+3. ~~**AI-hållningen** (avsnitt 5): är de tre villkoren den slutliga
+   formuleringen?~~ **Avstämt 2026-09-07.** De tre villkoren står fast, med
+   tillägget att Kent själv beskriver efterlevnaden som "nästan fullt ut, inte
+   perfekt", och att han erkänner AI-hjälp öppet när ämnet är AI. Kvar att
+   överväga vid tillfälle: om transparens mot kursledaren ska vara ett uttalat
+   fjärde villkor i en kurskontext.
 4. **Vuxenperspektivet** — mycket av din erfarenhet är som mogen student som
    relaterar nytt stoff till yrkeslivet. Ska det vara ett eget bärande avsnitt?
 5. **Avgränsning mot din yrkesroll** — när du skriver om lärande *i
