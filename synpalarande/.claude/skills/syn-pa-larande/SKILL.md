@@ -15,7 +15,7 @@ description: >-
   Kombinera med kent-skrivstil (röst), kent-respons (svar på andras inlägg) och
   kent-referens-skill (källhänvisningar).
 metadata:
-  last_updated: "2026-09-07 (skapad – utkast v0.1)"
+  last_updated: "2026-09-07 (skapad – utkast v0.1; SKILL.md + references/)"
   status: "UTKAST v0.1 – grundstommen finns, öppna frågor kvar (se sista avsnittet)"
 ---
 
@@ -151,12 +151,21 @@ När du skriver eller resonerar i Kents anda om lärande:
 - **Koppla till egen erfarenhet** av nätkurser när det är relevant — Kent
   resonerar inifrån, inte som utomstående betraktare.
 - **Referera till hans egna blogginlägg** när de är relevanta, enligt
-  `kent-referens-skill` (Harvard, länkad förstahänvisning). Inläggen finns i
-  `referens/blogginlagg.md`.
+  `kent-referens-skill` (Harvard, länkad förstahänvisning). Full inläggslista
+  med URL-status: `references/blogginlagg.md`.
+- **Slå upp inspiratörerna** (Säljö, Kress & Selander, Carless m.fl.) i
+  `references/litteratur.md` när något ska citeras exakt.
 - **Hämta rösten från `kent-skrivstil`** och, om det är ett svar på någon annans
   text, formen från `kent-respons`.
 
-## 7. Öppna frågor att stämma av med Kent (utkast v0.1)
+## 7. Stödfiler
+
+| Fil | Innehåll |
+|---|---|
+| `references/blogginlagg.md` | De elva inläggen på *Syn på lärande* — datum, titel, kärna, URL-status. Läs när ett inlägg ska citeras eller länkas. |
+| `references/litteratur.md` | Harvard-poster för Kents inspiratörer och teoretiska källor. **Stub v0.1** — fylls på efter avstämning med Kent. |
+
+## 8. Öppna frågor att stämma av med Kent (utkast v0.1)
 
 Detta är en förstaversion. Innan skillen kallas klar bör Kent få ta ställning
 till:
@@ -174,6 +183,8 @@ till:
 5. **Avgränsning mot din yrkesroll** — när du skriver om lärande *i
    organisationer* (verksamhetsutveckling, användardriven digitalisering, agil
    strategi), hör det hemma här eller i en separat skill?
-6. **Litteraturlista** — ska `referens/` byggas ut med en fullständig,
-   Harvard-formaterad förteckning över dina inspiratörer (Säljö, Kress &
-   Selander, Lindberg-Sand, Strandler, Selwyn, Carless, Zeichner, Carlgren)?
+6. **Litteraturlista** — `references/litteratur.md` är en stub. Bekräfta
+   utgåvor/år för dina källor så den kan fyllas i (särskilt Säljö 2015 vs 2019,
+   och om Carless-föreläsningen går att hänvisa till).
+7. **Verifiera blogg-URL:erna** i `references/blogginlagg.md` mot bloggens
+   arkiv (bara *Nätkurser* är verifierad i dag).
