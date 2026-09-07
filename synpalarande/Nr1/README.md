@@ -7,12 +7,20 @@ Sverige &rdquo;riskerar fostra en generation analfabeter&rdquo;.
 En vanlig, statisk webbsida. Ingen del av bloggen *Syn på lärande*, utan en
 egen text som ligger här i repot.
 
+**Live-sida:** <https://kentlundgren.github.io/Studier/synpalarande/Nr1/>
+
 | | |
 |---|---|
-| GitHub | <https://github.com/kentlundgren/Studier/tree/main/synpalarande/Nr1> |
-| Live (efter push, om GitHub Pages är på) | <https://kentlundgren.github.io/Studier/synpalarande/Nr1/> |
+| Live | <https://kentlundgren.github.io/Studier/synpalarande/Nr1/> |
+| Källkod på GitHub | <https://github.com/kentlundgren/Studier/tree/main/synpalarande/Nr1> |
 | Lokal sökväg | `C:\Users\kentl\OneDrive\AI\Studier\synpalarande\Nr1` |
 | Skapad | 2026-09-07 |
+
+> **Obs:** GitHub Pages är inte påslaget för `Studier` ännu (kontrollerat
+> 2026-09-07). Live-länken börjar fungera först när Pages aktiverats:
+> repo-inställningar → *Pages* → *Source: Deploy from a branch* → `main` / `/`
+> (root). Samma upplägg som `AI-teknik`, som redan ligger på
+> <https://kentlundgren.github.io/AI-teknik/>.
 
 ## Upplägg
 

@@ -48,7 +48,8 @@ jag bidragit till gruppens lärande).
 - `synpalarande/Nr1/` i samma repo — Kents första fristående redogörelse som
   utgår från en text (Dick Harrisons inlägg om &rdquo;en generation
   analfabeter&rdquo;), byggd med samma upplägg: text som avstamp, argument för
-  och emot, egen sammanvägning.
+  och emot, egen sammanvägning. Live (efter att Pages slagits på för `Studier`):
+  <https://kentlundgren.github.io/Studier/synpalarande/Nr1/>
 
 ## Uppdateringslogg
 
