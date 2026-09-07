@@ -1,44 +1,95 @@
 # Litteratur och teoretiska källor — Kents inspiratörer
 
-*Stödfil för `syn-pa-larande`-skillen. **STUB v0.1** — 2026-09-07.*
+*Stödfil för `syn-pa-larande`-skillen. Senast uppdaterad 2026-09-07.*
 
-Den här filen ska bli en fullständig, Harvard-formaterad förteckning över de
-källor Kent lutar sig på i sin syn på lärande, så att de kan citeras exakt
-enligt `kent-referens-skill`. **Ännu inte ifylld** — posterna nedan är
-skisser och behöver kompletteras med förlag, ort, upplaga, DOI/URL och
-verifierade årtal innan de används i publicerad text.
+Harvard-poster för de källor Kent lutar sig på i sin syn på lärande och
+kunskap. Format enligt `kent-referens-skill`. Poster märkta **[att bekräfta]**
+saknar verifierad utgåva eller länk och bör inte användas i publicerad text
+förrän de kontrollerats mot Kents egen litteraturförteckning eller en
+auktoritativ katalog.
 
-## Att bekräfta med Kent
+## De två diskurserna: performativ kontra kompetensinriktad
 
-- Vilka utgåvor/år han faktiskt refererar till (särskilt Säljö 2015 vs 2019).
-- Om Gärdenfors och Gerver ska stå kvar som huvudingångar eller tonas ned.
-- Om Carless-föreläsningen (mars 2021) finns dokumenterad någonstans att
-  hänvisa till.
+Detta är den tråd Kent vill fördjupa (se `SKILL.md` avsnitt 2 och öppen
+fråga 8). Kärnan: synen på kunskap och synen på lärande går inte att skilja
+åt, och skolans prov avslöjar vilken kunskapssyn som ligger under.
 
-## Skisser (ofullständiga — fyll på)
+Ball, S. J. (2003) The teacher's soul and the terrors of performativity.
+Journal of Education Policy, 18(2), 215–228. DOI:
+https://doi.org/10.1080/0268093022000043065 (DOI kontrollerad 2026-09-07;
+fulltext bakom betalvägg). *(Om performativitet som styrform i skolan:
+mätning, granskning och standardiserade prestationer som förändrar inte bara
+hur lärande går till utan vad lärande och läraryrket är. Den kritiska sidan av
+"performativ".)*
 
-- **Gärdenfors, P.** – *Lusten att förstå: Om lärande på människans villkor*.
-  (År/förlag att bekräfta.) — Kents grundtanke: begriplighet och nyfikenhet
-  som lärandets motor.
-- **Gerver, R.** – om skolans drivkrafter, "att leda in i det okända".
-  (Titel/år/förlag att bekräfta.)
-- **Säljö, R.** (2015; 2019) – lärandets *performativa karaktär*; att visa att
-  man kan använda delar av det kulturella minnet. (Exakta verk att bekräfta.)
-- **Kress, G. & Selander, S.** (2010) – lärande som *design*; *Design för
-  lärande – ett multimodalt perspektiv*. (Förlag/ort att bekräfta.)
-- **Lindberg-Sand, Å.** (2004) – performativ diskurs kontra kompetensinriktad
-  bedömning. (Verk att bekräfta.)
-- **Strandler, O.** (2017) – performativa lärarpraktiker som dominerande i dag.
-  (Verk att bekräfta.)
-- **Skolverket** (2018) – lärande som att "använda sina kunskaper för att göra
-  analyser, kommunicera och samverka". (Exakt dokument att bekräfta.)
-- **Selwyn, N.** – kritik mot personalisering/individualisering i utbildning.
-  (Verk/år att bekräfta.)
-- **Carless, D.** (2021) – bedömning och feedback i nätundervisning; feedback
-  som del av lärprocessen. (Föreläsning/publikation att bekräfta.)
-- **Zeichner, K.** – "tredje rummet" mellan teori och praktik i lärarutbildning.
-  (Verk/år att bekräfta.)
-- **Carlgren, I.** – kunskapskonstruktion i skoldebatten. (Artikel/år att
-  bekräfta.)
-- **Community of Inquiry** (Garrison, Anderson & Archer) – social, kognitiv och
-  undervisande närvaro. (Grundreferens att lägga till.)
+Bernstein, B. (1996) Pedagogy, Symbolic Control and Identity: Theory,
+Research, Critique. London: Taylor & Francis. **[att bekräfta: utgåva/år —
+en reviderad upplaga utkom 2000 hos Rowman & Littlefield]**. *(Den teoretiska
+roten till motsatsparet. Bernstein skiljer på "competence models" och
+"performance models" av pedagogisk praktik; Lindberg-Sand bygger vidare på
+honom. Citeras i Kents eget blogginlägg från 2021-02-10.)*
+
+Lindberg-Sand, Å. (2004) **[fullständig titel att bekräfta från Kents
+litteraturförteckning]**. *(Beskriver två pedagogiska diskurser, den
+performativa och den kompetensinriktade, med olika syn på kunskapens
+avgränsning, på vem provet "tillhör", på bedömning och på studentinflytande.
+Kent hämtar sitt motsatspar härifrån och lutar åt den kompetensinriktade
+modellen. Ingen fri, verifierad primärlänk hittad 2026-09-07; distinktionen
+är tills vidare tillgänglig via Kents eget inlägg, se nedan.)*
+
+Lundgren, K. (2021) Lärande: performativ diskurs eller performativ karaktär.
+Blogginlägg, Syn på lärande, 10 februari 2021. Tillgänglig på:
+https://synpalarande.wordpress.com/2021/02/10/larande-performativ-diskurs-eller-performativ-karaktar/
+(kontrollerad 2026-09-07, svarar HTTP 200). *(Kents eget inlägg där han reder
+ut att "performativ" används i två motsatta betydelser, och där Lindberg-Sands
+och Strandlers begrepp introduceras. Den accessibla ingången till hela
+tråden.)*
+
+Strandler, O. (2017) Performativa lärarpraktiker. Doktorsavhandling, Göteborgs
+universitet. Sammanfattning: https://www.skolporten.se/forskning/avhandling/performativa-lararpraktiker/
+(hämtad 2026-09-07). Fulltext:
+https://gupea.ub.gu.se/bitstream/2077/52325/4/gupea_2077_52325_4.pdf
+*(Följde tretton lärare det år betyg och nationella prov infördes i årskurs 6.
+Visar hur svårmätbara ämnesdimensioner marginaliserades till förmån för det
+som gick att pröva, och hur undervisningen organiserades efter
+prestationsprincip snarare än behovsprincip. Svenskt, öppet tillgängligt,
+konkret belägg för att modellvalet får konsekvenser.)*
+
+## Performativt lärande i Säljös mening (den positiva användningen)
+
+Säljö, R. (2015; 2019) **[exakta verk och utgåvor att bekräfta]**. *(Lärandets
+"performativa karaktär": att kunna något är att visa det genom att använda
+det. Motsatt betydelse jämfört med Bernstein/Lindberg-Sand ovan.)*
+
+Skolverket (2018) **[exakt dokument att bekräfta — sannolikt om digitalisering
+eller om lärande som att "använda kunskaper för att göra analyser,
+kommunicera och samverka"]**.
+
+Kress, G. & Selander, S. (2010) Design för lärande: ett multimodalt
+perspektiv. **[förlag/ort att bekräfta]**. *(Lärande som gestaltning och
+iscensättning av kunskap i ett sammanhang.)*
+
+## Övriga inspiratörer (skisser, ej färdiga)
+
+Carless, D. (2021) **[föreläsning eller publikation om bedömning och feedback i
+nätundervisning, mars 2021 — går den att hänvisa till?]**.
+
+Carlgren, I. **[artikel om kunskapskonstruktion i skoldebatten, år att
+bekräfta]**.
+
+Gärdenfors, P. **[Lusten att förstå: om lärande på människans villkor —
+år/förlag att bekräfta]**. *(Begriplighet och nyfikenhet som lärandets
+motor.)*
+
+Gerver, R. **[titel/år att bekräfta]**. *(Skolans drivkrafter, "att leda in i
+det okända". Väger tungt på bloggen; se öppen fråga 2 om hur mycket den ska
+väga i dag.)*
+
+Selwyn, N. **[verk/år att bekräfta]**. *(Kritik mot personalisering och
+individualisering i utbildning.)*
+
+Zeichner, K. **[verk/år att bekräfta]**. *(Det "tredje rummet" mellan teori
+och praktik.)*
+
+Garrison, Anderson & Archer **[grundreferens för Community of
+Inquiry-modellen att lägga till]**.

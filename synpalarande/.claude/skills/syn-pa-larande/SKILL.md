@@ -15,7 +15,7 @@ description: >-
   Kombinera med kent-skrivstil (röst), kent-respons (svar på andras inlägg) och
   kent-referens-skill (källhänvisningar).
 metadata:
-  last_updated: "2026-09-07 (utkast v0.1; AI-hållningen avstämd, Nr-formatet dokumenterat)"
+  last_updated: "2026-09-07 (utkast v0.1; avsnitt 2 omarbetat: de två performativ-betydelserna, Kents dragning åt kompetensmodellen, syn på kunskap <-> syn på lärande)"
   status: "UTKAST v0.1 – grundstommen finns, öppna frågor kvar (se sista avsnittet)"
 ---
 
@@ -58,29 +58,54 @@ påbyggt lager och den del som fortfarande rör på sig mest.
   välutbildade och därmed ökar ojämlikheten. Kent är för struktur och gemensam
   riktning, skeptisk mot "var och en i sin egen bubbla".
 
-## 2. Kunskapssyn — performativt lärande
+## 2. Kunskapssyn, och hur den styr synen på lärande
 
-Det här är Kents mest utmejslade tanke och bör synas i allt som skrivs i hans
-anda om kunskap.
+Kents centrala tes: **synen på kunskap och synen på lärande går inte att skilja
+åt.** Bestäm vad kunskap *är* och du har redan bestämt hur den ska läras in,
+undervisas och bedömas. Och tvärtom: hur ett prov är byggt avslöjar vilken
+kunskapssyn som ligger under. Det här är det Kent mest vill fördjupa och
+reflektera vidare kring; behandla det som skillens kärna.
 
-- **Kunskap visar sig i användning.** Han lutar sig på Säljö (2015, 2019) och
-  Skolverket (2018): att kunna något är att kunna *använda* det — göra analyser,
-  kommunicera, samverka, väva in det i egna frågeställningar. Ren memorering och
+- **Kunskap visar sig i användning.** Att kunna något är att kunna *använda*
+  det, göra analyser, kommunicera, samverka, väva in det i egna
+  frågeställningar (Säljö 2015, 2019; Skolverket 2018). Ren memorering och
   reproduktion är en svagare form.
-- **"Performativ karaktär på lärandet"** — Säljös uttryck — betyder att man
-  visar att man behärskar viktiga delar av det kulturella minnet genom att
-  bruka det, inte genom att rabbla det.
-- **Historisk glidning** (Lindberg-Sand 2004, Strandler 2017): från en äldre
-  "performativ diskurs" mot en mer kompetensinriktad praktik. Kent ser det som
-  en rimlig riktning.
-- **Lärande som design** (Kress & Selander 2010): den som lär sig *gestaltar*
-  och *iscensätter* kunskap i ett sammanhang, inte bara tar emot den.
-- **Kents egen sammanfogning:** begreppet *"design för performativ kompetens"* —
-  läraren förmedlar fortfarande kunskap "från katedern", men tyngdpunkten
-  ligger på att den lärande använder kunskapen praktiskt och engagerat.
 
-**Konsekvens för AI-frågan:** om det som ska bedömas är *förmågan att använda
-och resonera om kunskap*, snarare än att producera en text, så är verktyget som
+- **Ordet "performativ" betyder två nästan motsatta saker, akta dig.** Kents
+  eget blogginlägg (2021-02-10, se `references/blogginlagg.md`) handlar om just
+  den förvirringen:
+  - Hos **Säljö** är "lärandets performativa karaktär" något positivt: du
+    *visar* att du behärskar kunskap genom att bruka den.
+  - Hos **Bernstein (1996)** och **Lindberg-Sand (2004)** är den "performativa
+    modellen" eller "performativa diskursen" tvärtom det Kent är kritisk mot:
+    skola som återskapar ett avgränsat, stabilt stoff, standardiserade prov som
+    letar fel, provet "tillhör" läraren, resultat framför process.
+  Substansen krockar inte, bara ordet. Kent lutar åt "använda kunskap" i båda
+  fallen.
+
+- **Kents ståndpunkt: den kompetensinriktade modellen** (Lindberg-Sands och
+  Bernsteins motpol till den performativa). Det han bejakar: den lärandes egen
+  utveckling som mål, uppsatsen och provet "tillhör" studenten, bedömning av en
+  helhet med personlig återkoppling, studentinflytande som ett mål i sig och
+  inte bara ett medel, läraren ansvarig för både ämnet och studentens
+  utveckling. **"Kent föredrar kompetensmodellen" ska synas** när en text rör
+  kunskapssyn. Det gjorde det inte i första utkastet av `Nr1/`, och han bad
+  uttryckligen om att det skulle fram.
+
+- **Modellvalet får konsekvenser.** Strandler (2017) följde lärare det år betyg
+  och nationella prov infördes i årskurs 6 och såg hur svårmätbara delar av
+  ämnena gav vika för sådant som gick att pröva. Det är vad Kent menar med att
+  ett mätvärde är ett val, inte en naturlag.
+
+- **Lärande som design** (Kress & Selander 2010): den som lär sig gestaltar och
+  iscensätter kunskap i ett sammanhang, tar inte bara emot den.
+
+- **Kents egen sammanfogning:** begreppet "design för performativ kompetens".
+  Läraren förmedlar fortfarande kunskap, men tyngdpunkten ligger på att den
+  lärande använder den praktiskt och engagerat.
+
+**Konsekvens för AI-frågan:** om det som bedöms är förmågan att använda och
+resonera om kunskap, snarare än att producera en text, så är verktyget som
 producerade texten mindre intressant än om personen kan stå för och förklara
 den.
 
@@ -224,3 +249,9 @@ till:
    och om Carless-föreläsningen går att hänvisa till).
 7. **Verifiera blogg-URL:erna** i `references/blogginlagg.md` mot bloggens
    arkiv (bara *Nätkurser* är verifierad i dag).
+8. **Fler källor om de två diskurserna.** Kent vill läsa och reflektera mer
+   kring performativ kontra kompetensinriktad kunskapssyn, och hur syn på
+   kunskap och syn på lärande påverkar varandra. Utgångspunkter i
+   `references/litteratur.md`: Bernstein (1996), Lindberg-Sand (2004), Strandler
+   (2017), Ball (2003). Sök gärna fram fler, särskilt svenskspråkiga och öppet
+   tillgängliga, när frågan kommer upp igen.
