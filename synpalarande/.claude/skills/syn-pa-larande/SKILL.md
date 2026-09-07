@@ -15,7 +15,7 @@ description: >-
   Kombinera med kent-skrivstil (röst), kent-respons (svar på andras inlägg) och
   kent-referens-skill (källhänvisningar).
 metadata:
-  last_updated: "2026-09-07 (utkast v0.1; Bernstein 1996 satt som primärkälla, Lindberg-Sand 2004 ospårbar)"
+  last_updated: "2026-09-07 (utkast v0.1; jämförelsetabell kompetens/performativ inlagd i avsnitt 2; minnespost skapad)"
   status: "UTKAST v0.1 – grundstommen finns, öppna frågor kvar (se sista avsnittet)"
 ---
 
@@ -93,13 +93,24 @@ reflektera vidare kring; behandla det som skillens kärna.
   men inte som citerbar primärkälla.
 
 - **Kents ståndpunkt: den kompetensinriktade modellen** (Bernsteins "competence
-  model", motpolen till "performance model"). Det han bejakar: den lärandes
-  egen utveckling som mål, uppsatsen och provet "tillhör" studenten, bedömning
-  av en helhet med personlig återkoppling, studentinflytande som ett mål i sig
-  och inte bara ett medel, läraren ansvarig för både ämnet och studentens
-  utveckling. **"Kent föredrar kompetensmodellen" ska synas** när en text rör
-  kunskapssyn. Det gjorde det inte i första utkastet av `Nr1/`, och han bad
-  uttryckligen om att det skulle fram.
+  model", motpolen till "performance model"). **"Kent föredrar
+  kompetensmodellen" ska synas** när en text rör kunskapssyn. Det gjorde det
+  inte i första utkastet av `Nr1/`, och han bad uttryckligen om att det skulle
+  fram. Så här ser skiljelinjen ut (efter Bernstein 1996, s. 58; kolumnen Kent
+  bejakar står först):
+
+  | Aspekt | Kompetensmodell (Kents linje) | Performativ modell |
+  |---|---|---|
+  | Målens fokus | studenternas lärande | återskapa given kunskap |
+  | Innehållets avgränsning | mindre tydligt reglerat | strikt reglerat |
+  | Provet/uppsatsen | "tillhör" den lärande, uttryck för utveckling | "tillhör" läraren, svar på lärarens krav |
+  | Bedömning | helhet, personlig återkoppling | fel och brister, standardiserad återkoppling |
+  | Kontroll / socialt kontrakt | implicit, personlig | explicit, standardiserad |
+  | Lärarens ansvar | både ämnet och studentens utveckling | primärt ämnets utveckling |
+  | Studentinflytande | högt, ett mål i sig | lågt, ett medel |
+  | Resurskrav | hög kostnad | låg kostnad |
+
+  Hela tabellen finns återgiven i `synpalarande/Nr1/`.
 
 - **Modellvalet får konsekvenser.** Strandler (2017) följde lärare det år betyg
   och nationella prov infördes i årskurs 6 och såg hur svårmätbara delar av
