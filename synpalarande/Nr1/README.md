@@ -33,6 +33,22 @@ Texten är tänkt som första numret i en serie med samma struktur:
 
 Slutsatsen ramas in som *en bild av frågan, inte ett facit*.
 
+## Djuplänkar
+
+Varje rubrik har ett stabilt ankare, så en enskild del går att länka direkt
+till:
+
+| Avsnitt | Länk |
+|---|---|
+| Vad Harrison säger | `.../Nr1/#Harrison` |
+| Det som ger honom rätt | `.../Nr1/#GerHonomRatt` |
+| Det som talar emot hans diagnos | `.../Nr1/#TalarEmot` |
+| Vad jag själv landar i | `.../Nr1/#VadJagLandarI` |
+| Referenser | `.../Nr1/#Referenser` |
+
+Varje referens har dessutom ett eget id (`#ref-bernstein`, `#ref-strandler`
+och så vidare). Håll muspekaren över en rubrik så syns ett `#` att klicka på.
+
 ## Filer
 
 ```

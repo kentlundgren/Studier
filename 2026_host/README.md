@@ -16,6 +16,22 @@ under hösten 2026.
 | **Kurslitteratur** | 4 titlar – EU:s AI-förordning (2024/1689), Floridi (2023), Modlitba (2025), AI-kommissionen SOU 2025:12 | 2 titlar – Thollander m.fl. (2019, svensk grundbok), Thollander m.fl. (2020, engelsk companion-volym) |
 | **Underlag i repot** | [README](AI_for_chefer/README.md) · [personlig kursplan](AI_for_chefer/personlig-kursplan.md) · [litteraturlista](AI_for_chefer/litteratur/litteraturlista.md) · [Delprov 1](AI_for_chefer/delprov1-vindkraftskalkyler/analys-tillampningsomrade.md) · [Delprov 2](AI_for_chefer/delprov2-handlingsplan/handlingsplan-vindkraftskalkyler.md) | [README](Policy_i_energi_och_klimat/README.md) · [personlig kursplan](Policy_i_energi_och_klimat/personlig-kursplan.md) · [litteraturlista](Policy_i_energi_och_klimat/litteratur/litteraturlista.md) · [UPG2-disposition](Policy_i_energi_och_klimat/essa-upg2/disposition-essa.md) |
 
+## Lärosätenas kurssidor
+
+**AI101A, Högskolan Kristianstad** (antagningskod HKR-09GQQ)
+
+- Välkomstbrev: <https://www.hkr.se/kurs/ai101a/valkomstbrev/>
+- Kursplan: <https://www.hkr.se/kurs/ai101a/kursplan/>
+- Litteraturlista: <https://www.hkr.se/kurs/ai101a/litteraturlista/> (kan revideras fram till åtta veckor före kursstart)
+- Ny student, konto och inloggning: <https://www.hkr.se/nystudent/>
+
+**ETE409, Linköpings universitet**
+
+- Kursöversikt: <https://liu.se/utbildning/kurs/ete409>
+- Kursplan HT 2026: <https://studieinfo.liu.se/kurs/ETE409/ht-2026#syllabus>
+- Examination: <https://studieinfo.liu.se/kurs/ETE409/ht-2026#examination>
+- Kurslitteratur: <https://studieinfo.liu.se/kurs/ETE409/ht-2026#literature>
+
 ## Hur kurserna hänger ihop
 
 Båda kurserna handlar i grunden om **hur styrning och regelverk formar en
