@@ -15,7 +15,7 @@ description: >-
   Kombinera med kent-skrivstil (röst), kent-respons (svar på andras inlägg) och
   kent-referens-skill (källhänvisningar).
 metadata:
-  last_updated: "2026-09-07 (utkast v0.1; avsnitt 2 omarbetat: de två performativ-betydelserna, Kents dragning åt kompetensmodellen, syn på kunskap <-> syn på lärande)"
+  last_updated: "2026-09-07 (utkast v0.1; Bernstein 1996 satt som primärkälla, Lindberg-Sand 2004 ospårbar)"
   status: "UTKAST v0.1 – grundstommen finns, öppna frågor kvar (se sista avsnittet)"
 ---
 
@@ -76,18 +76,27 @@ reflektera vidare kring; behandla det som skillens kärna.
   den förvirringen:
   - Hos **Säljö** är "lärandets performativa karaktär" något positivt: du
     *visar* att du behärskar kunskap genom att bruka den.
-  - Hos **Bernstein (1996)** och **Lindberg-Sand (2004)** är den "performativa
-    modellen" eller "performativa diskursen" tvärtom det Kent är kritisk mot:
-    skola som återskapar ett avgränsat, stabilt stoff, standardiserade prov som
-    letar fel, provet "tillhör" läraren, resultat framför process.
+  - Hos **Bernstein (1996)** är den "performativa modellen" tvärtom det Kent är
+    kritisk mot: skola som återskapar ett avgränsat, stabilt stoff,
+    standardiserade prov som letar fel, provet "tillhör" läraren, resultat
+    framför process.
   Substansen krockar inte, bara ordet. Kent lutar åt "använda kunskap" i båda
   fallen.
 
-- **Kents ståndpunkt: den kompetensinriktade modellen** (Lindberg-Sands och
-  Bernsteins motpol till den performativa). Det han bejakar: den lärandes egen
-  utveckling som mål, uppsatsen och provet "tillhör" studenten, bedömning av en
-  helhet med personlig återkoppling, studentinflytande som ett mål i sig och
-  inte bara ett medel, läraren ansvarig för både ämnet och studentens
+- **Primärkälla: Bernstein (1996), inte Lindberg-Sand.** Kents blogginlägg
+  citerar "Lindberg-Sand (2004)", men den referensen går inte att spåra:
+  länken (docplayer.se) är död, ingen bibliotekspost hittad 2026-09-07, och
+  den tabell Kent har sparat är uttryckligen "vidareutvecklad efter Bernstein
+  (1996, s. 58)". Referera därför **primärt till Bernstein (1996)**
+  (`references/litteratur.md` har verifierad länk till Internet Archive).
+  Lindberg-Sand kan nämnas som den svenska kanal Kent först läste det genom,
+  men inte som citerbar primärkälla.
+
+- **Kents ståndpunkt: den kompetensinriktade modellen** (Bernsteins "competence
+  model", motpolen till "performance model"). Det han bejakar: den lärandes
+  egen utveckling som mål, uppsatsen och provet "tillhör" studenten, bedömning
+  av en helhet med personlig återkoppling, studentinflytande som ett mål i sig
+  och inte bara ett medel, läraren ansvarig för både ämnet och studentens
   utveckling. **"Kent föredrar kompetensmodellen" ska synas** när en text rör
   kunskapssyn. Det gjorde det inte i första utkastet av `Nr1/`, och han bad
   uttryckligen om att det skulle fram.

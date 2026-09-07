@@ -17,25 +17,40 @@ fråga 8). Kärnan: synen på kunskap och synen på lärande går inte att skilj
 Ball, S. J. (2003) The teacher's soul and the terrors of performativity.
 Journal of Education Policy, 18(2), 215–228. DOI:
 https://doi.org/10.1080/0268093022000043065 (DOI kontrollerad 2026-09-07;
-fulltext bakom betalvägg). *(Om performativitet som styrform i skolan:
-mätning, granskning och standardiserade prestationer som förändrar inte bara
-hur lärande går till utan vad lärande och läraryrket är. Den kritiska sidan av
-"performativ".)*
+publicerarens sida blockerar automatisk länkkontroll men öppnas i en vanlig
+webbläsare; fulltext bakom betalvägg). *(Om performativitet som styrform i
+skolan: mätning, granskning och standardiserade prestationer som förändrar
+inte bara hur lärande går till utan vad lärande och läraryrket är. Den
+kritiska sidan av "performativ". Med i `Nr1/`.)*
 
 Bernstein, B. (1996) Pedagogy, Symbolic Control and Identity: Theory,
-Research, Critique. London: Taylor & Francis. **[att bekräfta: utgåva/år —
-en reviderad upplaga utkom 2000 hos Rowman & Littlefield]**. *(Den teoretiska
-roten till motsatsparet. Bernstein skiljer på "competence models" och
-"performance models" av pedagogisk praktik; Lindberg-Sand bygger vidare på
-honom. Citeras i Kents eget blogginlägg från 2021-02-10.)*
+Research, Critique. London: Taylor & Francis. ISBN 9780748403721. Digitalt
+(lån/läsning): https://archive.org/details/pedagogysymbolic0000bern
+(kontrollerad 2026-09-07, HTTP 200). *(Den teoretiska roten till motsatsparet.
+Bernstein skiljer på "competence models" och "performance models" av
+pedagogisk praktik; Lindberg-Sand bygger vidare på honom. Med i `Nr1/`. En
+reviderad upplaga utkom 2000 hos Rowman & Littlefield.)*
 
-Lindberg-Sand, Å. (2004) **[fullständig titel att bekräfta från Kents
-litteraturförteckning]**. *(Beskriver två pedagogiska diskurser, den
-performativa och den kompetensinriktade, med olika syn på kunskapens
-avgränsning, på vem provet "tillhör", på bedömning och på studentinflytande.
-Kent hämtar sitt motsatspar härifrån och lutar åt den kompetensinriktade
-modellen. Ingen fri, verifierad primärlänk hittad 2026-09-07; distinktionen
-är tills vidare tillgänglig via Kents eget inlägg, se nedan.)*
+Lindberg-Sand, Å. (2004) **[går inte att spåra, använd inte som primärkälla]**.
+*(Kents blogginlägg citerar "Lindberg-Sand (2004)" för motsatsparet performativ
+kontra kompetensinriktad. Eftersökt 2026-09-07 utan resultat: länken Kent hade
+(docplayer.se/111815971) är död, docplayer.se svarar inte längre på DNS, och
+ingen bibliotekspost matchar. Den tabell Kent sparat är dessutom uttryckligen
+"Figur 1 ... vidareutvecklad efter Bernstein (1996, s. 58)". Primärkällan är
+alltså Bernstein 1996. Åsa Lindberg-Sands spårbara avhandling är "Spindeln i
+klistret" (1996, Lund, om sjukskötersketutbildning); det finns även en
+Lindberg-Sand-text kring 2003 om ett examinationsprojekt med kompetensinriktad
+bedömning, men ingen verifierad referens eller länk. Nämn henne som svensk
+kanal, inte som citerbar källa.)*
+
+Falska spår, kontrollerade 2026-09-07:
+- Lärportalen-resursen `P03WCPLAR101245` ("meningsskapande kommunikation") är
+  **Leo, U. & Ärlestig, H. (2018) Kommunikation för att leda och organisera
+  förändring**, modul "Leda förändring". Handlar om förändringsledarskap och
+  organisationskommunikation, inte om pedagogiska diskurser. Fel
+  "meningsskapande kommunikation".
+- `docplayer.se` (där Kents Lindberg-Sand-länk låg) svarar inte längre på DNS.
+  Jaga inte den.
 
 Lundgren, K. (2021) Lärande: performativ diskurs eller performativ karaktär.
 Blogginlägg, Syn på lärande, 10 februari 2021. Tillgänglig på:
