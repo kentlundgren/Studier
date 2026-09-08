@@ -107,7 +107,8 @@ bortförklaringar."* De **avvisar uttryckligen** pandemin, AI och skärmar som
 ensam förklaring och pekar i stället på systematiska brister — för stora
 undervisningsgrupper, för sent stöd, för dåliga förutsättningar för lärarna. Tre
 krav: mer undervisningstid, mindre grupper, tidig intervention. Almega
-Utbildning la sig nära ("saklig analys, inte syndabockar").
+Utbildning la sig nära, med rubriken "PISA-tapp kräver saklig analys och
+krafttag för elevernas lärande".
 
 Originaltexten nämner "lärarbrist", "skolsegregation" och "marknadsskola där
 kravnivån varierar" som medförklaringar. Nu tillagt i samma stycke som punkt 5:
@@ -169,67 +170,18 @@ referat:
 
 ---
 
-## Åtgärdslista — status 2026-09-08
+## En notering (ingen åtgärd)
 
-Punkterna 1, 2, 3 och 5 är genomförda i samma veva som den här filen skrevs.
-Punkt 4 valdes bort. Punkt 6 är bara en notering.
+Den publicerade texten har rätt jämförelseår: 2022 för alla tre ämnena, med
+2018/2015/2012 som sekundärt. Medierna blandar ibland 2018 och 2022, och
+avrundar −21 till −20. Om någon säger att "siffrorna inte stämmer med DN" är
+det troligen det som skiljer.
 
-### 1. Länk-gapet `index.html` → underlaget — **klart**
-
-- **a. Löptext:** nya avsnittets första stycke säger nu att "rapportens siffror,
-  och en jämförelse med hur medierna sammanfattade den, ligger i ett eget
-  underlag (Lundgren, 2026)".
-- **b. Källförteckningen:** ny post `ref-underlag`, alfabetiskt efter
-  Lundgren (2021):
-  > Lundgren, K. (2026) *PISA 2025 – sammanfattning och mediejämförelse*.
-  > Arbetsunderlag, GitHub. …
-  > *(… Framtaget med en språkmodell som verktyg för sökning och
-  > källhantering.)*
-  > Räknaren gick 17 → 20 (även SVT 2026b och Sveriges Lärare tillkom).
-- **c. Teknik-modalen:** kortet "Uppdaterad när PISA 2025 kom" nämner nu
-  underlaget, och ett nytt kort "Skylten med sju röster" beskriver den
-  växlande rutan.
-- **d. Följdändring:** ingresserna i båda underlagsfilerna är omskrivna från
-  "arbetsanteckningar, inte publicerad text" till "skrivet som stöd för
-  texten … länkas från den publicerade sidan", med en rad om att de är
-  framtagna med en språkmodell som verktyg.
-
-### 2. Politik-vinkeln — **klart**
-
-Nytt stycke i nya avsnittet, efter Schleicher-stycket: att PISA "ganska
-omgående blev politik" (regeringen: skärmar; oppositionen: nedskärningar; SD:
-invandring), och att det "säger mer om svensk skoldebatt än om vad OECD faktiskt
-har mätt". Källa: SVT Nyheter (2026b).
-
-### 3. Lärarfacket — **klart**
-
-Samma stycke fortsätter: att lärarfacket varnade för "jakten på en enda
-syndabock" och pekade på för stora grupper och stöd som sätts in för sent, och
-att Kent delar den invändningen. Källa: Sveriges Lärare (2026).
-
-### 4. Lyssneläsning — **bortvald** (se sidospårs-avsnittet ovan)
-
-Kent valde att inte ta in den. För långt från Harrisons tes, och kräver
-försiktig ramning eftersom debatten är äldre än PISA 2025.
-
-### 5. Komplettera sammanfattningen med mediebilden — **klart**
-
-`pisa-2025-sammanfattning.md` har fått ett avsnitt 12, "Mediebilden 8
-september", med en kort rad per vinkel och en hänvisning hit.
-
-### 6. Faktakoll att vara medveten om (ingen åtgärd)
-
-Texten har rätt jämförelseår (2022 för alla tre ämnena; 2018/2015/2012 som
-sekundärt). Media blandar ibland 2018 och 2022, och avrundar −21 till −20. Om
-någon säger att "siffrorna inte stämmer med DN" är det troligen det som skiljer.
-
-### Ny sedan förra versionen: skylten med sju röster
-
-I nya avsnittet, efter jämförelsetabellen, finns nu en växlande "skylt" som
-loopar sju korta parafraser — Skolverket, OECD, Mohamsson, Andersson, Åkesson,
-Sveriges Lärare, Kent — med 4 sekunder per röst, pausknapp, paus vid hover, och
-respekt för "reducerad rörelse". Utan JavaScript visas de sju som en lista.
-Syftet: att läsaren snabbt ser bredden i mottagandet innan avsnittet går vidare.
+*Alla de fem åtgärdspunkter som en tidigare version av den här filen listade är
+genomförda (2026-09-08): länk från `index.html` till underlaget, politik- och
+lärarfacksvinklarna inskrivna i nya avsnittet, mediebilden tillagd som avsnitt
+12 i sammanfattningen, och den växlande skylten med sju röster byggd.
+Lyssneläsning valdes bort (se sidospårs-avsnittet).*
 
 ---
 
@@ -237,20 +189,20 @@ Syftet: att läsaren snabbt ser bredden i mottagandet innan avsnittet går vidar
 
 GP (2026) *Bottenrekord för svenska elever i Pisa* ("Så ser de svenska
 Pisa-resultaten ut"). Nyhetsartikel, Göteborgs-Posten, 8 september 2026.
-`https://www.gp.se/nyheter/sverige/sa-ser-de-svenska-pisa-resultaten-ut.97a49bf3-10a9-4c81-bade-ad3aa3702e02`
+<https://www.gp.se/nyheter/sverige/sa-ser-de-svenska-pisa-resultaten-ut.97a49bf3-10a9-4c81-bade-ad3aa3702e02>
 (rubrik verifierad 2026-09-08; brödtext bakom betalvägg).
 *(Exempel på "bottenrekord"-rubriken. Innehållet kunde inte läsas i sin helhet.)*
 
 Norra Skåne (2026) *Mohamsson: Vi är mitt uppe i en skärmpandemi*.
 Nyhetsartikel (TT-material), 8 september 2026.
-`https://www.nsk.se/sverige/mohamsson-vi-ar-mitt-uppe-i-en-skarmpandemi`
+<https://www.nsk.se/sverige/mohamsson-vi-ar-mitt-uppe-i-en-skarmpandemi>
 (hämtad 2026-09-08).
 *(TT-texten som gick ut i ett tiotal lokaltidningar. Källa för "skärmpandemi"
 och regeringens ram.)*
 
 Vi Lärare (u.å.) *Tema: lyssneläsning* ("Lyssneläsning är ett svek").
 Temasida, Vi Lärare / Ämnesläraren.
-`https://www.vilarare.se/Tema/lyssnelasning/`
+<https://www.vilarare.se/Tema/lyssnelasning/>
 (hämtad 2026-09-08).
 *(Samlar den svenska ljudboksdebatten: kognitionsforskaren Agneta Gulz om ett
 "obegripligt svek", f.d. skolministern Lotta Edholm om "vi lurar barnen",
@@ -259,7 +211,7 @@ aktualiserade — inte en reaktion på den.)*
 
 Skolverket (2026) *Pisa 2025: Fortsatt nedgång för 15-åringar i Sverige och
 andra länder*. Pressmeddelande, 8 september 2026.
-`https://www.skolverket.se/om-skolverket/nyheter-och-pressmeddelanden/pressmeddelanden/pressmeddelanden/2026-09-08-pisa-2025-fortsatt-nedgang-for-15-aringar-i-sverige-och-andra-lander`
+<https://www.skolverket.se/om-skolverket/nyheter-och-pressmeddelanden/pressmeddelanden/pressmeddelanden/2026-09-08-pisa-2025-fortsatt-nedgang-for-15-aringar-i-sverige-och-andra-lander>
 (hämtad 2026-09-08).
 *(Myndighetens egen sammanfattning, som satte de flesta rubrikerna: "fortsatt
 nedgång", "var tredje", likvärdighetsformuleringen.)*
@@ -267,21 +219,21 @@ nedgång", "var tredje", likvärdighetsformuleringen.)*
 Sveriges Lärare (2026) *Nytt PISA-tapp: Inga fler bortförklaringar — ansvariga
 politiker och huvudmän har inte råd att misslyckas med skolan*. Pressmeddelande
 via TT, 8 september 2026.
-`https://via.tt.se/pressmeddelande/4536236/`
+<https://via.tt.se/pressmeddelande/4536236/>
 (hämtad 2026-09-08).
 *(Fackförbundets linje: avvisar syndabockar, kräver resurser. Rimmar med
 textens invändning att enfaktorsförklaringar är för enkla.)*
 
 SVT Nyheter (2026a) *Andersson (S) om Pisaresultatet: "Nationellt nödläge"*.
 Nyhetsartikel, Sveriges Television, 8 september 2026.
-`https://www.svt.se/nyheter/inrikes/andersson-s-om-pisaresultatet-nationellt-nodlage`
+<https://www.svt.se/nyheter/inrikes/andersson-s-om-pisaresultatet-nationellt-nodlage>
 (hämtad 2026-09-08).
 *(Den politiska dragkampen: S om nedskärningar, SD om invandring, L om skärmar.
 Motsvarar `ref-svtb` i index.html.)*
 
 SVT Nyheter (2026b) *Historiskt dåligt resultat i senaste Pisa-mätningen*.
 Nyhetsartikel, Sveriges Television, 8 september 2026.
-`https://www.svt.se/nyheter/inrikes/historiskt-daligt-resultat-i-arets-pisa-matning`
+<https://www.svt.se/nyheter/inrikes/historiskt-daligt-resultat-i-arets-pisa-matning>
 (hämtad 2026-09-08).
 *(Huvudnyheten. Fokus på siffrorna och skärmtiden; tar inte upp socioekonomi,
 migrationsbakgrund eller kön — vilket sammanfattningen gör. Motsvarar `ref-svt`
@@ -289,19 +241,19 @@ i index.html.)*
 
 SVT Nyheter (2026c) *Sveriges lärare kräver åtgärder: "Man har gjort fel
 prioriteringar"*. Nyhetsartikel, Sveriges Television, 8 september 2026.
-`https://www.svt.se/nyheter/inrikes/sveriges-larare-kraver-atgarder-man-har-gjort-fel-prioriteringar`
+<https://www.svt.se/nyheter/inrikes/sveriges-larare-kraver-atgarder-man-har-gjort-fel-prioriteringar>
 (hämtad 2026-09-08).
 *(Anna Olskogs tre krav och avståndstagandet från "enkla syndabockar".)*
 
 TV4 Nyheterna (2026) *Svenska elever rasar i ny Pisa-mätning*
 ("Svenska elevers rekordlåga resultat — Pisa 2025").
-`https://www.tv4.se/artikel/26aBb3r7Dy29dBUUI76i0a/svenska-elever-rasar-i-ny-pisa-maetning`
+<https://www.tv4.se/artikel/26aBb3r7Dy29dBUUI76i0a/svenska-elever-rasar-i-ny-pisa-maetning>
 (hämtad 2026-09-08).
 *(Exempel på "rasar/rekordlåga"-rubriken i tv-nyheterna.)*
 
 Vi Lärare (2026) *Historiskt svenskt ras i Pisa — sämsta någonsin*.
 Nyhetsartikel, 8 september 2026.
-`https://www.vilarare.se/nyheter/pisa-2025/Pisa-2025-fortsatt-nedgang-for-15-aringar-i-Sverige/`
+<https://www.vilarare.se/nyheter/pisa-2025/Pisa-2025-fortsatt-nedgang-for-15-aringar-i-Sverige/>
 (hämtad 2026-09-08).
 *(Fackpressens samlingssida, med länkar till sidodebatterna — matteforskarna om
 klyftor, professorn om lyssneläsning, Erik Cardelús om topp-länderna.)*
