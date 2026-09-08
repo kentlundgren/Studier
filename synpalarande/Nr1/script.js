@@ -54,86 +54,91 @@
     });
   }
 
-  /* Skylt: sju röster som växlar var 4:e sekund.
-     Utan JS visas alla sju som en lista (se CSS). */
-  var vFig = document.querySelector(".voices");
-  var vList = document.getElementById("voicesList");
-  var vToggle = document.getElementById("voicesToggle");
-  var vDotsWrap = document.getElementById("voicesDots");
+  /* Roterande innehåll: växlar del var 4:e sekund. Pausar vid hover och
+     tangentbordsfokus, står still vid reducerad rörelse. Utan JS visas alla
+     delar som en lista (se CSS). Används både av skylten med sju röster och
+     bildspelet med tre diagram. */
+  function initRotator(opts) {
+    var fig = document.querySelector(opts.figure);
+    var list = document.getElementById(opts.listId);
+    var toggleBtn = document.getElementById(opts.toggleId);
+    var dotsWrap = document.getElementById(opts.dotsId);
+    if (!fig || !list || !toggleBtn || !dotsWrap) return;
 
-  if (vFig && vList && vToggle && vDotsWrap) {
-    var vItems = Array.prototype.slice.call(vList.querySelectorAll(".voices__item"));
-    var vCount = vItems.length;
-    var vCur = 0;
-    var vTimer = null;
-    var vDelay = 4000;
-    var vReduced = window.matchMedia
+    var items = Array.prototype.slice.call(list.children);
+    var count = items.length;
+    if (count < 2) return;
+
+    var cur = 0;
+    var timer = null;
+    var delay = 4000;
+    var reduced = window.matchMedia
       && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    var vPausedByUser = vReduced; /* startar pausad vid reducerad rörelse */
-    var vDots = [];
+    var pausedByUser = reduced; /* startar pausad vid reducerad rörelse */
+    var dots = [];
 
-    vFig.classList.add("voices--js");
+    fig.classList.add(opts.jsClass);
 
-    for (var i = 0; i < vCount; i++) {
+    for (var i = 0; i < count; i++) {
       (function (idx) {
         var dot = document.createElement("button");
         dot.type = "button";
-        dot.className = "voices__dot" + (idx === 0 ? " is-active" : "");
-        dot.setAttribute("aria-label", "Visa röst " + (idx + 1) + " av " + vCount);
+        dot.className = opts.dotClass + (idx === 0 ? " is-active" : "");
+        dot.setAttribute("aria-label", opts.dotLabel + " " + (idx + 1) + " av " + count);
         dot.addEventListener("click", function () {
           show(idx);
-          if (!vPausedByUser) play();
+          if (!pausedByUser) play();
         });
-        vDotsWrap.appendChild(dot);
-        vDots.push(dot);
+        dotsWrap.appendChild(dot);
+        dots.push(dot);
       })(i);
     }
 
     function show(idx) {
-      vItems[vCur].classList.remove("is-active");
-      vDots[vCur].classList.remove("is-active");
-      vCur = idx;
-      vItems[vCur].classList.add("is-active");
-      vDots[vCur].classList.add("is-active");
+      items[cur].classList.remove("is-active");
+      dots[cur].classList.remove("is-active");
+      cur = idx;
+      items[cur].classList.add("is-active");
+      dots[cur].classList.add("is-active");
     }
 
-    function advance() {
-      show((vCur + 1) % vCount);
-    }
-
-    function play() {
-      stop();
-      vTimer = window.setInterval(advance, vDelay);
-    }
-
+    function advance() { show((cur + 1) % count); }
+    function play() { stop(); timer = window.setInterval(advance, delay); }
     function stop() {
-      if (vTimer) {
-        window.clearInterval(vTimer);
-        vTimer = null;
-      }
+      if (timer) { window.clearInterval(timer); timer = null; }
     }
 
     function syncToggle() {
-      vToggle.textContent = vPausedByUser ? "Spela" : "Pausa";
-      vToggle.setAttribute("aria-label", vPausedByUser
-        ? "Spela den växlande skylten"
-        : "Pausa den växlande skylten");
+      toggleBtn.textContent = pausedByUser ? "Spela" : "Pausa";
+      toggleBtn.setAttribute("aria-label",
+        (pausedByUser ? "Spela " : "Pausa ") + opts.name);
     }
 
-    vToggle.addEventListener("click", function () {
-      vPausedByUser = !vPausedByUser;
+    toggleBtn.addEventListener("click", function () {
+      pausedByUser = !pausedByUser;
       syncToggle();
-      if (vPausedByUser) stop();
+      if (pausedByUser) stop();
       else play();
     });
 
-    /* Pausa vid hover och tangentbordsfokus, återuppta sedan */
-    vFig.addEventListener("mouseenter", function () { if (!vPausedByUser) stop(); });
-    vFig.addEventListener("mouseleave", function () { if (!vPausedByUser) play(); });
-    vFig.addEventListener("focusin", function () { if (!vPausedByUser) stop(); });
-    vFig.addEventListener("focusout", function () { if (!vPausedByUser) play(); });
+    fig.addEventListener("mouseenter", function () { if (!pausedByUser) stop(); });
+    fig.addEventListener("mouseleave", function () { if (!pausedByUser) play(); });
+    fig.addEventListener("focusin", function () { if (!pausedByUser) stop(); });
+    fig.addEventListener("focusout", function () { if (!pausedByUser) play(); });
 
     syncToggle();
-    if (!vPausedByUser) play();
+    if (!pausedByUser) play();
   }
+
+  initRotator({
+    figure: ".voices", listId: "voicesList", toggleId: "voicesToggle",
+    dotsId: "voicesDots", jsClass: "voices--js", dotClass: "voices__dot",
+    dotLabel: "Visa röst", name: "den växlande skylten"
+  });
+
+  initRotator({
+    figure: ".slides", listId: "slidesList", toggleId: "slidesToggle",
+    dotsId: "slidesDots", jsClass: "slides--js", dotClass: "slides__dot",
+    dotLabel: "Visa diagram", name: "bildspelet"
+  });
 })();
