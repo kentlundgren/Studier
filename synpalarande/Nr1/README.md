@@ -33,6 +33,22 @@ Texten är tänkt som första numret i en serie med samma struktur:
 
 Slutsatsen ramas in som *en bild av frågan, inte ett facit*.
 
+## Uppdaterad 2026-09-08 (PISA 2025)
+
+Texten publicerades 7 september. PISA 2025 kom dagen efter
+([Skolverket, 2026](https://www.skolverket.se/sok-publikationer/publikationsserier/rapporter/2026/pisa-2025)).
+Uppdateringen gjordes på tre sätt, utan att skriva om originalresonemanget:
+
+- en daterad **uppdateringsruta** högst upp,
+- ett eget avsnitt **"Vad PISA 2025 ändrar"** (`#Pisa2025`) med en tabell över vad
+  som håller, försvagas respektive står kvar,
+- **synliga markeringar** (`PISA 2025 ↻`) på de tre meningar i den gamla texten som
+  den nya datan träffar — framför allt påståendet att raset mest är en
+  sammansättningseffekt, som försvagas eftersom det 2025 är eleverna med svensk
+  bakgrund som tappar.
+
+Full genomgång av rapporten: [`pisa-2025-sammanfattning.md`](pisa-2025-sammanfattning.md).
+
 ## Djuplänkar
 
 Varje rubrik har ett stabilt ankare, så en enskild del går att länka direkt
@@ -43,6 +59,7 @@ till:
 | Vad Harrison säger | `.../Nr1/#Harrison` |
 | Det som ger honom rätt | `.../Nr1/#GerHonomRatt` |
 | Det som talar emot hans diagnos | `.../Nr1/#TalarEmot` |
+| Vad PISA 2025 ändrar | `.../Nr1/#Pisa2025` |
 | Vad jag själv landar i | `.../Nr1/#VadJagLandarI` |
 | Referenser | `.../Nr1/#Referenser` |
 
@@ -53,10 +70,11 @@ och så vidare). Håll muspekaren över en rubrik så syns ett `#` att klicka p�
 
 ```
 Nr1/
-├── index.html      # texten, med länkad förstahänvisning till varje källa
-├── styles.css      # läsbar typografi, ljust/mörkt via prefers-color-scheme
-├── script.js       # ihopfällbar referenslista + teknik-modal
-└── README.md       # den här filen
+├── index.html                    # texten, med länkad förstahänvisning till varje källa
+├── styles.css                    # läsbar typografi, ljust/mörkt via prefers-color-scheme
+├── script.js                     # ihopfällbar referenslista + teknik-modal
+├── pisa-2025-sammanfattning.md   # underlag: genomgång av PISA 2025-rapporten
+└── README.md                     # den här filen
 ```
 
 Ingen server, inga cookies, inga externa bibliotek. JavaScript används bara
@@ -67,8 +85,9 @@ länkar fungerar även utan skript.
 
 Referenslistan är i Harvardstil enligt Kents källstandard: länkad
 förstahänvisning i löptexten, utskriven URL, hämtdatum, och en kursiv
-parentes som förklarar varför varje källa är med. Samtliga länkar öppnades
-och kontrollerades 2026-09-07.
+parentes som förklarar varför varje källa är med. Länkarna öppnades och
+kontrollerades 2026-09-07, PISA 2025-tilläggen (Skolverket 2026, SVT Nyheter
+2026) 2026-09-08.
 
 ## Se även
 
