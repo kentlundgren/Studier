@@ -47,7 +47,8 @@ Uppdateringen gjordes på tre sätt, utan att skriva om originalresonemanget:
   sammansättningseffekt, som försvagas eftersom det 2025 är eleverna med svensk
   bakgrund som tappar.
 
-Full genomgång av rapporten: [`pisa-2025-sammanfattning.md`](pisa-2025-sammanfattning.md).
+Rapportens siffror i detalj: [`pisa-2025-sammanfattning.md`](pisa-2025-sammanfattning.md).
+Mediejämförelsen: [`pisa-2025-media-jamforelse.md`](pisa-2025-media-jamforelse.md).
 
 ## Djuplänkar
 
@@ -72,14 +73,17 @@ och så vidare). Håll muspekaren över en rubrik så syns ett `#` att klicka p�
 Nr1/
 ├── index.html                    # texten, med länkad förstahänvisning till varje källa
 ├── styles.css                    # läsbar typografi, ljust/mörkt via prefers-color-scheme
-├── script.js                     # ihopfällbar referenslista + teknik-modal
-├── pisa-2025-sammanfattning.md   # underlag: genomgång av PISA 2025-rapporten
+├── script.js                     # ihopfällbar referenslista, teknik-modal, skylten med sju röster
+├── pisa-2025-sammanfattning.md   # underlag: PISA 2025-rapportens siffror
+├── pisa-2025-media-jamforelse.md # underlag: sju medievinklar ställda mot texten
 └── README.md                     # den här filen
 ```
 
-Ingen server, inga cookies, inga externa bibliotek. JavaScript används bara
-till att fälla ihop referenslistan och öppna teknik-rutan; texten och alla
-länkar fungerar även utan skript.
+Ingen server, inga cookies, inga externa bibliotek. JavaScript används till
+tre saker: fälla ihop referenslistan, öppna teknik-rutan, och driva den
+växlande skylten med sju röster i PISA 2025-avsnittet. Texten och alla länkar
+fungerar även utan skript; utan JavaScript visas skyltens sju citat som en
+vanlig lista.
 
 ## Källor
 

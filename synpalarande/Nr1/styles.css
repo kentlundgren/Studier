@@ -492,3 +492,135 @@ a:hover { color: var(--accent-strong); }
   font-size: 0.8rem;
   color: var(--ink-faint);
 }
+
+/* Skylt: sju röster */
+.voices {
+  margin: 2rem 0 2.4rem;
+  padding: 1.1rem 1.2rem 1rem;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+}
+
+.voices__kicker {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin: 0 0 0.7rem;
+}
+
+.voices__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Utan JS: alla sju som en enkel lista */
+.voices__item + .voices__item {
+  margin-top: 0.9rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--rule);
+}
+
+.voices__item blockquote {
+  margin: 0;
+  font-size: 1.12rem;
+  line-height: 1.5;
+  font-style: italic;
+  color: var(--ink);
+}
+
+.voices__item cite {
+  display: block;
+  margin-top: 0.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+  font-style: normal;
+  color: var(--ink-faint);
+}
+
+/* Med JS: en växlande skylt */
+.voices--js .voices__frame {
+  position: relative;
+}
+
+.voices--js .voices__list {
+  display: grid;
+}
+
+.voices--js .voices__item {
+  grid-area: 1 / 1;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.45s ease, visibility 0s linear 0.45s;
+}
+
+.voices--js .voices__item.is-active {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.45s ease, visibility 0s;
+}
+
+.voices__controls {
+  display: none;
+}
+
+.voices--js .voices__controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.voices__toggle {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: transparent;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+}
+.voices__toggle:hover { border-color: var(--accent); }
+
+.voices__dots {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.voices__dot {
+  width: 9px;
+  height: 9px;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, var(--rule));
+  background: transparent;
+  cursor: pointer;
+}
+.voices__dot.is-active {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.voices__dot:hover { border-color: var(--accent); }
+
+.voices figcaption {
+  margin-top: 0.9rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .voices--js .voices__item {
+    transition: none;
+  }
+}

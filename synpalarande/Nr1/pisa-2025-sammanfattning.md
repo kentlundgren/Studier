@@ -1,13 +1,15 @@
 # PISA 2025 — sammanfattning som underlag för Syn på lärande nr 1
 
 *Sammanställt 2026-09-08, samma dag som Skolverket presenterade resultaten.
-Underlag för att väga in PISA 2025 i den befintliga texten på
-<https://kentlundgren.github.io/Studier/synpalarande/Nr1/>. Detta är
-arbetsanteckningar, inte publicerad text — slutsatserna landar Kent själv.*
+Skrivet som stöd för texten om PISA 2025 på
+<https://kentlundgren.github.io/Studier/synpalarande/Nr1/>, inte som en egen
+artikel — slutsatserna landar i själva texten. Länkas från den publicerade
+sidan. Framtaget med en språkmodell som verktyg för sökning, sammanställning
+och källhantering; Kent står för hur underlaget används.*
 
-Primärkälla är Skolverkets nationella rapport (Skolverket, 2026), 85 sidor,
-nedladdad och genomläst i sin helhet 2026-09-08. Sidhänvisningar nedan avser
-den rapporten om inget annat anges.
+Primärkälla är Skolverkets nationella rapport (Skolverket, 2026), Rapport
+2026:9, 85 sidor. Sidhänvisningar nedan avser den rapporten om inget annat
+anges.
 
 ---
 
@@ -257,6 +259,44 @@ Lägg till (Harvard, kontrollera länk vid publicering):
 
 ---
 
+## 12. Mediebilden 8 september 2026
+
+Kort översikt över hur de största svenska medierna sammanfattade PISA 2025 —
+för fullständig genomgång och jämförelse mot texten, se
+[`pisa-2025-media-jamforelse.md`](pisa-2025-media-jamforelse.md).
+
+De sju vanligaste vinklarna:
+
+1. **Bottenrekord.** "Historiskt dåligt", "sämsta någonsin", "rasar" (SVT, GP,
+   Vi Lärare).
+2. **"Var tredje når inte en grundläggande nivå."** Signaturstatistiken, i
+   nästan varje artikel.
+3. **"Ett helt läsårs kunskaper."** Skolverkets analyschef Anna Castberg,
+   upprepat i intervjuerna.
+4. **"Skärmpandemi."** Utbildningsminister Simona Mohamsson gör skärmtiden till
+   huvudförklaring; OECD:s Andreas Schleicher mer försiktig (flera samverkande
+   orsaker).
+5. **"Nationellt nödläge" — politisk strid.** S (Andersson): nedskärningar.
+   SD (Åkesson): invandring. L: skärmar. PISA som slagträ.
+6. **Lärarfacket: "inga fler bortförklaringar."** Anna Olskog (Sveriges
+   Lärare) avvisar "enkla syndabockar" och kräver mindre grupper, mer
+   undervisningstid, tidigt stöd.
+7. **Likvärdighet / klyftor.** Gapet minskar — men bara för att de
+   resursstarka rasar. Skolverkets egen formulering, och en egen rubrik
+   ("Matteforskare: Ökade klyftor oroar").
+
+Ett sidospår: **lyssneläsning** (att lyssna på ljudböcker i stället för att
+läsa). En äldre debatt — kognitionsforskaren Agneta Gulz om ett "obegripligt
+svek", f.d. skolministern Lotta Edholm om "vi lurar barnen" — som PISA 2025
+aktualiserade utan att vara en direkt reaktion på den.
+
+**Att notera:** på punkt 5 (Åkessons invandringsvinkel) och 7 säger den
+publicerade texten delvis emot mediebilden, med stöd i rapportens egna
+siffror — det är eleverna med svensk bakgrund som tappar 2022 → 2025. DN:s och
+SvD:s ledarsidor är inte verifierade (betalvägg).
+
+---
+
 ## Referenser
 
 OECD (2026) *PISA 2025 Results (Volume I)*. Paris: OECD. Refererad via
@@ -269,7 +309,7 @@ Skolverkets nationella rapport bygger på ett urval av dess data.)*
 Skolverket (2026) *Pisa 2025. 15-åringars kunskaper i naturvetenskap,
 läsförståelse och matematik*. Rapport 2026:9. Solna: Skolverket. PDF:
 <https://www.skolverket.se/download/18.6a4f8afe1a0424937053586f/1788844839095/pdf13433.pdf>
-(hämtad och genomläst 2026-09-08). Publikationssida:
+(hämtad 2026-09-08). Publikationssida:
 <https://www.skolverket.se/sok-publikationer/publikationsserier/rapporter/2026/pisa-2025>.
 *(Primärkällan för hela denna sammanfattning. 85 sidor, fokus på de svenska
 resultaten, med jämförelsetabeller mot tidigare mätningar och mot Norden och
