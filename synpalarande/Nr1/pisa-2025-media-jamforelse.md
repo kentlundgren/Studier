@@ -162,7 +162,10 @@ referat:
   återges nästan aldrig i media. En rimlig delförklaring till poängtappet som
   ingen politiker vill lyfta.
 - **Den norska brödrastudien (Bratsberg & Rogeberg 2018).** Det tyngsta
-  belägget för att nedgången är miljödriven och inte ett mätartefakt.
+  belägget för att nedgången är miljödriven snarare än en effekt av ändrad
+  befolkningssammansättning (invandring, selektiv fertilitet). Studien utesluter
+  *sammansättning*, inte *mekanism* — och en nyare analys på samma norska data
+  reser frågan om testet mäter exakt samma sak över tid.
 - **Att en stor del av den *långa* trenden är sammansättning** (Heller
   Sahlgren). Media 2025 nämner det knappt; vissa (Åkesson, en och annan
   bloggare) kör i stället en förenklad invandringsvinkel som 2025 års data inte
