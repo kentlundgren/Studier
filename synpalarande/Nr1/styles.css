@@ -385,3 +385,110 @@ a:hover { color: var(--accent-strong); }
   outline-offset: 2px;
   border-radius: 3px;
 }
+
+/* Update note (PISA 2025) */
+.update {
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent) 32%, var(--rule));
+  border-radius: 10px;
+  padding: 1rem 1.15rem 1.05rem;
+  margin: 0 0 2.4rem;
+}
+.update p { margin: 0; }
+.update p + p { margin-top: 0.5rem; }
+.update__flag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+.update p#update-title {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+/* Revised passages + inline flag */
+.prose p.revised {
+  border-left: 2px solid color-mix(in srgb, var(--accent) 45%, var(--rule));
+  background: color-mix(in srgb, var(--accent) 4%, transparent);
+  padding: 0.2rem 0.5rem 0.2rem 0.9rem;
+  margin-left: -0.9rem;
+  border-radius: 0 4px 4px 0;
+}
+
+.rev-note {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent) 32%, var(--rule));
+  border-radius: 999px;
+  padding: 0.08rem 0.42rem;
+  margin-left: 0.4rem;
+  text-decoration: none;
+  white-space: nowrap;
+  vertical-align: 0.12em;
+}
+.rev-note:hover {
+  background: color-mix(in srgb, var(--accent) 20%, transparent);
+  color: var(--accent-strong);
+}
+
+/* Changes ledger (PISA 2025) */
+.changes { margin: 1.9rem 0 2.2rem; }
+
+.changes__scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+}
+
+.changes table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 32rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+
+.changes thead th {
+  background: var(--card);
+  text-align: left;
+  font-weight: 700;
+  color: var(--ink);
+  padding: 0.6rem 0.8rem;
+  border-bottom: 2px solid var(--rule);
+}
+
+.changes tbody td {
+  padding: 0.6rem 0.8rem;
+  vertical-align: top;
+  color: var(--ink-soft);
+  border-bottom: 1px solid var(--rule);
+}
+
+.changes tbody td:first-child {
+  width: 40%;
+  border-right: 1px solid var(--rule);
+  color: var(--ink-faint);
+  font-style: italic;
+}
+
+.changes tbody tr:last-child td { border-bottom: none; }
+
+.changes b { color: var(--ink); font-weight: 700; }
+
+.changes figcaption {
+  margin-top: 0.7rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+  color: var(--ink-faint);
+}
