@@ -1,8 +1,8 @@
 # SPEC – Syn på lärande nr 2 ("Vad betyder 'bäst' när modellen skriver koden?")
 
-**Status:** UTKAST v0.3 – Kents svar 2026-09-09 inarbetade. Två småpunkter kvar
-(avsnitt 13).
-**Skapad:** 2026-09-09 · **Ändrad:** 2026-09-09 (v0.3)
+**Status:** KLAR v1.0 – alla frågor besvarade 2026-09-09. Redo för build-passet
+(research + källverifiering först).
+**Skapad:** 2026-09-09 · **Ändrad:** 2026-09-09 (v1.0)
 **Hör till:** [`PRD_nr2_ai-kodmodeller.md`](PRD_nr2_ai-kodmodeller.md) (v0.4)
 
 ---
@@ -184,8 +184,7 @@ Detta bevarar Kents "dubbelt så dyr ⇒ dubbelt så bra"-logik: om Claude vore
 dubbelt så dyr (index skulle kräva dubbså nytta för att matcha) ser man direkt
 om nyttan hänger med. Utan att påstå en precision som inte finns (Regel 3, 13).
 
-**Kent avgör (SPEC avsnitt 13) om raden ska vara med alls, eller om
-prosa-resonemanget räcker.**
+**Beslutat 2026-09-09: raden ska vara med.**
 
 ## 6. Bedömningsform – förslag på tabell-frågan
 
@@ -195,8 +194,9 @@ prosa-resonemanget räcker.**
 
 - **Prosa** bär substansen: nyanser, vad mätningen missar, Kents resonemang.
   Ingen dimension klaras av med bara en rad i en tabell.
-- **Exakt en sammanfattande tabell** (avsnittet `#Overblick`), inte en tabell
-  per dimension. Kolumner:
+- **Exakt en sammanfattande tabell** i eget avsnitt `#Overblick` (efter
+  `#PrisNytta`, före `#VadJagLandarI`; en hänvisningsrad nära toppen), inte en
+  tabell per dimension. Kolumner:
 
 | Kolumn | Innehåll |
 |---|---|
@@ -323,18 +323,24 @@ har `Studier` öppet:
 
 ## 13. Att bekräfta med Kent innan bygget
 
-Avgjort 2026-09-09: referensanvändning = **35 h/vecka**; kostnad redovisas
-**både** per Mtoken och per månad (5.2); ankare = Nr1:s CamelCase-stil, men
-**kravet** är djuplänkbarhet till varje avsnitt (avsnitt 3), som också föreslås
-bli en generell byggregel (avsnitt 9); 3–5 röster räcker, med en färdig
-uppdaterings-prompt (7.1).
+Allt avgjort 2026-09-09:
 
-Kvar:
+- Referensanvändning = **35 h/vecka**; kostnad redovisas **både** per Mtoken och
+  per månad (5.2).
+- Ankare = Nr1:s CamelCase-stil, men **kravet** är djuplänkbarhet till varje
+  avsnitt (avsnitt 3); föreslås bli generell byggregel (avsnitt 9).
+- 3–5 röster räcker, med en färdig uppdaterings-prompt (7.1).
+- **Indexraden: ja**, den ska vara med i tabellen (5.3, 6).
+- **Tabellens placering: eget avsnitt `#Overblick`**, efter dimensionerna
+  (`#PrisNytta`) och före `#VadJagLandarI`. Plus en enradig hänvisning nära
+  toppen ("En sammanfattande tabell finns längre ner: [#Overblick]") för den
+  som vill skumma. Motiv: tabellen sammanfattar de tre dimensionerna och
+  1–5-omdömena – den blir missvisande om läsaren möter den *före* avsnittet
+  `#VilkenModell` och dimensionsprosan. Samma logik som Nr1, där
+  jämförelsetabellen ligger inne i resonemanget, inte överst.
 
-1. **Indexraden (5.3):** efter det räknade exemplet – vill Kent ha raden i
-   tabellen, eller räcker prosa-resonemanget?
-2. **Tabellens placering:** överst (direkt efter lead) eller i eget avsnitt
-   `#Overblick` längre ner?
+Inget kvar att bekräfta – SPEC:en är klar för build-passet (research +
+källverifiering först).
 
 ---
 
@@ -351,6 +357,9 @@ Kvar:
   serie-konsekvens; kravet på stabila H2/H3-ankare + README-djuplänkstabell
   skärpt (avsnitt 3) och föreslås bli en generell regel i `kent-bygg-sidor`
   (avsnitt 9).
+- 2026-09-09 (v1.0): De två sista frågorna besvarade. Indexraden: **ja**.
+  Tabellens placering: **eget avsnitt `#Overblick`** (efter dimensionerna, före
+  slutsatsen) med en hänvisningsrad nära toppen. SPEC:en klar för build-passet.
 - 2026-09-09 (v0.1): Skapad. Förslag på PRD:ns två sista öppna frågor: "nytta"
   = subjektivt omdöme 1–5 med källkrav + konkret kostnad + kvot som resonemang
   och illustrativ indexrad (avsnitt 5); bedömningsform = prosa som huvudform +

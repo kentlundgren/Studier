@@ -1,7 +1,8 @@
 # PRD – Syn på lärande nr 2: jämföra AI-modeller för kodning
 
-**Status:** UTKAST v0.5 – för Kent att reagera på. Inget är byggt. SPEC.md finns.
-**Skapad:** 2026-09-09 · **Ändrad:** 2026-09-09 (v0.5)
+**Status:** v0.6 – planeringen klar. SPEC.md är KLAR (v1.0). Nästa steg: research.
+Inget är byggt. En öppen punkt utanför Nr2: bekräfta Regel 7 i `kent-bygg-sidor`.
+**Skapad:** 2026-09-09 · **Ändrad:** 2026-09-09 (v0.6)
 **Plats:** `C:\Users\kentl\OneDrive\AI\Studier\synpalarande\Nr2\`
 **Repo:** [`kentlundgren/Studier`](https://github.com/kentlundgren/Studier) (publikt, `main`, känt-gott)
 **Serie:** tredje bygget i `synpalarande/` efter [`Nr1/`](../Nr1/) och skillen `syn-pa-larande`
@@ -265,16 +266,19 @@ modellen skriver koden?"), **modell-namn-svårigheten** tillagd som eget stycke
 i avsnitt 6, och **beslutslogg-rad** – ja, loggas (gjort 2026-09-09 i
 `beslutslogg.md`).
 
-Kvar – **förslag finns nu i [`SPEC.md`](SPEC.md), väntar på Kents bekräftelse:**
+**Alla besvarade 2026-09-09 – [`SPEC.md`](SPEC.md) är KLAR (v1.0):**
 
-1. **"Nytta"-proxyn** (SPEC avsnitt 5): förslag = subjektivt omdöme 1–5 per
-   modell×dimension, default 3, avvikelse kräver två källor; kostnad konkret i
-   kr/mån för en referensanvändning; kvoten som resonemang + en illustrativ
-   indexrad.
-2. **Bedömningsform** (SPEC avsnitt 6): förslag = prosa som huvudform + exakt
-   en sammanfattande tabell.
-3. Fyra småpunkter i SPEC avsnitt 13 (referensanvändningen, indexraden alls,
-   tabellens placering, antal röster).
+- **"Nytta"** = subjektivt omdöme 1–5 per modell×dimension (default 3, avvikelse
+  kräver två källor). **Kostnad** både per Mtoken och per månad för
+  referensanvändning **35 h/vecka**, med analys av om volymen ryms i abonnemangen.
+  **Kvoten** som resonemang **+ indexrad** i tabellen (Kent ville ha den).
+- **Bedömningsform:** prosa som huvudform + **en** sammanfattande tabell i eget
+  avsnitt `#Overblick` (efter dimensionerna, före slutsatsen), med en
+  hänvisningsrad nära toppen.
+- **Djuplänkbarhet:** varje avsnitt når man med `URL#ankare` (Nr1:s stil).
+  Föreslagen som ny Regel 7 i `kent-bygg-sidor` – **väntar på Kents bekräftelse
+  av skilltexten**; gäller Nr2 oavsett.
+- **Uppdatera fler röster:** färdig prompt i SPEC 7.1, kopieras in i README.
 
 ### Om `beslutslogg.md`
 
@@ -333,3 +337,8 @@ här PRD:n:
 - 2026-09-09 (v0.5): `SPEC.md` (v0.1) skriven, med Claudes förslag på de två
   sista öppna frågorna. Avsnitt 11 och 14 uppdaterade att peka dit. Kvar:
   Kents bekräftelse av SPEC:ens avsnitt 5, 6 och 13.
+- 2026-09-09 (v0.6): Alla SPEC-frågor besvarade → `SPEC.md` v1.0 (KLAR).
+  Referensanvändning 35 h/vecka; kostnad per Mtoken *och* per månad; indexraden
+  med; tabell i eget avsnitt `#Overblick`. Djuplänkbarhet formulerad som
+  förslag till ny Regel 7 i `kent-bygg-sidor` (väntar på Kents ja).
+  Planeringsfasen klar – nästa steg är research + källverifiering.
