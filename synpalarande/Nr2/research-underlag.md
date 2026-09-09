@@ -31,6 +31,27 @@ samma dag.*
 
 ---
 
+## Omdomen 1-5 (utgangspunkt att frysa)
+
+Det här är siffrorna som visas i tabellen i `index.html`. De är **Kents
+omdöme**, inte en mätning. Regel (SPEC 5.1): **3 = jämförbart och räcker** är
+utgångsläget; en avvikelse (1, 2, 4, 5) kräver **minst två oberoende källor**.
+Harness-facetterna gäller *klienten* och är desamma oavsett modellnivå (Dimension
+2b-observationen).
+
+| Facett | Claude Code | OpenAI/Codex | Motivering (2 meningar) | Status |
+|---|---|---|---|---|
+| **Kodförmåga** | **3** | **3** | AA Coding Agent Index 70 mot 67, DeepSWE "a tie", Codex vinner Terminal-Bench 4.0. Ingen tvåkällig grund för att avvika från 3. | Utgångspunkt – Kent bekräftar |
+| **Harness – vad som finns** | **4** | **3** | `code.claude.com`-dokumentationen listar fler egna primitiver (auto memory, hooks, Agent SDK) utöver det båda delar (skills-standard, MCP), och Composio bekräftar paritet just på skills/MCP men inte på minne/hooks. Den enda siffran över 3. | Utgångspunkt – mjukast underbyggd, kan bli 3/3 |
+| **Harness – hur det känns** | **3** | **3** | Genuin stilskillnad (interaktiv mot autonom) men passform, inte bättre/sämre. Kents egen linje lutar mot Claude; 65 % i en enkät föredrar Codex i vardagen. | Utgångspunkt – Kent bör sätta efter eget bruk |
+
+**Nytta-snitt (av de tre facetterna):** Claude 3,33 · OpenAI/Codex 3,0.
+
+**Vad Kent behöver göra:** bekräfta eller ändra de fem siffrorna ovan. Ändra dem
+*här* (och i `kostnadskalkyl-35h.md` §7), så räknas index och tabell om.
+
+---
+
 ## Dimension 0 – Vilken modell pratar vi ens om?
 
 Researchen bevisade poängen. Ett halvår av namnbyten syns direkt i källorna.

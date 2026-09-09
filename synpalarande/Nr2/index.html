@@ -24,18 +24,20 @@
     <div class="draftnote">
       <span class="draftnote__flag">Utkast</span>
       <p>Den här sidan är ett utkast för egen granskning. Siffrorna 1&ndash;5
-      längre ned är mitt <em>preliminära</em> omdöme, inte ett fryst betyg, och
-      ett par abonnemangsuppgifter är ännu inte kontrollerade mot bolagens egna
-      hjälpsidor. Underlaget &ndash; research och kostnadsmatematik &ndash;
-      ligger som egna filer i mappen på GitHub. GitHub Pages är inte påslaget
-      för det här repot ännu.</p>
+      i överblicken är mitt <em>preliminära</em> omdöme, inte ett fryst betyg
+      &ndash; motiveringen till varje siffra, med källor, finns i
+      <a href="https://github.com/kentlundgren/Studier/blob/main/synpalarande/Nr2/research-underlag.md#omdomen-1-5-utgangspunkt-att-frysa" target="_blank" rel="noopener">research-underlaget</a>,
+      och hela kostnadsmatematiken i
+      <a href="https://github.com/kentlundgren/Studier/blob/main/synpalarande/Nr2/kostnadskalkyl-35h.md" target="_blank" rel="noopener">kostnadskalkylen</a>.
+      Ett par abonnemangsuppgifter är ännu inte kontrollerade mot bolagens egna
+      hjälpsidor. GitHub Pages är inte påslaget för det här repot ännu.</p>
     </div>
 
     <p class="jump">Vill du bara se sammanställningen: hoppa till
     <a href="#Overblick">överblicken</a>.</p>
 
     <p>Jag blev tipsad om ett inlägg av Osama Romoh på LinkedIn
-    (<a href="#ref-romoh">Romoh, 2026</a>). Rubriken var ungefär:
+    (<a href="https://lnkd.in/p/efrssr5X" target="_blank" rel="noopener">Romoh, 2026</a>). Rubriken var ungefär:
     <em>&rdquo;I love Claude, but GPT&#8209;6 Astra blew Fable 5 out of the water
     for me.&rdquo;</em> Han hade använt Claude länge, blev överraskad av OpenAI:s
     nya modell, och köpte ChatGPT Pro <em>vid sidan av</em> sitt
@@ -83,11 +85,10 @@
     namn <em>och</em> nummer om vartannat: Fable&nbsp;5.1, Mythos&nbsp;5.1,
     Opus&nbsp;5 (med 4.8, 4.7, 4.6, 4.5 kvar i prislistan), Sonnet&nbsp;5,
     Haiku&nbsp;4.5. På OpenAI-sidan finns GPT&#8209;6 Astra (släppt 3 september
-    2026), tre varianter av GPT&#8209;5.6 som heter Sol, Terra och Luna, en
-    forskningsförhandsvisning som heter 5.3 Codex Spark, och det förra
-    flaggskeppet 5.5. En kodspecifik modell, 5.3&#8209;codex, är redan avvecklad.
-    GPT&#8209;5.4 pensionerades 31 augusti, och om du hade den sparad i en
-    konfigurationsfil fick du byta ut den mot 5.6&#8209;terra själv.</p>
+    2026), tre varianter av GPT&#8209;5.6 som heter Sol, Terra och Luna, och det
+    förra flaggskeppet 5.5. En kodspecifik modell, 5.3&#8209;codex, är redan
+    avvecklad. GPT&#8209;5.4 pensionerades 31 augusti, och om du hade den sparad
+    i en konfigurationsfil fick du byta ut den mot 5.6&#8209;terra själv.</p>
 
     <p>Namnen döljer dessutom vad som körs. &rdquo;GPT&#8209;6&rdquo;,
     &rdquo;Claude Code&rdquo; och &rdquo;Codex&rdquo; är inte modeller utan
@@ -171,10 +172,10 @@
     <p>Här går en genuin skiljelinje, och den handlar om filosofi mer än om
     funktioner. Claude Code är interaktiv: den visar sitt resonemang och frågar
     vid vägval. Codex lutar åt det autonoma: du lämnar en uppgift och får
-    tillbaka en implementation. En utvecklare som bytte beskrev Claude Code som
-    &rdquo;en kollega som hela tiden berättar vad den gör&rdquo; och Codex som
-    &rdquo;hand it a task, get the implementation back&rdquo;. Ingen av dem är
-    fel &ndash; det beror på vad man vill.</p>
+    tillbaka en implementation. Skillnaden brukar beskrivas ungefär så: Claude
+    Code är som en kollega som hela tiden berättar vad den gör; Codex är mer
+    &rdquo;lämna en uppgift, få tillbaka lösningen&rdquo;. Ingen av dem är fel
+    &ndash; det beror på vad man vill.</p>
 
     <p>Det syns i apparna. Här är de två, sedda sida vid sida:</p>
 
@@ -320,9 +321,28 @@
         den lägsta i varje rad blir 100. Den är <em>illustrativ</em> &ndash;
         täljaren är mitt omdöme, inte en mätning. Kostnaderna är min uppskattning
         för 35&nbsp;h/vecka; hela uträkningen och alla antaganden ligger i
-        <code>kostnadskalkyl-35h.md</code> i mappen.
+        <a href="https://github.com/kentlundgren/Studier/blob/main/synpalarande/Nr2/kostnadskalkyl-35h.md" target="_blank" rel="noopener">kostnadskalkyl-35h.md</a>.
       </p>
     </div>
+
+    <p>Så här tänker jag om de tre omdömena, och var resonemanget finns i sin
+    helhet
+    (<a href="https://github.com/kentlundgren/Studier/blob/main/synpalarande/Nr2/research-underlag.md#omdomen-1-5-utgangspunkt-att-frysa" target="_blank" rel="noopener">research-underlaget</a>):</p>
+
+    <ul>
+      <li><strong>Kodförmåga, 3 mot 3.</strong> Det oberoende indexet står 70 mot
+      67, DeepSWE kallas &rdquo;a tie&rdquo;, och Codex vinner Terminal&#8209;Bench
+      4.0. Ingen av mätningarna ger tvåkällig grund för att sätta någon över den
+      andra.</li>
+      <li><strong>Harness &ndash; vad som finns, 4 mot 3.</strong> Claude Codes
+      egen dokumentation listar fler primitiver som är dess egna (automatiskt
+      minne, hooks, Agent SDK) ovanpå det båda numera delar. Det är den enda
+      siffra jag satt över 3, och den jag är minst säker på.</li>
+      <li><strong>Harness &ndash; hur det känns, 3 mot 3.</strong> En verklig
+      stilskillnad, men passform snarare än bättre eller sämre. Min egen linje
+      lutar mot den interaktiva; en refererad enkät säger att de flesta i
+      vardagen föredrar Codex.</li>
+    </ul>
 
     <p>Berättelsen tabellen landar i: <strong>kapaciteten är i stort sett jämn,
     och priset avgör.</strong> Kräver man flaggskeppet och kör heltid ger
@@ -334,12 +354,15 @@
     <h2 id="AndraRoster">Andras röster <a class="anchor" href="#AndraRoster" aria-label="Länk till detta avsnitt">#</a></h2>
 
     <p>Debatten pågår, och den lutar Codex-positivt just nu &ndash; men med en
-    återkommande brasklapp om kodkvalitet. Jag samlar rösterna, med vad de
-    hävdar och vad jag tycker om det, i
-    <a href="jamforelse-roster.md">jamforelse-roster.md</a>. Ett urval:</p>
+    återkommande brasklapp om kodkvalitet, och med rådet att inte välja alls:
+    Claude Code för arkitektur och planering, Codex för tät implementation,
+    båda på bordet. Jag samlar rösterna, med vad de hävdar och vad jag tycker om
+    det, i
+    <a href="https://github.com/kentlundgren/Studier/blob/main/synpalarande/Nr2/jamforelse-roster.md" target="_blank" rel="noopener">jamforelse-roster.md</a>.
+    Tre av dem:</p>
 
     <div class="voices" aria-label="Röster om Claude mot Codex">
-      <p class="voices__kicker">Fem röster</p>
+      <p class="voices__kicker">Tre röster</p>
       <div class="voices__frame">
         <ul class="voices__list" id="voicesList">
           <li class="voices__item is-active">
@@ -350,26 +373,15 @@
           </li>
           <li class="voices__item">
             <blockquote>If someone made me uninstall one today, it's not Codex.</blockquote>
-            <cite>Prathit Joshi, Composio, augusti 2026 &ndash; efter 100+
-            timmar med båda. Codex vann 3&ndash;2, men blinda granskare bedömde
-            Claude-koden som renare.</cite>
+            <cite>Prathit Joshi, Composio-bloggen, augusti 2026 &ndash; efter
+            100+ timmar med båda. Codex vann 3&ndash;2, men blinda granskare
+            bedömde Claude-koden som renare.</cite>
           </li>
           <li class="voices__item">
-            <blockquote>Fast mode + generous limits = more reps.</blockquote>
-            <cite>Peter Yang, tidigare inbiten Claude Code-användare, om varför
-            han bytte till Codex &ndash; iterationstakt, inte kapacitet.</cite>
-          </li>
-          <li class="voices__item">
-            <blockquote>65&nbsp;% föredrar Codex i vardagen &ndash; men blinda
-            granskningar bedömde Claude-koden som renare 67&nbsp;% av gångerna.</blockquote>
-            <cite>Refererad utvecklarenkät, 2026. Ursprunget är inte spårat till
-            en primärkälla.</cite>
-          </li>
-          <li class="voices__item">
-            <blockquote>Claude Code för arkitektur och planering, Codex för
-            tät implementation. Konsensus: kör båda.</blockquote>
-            <cite>Sammanfattning av flera jämförelser &ndash; det vanligaste
-            rådet är att inte välja.</cite>
+            <blockquote>En ofta citerad utvecklarenkät: 65&nbsp;% föredrar Codex
+            i vardagen, men blindgranskad kod bedöms renare hos Claude.</blockquote>
+            <cite>Refererad via flera sekundärkällor, 2026. Den ursprungliga
+            enkäten är inte spårad &ndash; tas med som andrahandsuppgift.</cite>
           </li>
         </ul>
       </div>
@@ -377,7 +389,7 @@
         <button type="button" class="voices__toggle" id="voicesToggle">Pausa</button>
         <div class="voices__dots" id="voicesDots" aria-hidden="true"></div>
       </div>
-      <figcaption>Skylten växlar av sig själv. Utan JavaScript visas de fem
+      <figcaption>Skylten växlar av sig själv. Utan JavaScript visas de tre
       citaten som en lista.</figcaption>
     </div>
 
@@ -509,10 +521,14 @@
 
       <p id="ref-romoh">Romoh, O. (2026) <em>&rdquo;I love Claude, but GPT-6
       Astra blew Fable 5 out of the water for me&rdquo;</em>. Inlägg, LinkedIn,
-      september 2026.
-      <em>(Texten hela genomgången utgår från. Permalänk och exakt datum är inte
-      verifierade &ndash; inlägget lästes via en skärmdump. Handlar om
-      instruktionsföljsamhet, inte kodkvalitet, och innehåller inga siffror.)</em></p>
+      ca 8 september 2026. Tillgänglig på:
+      <a href="https://lnkd.in/p/efrssr5X" target="_blank" rel="noopener">https://lnkd.in/p/efrssr5X</a>
+      (kortlänk delad av författaren; leder till ett LinkedIn-inlägg vars adress
+      börjar <code>linkedin.com/posts/osamaa_i-love-claude-but-gpt-6-astra-blew-fable</code>.
+      Själva inlägget kräver inloggning och lästes via en skärmdump; exakt datum
+      inte verifierat).
+      <em>(Texten hela genomgången utgår från. Handlar om instruktionsföljsamhet,
+      inte kodkvalitet, och innehåller inga siffror.)</em></p>
 
     </div>
   </section>
@@ -551,7 +567,7 @@
       <div class="tech-card">
         <h4>Fungerar utan JavaScript</h4>
         <p>Hela texten, tabellen och alla källänkar fungerar även med skript
-        avstängt. Då står referenslistan utfälld och skyltens fem citat visas
+        avstängt. Då står referenslistan utfälld och skyltens tre citat visas
         som en lista.</p>
       </div>
       <div class="tech-card">
@@ -587,7 +603,8 @@
         Anthropics och OpenAI:s egna sidor och kontrollerad 9 september 2026.
         Två saker kunde inte verifieras mot primärkälla: exakta
         abonnemangsgränser (bolagens hjälpsidor krävde inloggning) och
-        permalänken till LinkedIn-inlägget.</p>
+        LinkedIn-inlägget självt (kräver inloggning; kortlänken i
+        referenslistan är delad av författaren).</p>
       </div>
       <div class="tech-card">
         <h4>Benchmark-siffrorna är omtvistade &ndash; med flit</h4>
@@ -599,13 +616,15 @@
         <h4>Siffrorna 1&ndash;5 är mitt omdöme</h4>
         <p>De är min egen bedömning, inte en mätning, och de står så i texten.
         Jag avviker från &rdquo;3 = jämförbart&rdquo; bara där minst två
-        oberoende källor pekar åt samma håll.</p>
+        oberoende källor pekar åt samma håll. Motiveringen till varje siffra,
+        med källor, ligger i <code>research-underlag.md</code> i mappen.</p>
       </div>
       <div class="tech-card">
-        <h4>Kostnadskalkylen ligger öppen</h4>
+        <h4>Underlaget ligger öppet</h4>
         <p>Uträkningen för 35 timmar i veckan, med alla antaganden utskrivna,
-        ligger som <code>kostnadskalkyl-35h.md</code> i mappen på GitHub,
-        tillsammans med ett research-underlag.</p>
+        ligger som <code>kostnadskalkyl-35h.md</code> på GitHub, och
+        research-genomgången som <code>research-underlag.md</code>. Båda är
+        länkade från texten.</p>
       </div>
       <div class="tech-card">
         <h4>AI som verktyg, inte författare</h4>

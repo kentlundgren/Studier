@@ -50,7 +50,7 @@ På GitHub: <https://github.com/kentlundgren/Studier/tree/main/synpalarande/Nr2>
 5. **Vad kostar nyttan?** — pris per token, och en kostnadskalkyl för 35 h/vecka.
 6. **Överblick** — en sammanfattande tabell med 1–5-omdömen och en
    nytta-per-krona-indexrad.
-7. **Andras röster** — fem röster ur debatten, länk till `jamforelse-roster.md`.
+7. **Andras röster** — tre röster i skylten, fler i `jamforelse-roster.md`.
 8. **Vad jag själv landar i** — egen ståndpunkt, kunskapssyns-vinkeln.
 
 Slutsatsen ramas som *en bild av frågan, inte ett facit*.

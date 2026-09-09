@@ -1,9 +1,10 @@
 # PRD – Syn på lärande nr 2: jämföra AI-modeller för kodning
 
-**Status:** v0.8 – **`index.html` byggd** (utkast). Research klar. Kvar: Kent
-fryser 1–5-omdömena, verifierar de fyra punkterna i `kostnadskalkyl-35h.md` §8,
-och gör fräscha-ögon-genomläsning.
-**Skapad:** 2026-09-09 · **Ändrad:** 2026-09-09 (v0.8)
+**Status:** v0.9 – **`index.html` byggd** (utkast), inline-referenser +
+Claude-kompassen inlagda, fräscha-ögon-genomläsning gjord. Kvar: Kent fryser
+1–5-omdömena (`research-underlag.md` → "Omdomen 1-5"), verifierar de fyra
+punkterna i `kostnadskalkyl-35h.md` §8, tar bort utkastrutan.
+**Skapad:** 2026-09-09 · **Ändrad:** 2026-09-09 (v0.9)
 **Plats:** `C:\Users\kentl\OneDrive\AI\Studier\synpalarande\Nr2\`
 **Repo:** [`kentlundgren/Studier`](https://github.com/kentlundgren/Studier) (publikt, `main`, känt-gott)
 **Serie:** tredje bygget i `synpalarande/` efter [`Nr1/`](../Nr1/) och skillen `syn-pa-larande`
@@ -351,3 +352,22 @@ här PRD:n:
   neutral överblickstabell, röst-skylt, ihopfällbar annoterad referenslista,
   de två app-skärmdumparna). Sidan är ett **utkast** – 1–5-omdömena är
   preliminära, två abonnemangsuppgifter overifierade.
+- 2026-09-09 (v0.9): Kents runda 2 på den byggda sidan.
+  (a) **Inline-referenser** – varje källas första hänvisning nu länkad i
+  löptext (Regel 2). Referenslistan 10 poster, alfabetisk, annoterad.
+  (b) **Claude-kompassen + presentationen** länkade i inledningen (Lundgren
+  2026a/b), både i text och referenslista.
+  (c) **"Näst bästa modellen"** framhållen: flaggskeppet ~5× dyrare per token
+  för en knappt mätbar skillnad – i "Vad kostar nyttan?" och i slutsatsen.
+  (d) **Omdömena tydliggjorda**: per-facett-motivering under tabellen +
+  utkastrutan och tabellen länkar till `research-underlag.md` (nytt avsnitt
+  "Omdomen 1-5") och `kostnadskalkyl-35h.md`.
+  (e) **Romohs LinkedIn-kortlänk** (`lnkd.in/p/efrssr5X`) inlagd i löptext och
+  referenslista; noterat att den resolvar till ett `linkedin.com/posts/osamaa_…`-
+  inlägg som kräver inloggning.
+  (f) **Fräscha-ögon-genomläsning (Regel 7)**: röst-skylten bantad från 5 till
+  3 (tog bort ett overifierat Peter Yang-citat och ett syntetiserat "kör
+  båda"-citat – Regel 3; "kör båda" flyttat till prosa); "hand it a task"-
+  karaktäriseringen omformulerad från falskt namngivet citat till allmän
+  beskrivning; 5.3 Codex Spark struket för att inte krocka med "5.3-codex
+  avvecklad".
