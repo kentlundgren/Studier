@@ -1,8 +1,8 @@
 # SPEC – Syn på lärande nr 2 ("Vad betyder 'bäst' när modellen skriver koden?")
 
-**Status:** KLAR v1.0 – alla frågor besvarade 2026-09-09. Redo för build-passet
-(research + källverifiering först).
-**Skapad:** 2026-09-09 · **Ändrad:** 2026-09-09 (v1.0)
+**Status:** KLAR v1.1 – alla frågor besvarade. Research (pass 1 + 2) gjord, se
+`research-underlag.md`. Kents två skärmdumpar inarbetade i Dimension 2b.
+**Skapad:** 2026-09-09 · **Ändrad:** 2026-09-09 (v1.1)
 **Hör till:** [`PRD_nr2_ai-kodmodeller.md`](PRD_nr2_ai-kodmodeller.md) (v0.4)
 
 ---
@@ -26,14 +26,22 @@ synpalarande/Nr2/
 ├── script.js                      # progressiv förbättring: ihopfällbar referenslista,
 │                                   #   teknik-modal, ev. citat-skylt. Sidan fungerar utan.
 ├── jamforelse-roster.md           # "andras röster"-underlaget (avsnitt 7)
+├── research-underlag.md           # finns – råmaterial + källor, ej för publik
 ├── PRD_nr2_ai-kodmodeller.md       # finns
 ├── SPEC.md                        # denna fil
 ├── linkedin-romoh-gpt6-astra.md   # finns
+├── Bilder/
+│   ├── Claude_app_260909.jpg      # finns – skärmdump Claude-appen (Code-fliken)
+│   └── Codex_app_260909.jpg       # finns – skärmdump ChatGPT/Codex-appen (Work-fliken)
 └── README.md                      # enligt Regel 9 (avsnitt 10)
 ```
 
-Inga andra filer. Inga bilder om de inte tillför något konkret; i så fall i
-`Nr2/Bilder/` som i Nr1, med verifierad licens.
+**Bilderna** används som figurer i Dimension 2b (avsnitt 4). De är Kents egna
+skärmdumpar av de två apparna som de ser ut när man är inne i dem – inte en
+komplett kartläggning av alla ytor. **Integritet: före publicering ska Kents
+egna sidopaneler (sessions-/projektlistor) beskäras eller suddas bort** –
+Claude-appens skärmdump visar annars ett tjugotal av Kents privata
+sessionsrubriker (flera avslöjar jobbsökande). Se avsnitt 11.
 
 ## 3. Sidans skelett – avsnitt, ordning, ankare
 
@@ -86,6 +94,13 @@ Varje dimension i `index.html` följer samma inre mall:
 
 Dimension 2 ska **både beskriva** klientskillnaderna **och sluta i en
 rekommendation** om vad Kent bör köra vid sidan av Cursor.
+
+**2b illustreras med Kents två skärmdumpar** (`Bilder/Claude_app_260909.jpg`,
+`Bilder/Codex_app_260909.jpg`), sida vid sida med en bildtext som pekar ut
+kontrasten: Claude-appen sätter repo/gren/worktree + förbrukningsmätning främst;
+Codex-appen är avskalad och sätter "Godkänn åt mig" + projektval främst. Beskär
+sidopanelerna bort först (avsnitt 11). Bildtext i Kents röst måste vara sann –
+det är hans skärmdumpar och hans intryck (Regel 13).
 
 ## 5. Bedömningsmodell – förslag på "nytta"-frågan
 
@@ -311,6 +326,7 @@ har `Studier` öppet:
 | Bara en källa för en skillnad | nytta-siffran stannar på 3; skillnaden redovisas som "en röst, inte en trend" |
 | Kent har inga egna kostnadssiffror | Tydligt märkt hypotes + uträkning |
 | Codex-klienten Kent bör välja är oklar även efter research | Beskriv skillnaderna, ge en villkorad rekommendation ("om X väger tyngst → …") snarare än ingen |
+| Skärmdumparna i `Bilder/` visar Kents privata sidopaneler | **Beskär eller sudda bort vänsterpanelens sessions-/projektlistor** innan bilden läggs i `index.html`. Behåll bara huvudytan (modellväljare, flikar, "Godkänn åt mig" / repo-rad, dashboard). Publicera aldrig obeskuren – Claude-appens panel avslöjar jobbsökar-rubriker. |
 
 ## 12. Utanför scope
 
@@ -359,6 +375,10 @@ källverifiering först).
 - 2026-09-09 (v1.0): De två sista frågorna besvarade. Indexraden: **ja**.
   Tabellens placering: **eget avsnitt `#Overblick`** (efter dimensionerna, före
   slutsatsen) med en hänvisningsrad nära toppen. SPEC:en klar för build-passet.
+- 2026-09-09 (v1.1): Research pass 1 + 2 gjord (`research-underlag.md`). Kents
+  två app-skärmdumpar (`Bilder/`) inarbetade som figurer i Dimension 2b, med
+  integritetskrav (beskär sidopanelerna) i avsnitt 2, 4 och 11. Fil-listan
+  uppdaterad.
 - 2026-09-09 (v0.1): Skapad. Förslag på PRD:ns två sista öppna frågor: "nytta"
   = subjektivt omdöme 1–5 med källkrav + konkret kostnad + kvot som resonemang
   och illustrativ indexrad (avsnitt 5); bedömningsform = prosa som huvudform +
