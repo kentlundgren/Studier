@@ -352,6 +352,13 @@ här PRD:n:
   neutral överblickstabell, röst-skylt, ihopfällbar annoterad referenslista,
   de två app-skärmdumparna). Sidan är ett **utkast** – 1–5-omdömena är
   preliminära, två abonnemangsuppgifter overifierade.
+- 2026-09-09 (v0.10): Klick-för-större på app-bilderna (JS-lightbox, funkar utan
+  JS som vanlig bildlänk). Claude-bildens sidopanel suddad i den förstorade
+  versionen (`Bilder/Claude_app_260909_stor.jpg` – **ny fil, ej committad än**).
+  Bildtexterna länkar till claude.com/download resp. chatgpt.com/download +
+  Codex-dokumentationen. Prominent länk till `jamforelse-roster.md` (GitHub blob)
+  efter röst-skylten; källänkar tillagda i skyltens citat och i röst-tabellen i
+  `jamforelse-roster.md` (ny "Källa"-kolumn).
 - 2026-09-09 (v0.9): Kents runda 2 på den byggda sidan.
   (a) **Inline-referenser** – varje källas första hänvisning nu länkad i
   löptext (Regel 2). Referenslistan 10 poster, alfabetisk, annoterad.

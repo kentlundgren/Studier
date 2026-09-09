@@ -32,7 +32,8 @@ synpalarande/Nr2/
 ├── SPEC.md                        # denna fil
 ├── linkedin-romoh-gpt6-astra.md   # finns
 ├── Bilder/
-│   ├── Claude_app_260909.jpg      # finns – skärmdump Claude-appen (Code-fliken)
+│   ├── Claude_app_260909.jpg      # finns – skärmdump Claude-appen (Code-fliken), miniatyr
+│   ├── Claude_app_260909_stor.jpg # finns – samma bild, sidopanelen suddad, för lightbox
 │   └── Codex_app_260909.jpg       # finns – skärmdump ChatGPT/Codex-appen (Work-fliken)
 └── README.md                      # enligt Regel 9 (avsnitt 10)
 ```

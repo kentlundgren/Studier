@@ -85,6 +85,7 @@ Nr2/
 ├── script.js                      # ihopfällbar referenslista, teknik-modal, röst-skylt, bild-förstoring
 ├── Bilder/
 │   ├── Claude_app_260909.jpg      # skärmdump: Claude-appen (Code-fliken)
+│   ├── Claude_app_260909_stor.jpg # samma bild med suddad sidopanel, visas vid klick
 │   └── Codex_app_260909.jpg       # skärmdump: ChatGPT/Codex-appen (Work-fliken)
 ├── linkedin-romoh-gpt6-astra.md   # startpunkten, transkriberad
 ├── research-underlag.md           # råmaterial + källor (pass 1 + 2)
