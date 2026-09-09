@@ -46,9 +46,11 @@ anges.
    motsvarar ungefär **ett läsårs kunskaper** enligt OECD:s tumregel (s. 72).
 2. **Naturvetenskap**: ingen signifikant nedgång sedan 2022. Men i ett längre
    perspektiv syns en nedgång även här (s. 8, 72).
-3. **Sverige ligger nu PÅ OECD-snittet i alla tre ämnena.** Vid mätningen
-   2022 låg Sverige *över* OECD-snittet i samtliga tre. Marginalen är alltså
-   uppäten (s. 8, 72).
+3. **Sverige ligger nu PÅ OECD-snittet i alla tre ämnena.** I poäng ligger
+   Sverige någon enhet över (naturvetenskap 485 mot 482, läsförståelse 466 mot
+   461, matematik 464 mot 463), men ingen av skillnaderna är statistiskt
+   säkerställd. Vid mätningen 2022 låg Sverige *över* OECD-snittet i samtliga
+   tre. Marginalen är alltså uppäten (s. 8, 72).
 
 **Nedgången är bred, inte svensk.** I läsförståelse har 28 av 37 jämförbara
 OECD-länder försämrats sedan 2022, i matematik 22 av 37. Även Singapore, som
