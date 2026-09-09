@@ -999,3 +999,25 @@ a:hover { color: var(--accent-strong); }
   padding: 0.2rem 0.5rem;
 }
 .lightbox__close:hover { color: var(--accent-strong); }
+
+/* Språkväxlare, fast uppe till höger */
+.langbtn {
+  position: fixed;
+  top: 14px;
+  right: 14px;
+  z-index: 45;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  color: var(--ink-faint);
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 7px;
+  padding: 0.34rem 0.55rem;
+  text-decoration: none;
+  opacity: 0.75;
+  transition: opacity 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+.langbtn:hover,
+.langbtn:focus-visible { opacity: 1; border-color: var(--accent); color: var(--accent); }
+.langbtn b { color: var(--ink); font-weight: 700; }

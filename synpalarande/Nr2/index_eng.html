@@ -1,0 +1,686 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What does "best" mean when the model writes the code? On learning no. 2</title>
+<meta name="description" content="A comparison of Claude and OpenAI/Codex for coding – coding ability, harness and price per token – and why 'best' depends on which question you ask. Figures as of September 2026.">
+<link rel="alternate" hreflang="sv" href="index.html">
+<link rel="alternate" hreflang="en" href="index_eng.html">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<article class="page">
+
+  <header class="page__header">
+    <p class="kicker">On learning &middot; No. 2</p>
+    <h1>What does &rdquo;best&rdquo; mean when the model writes the code?</h1>
+    <p class="lead">A reading of a LinkedIn post claiming GPT&#8209;6 had overtaken
+    Claude &ndash; and an attempt to weigh coding ability, harness and price
+    against each other without pretending there is a definitive answer.</p>
+    <p class="byline">Kent Lundgren &middot; 9 September 2026 &middot; figures as of September 2026</p>
+  </header>
+
+  <div class="prose">
+
+    <div class="draftnote">
+      <span class="draftnote__flag">About the numbers</span>
+      <p>I have made my own assessment, 1&ndash;5 per facet, in the overview
+      below. It is my judgement, not a measurement &ndash; and it can of course
+      change as the evidence improves. The reasoning behind each number, with
+      sources, is in the
+      <a href="https://github.com/kentlundgren/Studier/blob/main/synpalarande/Nr2/research-underlag.md#omdomen-1-5-utgangspunkt-att-frysa" target="_blank" rel="noopener">research notes</a>,
+      and the full cost arithmetic in the
+      <a href="https://github.com/kentlundgren/Studier/blob/main/synpalarande/Nr2/kostnadskalkyl-35h.md" target="_blank" rel="noopener">cost calculation</a>
+      (both in Swedish). A couple of subscription figures have not been checked
+      against the companies' own help pages.</p>
+    </div>
+
+    <p class="jump">If you just want the summary: skip to
+    <a href="#Overview">the overview</a>.</p>
+
+    <p>A post by Osama Romoh on LinkedIn
+    (<a href="https://lnkd.in/p/efrssr5X" target="_blank" rel="noopener">Romoh, 2026</a>)
+    caught my eye in my feed. The headline was roughly:
+    <em>&rdquo;I love Claude, but GPT&#8209;6 Astra blew Fable 5 out of the water
+    for me.&rdquo;</em> He had used Claude for a long time, was surprised by
+    OpenAI's new model, and bought ChatGPT Pro <em>alongside</em> his
+    Claude&nbsp;Max subscription. So he kept both.</p>
+
+    <p>I do a fair amount of coding with generative AI these days &ndash; small
+    web pages and tools, this page is one example, and I have collected a few
+    others in a presentation of my own
+    (<a href="https://kentlundgren.github.io/AI-teknik/Presentationer/Nr1/" target="_blank" rel="noopener">Lundgren, 2026b</a>).
+    How I usually work when I code with a model &ndash; from requirements
+    document to published page &ndash; I have described in what I call the
+    Claude compass
+    (<a href="https://kentlundgren.github.io/AI-teknik/AI_modeller/Claude/olika_Claude_modeller/" target="_blank" rel="noopener">Lundgren, 2026a</a>).
+    That is where this comparison fits: the toolchain around it is the same
+    regardless of model, and what I am weighing is which coding engine sits
+    inside it.</p>
+
+    <p>I have settled on Claude Code. So Romoh's post nagged at me. Is
+    GPT&#8209;6 better? And what do we even mean by better, when the tool writes
+    part of the code for us? That is the question I wanted to dig into, with my
+    own view of knowledge as the lens.</p>
+
+    <h2 id="ThePost">What the post says <a class="anchor" href="#ThePost" aria-label="Link to this section">#</a></h2>
+
+    <p>Romoh's point is narrower than the headline. He does not write about code
+    quality and he shows no numbers. What he is taken with is that GPT&#8209;6
+    <em>follows instructions more closely</em>: ask for a short answer and you
+    get a short answer, not five paragraphs explaining why the answer is short.
+    &rdquo;Astra has been really, really good at giving me what I actually asked
+    for&rdquo;, he writes, adding that it matters when you use the models for
+    real work and do not want to keep reminding them of instructions you have
+    already given.</p>
+
+    <p>It is a subjective working impression on a single dimension. But it works
+    as a starting point, because it opens the three questions I find
+    interesting: can it code, how do you steer it, and what does the value cost.
+    Before that, one thing that made the whole comparison trickier than I
+    expected.</p>
+
+    <h2 id="WhichModel">Which model are we even talking about? <a class="anchor" href="#WhichModel" aria-label="Link to this section">#</a></h2>
+
+    <p>When I set out to find what was actually the case, I noticed that the
+    question &rdquo;which model&rdquo; has no simple answer, and that this is
+    itself part of the problem.</p>
+
+    <p>The models do not stand still. The companies upgrade often, and every
+    upgrade gets a new name or number. On the Claude side there are names
+    <em>and</em> numbers side by side right now: Fable&nbsp;5.1, Mythos&nbsp;5.1,
+    Opus&nbsp;5 (with 4.8, 4.7, 4.6, 4.5 still in the price list), Sonnet&nbsp;5,
+    Haiku&nbsp;4.5. On the OpenAI side there is GPT&#8209;6 Astra (released
+    3 September 2026), three variants of GPT&#8209;5.6 called Sol, Terra and
+    Luna, and the previous flagship 5.5. A code-specific model, 5.3&#8209;codex,
+    has already been retired. GPT&#8209;5.4 was retired on 31 August, and if you
+    had it saved in a configuration file you had to swap it for 5.6&#8209;terra
+    yourself.</p>
+
+    <p>The names also hide what is running. &rdquo;GPT&#8209;6&rdquo;,
+    &rdquo;Claude Code&rdquo; and &rdquo;Codex&rdquo; are not models but families
+    or products. The screenshot in front of me said &rdquo;GPT&#8209;6 Astra
+    Low&rdquo; &ndash; that is model, variant and effort level stacked into one
+    label. And which underlying model actually answers can be swapped or
+    re-routed without my noticing.</p>
+
+    <p>So every figure in this text is dated &rdquo;as of September 2026&rdquo;,
+    and &rdquo;which model is actually being used&rdquo; is not a footnote but
+    part of the answer. It reminds me of something I keep coming back to about
+    tests and grades: the measure is a choice, not a law of nature &ndash; and
+    here even the thing being measured changes its name faster than you can get
+    used to it.</p>
+
+    <h2 id="CanItCode">Can it code? <a class="anchor" href="#CanItCode" aria-label="Link to this section">#</a></h2>
+
+    <p>Short answer: both can, roughly equally well, and the benchmarks are
+    having a hard time telling them apart any more.</p>
+
+    <p>It is usually measured with tests like SWE&#8209;bench Verified (solve
+    real GitHub issues) and Terminal&#8209;Bench (handle messy terminal tasks).
+    An independent index from Artificial Analysis, published the same day
+    GPT&#8209;6 came out
+    (<a href="https://artificialanalysis.ai/articles/benchmarking-gpt-6-astra" target="_blank" rel="noopener">Artificial Analysis, 2026</a>),
+    puts Claude Fable&nbsp;5.1 in Claude Code at 70 and GPT&#8209;6 Astra at 67
+    &ndash; a tie in practice, and Opus&nbsp;5 is at the same level. On another
+    agentic coding test, DeepSWE, GPT&#8209;6 is described as &rdquo;a tie, not a
+    takeover&rdquo;. Where Astra wins clearly is on Terminal&#8209;Bench 4.0,
+    that is, long, messy terminal work with error recovery.</p>
+
+    <p>A sign of how blunt the measuring stick has become: when Anthropic
+    presented Opus&nbsp;5
+    (<a href="https://www.anthropic.com/news/claude-opus-5" target="_blank" rel="noopener">Anthropic, 2026a</a>)
+    they did not even mention SWE&#8209;bench Verified, leading instead with
+    other tests and with cost per task. The top models are so close that the
+    test is saturated. And Terminal&#8209;Bench exists in at least three
+    versions at once, with different winners. Which test you pick is itself a
+    position.</p>
+
+    <p>There is a faint quality edge in Claude's favour. In Prathit Joshi's
+    review, where he ran both for over a hundred hours
+    (<a href="https://composio.dev/content/claude-code-vs-openai-codex" target="_blank" rel="noopener">Joshi, 2026</a>),
+    blind reviewers rated Claude's code cleaner in two cases out of three, even
+    when he himself preferred Codex day to day. But that is one voice, not a
+    trend, and I do not read more into it than that.</p>
+
+    <h2 id="Harness">How do you steer it? <a class="anchor" href="#Harness" aria-label="Link to this section">#</a></h2>
+
+    <p>This &ndash; harness, how the model is connected to your files, tools and
+    instructions &ndash; is to my mind the most interesting dimension, and the
+    one Romoh is really onto. I split it in two: what is there, and how it
+    feels.</p>
+
+    <h3 id="HarnessMechanism">What is there <a class="anchor" href="#HarnessMechanism" aria-label="Link to this section">#</a></h3>
+
+    <p>Claude Code
+    (<a href="https://code.claude.com/docs/en/overview" target="_blank" rel="noopener">Anthropic, 2026b</a>)
+    reads a <code>CLAUDE.md</code> in the project at the start of every session,
+    builds its own memory between sessions, can be extended with
+    &rdquo;skills&rdquo; and &rdquo;hooks&rdquo; (shell commands before or after
+    an action), connects to external tools via MCP, and runs several sub-agents
+    in parallel. It is available in the terminal, in VS Code and Cursor, in
+    JetBrains, in a standalone desktop app and in the browser &ndash; and the
+    same <code>CLAUDE.md</code> and the same settings apply everywhere.</p>
+
+    <p>Codex
+    (<a href="https://learn.chatgpt.com/docs" target="_blank" rel="noopener">OpenAI, 2026b</a>)
+    reads an <code>AGENTS.md</code> with layered overrides, has configuration
+    files, supports MCP, and now shares the same &rdquo;skills&rdquo; standard as
+    Claude. It is available as an open-source CLI, an IDE extension, a cloud
+    service, in the ChatGPT app and on the web.</p>
+
+    <p>In other words: the mechanics are converging. A year ago the difference
+    was clearer; now both support the same tool standard and the same connection
+    protocol. Claude still has more documented primitives that are its own
+    &ndash; the automatic memory, hooks &ndash; but the gap has narrowed.</p>
+
+    <h3 id="HarnessFeel">How it feels <a class="anchor" href="#HarnessFeel" aria-label="Link to this section">#</a></h3>
+
+    <p>Here there is a genuine dividing line, and it is about philosophy more
+    than features. Claude Code is interactive: it shows its reasoning and asks
+    at decision points. Codex leans towards the autonomous: you hand over a task
+    and get back an implementation. The difference is usually described roughly
+    like this: Claude Code is like a colleague who keeps telling you what it is
+    doing; Codex is more &rdquo;hand over a task, get the solution back&rdquo;.
+    Neither is wrong &ndash; it depends on what you want.</p>
+
+    <p>You can see it in the apps. Here are the two, side by side (click for a
+    larger image; the screenshots show the Swedish interface):</p>
+
+    <div class="figpair">
+      <figure>
+        <a class="figpair__zoom" href="Bilder/Claude_app_260909.jpg">
+          <img src="Bilder/Claude_app_260909.jpg" alt="The Claude app, Code tab: heading &rdquo;What's up next, Kent?&rdquo;, a usage dashboard with sessions, messages and tokens, and a row with Local, Studier, main and worktree.">
+        </a>
+        <figcaption><b>Claude app</b> (Code tab). Repo, branch and worktree are
+        up front, and the app has a built-in meter for how much I have consumed.
+        In the sidebar: Artifacts, Routines, Dispatch. Git-oriented, and
+        cost-aware. The app &ndash; which includes Claude Code &ndash; is
+        downloaded from
+        <a href="https://claude.com/download" target="_blank" rel="noopener">claude.com/download</a>.</figcaption>
+      </figure>
+      <figure>
+        <a class="figpair__zoom" href="Bilder/Codex_app_260909.jpg">
+          <img src="Bilder/Codex_app_260909.jpg" alt="The ChatGPT/Codex app, Work tab: &rdquo;What shall we work on?&rdquo;, a button &rdquo;Approve for me&rdquo; and the model selector GPT-6 Astra Low.">
+        </a>
+        <figcaption><b>Codex app</b> (ChatGPT desktop, Work tab). Stripped down.
+        &rdquo;Approve for me&rdquo; &ndash; an auto-approval mode &ndash; and
+        &rdquo;Choose project&rdquo; are up front. Delegate-and-trust. The
+        ChatGPT app is downloaded from
+        <a href="https://chatgpt.com/download" target="_blank" rel="noopener">chatgpt.com/download</a>;
+        the Codex CLI and IDE extension are described in
+        <a href="https://learn.chatgpt.com/docs" target="_blank" rel="noopener">OpenAI's Codex documentation</a>.</figcaption>
+      </figure>
+    </div>
+
+    <p>Both apps by now have projects, scheduled tasks, plugins and cloud
+    execution. The difference is what they foreground. And for me it matters: I
+    use Cursor to handle Git and GitHub regardless of model, so what I am
+    comparing is which <em>coding engine</em> I run alongside Cursor. A CLI or an
+    IDE extension that works against the same local files fits that chain better
+    than an app with its own, more walled-off project space.</p>
+
+    <h2 id="PriceValue">What does the value cost? <a class="anchor" href="#PriceValue" aria-label="Link to this section">#</a></h2>
+
+    <p>My rule of thumb is simple: if a model costs twice as much it should be
+    twice as good, otherwise it is worse value &ndash; quality is value divided
+    by cost. It forces the question of <em>how much capacity I actually
+    need</em>.</p>
+
+    <p>The flagships are priced identically: both Claude Fable&nbsp;5.1 and
+    GPT&#8209;6 Astra cost 10 dollars per million input tokens and 50 dollars per
+    million output tokens
+    (<a href="https://platform.claude.com/docs/en/about-claude/pricing" target="_blank" rel="noopener">Anthropic, 2026c</a>;
+    <a href="https://developers.openai.com/api/docs/pricing" target="_blank" rel="noopener">OpenAI, 2026a</a>).
+    Three things break the symmetry anyway. Claude's newer models use a
+    tokenizer that produces about 30&nbsp;% more tokens for the same text, so
+    the same task costs more than the list price suggests. Astra doubles the
+    price at long context; Fable does not. And Astra is a step up in price from
+    the previous generation &ndash; but on the other hand uses fewer tokens per
+    coding task, which partly offsets it.</p>
+
+    <p>Go down a level &ndash; to &rdquo;good but not best&rdquo;, that is Claude
+    Sonnet&nbsp;5 vs GPT&#8209;5.6 Terra &ndash; and it gets cheaper and nearly
+    even: about 2 dollars per million input and 10&ndash;12 per million output
+    for both. And it is worth pausing on, because it seems to hold generally:
+    <strong>the flagship costs about five times as much per token as the mid
+    tier, for a difference in coding ability the benchmarks can barely
+    measure.</strong> The second-best model is rarely much worse &ndash; but
+    almost always much cheaper.</p>
+
+    <p>Working from a full-time scenario &ndash; 35 hours of coding a week (five
+    a day, every day of the week), about 150 active hours a month &ndash; with a
+    written-out assumption about how many tokens an active hour uses (just over
+    two million, mostly cheap cache reads): raw API cost lands at an unreasonable
+    level, around 10,000 kronor (SEK) a month for the flagship. Nobody pays that.
+    You run a subscription and hit the limits. And here is how it looks, as far
+    as I could verify it against tests and user reports
+    <span class="prov">not against the companies' own help pages</span>:</p>
+
+    <ul>
+      <li>With <strong>full-time use of the flagship</strong> you blow through
+      the Claude subscription's weekly limits and pay expensive API metering for
+      the excess &ndash; maybe 7,000 kronor a month. ChatGPT/Codex is described
+      as rarely hitting limits even under heavy use &ndash; maybe 2,300 kronor.
+      Anthropic has raised Claude Code's limits several times during 2026, which
+      says something about them having been a problem.</li>
+      <li>With a <strong>mid-tier model that fits within the subscription</strong>
+      it is about 1,000&ndash;2,000 kronor a month for both.</li>
+    </ul>
+
+    <p>An observation that simplified the arithmetic: harness sits in the client,
+    not in the model. If I switch from Fable to Sonnet I am still in the same
+    Claude Code with the same <code>CLAUDE.md</code>. So it is only coding
+    ability and cost that change when you switch model tier &ndash; not how it
+    feels to steer.</p>
+
+    <h2 id="Overview">Overview <a class="anchor" href="#Overview" aria-label="Link to this section">#</a></h2>
+
+    <p>The 1&ndash;5 figures below are my own assessment, not a measurement:
+    <b>3</b>&nbsp;=&nbsp;comparable and enough, <b>4</b>&nbsp;=&nbsp;noticeably
+    better, <b>2</b>&nbsp;=&nbsp;noticeably worse. I only depart from 3 where I
+    have at least two independent sources. The harness rows are about the client
+    and do not change with the model tier.</p>
+
+    <div class="compare compare--neutral">
+      <div class="compare__scroll">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Facet</th>
+              <th scope="col">Claude Code</th>
+              <th scope="col">OpenAI / Codex</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Coding ability</th>
+              <td class="num">3</td>
+              <td class="num">3</td>
+            </tr>
+            <tr>
+              <th scope="row">Harness &ndash; what is there</th>
+              <td class="num">4</td>
+              <td class="num">3</td>
+            </tr>
+            <tr>
+              <th scope="row">Harness &ndash; how it feels</th>
+              <td class="num">3</td>
+              <td class="num">3</td>
+            </tr>
+            <tr class="sum">
+              <th scope="row">Value, average</th>
+              <td class="num">3.3</td>
+              <td class="num">3.0</td>
+            </tr>
+            <tr>
+              <th scope="row">Cost, flagship full-time</th>
+              <td class="num">~7,000 kr/mo</td>
+              <td class="num">~2,300 kr/mo</td>
+            </tr>
+            <tr>
+              <th scope="row">Cost, mid tier within plan</th>
+              <td class="num">~1,100 kr/mo</td>
+              <td class="num">~1,000 kr/mo</td>
+            </tr>
+            <tr class="index">
+              <th scope="row">Value per krona &ndash; flagship</th>
+              <td class="num">100</td>
+              <td class="num">~270</td>
+            </tr>
+            <tr class="index">
+              <th scope="row">Value per krona &ndash; mid tier</th>
+              <td class="num">~114</td>
+              <td class="num">100</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="scale-legend">
+        <b>Value per krona</b> is value divided by cost, indexed so the lowest
+        in each row is 100. It is <em>illustrative</em> &ndash; the numerator is
+        my judgement, not a measurement. The costs are my estimate for
+        35&nbsp;h/week, in Swedish kronor (SEK); the full calculation and all
+        assumptions are in
+        <a href="https://github.com/kentlundgren/Studier/blob/main/synpalarande/Nr2/kostnadskalkyl-35h.md" target="_blank" rel="noopener">kostnadskalkyl-35h.md</a>
+        (in Swedish).
+      </p>
+    </div>
+
+    <p>Here is how I think about the three assessments, and where the reasoning
+    is in full
+    (<a href="https://github.com/kentlundgren/Studier/blob/main/synpalarande/Nr2/research-underlag.md#omdomen-1-5-utgangspunkt-att-frysa" target="_blank" rel="noopener">the research notes</a>,
+    in Swedish):</p>
+
+    <ul>
+      <li><strong>Coding ability, 3 vs 3.</strong> The independent index reads
+      70 to 67, DeepSWE is called &rdquo;a tie&rdquo;, and Codex wins
+      Terminal&#8209;Bench 4.0. None of the measurements gives a two-source
+      basis for putting either above the other.</li>
+      <li><strong>Harness &ndash; what is there, 4 vs 3.</strong> Claude Code's
+      own documentation lists more primitives that are its own (automatic
+      memory, hooks, Agent SDK) on top of what both now share. It is the only
+      number I have put above 3, and the one I am least sure of.</li>
+      <li><strong>Harness &ndash; how it feels, 3 vs 3.</strong> A real
+      difference in style, but fit rather than better or worse. My own leaning
+      is towards the interactive one; a referenced survey says most people
+      prefer Codex day to day.</li>
+    </ul>
+
+    <p>The story the table lands on: <strong>capability is roughly even, and
+    price decides.</strong> If you require the flagship and run full-time, Codex
+    gives close to three times more value per krona. If you settle for a good
+    mid-tier model and stay within the subscription it is nearly even, with a
+    hair's-breadth edge to Claude &ndash; because then the harness advantage
+    outweighs the small price difference.</p>
+
+    <h2 id="OtherVoices">Other voices <a class="anchor" href="#OtherVoices" aria-label="Link to this section">#</a></h2>
+
+    <p>The debate is ongoing, and it leans Codex-positive right now &ndash; but
+    with a recurring caveat about code quality, and with the advice not to
+    choose at all: Claude Code for architecture and planning, Codex for tight
+    implementation, both on the table. Three voices:</p>
+
+    <div class="voices" aria-label="Voices on Claude vs Codex">
+      <p class="voices__kicker">Three voices</p>
+      <div class="voices__frame">
+        <ul class="voices__list" id="voicesList">
+          <li class="voices__item is-active">
+            <blockquote>Astra has been really, really good at giving me what I
+            actually asked for.</blockquote>
+            <cite>Osama Romoh,
+            <a href="https://lnkd.in/p/efrssr5X" target="_blank" rel="noopener">LinkedIn</a>,
+            September 2026 &ndash; on instruction-following. Bought ChatGPT Pro
+            but kept Claude Max.</cite>
+          </li>
+          <li class="voices__item">
+            <blockquote>If someone made me uninstall one today, it's not Codex.</blockquote>
+            <cite>Prathit Joshi,
+            <a href="https://composio.dev/content/claude-code-vs-openai-codex" target="_blank" rel="noopener">the Composio blog</a>,
+            August 2026 &ndash; after 100+ hours with both. Codex won 3&ndash;2,
+            but blind reviewers rated Claude's code cleaner.</cite>
+          </li>
+          <li class="voices__item">
+            <blockquote>An often-cited developer survey: 65&nbsp;% prefer Codex
+            day to day, but blind-reviewed code is rated cleaner for Claude.</blockquote>
+            <cite>Referenced via several secondary sources, 2026. The original
+            survey has not been traced &ndash; included as second-hand.</cite>
+          </li>
+        </ul>
+      </div>
+      <div class="voices__controls">
+        <button type="button" class="voices__toggle" id="voicesToggle">Pause</button>
+        <div class="voices__dots" id="voicesDots" aria-hidden="true"></div>
+      </div>
+      <figcaption>The panel rotates on its own. Without JavaScript the three
+      quotes show as a list.</figcaption>
+    </div>
+
+    <p><strong>The full compilation</strong> &ndash; every voice, what each one
+    claims, which dimension it concerns, my comment, and a direct link to each
+    source &ndash; is in
+    <a href="https://github.com/kentlundgren/Studier/blob/main/synpalarande/Nr2/jamforelse-roster.md" target="_blank" rel="noopener">jamforelse-roster.md</a>
+    (in Swedish). It also has a ready-made search prompt for finding more voices
+    when it is time to update.</p>
+
+    <h2 id="WhereILand">Where I land <a class="anchor" href="#WhereILand" aria-label="Link to this section">#</a></h2>
+
+    <p>I am not going to switch away from Claude Code. But not because it is
+    &rdquo;best&rdquo; in any absolute sense &ndash; rather because the
+    interactive style, the model showing how it thinks and asking at decision
+    points, suits how I want to work. It is the same reason I am liberal about
+    using AI when I am learning something: the difference that matters is
+    between a tool that explains until I understand and one that delivers so I
+    do not have to. A model that reasons out loud invites the first.</p>
+
+    <p>And my view of knowledge makes me suspicious of the benchmark contest
+    itself. A test for code carries a view of knowledge just as a national exam
+    does: it decides what counts as knowing. When Anthropic stops leading with
+    SWE&#8209;bench because it is saturated, and OpenAI wins a different
+    measurement instead, that says more about which test you pick than about
+    which model is best. &rdquo;Best&rdquo; is a moving target, not least because
+    the thing being measured changes its name faster than you can get used to
+    it.</p>
+
+    <p>The question &rdquo;twice as expensive, twice as good?&rdquo; has a
+    clearer answer, and it is maybe the text's most useful conclusion: for most
+    of what I do I do not need the flagship. The second-best model &ndash;
+    Sonnet&nbsp;5 or GPT&#8209;5.6 Terra &ndash; is barely worse at what I ask of
+    it, but costs about a fifth. And then the choice between Claude and Codex is
+    almost a matter of taste &ndash; what separates them is how you want the
+    tool to behave, not whether it can do the job.</p>
+
+    <p>What Romoh's post really showed was maybe not that GPT&#8209;6 is better,
+    but that a seasoned Claude user chose to pay for <em>both</em>. The answer
+    was &rdquo;yes please&rdquo;, not &rdquo;either/or&rdquo;. It is a picture of
+    the question, not a verdict.</p>
+
+  </div>
+
+  <section class="refs" aria-labelledby="References">
+    <div class="refs__bar">
+      <h2 id="References">References <a class="anchor" href="#References" aria-label="Link to this section">#</a></h2>
+      <button type="button" class="refs__toggle" id="refsToggle" aria-expanded="true" aria-controls="refs-list">
+        <span class="refs__toggle-text">Hide references</span>
+        <span class="refs__count">10</span>
+      </button>
+    </div>
+
+    <p class="refs__note">Harvard style. Links were opened and checked on
+    2026-09-09. All figures are dated &rdquo;as of September 2026&rdquo; because
+    prices and models change quickly. The italic parenthesis explains why the
+    source is included. The first reference to each source is linked in the
+    running text above.</p>
+
+    <div class="refs__list" id="refs-list">
+
+      <p id="ref-anthropic-opus5">Anthropic (2026a) <em>Claude Opus 5</em>.
+      News, 24 July 2026. Available at:
+      <a href="https://www.anthropic.com/news/claude-opus-5" target="_blank" rel="noopener">https://www.anthropic.com/news/claude-opus-5</a>
+      (accessed 2026-09-09).
+      <em>(Anthropic's own presentation of Opus 5. Does not mention SWE-bench
+      Verified, leading instead with other tests and with cost per task &ndash;
+      the observation itself that the flagship announcement has moved away from
+      the standard measure.)</em></p>
+
+      <p id="ref-anthropic-code">Anthropic (2026b) <em>Claude Code overview</em>.
+      Product documentation. Available at:
+      <a href="https://code.claude.com/docs/en/overview" target="_blank" rel="noopener">https://code.claude.com/docs/en/overview</a>
+      (accessed 2026-09-09).
+      <em>(Primary source for which surfaces Claude Code has and which harness
+      primitives exist: CLAUDE.md, auto memory, skills, hooks, MCP, sub-agents.
+      The basis for the section &rdquo;What is there&rdquo;.)</em></p>
+
+      <p id="ref-anthropic-pricing">Anthropic (2026c) <em>Pricing</em>.
+      Platform documentation. Available at:
+      <a href="https://platform.claude.com/docs/en/about-claude/pricing" target="_blank" rel="noopener">https://platform.claude.com/docs/en/about-claude/pricing</a>
+      (accessed 2026-09-09).
+      <em>(Primary source for all Claude prices per million tokens, cache
+      prices, and the note that models from 4.7 onwards use a tokenizer that
+      produces ~30&nbsp;% more tokens for the same text.)</em></p>
+
+      <p id="ref-aa-astra">Artificial Analysis (2026) <em>Benchmarking GPT-6
+      Astra</em>. Analysis, 3 September 2026. Available at:
+      <a href="https://artificialanalysis.ai/articles/benchmarking-gpt-6-astra" target="_blank" rel="noopener">https://artificialanalysis.ai/articles/benchmarking-gpt-6-astra</a>
+      (accessed 2026-09-09).
+      <em>(Independent benchmark. The source for Fable&nbsp;5.1 in Claude Code
+      leading their Coding Agent Index at 70 to GPT-6 Astra's 67, and for Astra
+      being more token-efficient on code.)</em></p>
+
+      <p id="ref-composio">Joshi, P. (2026) <em>Claude Code vs Codex: what I
+      learned after 100+ hours with both</em>. The Composio blog, 18 August
+      2026. Available at:
+      <a href="https://composio.dev/content/claude-code-vs-openai-codex" target="_blank" rel="noopener">https://composio.dev/content/claude-code-vs-openai-codex</a>
+      (accessed 2026-09-09).
+      <em>(Hands-on comparison with a stated method. The source for &rdquo;Codex
+      won 3&ndash;2&rdquo;, for blind reviewers rating Claude's code cleaner,
+      for the quote about not uninstalling Codex, and for the practical weight
+      of the subscription limits.)</em></p>
+
+      <p id="ref-lundgren-kompassen">Lundgren, K. (2026a) <em>Claude-kompassen</em>
+      [The Claude compass]. Interactive page, published 29 July 2026. Available
+      at:
+      <a href="https://kentlundgren.github.io/AI-teknik/AI_modeller/Claude/olika_Claude_modeller/" target="_blank" rel="noopener">https://kentlundgren.github.io/AI-teknik/AI_modeller/Claude/olika_Claude_modeller/</a>
+      (accessed 2026-09-09).
+      <em>(My own description of how I work with generative AI when I code
+      &ndash; from requirements document via file handling and choice of
+      workspace to version control and publishing. That process is the frame
+      this comparison happens within. In Swedish.)</em></p>
+
+      <p id="ref-lundgren-presentationer">Lundgren, K. (2026b) <em>AI-projekt,
+      en resa &ndash; version Nr 1</em> [AI projects, a journey &ndash; version
+      No. 1]. Interactive presentation, dated 4 September 2026. Available at:
+      <a href="https://kentlundgren.github.io/AI-teknik/Presentationer/Nr1/" target="_blank" rel="noopener">https://kentlundgren.github.io/AI-teknik/Presentationer/Nr1/</a>
+      (accessed 2026-09-09).
+      <em>(A presentation of some of the programs and pages I have built with
+      generative AI as a tool &ndash; concrete examples of what the process
+      above has led to. In Swedish.)</em></p>
+
+      <p id="ref-openai-pricing">OpenAI (2026a) <em>API Pricing</em>.
+      Developer documentation. Available at:
+      <a href="https://developers.openai.com/api/docs/pricing" target="_blank" rel="noopener">https://developers.openai.com/api/docs/pricing</a>
+      (accessed 2026-09-09).
+      <em>(Primary source for GPT-6 Astra's price, for long context doubling
+      the price, and for the prices of GPT-5.6 Sol, Terra and Luna.)</em></p>
+
+      <p id="ref-openai-codex">OpenAI (2026b) <em>Codex documentation</em>
+      (including <em>Models</em>). Available at:
+      <a href="https://learn.chatgpt.com/docs" target="_blank" rel="noopener">https://learn.chatgpt.com/docs</a>
+      (accessed 2026-09-09).
+      <em>(Primary source for which clients Codex has &ndash; CLI, IDE
+      extension, cloud, ChatGPT app &ndash; for AGENTS.md and the configuration
+      files, and for the model selector: Astra, Sol, Terra, Luna, and that
+      5.3-codex has been retired and 5.4 pensioned off.)</em></p>
+
+      <p id="ref-romoh">Romoh, O. (2026) <em>&rdquo;I love Claude, but GPT-6
+      Astra blew Fable 5 out of the water for me&rdquo;</em>. Post, LinkedIn,
+      approx. 8 September 2026. Available at:
+      <a href="https://lnkd.in/p/efrssr5X" target="_blank" rel="noopener">https://lnkd.in/p/efrssr5X</a>
+      (short link shared by the author; leads to a LinkedIn post whose address
+      begins <code>linkedin.com/posts/osamaa_i-love-claude-but-gpt-6-astra-blew-fable</code>.
+      The post itself requires a login and was read via a screenshot; the exact
+      date is not verified).
+      <em>(The text the whole piece starts from. It is about instruction-
+      following, not code quality, and contains no numbers.)</em></p>
+
+    </div>
+  </section>
+
+  <footer class="page__footer">
+    <p>Syn på lärande &middot;
+    <a href="https://synpalarande.wordpress.com/" target="_blank" rel="noopener">synpalarande.wordpress.com</a>
+    &middot; <a href="index.html">svenska</a></p>
+  </footer>
+
+</article>
+
+<a class="langbtn" href="index.html" hreflang="sv" aria-label="Läs på svenska">SV&nbsp;&middot;&nbsp;<b>EN</b></a>
+
+<a class="corner corner-left" href="https://github.com/kentlundgren/Studier/tree/main/synpalarande/Nr2" target="_blank" rel="noopener">{ } GitHub</a>
+<button type="button" class="corner corner-right" id="techBtn" aria-label="Technical overview">&lt;/&gt; tech</button>
+
+<div class="modal-overlay" id="techModal" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="tech-title">
+    <button type="button" class="modal__close" id="techClose" aria-label="Close">&times;</button>
+    <h2 id="tech-title">How this page is built</h2>
+    <p class="modal__intro">A short note on the technology behind the page and on
+    how it came about.</p>
+
+    <h3>The technology</h3>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <h4>Three files, no framework</h4>
+        <p>Plain HTML, CSS and JavaScript in three separate files. No React, no
+        build chain, no external libraries. The fonts are the ones already in
+        your browser.</p>
+      </div>
+      <div class="tech-card">
+        <h4>Nothing leaves the page</h4>
+        <p>No server, no analytics, no cookies, no login. JavaScript does four
+        things: collapses the reference list, opens this box, drives the
+        rotating panel of voices, and enlarges the app images on click.</p>
+      </div>
+      <div class="tech-card">
+        <h4>Works without JavaScript</h4>
+        <p>The whole text, the table and every source link work with scripts
+        turned off too. Then the reference list stays open, the panel's three
+        quotes show as a list, and a click on an app image opens the image file
+        in the browser rather than in an overlay.</p>
+      </div>
+      <div class="tech-card">
+        <h4>Built to be linked</h4>
+        <p>Every section and every reference has a stable id, so a single part
+        can be linked to directly &ndash; for example
+        <code>&hellip;/Nr2/index_eng.html#Overview</code>.</p>
+      </div>
+      <div class="tech-card">
+        <h4>The table scrolls sideways</h4>
+        <p>On a narrow screen the overview table can be scrolled sideways in its
+        own box, without the whole page doing so.</p>
+      </div>
+      <div class="tech-card">
+        <h4>Two screenshots</h4>
+        <p>The images of the two apps are my own, taken 9 September 2026. The
+        left panel is kept on purpose &ndash; it shows what the apps actually
+        look like in use. They show the Swedish interface. Click an image for a
+        larger version; the caption links to where each app is downloaded.</p>
+      </div>
+    </div>
+
+    <h3>The method</h3>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <h4>No. 2 of several</h4>
+        <p>The same setup as No. 1: a text as a starting point, arguments in
+        different directions, my own weighing framed as a picture of the
+        question, not a verdict. This time a LinkedIn post about AI for coding.</p>
+      </div>
+      <div class="tech-card">
+        <h4>Prices against primary source</h4>
+        <p>All prices and most of the product information are taken from
+        Anthropic's and OpenAI's own pages and checked on 9 September 2026. Two
+        things could not be verified against a primary source: exact
+        subscription limits (the companies' help pages required a login) and
+        the LinkedIn post itself (requires a login; the short link in the
+        reference list is shared by the author).</p>
+      </div>
+      <div class="tech-card">
+        <h4>The benchmark figures are contested &ndash; on purpose</h4>
+        <p>That the tests diverge is not a flaw in the material, it is the
+        point. An independent index is used where one exists; otherwise it is
+        stated that different measurements give different answers.</p>
+      </div>
+      <div class="tech-card">
+        <h4>The 1&ndash;5 figures are my judgement</h4>
+        <p>They are my own assessment, not a measurement, and they say so in the
+        text. I depart from &rdquo;3 = comparable&rdquo; only where at least two
+        independent sources point the same way. The reasoning for each number,
+        with sources, is in <code>research-underlag.md</code> in the folder
+        (in Swedish).</p>
+      </div>
+      <div class="tech-card">
+        <h4>The supporting material is open</h4>
+        <p>The calculation for 35 hours a week, with all assumptions written
+        out, is in <code>kostnadskalkyl-35h.md</code> on GitHub, and the
+        research walkthrough in <code>research-underlag.md</code>. Both are in
+        Swedish and both are linked from the text.</p>
+      </div>
+      <div class="tech-card">
+        <h4>AI as a tool, not an author</h4>
+        <p>I have used a language model for search, source handling and
+        structure. The positions and the conclusion are mine. It mirrors the
+        same stance the text itself lands on.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button type="button" class="lightbox__close" id="lightboxClose" aria-label="Close">&times;</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<script src="script_eng.js"></script>
+</body>
+</html>
