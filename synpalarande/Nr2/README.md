@@ -82,7 +82,7 @@ Varje referens har dessutom ett eget id (`#ref-anthropic-pricing`,
 Nr2/
 ├── index.html                     # texten
 ├── styles.css                     # från Nr1, med några Nr2-tillägg
-├── script.js                      # ihopfällbar referenslista, teknik-modal, röst-skylt
+├── script.js                      # ihopfällbar referenslista, teknik-modal, röst-skylt, bild-förstoring
 ├── Bilder/
 │   ├── Claude_app_260909.jpg      # skärmdump: Claude-appen (Code-fliken)
 │   └── Codex_app_260909.jpg       # skärmdump: ChatGPT/Codex-appen (Work-fliken)
@@ -95,9 +95,10 @@ Nr2/
 └── README.md                      # den här filen
 ```
 
-Ingen server, inga cookies, inga externa bibliotek. JavaScript används till tre
-saker: fälla ihop referenslistan, öppna teknik-rutan, och driva den växlande
-skylten med röster. Allt fungerar även utan skript.
+Ingen server, inga cookies, inga externa bibliotek. JavaScript används till fyra
+saker: fälla ihop referenslistan, öppna teknik-rutan, driva den växlande skylten
+med röster, och förstora app-bilderna vid klick. Allt fungerar även utan skript
+(då öppnar en klickad bild bildfilen direkt).
 
 ## Källor
 
