@@ -284,9 +284,8 @@ har `Studier` öppet:
 - **Djuplänkbarhet (föreslagen generell byggregel).** Varje avsnitt (H2 och H3)
   ska gå att nå direkt med `URL#ankare` – stabilt `id`, synligt `#` vid hover,
   oföränderligt efter publicering, och listat i README:ns djuplänkstabell.
-  Precis som Nr1 (`#Pisa2025`, `#VadJagLandarI`). Kent vill att detta blir en
-  stående regel i skillen `kent-bygg-sidor` (ny Regel 7) – utkast skickat till
-  honom 2026-09-09, väntar på bekräftelse. Gäller Nr2 oavsett.
+  Precis som Nr1 (`#Pisa2025`, `#VadJagLandarI`). Detta är nu **Regel 7 i
+  skillen `kent-bygg-sidor`** (tillagd 2026-09-09).
 - **Cursor gör commit/push och slår på GitHub Pages.** Claude Code rör inte
   git i det här repot (Regel 11).
 

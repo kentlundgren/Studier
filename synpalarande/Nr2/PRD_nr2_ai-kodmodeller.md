@@ -1,8 +1,8 @@
 # PRD – Syn på lärande nr 2: jämföra AI-modeller för kodning
 
-**Status:** v0.6 – planeringen klar. SPEC.md är KLAR (v1.0). Nästa steg: research.
-Inget är byggt. En öppen punkt utanför Nr2: bekräfta Regel 7 i `kent-bygg-sidor`.
-**Skapad:** 2026-09-09 · **Ändrad:** 2026-09-09 (v0.6)
+**Status:** v0.7 – planeringen klar. SPEC.md är KLAR (v1.0). Nästa steg: research.
+Inget är byggt.
+**Skapad:** 2026-09-09 · **Ändrad:** 2026-09-09 (v0.7)
 **Plats:** `C:\Users\kentl\OneDrive\AI\Studier\synpalarande\Nr2\`
 **Repo:** [`kentlundgren/Studier`](https://github.com/kentlundgren/Studier) (publikt, `main`, känt-gott)
 **Serie:** tredje bygget i `synpalarande/` efter [`Nr1/`](../Nr1/) och skillen `syn-pa-larande`
@@ -276,8 +276,7 @@ i avsnitt 6, och **beslutslogg-rad** – ja, loggas (gjort 2026-09-09 i
   avsnitt `#Overblick` (efter dimensionerna, före slutsatsen), med en
   hänvisningsrad nära toppen.
 - **Djuplänkbarhet:** varje avsnitt når man med `URL#ankare` (Nr1:s stil).
-  Föreslagen som ny Regel 7 i `kent-bygg-sidor` – **väntar på Kents bekräftelse
-  av skilltexten**; gäller Nr2 oavsett.
+  Nu **Regel 7 i `kent-bygg-sidor`** (tillagd 2026-09-09).
 - **Uppdatera fler röster:** färdig prompt i SPEC 7.1, kopieras in i README.
 
 ### Om `beslutslogg.md`
@@ -340,5 +339,7 @@ här PRD:n:
 - 2026-09-09 (v0.6): Alla SPEC-frågor besvarade → `SPEC.md` v1.0 (KLAR).
   Referensanvändning 35 h/vecka; kostnad per Mtoken *och* per månad; indexraden
   med; tabell i eget avsnitt `#Overblick`. Djuplänkbarhet formulerad som
-  förslag till ny Regel 7 i `kent-bygg-sidor` (väntar på Kents ja).
+  förslag till ny Regel 7 i `kent-bygg-sidor`.
   Planeringsfasen klar – nästa steg är research + källverifiering.
+- 2026-09-09 (v0.7): Kent godkände Regel 7-texten. **Regel 7 – Djuplänkbarhet**
+  tillagd i `C:\Users\kentl\.claude\skills\kent-bygg-sidor\SKILL.md` (v6).
