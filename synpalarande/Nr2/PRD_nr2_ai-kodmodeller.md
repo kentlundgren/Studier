@@ -1,10 +1,14 @@
 # PRD – Syn på lärande nr 2: jämföra AI-modeller för kodning
 
-**Status:** v0.12 – sidan byggd, granskad, **live på GitHub Pages**
-(<https://kentlundgren.github.io/Studier/synpalarande/Nr2/>). Kent har satt
-1–5-omdömena (kan justeras framåt). Kvar: verifiera de fyra punkterna i
-`kostnadskalkyl-35h.md` §8 när tillfälle ges.
-**Skapad:** 2026-09-09 · **Ändrad:** 2026-09-09 (v0.12)
+**Status:** v0.13 – **publicerad och i bruk.** Sidan byggd, granskad, live på
+sv + en (<https://kentlundgren.github.io/Studier/synpalarande/Nr2/>). Kent har
+lämnat en kommentar med länk under Osama Romohs LinkedIn-inlägg; reflektionen
+kring det inlägget är därmed genomförd i detalj. Nr2 är en **levande sida** som
+kan användas och byggas vidare på framgent (som Nr1) – t.ex. fler röster via
+prompten i `jamforelse-roster.md`, uppdaterade siffror, nya LinkedIn-inlägg.
+Öppen punkt utan brådska: verifiera de fyra antagandena i
+`kostnadskalkyl-35h.md` §8.
+**Skapad:** 2026-09-09 · **Ändrad:** 2026-09-09 (v0.13)
 **Plats:** `C:\Users\kentl\OneDrive\AI\Studier\synpalarande\Nr2\`
 **Repo:** [`kentlundgren/Studier`](https://github.com/kentlundgren/Studier) (publikt, `main`, känt-gott)
 **Serie:** tredje bygget i `synpalarande/` efter [`Nr1/`](../Nr1/) och skillen `syn-pa-larande`
@@ -360,6 +364,15 @@ här PRD:n:
 - 2026-09-09 (v0.11): Kent ångrade sudden på Claude-bildens sidopanel – för mycket
   information gick förlorad, och han står för vad som står där. Suddversionen
   (`Claude_app_260909_stor.jpg`) borttagen; lightbox pekar på originalbilden.
+- 2026-09-09 (v0.13b): Språkknappen gjord tydligare (pill med blå kant + skugga,
+  SV/EN-chip, aktivt språk fyllt) efter att Kent inte hittade den första
+  versionen. Stale "Pages inte påslaget"-noter rättade i tre README:er. Kent
+  lämnade en kommentar med länk till `index_eng.html` under Osama Romohs
+  LinkedIn-inlägg – reflektionen kring det inlägget genomförd i detalj. Nr2 är
+  publicerad och blir en levande sida (som Nr1), inte ett avslutat projekt.
+  Minnespost om tvåspråksmönstret sparad (fråga bara vid engelsk start, inte
+  default). Tidigare minnespost om skärmdumps-integritet borttagen på Kents
+  begäran.
 - 2026-09-09 (v0.13): **Engelsk version** – `index_eng.html` (full översättning
   i Kents röst, egna ankare `#ThePost` osv.) + `script_eng.js` (engelska
   knapptexter). Delad `styles.css` fick en `.langbtn`-regel. **Språkknapp

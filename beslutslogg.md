@@ -10,14 +10,21 @@ här är beslut *av dagsläget* – de får omprövas. Stabila konventioner bor 
 
 - **GitHub Pages påslaget för `Studier`.** Live-URL:er under
   <https://kentlundgren.github.io/Studier/> fungerar nu (t.ex.
-  `.../synpalarande/Nr1/` och `.../synpalarande/Nr2/`). `Nr1/README.md` har
-  fortfarande en inaktuell "Pages inte påslaget"-not som bör tas bort.
+  `.../synpalarande/Nr1/` och `.../synpalarande/Nr2/`). Inaktuella "Pages inte
+  påslaget"-noter borttagna i `Nr1/README.md`, `synpalarande/README.md` och
+  syn-pa-larande-skillens README.
 - **Nytt bygge i `synpalarande/`: Nr2** – *"Vad betyder 'bäst' när modellen
   skriver koden?"* En jämförelse av AI-modeller för kodning (Claude vs
-  OpenAI/Codex), utifrån ett LinkedIn-inlägg. Planering, research (två pass),
-  kostnadskalkyl och bygge gjort samma dag; sidan är **live**. Plan och
-  detaljer: [`synpalarande/Nr2/PRD_nr2_ai-kodmodeller.md`](synpalarande/Nr2/PRD_nr2_ai-kodmodeller.md)
-  (v0.12). Kvar: verifiera fyra antaganden i `kostnadskalkyl-35h.md` §8.
+  OpenAI/Codex), utifrån Osama Romohs LinkedIn-inlägg. Planering, research (två
+  pass), kostnadskalkyl, bygge, fräscha-ögon-genomläsning och en **engelsk
+  version** (`index_eng.html`, med språkknapp `SV·EN`) gjort samma dag. Sidan
+  är **live** på sv + en. Kent lämnade en kommentar med länk till den engelska
+  sidan under Osamas inlägg – reflektionen kring inlägget är därmed genomförd i
+  detalj. Nr2 blir en levande sida (som Nr1), inte ett avslutat projekt. Plan
+  och detaljer:
+  [`synpalarande/Nr2/PRD_nr2_ai-kodmodeller.md`](synpalarande/Nr2/PRD_nr2_ai-kodmodeller.md)
+  (v0.13). Öppen punkt utan brådska: verifiera fyra antaganden i
+  `kostnadskalkyl-35h.md` §8.
 - **Mappkontroll:** Nr2 lades medvetet i `synpalarande/` och *inte* i
   `AI-teknik` (dit tekniska modelljämförelser annars hör). Motivering: "kvalitet
   = nytta/kostnad" är en kunskapssyns-fråga, och benchmark-debatten illustrerar
