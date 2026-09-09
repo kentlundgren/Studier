@@ -1,7 +1,7 @@
 # PRD – Syn på lärande nr 2: jämföra AI-modeller för kodning
 
-**Status:** UTKAST v0.2 – för Kent att reagera på. Inget är byggt.
-**Skapad:** 2026-09-09 · **Ändrad:** 2026-09-09 (v0.2)
+**Status:** UTKAST v0.3 – för Kent att reagera på. Inget är byggt.
+**Skapad:** 2026-09-09 · **Ändrad:** 2026-09-09 (v0.3)
 **Plats:** `C:\Users\kentl\OneDrive\AI\Studier\synpalarande\Nr2\`
 **Repo:** [`kentlundgren/Studier`](https://github.com/kentlundgren/Studier) (publikt, `main`, känt-gott)
 **Serie:** tredje bygget i `synpalarande/` efter [`Nr1/`](../Nr1/) och skillen `syn-pa-larande`
@@ -72,9 +72,13 @@ jämförbara funktionslistan:
   man måste mata manuellt, hur pratig behörighetsdialogen är, hur återställbart
   och granskbart arbetet är, hur det är att jobba i.
 
-Kvarvarande korsberoende att nämna, inte lösa: **priset** (dimension 4 nedan)
+Kvarvarande korsberoende att nämna, inte lösa: **priset** (dimension 3 nedan)
 beror delvis på klient/abonnemang (ChatGPT Pro vs ren API vs Claude Max), så 3b
-och 4 pratar med varandra.
+och dimension 3 pratar med varandra.
+
+Dimension 2 ska **både beskriva** skillnaderna mellan klienterna **och landa i
+en rekommendation** om vilken kodmotor Kent bör köra vid sidan av Cursor
+(öppen fråga avgjord 2026-09-09).
 
 ## 4. Syfte och målgrupp
 
@@ -94,10 +98,10 @@ tabell.
 Viktigt för att avgränsa dimension 3b rätt. Kent byter inte verktygskedja
 beroende på modell:
 
-- **Claude-kompassen** är Kents modell för hur han hanterar generativ AI i
-  kodning: <https://kentlundgren.github.io/AI-teknik/AI_modeller/Claude/olika_Claude_modeller/>
-  (publik Live Page; källan ligger i `AI-teknik`-repot, ej åtkomligt här –
-  hämtas vid bygget för att citeras rätt, med hämtdatum).
+- **Claude-kompassen** nämns bara som *hur Kent normalt arbetar med generativ
+  AI* – hans etablerade process, inte en källa Nr2 ska mina på:
+  <https://kentlundgren.github.io/AI-teknik/AI_modeller/Claude/olika_Claude_modeller/>
+  (publik Live Page). Länkas i förbifarten om det stärker resonemanget, inget mer.
 - **Cursor** förblir lagret för Git/GitHub: commit, push, och att slå på
   GitHub Pages så sidorna kommer ut på WWW som levande sidor – **oavsett** om
   koden skrivits med Claude eller med OpenAI:s Codex.
@@ -123,32 +127,34 @@ tills källor finns).
 
 ### Dimension 2 – Harness och hur modellen styrs (hopslagen: gamla 2 + 4)
 - **2a Mekanismen:** `CLAUDE.md` / `AGENTS.md`, skills, MCP, subagenter, minne,
-  agentläge, behörighet, diff-hantering. Claude-sidan är väl dokumenterad i
-  Kents eget material (`kent-ekosystem-analys`, Claude-kompassen) – återanvänds
-  och citeras. OpenAI-sidan (`AGENTS.md`, Codex CLI, Codex-molnet, ChatGPT-appens
-  agentläge) behöver research och verifiering.
+  agentläge, behörighet, diff-hantering. Både Claude- och OpenAI-sidan behöver
+  research och källverifiering vid bygget; Kents eget material kan vara *en*
+  ingång men inte stommen.
 - **2b Ergonomin:** Claude Code (CLI/desktop/IDE) mot Codex CLI, Codex
   IDE-extension, Codex-molnet, ChatGPT desktop-appen – bedömt *som kodmotor vid
   sidan av Cursor* (avsnitt 5). Kriterier: komma igång, mata kontext, hur mycket
   den gör själv vs frågar, återställbarhet/granskbarhet, känsla.
-- Kents konkreta öppna fråga: vad *är* bästa sättet att hantera Codex / GPT‑6?
-  PRD:n tar inte ställning; bygget reder ut det med källor och landar antingen i
-  en rekommendation eller i en beskrivning av skillnaderna (öppen fråga 1).
+- **Landar i både beskrivning och rekommendation** (avgjort 2026-09-09): först
+  skillnaderna mellan klienterna, sedan Kents rekommendation om vad han bör köra
+  vid sidan av Cursor.
 - Kunskapssyns-vinkeln: att "knyta till sig" en kodbas liknar det Kent menar med
   att *använda* kunskap i ett sammanhang snarare än att reproducera den.
 
 ### Dimension 3 – Pris per token → kvalitet = nytta / kostnad
-- Rådata: input/output-pris, cache-rabatt, abonnemang (Pro/Max/Team) vs ren
-  API-debitering, "usage credits" / veckogränser.
-- Kent har redan verktyg och vana för Claude-kostnad (skill `claude-kostnad`,
-  `Ovrigt/Claude_kostnad`) – samma tänk återanvänds.
-- **Öppen fråga 2 – hur definieras "nytta" i kvoten?** Förslag: en enkel, ärlig
-  modell (t.ex. *andel uppgifter lösta utan omtag* × *tidsbesparing*, delat med
-  *total månadskostnad för Kents faktiska användning*), med uttalad brasklapp att
-  täljaren är en uppskattning, inte en mätning (Regel 3 och 13 – ingen falsk
-  precision, ingen handling tillskriven Kent som inte gjorts).
-- Romohs inlägg är i sig ett svar: han valde "båda" (ChatGPT Pro *och* Claude
-  Max), inte "antingen eller".
+- **Kents grundtanke (bekräftad 2026-09-09), förenklat:** *om modell A är dubbelt
+  så dyr som modell B måste A vara dubbelt så bra för att ha samma kvalitet.*
+  Kvalitet = nytta ÷ kostnad; lika kvot = lika mycket värde för pengarna. Man
+  jämför kvoten mellan modellerna, inte prislappen eller prestandan var för sig.
+- Rådata i nämnaren: input/output-pris, cache-rabatt, abonnemang (Pro/Max/Team)
+  vs ren API-debitering, "usage credits" / veckogränser. Kent har redan verktyg
+  och vana för Claude-kostnad (skill `claude-kostnad`, `Ovrigt/Claude_kostnad`).
+- **Täljaren ("nytta") är det svåra.** Vilken proxy används – benchmark-poäng,
+  andel uppgifter lösta utan omtag, tidsbesparing? Vad som än väljs ska det stå
+  öppet att det är en uppskattning, inte en mätning (Regel 3 och 13 – ingen falsk
+  precision, ingen handling tillskriven Kent som inte gjorts). Detta spikas i
+  SPEC.md (avsnitt 11).
+- Romohs inlägg är i sig ett svar på frågan: han valde "båda" (ChatGPT Pro *och*
+  Claude Max), inte "antingen eller".
 
 ## 7. Andras röster och källor
 
@@ -198,11 +204,11 @@ Ihopfällbar referenslista som i Nr1.
 ## 11. SPEC.md-checkpoint (Regel 6)
 
 **Behövs ett SPEC.md-steg?** Nu när formatet är hybrid (C) och jämförelsen får en
-datamodell: **troligen ja, en kort SPEC.md.** En agent som bygger sidan behöver
-exakt: de tre dimensionsrubrikerna och deras fasetter, om bedömningen är prosa
-eller skala, hur nytta/kostnad-kvoten räknas, vad som räknas som en "röst"/källa
-i avsnitt 7. Utan det fylls luckorna med gissningar. SPEC.md skrivs **efter** att
-öppna fråga 2 (nytta/kostnad) är avgjord, **före** bygget.
+datamodell: **ja, en kort SPEC.md.** En agent som bygger sidan behöver exakt: de
+tre dimensionsrubrikerna och deras fasetter, om bedömningen är prosa eller skala,
+**vilken proxy som används för "nytta" i kvoten och hur kvoten räknas**, vad som
+räknas som en "röst"/källa i avsnitt 7. Utan det fylls luckorna med gissningar.
+SPEC.md skrivs **före** bygget.
 
 ## 12. Faktakänslighet (Regel 3)
 
@@ -224,23 +230,46 @@ tydligt som färskvara.
 
 ## 14. Öppna frågor (att stämma av innan bygget)
 
-1. **Codex-klienten:** ska Nr2 landa i en **rekommendation** om vilken klient
-   som är bäst att köra vid sidan av Cursor, eller bara **beskriva** skillnaderna
-   mellan CLI / IDE-extension / moln / desktop-app?
-2. **nytta/kostnad-formeln** (dimension 3): duger den enkla modellen, eller vill
-   Kent ha en annan?
-3. **Claude-sidans omfång:** hur mycket återanvänds ordagrant från
-   `kent-ekosystem-analys` / Claude-kompassen kontra skrivs om för den här
-   läsaren?
-4. **Titel och kicker** för sidan (Nr1: "Har ungdomen blivit sämre …").
-5. **Beslutslogg:** ska mappkontroll-beslutet (Nr2 → `synpalarande/`, inte
-   `AI-teknik`) och format/dimensions-besluten skrivas in i `beslutslogg.md`?
+Avgjorda 2026-09-09: format (hybrid C), dimensioner (3, hopslagen 2+4),
+Codex-klient (både beskriva *och* rekommendera), nytta/kostnad-tanken
+(kvot: dubbelt så dyr ⇒ måste vara dubbelt så bra), Claude-kompassens roll
+(bara Kents arbetssätt, inte en källa).
+
+Kvar:
+
+1. **Titel och kicker.** Tre förslag från Claude i chatten 2026-09-09 – Kent
+   väljer eller blandar. Kicker blir "Syn på lärande · Nr 2" som i Nr1.
+2. **"Nytta"-proxyn konkret:** benchmark-poäng, andel uppgifter utan omtag,
+   tidsbesparing, eller en kombination? Avgörs i SPEC.md.
+3. **Bedömningsform:** ren prosa per dimension, eller en liten tabell/skala i
+   `index.html`? (Påverkar SPEC.md och bygget.)
+4. **Beslutslogg:** ska besluten ovan speglas som en kort rad i
+   `beslutslogg.md`? (Se förklaring nedan – filen finns redan, PRD:n ersätter
+   den inte.)
+
+### Om `beslutslogg.md` (förklaring till öppen fråga 4)
+
+`C:\Users\kentl\OneDrive\AI\Studier\beslutslogg.md` **finns redan** och är en
+repo-övergripande, daterad logg (nyast överst) – inte en ny fil. `Studier/CLAUDE.md`
+säger uttryckligen att beslut loggas där, inte i `CLAUDE.md`. Skillnaden mot den
+här PRD:n:
+
+- **PRD:n** = hela sammanhanget för *ett* projekt (Nr2). Besluten *står* redan här
+  (markörerna "beslutat/avgjort 2026-09-09" + uppdateringsloggen).
+- **`beslutslogg.md`** = en tunn kronologisk liggare för *hela* `Studier` (kurser,
+  `synpalarande`, allt). Poängen är att Kent om ett halvår kan skumma **en** fil
+  och se "vad bestämde vi, och när" utan att öppna varje PRD och README.
+
+En `beslutslogg`-rad för Nr2 blir alltså 2–3 rader som pekar hit. Rent
+frivilligt, men `Studier` använder redan mönstret (rader för 2026-09-04 och
+-09-05). Claude rör inte filen utan att Kent säger till.
 
 ## 15. Nästa steg
 
-1. Kent svarar på öppna frågorna (minst 1–2).
-2. Kort SPEC.md (efter fråga 2).
-3. Research + källverifiering för de tre dimensionerna; hämta Claude-kompassen.
+1. Kent svarar på öppna frågorna 1–4.
+2. Kort SPEC.md (dimensionsrubriker, "nytta"-proxy, bedömningsform, vad som är
+   en "röst").
+3. Research + källverifiering för de tre dimensionerna.
 4. Bygge enligt `kent-bygg-sidor`.
 5. **Fräscha-ögon-genomläsning av PRD:n och av den färdiga sidan** (Regel 7).
 
@@ -258,3 +287,12 @@ tydligt som färskvara.
   `linkedin-romoh-gpt6-astra.md` och karaktäriserat (handlar om
   instruktionsföljsamhet, inte kodning). Två öppna frågor bortplockade (format,
   LinkedIn-text), SPEC.md-checkpoint uppdaterad till "troligen ja".
+- 2026-09-09 (v0.3): Fyra öppna frågor avgjorda efter Kents svar –
+  Codex-klienten ska *både* beskrivas och rekommenderas (dimension 2);
+  nytta/kostnad bekräftad som kvot ("dubbelt så dyr ⇒ måste vara dubbelt så
+  bra"), täljaren spikas i SPEC.md; Claude-kompassen nedtonad till att bara
+  markera Kents arbetssätt, inte en källa (avsnitt 5, dimension 2a).
+  SPEC.md-checkpoint uppgraderad från "troligen ja" till "ja". Nytt förklarande
+  stycke om vad `beslutslogg.md` är och varför den inte ersätter PRD:n. Kvar:
+  titel/kicker (tre förslag i chatten), "nytta"-proxy, bedömningsform,
+  beslutslogg-rad.
