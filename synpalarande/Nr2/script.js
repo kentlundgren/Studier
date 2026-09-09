@@ -54,6 +54,52 @@
     });
   }
 
+  /* Klick på en app-bild öppnar den större i en overlay. Utan JS öppnar
+     länken bilden i webbläsaren i stället. */
+  var lightbox = document.getElementById("lightbox");
+  var lightboxImg = document.getElementById("lightboxImg");
+  var lightboxClose = document.getElementById("lightboxClose");
+  var lbLastFocus = null;
+
+  function openLightbox(src, alt) {
+    if (!lightbox || !lightboxImg) return;
+    lbLastFocus = document.activeElement;
+    lightboxImg.src = src;
+    lightboxImg.alt = alt || "";
+    lightbox.hidden = false;
+    if (lightboxClose) lightboxClose.focus();
+    document.addEventListener("keydown", onLbKeydown);
+  }
+
+  function closeLightbox() {
+    if (!lightbox) return;
+    lightbox.hidden = true;
+    lightboxImg.removeAttribute("src");
+    document.removeEventListener("keydown", onLbKeydown);
+    if (lbLastFocus && typeof lbLastFocus.focus === "function") lbLastFocus.focus();
+  }
+
+  function onLbKeydown(e) {
+    if (e.key === "Escape") closeLightbox();
+  }
+
+  Array.prototype.forEach.call(
+    document.querySelectorAll(".figpair__zoom"),
+    function (link) {
+      link.addEventListener("click", function (e) {
+        e.preventDefault();
+        var img = link.querySelector("img");
+        openLightbox(link.getAttribute("href"), img ? img.alt : "");
+      });
+    }
+  );
+  if (lightboxClose) lightboxClose.addEventListener("click", closeLightbox);
+  if (lightbox) {
+    lightbox.addEventListener("click", function (e) {
+      if (e.target === lightbox) closeLightbox();
+    });
+  }
+
   /* Roterande innehåll: växlar del var 5:e sekund. Pausar vid hover och
      tangentbordsfokus, står still vid reducerad rörelse. Utan JS visas alla
      delar som en lista (se CSS). Används av skylten med rösterna. */

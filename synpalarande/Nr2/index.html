@@ -177,21 +177,32 @@
     &rdquo;lämna en uppgift, få tillbaka lösningen&rdquo;. Ingen av dem är fel
     &ndash; det beror på vad man vill.</p>
 
-    <p>Det syns i apparna. Här är de två, sedda sida vid sida:</p>
+    <p>Det syns i apparna. Här är de två, sedda sida vid sida (klicka för en
+    större bild):</p>
 
     <div class="figpair">
       <figure>
-        <img src="Bilder/Claude_app_260909.jpg" alt="Claude-appen, Code-fliken: rubrik &rdquo;What's up next, Kent?&rdquo;, en förbruknings-dashboard med sessioner, meddelanden och tokens, och en rad med Local, Studier, main och worktree.">
-        <figcaption><b>Claude-appen.</b> Repo, gren och worktree ligger i
-        förgrunden, och appen har en inbyggd mätare för hur mycket jag förbrukat.
-        I sidopanelen: Artifacts, Routines, Dispatch. Git-orienterad, och
-        medveten om kostnaden.</figcaption>
+        <a class="figpair__zoom" href="Bilder/Claude_app_260909.jpg">
+          <img src="Bilder/Claude_app_260909.jpg" alt="Claude-appen, Code-fliken: rubrik &rdquo;What's up next, Kent?&rdquo;, en förbruknings-dashboard med sessioner, meddelanden och tokens, och en rad med Local, Studier, main och worktree.">
+        </a>
+        <figcaption><b>Claude-appen</b> (Code-fliken). Repo, gren och worktree
+        ligger i förgrunden, och appen har en inbyggd mätare för hur mycket jag
+        förbrukat. I sidopanelen: Artifacts, Routines, Dispatch. Git-orienterad,
+        och medveten om kostnaden. Appen &ndash; som innehåller Claude Code
+        &ndash; laddas ner från
+        <a href="https://claude.com/download" target="_blank" rel="noopener">claude.com/download</a>.</figcaption>
       </figure>
       <figure>
-        <img src="Bilder/Codex_app_260909.jpg" alt="ChatGPT/Codex-appen, Work-fliken: &rdquo;Vad ska vi jobba med?&rdquo;, en knapp &rdquo;Godkänn åt mig&rdquo; och modellväljaren GPT-6 Astra Låg.">
-        <figcaption><b>Codex-appen.</b> Avskalad. &rdquo;Godkänn åt mig&rdquo;
-        &ndash; alltså ett autogodkännande-läge &ndash; och &rdquo;Välj
-        projekt&rdquo; ligger främst. Delegera-och-lita-på.</figcaption>
+        <a class="figpair__zoom" href="Bilder/Codex_app_260909.jpg">
+          <img src="Bilder/Codex_app_260909.jpg" alt="ChatGPT/Codex-appen, Work-fliken: &rdquo;Vad ska vi jobba med?&rdquo;, en knapp &rdquo;Godkänn åt mig&rdquo; och modellväljaren GPT-6 Astra Låg.">
+        </a>
+        <figcaption><b>Codex-appen</b> (ChatGPT desktop, Work-fliken). Avskalad.
+        &rdquo;Godkänn åt mig&rdquo; &ndash; ett autogodkännande-läge &ndash; och
+        &rdquo;Välj projekt&rdquo; ligger främst. Delegera-och-lita-på. ChatGPT-appen
+        laddas ner från
+        <a href="https://chatgpt.com/download" target="_blank" rel="noopener">chatgpt.com/download</a>;
+        Codex-CLI:t och IDE-tillägget beskrivs i
+        <a href="https://learn.chatgpt.com/docs" target="_blank" rel="noopener">OpenAI:s Codex-dokumentation</a>.</figcaption>
       </figure>
     </div>
 
@@ -561,14 +572,16 @@
       <div class="tech-card">
         <h4>Ingenting lämnar sidan</h4>
         <p>Ingen server, ingen analytics, inga cookies, ingen inloggning.
-        JavaScript sköter tre saker: fäller ihop referenslistan, öppnar den här
-        rutan, och driver den växlande skylten med röster.</p>
+        JavaScript sköter fyra saker: fäller ihop referenslistan, öppnar den här
+        rutan, driver den växlande skylten med röster, och förstorar app-bilderna
+        när man klickar på dem.</p>
       </div>
       <div class="tech-card">
         <h4>Fungerar utan JavaScript</h4>
         <p>Hela texten, tabellen och alla källänkar fungerar även med skript
-        avstängt. Då står referenslistan utfälld och skyltens tre citat visas
-        som en lista.</p>
+        avstängt. Då står referenslistan utfälld, skyltens tre citat visas som
+        en lista, och ett klick på en app-bild öppnar bildfilen i webbläsaren
+        i stället för i en overlay.</p>
       </div>
       <div class="tech-card">
         <h4>Byggd för att länkas</h4>
@@ -585,7 +598,8 @@
         <h4>Två skärmdumpar</h4>
         <p>Bilderna av de två apparna är mina egna, tagna 9 september 2026.
         Vänsterpanelen är kvar med flit &ndash; den visar hur apparna faktiskt
-        ser ut i bruk.</p>
+        ser ut i bruk. Klicka på en bild för en större version; bildtexten länkar
+        till var man laddar ner respektive app.</p>
       </div>
     </div>
 
@@ -634,6 +648,11 @@
       </div>
     </div>
   </div>
+</div>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button type="button" class="lightbox__close" id="lightboxClose" aria-label="Stäng">&times;</button>
+  <img id="lightboxImg" src="" alt="">
 </div>
 
 <script src="script.js"></script>
