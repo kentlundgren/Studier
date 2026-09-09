@@ -1,10 +1,11 @@
 # PRD – Syn på lärande nr 2: jämföra AI-modeller för kodning
 
-**Status:** UTKAST v0.3 – för Kent att reagera på. Inget är byggt.
-**Skapad:** 2026-09-09 · **Ändrad:** 2026-09-09 (v0.3)
+**Status:** UTKAST v0.4 – för Kent att reagera på. Inget är byggt.
+**Skapad:** 2026-09-09 · **Ändrad:** 2026-09-09 (v0.4)
 **Plats:** `C:\Users\kentl\OneDrive\AI\Studier\synpalarande\Nr2\`
 **Repo:** [`kentlundgren/Studier`](https://github.com/kentlundgren/Studier) (publikt, `main`, känt-gott)
 **Serie:** tredje bygget i `synpalarande/` efter [`Nr1/`](../Nr1/) och skillen `syn-pa-larande`
+**Sidans titel (vald 2026-09-09):** "Vad betyder 'bäst' när modellen skriver koden?" · kicker "Syn på lärande · Nr 2"
 
 ---
 
@@ -62,18 +63,18 @@ IDE-extension, Codex-molnet och ChatGPT desktop-appen ger olika mycket och känn
 olika. Och omvänt: app-jämförelsen *är* mest en fråga om hur väl varje app gör
 harness-saker. Det är två vyer av samma objekt.
 
-Men den sammanslagna dimensionen behåller **två fasetter**, annars tappas den
-jämförbara funktionslistan:
+Men den sammanslagna dimensionen (= **dimension 2** nedan) behåller **två
+fasetter**, annars tappas den jämförbara funktionslistan:
 
-- **3a. Mekanismen** – *vilka primitiver finns?* Instruktionsfiler
+- **2a. Mekanismen** – *vilka primitiver finns?* Instruktionsfiler
   (`CLAUDE.md` / `AGENTS.md`), skills, MCP, subagenter, minne, agentläge,
   behörighetsmodell, hur diff/filer hanteras.
-- **3b. Ergonomin** – *hur känns det att styra?* Komma igång, hur mycket kontext
+- **2b. Ergonomin** – *hur känns det att styra?* Komma igång, hur mycket kontext
   man måste mata manuellt, hur pratig behörighetsdialogen är, hur återställbart
   och granskbart arbetet är, hur det är att jobba i.
 
 Kvarvarande korsberoende att nämna, inte lösa: **priset** (dimension 3 nedan)
-beror delvis på klient/abonnemang (ChatGPT Pro vs ren API vs Claude Max), så 3b
+beror delvis på klient/abonnemang (ChatGPT Pro vs ren API vs Claude Max), så 2b
 och dimension 3 pratar med varandra.
 
 Dimension 2 ska **både beskriva** skillnaderna mellan klienterna **och landa i
@@ -95,7 +96,7 @@ tabell.
 
 ## 5. Kents egen kodprocess – den fasta ramen jämförelsen sker inom
 
-Viktigt för att avgränsa dimension 3b rätt. Kent byter inte verktygskedja
+Viktigt för att avgränsa dimension 2b rätt. Kent byter inte verktygskedja
 beroende på modell:
 
 - **Claude-kompassen** nämns bara som *hur Kent normalt arbetar med generativ
@@ -108,7 +109,7 @@ beroende på modell:
 
 **Konsekvens för Nr2:** frågan är inte "vilken app byter jag helt till", utan
 "vilken *kodmotor* kör jag *vid sidan av* Cursor + GitHub Pages". Det snävar in
-3b: en klient som jobbar mot lokala filer i samma repo som Cursor ser (en CLI,
+2b: en klient som jobbar mot lokala filer i samma repo som Cursor ser (en CLI,
 en IDE-extension) passar Kents kedja bättre än en som har en egen inmurad
 projektyta. **Hypotes att pröva vid bygget:** ChatGPT desktop-appen (bilden Kent
 såg) kan vara den *sämsta* passformen för just den kedjan, trots agentläget.
@@ -118,6 +119,29 @@ såg) kan vara den *sämsta* passformen för just den kedjan, trots agentläget.
 För varje dimension: vad den är, hur den *brukar* mätas, vad mätningen missar
 (kunskapssyns-vinkeln), och Kents preliminära intryck (märkt som preliminärt
 tills källor finns).
+
+### Först: vilken modell pratar vi ens om? (Kents tillägg 2026-09-09)
+
+En försvårande omständighet som ska ha en egen, tydlig plats i texten – den
+gör alla tre dimensionerna svårare och knyter direkt an till titeln:
+
+- **Modellerna står inte stilla.** AI-bolagen uppgraderar ofta, och varje
+  uppgradering får ett nytt namn eller nummer. En jämförelse är en
+  ögonblicksbild som daterar sig snabbt.
+- **Namn *och* nummer om vartannat.** Claude-sidan har namn (Fable, Opus,
+  Sonnet, Haiku) *och* nummer (t.ex. 4.6, 4.8, 5, 5.1). OpenAI-sidan har egna
+  kodnamn *och* nummer (GPT‑5, GPT‑6 …). Samma modell omtalas på flera sätt.
+  (Exakta namn/nummer verifieras vid bygget – Regel 3.)
+- **Paraplynamn döljer vad som körs.** "GPT‑6", "Claude Code" eller "Codex" är
+  inte *en* modell utan en familj/produkt. Bilden Kent såg säger "GPT‑6 Astra
+  Låg" – namn + variant + effektnivå i ett. Vilken underliggande modell som
+  faktiskt svarar kan dessutom bytas eller ruttas om utan att användaren märker
+  det.
+- **Konsekvens för Nr2:** varje sifferpåstående dateras och versionsmärks
+  explicit ("per september 2026, Claude … ver. X"), och texten säger rakt ut
+  att "vilken modell används egentligen?" är en del av själva svårigheten,
+  inte en parentes. Förstärker seriens ram: *en bild av frågan, inte ett
+  facit.*
 
 ### Dimension 1 – Kodförmåga
 - Brukar mätas med: SWE-bench Verified, Terminal-Bench, "vibe"-tester, egna
@@ -172,6 +196,9 @@ Det som gör Nr2 till ett nummer i *den här* serien:
   nationellt prov (Bernstein 1996; Strandler 2017).
 - **"Kvalitet" är inte självklart.** nytta/kostnad tvingar fram *nytta för vad* –
   reproducera snabbt, eller förstå och kunna stå för resultatet?
+- **Måttstocken rör sig.** När modellerna byter namn och version snabbare än en
+  text hinner skrivas (avsnitt 6) blir "bäst" per definition ett rörligt mål –
+  ännu ett skäl att landa i en bild, inte ett facit.
 - **AI som förklarar vs AI som levererar** (`syn-pa-larande` avsnitt 5).
 - Kents tre villkor (förstår jag / tar jag ansvar / bidrar jag) speglas mot att
   koda med en modell.
@@ -233,42 +260,37 @@ tydligt som färskvara.
 Avgjorda 2026-09-09: format (hybrid C), dimensioner (3, hopslagen 2+4),
 Codex-klient (både beskriva *och* rekommendera), nytta/kostnad-tanken
 (kvot: dubbelt så dyr ⇒ måste vara dubbelt så bra), Claude-kompassens roll
-(bara Kents arbetssätt, inte en källa).
+(bara Kents arbetssätt, inte en källa), **titel** ("Vad betyder 'bäst' när
+modellen skriver koden?"), **modell-namn-svårigheten** tillagd som eget stycke
+i avsnitt 6, och **beslutslogg-rad** – ja, loggas (gjort 2026-09-09 i
+`beslutslogg.md`).
 
 Kvar:
 
-1. **Titel och kicker.** Tre förslag från Claude i chatten 2026-09-09 – Kent
-   väljer eller blandar. Kicker blir "Syn på lärande · Nr 2" som i Nr1.
-2. **"Nytta"-proxyn konkret:** benchmark-poäng, andel uppgifter utan omtag,
+1. **"Nytta"-proxyn konkret:** benchmark-poäng, andel uppgifter utan omtag,
    tidsbesparing, eller en kombination? Avgörs i SPEC.md.
-3. **Bedömningsform:** ren prosa per dimension, eller en liten tabell/skala i
+2. **Bedömningsform:** ren prosa per dimension, eller en liten tabell/skala i
    `index.html`? (Påverkar SPEC.md och bygget.)
-4. **Beslutslogg:** ska besluten ovan speglas som en kort rad i
-   `beslutslogg.md`? (Se förklaring nedan – filen finns redan, PRD:n ersätter
-   den inte.)
 
-### Om `beslutslogg.md` (förklaring till öppen fråga 4)
+### Om `beslutslogg.md`
 
-`C:\Users\kentl\OneDrive\AI\Studier\beslutslogg.md` **finns redan** och är en
+`C:\Users\kentl\OneDrive\AI\Studier\beslutslogg.md` **fanns redan** och är en
 repo-övergripande, daterad logg (nyast överst) – inte en ny fil. `Studier/CLAUDE.md`
 säger uttryckligen att beslut loggas där, inte i `CLAUDE.md`. Skillnaden mot den
 här PRD:n:
 
-- **PRD:n** = hela sammanhanget för *ett* projekt (Nr2). Besluten *står* redan här
+- **PRD:n** = hela sammanhanget för *ett* projekt (Nr2). Besluten *står* här
   (markörerna "beslutat/avgjort 2026-09-09" + uppdateringsloggen).
 - **`beslutslogg.md`** = en tunn kronologisk liggare för *hela* `Studier` (kurser,
-  `synpalarande`, allt). Poängen är att Kent om ett halvår kan skumma **en** fil
-  och se "vad bestämde vi, och när" utan att öppna varje PRD och README.
-
-En `beslutslogg`-rad för Nr2 blir alltså 2–3 rader som pekar hit. Rent
-frivilligt, men `Studier` använder redan mönstret (rader för 2026-09-04 och
--09-05). Claude rör inte filen utan att Kent säger till.
+  `synpalarande`, allt), så att man om ett halvår kan skumma **en** fil och se
+  "vad bestämde vi, och när" utan att öppna varje PRD och README. Nr2-raden
+  lades in 2026-09-09 och pekar hit.
 
 ## 15. Nästa steg
 
-1. Kent svarar på öppna frågorna 1–4.
-2. Kort SPEC.md (dimensionsrubriker, "nytta"-proxy, bedömningsform, vad som är
-   en "röst").
+1. Kent tar ställning till öppna frågorna 1–2 ("nytta"-proxy, bedömningsform).
+2. Kort SPEC.md (dimensionsrubriker inkl. modell-namn-stycket, "nytta"-proxy,
+   bedömningsform, vad som är en "röst").
 3. Research + källverifiering för de tre dimensionerna.
 4. Bygge enligt `kent-bygg-sidor`.
 5. **Fräscha-ögon-genomläsning av PRD:n och av den färdiga sidan** (Regel 7).
@@ -293,6 +315,10 @@ frivilligt, men `Studier` använder redan mönstret (rader för 2026-09-04 och
   bra"), täljaren spikas i SPEC.md; Claude-kompassen nedtonad till att bara
   markera Kents arbetssätt, inte en källa (avsnitt 5, dimension 2a).
   SPEC.md-checkpoint uppgraderad från "troligen ja" till "ja". Nytt förklarande
-  stycke om vad `beslutslogg.md` är och varför den inte ersätter PRD:n. Kvar:
-  titel/kicker (tre förslag i chatten), "nytta"-proxy, bedömningsform,
-  beslutslogg-rad.
+  stycke om vad `beslutslogg.md` är.
+- 2026-09-09 (v0.4): Titel vald – "Vad betyder 'bäst' när modellen skriver
+  koden?" (kicker "Syn på lärande · Nr 2"). Nytt stycke i avsnitt 6 om
+  svårigheten att veta vilken modell man ens jämför (namn vs nummer, paraplynamn,
+  tyst omruttning) – Kents tillägg; även speglat i avsnitt 8. Beslutslogg-rad
+  införd i `beslutslogg.md` på Kents godkännande. Kvar: "nytta"-proxy,
+  bedömningsform – båda avgörs i SPEC.md.

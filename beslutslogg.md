@@ -6,6 +6,31 @@ här är beslut *av dagsläget* – de får omprövas. Stabila konventioner bor 
 
 ---
 
+## 2026-09-09
+
+- **Nytt bygge i `synpalarande/`: Nr2** – *"Vad betyder 'bäst' när modellen
+  skriver koden?"* En jämförelse av AI-modeller för kodning (Claude vs
+  OpenAI/Codex), utifrån ett LinkedIn-inlägg. Fullständig plan:
+  [`synpalarande/Nr2/PRD_nr2_ai-kodmodeller.md`](synpalarande/Nr2/PRD_nr2_ai-kodmodeller.md)
+  (v0.4). Inget byggt än.
+- **Mappkontroll:** Nr2 lades medvetet i `synpalarande/` och *inte* i
+  `AI-teknik` (dit tekniska modelljämförelser annars hör). Motivering: "kvalitet
+  = nytta/kostnad" är en kunskapssyns-fråga, och benchmark-debatten illustrerar
+  Bernsteins performativa vs kompetensinriktade modell.
+- **Format:** hybrid – Nr1:s essä-ram + strukturerade jämförelsedimensioner +
+  en plats för andras röster.
+- **Dimensioner: tre, inte fyra.** Kents "harness" och "app-hanterbarhet"
+  slogs ihop (harness realiseras av klienten), med fasetterna *mekanism* och
+  *ergonomi*.
+- **Verktygskedjan oförändrad:** Cursor för Git/GitHub/Pages oavsett modell;
+  Claude-kompassen som arbetssätt.
+- **nytta/kostnad:** kvot – "dubbelt så dyr ⇒ måste vara dubbelt så bra".
+  Täljarens proxy spikas i en kommande SPEC.md (som ska skrivas före bygget).
+- **Modell-namn-svårigheten** (namn vs nummer, paraplynamn, tyst omruttning)
+  blir ett eget stycke i texten – Kents tillägg.
+
+---
+
 ## 2026-09-05
 
 - **Andra kursmappen skapad:** `2026_host/Policy_i_energi_och_klimat/`
