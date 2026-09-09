@@ -16,11 +16,8 @@ egen text som ligger här i repot.
 | Lokal sökväg | `C:\Users\kentl\OneDrive\AI\Studier\synpalarande\Nr1` |
 | Skapad | 2026-09-07 |
 
-> **Obs:** GitHub Pages är inte påslaget för `Studier` ännu (kontrollerat
-> 2026-09-07). Live-länken börjar fungera först när Pages aktiverats:
-> repo-inställningar → *Pages* → *Source: Deploy from a branch* → `main` / `/`
-> (root). Samma upplägg som `AI-teknik`, som redan ligger på
-> <https://kentlundgren.github.io/AI-teknik/>.
+GitHub Pages är påslaget för `Studier` sedan 2026-09-09 – live-länken ovan
+fungerar.
 
 ## Upplägg
 

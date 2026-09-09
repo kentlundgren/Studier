@@ -68,8 +68,12 @@ själv som att han lever upp till villkoren nästan fullt ut, inte perfekt.
 ## I den här mappen
 
 - [`Nr1/`](Nr1/): första fristående redogörelsen som utgår från en text (Dick
-  Harrisons inlägg om "en generation analfabeter"). Live efter att GitHub
-  Pages slagits på: <https://kentlundgren.github.io/Studier/synpalarande/Nr1/>
+  Harrisons inlägg om "en generation analfabeter"). Live:
+  <https://kentlundgren.github.io/Studier/synpalarande/Nr1/>
+- [`Nr2/`](Nr2/): andra numret – *"Vad betyder 'bäst' när modellen skriver
+  koden?"*, en jämförelse av Claude och OpenAI/Codex för kodning. Live (sv):
+  <https://kentlundgren.github.io/Studier/synpalarande/Nr2/> · (en):
+  <https://kentlundgren.github.io/Studier/synpalarande/Nr2/index_eng.html>
 - [`.claude/skills/syn-pa-larande/`](.claude/skills/syn-pa-larande/): den
   fullständiga kunskapsbasen (Claude-skill), med källförteckning och öppna
   frågor.
