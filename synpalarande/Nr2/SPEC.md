@@ -1,8 +1,8 @@
 # SPEC – Syn på lärande nr 2 ("Vad betyder 'bäst' när modellen skriver koden?")
 
-**Status:** UTKAST v0.1 – innehåller Claudes förslag på de två sista öppna
-frågorna (avsnitt 5 och 6). Kent bekräftar eller ändrar innan bygget.
-**Skapad:** 2026-09-09
+**Status:** UTKAST v0.3 – Kents svar 2026-09-09 inarbetade. Två småpunkter kvar
+(avsnitt 13).
+**Skapad:** 2026-09-09 · **Ändrad:** 2026-09-09 (v0.3)
 **Hör till:** [`PRD_nr2_ai-kodmodeller.md`](PRD_nr2_ai-kodmodeller.md) (v0.4)
 
 ---
@@ -43,17 +43,28 @@ djuplänkar) och följer Nr1:s stil (CamelCase, inget å/ä/ö).
 | # | Rubrik (H2) | id | Innehåll |
 |---|---|---|---|
 | – | *(header)* | – | Kicker "Syn på lärande · Nr 2", H1 = titeln, lead, byline "Kent Lundgren · <datum>" |
-| 1 | Vad texten säger | `VadTextenSager` | Referat av Romohs LinkedIn-inlägg (`linkedin-romoh-gpt6-astra.md`). Kort: instruktionsföljsamhet, inte kodning, inga siffror. |
+| 1 | Vad texten säger | `Inledning` | Referat av Romohs LinkedIn-inlägg (`linkedin-romoh-gpt6-astra.md`). Kort: instruktionsföljsamhet, inte kodning, inga siffror. |
 | 2 | Vilken modell pratar vi ens om? | `VilkenModell` | Modell-namn-svårigheten (PRD avsnitt 6, stycket "Först: …"). Kommer *före* dimensionerna för att färga läsningen av dem. |
 | 3 | Kan den koda? | `Kodformaga` | Dimension 1. |
-| 4 | Hur styr man den? | `Harness` | Dimension 2, med underrubriker (H3) "Vad som finns" (2a) och "Hur det känns" (2b). |
+| 4 | Hur styr man den? | `Harness` | Dimension 2, med H3-ankare `HarnessMekanism` (2a) och `HarnessErgonomi` (2b). |
 | 5 | Vad kostar nyttan? | `PrisNytta` | Dimension 3 + kvot-resonemanget. |
-| 6 | Överblick | `Overblick` | Den sammanfattande tabellen (avsnitt 6 nedan). Får ligga här eller direkt efter lead – Kent väljer vid bygget. |
+| 6 | Överblick | `Overblick` | Den sammanfattande tabellen (avsnitt 6 nedan). Placering – Kent väljer (SPEC avsnitt 13). |
 | 7 | Andras röster | `AndraRoster` | Kort intro + länk till `jamforelse-roster.md`. Ev. citat-skylt. |
 | 8 | Vad jag själv landar i | `VadJagLandarI` | Kents ståndpunkt + kunskapssyns-vinkeln (PRD avsnitt 8). Ramas som *en bild av frågan, inte ett facit*. |
 | 9 | Referenser | `Referenser` | Ihopfällbar, alfabetisk, annoterad (avsnitt 8 nedan). |
 
-Varje H2 och H3 får ett klickbart `#`-ankare som i Nr1.
+**Ankarkonvention:** samma stil som Nr1 (CamelCase, inget å/ä/ö) – t.ex.
+`…/Nr2/#VilkenModell`, `…/Nr2/#VadJagLandarI` – så att serien är konsekvent.
+Namnstilen är inte det viktiga; **kravet är att varje avsnitt går att djuplänka
+till**. Konkret:
+
+- Varje **H2 och H3** får ett stabilt `id` och ett klickbart `#`-ankare som
+  syns vid hover (samma mekanik som Nr1).
+- Ankarna ändras aldrig efter publicering (gamla länkar ska fortsätta funka).
+- README:ns djuplänkstabell listar **alla** ankare med full URL.
+- Varje referens i `#Referenser` får dessutom ett eget id (`#ref-...`), som i Nr1.
+
+Detta bör bli en **generell byggregel** – se not i avsnitt 9.
 
 ## 4. Dimensionsdefinitioner (exakt vad som jämförs)
 
@@ -105,17 +116,28 @@ Regler:
 - Benchmark-siffror (SWE-bench m.m.) *informerar* omdömet men *är* det inte –
   de redovisas separat i prosan med sina egna brasklappar.
 
-### 5.2 "Kostnad" – konkret och daterad
+### 5.2 "Kostnad" – både per Mtoken och per månad
 
-Per modell: **en kostnad i kronor per månad** för en **definierad
-referensanvändning**, som skrivs ut explicit. Förslag på referens:
+Två nivåer, båda daterade (priser ändras ofta):
 
-> Antag Kents faktiska mönster: kodning ~10–15 h/vecka, övervägande via
-> abonnemang (Claude Max respektive ChatGPT Pro/Plus), med API/credits bara
-> när abonnemangets gräns nås.
+**a) Råpris per modell/nivå** – en liten tabell:
 
-Om Kents verkliga siffror inte finns: använd en tydligt märkt hypotes och
-visa uträkningen. Redovisa också råpriset ($/Mtoken in/ut) i en not, daterat.
+| | in $/Mtoken | ut $/Mtoken | cache (läs) | abonnemang som täcker det |
+|---|---|---|---|---|
+| Claude (ver., datum) | … | … | … | Claude Max / Team, gräns per … |
+| OpenAI/Codex (ver., datum) | … | … | … | ChatGPT Pro/Plus, gräns per … |
+
+**b) Kostnad per månad för en referensanvändning** (bekräftad av Kent
+2026-09-09):
+
+> **35 timmar kodning per vecka** (5 h/dag × 7), alltså i praktiken heltid.
+
+Vid bygget: uppskatta token-volymen för 35 h/vecka aktivt agent-kodande
+(storleksordning, med tydlig metod), räkna om till kr/månad på råpriset, och –
+viktigast – **avgör om den volymen ryms inom abonnemangen (Claude Max, ChatGPT
+Pro) eller spiller över till API/credits**. Var gränsen går och vad överskottet
+kostar är i sig ett av de mest matnyttiga resultaten i dimension 3. Hela
+uträkningen och alla antaganden skrivs ut (Regel 3 – ingen dold matematik).
 
 ### 5.3 Kvoten – ett resonemang, med en illustrativ indexrad
 
@@ -124,12 +146,46 @@ Kvoten *nytta ÷ kostnad* används på två sätt:
 1. **I prosan, som Kents test:** "Modell A kostar ~X gånger så mycket som B.
    Är den X gånger bättre för det jag gör? [svar + varför]." Detta är
    huvudleveransen.
-2. **I överblickstabellen, som en indexrad:** den modell som ger minst nytta
-   per krona sätts till index 100, övriga relativt den. Raden märks
-   *"illustrativ – täljaren är ett omdöme"*. Den ersätter inte resonemanget.
+2. **I överblickstabellen, som en indexrad.**
 
-Detta bevarar Kents "dubbelt så dyr ⇒ dubbelt så bra"-logik utan att påstå en
-precision som inte finns (Regel 3 och 13).
+### Vad "indexraden" är – räknat exempel
+
+Alla siffror nedan är **påhittade** för att visa formen, inte resultat.
+
+Säg att researchen landar i:
+
+| | nytta-snitt (1–5, Kents omdöme) | kostnad kr/mån (35 h/v) |
+|---|---|---|
+| Claude | 4,0 | 900 |
+| OpenAI/Codex | 3,5 | 450 |
+
+Räkna nytta ÷ kostnad:
+
+- Claude: 4,0 / 900 = 0,00444
+- OpenAI/Codex: 3,5 / 450 = 0,00778
+
+Sätt den lägsta (Claude) till **index 100** och den andra relativt den:
+
+- Claude: **100**
+- OpenAI/Codex: 0,00778 / 0,00444 × 100 ≈ **175**
+
+**Så här ser raden ut i tabellen:**
+
+| | Claude | OpenAI/Codex |
+|---|---|---|
+| Nytta per krona (index, illustrativ – täljaren är Kents omdöme) | 100 | 175 |
+
+Läsningen: *"i det här exemplet får jag ungefär 1,75 gånger så mycket nytta per
+krona av Codex – men Claude ligger högre i ren nytta (4,0 mot 3,5), så om
+budgeten inte är trång kan det ändå vara värt det."* Indexet gör
+värde-för-pengarna synligt på en rad; prosan säger vad man ska göra med det.
+
+Detta bevarar Kents "dubbelt så dyr ⇒ dubbelt så bra"-logik: om Claude vore
+dubbelt så dyr (index skulle kräva dubbså nytta för att matcha) ser man direkt
+om nyttan hänger med. Utan att påstå en precision som inte finns (Regel 3, 13).
+
+**Kent avgör (SPEC avsnitt 13) om raden ska vara med alls, eller om
+prosa-resonemanget räcker.**
 
 ## 6. Bedömningsform – förslag på tabell-frågan
 
@@ -139,7 +195,7 @@ precision som inte finns (Regel 3 och 13).
 
 - **Prosa** bär substansen: nyanser, vad mätningen missar, Kents resonemang.
   Ingen dimension klaras av med bara en rad i en tabell.
-- **Exakt en sammanfattande tabell** (avsnittet `Overblick`), inte en tabell
+- **Exakt en sammanfattande tabell** (avsnittet `#Overblick`), inte en tabell
   per dimension. Kolumner:
 
 | Kolumn | Innehåll |
@@ -174,6 +230,28 @@ Romohs inlägg är rad 1. Minst 3, helst 5–8 röster totalt; blanda hållning
 Citat: högst en kort mening per röst, i citattecken, med attribution (Regel:
 copyright). Ingen återgivning av hela inlägg.
 
+### 7.1 Uppdatera senare: sök fler röster (färdig prompt)
+
+Kent vill kunna be Claude leta fler röster i en framtida session. Den här
+prompten läggs också in i `README.md` så den är lätt att hitta. Kopiera den,
+byt ut `<datum>` mot dagens datum, och klistra in i en Claude Code-session som
+har `Studier` öppet:
+
+> Öppna `synpalarande/Nr2/`. Läs `SPEC.md` avsnitt 7 (röst-definitionen) och
+> `jamforelse-roster.md` (befintliga röster). Sök på webben efter **nya
+> offentliga röster** – personer eller organisationer – som jämför Claude med
+> OpenAI/Codex **för kodning**, publicerade ungefär det senaste halvåret fram
+> till `<datum>`. En röst tas bara in om den (1) går att attribuera med länk
+> och hämtdatum, (2) säger något konkret om minst en av dimensionerna
+> kodförmåga / harness / pris–nytta, och (3) är förstahandserfarenhet, ett test
+> med metod, eller en resonerande jämförelse – inte hype. Lägg till varje ny
+> röst som en rad i tabellen i `jamforelse-roster.md`: **vem · vad de hävdar ·
+> vilken dimension · (lämna "Kents kommentar" tom åt mig)**. Blanda hållning,
+> inte bara den ena sidan. Redovisa i chatten vad du hittade, vad du valde bort
+> och varför. Uppdatera "senast sökt"-datumet överst i filen. **Committa inte –
+> jag gör det själv i Cursor.** Om nya röster ändrar bilden i någon dimension,
+> säg det, men ändra inte `index.html` utan att fråga.
+
 ## 8. Källhantering och versionsmärkning
 
 - **Harvard enligt `kent-referens-skill`:** länkad förstahänvisning i löptext,
@@ -203,7 +281,12 @@ copyright). Ingen återgivning av hela inlägg.
 - `styles.css` utgår från `../Nr1/styles.css`: läsbar typografi, ljust/mörkt via
   `prefers-color-scheme`, samma typografiska skala. Avvik bara där Nr2 kräver
   det (tabellen).
-- Stabila rubrik-ankare och `#`-hover som i Nr1. Djuplänkstabell i README.
+- **Djuplänkbarhet (föreslagen generell byggregel).** Varje avsnitt (H2 och H3)
+  ska gå att nå direkt med `URL#ankare` – stabilt `id`, synligt `#` vid hover,
+  oföränderligt efter publicering, och listat i README:ns djuplänkstabell.
+  Precis som Nr1 (`#Pisa2025`, `#VadJagLandarI`). Kent vill att detta blir en
+  stående regel i skillen `kent-bygg-sidor` (ny Regel 7) – utkast skickat till
+  honom 2026-09-09, väntar på bekräftelse. Gäller Nr2 oavsett.
 - **Cursor gör commit/push och slår på GitHub Pages.** Claude Code rör inte
   git i det här repot (Regel 11).
 
@@ -214,14 +297,16 @@ copyright). Ingen återgivning av hela inlägg.
 - Tabell: Live-URL · källkod på GitHub · **lokal sökväg** · skapad-datum.
 - Not om att GitHub Pages ännu inte är påslaget för `Studier` (samma text som
   `Nr1/README.md`).
-- Upplägg-avsnitt (de nio avsnitten), djuplänkstabell, fil-lista, källnot.
+- Upplägg-avsnitt (de nio avsnitten), djuplänkstabell (alla ankare från
+  avsnitt 3), fil-lista, källnot.
+- **"Uppdatera sidan"-avsnitt** med den färdiga prompten från SPEC 7.1 inklistrad.
 - "Se även": `Nr1/`, skillen `syn-pa-larande`, bloggen.
 
 ## 11. Gränsfall
 
 | Situation | Hantering |
 |---|---|
-| En modell byter namn/version mellan research och publicering | Notera båda, datummärk, nämn det i avsnitt `VilkenModell` som ett levande exempel |
+| En modell byter namn/version mellan research och publicering | Notera båda, datummärk, nämn det i avsnitt `#VilkenModell` som ett levande exempel |
 | En källa ligger bakom betalvägg | Använd inte påståenden som inte kan verifieras; skriv ut att källan inte kunnat läsas i sin helhet (som i `pisa-2025-media-jamforelse.md`) |
 | Ett benchmark är omtvistat | Redovisa tvisten, inte bara siffran |
 | Bara en källa för en skillnad | nytta-siffran stannar på 3; skillnaden redovisas som "en röst, inte en trend" |
@@ -238,17 +323,34 @@ copyright). Ingen återgivning av hela inlägg.
 
 ## 13. Att bekräfta med Kent innan bygget
 
-1. **Referensanvändningen i 5.2** – stämmer "~10–15 h/vecka, mest via
-   abonnemang"? Har Kent faktiska kr/mån-siffror att använda i stället?
-2. **Indexraden i 5.3 / 6** – vill Kent ha den alls, eller räcker
-   prosa-resonemanget?
-3. **Tabellens placering** – överst (efter lead) eller i eget avsnitt `Overblick`?
-4. **Antal röster** i `jamforelse-roster.md` – räcker 3–5, eller vill Kent ha fler?
+Avgjort 2026-09-09: referensanvändning = **35 h/vecka**; kostnad redovisas
+**både** per Mtoken och per månad (5.2); ankare = Nr1:s CamelCase-stil, men
+**kravet** är djuplänkbarhet till varje avsnitt (avsnitt 3), som också föreslås
+bli en generell byggregel (avsnitt 9); 3–5 röster räcker, med en färdig
+uppdaterings-prompt (7.1).
+
+Kvar:
+
+1. **Indexraden (5.3):** efter det räknade exemplet – vill Kent ha raden i
+   tabellen, eller räcker prosa-resonemanget?
+2. **Tabellens placering:** överst (direkt efter lead) eller i eget avsnitt
+   `#Overblick` längre ner?
 
 ---
 
 ## Uppdateringslogg
 
+- 2026-09-09 (v0.2): Kents svar inarbetade – referensanvändning 35 h/vecka;
+  kostnad både per Mtoken och per månad, med analys av om volymen ryms i
+  abonnemangen (5.2); räknat exempel på indexraden tillagt (5.3); färdig
+  "sök fler röster"-prompt tillagd (7.1) och krav på att den in i README (10).
+  Kvar: indexraden ja/nej, tabellens placering (avsnitt 13).
+- 2026-09-09 (v0.3): Ankarfrågan förtydligad – Kent menade inte en särskild
+  namnstil utan att **varje avsnitt ska gå att djuplänka till** (som Nr1:s
+  `#Pisa2025`, `#VadJagLandarI`). Nr2 behåller Nr1:s CamelCase för
+  serie-konsekvens; kravet på stabila H2/H3-ankare + README-djuplänkstabell
+  skärpt (avsnitt 3) och föreslås bli en generell regel i `kent-bygg-sidor`
+  (avsnitt 9).
 - 2026-09-09 (v0.1): Skapad. Förslag på PRD:ns två sista öppna frågor: "nytta"
   = subjektivt omdöme 1–5 med källkrav + konkret kostnad + kvot som resonemang
   och illustrativ indexrad (avsnitt 5); bedömningsform = prosa som huvudform +
