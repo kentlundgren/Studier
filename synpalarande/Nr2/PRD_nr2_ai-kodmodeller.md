@@ -1,7 +1,7 @@
 # PRD – Syn på lärande nr 2: jämföra AI-modeller för kodning
 
-**Status:** UTKAST v0.4 – för Kent att reagera på. Inget är byggt.
-**Skapad:** 2026-09-09 · **Ändrad:** 2026-09-09 (v0.4)
+**Status:** UTKAST v0.5 – för Kent att reagera på. Inget är byggt. SPEC.md finns.
+**Skapad:** 2026-09-09 · **Ändrad:** 2026-09-09 (v0.5)
 **Plats:** `C:\Users\kentl\OneDrive\AI\Studier\synpalarande\Nr2\`
 **Repo:** [`kentlundgren/Studier`](https://github.com/kentlundgren/Studier) (publikt, `main`, känt-gott)
 **Serie:** tredje bygget i `synpalarande/` efter [`Nr1/`](../Nr1/) och skillen `syn-pa-larande`
@@ -230,12 +230,12 @@ Ihopfällbar referenslista som i Nr1.
 
 ## 11. SPEC.md-checkpoint (Regel 6)
 
-**Behövs ett SPEC.md-steg?** Nu när formatet är hybrid (C) och jämförelsen får en
-datamodell: **ja, en kort SPEC.md.** En agent som bygger sidan behöver exakt: de
-tre dimensionsrubrikerna och deras fasetter, om bedömningen är prosa eller skala,
-**vilken proxy som används för "nytta" i kvoten och hur kvoten räknas**, vad som
-räknas som en "röst"/källa i avsnitt 7. Utan det fylls luckorna med gissningar.
-SPEC.md skrivs **före** bygget.
+**Behövs ett SPEC.md-steg?** Ja – och den är skriven:
+[`SPEC.md`](SPEC.md) (v0.1, 2026-09-09). Den fastställer filstruktur, de nio
+avsnitten med ankare, dimensionsmallen, bedömningsmodellen ("nytta" 1–5 +
+konkret kostnad + kvot som resonemang), tabellens kolumner, "röst"-definitionen,
+käll- och versionsmärkningsregler, byggregler och gränsfall. SPEC:ens avsnitt 13
+har fyra småpunkter för Kent att bekräfta innan bygget.
 
 ## 12. Faktakänslighet (Regel 3)
 
@@ -265,12 +265,16 @@ modellen skriver koden?"), **modell-namn-svårigheten** tillagd som eget stycke
 i avsnitt 6, och **beslutslogg-rad** – ja, loggas (gjort 2026-09-09 i
 `beslutslogg.md`).
 
-Kvar:
+Kvar – **förslag finns nu i [`SPEC.md`](SPEC.md), väntar på Kents bekräftelse:**
 
-1. **"Nytta"-proxyn konkret:** benchmark-poäng, andel uppgifter utan omtag,
-   tidsbesparing, eller en kombination? Avgörs i SPEC.md.
-2. **Bedömningsform:** ren prosa per dimension, eller en liten tabell/skala i
-   `index.html`? (Påverkar SPEC.md och bygget.)
+1. **"Nytta"-proxyn** (SPEC avsnitt 5): förslag = subjektivt omdöme 1–5 per
+   modell×dimension, default 3, avvikelse kräver två källor; kostnad konkret i
+   kr/mån för en referensanvändning; kvoten som resonemang + en illustrativ
+   indexrad.
+2. **Bedömningsform** (SPEC avsnitt 6): förslag = prosa som huvudform + exakt
+   en sammanfattande tabell.
+3. Fyra småpunkter i SPEC avsnitt 13 (referensanvändningen, indexraden alls,
+   tabellens placering, antal röster).
 
 ### Om `beslutslogg.md`
 
@@ -322,3 +326,10 @@ här PRD:n:
   tyst omruttning) – Kents tillägg; även speglat i avsnitt 8. Beslutslogg-rad
   införd i `beslutslogg.md` på Kents godkännande. Kvar: "nytta"-proxy,
   bedömningsform – båda avgörs i SPEC.md.
+- 2026-09-09 (v0.4b): Fräscha-ögon-genomläsning (Regel 7). Rättade
+  numreringskrock (harness-fasetterna var "3a/3b" i avsnitt 3 och 5 men "2a/2b"
+  i avsnitt 6 – nu "2a/2b" genomgående) och tog bort ett overifierat
+  OpenAI-kodnamn.
+- 2026-09-09 (v0.5): `SPEC.md` (v0.1) skriven, med Claudes förslag på de två
+  sista öppna frågorna. Avsnitt 11 och 14 uppdaterade att peka dit. Kvar:
+  Kents bekräftelse av SPEC:ens avsnitt 5, 6 och 13.
