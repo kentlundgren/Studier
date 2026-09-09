@@ -22,8 +22,8 @@ samma dag.*
   `/docs/models` (OpenAI:s Codex-dokumentation), `artificialanalysis.ai`
   (oberoende benchmark).
 - **Blockerat för verktyget (403):** `openai.com/index/gpt-6-astra/`,
-  OpenAI:s och Anthropics hjälpsidor om användningsgränser. → Kent kan öppna
-  dem inloggad; tills dess står gränssiffrorna på hands-on/sekundärkällor.
+  OpenAI:s och Anthropics hjälpsidor om användningsgränser. → Kan öppnas
+  inloggad; tills dess står gränssiffrorna på hands-on/sekundärkällor.
 - **Svaga källor (bara spår):** SEO-aggregatorer (morphllm, cloudzero, benchlm,
   codingfleet, explainx m.fl.). Inget benchmark-tal härifrån står oemotsagt.
 - **Största kvarvarande osäkerhet:** exakta SWE-bench-tal (se Dimension 1) och
@@ -156,6 +156,9 @@ behörighets-/sandbox-modellen.
 - **"Godkänn åt mig"** = agent-/autogodkännandeläge i förgrunden.
 - Modell **"GPT-6 Astra Låg"** (modell + variant + effekt).
 - **"Välj projekt"**, **"Pluginer"**, **"Schemalagd"** i vänsterpanelen.
+
+*(Kent har valt att behålla vänsterpanelen i båda bilderna – den visar hur
+apparna faktiskt ser ut i bruk.)*
 
 **Vad bilderna visar:**
 - *Konvergens i apparna:* båda har projekt, schemalagda uppgifter, plugins, en

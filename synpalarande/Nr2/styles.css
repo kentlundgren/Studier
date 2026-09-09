@@ -1,0 +1,954 @@
+:root {
+  color-scheme: light dark;
+  --bg: #faf8f4;
+  --surface: #ffffff;
+  --ink: #23201c;
+  --ink-soft: #574f45;
+  --ink-faint: #8a8175;
+  --accent: #2f5d86;
+  --accent-strong: #21486a;
+  --rule: #e7e1d6;
+  --card: #f4f1ea;
+  --maxw: 43rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #171614;
+    --surface: #1f1e1b;
+    --ink: #ece7df;
+    --ink-soft: #c3bcb0;
+    --ink-faint: #8f877a;
+    --accent: #7fb0d6;
+    --accent-strong: #a7c9e6;
+    --rule: #34322d;
+    --card: #26241f;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  font-size: 1.125rem;
+  line-height: 1.72;
+  -webkit-text-size-adjust: 100%;
+}
+
+.page {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: clamp(1.5rem, 4vw, 3.5rem) clamp(1.1rem, 4vw, 2rem) 6rem;
+}
+
+/* Header */
+.page__header { margin-bottom: 2.5rem; }
+
+.kicker {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 0 0 1rem;
+}
+
+.page__header h1 {
+  font-size: clamp(1.85rem, 5.2vw, 2.6rem);
+  line-height: 1.18;
+  margin: 0 0 0.9rem;
+  letter-spacing: -0.01em;
+}
+
+.lead {
+  font-size: 1.16rem;
+  color: var(--ink-soft);
+  font-style: italic;
+  margin: 0 0 1.4rem;
+}
+
+.byline {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.85rem;
+  color: var(--ink-faint);
+  margin: 0;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--rule);
+}
+
+/* Prose */
+.prose p { margin: 0 0 1.35rem; }
+
+.prose h2 {
+  font-size: 1.4rem;
+  line-height: 1.3;
+  margin: 2.8rem 0 1rem;
+  padding-top: 0.4rem;
+  letter-spacing: -0.005em;
+  scroll-margin-top: 1.5rem;
+}
+
+.anchor {
+  margin-left: 0.35rem;
+  font-weight: 400;
+  color: var(--ink-faint);
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 0.12s ease, color 0.12s ease;
+}
+h2:hover .anchor,
+.anchor:focus { opacity: 1; }
+.anchor:hover { color: var(--accent); }
+@media (hover: none) {
+  .anchor { opacity: 0.45; }
+}
+
+.prose em { font-style: italic; }
+.prose strong { font-weight: 700; }
+
+a {
+  color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.14em;
+}
+a:hover { color: var(--accent-strong); }
+
+/* References */
+.refs {
+  margin-top: 3.5rem;
+  padding-top: 1.6rem;
+  border-top: 2px solid var(--rule);
+}
+
+.refs__bar {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.refs__bar h2 {
+  font-size: 1.25rem;
+  margin: 0;
+  scroll-margin-top: 1.5rem;
+}
+
+.refs__toggle {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: transparent;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  padding: 0.32rem 0.85rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.refs__toggle:hover { border-color: var(--accent); }
+
+.refs__count {
+  background: var(--accent);
+  color: #fff;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  min-width: 1.4rem;
+  height: 1.4rem;
+  padding: 0 0.35rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (prefers-color-scheme: dark) {
+  .refs__count { color: #10100e; }
+}
+
+.refs__note {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.82rem;
+  color: var(--ink-faint);
+  margin: 0.9rem 0 1.4rem;
+}
+
+.refs__list {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.62;
+}
+
+.refs__list p {
+  margin: 0 0 1.15rem;
+  padding-left: 1.4rem;
+  text-indent: -1.4rem;
+  color: var(--ink-soft);
+}
+.refs__list em { color: var(--ink-faint); }
+.refs__list a { word-break: break-word; }
+
+.refs__list[data-collapsed="true"] { display: none; }
+
+/* Footer */
+.page__footer {
+  margin-top: 3rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--rule);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.82rem;
+  color: var(--ink-faint);
+}
+.page__footer p { margin: 0; }
+
+/* Corner links */
+.corner {
+  position: fixed;
+  bottom: 14px;
+  z-index: 40;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  color: var(--ink-soft);
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 7px;
+  padding: 0.32rem 0.6rem;
+  text-decoration: none;
+  opacity: 0.55;
+  transition: opacity 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+  cursor: pointer;
+}
+.corner:hover { opacity: 1; border-color: var(--accent); color: var(--accent); }
+.corner-left { left: 14px; }
+.corner-right { right: 14px; }
+
+/* Tech modal */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: rgba(20, 18, 15, 0.55);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: clamp(1rem, 5vh, 4rem) 1rem;
+  overflow-y: auto;
+}
+.modal-overlay[hidden] { display: none; }
+
+.modal {
+  position: relative;
+  background: var(--surface);
+  color: var(--ink);
+  border-radius: 14px;
+  max-width: 640px;
+  width: 100%;
+  padding: 2rem clamp(1.2rem, 4vw, 2.1rem) 2.2rem;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.modal__close {
+  position: absolute;
+  top: 0.7rem;
+  right: 0.9rem;
+  background: transparent;
+  border: none;
+  font-size: 1.6rem;
+  line-height: 1;
+  color: var(--ink-faint);
+  cursor: pointer;
+  padding: 0.2rem 0.4rem;
+}
+.modal__close:hover { color: var(--ink); }
+
+.modal h2 {
+  font-family: Georgia, serif;
+  font-size: 1.3rem;
+  margin: 0 0 0.5rem;
+}
+.modal__intro {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  margin: 0 0 1.5rem;
+}
+.modal h3 {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+  margin: 1.6rem 0 0.8rem;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.85rem;
+}
+@media (max-width: 33rem) {
+  .tech-grid { grid-template-columns: 1fr; }
+}
+
+.tech-card {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 0.85rem 0.9rem 0.95rem;
+}
+.tech-card h4 {
+  font-size: 0.9rem;
+  margin: 0 0 0.35rem;
+}
+.tech-card p {
+  font-size: 0.83rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+/* Comparison table */
+.compare {
+  margin: 2rem 0 2.4rem;
+}
+
+.compare__scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+}
+
+.compare table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 34rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+
+.compare thead th {
+  background: var(--card);
+  text-align: left;
+  font-weight: 700;
+  color: var(--ink);
+  padding: 0.6rem 0.8rem;
+  border-bottom: 2px solid var(--rule);
+}
+
+.compare thead th:first-child {
+  color: var(--ink-faint);
+  font-weight: 600;
+}
+
+.compare tbody th {
+  text-align: left;
+  font-weight: 600;
+  color: var(--ink-soft);
+  padding: 0.55rem 0.8rem;
+  vertical-align: top;
+  width: 30%;
+  border-bottom: 1px solid var(--rule);
+}
+
+.compare tbody td {
+  padding: 0.55rem 0.8rem;
+  vertical-align: top;
+  color: var(--ink-soft);
+  border-bottom: 1px solid var(--rule);
+  border-left: 1px solid var(--rule);
+}
+
+.compare tbody tr:last-child th,
+.compare tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.compare tbody td:nth-child(2) {
+  background: color-mix(in srgb, var(--accent) 7%, transparent);
+}
+
+.compare figcaption {
+  margin-top: 0.7rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+  color: var(--ink-faint);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+/* Update note (PISA 2025) */
+.update {
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent) 32%, var(--rule));
+  border-radius: 10px;
+  padding: 1rem 1.15rem 1.05rem;
+  margin: 0 0 2.4rem;
+}
+.update p { margin: 0; }
+.update p + p { margin-top: 0.5rem; }
+.update__flag {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+.update p#update-title {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+/* Revised passages + inline flag */
+.prose p.revised {
+  border-left: 2px solid color-mix(in srgb, var(--accent) 45%, var(--rule));
+  background: color-mix(in srgb, var(--accent) 4%, transparent);
+  padding: 0.2rem 0.5rem 0.2rem 0.9rem;
+  margin-left: -0.9rem;
+  border-radius: 0 4px 4px 0;
+}
+
+.rev-note {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent) 32%, var(--rule));
+  border-radius: 999px;
+  padding: 0.08rem 0.42rem;
+  margin-left: 0.4rem;
+  text-decoration: none;
+  white-space: nowrap;
+  vertical-align: 0.12em;
+}
+.rev-note:hover {
+  background: color-mix(in srgb, var(--accent) 20%, transparent);
+  color: var(--accent-strong);
+}
+
+/* Changes ledger (PISA 2025) */
+.changes { margin: 1.9rem 0 2.2rem; }
+
+.changes__scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+}
+
+.changes table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 32rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+
+.changes thead th {
+  background: var(--card);
+  text-align: left;
+  font-weight: 700;
+  color: var(--ink);
+  padding: 0.6rem 0.8rem;
+  border-bottom: 2px solid var(--rule);
+}
+
+.changes tbody td {
+  padding: 0.6rem 0.8rem;
+  vertical-align: top;
+  color: var(--ink-soft);
+  border-bottom: 1px solid var(--rule);
+}
+
+.changes tbody td:first-child {
+  width: 40%;
+  border-right: 1px solid var(--rule);
+  color: var(--ink-faint);
+  font-style: italic;
+}
+
+.changes tbody tr:last-child td { border-bottom: none; }
+
+.changes b { color: var(--ink); font-weight: 700; }
+
+.changes figcaption {
+  margin-top: 0.7rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+  color: var(--ink-faint);
+}
+
+/* Sverige mot OECD-snittet: liten sifferruta som möter invändningen
+   "men Sverige ligger ju över snittet" med de faktiska talen */
+.oecd-jmf { margin: 1.6rem 0 2rem; }
+
+.oecd-jmf__scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+}
+
+.oecd-jmf table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 20rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+
+.oecd-jmf caption {
+  caption-side: top;
+  text-align: left;
+  font-weight: 700;
+  color: var(--ink);
+  padding: 0.6rem 0.8rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.oecd-jmf thead th {
+  background: var(--card);
+  text-align: right;
+  font-weight: 700;
+  color: var(--ink);
+  padding: 0.5rem 0.8rem;
+  border-bottom: 2px solid var(--rule);
+}
+
+.oecd-jmf thead th:first-child { text-align: left; }
+
+.oecd-jmf tbody th {
+  text-align: left;
+  font-weight: 600;
+  color: var(--ink-soft);
+  padding: 0.5rem 0.8rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.oecd-jmf tbody td {
+  padding: 0.5rem 0.8rem;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-soft);
+  border-bottom: 1px solid var(--rule);
+}
+
+.oecd-jmf tbody tr:last-child th,
+.oecd-jmf tbody tr:last-child td { border-bottom: none; }
+
+.oecd-jmf tbody td:last-child { color: var(--ink-faint); }
+
+.oecd-jmf figcaption {
+  margin-top: 0.7rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+  color: var(--ink-faint);
+}
+
+/* Skylt: sju röster */
+.voices {
+  margin: 2rem 0 2.4rem;
+  padding: 1.1rem 1.2rem 1rem;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+}
+
+.voices__kicker {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin: 0 0 0.7rem;
+}
+
+.voices__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Utan JS: alla sju som en enkel lista */
+.voices__item + .voices__item {
+  margin-top: 0.9rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--rule);
+}
+
+.voices__item blockquote {
+  margin: 0;
+  font-size: 1.12rem;
+  line-height: 1.5;
+  font-style: italic;
+  color: var(--ink);
+}
+
+.voices__item cite {
+  display: block;
+  margin-top: 0.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+  font-style: normal;
+  color: var(--ink-faint);
+}
+
+/* Med JS: en växlande skylt */
+.voices--js .voices__frame {
+  position: relative;
+}
+
+.voices--js .voices__list {
+  display: grid;
+}
+
+.voices--js .voices__item {
+  grid-area: 1 / 1;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.45s ease, visibility 0s linear 0.45s;
+}
+
+.voices--js .voices__item.is-active {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.45s ease, visibility 0s;
+}
+
+.voices__controls {
+  display: none;
+}
+
+.voices--js .voices__controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.voices__toggle {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: transparent;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+}
+.voices__toggle:hover { border-color: var(--accent); }
+
+.voices__dots {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.voices__dot {
+  width: 9px;
+  height: 9px;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, var(--rule));
+  background: transparent;
+  cursor: pointer;
+}
+.voices__dot.is-active {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.voices__dot:hover { border-color: var(--accent); }
+
+.voices figcaption {
+  margin-top: 0.9rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .voices--js .voices__item {
+    transition: none;
+  }
+}
+
+/* Bildspel: tre diagram */
+.slides {
+  margin: 1.9rem 0 2.2rem;
+}
+
+.slides__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Utan JS: de tre diagrammen staplade */
+.slides__item + .slides__item {
+  margin-top: 1rem;
+}
+
+.slides__item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  background: #fff;
+}
+
+/* Med JS: ett diagram i taget */
+.slides--js .slides__list {
+  display: grid;
+}
+
+.slides--js .slides__item {
+  grid-area: 1 / 1;
+  margin: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.45s ease, visibility 0s linear 0.45s;
+}
+
+.slides--js .slides__item.is-active {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.45s ease, visibility 0s;
+}
+
+.slides__controls {
+  display: none;
+}
+
+.slides--js .slides__controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 0.8rem;
+}
+
+.slides__toggle {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: transparent;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+}
+.slides__toggle:hover { border-color: var(--accent); }
+
+.slides__dots {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.slides__dot {
+  width: 9px;
+  height: 9px;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, var(--rule));
+  background: transparent;
+  cursor: pointer;
+}
+.slides__dot.is-active {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.slides__dot:hover { border-color: var(--accent); }
+
+.slides figcaption {
+  margin-top: 0.8rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .slides--js .slides__item {
+    transition: none;
+  }
+}
+
+/* Ordförklaringar (visas vid hovring eller tangentbordsfokus) */
+.gloss {
+  position: relative;
+  text-decoration: underline dotted;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  text-decoration-color: var(--ink-faint);
+  cursor: help;
+}
+
+.gloss__pop {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 0.4rem);
+  z-index: 30;
+  width: max-content;
+  max-width: min(22rem, 78vw);
+  padding: 0.7rem 0.85rem;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 9px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.86rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--ink-soft);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.14s ease;
+}
+
+.gloss:hover .gloss__pop,
+.gloss:focus .gloss__pop,
+.gloss:focus-visible .gloss__pop {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* På smal skärm: visa förklaringen som ett fält längst ned, aldrig beskuret */
+@media (max-width: 34rem) {
+  .gloss__pop {
+    position: fixed;
+    left: 1.1rem;
+    right: 1.1rem;
+    top: auto;
+    bottom: 1.1rem;
+    width: auto;
+    max-width: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gloss__pop { transition: none; }
+}
+
+/* ── Nr2-specifikt ─────────────────────────────────────────────── */
+
+/* Hänvisning till överblicken, nära toppen */
+.jump {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.9rem;
+  color: var(--ink-faint);
+  margin: 0 0 2.2rem;
+}
+
+/* Jämförelsetabellen ska vara neutral: ingen kolumn framhävd */
+.compare--neutral tbody td:nth-child(2) { background: transparent; }
+.compare--neutral tbody td { text-align: left; }
+.compare--neutral .num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.compare--neutral tbody tr.sum th,
+.compare--neutral tbody tr.sum td {
+  border-top: 2px solid var(--rule);
+  color: var(--ink);
+  font-weight: 700;
+}
+.compare--neutral tbody tr.index th,
+.compare--neutral tbody tr.index td {
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+  color: var(--ink);
+  font-weight: 700;
+}
+
+/* Skala-förklaring under tabellen */
+.scale-legend {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+  color: var(--ink-faint);
+  line-height: 1.55;
+  margin: 0.8rem 0 0;
+}
+.scale-legend b { color: var(--ink-soft); }
+
+/* Två app-skärmdumpar */
+.figpair {
+  margin: 1.9rem 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+@media (max-width: 40rem) {
+  .figpair { grid-template-columns: 1fr; }
+}
+.figpair figure { margin: 0; }
+.figpair img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  background: #fff;
+}
+.figpair figcaption {
+  margin-top: 0.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+  color: var(--ink-faint);
+  line-height: 1.5;
+}
+.figpair figcaption b { color: var(--ink-soft); }
+
+/* Liten inline-markör för osäker uppgift */
+.prov {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  padding: 0.04rem 0.4rem;
+  white-space: nowrap;
+  vertical-align: 0.1em;
+}
+
+/* Utkastruta (omdömen ej frysta) */
+.draftnote {
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent) 32%, var(--rule));
+  border-radius: 10px;
+  padding: 1rem 1.15rem;
+  margin: 0 0 2.4rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+.draftnote p { margin: 0; }
+.draftnote__flag {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--accent);
+  display: block;
+  margin-bottom: 0.3rem;
+}

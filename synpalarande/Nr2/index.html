@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vad betyder "bäst" när modellen skriver koden? Syn på lärande nr 2</title>
+<meta name="description" content="En jämförelse av Claude och OpenAI/Codex för kodning – kodförmåga, harness och pris per token – och varför 'bäst' beror på vilken fråga man ställer. Uppgifter per september 2026.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<article class="page">
+
+  <header class="page__header">
+    <p class="kicker">Syn på lärande &middot; Nr 2</p>
+    <h1>Vad betyder &rdquo;bäst&rdquo; när modellen skriver koden?</h1>
+    <p class="lead">En läsning av ett LinkedIn-inlägg om att GPT&#8209;6 hade
+    kört om Claude &ndash; och ett försök att väga kodförmåga, harness och pris
+    mot varandra utan att låtsas att det finns ett facit.</p>
+    <p class="byline">Kent Lundgren &middot; 9 september 2026 &middot; uppgifter per september 2026</p>
+  </header>
+
+  <div class="prose">
+
+    <div class="draftnote">
+      <span class="draftnote__flag">Utkast</span>
+      <p>Den här sidan är ett utkast för egen granskning. Siffrorna 1&ndash;5
+      längre ned är mitt <em>preliminära</em> omdöme, inte ett fryst betyg, och
+      ett par abonnemangsuppgifter är ännu inte kontrollerade mot bolagens egna
+      hjälpsidor. Underlaget &ndash; research och kostnadsmatematik &ndash;
+      ligger som egna filer i mappen på GitHub. GitHub Pages är inte påslaget
+      för det här repot ännu.</p>
+    </div>
+
+    <p class="jump">Vill du bara se sammanställningen: hoppa till
+    <a href="#Overblick">överblicken</a>.</p>
+
+    <p>Jag blev tipsad om ett inlägg av Osama Romoh på LinkedIn. Rubriken var
+    ungefär: <em>&rdquo;I love Claude, but GPT&#8209;6 Astra blew Fable 5 out of
+    the water for me.&rdquo;</em> Han hade använt Claude länge, blev överraskad
+    av OpenAI:s nya modell, och köpte ChatGPT Pro <em>vid sidan av</em> sitt
+    Claude&nbsp;Max-abonnemang. Han behöll alltså båda.</p>
+
+    <p>Jag kodar en hel del med generativ AI numera &ndash; små webbsidor och
+    verktyg, den här sidan är ett exempel &ndash; och jag har fastnat för Claude
+    Code. Så inlägget kliade. Är GPT&#8209;6 bättre? Och vad menar vi egentligen
+    med bättre, när verktyget delvis skriver koden åt oss? Det är den frågan
+    jag ville rota i, med min egen syn på kunskap som lins.</p>
+
+    <h2 id="Inledning">Vad inlägget säger <a class="anchor" href="#Inledning" aria-label="Länk till detta avsnitt">#</a></h2>
+
+    <p>Romohs poäng är smalare än rubriken. Han skriver inte om kodkvalitet och
+    han visar inga siffror. Det han fastnat för är att GPT&#8209;6 <em>följer
+    instruktioner tätare</em>: ber han om ett kort svar får han ett kort svar,
+    inte fem stycken som förklarar varför svaret är kort. &rdquo;Astra has been
+    really, really good at giving me what I actually asked for&rdquo;, skriver
+    han, och tillägger att det spelar roll när man använder modellerna i skarpt
+    arbete och inte vill påminna dem om instruktioner man redan gett.</p>
+
+    <p>Det är en subjektiv arbetsupplevelse på en enda dimension. Men den duger
+    som avstamp, för den öppnar de tre frågor jag tycker är intressanta: kan den
+    koda, hur styr man den, och vad kostar nyttan. Innan dess en sak som gjorde
+    hela jämförelsen krångligare än jag trodde.</p>
+
+    <h2 id="VilkenModell">Vilken modell pratar vi ens om? <a class="anchor" href="#VilkenModell" aria-label="Länk till detta avsnitt">#</a></h2>
+
+    <p>När jag skulle ta reda på vad som gällde märkte jag att frågan
+    &rdquo;vilken modell&rdquo; inte har ett enkelt svar, och att det i sig är en
+    del av problemet.</p>
+
+    <p>Modellerna står inte stilla. Bolagen uppgraderar ofta, och varje
+    uppgradering får ett nytt namn eller nummer. På Claude-sidan finns just nu
+    namn <em>och</em> nummer om vartannat: Fable&nbsp;5.1, Mythos&nbsp;5.1,
+    Opus&nbsp;5 (med 4.8, 4.7, 4.6, 4.5 kvar i prislistan), Sonnet&nbsp;5,
+    Haiku&nbsp;4.5. På OpenAI-sidan finns GPT&#8209;6 Astra (släppt 3 september
+    2026), tre varianter av GPT&#8209;5.6 som heter Sol, Terra och Luna, en
+    forskningsförhandsvisning som heter 5.3 Codex Spark, och det förra
+    flaggskeppet 5.5. En kodspecifik modell, 5.3&#8209;codex, är redan avvecklad.
+    GPT&#8209;5.4 pensionerades 31 augusti, och om du hade den sparad i en
+    konfigurationsfil fick du byta ut den mot 5.6&#8209;terra själv.</p>
+
+    <p>Namnen döljer dessutom vad som körs. &rdquo;GPT&#8209;6&rdquo;,
+    &rdquo;Claude Code&rdquo; och &rdquo;Codex&rdquo; är inte modeller utan
+    familjer eller produkter. Skärmdumpen jag hade framför mig sa
+    &rdquo;GPT&#8209;6 Astra Låg&rdquo; &ndash; det är modell, variant och
+    effektnivå staplade i en etikett. Och vilken underliggande modell som
+    faktiskt svarar kan bytas eller ruttas om utan att jag märker det.</p>
+
+    <p>Så varje siffra i den här texten är daterad &rdquo;per september
+    2026&rdquo;, och &rdquo;vilken modell används egentligen&rdquo; är inte en
+    parentes utan en del av svaret. Det påminner om något jag återkommer till om
+    prov och betyg: måttet är ett val, inte en naturlag &ndash; och här byter
+    till och med det som mäts namn snabbare än en text hinner skrivas.</p>
+
+    <h2 id="Kodformaga">Kan den koda? <a class="anchor" href="#Kodformaga" aria-label="Länk till detta avsnitt">#</a></h2>
+
+    <p>Kort svar: båda kan, ungefär lika bra, och benchmarken har svårt att
+    skilja dem åt längre.</p>
+
+    <p>Det brukar mätas med tester som SWE&#8209;bench Verified (lös riktiga
+    GitHub-ärenden) och Terminal&#8209;Bench (klara stökiga terminaluppgifter).
+    Ett oberoende index från Artificial Analysis, publicerat samma dag som
+    GPT&#8209;6 kom, sätter Claude Fable&nbsp;5.1 i Claude Code på 70 och
+    GPT&#8209;6 Astra på 67 &ndash; i praktiken oavgjort, och Opus&nbsp;5 ligger
+    på samma nivå. På ett annat agentiskt kodtest, DeepSWE, beskrivs
+    GPT&#8209;6 som &rdquo;a tie, not a takeover&rdquo;. Där Astra vinner tydligt
+    är på Terminal&#8209;Bench 4.0, alltså lång, rörig terminalkörning med
+    felåterhämtning.</p>
+
+    <p>Ett tecken på hur trubbig måttstocken blivit: när Anthropic presenterade
+    Opus&nbsp;5 nämnde de inte ens SWE&#8209;bench Verified, utan ledde med andra
+    tester och med kostnad per uppgift. Toppmodellerna ligger så tätt att provet
+    mättat. Och Terminal&#8209;Bench finns i minst tre versioner samtidigt, med
+    olika vinnare. Vilket test man väljer är i sig ett ställningstagande.</p>
+
+    <p>Det finns en försiktig kvalitetsskillnad åt Claudes håll. I en
+    genomgång där någon kört båda i över hundra timmar bedömde blinda granskare
+    Claude-koden som renare i två fall av tre, även när skribenten själv
+    föredrog Codex i vardagen. Men det är en röst, inte en trend, och jag
+    lägger inte mer i det än så.</p>
+
+    <h2 id="Harness">Hur styr man den? <a class="anchor" href="#Harness" aria-label="Länk till detta avsnitt">#</a></h2>
+
+    <p>Det här &ndash; harness, hur modellen kopplas till dina filer, verktyg
+    och instruktioner &ndash; är enligt mig den intressantaste dimensionen, och
+    den som Romoh egentligen är inne på. Jag delar den i två: vad som finns, och
+    hur det känns.</p>
+
+    <h3 id="HarnessMekanism">Vad som finns <a class="anchor" href="#HarnessMekanism" aria-label="Länk till detta avsnitt">#</a></h3>
+
+    <p>Claude Code läser en <code>CLAUDE.md</code> i projektet vid varje
+    sessionsstart, bygger ett eget minne mellan sessioner, kan utökas med
+    &rdquo;skills&rdquo; och &rdquo;hooks&rdquo; (skalkommandon före eller efter
+    en åtgärd), kopplas till externa verktyg via MCP, och köra flera
+    delagenter parallellt. Den finns i terminalen, i VS Code och Cursor, i
+    JetBrains, i en egen skrivbordsapp och i webbläsaren &ndash; och samma
+    <code>CLAUDE.md</code> och samma inställningar gäller överallt.</p>
+
+    <p>Codex läser en <code>AGENTS.md</code> med lagrade överlagringar, har
+    konfigurationsfiler, stöder MCP, och delar numera samma
+    &rdquo;skills&rdquo;-standard som Claude. Den finns som ett
+    öppenkällkods-CLI, en IDE-tillägg, en molntjänst, i ChatGPT-appen och på
+    webben.</p>
+
+    <p>Med andra ord: mekaniken konvergerar. För ett år sedan var det en
+    tydligare skillnad; nu stöder båda samma verktygsstandard och samma
+    kopplingsprotokoll. Claude har fler dokumenterade primitiver kvar som är
+    dess egna &ndash; det automatiska minnet, hooks &ndash; men avståndet har
+    krympt.</p>
+
+    <h3 id="HarnessErgonomi">Hur det känns <a class="anchor" href="#HarnessErgonomi" aria-label="Länk till detta avsnitt">#</a></h3>
+
+    <p>Här går en genuin skiljelinje, och den handlar om filosofi mer än om
+    funktioner. Claude Code är interaktiv: den visar sitt resonemang och frågar
+    vid vägval. Codex lutar åt det autonoma: du lämnar en uppgift och får
+    tillbaka en implementation. En utvecklare som bytte beskrev Claude Code som
+    &rdquo;en kollega som hela tiden berättar vad den gör&rdquo; och Codex som
+    &rdquo;hand it a task, get the implementation back&rdquo;. Ingen av dem är
+    fel &ndash; det beror på vad man vill.</p>
+
+    <p>Det syns i apparna. Jag lade två skärmdumpar bredvid varandra:</p>
+
+    <div class="figpair">
+      <figure>
+        <img src="Bilder/Claude_app_260909.jpg" alt="Claude-appen, Code-fliken: rubrik &rdquo;What's up next, Kent?&rdquo;, en förbruknings-dashboard med sessioner, meddelanden och tokens, och en rad med Local, Studier, main och worktree.">
+        <figcaption><b>Claude-appen.</b> Repo, gren och worktree ligger i
+        förgrunden, och appen har en inbyggd mätare för hur mycket jag förbrukat.
+        I sidopanelen: Artifacts, Routines, Dispatch. Git-orienterad, och
+        medveten om kostnaden.</figcaption>
+      </figure>
+      <figure>
+        <img src="Bilder/Codex_app_260909.jpg" alt="ChatGPT/Codex-appen, Work-fliken: &rdquo;Vad ska vi jobba med?&rdquo;, en knapp &rdquo;Godkänn åt mig&rdquo; och modellväljaren GPT-6 Astra Låg.">
+        <figcaption><b>Codex-appen.</b> Avskalad. &rdquo;Godkänn åt mig&rdquo;
+        &ndash; alltså ett autogodkännande-läge &ndash; och &rdquo;Välj
+        projekt&rdquo; ligger främst. Delegera-och-lita-på.</figcaption>
+      </figure>
+    </div>
+
+    <p>Båda apparna har vid det här laget projekt, schemalagda uppgifter,
+    plugins och molnkörning. Skillnaden är vad de lyfter fram. Och för mig
+    spelar det roll: jag använder Cursor för att hantera Git och GitHub oavsett
+    modell, så det jag jämför är vilken <em>kodmotor</em> jag kör vid sidan av
+    Cursor. Ett CLI eller en IDE-tillägg som arbetar mot samma lokala filer
+    passar den kedjan bättre än en app med en egen, mer inmurad projektyta.</p>
+
+    <h2 id="PrisNytta">Vad kostar nyttan? <a class="anchor" href="#PrisNytta" aria-label="Länk till detta avsnitt">#</a></h2>
+
+    <p>Min tumregel är enkel: om en modell kostar dubbelt så mycket bör den vara
+    dubbelt så bra, annars är den sämre värd &ndash; kvalitet är nytta delat med
+    kostnad. Det tvingar fram frågan <em>hur mycket kapacitet jag egentligen
+    behöver</em>.</p>
+
+    <p>Flaggskeppen är prissatta likadant: både Claude Fable&nbsp;5.1 och
+    GPT&#8209;6 Astra kostar 10 dollar per miljon input-tokens och 50 dollar per
+    miljon output-tokens. Tre saker bryter ändå symmetrin. Claudes nyare
+    modeller använder en tokenizer som ger ungefär 30&nbsp;% fler tokens för
+    samma text, så samma uppgift blir dyrare än listpriset antyder. Astra
+    dubblar priset i långt kontext; Fable gör inte det. Och Astra är ett
+    prishopp uppåt från den förra generationen &ndash; men använder å andra
+    sidan färre tokens per koduppgift, vilket delvis tar ut det.</p>
+
+    <p>Går man ned en nivå &ndash; till &rdquo;bra men inte bäst&rdquo;, alltså
+    Claude Sonnet&nbsp;5 mot GPT&#8209;5.6 Terra &ndash; blir det billigare och
+    nästan jämnt: ungefär 2 dollar per miljon input och 10&ndash;12 per miljon
+    output för båda.</p>
+
+    <p>Jag räknade på min egen tänkta användning: 35 timmar kodning i veckan,
+    alltså heltid, ungefär 150 aktiva timmar i månaden. Med ett utskrivet
+    antagande om hur många tokens en aktiv timme drar (drygt två miljoner,
+    mest billiga cache-läsningar) landar rå API-kostnad på en orimlig nivå
+    &ndash; kring 10&nbsp;000 kronor i månaden för flaggskeppet. Ingen betalar
+    det. Man kör abonnemang och möter gränserna. Och där är bilden, så långt jag
+    kunnat verifiera den mot tester och användarrapporter <span class="prov">ej mot bolagens egna hjälpsidor</span>:</p>
+
+    <ul>
+      <li>Vid <strong>heltid med flaggskeppet</strong> spränger man
+      Claude&#8209;abonnemangets veckogränser och betalar dyr API-debitering för
+      överskottet &ndash; kanske 7&nbsp;000 kronor i månaden. ChatGPT/Codex
+      beskrivs som att gränserna sällan märks ens vid tung användning &ndash;
+      kanske 2&nbsp;300 kronor. Anthropic har höjt Claude Codes gränser flera
+      gånger under 2026, vilket säger något om att de var ett problem.</li>
+      <li>Vid <strong>mellanmodell som ryms i abonnemanget</strong> är det
+      ungefär 1&nbsp;000&ndash;2&nbsp;000 kronor i månaden för båda.</li>
+    </ul>
+
+    <p>En observation som förenklade räknandet: harness sitter i klienten, inte
+    i modellen. Byter jag från Fable till Sonnet är jag kvar i samma Claude Code
+    med samma <code>CLAUDE.md</code>. Så det är bara kodförmåga och kostnad som
+    ändras när man byter modellnivå &ndash; inte hur det är att styra.</p>
+
+    <h2 id="Overblick">Överblick <a class="anchor" href="#Overblick" aria-label="Länk till detta avsnitt">#</a></h2>
+
+    <p>Siffrorna 1&ndash;5 nedan är mitt eget omdöme, inte en mätning:
+    <b>3</b>&nbsp;=&nbsp;jämförbart och räcker, <b>4</b>&nbsp;=&nbsp;märkbart
+    bättre, <b>2</b>&nbsp;=&nbsp;märkbart sämre. Jag avviker från 3 bara där jag
+    har minst två oberoende källor. Harness-raderna gäller klienten och ändras
+    inte med modellnivån.</p>
+
+    <div class="compare compare--neutral">
+      <div class="compare__scroll">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Facett</th>
+              <th scope="col">Claude Code</th>
+              <th scope="col">OpenAI / Codex</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Kodförmåga</th>
+              <td class="num">3</td>
+              <td class="num">3</td>
+            </tr>
+            <tr>
+              <th scope="row">Harness &ndash; vad som finns</th>
+              <td class="num">4</td>
+              <td class="num">3</td>
+            </tr>
+            <tr>
+              <th scope="row">Harness &ndash; hur det känns</th>
+              <td class="num">3</td>
+              <td class="num">3</td>
+            </tr>
+            <tr class="sum">
+              <th scope="row">Nytta, snitt</th>
+              <td class="num">3,3</td>
+              <td class="num">3,0</td>
+            </tr>
+            <tr>
+              <th scope="row">Kostnad, flaggskepp heltid</th>
+              <td class="num">~7&nbsp;000 kr/mån</td>
+              <td class="num">~2&nbsp;300 kr/mån</td>
+            </tr>
+            <tr>
+              <th scope="row">Kostnad, mellanmodell i plan</th>
+              <td class="num">~1&nbsp;100 kr/mån</td>
+              <td class="num">~1&nbsp;000 kr/mån</td>
+            </tr>
+            <tr class="index">
+              <th scope="row">Nytta per krona &ndash; flaggskepp</th>
+              <td class="num">100</td>
+              <td class="num">~270</td>
+            </tr>
+            <tr class="index">
+              <th scope="row">Nytta per krona &ndash; mellanmodell</th>
+              <td class="num">~114</td>
+              <td class="num">100</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="scale-legend">
+        <b>Nytta per krona</b> är nyttan delad med kostnaden, indexerad så att
+        den lägsta i varje rad blir 100. Den är <em>illustrativ</em> &ndash;
+        täljaren är mitt omdöme, inte en mätning. Kostnaderna är min uppskattning
+        för 35&nbsp;h/vecka; hela uträkningen och alla antaganden ligger i
+        <code>kostnadskalkyl-35h.md</code> i mappen.
+      </p>
+    </div>
+
+    <p>Berättelsen tabellen landar i: <strong>kapaciteten är i stort sett jämn,
+    och priset avgör.</strong> Kräver man flaggskeppet och kör heltid ger
+    Codex ungefär tre gånger mer nytta per krona. Nöjer man sig med en bra
+    mellanmodell och håller sig i abonnemanget är det nästan jämnt, med en
+    hårfin fördel för Claude &ndash; för då väger harness-försprånget tyngre än
+    den lilla prisskillnaden.</p>
+
+    <h2 id="AndraRoster">Andras röster <a class="anchor" href="#AndraRoster" aria-label="Länk till detta avsnitt">#</a></h2>
+
+    <p>Debatten pågår, och den lutar Codex-positivt just nu &ndash; men med en
+    återkommande brasklapp om kodkvalitet. Jag samlar rösterna, med vad de
+    hävdar och vad jag tycker om det, i
+    <a href="jamforelse-roster.md">jamforelse-roster.md</a>. Ett urval:</p>
+
+    <div class="voices" aria-label="Röster om Claude mot Codex">
+      <p class="voices__kicker">Fem röster</p>
+      <div class="voices__frame">
+        <ul class="voices__list" id="voicesList">
+          <li class="voices__item is-active">
+            <blockquote>Astra has been really, really good at giving me what I
+            actually asked for.</blockquote>
+            <cite>Osama Romoh, LinkedIn, september 2026 &ndash; om
+            instruktionsföljsamhet. Köpte ChatGPT Pro men behöll Claude Max.</cite>
+          </li>
+          <li class="voices__item">
+            <blockquote>If someone made me uninstall one today, it's not Codex.</blockquote>
+            <cite>Prathit Joshi, Composio, augusti 2026 &ndash; efter 100+
+            timmar med båda. Codex vann 3&ndash;2, men blinda granskare bedömde
+            Claude-koden som renare.</cite>
+          </li>
+          <li class="voices__item">
+            <blockquote>Fast mode + generous limits = more reps.</blockquote>
+            <cite>Peter Yang, tidigare inbiten Claude Code-användare, om varför
+            han bytte till Codex &ndash; iterationstakt, inte kapacitet.</cite>
+          </li>
+          <li class="voices__item">
+            <blockquote>65&nbsp;% föredrar Codex i vardagen &ndash; men blinda
+            granskningar bedömde Claude-koden som renare 67&nbsp;% av gångerna.</blockquote>
+            <cite>Refererad utvecklarenkät, 2026. Ursprunget är inte spårat till
+            en primärkälla.</cite>
+          </li>
+          <li class="voices__item">
+            <blockquote>Claude Code för arkitektur och planering, Codex för
+            tät implementation. Konsensus: kör båda.</blockquote>
+            <cite>Sammanfattning av flera jämförelser &ndash; det vanligaste
+            rådet är att inte välja.</cite>
+          </li>
+        </ul>
+      </div>
+      <div class="voices__controls">
+        <button type="button" class="voices__toggle" id="voicesToggle">Pausa</button>
+        <div class="voices__dots" id="voicesDots" aria-hidden="true"></div>
+      </div>
+      <figcaption>Skylten växlar av sig själv. Utan JavaScript visas de fem
+      citaten som en lista.</figcaption>
+    </div>
+
+    <h2 id="VadJagLandarI">Vad jag själv landar i <a class="anchor" href="#VadJagLandarI" aria-label="Länk till detta avsnitt">#</a></h2>
+
+    <p>Jag tänker inte byta från Claude Code. Men inte för att det är
+    &rdquo;bäst&rdquo; i någon absolut mening &ndash; utan för att den
+    interaktiva stilen, att modellen visar hur den tänker och frågar vid vägval,
+    passar hur jag vill arbeta. Det är samma skäl som gör att jag är liberal med
+    att använda AI när jag lär mig något: skillnaden som betyder något är
+    mellan ett verktyg som förklarar tills jag förstår och ett som levererar så
+    att jag slipper. En modell som resonerar högt inbjuder till det första.</p>
+
+    <p>Och min syn på kunskap gör mig misstänksam mot själva benchmark-tävlingen.
+    Ett prov för kod bär en kunskapssyn precis som ett nationellt prov gör: det
+    bestämmer vad som räknas som att kunna. När Anthropic slutar leda med
+    SWE&#8209;bench för att den mättat, och OpenAI vinner en annan mätning i
+    stället, så säger det mer om vilket prov man väljer än om vilken modell som
+    är bäst. &rdquo;Bäst&rdquo; är ett rörligt mål, inte minst för att det som
+    mäts byter namn var sjätte vecka.</p>
+
+    <p>Frågan &rdquo;dubbelt så dyr, dubbelt så bra?&rdquo; har ett tydligare
+    svar: för det mesta jag gör behöver jag inte flaggskeppet. En bra
+    mellanmodell räcker, den kostar en bråkdel, och då är valet mellan Claude
+    och Codex nästan en smaksak &ndash; det som skiljer är hur man vill att
+    verktyget ska bete sig, inte om det klarar uppgiften.</p>
+
+    <p>Det Romohs inlägg egentligen visade var kanske inte att GPT&#8209;6 är
+    bättre, utan att en van Claude-användare valde att betala för <em>båda</em>.
+    Svaret blev &rdquo;ja tack&rdquo;, inte &rdquo;antingen eller&rdquo;. Det är
+    en bild av frågan, inte ett facit.</p>
+
+  </div>
+
+  <section class="refs" aria-labelledby="Referenser">
+    <div class="refs__bar">
+      <h2 id="Referenser">Referenser <a class="anchor" href="#Referenser" aria-label="Länk till detta avsnitt">#</a></h2>
+      <button type="button" class="refs__toggle" id="refsToggle" aria-expanded="true" aria-controls="refs-list">
+        <span class="refs__toggle-text">Dölj referenser</span>
+        <span class="refs__count">8</span>
+      </button>
+    </div>
+
+    <p class="refs__note">Harvardstil. Länkarna öppnades och kontrollerades
+    2026-09-09. Alla uppgifter är daterade &rdquo;per september 2026&rdquo;
+    eftersom priser och modeller ändras snabbt. Den kursiva parentesen förklarar
+    varför källan är med.</p>
+
+    <div class="refs__list" id="refs-list">
+
+      <p id="ref-anthropic-code">Anthropic (2026) <em>Claude Code overview</em>.
+      Dokumentation. Tillgänglig på:
+      <a href="https://code.claude.com/docs/en/overview" target="_blank" rel="noopener">https://code.claude.com/docs/en/overview</a>
+      (hämtad 2026-09-09).
+      <em>(Primärkälla för vilka ytor Claude Code har och vilka
+      harness-primitiver som finns: CLAUDE.md, auto memory, skills, hooks, MCP,
+      subagenter. Grunden för avsnittet &rdquo;Vad som finns&rdquo;.)</em></p>
+
+      <p id="ref-anthropic-opus5">Anthropic (2026) <em>Claude Opus 5</em>.
+      Nyhet, 24 juli 2026. Tillgänglig på:
+      <a href="https://www.anthropic.com/news/claude-opus-5" target="_blank" rel="noopener">https://www.anthropic.com/news/claude-opus-5</a>
+      (hämtad 2026-09-09).
+      <em>(Anthropics egen presentation av Opus 5. Nämner inte SWE-bench
+      Verified, utan leder med andra tester och med kostnad per uppgift &ndash;
+      själva iakttagelsen att flaggskeppsannonsen gått ifrån standardmåttet.)</em></p>
+
+      <p id="ref-anthropic-pricing">Anthropic (2026) <em>Pricing</em>.
+      Plattformsdokumentation. Tillgänglig på:
+      <a href="https://platform.claude.com/docs/en/about-claude/pricing" target="_blank" rel="noopener">https://platform.claude.com/docs/en/about-claude/pricing</a>
+      (hämtad 2026-09-09).
+      <em>(Primärkälla för alla Claude-priser per miljon tokens, cache-priser,
+      och noten om att modeller från 4.7 och framåt använder en tokenizer som
+      ger ~30&nbsp;% fler tokens för samma text.)</em></p>
+
+      <p id="ref-aa-astra">Artificial Analysis (2026) <em>Benchmarking GPT-6
+      Astra</em>. Analys, 3 september 2026. Tillgänglig på:
+      <a href="https://artificialanalysis.ai/articles/benchmarking-gpt-6-astra" target="_blank" rel="noopener">https://artificialanalysis.ai/articles/benchmarking-gpt-6-astra</a>
+      (hämtad 2026-09-09).
+      <em>(Oberoende benchmark. Källan för att Fable&nbsp;5.1 i Claude Code
+      leder deras Coding Agent Index med 70 mot GPT-6 Astras 67, och för att
+      Astra är mer token-effektiv på kod.)</em></p>
+
+      <p id="ref-composio">Joshi, P. (2026) <em>Claude Code vs Codex: what I
+      learned after 100+ hours with both</em>. Composio-bloggen, 18 augusti
+      2026. Tillgänglig på:
+      <a href="https://composio.dev/content/claude-code-vs-openai-codex" target="_blank" rel="noopener">https://composio.dev/content/claude-code-vs-openai-codex</a>
+      (hämtad 2026-09-09).
+      <em>(Hands-on-jämförelse med redovisad metod. Källan för
+      &rdquo;Codex vann 3&ndash;2&rdquo;, för att blinda granskare bedömde
+      Claude-koden som renare, för citatet om att inte avinstallera Codex, och
+      för abonnemangsgränsernas praktiska betydelse.)</em></p>
+
+      <p id="ref-openai-pricing">OpenAI (2026) <em>API Pricing</em>.
+      Utvecklardokumentation. Tillgänglig på:
+      <a href="https://developers.openai.com/api/docs/pricing" target="_blank" rel="noopener">https://developers.openai.com/api/docs/pricing</a>
+      (hämtad 2026-09-09).
+      <em>(Primärkälla för GPT-6 Astras pris, för att långt kontext dubblar
+      priset, och för priserna på GPT-5.6 Sol, Terra och Luna.)</em></p>
+
+      <p id="ref-openai-codex">OpenAI (2026) <em>Codex documentation</em>
+      (inklusive <em>Models</em>). Tillgänglig på:
+      <a href="https://learn.chatgpt.com/docs" target="_blank" rel="noopener">https://learn.chatgpt.com/docs</a>
+      (hämtad 2026-09-09).
+      <em>(Primärkälla för vilka klienter Codex har &ndash; CLI, IDE-tillägg,
+      moln, ChatGPT-app &ndash; för AGENTS.md och konfigurationsfilerna, och för
+      modellväljaren: Astra, Sol, Terra, Luna, samt att 5.3-codex avvecklats och
+      5.4 pensionerats.)</em></p>
+
+      <p id="ref-romoh">Romoh, O. (2026) <em>&rdquo;I love Claude, but GPT-6
+      Astra blew Fable 5 out of the water for me&rdquo;</em>. Inlägg, LinkedIn,
+      september 2026.
+      <em>(Texten hela genomgången utgår från. Permalänk och exakt datum är inte
+      verifierade &ndash; inlägget lästes via en skärmdump. Handlar om
+      instruktionsföljsamhet, inte kodkvalitet, och innehåller inga siffror.)</em></p>
+
+    </div>
+  </section>
+
+  <footer class="page__footer">
+    <p>Syn på lärande &middot;
+    <a href="https://synpalarande.wordpress.com/" target="_blank" rel="noopener">synpalarande.wordpress.com</a></p>
+  </footer>
+
+</article>
+
+<a class="corner corner-left" href="https://github.com/kentlundgren/Studier/tree/main/synpalarande/Nr2" target="_blank" rel="noopener">{ } GitHub</a>
+<button type="button" class="corner corner-right" id="techBtn" aria-label="Tekniköversikt">&lt;/&gt; teknik</button>
+
+<div class="modal-overlay" id="techModal" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="tech-title">
+    <button type="button" class="modal__close" id="techClose" aria-label="Stäng">&times;</button>
+    <h2 id="tech-title">Hur den här sidan är byggd</h2>
+    <p class="modal__intro">En kort not om tekniken bakom sidan och om hur den
+    kom till.</p>
+
+    <h3>Tekniken</h3>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <h4>Tre filer, noll ramverk</h4>
+        <p>Ren HTML, CSS och JavaScript i tre separata filer. Inget React, ingen
+        byggkedja, inga externa bibliotek. Typsnitten är de som redan finns i
+        din webbläsare.</p>
+      </div>
+      <div class="tech-card">
+        <h4>Ingenting lämnar sidan</h4>
+        <p>Ingen server, ingen analytics, inga cookies, ingen inloggning.
+        JavaScript sköter tre saker: fäller ihop referenslistan, öppnar den här
+        rutan, och driver den växlande skylten med röster.</p>
+      </div>
+      <div class="tech-card">
+        <h4>Fungerar utan JavaScript</h4>
+        <p>Hela texten, tabellen och alla källänkar fungerar även med skript
+        avstängt. Då står referenslistan utfälld och skyltens fem citat visas
+        som en lista.</p>
+      </div>
+      <div class="tech-card">
+        <h4>Byggd för att länkas</h4>
+        <p>Varje avsnitt och varje referens har ett stabilt id, så att en
+        enskild del går att länka direkt till &ndash; till exempel
+        <code>&hellip;/Nr2/#Overblick</code>.</p>
+      </div>
+      <div class="tech-card">
+        <h4>Tabellen scrollar i sidled</h4>
+        <p>På en smal skärm kan överblickstabellen scrollas i sidled i sin egen
+        ruta, utan att hela sidan gör det.</p>
+      </div>
+      <div class="tech-card">
+        <h4>Två skärmdumpar</h4>
+        <p>Bilderna av de två apparna är mina egna, tagna 9 september 2026.
+        Vänsterpanelen är kvar med flit &ndash; den visar hur apparna faktiskt
+        ser ut i bruk.</p>
+      </div>
+    </div>
+
+    <h3>Metoden</h3>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <h4>Nr 2 av flera</h4>
+        <p>Samma upplägg som Nr 1: en text som avstamp, argument åt olika håll,
+        egen sammanvägning som ramas som en bild av frågan, inte ett facit.
+        Den här gången ett LinkedIn-inlägg om AI för kodning.</p>
+      </div>
+      <div class="tech-card">
+        <h4>Priser mot primärkälla</h4>
+        <p>Alla priser och den mesta produktinformationen är hämtad från
+        Anthropics och OpenAI:s egna sidor och kontrollerad 9 september 2026.
+        Två saker kunde inte verifieras mot primärkälla: exakta
+        abonnemangsgränser (bolagens hjälpsidor krävde inloggning) och
+        permalänken till LinkedIn-inlägget.</p>
+      </div>
+      <div class="tech-card">
+        <h4>Benchmark-siffrorna är omtvistade &ndash; med flit</h4>
+        <p>Att testerna spretar är inte en brist i underlaget, det är poängen.
+        Ett oberoende index används där det finns; annars redovisas att olika
+        mätningar ger olika svar.</p>
+      </div>
+      <div class="tech-card">
+        <h4>Siffrorna 1&ndash;5 är mitt omdöme</h4>
+        <p>De är min egen bedömning, inte en mätning, och de står så i texten.
+        Jag avviker från &rdquo;3 = jämförbart&rdquo; bara där minst två
+        oberoende källor pekar åt samma håll.</p>
+      </div>
+      <div class="tech-card">
+        <h4>Kostnadskalkylen ligger öppen</h4>
+        <p>Uträkningen för 35 timmar i veckan, med alla antaganden utskrivna,
+        ligger som <code>kostnadskalkyl-35h.md</code> i mappen på GitHub,
+        tillsammans med ett research-underlag.</p>
+      </div>
+      <div class="tech-card">
+        <h4>AI som verktyg, inte författare</h4>
+        <p>Jag har använt en språkmodell för sökning, källhantering och struktur.
+        Ställningstagandena och slutsatsen är mina. Det speglar samma hållning
+        som texten själv landar i.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

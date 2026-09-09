@@ -39,10 +39,10 @@ synpalarande/Nr2/
 
 **Bilderna** används som figurer i Dimension 2b (avsnitt 4). De är Kents egna
 skärmdumpar av de två apparna som de ser ut när man är inne i dem – inte en
-komplett kartläggning av alla ytor. **Integritet: före publicering ska Kents
-egna sidopaneler (sessions-/projektlistor) beskäras eller suddas bort** –
-Claude-appens skärmdump visar annars ett tjugotal av Kents privata
-sessionsrubriker (flera avslöjar jobbsökande). Se avsnitt 11.
+komplett kartläggning av alla ytor. **Kent har valt att behålla vänsterpanelen**
+(informerat beslut 2026-09-09 – Claude tog upp att Claude-appens panel visar
+en del av Kents sessionsrubriker; Kent bedömde att panelen behövs för att man
+ska se hur appen faktiskt ser ut i bruk). Visas i full bredd.
 
 ## 3. Sidans skelett – avsnitt, ordning, ankare
 
@@ -97,11 +97,12 @@ Dimension 2 ska **både beskriva** klientskillnaderna **och sluta i en
 rekommendation** om vad Kent bör köra vid sidan av Cursor.
 
 **2b illustreras med Kents två skärmdumpar** (`Bilder/Claude_app_260909.jpg`,
-`Bilder/Codex_app_260909.jpg`), sida vid sida med en bildtext som pekar ut
-kontrasten: Claude-appen sätter repo/gren/worktree + förbrukningsmätning främst;
-Codex-appen är avskalad och sätter "Godkänn åt mig" + projektval främst. Beskär
-sidopanelerna bort först (avsnitt 11). Bildtext i Kents röst måste vara sann –
-det är hans skärmdumpar och hans intryck (Regel 13).
+`Bilder/Codex_app_260909.jpg`), sida vid sida (staplade på mobil) med en bildtext
+som pekar ut kontrasten: Claude-appen sätter repo/gren/worktree + förbruknings-
+mätning + Artifacts/Routines/Dispatch främst; Codex-appen är avskalad och sätter
+"Godkänn åt mig" + projektval främst. Bilderna visas i full bredd (Kent behåller
+vänsterpanelen). Bildtext i Kents röst måste vara sann – det är hans skärmdumpar
+och hans intryck (Regel 13).
 
 ## 5. Bedömningsmodell – förslag på "nytta"-frågan
 
@@ -327,7 +328,7 @@ har `Studier` öppet:
 | Bara en källa för en skillnad | nytta-siffran stannar på 3; skillnaden redovisas som "en röst, inte en trend" |
 | Kent har inga egna kostnadssiffror | Tydligt märkt hypotes + uträkning |
 | Codex-klienten Kent bör välja är oklar även efter research | Beskriv skillnaderna, ge en villkorad rekommendation ("om X väger tyngst → …") snarare än ingen |
-| Skärmdumparna i `Bilder/` visar Kents privata sidopaneler | **Beskär eller sudda bort vänsterpanelens sessions-/projektlistor** innan bilden läggs i `index.html`. Behåll bara huvudytan (modellväljare, flikar, "Godkänn åt mig" / repo-rad, dashboard). Publicera aldrig obeskuren – Claude-appens panel avslöjar jobbsökar-rubriker. |
+| Skärmdumparna i `Bilder/` visar Kents vänsterpanel | Kent har valt att behålla den (informerat, 2026-09-09). Panelerna visar hur apparna faktiskt ser ut i bruk. Om Kent ändrar sig: beskär bort vänsterkolumnen (~282 px från vänster på Claude-bilden, ~282 px på Codex-bilden). |
 
 ## 12. Utanför scope
 

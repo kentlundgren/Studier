@@ -110,43 +110,69 @@ Peter Yang) och Anthropics upprepade gränshöjningar 2026.
 
 ---
 
-## 6. Två scenarier – och det är hela poängen
+## 6. En avgörande observation: harness är en egenskap hos *klienten*, inte modellen
 
-| | **A. Kräver flaggskeppet, heltid** | **B. Kör mellanmodell, håller sig i planen** |
+Byter man från Fable 5.1 till Sonnet 5 sitter man kvar i **samma Claude Code**
+med samma `CLAUDE.md`, skills, hooks, MCP och subagenter. Byter man från Astra
+till GPT-5.6 Terra sitter man kvar i **samma Codex**. Alltså:
+
+- **Harness – mekanism** och **Harness – ergonomi**: konstanta oavsett modellnivå.
+  Claudes preliminära försprång på mekanism (4 mot 3) gäller båda nivåerna.
+- **Kodförmåga** och **kostnad**: de enda facetterna som ändras när man byter
+  modellnivå.
+
+Det gör mellanmodell-scenariot enkelt att räkna: bara två rutor rör sig.
+
+## 7. Tre scenarier
+
+Nytta-siffrorna är Kents preliminära omdöme (SPEC 5.1). Harness-facetterna
+oförändrade; bara kodförmågan sätts per nivå.
+
+| | Claude | OpenAI/Codex |
 |---|---|---|
-| Claude, kr/mån | ~7 000 (Max 20x + API-overflow) | ~1 800 (Max 5x–20x) |
-| Codex/ChatGPT, kr/mån | ~2 300 (Pro, sällan gräns) | ~1 500 (Plus/Pro) |
-| Kostnadskvot | Claude ~3× dyrare | ~jämnt (Claude ~1,2×) |
+| **A. Flaggskepp** (Fable 5.1 / GPT-6 Astra) | kod 3 · mek 4 · erg 3 → snitt **3,33** | kod 3 · mek 3 · erg 3 → snitt **3,0** |
+| **B. Mellanmodell** (Sonnet 5 / GPT-5.6 Terra) | kod 3 · mek 4 · erg 3 → snitt **3,33** | kod 3 · mek 3 · erg 3 → snitt **3,0** |
 
-### Indexraden (nytta-snitt: Claude 3,33 / Codex 3,0 – Kents preliminära omdöme)
+`⚠️` Kodförmåga 3 för mellanmodellerna: Sonnet 5 är Anthropics uttalade
+kod-arbetshäst; GPT-5.6 Terra är "everyday/routine" (Sols "complex coding" ligger
+en klass över, men kostar $4/$20). Ingen tvåkällig grund för avvikelse – prosan
+noterar att Sonnet 5 är kod-inriktad medan Terra inte är det.
 
-**Scenario A:**
-- Claude: 3,33 / 7000 = 0,000476
-- Codex: 3,0 / 2300 = 0,001304
-- Lägst (Claude) = index 100 → **Codex ≈ 274**
+### Kostnad per månad (152 h)
 
-**Scenario B:**
-- Claude: 3,33 / 1800 = 0,001850
-- Codex: 3,0 / 1500 = 0,002000
-- Lägst (Claude) = index 100 → **Codex ≈ 108**
+| | Claude, kr/mån | Codex/ChatGPT, kr/mån | Kostnadskvot |
+|---|---|---|---|
+| **A. Flaggskepp, heltid** | ~7 000 (Max 20x + API-overflow) | ~2 300 (Pro, sällan gräns) | Claude ~3× dyrare |
+| **B1. Mellanmodell, ryms i abonnemanget** | ~1 100 (Max 5x, ~140–280 Sonnet-h/v ska räcka `⚠️`) | ~1 000 (Plus $20, ev. Pro) | ~jämnt |
+| **B2. Mellanmodell, viss overflow** | ~2 000 (Max 20x) | ~1 500 (Pro) | Claude ~1,3× |
+
+### Indexraden (lägst nytta/kostnad = 100)
+
+| Scenario | Claude | Codex | Läsning |
+|---|---|---|---|
+| **A. Flaggskepp** | 100 | **~270** | 3,33/7000 vs 3,0/2300 → Codex ~2,7× mer nytta/kr |
+| **B1. Mellanmodell, i plan** | **~114** | 100 | 3,33/1100 vs 3,0/1000 → *Claude* något bättre nytta/kr (harness-försprånget väger tyngre än den lilla prisskillnaden) |
+| **B2. Mellanmodell, overflow** | 100 | **~118** | 3,33/2000 vs 3,0/1500 → nästan jämnt, svag Codex-fördel |
 
 ---
 
-## 7. Slutsats för texten (Kents omdöme återstår)
+## 8. Slutsats för texten (Kents omdöme återstår)
 
-**Svaret på "vilket är bäst värde" beror helt på om man kräver toppmodellen:**
+**Svaret på "vilket är bäst värde" beror helt på vilken modellnivå man kräver:**
 
-- **Insisterar man på flaggskeppet och kör heltid:** Codex/ChatGPT ger ~2,5–3×
-  mer nytta per krona. Claudes tokenizer (+30 %), Astras billigare beteende, och
-  framför allt att Claude-abonnemanget spiller över till dyr API-debitering vid
-  den volymen, driver skillnaden.
-- **Nöjer man sig med en mellanmodell (Sonnet 5 / GPT-5.6 Terra) och håller sig
-  i abonnemanget:** det är nästan jämnt, båda ~1 500–2 000 kr/mån, och
-  kodförmågan räcker gott för det mesta.
+- **Insisterar man på flaggskeppet och kör heltid:** Codex/ChatGPT ger ~2,7×
+  mer nytta per krona. Claudes tokenizer (+30 %), Astras long-context-dubbling,
+  och framför allt att Claude-abonnemanget spiller över till dyr API-debitering
+  vid den volymen, driver skillnaden.
+- **Nöjer man sig med "bra men inte bäst" (Sonnet 5 / GPT-5.6 Terra) och håller
+  sig i abonnemanget:** ~1 000–2 000 kr/mån för båda, och nytta/kostnad blir
+  **i praktiken jämnt – med en hårfin fördel för Claude**, eftersom
+  harness-försprånget då väger tyngre än prisskillnaden. Kodförmågan räcker gott
+  för det mesta Kent gör.
 
-Det knyter tillbaka till titeln: "bäst" beror på vilken fråga man ställer, och
-"kvalitet = nytta/kostnad" tvingar fram frågan *hur mycket kapacitet behöver
-jag egentligen*.
+Det knyter tillbaka till titeln: "bäst" beror på vilken fråga man ställer.
+"Kvalitet = nytta/kostnad" tvingar fram frågan *hur mycket kapacitet behöver
+jag egentligen* – och för det mesta arbetet är svaret "mindre än flaggskeppet".
 
 ---
 
@@ -163,5 +189,8 @@ jag egentligen*.
 ## Uppdateringslogg
 
 - 2026-09-09: Skapad. Mitt-antagande ~2,1M tokens/aktiv timme; 152 h/mån.
-  Två scenarier (flaggskepp/heltid vs mellanmodell/i-plan) ger index Codex ~274
-  respektive ~108. Fyra punkter att verifiera.
+- 2026-09-09 (rev): Mellanmodell-nivån (Sonnet 5 / GPT-5.6 Terra) gjord till ett
+  eget scenario på Kents begäran ("bra men inte bästa modellerna"). Ny
+  observation: harness-facetterna är egenskaper hos klienten, inte modellen –
+  bara kodförmåga och kostnad ändras med modellnivån. Index: flaggskepp → Codex
+  ~270; mellanmodell i plan → Claude ~114 (svag fördel).
