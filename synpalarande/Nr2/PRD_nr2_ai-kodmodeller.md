@@ -1,8 +1,9 @@
 # PRD – Syn på lärande nr 2: jämföra AI-modeller för kodning
 
-**Status:** v0.7 – planeringen klar. SPEC.md är KLAR (v1.0). Nästa steg: research.
-Inget är byggt.
-**Skapad:** 2026-09-09 · **Ändrad:** 2026-09-09 (v0.7)
+**Status:** v0.8 – **`index.html` byggd** (utkast). Research klar. Kvar: Kent
+fryser 1–5-omdömena, verifierar de fyra punkterna i `kostnadskalkyl-35h.md` §8,
+och gör fräscha-ögon-genomläsning.
+**Skapad:** 2026-09-09 · **Ändrad:** 2026-09-09 (v0.8)
 **Plats:** `C:\Users\kentl\OneDrive\AI\Studier\synpalarande\Nr2\`
 **Repo:** [`kentlundgren/Studier`](https://github.com/kentlundgren/Studier) (publikt, `main`, känt-gott)
 **Serie:** tredje bygget i `synpalarande/` efter [`Nr1/`](../Nr1/) och skillen `syn-pa-larande`
@@ -343,3 +344,10 @@ här PRD:n:
   Planeringsfasen klar – nästa steg är research + källverifiering.
 - 2026-09-09 (v0.7): Kent godkände Regel 7-texten. **Regel 7 – Djuplänkbarhet**
   tillagd i `C:\Users\kentl\.claude\skills\kent-bygg-sidor\SKILL.md` (v6).
+- 2026-09-09 (v0.8): Research pass 2 klar. Mellanmodell-nivån (Sonnet 5 /
+  GPT-5.6 Terra) tillagd i kostnadskalkylen på Kents begäran. `index.html`,
+  `styles.css`, `script.js`, `jamforelse-roster.md` och `README.md` byggda och
+  verifierade i webbläsare (9 avsnitt, djuplänkar, GitHub-hörna + teknik-modal,
+  neutral överblickstabell, röst-skylt, ihopfällbar annoterad referenslista,
+  de två app-skärmdumparna). Sidan är ett **utkast** – 1–5-omdömena är
+  preliminära, två abonnemangsuppgifter overifierade.
