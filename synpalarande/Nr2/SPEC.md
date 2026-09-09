@@ -27,6 +27,7 @@ synpalarande/Nr2/
 │                                   #   teknik-modal, ev. citat-skylt. Sidan fungerar utan.
 ├── jamforelse-roster.md           # "andras röster"-underlaget (avsnitt 7)
 ├── research-underlag.md           # finns – råmaterial + källor, ej för publik
+├── kostnadskalkyl-35h.md          # finns – kostnadsmatematiken, ej för publik
 ├── PRD_nr2_ai-kodmodeller.md       # finns
 ├── SPEC.md                        # denna fil
 ├── linkedin-romoh-gpt6-astra.md   # finns
@@ -147,12 +148,12 @@ Två nivåer, båda daterade (priser ändras ofta):
 
 > **35 timmar kodning per vecka** (5 h/dag × 7), alltså i praktiken heltid.
 
-Vid bygget: uppskatta token-volymen för 35 h/vecka aktivt agent-kodande
-(storleksordning, med tydlig metod), räkna om till kr/månad på råpriset, och –
-viktigast – **avgör om den volymen ryms inom abonnemangen (Claude Max, ChatGPT
-Pro) eller spiller över till API/credits**. Var gränsen går och vad överskottet
-kostar är i sig ett av de mest matnyttiga resultaten i dimension 3. Hela
-uträkningen och alla antaganden skrivs ut (Regel 3 – ingen dold matematik).
+**Gjort 2026-09-09: se [`kostnadskalkyl-35h.md`](kostnadskalkyl-35h.md).**
+Mitt-antagande ~2,1M tokens/aktiv timme, 152 h/mån. Resultat: per timme kostar
+flaggskeppen ~lika (~$5–6) och mellanmodellerna ~lika (~$1,5). Ren API/mån blir
+orimligt hög → man kör abonnemang + overflow. Två scenarier: (A) flaggskepp +
+heltid → Claude ~3× dyrare; (B) mellanmodell + i-plan → nästan jämnt. Fyra
+punkter kvar att verifiera (kalkylens avsnitt 8).
 
 ### 5.3 Kvoten – ett resonemang, med en illustrativ indexrad
 
