@@ -1,10 +1,10 @@
 # PRD – Syn på lärande nr 2: jämföra AI-modeller för kodning
 
-**Status:** v0.9 – **`index.html` byggd** (utkast), inline-referenser +
-Claude-kompassen inlagda, fräscha-ögon-genomläsning gjord. Kvar: Kent fryser
-1–5-omdömena (`research-underlag.md` → "Omdomen 1-5"), verifierar de fyra
-punkterna i `kostnadskalkyl-35h.md` §8, tar bort utkastrutan.
-**Skapad:** 2026-09-09 · **Ändrad:** 2026-09-09 (v0.9)
+**Status:** v0.12 – sidan byggd, granskad, **live på GitHub Pages**
+(<https://kentlundgren.github.io/Studier/synpalarande/Nr2/>). Kent har satt
+1–5-omdömena (kan justeras framåt). Kvar: verifiera de fyra punkterna i
+`kostnadskalkyl-35h.md` §8 när tillfälle ges.
+**Skapad:** 2026-09-09 · **Ändrad:** 2026-09-09 (v0.12)
 **Plats:** `C:\Users\kentl\OneDrive\AI\Studier\synpalarande\Nr2\`
 **Repo:** [`kentlundgren/Studier`](https://github.com/kentlundgren/Studier) (publikt, `main`, känt-gott)
 **Serie:** tredje bygget i `synpalarande/` efter [`Nr1/`](../Nr1/) och skillen `syn-pa-larande`
@@ -360,6 +360,14 @@ här PRD:n:
 - 2026-09-09 (v0.11): Kent ångrade sudden på Claude-bildens sidopanel – för mycket
   information gick förlorad, och han står för vad som står där. Suddversionen
   (`Claude_app_260909_stor.jpg`) borttagen; lightbox pekar på originalbilden.
+- 2026-09-09 (v0.12): Sista fräscha-ögon-genomläsning – fem rättelser
+  ("blev tipsad" → "fastnade i mitt flöde"; namnge Joshi i stället för "någon";
+  "min egen tänkta användning" → "ett heltidsscenario"; "var sjätte vecka" →
+  "snabbare än man hinner vänja sig"; "ungefär tre" → "närmare tre gånger").
+  **GitHub Pages påslaget för `Studier` 2026-09-09** – live-URL:en fungerar.
+  Utkast-rutan omformulerad till "Om siffrorna": Kent *har* satt siffrorna,
+  det är hans omdöme och kan ändras framåt (inte "preliminärt/ej fryst").
+  Pages-noter borttagna i index, README, SPEC.
 - 2026-09-09 (v0.9): Kents runda 2 på den byggda sidan.
   (a) **Inline-referenser** – varje källas första hänvisning nu länkad i
   löptext (Regel 2). Referenslistan 10 poster, alfabetisk, annoterad.

@@ -8,11 +8,16 @@ här är beslut *av dagsläget* – de får omprövas. Stabila konventioner bor 
 
 ## 2026-09-09
 
+- **GitHub Pages påslaget för `Studier`.** Live-URL:er under
+  <https://kentlundgren.github.io/Studier/> fungerar nu (t.ex.
+  `.../synpalarande/Nr1/` och `.../synpalarande/Nr2/`). `Nr1/README.md` har
+  fortfarande en inaktuell "Pages inte påslaget"-not som bör tas bort.
 - **Nytt bygge i `synpalarande/`: Nr2** – *"Vad betyder 'bäst' när modellen
   skriver koden?"* En jämförelse av AI-modeller för kodning (Claude vs
-  OpenAI/Codex), utifrån ett LinkedIn-inlägg. Fullständig plan:
-  [`synpalarande/Nr2/PRD_nr2_ai-kodmodeller.md`](synpalarande/Nr2/PRD_nr2_ai-kodmodeller.md)
-  (v0.4). Inget byggt än.
+  OpenAI/Codex), utifrån ett LinkedIn-inlägg. Planering, research (två pass),
+  kostnadskalkyl och bygge gjort samma dag; sidan är **live**. Plan och
+  detaljer: [`synpalarande/Nr2/PRD_nr2_ai-kodmodeller.md`](synpalarande/Nr2/PRD_nr2_ai-kodmodeller.md)
+  (v0.12). Kvar: verifiera fyra antaganden i `kostnadskalkyl-35h.md` §8.
 - **Mappkontroll:** Nr2 lades medvetet i `synpalarande/` och *inte* i
   `AI-teknik` (dit tekniska modelljämförelser annars hör). Motivering: "kvalitet
   = nytta/kostnad" är en kunskapssyns-fråga, och benchmark-debatten illustrerar
