@@ -19,13 +19,11 @@ beror på vilken fråga man ställer.
 | Lokal sökväg | `C:\Users\kentl\OneDrive\AI\Studier\synpalarande\Nr2` |
 | Skapad | 2026-09-09 |
 
-> **Obs:** GitHub Pages är inte påslaget för `Studier` ännu. Live-länken börjar
-> fungera först när Pages aktiverats: repo-inställningar → *Pages* → *Source:
-> Deploy from a branch* → `main` / `/` (root). Samma upplägg som `Nr1/`.
-
-> **Utkast:** `index.html` är byggd men siffrorna 1–5 är Kents preliminära
-> omdöme, inte frysta, och två abonnemangsuppgifter är inte kontrollerade mot
-> bolagens egna hjälpsidor. Se `research-underlag.md` och `kostnadskalkyl-35h.md`.
+> **Om siffrorna 1–5:** de är Kents egen bedömning per facett – ett omdöme, inte
+> en mätning, och kan ändras framåt. Motivering med källor i
+> `research-underlag.md` (avsnittet "Omdomen 1-5"), kostnadsmatematiken i
+> `kostnadskalkyl-35h.md`. Två abonnemangsuppgifter är ännu inte kontrollerade
+> mot bolagens egna hjälpsidor (se kalkylens avsnitt 8).
 
 ## 🗂️ Lokalt repo
 

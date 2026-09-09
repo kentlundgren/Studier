@@ -311,8 +311,9 @@ har `Studier` öppet:
 `Nr2/README.md` ska ha:
 - Kort beskrivning (vad Nr2 är, att det är en egen sida och inte ett blogginlägg).
 - Tabell: Live-URL · källkod på GitHub · **lokal sökväg** · skapad-datum.
-- Not om att GitHub Pages ännu inte är påslaget för `Studier` (samma text som
-  `Nr1/README.md`).
+- Not om siffrorna 1–5 (Kents omdöme, kan ändras; motivering i `research-underlag.md`).
+  *(GitHub Pages för `Studier` slogs på 2026-09-09 – ingen "inte påslaget"-not
+  längre.)*
 - Upplägg-avsnitt (de nio avsnitten), djuplänkstabell (alla ankare från
   avsnitt 3), fil-lista, källnot.
 - **"Uppdatera sidan"-avsnitt** med den färdiga prompten från SPEC 7.1 inklistrad.
