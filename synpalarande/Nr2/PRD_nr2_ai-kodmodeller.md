@@ -1,7 +1,7 @@
 # PRD – Syn på lärande nr 2: jämföra AI-modeller för kodning
 
-**Status:** UTKAST v0.1 – för Kent att reagera på. Inget är byggt.
-**Skapad:** 2026-09-09
+**Status:** UTKAST v0.2 – för Kent att reagera på. Inget är byggt.
+**Skapad:** 2026-09-09 · **Ändrad:** 2026-09-09 (v0.2)
 **Plats:** `C:\Users\kentl\OneDrive\AI\Studier\synpalarande\Nr2\`
 **Repo:** [`kentlundgren/Studier`](https://github.com/kentlundgren/Studier) (publikt, `main`, känt-gott)
 **Serie:** tredje bygget i `synpalarande/` efter [`Nr1/`](../Nr1/) och skillen `syn-pa-larande`
@@ -11,239 +11,250 @@
 ## 1. Bakgrund och trigger
 
 Kent vill ha "en plats för att jämföra, på olika sätt" olika AI-modeller
-**med fokus på kodning** – konkret Claude Code (uppges vara ver. 5.1) mot
-GPT (uppges vara GPT‑6). Fyra aspekter ska med:
+**med fokus på kodning** – konkret Claude (Claude Code, uppges vara ver. 5.1)
+mot OpenAI (GPT‑6 / Codex).
 
-1. **Kodförmåga** – hur bra koden faktiskt blir.
-2. **Harness / "knyta till sig"** – hur modellen kopplas till filer, verktyg,
-   minne och kontext.
-3. **Pris per token** – och därigenom *kvalitet = nytta / kostnad*.
-4. **App-/klient-hanterbarhet** – hur lätta de klienter som "följer med"
-   varje modell är att jobba i. Kent är just nu osäker på hur man bäst
-   "hanterar" Codex / GPT‑6 – bilden han bifogade ser ut att vara **ChatGPT
-   desktop-appen i Work-läge** (agentläget "Godkänn åt mig", modellväljare
-   "GPT‑6 Astra Låg"), *inte* den fristående Codex CLI eller Codex
-   IDE-extension. Vilken av dessa som är "rätt" verktyg att jämföra med
-   Claude Code är en av de öppna frågorna (avsnitt 5d).
+**Startpunkten** är Osama Romohs LinkedIn-inlägg ("I love Claude, but GPT‑6
+Astra blew Fable 5 out of the water for me…"), transkriberat i
+[`linkedin-romoh-gpt6-astra.md`](linkedin-romoh-gpt6-astra.md). Obs: inlägget
+handlar egentligen om **instruktionsföljsamhet och ordrikedom**, inte om kodning
+specifikt, och innehåller inga siffror. Det duger ändå som avstamp i seriens
+mening – se den filen för hur.
 
-Ingången var ett LinkedIn-inlägg som jämför Claude och GPT på kodförmåga
-(kortlänk `https://lnkd.in/p/efrssr5X`). **Den texten är ännu inte inläst** –
-LinkedIn-kortlänkar kräver oftast inloggning. Kent klistrar in inläggets text,
-eller godkänner ett hämtningsförsök, innan Nr2 skrivs (avsnitt 8).
+**Format: hybrid (C) – beslutat 2026-09-09.** Nr1:s ram (börjar i texten, landar
+i "vad jag själv landar i", *en bild av frågan inte ett facit*) men med de
+mellersta avsnitten expanderade till strukturerade jämförelsedimensioner plus en
+plats för andras röster. Samma sätt som Nr1 faktiskt växte (`index.html` +
+`pisa-2025-media-jamforelse.md` + citat-skylten).
+
+**Dimensioner: tre, inte fyra – beslutat 2026-09-09.** Kents ursprungliga
+aspekt 2 (harness) och aspekt 4 (app-hanterbarhet) slås ihop. Motivering i
+avsnitt 3.
 
 ## 2. Mappkontroll – varför Nr2 hör hemma i `synpalarande/`
 
-Detta är dokumenterat eftersom det fanns en genuin krock (Regel 5).
+Dokumenterat eftersom det fanns en genuin krock (Regel 5).
 
 - **Åtkomst:** `Studier` är öppet. `AI-teknik`-repot (där modelljämförelser
   annars bor, t.ex. `AI_modeller/Claude/olika_Claude_modeller/`) är **inte**
-  åtkomligt i den här sessionen.
+  åtkomligt i den här sessionen. Claude-kompassen (avsnitt 5) nås ändå via sin
+  publika Live-URL.
 - **Innehållsmatchning:** en ren teknisk benchmark hör enligt `Studier/CLAUDE.md`
-  *inte* hemma här ("AI-tekniska projekt … har egna mappar/repon"). Kent valde
-  ändå `synpalarande/Nr2/` medvetet. Det som gör att det **passar serien**:
-  frågan "kvalitet = nytta / kostnad" är i grunden en *vad är kvalitet / vad
-  räknas som kunnande*-fråga, och hela benchmark-debatten (SWE-bench m.fl.) är
-  ett exempel på Kents kärntes – **att hur något mäts avslöjar vilken
-  kunskapssyn som ligger under** (`syn-pa-larande` avsnitt 2, Bernstein:
-  performativ vs kompetensinriktad modell). Nr2 blir alltså inte "vilken modell
-  är bäst" utan "vad betyder *bäst*, och vad missar ett benchmark". Se
-  avsnitt 7.
+  *inte* hemma här. Kent valde ändå `synpalarande/Nr2/` medvetet. Det som gör att
+  det **passar serien**: "kvalitet = nytta / kostnad" är i grunden en *vad räknas
+  som kunnande*-fråga, och hela benchmark-debatten (SWE-bench m.fl.) illustrerar
+  Kents kärntes – **att hur något mäts avslöjar vilken kunskapssyn som ligger
+  under** (`syn-pa-larande` avsnitt 2; Bernstein 1996; Strandler 2017). Nr2 blir
+  "vad betyder *bäst*, och vad missar ett eval", inte "vilken modell vinner".
 - **Repo-identitet:** `Studier` är känt-gott (lokalt och `origin` i synk sedan
-  2026‑09‑04). Nr2 är en ny undermapp i ett friskt repo – ingen nästling, ingen
-  ⚠️-varning behövs i README.
+  2026‑09‑04). Nr2 är en ny undermapp i ett friskt repo – ingen nästling.
 
-## 3. Syfte och målgrupp
+## 3. Att slå ihop harness och app-hanterbarhet – Kents fråga, och svaret
 
-**Syfte:** ge Kent (och läsaren) ett underlag för att *själv* bedöma vilken
+Kents tanke: "att hantera harness, kontext, skills etc kan göras på olika sätt
+med AI-bolagens appar som hjälper till att hantera modellerna, så att det blir
+olika lätt att hantera det som numera kallas harness."
+
+**Det är en sund tanke, och den genomförs.** Skälet: harness är inte en abstrakt
+egenskap hos en *modell*. Den realiseras av en *klient*. Man kan inte säga något
+om "GPT‑6:s harness" utan att säga *via vilken app* – Codex CLI, Codex
+IDE-extension, Codex-molnet och ChatGPT desktop-appen ger olika mycket och känns
+olika. Och omvänt: app-jämförelsen *är* mest en fråga om hur väl varje app gör
+harness-saker. Det är två vyer av samma objekt.
+
+Men den sammanslagna dimensionen behåller **två fasetter**, annars tappas den
+jämförbara funktionslistan:
+
+- **3a. Mekanismen** – *vilka primitiver finns?* Instruktionsfiler
+  (`CLAUDE.md` / `AGENTS.md`), skills, MCP, subagenter, minne, agentläge,
+  behörighetsmodell, hur diff/filer hanteras.
+- **3b. Ergonomin** – *hur känns det att styra?* Komma igång, hur mycket kontext
+  man måste mata manuellt, hur pratig behörighetsdialogen är, hur återställbart
+  och granskbart arbetet är, hur det är att jobba i.
+
+Kvarvarande korsberoende att nämna, inte lösa: **priset** (dimension 4 nedan)
+beror delvis på klient/abonnemang (ChatGPT Pro vs ren API vs Claude Max), så 3b
+och 4 pratar med varandra.
+
+## 4. Syfte och målgrupp
+
+**Syfte:** ge Kent (och läsaren) underlag för att *själv* bedöma vilken
 modell/klient som passar vilken sorts kodarbete – och en genomtänkt hållning
 till vad "kvalitet" betyder när verktyget delvis skriver koden. Landar som *en
-bild av frågan, inte ett facit* (seriens signatur).
+bild av frågan, inte ett facit*.
 
-**Målgrupp:** samma som Nr1 – Kent först, sedan den som följer hans bloggande
-och hans AI-texter. Inte en utvecklarpublik som vill ha en ren teknisk tabell;
-snarare en reflekterande läsare.
+**Målgrupp:** som Nr1 – Kent först, sedan den som följer hans bloggande och hans
+AI-texter. En reflekterande läsare, inte en utvecklarpublik som vill ha en ren
+tabell.
 
-**Inte syftet:** att vara en alltid-färsk prisdatabas eller ett live-benchmark.
-Priser och versioner daterar sig snabbt (avsnitt 10).
+**Inte syftet:** en alltid-färsk prisdatabas eller ett live-benchmark.
 
-## 4. Vägval: vilket *format*? (den centrala frågan)
+## 5. Kents egen kodprocess – den fasta ramen jämförelsen sker inom
 
-Nr-serien har hittills en fast fyrdelad essä-struktur ("utgår från en text":
-*vad texten säger → det som ger den rätt → det som talar emot → vad jag landar
-i*). Kents beskrivning – "en plats för att jämföra, på olika sätt, med olika
-människors synpunkter, olika texter, olika källor" – låter mer som ett
-*levande jämförelsenav* än en engångsessä. Tre alternativ:
+Viktigt för att avgränsa dimension 3b rätt. Kent byter inte verktygskedja
+beroende på modell:
 
-| | **A. Rak Nr-serien-essä** | **B. Jämförelsenav / verktyg** | **C. Hybrid (rekommenderas)** |
-|---|---|---|---|
-| Form | Som Nr1: en text som utgår från LinkedIn-inlägget, fyra delar | Interaktiv sida med kort/flikar per dimension, tabell modell×dimension, samlade citat | Nr1:s ram (börjar i texten, landar i "vad jag landar i") men avsnitt 2–3 expanderade till fyra strukturerade dimensioner + en plats för andras röster |
-| Styrka | Trogen serien, snabbast att skriva, tydlig röst | Bäst för "jämföra på olika sätt", lätt att fylla på | Behåller seriens själ och röst, men rymmer de fyra aspekterna och kan växa |
-| Svaghet | Trångt för fyra dimensioner + app-jämförelse | Kan tappa den personliga slutsatsen, mer att bygga och underhålla | Något mer jobb än A |
-| Motsvarighet i Nr1 | Själva `index.html` | – | `index.html` + `pisa-2025-media-jamforelse.md` + "sju röster"-skylten |
+- **Claude-kompassen** är Kents modell för hur han hanterar generativ AI i
+  kodning: <https://kentlundgren.github.io/AI-teknik/AI_modeller/Claude/olika_Claude_modeller/>
+  (publik Live Page; källan ligger i `AI-teknik`-repot, ej åtkomligt här –
+  hämtas vid bygget för att citeras rätt, med hämtdatum).
+- **Cursor** förblir lagret för Git/GitHub: commit, push, och att slå på
+  GitHub Pages så sidorna kommer ut på WWW som levande sidor – **oavsett** om
+  koden skrivits med Claude eller med OpenAI:s Codex.
 
-**Rekommendation: C.** Nr1 växte redan organiskt åt det hållet (ett
-huvuddokument + ett jämförelseunderlag + en växlande citat-skylt). Nr2 kan
-göra samma sak från start: en huvudtext med Kents linje, plus ett strukturerat
-jämförelseunderlag (`.md`) och ev. en enkel tabell i `index.html`.
+**Konsekvens för Nr2:** frågan är inte "vilken app byter jag helt till", utan
+"vilken *kodmotor* kör jag *vid sidan av* Cursor + GitHub Pages". Det snävar in
+3b: en klient som jobbar mot lokala filer i samma repo som Cursor ser (en CLI,
+en IDE-extension) passar Kents kedja bättre än en som har en egen inmurad
+projektyta. **Hypotes att pröva vid bygget:** ChatGPT desktop-appen (bilden Kent
+såg) kan vara den *sämsta* passformen för just den kedjan, trots agentläget.
 
-**Kent avgör A / B / C innan bygget börjar.** SPEC.md-frågan (avsnitt 9) hänger
-på det här valet.
+## 6. Innehåll – de tre jämförelsedimensionerna
 
-## 5. Innehåll – de fyra jämförelsedimensionerna
+För varje dimension: vad den är, hur den *brukar* mätas, vad mätningen missar
+(kunskapssyns-vinkeln), och Kents preliminära intryck (märkt som preliminärt
+tills källor finns).
 
-För varje dimension: kort vad den är, hur den *brukar* mätas, vad den mätningen
-missar (kunskapssyns-vinkeln), och Kents preliminära intryck (tydligt märkt som
-preliminärt tills källor är på plats).
+### Dimension 1 – Kodförmåga
+- Brukar mätas med: SWE-bench Verified, Terminal-Bench, "vibe"-tester, egna
+  uppgifter.
+- Missar: benchmark ≠ nytta i en riktig kodbas; mätvärdet är ett *val*.
+- Fylls i: aktuella siffror **verifierade vid bygget**, inte nu.
 
-### 5a. Kodförmåga
-- Vad som brukar användas: SWE-bench Verified, Terminal-Bench, "vibe"-tester,
-  egna uppgifter.
-- Vad det missar: benchmark ≠ nytta i en riktig kodbas; mätvärdet är ett *val*
-  (jfr Strandler 2017 i `syn-pa-larande`).
-- Att fylla i: aktuella siffror **verifierade vid bygget**, inte nu.
+### Dimension 2 – Harness och hur modellen styrs (hopslagen: gamla 2 + 4)
+- **2a Mekanismen:** `CLAUDE.md` / `AGENTS.md`, skills, MCP, subagenter, minne,
+  agentläge, behörighet, diff-hantering. Claude-sidan är väl dokumenterad i
+  Kents eget material (`kent-ekosystem-analys`, Claude-kompassen) – återanvänds
+  och citeras. OpenAI-sidan (`AGENTS.md`, Codex CLI, Codex-molnet, ChatGPT-appens
+  agentläge) behöver research och verifiering.
+- **2b Ergonomin:** Claude Code (CLI/desktop/IDE) mot Codex CLI, Codex
+  IDE-extension, Codex-molnet, ChatGPT desktop-appen – bedömt *som kodmotor vid
+  sidan av Cursor* (avsnitt 5). Kriterier: komma igång, mata kontext, hur mycket
+  den gör själv vs frågar, återställbarhet/granskbarhet, känsla.
+- Kents konkreta öppna fråga: vad *är* bästa sättet att hantera Codex / GPT‑6?
+  PRD:n tar inte ställning; bygget reder ut det med källor och landar antingen i
+  en rekommendation eller i en beskrivning av skillnaderna (öppen fråga 1).
+- Kunskapssyns-vinkeln: att "knyta till sig" en kodbas liknar det Kent menar med
+  att *använda* kunskap i ett sammanhang snarare än att reproducera den.
 
-### 5b. Harness / "knyta till sig"
-- Vad det är: hur modellen får kontext och verktyg – instruktionsfiler
-  (`CLAUDE.md` / `AGENTS.md`), skills, MCP, subagenter, minne, agentläge,
-  behörighetsmodell, hur filer/diff hanteras.
-- Claude-sidan: väl dokumenterad i Kents eget material (`kent-ekosystem-analys`,
-  Claude-kompassen) – kan återanvändas och citeras.
-- GPT-/Codex-sidan: `AGENTS.md`, Codex CLI, Codex-molnet, ChatGPT-appens
-  agentläge – **behöver research och verifiering**.
-- Kunskapssyns-vinkeln: "att knyta till sig" en kodbas liknar det Kent menar
-  med att *använda* kunskap i ett sammanhang snarare än att reproducera den.
-
-### 5c. Pris per token → kvalitet = nytta / kostnad
-- Rådata: input/output-pris, cache-rabatt, abonnemang (Pro/Max/Team) vs
-  ren API-debitering, "usage credits"/veckogränser.
+### Dimension 3 – Pris per token → kvalitet = nytta / kostnad
+- Rådata: input/output-pris, cache-rabatt, abonnemang (Pro/Max/Team) vs ren
+  API-debitering, "usage credits" / veckogränser.
 - Kent har redan verktyg och vana för Claude-kostnad (skill `claude-kostnad`,
-  `Ovrigt/Claude_kostnad`) – samma tänk kan återanvändas.
-- **Öppen fråga:** hur definieras "nytta" i kvoten? Förslag: en enkel, ärlig
-  modell (t.ex. *andel uppgifter lösta utan omtag* × *tidsbesparing* delat med
-  *total månadskostnad för Kents faktiska användning*), med brasklappen att
-  täljaren är en uppskattning, inte en mätning (Regel 13 – ingen falsk
+  `Ovrigt/Claude_kostnad`) – samma tänk återanvänds.
+- **Öppen fråga 2 – hur definieras "nytta" i kvoten?** Förslag: en enkel, ärlig
+  modell (t.ex. *andel uppgifter lösta utan omtag* × *tidsbesparing*, delat med
+  *total månadskostnad för Kents faktiska användning*), med uttalad brasklapp att
+  täljaren är en uppskattning, inte en mätning (Regel 3 och 13 – ingen falsk
   precision, ingen handling tillskriven Kent som inte gjorts).
+- Romohs inlägg är i sig ett svar: han valde "båda" (ChatGPT Pro *och* Claude
+  Max), inte "antingen eller".
 
-### 5d. App-/klient-hanterbarhet
-- Klienter att ställa mot varandra: **Claude Code** (CLI/desktop/IDE) och
-  **Claude i webben/Cowork** mot **Codex CLI**, **Codex IDE-extension**,
-  **Codex-molnet** och **ChatGPT desktop-appen (Work/agentläge)**.
-- Bedöms på: hur man kommer igång, hur man ger den kontext, hur mycket den gör
-  själv vs frågar, hur återställbart/granskbart det är, hur det känns att jobba
-  i.
-- **Kents konkreta öppna fråga:** vad *är* bästa sättet att hantera Codex /
-  GPT‑6 – CLI, IDE-extension eller desktop-appen? Bilden han bifogade är
-  desktop-appen; PRD:n tar inte ställning, bygget reder ut det med källor.
+## 7. Andras röster och källor
 
-## 6. Andras röster och källor
+Ett eget `.md` (jfr `pisa-2025-media-jamforelse.md`) där inlägg, artiklar och
+tester från nätet samlas och ställs mot varandra och mot Kents linje – med
+Romohs inlägg som första post. Per röst: vem, vad de hävdar, vilken dimension,
+vad Kent tycker. Ev. en växlande citat-skylt i `index.html` som i Nr1
+(progressiv förbättring – fungerar utan JS).
 
-En plats (eget `.md`, jfr `pisa-2025-media-jamforelse.md`) där inlägg, artiklar
-och tester från nätet samlas och ställs mot varandra och mot Kents linje – med
-LinkedIn-inlägget som är triggern som första post. Varje röst: vem, vad de
-hävdar, vilken dimension det gäller, vad Kent tycker om det. Ev. en växlande
-citat-skylt i `index.html` som i Nr1 (progressiv förbättring – funkar utan JS).
+## 8. Kopplingen till syn på lärande och kunskap
 
-## 7. Kopplingen till syn på lärande och kunskap
+Det som gör Nr2 till ett nummer i *den här* serien:
 
-Det som gör Nr2 till ett nummer i *just den här* serien och inte ett
-AI-teknik-projekt:
+- **Mätvärdet är ett val.** Ett kod-benchmark bär en kunskapssyn precis som ett
+  nationellt prov (Bernstein 1996; Strandler 2017).
+- **"Kvalitet" är inte självklart.** nytta/kostnad tvingar fram *nytta för vad* –
+  reproducera snabbt, eller förstå och kunna stå för resultatet?
+- **AI som förklarar vs AI som levererar** (`syn-pa-larande` avsnitt 5).
+- Kents tre villkor (förstår jag / tar jag ansvar / bidrar jag) speglas mot att
+  koda med en modell.
 
-- **Mätvärdet är ett val.** Ett benchmark för kod bär en kunskapssyn precis som
-  ett nationellt prov gör (Bernstein 1996; Strandler 2017).
-- **"Kvalitet" är inte självklart.** nytta/kostnad tvingar fram frågan *nytta
-  för vad* – reproducera snabbt, eller förstå och kunna stå för resultatet?
-- **AI som förklarar vs AI som levererar** (`syn-pa-larande` avsnitt 5). En
-  modell som "knyter till sig" din kodbas kan användas åt båda hållen.
-- Kents tre villkor (förstår jag / tar jag ansvar / bidrar jag) går att spegla
-  mot att koda med en modell.
+Blir sannolikt avsnittet **"Vad jag själv landar i"**.
 
-Detta blir sannolikt avsnittet **"Vad jag själv landar i"**.
+## 9. Teknik och bygg
 
-## 8. Teknik och bygg
-
-Bygget styrs av skillen **`kent-bygg-sidor`** (ny HTML-undersida ⇒ GitHub-hörna
-+ teknik-modal med från start). Konkret:
+Styrs av skillen **`kent-bygg-sidor`** (ny HTML-undersida ⇒ GitHub-hörna +
+teknik-modal med från start).
 
 - Statisk sida, ingen server, inga cookies, inga externa bibliotek. JS bara till
-  progressiv förbättring (ihopfällbar referenslista, teknik-modal, ev.
-  citat-skylt) – allt ska fungera utan JS.
-- Återanvänd `styles.css`-mönstret från `Nr1/` (läsbar typografi, ljust/mörkt
-  via `prefers-color-scheme`), stabila rubrik-ankare, djuplänkar.
+  progressiv förbättring; allt fungerar utan JS.
+- Återanvänd `styles.css`-mönstret från `Nr1/` (läsbar typografi, ljust/mörkt via
+  `prefers-color-scheme`), stabila rubrik-ankare, djuplänkar.
 - `Nr2/README.md` enligt Regel 9: Live-URL, källkod på GitHub, **lokal sökväg**,
-  skapad-datum. (GitHub Pages är ännu inte påslaget för `Studier` – samma not
-  som i `Nr1/README.md`.)
-- Innan LinkedIn-inläggets text finns tillgänglig kan bygget inte börja på
-  riktigt – avsnitt 1 och 5 vilar på den.
+  skapad-datum. GitHub Pages är ännu inte påslaget för `Studier` – samma not som
+  i `Nr1/README.md`.
+- **Cursor gör commit/push och slår på Pages** (avsnitt 5, Regel 11). Claude Code
+  rör inte Git här.
 
-## 9. Källhantering
+## 10. Källhantering
 
 Enligt **`kent-referens-skill`** / Regel 2: Harvard, länkad förstahänvisning i
-löptext, utskriven URL, hämtdatum för föränderliga webbkällor (priser,
-modellsidor, benchmarks – i princip *alla* källor här är föränderliga),
-alfabetisk referenslista, och en kursiv parentes per källa som förklarar varför
-den är med. Ihopfällbar referenslista som i Nr1.
+löptext, utskriven URL, **hämtdatum** för föränderliga webbkällor (priser,
+modellsidor, benchmarks – i praktiken alla källor här), alfabetisk
+referenslista, kursiv parentes per källa som förklarar varför den är med.
+Ihopfällbar referenslista som i Nr1.
 
-## 10. SPEC.md-checkpoint (Regel 6)
+## 11. SPEC.md-checkpoint (Regel 6)
 
-**Behövs ett SPEC.md-steg?** *Villkorat på vägvalet i avsnitt 4:*
+**Behövs ett SPEC.md-steg?** Nu när formatet är hybrid (C) och jämförelsen får en
+datamodell: **troligen ja, en kort SPEC.md.** En agent som bygger sidan behöver
+exakt: de tre dimensionsrubrikerna och deras fasetter, om bedömningen är prosa
+eller skala, hur nytta/kostnad-kvoten räknas, vad som räknas som en "röst"/källa
+i avsnitt 7. Utan det fylls luckorna med gissningar. SPEC.md skrivs **efter** att
+öppna fråga 2 (nytta/kostnad) är avgjord, **före** bygget.
 
-- **Vägval A (ren essä):** nej. Samma slutsats som `PRD_spec.md` själv –
-  en text i en etablerad mall behöver ingen agent-spec.
-- **Vägval B eller C:** **troligen ja, en kort SPEC.md.** Om jämförelsen får en
-  datamodell (dimensioner × modeller × röster, en nytta/kostnad-formel, ev. en
-  tabell i HTML) vill en agent ha exakt: vilka dimensionsrubriker som gäller,
-  om bedömningen är prosa eller skala, hur kvoten räknas, vad som räknas som en
-  "röst"/källa. Utan det fyller bygget luckorna med gissningar. SPEC.md skrivs i
-  så fall *efter* att Kent valt format, *före* bygget.
+## 12. Faktakänslighet (Regel 3)
 
-## 11. Faktakänslighet (Regel 3)
-
-Den här PRD:n påstår **inga** siffror, priser, versionsnummer eller
-benchmark-resultat. "Claude Code 5.1", "GPT‑6", "GPT‑6 Astra Låg" är Kents
-uppgifter och återges som sådana. Allt sådant verifieras mot primärkällor
+PRD:n påstår **inga** siffror, priser, versionsnummer eller benchmark-resultat.
+"Claude Code 5.1", "GPT‑6", "Astra", "Fable 5" är uppgifter från Kent och
+Romohs inlägg och återges som sådana. Allt sådant verifieras mot primärkällor
 (Anthropic, OpenAI, oberoende tester) **vid bygget**, med hämtdatum, och märks
-tydligt om det är färskvara.
+tydligt som färskvara.
 
-## 12. Avgränsningar
+## 13. Avgränsningar
 
 - Inte en live-uppdaterad pris-/benchmarktavla.
-- Inte en fullständig genomgång av *alla* modeller – fokus Claude vs GPT/Codex,
-  andra modeller (Gemini m.fl.) bara om en källa naturligt drar in dem.
-- Inte en installationsguide – app-hanterbarhet bedöms, men steg-för-steg-setup
+- Inte alla modeller – fokus Claude vs GPT/Codex; andra (Gemini m.fl.) bara om en
+  källa naturligt drar in dem.
+- Inte en installationsguide – app-hanterbarhet *bedöms*, men steg-för-steg-setup
   hör hemma på annat håll.
-- Ingen commit/push av Claude Code (Regel 11) – Kent gör det själv via Cursor.
+- Verktygskedjan för publicering (Cursor + GitHub Pages) är fast och jämförs
+  inte – den är ramen, inte föremålet.
 
-## 13. Öppna frågor (att stämma av innan bygget)
+## 14. Öppna frågor (att stämma av innan bygget)
 
-1. **Format: A, B eller C?** (avsnitt 4) – styr allt annat, inkl. SPEC.md.
-2. **LinkedIn-inlägget:** klistrar Kent in texten, eller ska jag försöka hämta
-   kortlänken?
-3. **Codex-klienten:** vilken/vilka av CLI, IDE-extension, molnet och
-   desktop-appen ska jämföras? Kent ville veta "bästa sättet" – ska Nr2 landa i
-   en rekommendation eller bara beskriva skillnaderna?
-4. **nytta/kostnad-formeln** (avsnitt 5c): duger den enkla modellen, eller vill
+1. **Codex-klienten:** ska Nr2 landa i en **rekommendation** om vilken klient
+   som är bäst att köra vid sidan av Cursor, eller bara **beskriva** skillnaderna
+   mellan CLI / IDE-extension / moln / desktop-app?
+2. **nytta/kostnad-formeln** (dimension 3): duger den enkla modellen, eller vill
    Kent ha en annan?
-5. **Omfång på Claude-sidan:** hur mycket ska återanvändas ordagrant från
-   `kent-ekosystem-analys` / Claude-kompassen kontra skrivas om för den här
+3. **Claude-sidans omfång:** hur mycket återanvänds ordagrant från
+   `kent-ekosystem-analys` / Claude-kompassen kontra skrivs om för den här
    läsaren?
-6. **Titel och kicker** för sidan (Nr1: "Har ungdomen blivit sämre …").
-7. **Beslutslogg:** ska mappkontroll-beslutet (Nr2 → `synpalarande/`, inte
-   `AI-teknik`) skrivas in i `beslutslogg.md`?
+4. **Titel och kicker** för sidan (Nr1: "Har ungdomen blivit sämre …").
+5. **Beslutslogg:** ska mappkontroll-beslutet (Nr2 → `synpalarande/`, inte
+   `AI-teknik`) och format/dimensions-besluten skrivas in i `beslutslogg.md`?
 
-## 14. Nästa steg
+## 15. Nästa steg
 
-1. Kent svarar på de öppna frågorna (minst 1–3).
-2. Vid vägval B/C: kort SPEC.md.
-3. LinkedIn-inläggets text säkras.
-4. Research + källverifiering för de fyra dimensionerna.
-5. Bygge enligt `kent-bygg-sidor`.
-6. **Fräscha-ögon-genomläsning av PRD:n och av den färdiga sidan** (Regel 7)
-   innan något kallas klart.
+1. Kent svarar på öppna frågorna (minst 1–2).
+2. Kort SPEC.md (efter fråga 2).
+3. Research + källverifiering för de tre dimensionerna; hämta Claude-kompassen.
+4. Bygge enligt `kent-bygg-sidor`.
+5. **Fräscha-ögon-genomläsning av PRD:n och av den färdiga sidan** (Regel 7).
 
 ---
 
 ## Uppdateringslogg
 
 - 2026-09-09 (v0.1): Skapad efter att Kent valt plats (`synpalarande/Nr2/`) och
-  bekräftat fyra jämförelsedimensioner (kodförmåga, harness, pris per token,
-  app-hanterbarhet). Format (A/B/C) och sju öppna frågor kvar.
+  fyra jämförelseaspekter.
+- 2026-09-09 (v0.2): Format låst till hybrid (C). Aspekt 2 (harness) och 4
+  (app-hanterbarhet) hopslagna till en dimension med två fasetter (mekanism /
+  ergonomi) – Kents förslag, motiverat i nytt avsnitt 3. Nytt avsnitt 5 om Kents
+  fasta verktygskedja (Claude-kompassen som process, Cursor för Git/GitHub/Pages
+  oavsett modell). LinkedIn-inlägget transkriberat till
+  `linkedin-romoh-gpt6-astra.md` och karaktäriserat (handlar om
+  instruktionsföljsamhet, inte kodning). Två öppna frågor bortplockade (format,
+  LinkedIn-text), SPEC.md-checkpoint uppdaterad till "troligen ja".
