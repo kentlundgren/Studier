@@ -12,9 +12,15 @@ beror på vilken fråga man ställer.
 **Alla uppgifter är daterade "per september 2026"** eftersom priser och modeller
 ändras snabbt.
 
+**Två språk.** `index.html` (svenska) och `index_eng.html` (engelska översättning).
+En liten knapp uppe till höger (`SV · EN`) växlar mellan dem. Den engelska sidan
+länkar tillbaka till de svenska underlagen (`research-underlag.md`,
+`kostnadskalkyl-35h.md`, `jamforelse-roster.md`) med noten "(in Swedish)".
+
 | | |
 |---|---|
-| Live | <https://kentlundgren.github.io/Studier/synpalarande/Nr2/> |
+| Live (sv) | <https://kentlundgren.github.io/Studier/synpalarande/Nr2/> |
+| Live (en) | <https://kentlundgren.github.io/Studier/synpalarande/Nr2/index_eng.html> |
 | Källkod på GitHub | <https://github.com/kentlundgren/Studier/tree/main/synpalarande/Nr2> |
 | Lokal sökväg | `C:\Users\kentl\OneDrive\AI\Studier\synpalarande\Nr2` |
 | Skapad | 2026-09-09 |
@@ -74,13 +80,19 @@ Varje rubrik har ett stabilt ankare:
 Varje referens har dessutom ett eget id (`#ref-anthropic-pricing`,
 `#ref-openai-codex` och så vidare).
 
+Den engelska sidan har egna ankare: `#ThePost`, `#WhichModel`, `#CanItCode`,
+`#Harness` (`#HarnessMechanism`, `#HarnessFeel`), `#PriceValue`, `#Overview`,
+`#OtherVoices`, `#WhereILand`, `#References`.
+
 ## Filer
 
 ```
 Nr2/
-├── index.html                     # texten
-├── styles.css                     # från Nr1, med några Nr2-tillägg
-├── script.js                      # ihopfällbar referenslista, teknik-modal, röst-skylt, bild-förstoring
+├── index.html                     # texten (svenska)
+├── index_eng.html                 # engelsk översättning
+├── styles.css                     # delad, från Nr1 + Nr2-tillägg (även språkknappen)
+├── script.js                      # ihopfällbar referenslista, teknik-modal, röst-skylt, bild-förstoring (sv-strängar)
+├── script_eng.js                  # samma, med engelska knapptexter
 ├── Bilder/
 │   ├── Claude_app_260909.jpg      # skärmdump: Claude-appen (Code-fliken)
 │   └── Codex_app_260909.jpg       # skärmdump: ChatGPT/Codex-appen (Work-fliken)

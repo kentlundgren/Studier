@@ -360,6 +360,13 @@ här PRD:n:
 - 2026-09-09 (v0.11): Kent ångrade sudden på Claude-bildens sidopanel – för mycket
   information gick förlorad, och han står för vad som står där. Suddversionen
   (`Claude_app_260909_stor.jpg`) borttagen; lightbox pekar på originalbilden.
+- 2026-09-09 (v0.13): **Engelsk version** – `index_eng.html` (full översättning
+  i Kents röst, egna ankare `#ThePost` osv.) + `script_eng.js` (engelska
+  knapptexter). Delad `styles.css` fick en `.langbtn`-regel. **Språkknapp
+  `SV · EN` uppe till höger** på båda sidorna, `<link rel="alternate" hreflang>`
+  i båda `<head>`. Skärmdumparna återanvänds (visar svenskt gränssnitt – noterat
+  i bildtext och teknik-modal); `.md`-underlagen förblir svenska, länkade med
+  "(in Swedish)". README uppdaterad.
 - 2026-09-09 (v0.12): Sista fräscha-ögon-genomläsning – fem rättelser
   ("blev tipsad" → "fastnade i mitt flöde"; namnge Joshi i stället för "någon";
   "min egen tänkta användning" → "ett heltidsscenario"; "var sjätte vecka" →
