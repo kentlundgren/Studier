@@ -83,3 +83,8 @@ själv som att han lever upp till villkoren nästan fullt ut, inte perfekt.
 - Bloggen: <https://synpalarande.wordpress.com/>
 - Om att läsa nätkurser: <https://synpalarande.wordpress.com/2021/06/17/natkurser/>
 - Lärande, performativ diskurs eller performativ karaktär: <https://synpalarande.wordpress.com/2021/02/10/larande-performativ-diskurs-eller-performativ-karaktar/>
+
+## Repo
+
+- GitHub: <https://github.com/kentlundgren/Studier/tree/main/synpalarande>
+- Lokal sökväg: `C:\Users\kentl\OneDrive\AI\Studier\synpalarande`
