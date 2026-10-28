@@ -20,6 +20,7 @@ Climate Transition*), 3 hp, Linköpings universitet. Kursstart HT 2026.
 | Studierektor | Magnus Wallén (även medförfattare till en av kursböckerna) |
 | Betygsskala | Underkänd / Godkänd (U, G) |
 | Kursplan fastställd | Programnämnden för maskinteknik och design (MD); gäller från HT 2025 |
+| Kursrum (Lisam) | [Lisam, ETE409 2026HT DY](https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY) – hittat 2026-10-28 |
 
 ## Kursbeskrivning (från LiU)
 
@@ -65,6 +66,8 @@ klimatomställningen framåt inom vald sektor.
 Policy_i_energi_och_klimat/
 ├── README.md                      # denna fil
 ├── personlig-kursplan.md          # lärandemål ↔ litteratur ↔ examination, läsordning
+├── Bilder/
+│   └── lisam_ETE409_startsida_2026-10-28.png
 ├── litteratur/
 │   └── litteraturlista.md         # 2 titlar: referenser, länkar, sammanfattningar
 └── essa-upg2/
@@ -77,6 +80,7 @@ Policy_i_energi_och_klimat/
 
 ## Länkar
 
+- **Kursrum, Lisam (inloggning):** <https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY>
 - Kursöversikt (LiU, marknadsföringssida): <https://liu.se/utbildning/kurs/ete409>
 - Kurssida (Studieinfo, HT 2026): <https://studieinfo.liu.se/kurs/ETE409/ht-2026>
 - Kursplan: <https://studieinfo.liu.se/kurs/ETE409/ht-2026#syllabus>
@@ -84,6 +88,21 @@ Policy_i_energi_och_klimat/
 - Kurslitteratur: <https://studieinfo.liu.se/kurs/ETE409/ht-2026#literature>
 - Kursmatris: <https://studieinfo.liu.se/kurs/ETE409/ht-2026#matrix>
 - Komplett kursplan som PDF: <https://studieinfo.liu.se/pdf/kursplan/ETE409/ht-2026>
+
+## Anteckning 2026-10-28 – kursrum i Lisam
+
+Kurshemsidan för ETE409 HT 2026 ligger i LiU:s Lisam (SharePoint):
+[Lisam_ETE409_2026HT_DY](https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY).
+Startsidan visar kursrummet *Policys i energi- och klimatomställningen
+(ETE409 2026HT DY)*, 3 hp. I menyn syns bland annat kursplan, modulerna
+transport / industri / bostad- och (sannolikt) förnybart med tillhörande
+tester, individuell essä, kursdokument, medlemmar och grupp, inlämningar
+och schema.
+
+Skärmbild: [`Bilder/lisam_ETE409_startsida_2026-10-28.png`](Bilder/lisam_ETE409_startsida_2026-10-28.png).
+
+**Öppen lucka:** Ladok-registrering för *den här* kursen är inte införd här.
+Den Ladok-sida som visades 2026-10-28 gällde AI101A vid HKR, inte ETE409.
 
 ## Repo
 

@@ -4,8 +4,9 @@ Kents egen läs- och arbetsplan för kursen. **Levande dokument** – bygg
 vidare på den under kursens gång. Vilken sektor och vilket policyinstrument
 essän (UPG2) ska handla om är fortfarande öppet; se `essa-upg2/disposition-essa.md`.
 
-**Status:** utkast före kursstart (2026-09-05). Stäm av mot Lisam (LiU:s
-lärplattform) efter kursstart – modulindelning och deadlines fastställs där.
+**Status:** kursrum i Lisam hittat 2026-10-28
+([Lisam, ETE409 2026HT DY](https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY)).
+Stäm av modulindelning, deadlines och UPG2-kriterier mot Lisam under kursens gång.
 
 ---
 
@@ -193,6 +194,7 @@ LiU:s schema är känt.
 
 ## 7. Att fylla i efter kursstart
 
+- [x] Kursrum lokaliserat: Lisam, [ETE409 2026HT DY](https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY) (2026-10-28)
 - [ ] Faktiska moduldatum och deadlines (Lisam)
 - [ ] Bedömningskriterier för UPG2 (kursplanen hänvisar till kriterier som presenteras vid kursstart)
 - [ ] Exakt digitalt kursmaterial per modul → komplettera litteraturlistan

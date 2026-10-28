@@ -6,6 +6,23 @@ här är beslut *av dagsläget* – de får omprövas. Stabila konventioner bor 
 
 ---
 
+## 2026-10-28
+
+- **ETE409 – kursrum i Lisam hittat.** Startsida:
+  [Lisam_ETE409_2026HT_DY](https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY)
+  (*Policys i energi- och klimatomställningen*, 3 hp). Menyn visar
+  kursplan, modulerna transport/industri/bostad med tester, individuell
+  essä, medlemmar och grupp, inlämningar och schema. Skärmbild i
+  `2026_host/Policy_i_energi_och_klimat/Bilder/`.
+- **Rättelse:** en första skrivning hamnade i AI101A-mappen, eftersom den
+  visade Ladok-sidan gällde HKR/AI101A. De ändringarna är återställda.
+  Ladok-status för ETE409 är inte införd (ingen LiU-Ladok-sida visad).
+- Uppdaterat: `2026_host/Policy_i_energi_och_klimat/README.md`,
+  `2026_host/Policy_i_energi_och_klimat/personlig-kursplan.md`,
+  `2026_host/README.md`.
+
+---
+
 ## 2026-09-09
 
 - **GitHub Pages påslaget för `Studier`.** Live-URL:er under
