@@ -5,8 +5,11 @@ vidare på den under kursens gång. Vilken sektor och vilket policyinstrument
 essän (UPG2) ska handla om är fortfarande öppet; se `essa-upg2/disposition-essa.md`.
 
 **Status:** kursrum i Lisam hittat 2026-10-28
-([Lisam, ETE409 2026HT DY](https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY)).
-Stäm av modulindelning, deadlines och UPG2-kriterier mot Lisam under kursens gång.
+([Lisam, ETE409 2026HT DY](https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY);
+[sidan 0, kursupplägg](https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY/SitePages/0.-Kurs-och-uppgiften-introduktion.aspx)).
+Två kartor syns: tre tematiska moduler på sidan 0, tre sektorer + tester i
+menyn. Stäm av deadlines och UPG2-kriterier mot Lisam. Parallell lins:
+[`../../synpalarande/natkurser-struktur-ete409.md`](../../synpalarande/natkurser-struktur-ete409.md).
 
 ---
 
@@ -103,9 +106,15 @@ en officiell LiU-uppgift.
 
 ## 3. Kursens moduler och litteratur
 
-Kursen är modulbaserad: byggnader, industri, transport, samt förnybar
-energi. Varje modul har eget digitalt kursmaterial och avslutas med ett
-kunskapstest (UPG3).
+Kursen är modulbaserad. **Två kartor i Lisam (2026-10-28), inte sammanslagna:**
+sidan 0 listar tre tematiska steg (policylandskap → utformning/utvärdering →
+styrmedel för industri/byggnader/transport). Vänstermenyn listar sektorerna
+transport, industri och bostad, vardera med test, plus individuell essä.
+Kursplanens text nämner dessutom förnybar energi. Vilken karta som styr
+UPG3 är öppet tills det syns i rummet.
+
+Varje sektorsmodul i menyn verkar ha eget material och ett kunskapstest
+(UPG3).
 
 | Modul (sektor) | Primär litteratur | Lärandemål |
 |-----------------|--------------------|------------|
@@ -195,6 +204,7 @@ LiU:s schema är känt.
 ## 7. Att fylla i efter kursstart
 
 - [x] Kursrum lokaliserat: Lisam, [ETE409 2026HT DY](https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY) (2026-10-28)
+- [x] Kursupplägg (sidan 0) noterat; två kartor (tema vs sektor) flaggade, inte sammanslagna
 - [ ] Faktiska moduldatum och deadlines (Lisam)
 - [ ] Bedömningskriterier för UPG2 (kursplanen hänvisar till kriterier som presenteras vid kursstart)
 - [ ] Exakt digitalt kursmaterial per modul → komplettera litteraturlistan

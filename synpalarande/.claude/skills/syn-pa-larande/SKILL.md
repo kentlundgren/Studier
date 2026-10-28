@@ -157,6 +157,11 @@ den.
 - **Den svaga punkten på distanskurser är deltagandet och examinationen**, inte
   tekniken. Få deltar aktivt om de inte "tvingas" (t.ex. att kursledaren räknar
   inlägg per delmoment). Det problemet fanns före 2023.
+- **Levande fall HT 2026:** ETE409 (LiU, Lisam). Kent återanvänder linsen
+  ovan på den kursen – särskilt hur strukturen uppmuntrar (eller inte
+  uppmuntrar) kontakt mellan studenter. Observationsfil:
+  `synpalarande/natkurser-struktur-ete409.md`. Påstå inte hur social kursen
+  är förrän det är sett i rummet.
 
 ## 5. Generativ AI i lärandet — Kents hållning (rör sig fortfarande)
 

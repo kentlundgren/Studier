@@ -28,6 +28,8 @@ under hösten 2026.
 **ETE409, Linköpings universitet**
 
 - Kursrum, Lisam (inloggning): <https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY>
+- Kursupplägg (sidan 0): <https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY/SitePages/0.-Kurs-och-uppgiften-introduktion.aspx>
+- Observation av nätkursstruktur (inte kursstrategi): [`../synpalarande/natkurser-struktur-ete409.md`](../synpalarande/natkurser-struktur-ete409.md)
 - Kursöversikt: <https://liu.se/utbildning/kurs/ete409>
 - Kursplan HT 2026: <https://studieinfo.liu.se/kurs/ETE409/ht-2026#syllabus>
 - Examination: <https://studieinfo.liu.se/kurs/ETE409/ht-2026#examination>

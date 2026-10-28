@@ -74,6 +74,9 @@ själv som att han lever upp till villkoren nästan fullt ut, inte perfekt.
   koden?"*, en jämförelse av Claude och OpenAI/Codex för kodning. Live (sv):
   <https://kentlundgren.github.io/Studier/synpalarande/Nr2/> · (en):
   <https://kentlundgren.github.io/Studier/synpalarande/Nr2/index_eng.html>
+- [`natkurser-struktur-ete409.md`](natkurser-struktur-ete409.md): levande
+  observation av hur nätkurser är strukturerade, med ETE409 HT 2026 som fall
+  (hitta rätt, förstå upplägg, studentkontakt). Inte ett Nr-bygge.
 - [`.claude/skills/syn-pa-larande/`](.claude/skills/syn-pa-larande/): den
   fullständiga kunskapsbasen (Claude-skill), med källförteckning och öppna
   frågor.

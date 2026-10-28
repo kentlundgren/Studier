@@ -67,7 +67,8 @@ Policy_i_energi_och_klimat/
 ├── README.md                      # denna fil
 ├── personlig-kursplan.md          # lärandemål ↔ litteratur ↔ examination, läsordning
 ├── Bilder/
-│   └── lisam_ETE409_startsida_2026-10-28.png
+│   ├── lisam_ETE409_startsida_2026-10-28.png
+│   └── lisam_ETE409_kursupplagg_2026-10-28.png
 ├── litteratur/
 │   └── litteraturlista.md         # 2 titlar: referenser, länkar, sammanfattningar
 └── essa-upg2/
@@ -81,6 +82,7 @@ Policy_i_energi_och_klimat/
 ## Länkar
 
 - **Kursrum, Lisam (inloggning):** <https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY>
+- **Kursupplägg (sidan 0):** <https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY/SitePages/0.-Kurs-och-uppgiften-introduktion.aspx>
 - Kursöversikt (LiU, marknadsföringssida): <https://liu.se/utbildning/kurs/ete409>
 - Kurssida (Studieinfo, HT 2026): <https://studieinfo.liu.se/kurs/ETE409/ht-2026>
 - Kursplan: <https://studieinfo.liu.se/kurs/ETE409/ht-2026#syllabus>
@@ -88,6 +90,26 @@ Policy_i_energi_och_klimat/
 - Kurslitteratur: <https://studieinfo.liu.se/kurs/ETE409/ht-2026#literature>
 - Kursmatris: <https://studieinfo.liu.se/kurs/ETE409/ht-2026#matrix>
 - Komplett kursplan som PDF: <https://studieinfo.liu.se/pdf/kursplan/ETE409/ht-2026>
+
+## Kursupplägg enligt Lisam (2026-10-28)
+
+Sidan [0. Kurs och uppgiften introduktion](https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY/SitePages/0.-Kurs-och-uppgiften-introduktion.aspx)
+listar tre tematiska moduler:
+
+1. Kursintroduktion; uppgifter; policylandskap för energi i industri,
+   transport och bygg
+2. Utformning och utvärdering av policyer och frivilliga initiativ
+   (effekter, processer, rapporteringsramverk)
+3. Styrmedel, policyer och frivilliga initiativ för energieffektiv och
+   klimatneutral industri, byggnader och transportsystem
+
+Vänstermenyn är en annan karta: sektor (transport / industri / bostad) +
+kunskapstest + individuell essä. De två kartorna ska inte slås ihop i
+förväg. Skärmbild:
+[`Bilder/lisam_ETE409_kursupplagg_2026-10-28.png`](Bilder/lisam_ETE409_kursupplagg_2026-10-28.png).
+
+Reflektion kring nätkursstruktur (hitta rätt, studentkontakt, #nätkurs):
+[`../../synpalarande/natkurser-struktur-ete409.md`](../../synpalarande/natkurser-struktur-ete409.md).
 
 ## Anteckning 2026-10-28 – kursrum i Lisam
 

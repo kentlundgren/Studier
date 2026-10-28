@@ -8,6 +8,16 @@ här är beslut *av dagsläget* – de får omprövas. Stabila konventioner bor 
 
 ## 2026-10-28
 
+- **Nätkursstruktur som parallell studie.** Kent vill observera hur
+  nätkurser är lagda (hitta rätt, förstå upplägg, lärar- och
+  studentkontakt), med ETE409 som fall. Bakgrund: blogginlägget
+  [Nätkurser](https://synpalarande.wordpress.com/2021/06/17/natkurser/)
+  (2021) och [#nätkurs](https://x.com/search?q=%23n%C3%A4tkurs%20(from%3Akentlundgren)&src=typed_query).
+  Levande fil: `synpalarande/natkurser-struktur-ete409.md`. Samma sak
+  sparad som minne i Claude-projektminnet och i Cursor-store. Inte ett
+  Nr-bygge, inte ett låst omdöme om hur social ETE409 är.
+- **ETE409 – sidan 0, tre tematiska moduler** (policylandskap → utformning
+  → styrmedel). Vänstermenyn är en annan karta (sektor + test + essä).
 - **ETE409 – kursrum i Lisam hittat.** Startsida:
   [Lisam_ETE409_2026HT_DY](https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY)
   (*Policys i energi- och klimatomställningen*, 3 hp). Menyn visar
