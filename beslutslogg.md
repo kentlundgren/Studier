@@ -16,6 +16,10 @@ här är beslut *av dagsläget* – de får omprövas. Stabila konventioner bor 
   Levande fil: `synpalarande/natkurser-struktur-ete409.md`. Samma sak
   sparad som minne i Claude-projektminnet och i Cursor-store. Inte ett
   Nr-bygge, inte ett låst omdöme om hur social ETE409 är.
+- **ETE409 – Modul 1 sammanfattad.** Egen fil
+  `moduler/modul-1-transport.md` (svenska/EU-mål, MLP, drönare, officiellt
+  vs tolkning vs scenario). Mallfiler skapade för modul 2 och 3. Quiz
+  modul 1 avprickat.
 - **ETE409 – URL-mismatch på Modul 1.** Sidan som visar transportmodulen
   har filnamnet `Modul-2.-Industisektor-test.aspx` (fel modul, stavfel,
   ordet test). Titel och meny säger Modul 1 Transport. Lita på sidans
