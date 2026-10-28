@@ -84,7 +84,25 @@ kommer att handla om.
 
 ---
 
+## Extra läsning, Modul 1 Transport (Lisam 2026-10-28)
+
+På modulsidan (synlig titel Modul 1; se URL-anmärkningen i kursens README)
+anges fem inspelade föreläsningar och två extra rekommenderade artiklar.
+Båda är öppet tillgängliga. De är **inte** kursböcker.
+
+[Raghunatha, Thollander och Barthel (2023a)](https://doi.org/10.1016/j.trip.2023.100795)
+föreslår ett ramverk för regional policy kring drönartransporter (Advanced
+Air Mobility). [Raghunatha m.fl. (2023b)](https://doi.org/10.1038/s41598-023-38922-z)
+jämför utsläpp, kostnad och tid för sista-milen-leverans med drönare mot
+lastbil.
+
+---
+
 ## Referensförteckning
+
+Raghunatha, A., Thollander, P. & Barthel, S. (2023a) 'Addressing the emergence of drones – A policy development framework for regional drone transportation systems', *Transportation Research Interdisciplinary Perspectives*, 18, 100795. DOI: https://doi.org/10.1016/j.trip.2023.100795 (Hämtad 2026-10-28). *(Extra rekommenderad läsning på Lisam Modul 1 Transport; policyramverk för regional Advanced Air Mobility.)*
+
+Raghunatha, A., Lindkvist, E., Thollander, P., Hansson, E. & Jonsson, G. (2023b) 'Critical assessment of emissions, costs, and time for last-mile goods delivery by drones versus trucks', *Scientific Reports*, 13, 11814. DOI: https://doi.org/10.1038/s41598-023-38922-z (Hämtad 2026-10-28). *(Extra rekommenderad läsning på Lisam Modul 1 Transport; systemjämförelse av drönare mot lastbil.)*
 
 Thollander, P., Karlsson, M., Rohdin, P., Wollin, J. & Rosenqvist, J. (2020) *Introduction to Industrial Energy Efficiency: Energy Auditing, Energy Management, and Policy Issues*. Amsterdam: Academic Press/Elsevier. DOI: https://doi.org/10.1016/C2018-0-01452-8. ISBN 978-0-12-817247-6. *(Kurslitteratur i ETE409; engelskspråkig companion-volym till Thollander m.fl. 2019, med bredare internationellt perspektiv på energikartläggning, energiledning och styrmedel.)*
 

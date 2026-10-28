@@ -98,7 +98,8 @@ Policy_i_energi_och_klimat/
 │   ├── lisam_ETE409_startsida_2026-10-28.png
 │   ├── lisam_ETE409_kursupplagg_2026-10-28.png
 │   ├── lisam_ETE409_examination_2026-10-28.jpg
-│   └── moodle_ETE409_testlista_2026-10-28.png
+│   ├── moodle_ETE409_testlista_2026-10-28.png
+│   └── lisam_ETE409_modul1_url_modul2_2026-10-28.png
 ├── litteratur/
 │   └── litteraturlista.md         # 2 titlar: referenser, länkar, sammanfattningar
 └── essa-upg2/
@@ -138,6 +139,16 @@ Vänstermenyn är en annan karta: sektor (transport / industri / bostad) +
 kunskapstest + individuell essä. De två kartorna ska inte slås ihop i
 förväg. Skärmbild:
 [`Bilder/lisam_ETE409_kursupplagg_2026-10-28.png`](Bilder/lisam_ETE409_kursupplagg_2026-10-28.png).
+
+**Modul 1, sidfilen heter Modul 2.** Den synliga sidan
+[Modul 1. Directives, Regulations and Policy Instruments in the Transport
+sector in EU and Sweden](https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY/SitePages/Modul-2.-Industisektor-test.aspx)
+(Mariana Andrei; fem inspelade föreläsningar) har URL:en
+`.../SitePages/Modul-2.-Industisektor-test.aspx` – alltså filnamn för
+*industri* plus stavfelet *Industisektor*, medan titel, brödtext och
+vänstermeny säger Modul 1 Transport. Lita på sidans titel och meny, inte på
+filnamnet i adressfältet. Skärmbild:
+[`Bilder/lisam_ETE409_modul1_url_modul2_2026-10-28.png`](Bilder/lisam_ETE409_modul1_url_modul2_2026-10-28.png).
 
 Reflektion kring nätkursstruktur (hitta rätt, studentkontakt, #nätkurs):
 [`../../synpalarande/natkurser-struktur-ete409.md`](../../synpalarande/natkurser-struktur-ete409.md).

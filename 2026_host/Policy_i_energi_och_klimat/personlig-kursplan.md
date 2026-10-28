@@ -120,7 +120,7 @@ fjärde UPG3-quiz.
 
 | Modul (UPG3-quiz) | Sektor | Primär litteratur | Lärandemål |
 |-------------------|--------|-------------------|------------|
-| 1 | Transport | Digitalt kursmaterial (ingen av kursböckerna fokuserar på transport) | 1, 2 |
+| 1 | Transport | Fem inspelade föreläsningar (Lisam) + extra läsning Raghunatha m.fl. (2023a, 2023b) | 1, 2 |
 | 2 | Industri | Thollander m.fl. (2020) + Thollander m.fl. (2019) del I–II | 1, 2 |
 | 3 | Bostad och service | Thollander m.fl. (2019), del III (styrmedel) | 1, 2 |
 

@@ -16,6 +16,10 @@ här är beslut *av dagsläget* – de får omprövas. Stabila konventioner bor 
   Levande fil: `synpalarande/natkurser-struktur-ete409.md`. Samma sak
   sparad som minne i Claude-projektminnet och i Cursor-store. Inte ett
   Nr-bygge, inte ett låst omdöme om hur social ETE409 är.
+- **ETE409 – URL-mismatch på Modul 1.** Sidan som visar transportmodulen
+  har filnamnet `Modul-2.-Industisektor-test.aspx` (fel modul, stavfel,
+  ordet test). Titel och meny säger Modul 1 Transport. Lita på sidans
+  synliga titel.
 - **ETE409 – quizytan hittad.** UPG3-testerna ligger i Moodle/Moodular
   bakom Lisam
   ([testlista](https://moodle.integration.it.liu.se/moodular/#/quiz?SPHostUrl=https:%2F%2Fliuonline.sharepoint.com%2Fsites%2FLisam_ETE409_2026HT_DY&HostTitle=Policys%20i%20energi-%20och%20klimatomst%C3%A4llningen%20(ETE409%202026HT%20DY)&CourseMomentCode=ETE409_2026HT_DY&CourseOfferingKey=ETE409_2026HT_DY&View=quiz&lang=sv)).

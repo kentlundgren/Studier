@@ -80,6 +80,14 @@ samma familj som Teams/OneDrive).
 Kursrum = SharePoint. Quiz = Moodle. Två system för en kurs. Listan visar
 tre tester (Transport, Industri, Bostad- och service). Inte gjorda 2026-10-28.
 
+**Hitta rätt, fel filnamn på Modul 1:** Sidan som *visar* Modul 1 Transport
+(titel, meny, fem föreläsningar, extra drone-artiklar) har adressen
+[`Modul-2.-Industisektor-test.aspx`](https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY/SitePages/Modul-2.-Industisektor-test.aspx).
+Filnamnet säger industri, har stavfelet *Industisektor*, och ordet *test*
+fast det är modulsidan. Trolig SharePoint-rest (sida kopierad, titel bytt,
+filnamn kvar). För studenten: lita på rubrik och vänstermeny, inte på
+URL:en. Observation för “hitta rätt”, inte för examinationen.
+
 **Examination (Lisam-kollage 2026-10-28):** två individuella Ladok-moment,
 UPG2 (essä senast 27 nov kl. 20) och UPG3 (tre quiz senast 20 nov kl. 20).
 Det finns ingen UPG1. Modul 1–3 är quiz-sektorerna transport / industri /
