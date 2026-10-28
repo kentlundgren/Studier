@@ -67,6 +67,13 @@ Quiz öppna från 16 oktober, stänger **20 november kl. 20.00**. Godkänt kräv
 godkänt resultat på varje quiz (kollaget anger en procentgräns per test;
 kontrollera exakt siffra i Lisam). AI är inte tillåtet under quiz.
 
+Själva testerna ligger inte i SharePoint-sidorna utan i LiU:s Moodle
+(Moodular), öppnad från Lisam. Lista 2026-10-28: Modul 1 Transportsektorn,
+Modul 2 Industrisektorn, Modul 3 Bostad- och service sektor. **Inte gjorda
+än** (Kent gör dem senare).
+[Öppna testlistan](https://moodle.integration.it.liu.se/moodular/#/quiz?SPHostUrl=https:%2F%2Fliuonline.sharepoint.com%2Fsites%2FLisam_ETE409_2026HT_DY&HostTitle=Policys%20i%20energi-%20och%20klimatomst%C3%A4llningen%20(ETE409%202026HT%20DY)&CourseMomentCode=ETE409_2026HT_DY&CourseOfferingKey=ETE409_2026HT_DY&View=quiz&lang=sv).
+Skärmbild: [`Bilder/moodle_ETE409_testlista_2026-10-28.png`](Bilder/moodle_ETE409_testlista_2026-10-28.png).
+
 **UPG2 (samma källa):** individuell essä, **2 000–3 000 ord** (exklusive
 tabeller, referenser och appendix). Deadline **27 november kl. 20.00** till
 Lisam. AI får användas som stöd om det redovisas; hela texten får inte
@@ -90,7 +97,8 @@ Policy_i_energi_och_klimat/
 ├── Bilder/
 │   ├── lisam_ETE409_startsida_2026-10-28.png
 │   ├── lisam_ETE409_kursupplagg_2026-10-28.png
-│   └── lisam_ETE409_examination_2026-10-28.jpg
+│   ├── lisam_ETE409_examination_2026-10-28.jpg
+│   └── moodle_ETE409_testlista_2026-10-28.png
 ├── litteratur/
 │   └── litteraturlista.md         # 2 titlar: referenser, länkar, sammanfattningar
 └── essa-upg2/
@@ -105,6 +113,7 @@ Policy_i_energi_och_klimat/
 
 - **Kursrum, Lisam (inloggning):** <https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY>
 - **Kursupplägg (sidan 0):** <https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY/SitePages/0.-Kurs-och-uppgiften-introduktion.aspx>
+- **UPG3-tester (Moodle/Moodular, inloggning):** <https://moodle.integration.it.liu.se/moodular/#/quiz?SPHostUrl=https:%2F%2Fliuonline.sharepoint.com%2Fsites%2FLisam_ETE409_2026HT_DY&HostTitle=Policys%20i%20energi-%20och%20klimatomst%C3%A4llningen%20(ETE409%202026HT%20DY)&CourseMomentCode=ETE409_2026HT_DY&CourseOfferingKey=ETE409_2026HT_DY&View=quiz&lang=sv>
 - Kursöversikt (LiU, marknadsföringssida): <https://liu.se/utbildning/kurs/ete409>
 - Kurssida (Studieinfo, HT 2026): <https://studieinfo.liu.se/kurs/ETE409/ht-2026>
 - Kursplan: <https://studieinfo.liu.se/kurs/ETE409/ht-2026#syllabus>

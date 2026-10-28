@@ -29,6 +29,7 @@ under hösten 2026.
 
 - Kursrum, Lisam (inloggning): <https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY>
 - Kursupplägg (sidan 0): <https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY/SitePages/0.-Kurs-och-uppgiften-introduktion.aspx>
+- UPG3-tester (Moodle, görs senare): <https://moodle.integration.it.liu.se/moodular/#/quiz?SPHostUrl=https:%2F%2Fliuonline.sharepoint.com%2Fsites%2FLisam_ETE409_2026HT_DY&HostTitle=Policys%20i%20energi-%20och%20klimatomst%C3%A4llningen%20(ETE409%202026HT%20DY)&CourseMomentCode=ETE409_2026HT_DY&CourseOfferingKey=ETE409_2026HT_DY&View=quiz&lang=sv>
 - Observation av nätkursstruktur (inte kursstrategi): [`../synpalarande/natkurser-struktur-ete409.md`](../synpalarande/natkurser-struktur-ete409.md)
 - Kursöversikt: <https://liu.se/utbildning/kurs/ete409>
 - Kursplan HT 2026: <https://studieinfo.liu.se/kurs/ETE409/ht-2026#syllabus>

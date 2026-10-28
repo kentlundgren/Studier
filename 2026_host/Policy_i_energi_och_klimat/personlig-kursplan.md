@@ -158,6 +158,7 @@ matchar UPG-numreringen.)*
 ### UPG3 – Digitala kunskapstester (1,5 hp, LM 2–3)
 
 - Ett quiz per *kursmodul* (inte per UPG-nummer). Alla tre krävs.
+- Plats: Moodle/Moodular via Lisam, [testlistan](https://moodle.integration.it.liu.se/moodular/#/quiz?SPHostUrl=https:%2F%2Fliuonline.sharepoint.com%2Fsites%2FLisam_ETE409_2026HT_DY&HostTitle=Policys%20i%20energi-%20och%20klimatomst%C3%A4llningen%20(ETE409%202026HT%20DY)&CourseMomentCode=ETE409_2026HT_DY&CourseOfferingKey=ETE409_2026HT_DY&View=quiz&lang=sv). Hittad 2026-10-28; **inte gjorda än**.
 - Fönster: 16 oktober–**20 november kl. 20.00**. AI inte tillåtet under quiz.
 - **Checklista:**
   - [ ] Modul 1 Transport – quiz genomfört
@@ -208,6 +209,7 @@ LiU:s schema är känt.
 - [x] Kursupplägg (sidan 0) noterat; tre kartor (UPG-koder / quiz-sektorer / tematiska steg) flaggade
 - [x] Deadlines enligt Lisam: UPG3-quiz till 20 nov kl. 20; UPG2 essä 27 nov kl. 20
 - [x] Formkrav essä: 2 000–3 000 ord; AI-regler noterade (quiz: AI förbjudet)
+- [x] Quizytan hittad (Moodle/Moodular); testerna görs senare
 - [ ] Bedömningskriterier för UPG2 utöver formkrav (om Lisam har en separat rubrik)
 - [ ] Exakt digitalt kursmaterial per modul → komplettera litteraturlistan
 - [ ] Beslut om sektor och policyinstrument för UPG2

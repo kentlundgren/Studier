@@ -75,6 +75,11 @@ policy-steg. Båda kan vara sanna samtidigt.
 Inlämningar, Schema, Bedömningsöversikt, plus att Lisam är SharePoint (alltså
 samma familj som Teams/OneDrive).
 
+**Hitta rätt, en extra yta:** UPG3-testerna ligger i **Moodle**
+(`moodle.integration.it.liu.se/moodular`), öppnad från Lisam-kursrummet.
+Kursrum = SharePoint. Quiz = Moodle. Två system för en kurs. Listan visar
+tre tester (Transport, Industri, Bostad- och service). Inte gjorda 2026-10-28.
+
 **Examination (Lisam-kollage 2026-10-28):** två individuella Ladok-moment,
 UPG2 (essä senast 27 nov kl. 20) och UPG3 (tre quiz senast 20 nov kl. 20).
 Det finns ingen UPG1. Modul 1–3 är quiz-sektorerna transport / industri /

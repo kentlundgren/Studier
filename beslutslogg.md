@@ -16,6 +16,10 @@ här är beslut *av dagsläget* – de får omprövas. Stabila konventioner bor 
   Levande fil: `synpalarande/natkurser-struktur-ete409.md`. Samma sak
   sparad som minne i Claude-projektminnet och i Cursor-store. Inte ett
   Nr-bygge, inte ett låst omdöme om hur social ETE409 är.
+- **ETE409 – quizytan hittad.** UPG3-testerna ligger i Moodle/Moodular
+  bakom Lisam
+  ([testlista](https://moodle.integration.it.liu.se/moodular/#/quiz?SPHostUrl=https:%2F%2Fliuonline.sharepoint.com%2Fsites%2FLisam_ETE409_2026HT_DY&HostTitle=Policys%20i%20energi-%20och%20klimatomst%C3%A4llningen%20(ETE409%202026HT%20DY)&CourseMomentCode=ETE409_2026HT_DY&CourseOfferingKey=ETE409_2026HT_DY&View=quiz&lang=sv)).
+  Tre tester bekräftade. Kent gör dem senare.
 - **ETE409 – examination enligt Lisam.** UPG2 = essä (2 000–3 000 ord,
   27 nov kl. 20). UPG3 = tre quiz (transport / industri / bostad-service,
   till 20 nov kl. 20). **UPG1 saknas** (fortfarande okänt varför). Modul-
