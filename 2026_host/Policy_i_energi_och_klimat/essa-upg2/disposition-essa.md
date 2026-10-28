@@ -1,7 +1,10 @@
 # UPG2 – Disposition för den individuella essän
 
 **Kurs:** ETE409, Linköpings universitet
-**Uppgift:** Individuell essä (policyrapport), 1,5 hp, U/G
+**Uppgift:** UPG2 Individuell essä (policyrapport), 1,5 hp, U/G
+**Inte:** modul 2. Modul 1–3 är quiz-sektorerna i UPG3.
+**Deadline:** 27 november 2026 kl. 20.00, Lisam
+**Omfång:** 2 000–3 000 ord (exklusive tabeller, referenser och appendix)
 **Status:** öppen disposition – inget val av sektor eller policyinstrument är gjort, men ett starkt kandidatämne finns (avsnitt 4)
 
 > Till skillnad från AI101A-mappens delprovsutkast innehåller den här filen
@@ -85,7 +88,24 @@ i sig som styrmedelsanalys). Är du osäker, fråga kursledningen i respektive
 kurs om deras syn på att samma verklighetscase används i flera kurser
 samma termin.
 
-## 5. Nästa steg
+## 5. Formkrav och AI (Lisam 2026-10-28)
+
+Sammanfattning, inte avskrift av kursens slides:
+
+- Rapport 2 000–3 000 ord, exklusive tabeller, referenser och appendix.
+- Inlämning till Lisam senast 27 november kl. 20.00.
+- AI får användas som stöd för sökning, sammanställning och språk, om
+  verktyg och användning redovisas. Hela essän får inte genereras av AI.
+  Analys, ställningstagande och källkritik ska vara studentens.
+- På UPG3-quizzen gäller motsatsen: AI är inte tillåtet under testet.
+
+Detta ligger nära Kents tre villkor (förstå, ta ansvar, bidra till gruppen)
+– med den skillnaden att ETE409:s examination är **individuell**. Bidrag
+till gruppens lärande är inte ett formellt krav i UPG2/UPG3.
+
+Kollage: [`../Bilder/lisam_ETE409_examination_2026-10-28.jpg`](../Bilder/lisam_ETE409_examination_2026-10-28.jpg).
+
+## 6. Nästa steg
 
 Fyll i avsnitt 3 tillsammans med Kent när modulmaterialet i Lisam är känt
 och de digitala kunskapstesten är genomförda – då finns ett bättre underlag

@@ -61,17 +61,18 @@ Andra LiU-kurser har visst ett UPG1 (t.ex. individuella uppgifter eller
 bonuspoänguppgifter i andra kurser), men det säger inget om vad UPG1
 *skulle* ha varit i just ETE409.
 
-**Varför saknas UPG1 i ETE409 då?** Kursplanen förklarar det inte, och jag
-har inte hittat en officiell förklaring – så det här är **min rimliga
-gissning, inte ett faktum**: vid LiU (och svenska lärosäten generellt)
-byter man ogärna momentkod på ett examinationsmoment som redan finns i
-Ladok, eftersom det skulle bryta kopplingen till redan registrerade
-studentresultat. Om en tidigare version av kursen hade tre uppgifter och en
-av dem (UPG1) togs bort vid en kursplanerevision, är det vanligt att de
-kvarvarande behåller sina ursprungliga nummer i stället för att
-räknas om till UPG1/UPG2. **Fråga gärna kursansvarig/examinator** om du
-vill ha ett säkert svar – för dig som student spelar det däremot ingen
-praktisk roll: det finns bara två moment att göra, oavsett vad de heter.
+**Varför saknas UPG1 i ETE409 då?** Fortfarande okänt 2026-10-28. Lisams
+examinationssidor visar bara UPG2 och UPG3. Kursplanen förklarar inte
+luckan. **Rimlig gissning, inte faktum:** momentkoder i Ladok byts ogärna
+när en äldre version av kursen hade tre uppgifter och UPG1 togs bort; de
+kvarvarande behåller sina nummer. Fråga examinator om du vill ha ett säkert
+svar. Praktiskt: det finns bara två moment att göra.
+
+**Modul 1–3 är inte UPG1–3.** Modulerna är kursens tre *sektorsblock*
+(transport, industri, bostad/service). Alla tre quiz ingår i **ett** Ladok-
+moment: UPG3. Essän är UPG2. Nummerkollisionen är densamma som i många
+nätkurser: administrativ kod, innehållsmodul och tematisk översikt (sidan 0)
+använder samma siffror till olika saker.
 
 ### Varför skrev jag UPG3 (test) före UPG2 (essä) i mina egna dokument?
 
@@ -106,32 +107,30 @@ en officiell LiU-uppgift.
 
 ## 3. Kursens moduler och litteratur
 
-Kursen är modulbaserad. **Två kartor i Lisam (2026-10-28), inte sammanslagna:**
-sidan 0 listar tre tematiska steg (policylandskap → utformning/utvärdering →
-styrmedel för industri/byggnader/transport). Vänstermenyn listar sektorerna
-transport, industri och bostad, vardera med test, plus individuell essä.
-Kursplanens text nämner dessutom förnybar energi. Vilken karta som styr
-UPG3 är öppet tills det syns i rummet.
+Kursen är modulbaserad. **Tre kartor med samma siffror (2026-10-28):**
 
-Varje sektorsmodul i menyn verkar ha eget material och ett kunskapstest
-(UPG3).
+1. **UPG2 / UPG3** – Ladok-moment (essä respektive tre quiz). Ingen UPG1.
+2. **Modul 1–3 i examinationen** – Transport, Industri, Bostad- och
+   servicesektorn. Varje modul har ett quiz; alla tre quiz = UPG3.
+3. **Modul 1–3 på sidan 0** – tematiska steg (policylandskap → utformning →
+   styrmedel), inte samma sak som (1) eller (2).
 
-| Modul (sektor) | Primär litteratur | Lärandemål |
-|-----------------|--------------------|------------|
-| Byggnader | Thollander m.fl. (2019), del III (styrmedel) | 1, 2 |
-| Industri | Thollander m.fl. (2020), hela boken (industrifokus) + Thollander m.fl. (2019) del I–II | 1, 2 |
-| Transport | Digitalt kursmaterial (specifikt för transportsektorn – ingen av kursböckerna fokuserar på transport) | 1, 2 |
-| Förnybar energi | Digitalt kursmaterial + relevanta kapitel i båda böckerna om stödsystem för förnybart | 1, 3 |
+Kursplanens text nämner dessutom förnybar energi. Det är ett tema, inte ett
+fjärde UPG3-quiz.
+
+| Modul (UPG3-quiz) | Sektor | Primär litteratur | Lärandemål |
+|-------------------|--------|-------------------|------------|
+| 1 | Transport | Digitalt kursmaterial (ingen av kursböckerna fokuserar på transport) | 1, 2 |
+| 2 | Industri | Thollander m.fl. (2020) + Thollander m.fl. (2019) del I–II | 1, 2 |
+| 3 | Bostad och service | Thollander m.fl. (2019), del III (styrmedel) | 1, 2 |
 
 Fullständiga referenser och sammanfattningar:
 [`litteratur/litteraturlista.md`](litteratur/litteraturlista.md).
 
-**Observera:** ingen av kursböckerna behandlar transportsektorn eller
-förnybar energi i detalj – de är starkast på industri (båda böckerna) och
-byggnader/styrmedel generellt (del III i den svenska boken). Kursens
-digitala modulmaterial är sannolikt huvudkällan för transport- och
-förnybart-modulerna. Komplettera efter kursstart när materialet är
-tillgängligt i Lisam.
+**Observera:** ingen av kursböckerna behandlar transport i detalj. De är
+starkast på industri och på byggnader/styrmedel. Förnybar energi finns i
+kursplanen som lärandemål, men inte som eget UPG3-quiz. Komplettera
+litteraturlistan när Lisam-materialet per modul är gått igenom.
 
 ---
 
@@ -144,9 +143,10 @@ tillgängligt i Lisam.
    lärandemål 1 och för att förstå logiken bakom UPG2.
 3. **Thollander m.fl. (2020)** – läs riktat mot vald sektor för essän,
    snarare än från pärm till pärm. Använd som referensverk.
-4. **Digitalt kursmaterial per modul** (Lisam) – löpande, i takt med
-   modulerna byggnader → industri → transport → förnybar energi.
-5. **Kunskapstest** direkt efter varje modul, medan materialet är färskt.
+4. **Digitalt kursmaterial per modul** (Lisam) – löpande, i den ordning
+   quizzen ligger: transport → industri → bostad/service.
+5. **Kunskapstest (UPG3)** efter varje modul, medan materialet är färskt.
+   Fönster enligt Lisam: 16 oktober–20 november kl. 20.00.
 
 ---
 
@@ -157,16 +157,18 @@ matchar UPG-numreringen.)*
 
 ### UPG3 – Digitala kunskapstester (1,5 hp, LM 2–3)
 
-- Ett test per modul (byggnader, industri, transport, förnybar energi).
-- **Krav:** samtliga test måste genomföras för godkänt.
+- Ett quiz per *kursmodul* (inte per UPG-nummer). Alla tre krävs.
+- Fönster: 16 oktober–**20 november kl. 20.00**. AI inte tillåtet under quiz.
 - **Checklista:**
-  - [ ] Modul byggnader – test genomfört
-  - [ ] Modul industri – test genomfört
-  - [ ] Modul transport – test genomfört
-  - [ ] Modul förnybar energi – test genomfört
+  - [ ] Modul 1 Transport – quiz genomfört
+  - [ ] Modul 2 Industri – quiz genomfört
+  - [ ] Modul 3 Bostad och service – quiz genomfört
 
 ### UPG2 – Individuell essä / policyrapport (1,5 hp, LM 1, delvis 2–3)
 
+- **Omfång:** 2 000–3 000 ord (exklusive tabeller, referenser, appendix).
+- **Deadline:** **27 november kl. 20.00** till Lisam.
+- **AI:** får användas som stöd om det redovisas; inte som hela texten.
 - **Uppgift:** analysera och föreslå ett policyinstrument – antingen för
   att stödja företag i en sektor (industri, transport eller byggnader)
   under energi- och klimatomställningen, eller för att driva
@@ -192,24 +194,24 @@ LiU:s schema är känt.
 
 | Fas | Fokus | Leverabel |
 |-----|-------|-----------|
-| 1 | Byggnader-modulen | Test 1 |
-| 2 | Industri-modulen (huvuddelen av kurslitteraturen) | Test 2 |
-| 3 | Transport-modulen | Test 3 |
-| 4 | Förnybar energi-modulen | Test 4 (UPG3 klart) |
-| 5 | Val av sektor/policyinstrument, research | Disposition för essän |
-| 6 | Skriva och färdigställa essä | **UPG2 inlämnad** |
+| 1 | Modul 1 Transport | Quiz 1 (del av UPG3) |
+| 2 | Modul 2 Industri | Quiz 2 |
+| 3 | Modul 3 Bostad och service | Quiz 3 – UPG3 klart senast 20 nov kl. 20 |
+| 4 | Val av sektor/policyinstrument, research | Disposition för essän |
+| 5 | Skriva och färdigställa essä | **UPG2 inlämnad 27 nov kl. 20** |
 
 ---
 
 ## 7. Att fylla i efter kursstart
 
 - [x] Kursrum lokaliserat: Lisam, [ETE409 2026HT DY](https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY) (2026-10-28)
-- [x] Kursupplägg (sidan 0) noterat; två kartor (tema vs sektor) flaggade, inte sammanslagna
-- [ ] Faktiska moduldatum och deadlines (Lisam)
-- [ ] Bedömningskriterier för UPG2 (kursplanen hänvisar till kriterier som presenteras vid kursstart)
+- [x] Kursupplägg (sidan 0) noterat; tre kartor (UPG-koder / quiz-sektorer / tematiska steg) flaggade
+- [x] Deadlines enligt Lisam: UPG3-quiz till 20 nov kl. 20; UPG2 essä 27 nov kl. 20
+- [x] Formkrav essä: 2 000–3 000 ord; AI-regler noterade (quiz: AI förbjudet)
+- [ ] Bedömningskriterier för UPG2 utöver formkrav (om Lisam har en separat rubrik)
 - [ ] Exakt digitalt kursmaterial per modul → komplettera litteraturlistan
-- [ ] Formkrav för essän: omfång, referensstil, inlämningsformat
 - [ ] Beslut om sektor och policyinstrument för UPG2
+- [ ] Vad UPG1 *skulle* ha varit – bara om Kent frågar kursledningen
 
 ---
 

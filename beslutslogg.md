@@ -16,6 +16,12 @@ här är beslut *av dagsläget* – de får omprövas. Stabila konventioner bor 
   Levande fil: `synpalarande/natkurser-struktur-ete409.md`. Samma sak
   sparad som minne i Claude-projektminnet och i Cursor-store. Inte ett
   Nr-bygge, inte ett låst omdöme om hur social ETE409 är.
+- **ETE409 – examination enligt Lisam.** UPG2 = essä (2 000–3 000 ord,
+  27 nov kl. 20). UPG3 = tre quiz (transport / industri / bostad-service,
+  till 20 nov kl. 20). **UPG1 saknas** (fortfarande okänt varför). Modul-
+  nummer ≠ UPG-nummer. Sidan 0:s "modul 1–3" är en tredje, tematisk karta.
+  AI tillåtet med redovisning på essän, inte på quiz. Examinationen är
+  individuell – relevant för frågan om studentkontakt.
 - **ETE409 – sidan 0, tre tematiska moduler** (policylandskap → utformning
   → styrmedel). Vänstermenyn är en annan karta (sektor + test + essä).
 - **ETE409 – kursrum i Lisam hittat.** Startsida:

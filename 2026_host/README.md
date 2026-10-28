@@ -12,7 +12,7 @@ under hösten 2026.
 | **Form** | Helt distans, inga sammankomster | Helt distans, ortsoberoende, kvartsfart, period 2 |
 | **Betygsskala** | U / G / VG | U / G |
 | **Registrering / kursstart** | 2–9 nov 2026 (antagningskod HKR-09GQQ) | HT 2026. Kursrum i Lisam hittat 2026-10-28. |
-| **Examination** | Delprov 1: analys av tillämpningsområde (1,5 hp) · Delprov 2: handlingsplan – projekt (1,5 hp) | UPG3: digitala kunskapstest per modul (1,5 hp) · UPG2: individuell policyessä (1,5 hp) |
+| **Examination** | Delprov 1: analys av tillämpningsområde (1,5 hp) · Delprov 2: handlingsplan – projekt (1,5 hp) | UPG3: tre quiz (transport/industri/bostad-service), till 20 nov · UPG2: essä 2 000–3 000 ord, 27 nov. Ingen UPG1. Modulnummer ≠ UPG-nummer. |
 | **Kurslitteratur** | 4 titlar – EU:s AI-förordning (2024/1689), Floridi (2023), Modlitba (2025), AI-kommissionen SOU 2025:12 | 2 titlar – Thollander m.fl. (2019, svensk grundbok), Thollander m.fl. (2020, engelsk companion-volym) |
 | **Underlag i repot** | [README](AI_for_chefer/README.md) · [personlig kursplan](AI_for_chefer/personlig-kursplan.md) · [litteraturlista](AI_for_chefer/litteratur/litteraturlista.md) · [Delprov 1](AI_for_chefer/delprov1-vindkraftskalkyler/analys-tillampningsomrade.md) · [Delprov 2](AI_for_chefer/delprov2-handlingsplan/handlingsplan-vindkraftskalkyler.md) | [README](Policy_i_energi_och_klimat/README.md) · [personlig kursplan](Policy_i_energi_och_klimat/personlig-kursplan.md) · [litteraturlista](Policy_i_energi_och_klimat/litteratur/litteraturlista.md) · [UPG2-disposition](Policy_i_energi_och_klimat/essa-upg2/disposition-essa.md) |
 

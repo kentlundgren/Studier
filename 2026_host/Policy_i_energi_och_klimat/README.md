@@ -43,22 +43,43 @@ Efter genomförd kurs ska studenten kunna:
 
 ## Examination
 
-| Kod | Moment | hp | Betyg |
-|-----|--------|----|-------|
-| **UPG3** | Digitala kunskapstester (ett per modul) | 1,5 | U / G |
-| **UPG2** | Individuell essä – policyrapport med analys och förslag på policyinstrument för en vald sektor | 1,5 | U / G |
+Två **olika nummerserier**. De hänger inte ihop.
 
-UPG3 kräver att samtliga modultest genomförs. UPG2 ska visa förmåga att
-reflektera över kursämnena, utforma praktiska lösningar och beskriva
-befintliga policyer – antingen policy som stödjer företag i en sektor
-(industri, transport eller byggnader) eller policy som driver energi- och
-klimatomställningen framåt inom vald sektor.
+| Ladok-kod | Vad det är | Inte samma sak som |
+|---|---|---|
+| **UPG1** | Finns inte i den här kursen. Okänt vad koden skulle ha betytt; se gissningen i `personlig-kursplan.md`. | Inte "modul 1" |
+| **UPG2** | Individuell essä, 1,5 hp, U/G | Inte "modul 2" |
+| **UPG3** | Tre digitala kunskapstester (quiz), 1,5 hp, U/G. Alla tre krävs. | Inte "modul 3" – UPG3 *innehåller* modul 1–3 |
+
+| Kursmodul (innehåll + quiz) | Sektor enligt Lisam-examinationen | Del av |
+|---|---|---|
+| Modul 1 | Transportsektorn | UPG3 |
+| Modul 2 | Industrisektorn | UPG3 |
+| Modul 3 | Bostads- och servicesektorn | UPG3 |
+
+Samma siffror 1–3 används dessutom på sidan *0. Kurs och uppgiften* för tre
+*tematiska* steg (policylandskap → utformning → styrmedel). Det är en tredje
+karta. Blanda inte ihop den med UPG-koderna eller med quiz-sektorerna.
+
+**UPG3 (enligt Lisam-kollage 2026-10-28):** ett obligatoriskt quiz per modul;
+modul 1 ca 10 frågor / 30 min, modul 2 och 3 ca 10 frågor / 45 min.
+Quiz öppna från 16 oktober, stänger **20 november kl. 20.00**. Godkänt kräver
+godkänt resultat på varje quiz (kollaget anger en procentgräns per test;
+kontrollera exakt siffra i Lisam). AI är inte tillåtet under quiz.
+
+**UPG2 (samma källa):** individuell essä, **2 000–3 000 ord** (exklusive
+tabeller, referenser och appendix). Deadline **27 november kl. 20.00** till
+Lisam. AI får användas som stöd om det redovisas; hela texten får inte
+genereras av AI. Detaljer i
+[`essa-upg2/disposition-essa.md`](essa-upg2/disposition-essa.md).
+
+Skärmkollage: [`Bilder/lisam_ETE409_examination_2026-10-28.jpg`](Bilder/lisam_ETE409_examination_2026-10-28.jpg).
 
 > **Om kursmatrisen:** LiU:s kursmatris är den generella CDIO-baserade
 > kompetensmatrisen för civilingenjörsprogrammen, inte en direkt koppling
 > lärandemål ↔ examinationsmoment. Kopplingen i `personlig-kursplan.md` är
-> därför min egen, rimliga tolkning utifrån kursplanens texter om UPG2/UPG3
-> – inte en officiell uppgift från LiU.
+> därför en tolkning utifrån kursplan och Lisam – inte en officiell
+> LiU-uppgift.
 
 ## Innehåll i mappen
 
@@ -68,7 +89,8 @@ Policy_i_energi_och_klimat/
 ├── personlig-kursplan.md          # lärandemål ↔ litteratur ↔ examination, läsordning
 ├── Bilder/
 │   ├── lisam_ETE409_startsida_2026-10-28.png
-│   └── lisam_ETE409_kursupplagg_2026-10-28.png
+│   ├── lisam_ETE409_kursupplagg_2026-10-28.png
+│   └── lisam_ETE409_examination_2026-10-28.jpg
 ├── litteratur/
 │   └── litteraturlista.md         # 2 titlar: referenser, länkar, sammanfattningar
 └── essa-upg2/

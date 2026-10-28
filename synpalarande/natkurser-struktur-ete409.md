@@ -73,8 +73,16 @@ policy-steg. Båda kan vara sanna samtidigt.
 
 **Kontaktvägar som syns i menyn, inte ännu prövade:** Medlemmar och grupp,
 Inlämningar, Schema, Bedömningsöversikt, plus att Lisam är SharePoint (alltså
-samma familj som Teams/OneDrive). Om det finns forum, obligatoriska inlägg,
-kamratrespons eller gruppuppgifter är **inte** känt 2026-10-28.
+samma familj som Teams/OneDrive).
+
+**Examination (Lisam-kollage 2026-10-28):** två individuella Ladok-moment,
+UPG2 (essä senast 27 nov kl. 20) och UPG3 (tre quiz senast 20 nov kl. 20).
+Det finns ingen UPG1. Modul 1–3 är quiz-sektorerna transport / industri /
+bostad-service, *inte* UPG-numren. I det som syns av examinationen krävs
+inget student-till-student-arbete (inget räknat forum, ingen kamratrespons).
+Det är ett observationellt plus för Kents 2021-fråga om umgängeskultur:
+strukturen examinerar individen. Om "Medlemmar och grupp" ändå används
+aktivt är det frivillig socialitet ovanpå, inte inbyggd i betyget.
 
 ---
 
