@@ -6,6 +6,7 @@
 **Deadline:** 27 november 2026 kl. 20.00, Lisam
 **Omfång:** 2 000–3 000 ord (exklusive tabeller, referenser och appendix)
 **Status:** öppen disposition – inget val av sektor eller policyinstrument är gjort, men ett starkt kandidatämne finns (avsnitt 4)
+**Arbetshypotes:** 2026-11-02, se *Underlag och tankar*: förnybar energi, landbaserad vindkraft, lagen (2026:1113). Avsnitt 3 är inte avgjort.
 
 > Till skillnad från AI101A-mappens delprovsutkast innehåller den här filen
 > **inget låst** case. Sektor och policyinstrument är öppna frågor tills
@@ -35,6 +36,8 @@ befintliga policyer.
 7. **Reflektion** – koppling till kursens teorier och eget lärande (formkrav)
 8. **Referenser** – Harvardformat
 
+Rapporten ska följa strukturen i *UPG2 Individuell essä (ii)*: abstract (200 ord), inledning, kritisk reflektion, föreslaget styrmedel, operationalisering, typ av styrmedel, slutsats, deklaration om generativ AI och referenser. Listan ovan är ett tidigare utkast. Samma struktur finns i `krav-essa.md` och som en kort punktlista under *Underlag och tankar*.
+
 ## 3. Öppna frågor – att avgöra med Kent
 
 - **Vilken sektor?** Industri, transport eller byggnader (kursens tre
@@ -52,6 +55,8 @@ befintliga policyer.
   nivå?
 
 ## 4. Kandidatämne: vindkraftens intäktsdelning till närboende
+
+Sakuppgifterna nedan kommer från pressmeddelandet i mars 2026, hämtat 2026-09-05. Lag (2026:1113), proposition 2025/26:239 och betänkande 2025/26:NU20 står i *Underlag och tankar 2026-11-02* och är inte avstämda mot det här avsnittet.
 
 Ett konkret, aktuellt och väl avgränsat policyinstrument som passar
 uppgiftens krav ("analysera och föreslå/utvärdera ett policyinstrument"):
