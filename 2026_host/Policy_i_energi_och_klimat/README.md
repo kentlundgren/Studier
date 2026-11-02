@@ -104,7 +104,7 @@ Policy_i_energi_och_klimat/
 │   └── litteraturlista.md         # kursböcker + extra läsning modul 1
 ├── moduler/
 │   ├── modul-1-transport.md       # sammanfattning efter genomgång
-│   ├── modul-2-industri.md        # mall, fylls senare
+│   ├── modul-2-industri.md        # sammanfattning av föreläsningsbilderna
 │   └── modul-3-bostad-service.md  # mall, fylls senare
 └── essa-upg2/
     └── disposition-essa.md        # mall/disposition för UPG2 – sektor och policyinstrument ännu öppna
