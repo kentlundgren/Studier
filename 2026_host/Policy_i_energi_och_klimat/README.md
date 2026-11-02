@@ -53,9 +53,9 @@ Två **olika nummerserier**. De hänger inte ihop.
 
 | Kursmodul (innehåll + quiz) | Sektor enligt Lisam-examinationen | Del av |
 |---|---|---|
-| Modul 1 | Transportsektorn | UPG3 |
-| Modul 2 | Industrisektorn | UPG3 |
-| Modul 3 | Bostads- och servicesektorn | UPG3 |
+| [Modul 1](moduler/modul-1-transport.md) | Transportsektorn | UPG3 |
+| [Modul 2](moduler/modul-2-industri.md) | Industrisektorn | UPG3 |
+| [Modul 3](moduler/modul-3-bostad-service.md) | Bostads- och servicesektorn | UPG3 |
 
 Samma siffror 1–3 används dessutom på sidan *0. Kurs och uppgiften* för tre
 *tematiska* steg (policylandskap → utformning → styrmedel). Det är en tredje
@@ -99,7 +99,8 @@ Policy_i_energi_och_klimat/
 │   ├── lisam_ETE409_kursupplagg_2026-10-28.png
 │   ├── lisam_ETE409_examination_2026-10-28.jpg
 │   ├── moodle_ETE409_testlista_2026-10-28.png
-│   └── lisam_ETE409_modul1_url_modul2_2026-10-28.png
+│   ├── lisam_ETE409_modul1_url_modul2_2026-10-28.png
+│   └── Kurs/                      # föreläsningsbilder: Transporter_energi_* (modul 1), Industri_* (modul 2)
 ├── litteratur/
 │   └── litteraturlista.md         # kursböcker + extra läsning modul 1
 ├── moduler/
