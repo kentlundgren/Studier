@@ -6,7 +6,8 @@ i [`Bilder/Kurs/`](../Bilder/Kurs/). Siffror och påståenden är hämtade från
 bilderna och inte kontrollerade mot originalkällorna. Kontrollera mot källan
 innan något används i UPG2. Filen är **inte** ett quiz-facit.
 
-**Quiz (UPG3):** inte genomfört. Ca 10 frågor, 45 minuter.
+**Quiz (UPG3):** övning genomförd 2026-11-02. Ca 10 frågor, 45 minuter.
+Viktiga förtydliganden från övningen är inarbetade nedan (särskilt effektutvärdering, PFE, hinder och CSRD/CSDDD-tidsplan).
 
 **Så läser du filen:** punkter märkta ⭐ är sådant som sannolikt kommer på testet
 (siffror, årtal, definitioner och listor som bilderna betonar). Det är en
@@ -127,6 +128,8 @@ Vågorna: 1 = företag av allmänt intresse (PIE) med över 500 anställda;
 ESRS = European Sustainability Reporting Standards, EFRAG = EU:s
 redovisningsrådgivare.
 
+**Viktigt från övning:** Stop-the-Clock *senarelade* rapporteringen (två år). SME som inte omfattas direkt påverkas ofta ändå indirekt via leverantörskedjor (större kunder begär data, t.ex. enligt VSME).
+
 ### 4.2 CSDDD ⭐
 
 | Område | Ursprungligt | Omnibus |
@@ -136,6 +139,8 @@ redovisningsrådgivare.
 | Åtgärder | Åtgärder vid negativ påverkan, sista utväg att avsluta affärsrelation | Förenklingar, kravet på att avsluta affären tas bort |
 | Kontroll | Årliga bedömningar | Var femte år |
 | Sanktioner | Civilrättsligt ansvar i hela EU och högsta böter på minst 5 % av global omsättning | Båda tas bort. Riktlinjer för sanktioner antas nationellt |
+
+**Viktigt från övning:** Stop-the-Clock (17 april 2025) skjuter det nationella genomförandet till 26 juli 2027. SME omfattas inte direkt men kan behöva stödja stora kunders aktsamhetsarbete.
 
 ### 4.3 CBAM ⭐
 
@@ -176,6 +181,8 @@ Bild: `Industri_20`–`21`.
 inkludera privata policies (till exempel internt i ett företag). *Styrmedel*
 avser **statliga interventioner**. På engelska används ibland "public policy"
 för statligt styrmedel.
+
+**Från övning:** Frivilliga initiativ kompletterar offentlig politik och banar ofta väg för senare reglering. De ersätter inte ekonomiska eller administrativa styrmedel. Policyinterventionsstege: information (mjukast) → frivilliga initiativ → ekonomiska styrmedel → regleringar (hårdast).
 
 ---
 
@@ -218,6 +225,8 @@ Bild: `Industri_53_andelen_förnybart`, `Industri_51_andelen_förnybart`.
 - Infört **2003**. Gemensam elcertifikatmarknad med **Norge sedan 1 januari 2012**.
 - Ett mål i energiöverenskommelsen är att förlänga systemet till **2045**.
 
+**Från övning:** Feed-in-tariffer fokuserar på *pris* (fast betalning per kWh, typiskt 15–20 år). Kvotreglering (t.ex. elcertifikat) fokuserar på *kvantitet* och lämnar priset till marknaden.
+
 ### 6.4 Styrmedel som påverkar industrins energianvändning {#industristyrmedel}
 
 Bild: `Industri_24`. De viktigaste enligt Energimyndigheten (2018) ⭐:
@@ -228,6 +237,8 @@ Andra: elcertifikatsystemet, miljöbalken, lagen om energikartläggning för sto
 företag, energi- och klimatrådgivning. **Nedlagda 2020** (ej operativa längre):
 energikartläggningsprogrammet (stödet), energinätverk för små och medelstora
 företag, Energisteget, Coacher.
+
+**PFE (Programmet för energieffektivisering i energiintensiv industri):** Frivilligt, femårigt avtal mellan Energimyndigheten och energiintensiva företag. Företagen åtog sig att införa energiledningssystem och genomföra energikartläggningar. I gengäld slapp de energiskatten på el. Inte ett 35 %-subventionsprogram för SME (det var det tidigare solcellsstödet).
 
 ### 6.5 Stöd för grön teknik (solceller) {#gron-teknik}
 
@@ -277,10 +288,12 @@ SOU = statens offentliga utredningar.
 
 | Term | Betydelse |
 |---|---|
-| Gross energy savings | Besparingen utan hänsyn till free-riders, tilläggsbesparingar och spillover |
+| Gross energy savings | Besparingen *utan* hänsyn till free-riders, tilläggsbesparingar och spillover |
 | Savings not caused by the program | Besparing som hade skett ändå: **free-rider-effekten** |
 | Additional savings | Besparing deltagarna uppnått utöver den rapporterade |
 | Non-participant spillover | Besparing hos aktörer *utanför* programmet som hört talas om det |
+
+**Viktigt förtydligande från övning:** Gross (brutto) är besparingen *före* avdrag för free-riders m.m. Netto är det justerade värdet. Free-rider är besparingar som hade skett ändå (hos deltagare). Non-participant spillover är besparingar hos aktörer *utanför* programmet. Blanda inte ihop dem.
 
 ### 7.4 Processutvärdering ⭐ {#processutvardering}
 
@@ -328,6 +341,8 @@ asymmetrisk information** (de två sista betonas fetstilt på bilden).
   förklara varför kostnadseffektiva energieffektiva tekniker inte genomförs
   (Sorrell m.fl., 2000). Miljöexternaliteter är en form av ofullständiga
   marknader men förklarar inte varför tekniken inte införs till nuvarande priser.
+
+**Viktigt från övning:** Ofullkomliga marknader och imperfekt konkurrens är *inte* de viktigaste förklaringarna enligt Sorrell m.fl. (2000). De är mindre relevanta.
 
 ⭐ **Kategorisering av ekonomiska hinder:**
 - **Marknadshinder:** vilken faktor som helst som gör att en lönsam investering
@@ -406,3 +421,5 @@ som ska lämnas in.
 - Thollander, P. m.fl. (2019), bild `Industri_35`.
 - Väisänen, H. (2003), bild `Industri_34`.
 - Lisam, ETE409 Modul 2 (föreläsningsbilder), se [`Bilder/Kurs/`](../Bilder/Kurs/).
+
+*Uppdaterad 2026-11-02 med förtydliganden från quiz-övning (effektutvärdering, PFE, hinder, CSRD/CSDDD, feed-in vs kvot).*
