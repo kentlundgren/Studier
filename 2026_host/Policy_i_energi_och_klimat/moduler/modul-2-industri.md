@@ -2,7 +2,7 @@
 
 Sammanfattning av föreläsningsbilderna i Lisam Modul 2 (Industri), HT 2026.
 Underlag: de 32 bildfilerna `Industri_01.jpg` till `Industri_53_andelen_förnybart.jpg`
-i [`Bilder/Kurs/`](../Bilder/Kurs/). Siffror och påståenden är hämtade från
+i [`Bilder/Kurs/`](https://github.com/kentlundgren/Studier/tree/main/2026_host/Policy_i_energi_och_klimat/Bilder/Kurs). Siffror och påståenden är hämtade från
 bilderna och inte kontrollerade mot originalkällorna. Kontrollera mot källan
 innan något används i UPG2. Filen är **inte** ett quiz-facit.
 
@@ -410,7 +410,7 @@ innan siffran används.
 
 Alla hänvisningar nedan står på föreläsningsbilderna. Originaltexterna är
 inte lästa i original här, så årtal och uppgifter ska kontrolleras mot
-[`litteraturlista.md`](../litteratur/litteraturlista.md) innan de används i text
+[`litteraturlista.md`](https://github.com/kentlundgren/Studier/blob/main/2026_host/Policy_i_energi_och_klimat/litteratur/litteraturlista.md) innan de används i text
 som ska lämnas in.
 
 - Bertoldi, P. m.fl. (2005), citerad på bild `Industri_40`.
@@ -420,6 +420,6 @@ som ska lämnas in.
 - Thollander, P. och Palm, J. (2012), bild `Industri_34`.
 - Thollander, P. m.fl. (2019), bild `Industri_35`.
 - Väisänen, H. (2003), bild `Industri_34`.
-- Lisam, ETE409 Modul 2 (föreläsningsbilder), se [`Bilder/Kurs/`](../Bilder/Kurs/).
+- Lisam, ETE409 Modul 2 (föreläsningsbilder), se [`Bilder/Kurs/`](https://github.com/kentlundgren/Studier/tree/main/2026_host/Policy_i_energi_och_klimat/Bilder/Kurs).
 
 *Uppdaterad 2026-11-02 med förtydliganden från quiz-övning (effektutvärdering, PFE, hinder, CSRD/CSDDD, feed-in vs kvot).*
