@@ -102,6 +102,10 @@ kursens arbetsdokument, inte i en regelfil.
 
 ---
 
+## Månadsrapport
+
+Skriver Kent nyckelordet **månadsrapport** (eventuellt med månad), eller frågar "vad har jag gjort den här månaden?": läs skillen [kent-manadsrapport](https://github.com/kentlundgren/AI-teknik/blob/main/.claude/skills/kent-manadsrapport/SKILL.md) och följ den. Den räknar projekt över alla Kents repon och kräver att du kan köra Python och Git på hans dator. Färdiga rapporter finns i [Manadsrapport/](https://github.com/kentlundgren/AI-teknik/blob/main/Manadsrapport/README.md). Lokalt ligger skillen i `C:\Users\kentl\OneDrive\AI\AI-teknik\.claude\skills\kent-manadsrapport`. Committa och pusha inte på eget initiativ.
+
 ## Uppdateringslogg
 
 - 2026-09-04 (skapad): scope, struktur, repo-identitet, konventioner,
