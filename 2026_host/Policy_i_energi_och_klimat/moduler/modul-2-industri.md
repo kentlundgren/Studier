@@ -6,8 +6,8 @@ i [`Bilder/Kurs/`](../Bilder/Kurs/). Siffror och påståenden är hämtade från
 bilderna och inte kontrollerade mot originalkällorna. Kontrollera mot källan
 innan något används i UPG2. Filen är **inte** ett quiz-facit.
 
-**Quiz (UPG3):** övning genomförd 2026-11-02. Ca 10 frågor, 45 minuter.
-Viktiga förtydliganden från övningen är inarbetade nedan (särskilt effektutvärdering, PFE, hinder och CSRD/CSDDD-tidsplan).
+
+Viktiga förtydliganden från...
 
 **Så läser du filen:** punkter märkta ⭐ är sådant som sannolikt kommer på testet
 (siffror, årtal, definitioner och listor som bilderna betonar). Det är en
