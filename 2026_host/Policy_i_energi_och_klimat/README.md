@@ -112,6 +112,7 @@ Policy_i_energi_och_klimat/
 │   └── modul-3-bostad-service.md  # mall, fylls senare
 └── essa-upg2/
     ├── krav-essa.md               # krav och struktur för UPG2 enligt föreläsningsbilderna
+    ├── essa-stomme.md             # stomme (disposition med ordbudget) till policyrapporten
     └── disposition-essa.md        # mall/disposition för UPG2 – sektor och policyinstrument ännu öppna
 ```
 
