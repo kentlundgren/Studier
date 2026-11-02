@@ -78,7 +78,9 @@ Skärmbild: [`Bilder/moodle_ETE409_testlista_2026-10-28.png`](Bilder/moodle_ETE4
 tabeller, referenser och appendix). Deadline **27 november kl. 20.00** till
 Lisam. AI får användas som stöd om det redovisas; hela texten får inte
 genereras av AI. Detaljer i
-[`essa-upg2/disposition-essa.md`](essa-upg2/disposition-essa.md).
+[`essa-upg2/disposition-essa.md`](essa-upg2/disposition-essa.md). Kraven enligt
+föreläsningsbilderna (struktur, 6 referenser, max 3 000 ord) står i
+[`essa-upg2/krav-essa.md`](essa-upg2/krav-essa.md).
 
 Skärmkollage: [`Bilder/lisam_ETE409_examination_2026-10-28.jpg`](Bilder/lisam_ETE409_examination_2026-10-28.jpg).
 
@@ -100,6 +102,7 @@ Policy_i_energi_och_klimat/
 │   ├── lisam_ETE409_examination_2026-10-28.jpg
 │   ├── moodle_ETE409_testlista_2026-10-28.png
 │   ├── lisam_ETE409_modul1_url_modul2_2026-10-28.png
+│   ├── UPG2_individuell_essa/     # tre bilder om essäkraven
 │   └── Kurs/                      # föreläsningsbilder: Transporter_energi_* (modul 1), Industri_* (modul 2)
 ├── litteratur/
 │   └── litteraturlista.md         # kursböcker + extra läsning modul 1
@@ -108,6 +111,7 @@ Policy_i_energi_och_klimat/
 │   ├── modul-2-industri.md        # sammanfattning av föreläsningsbilderna
 │   └── modul-3-bostad-service.md  # mall, fylls senare
 └── essa-upg2/
+    ├── krav-essa.md               # krav och struktur för UPG2 enligt föreläsningsbilderna
     └── disposition-essa.md        # mall/disposition för UPG2 – sektor och policyinstrument ännu öppna
 ```
 

@@ -15,7 +15,7 @@ bedömning av vad som är lätt att fråga om, inte ett besked från kursen.
 
 ---
 
-## 1. Energiläget och Energimyndighetens prognos {#energilaget}
+## 1. Energiläget och Energimyndighetens prognos
 
 Bild: `Industri_01`–`03` (`01` och `02` är samma bild).
 
@@ -36,7 +36,7 @@ TWh = terawattimmar (1 TWh = 1 miljard kWh).
 
 ---
 
-## 2. EU:s ramverk för energipolitik {#eu-ramverk}
+## 2. EU:s ramverk för energipolitik
 
 Bild: `Industri_04`–`05`.
 
@@ -72,7 +72,7 @@ Det pågående ramverket kallas **European Green Deal**.
 
 ---
 
-## 3. Ny svensk lag som genomför EED {#eed-lag}
+## 3. Ny svensk lag som genomför EED
 
 Bild: `Industri_06`.
 
@@ -100,7 +100,7 @@ TJ = terajoule.
 
 ---
 
-## 4. Omnibus och "Stop-the-Clock": CSRD, CSDDD, CBAM {#omnibus}
+## 4. Omnibus och "Stop-the-Clock": CSRD, CSDDD, CBAM
 
 Bild: `Industri_07`–`11`.
 
@@ -165,7 +165,7 @@ Gäller import av varor med koldioxidintensiv produktion och risk för
 
 ---
 
-## 5. Styrmedel: begrepp och typer {#styrmedel}
+## 5. Styrmedel: begrepp och typer
 
 Bild: `Industri_20`–`21`.
 
@@ -186,9 +186,9 @@ för statligt styrmedel.
 
 ---
 
-## 6. Exempel på styrmedel {#exempel-styrmedel}
+## 6. Exempel på styrmedel
 
-### 6.1 EU ETS (utsläppshandel) ⭐ {#eu-ets}
+### 6.1 EU ETS (utsläppshandel) ⭐
 
 Bild: `Industri_22`. Instrumenttyp: marknadsbaserat, administrativt och
 ekonomiskt. Policyområde: minskning av växthusgaser och energieffektivisering.
@@ -203,7 +203,7 @@ Resultat enligt en rapport för Europeiska centralbanken:
   samma industrier utanför EU, särskilt i energiintensiva sektorer. En del av
   minskningarna motverkades alltså av ökningar utomlands.
 
-### 6.2 Vita certifikat, Frankrike ⭐ {#vita-certifikat}
+### 6.2 Vita certifikat, Frankrike ⭐
 
 Bild: `Industri_23`. Energy Efficiency Obligation Schemes, i Frankrike sedan 2006.
 
@@ -216,7 +216,7 @@ Bild: `Industri_23`. Energy Efficiency Obligation Schemes, i Frankrike sedan 200
   115 TWh/år, även bränsleleverantörer. Fas III (2015–2017) 700 TWh. 2018 höjdes
   målet till 1 600 TWh. 2022: 100 miljoner euro i fem effektiviseringsprogram.
 
-### 6.3 Elcertifikatsystemet (TGCs) ⭐ {#elcertifikat}
+### 6.3 Elcertifikatsystemet (TGCs) ⭐
 
 Bild: `Industri_53_andelen_förnybart`, `Industri_51_andelen_förnybart`.
 
@@ -227,7 +227,7 @@ Bild: `Industri_53_andelen_förnybart`, `Industri_51_andelen_förnybart`.
 
 **Från övning:** Feed-in-tariffer fokuserar på *pris* (fast betalning per kWh, typiskt 15–20 år). Kvotreglering (t.ex. elcertifikat) fokuserar på *kvantitet* och lämnar priset till marknaden.
 
-### 6.4 Styrmedel som påverkar industrins energianvändning {#industristyrmedel}
+### 6.4 Styrmedel som påverkar industrins energianvändning
 
 Bild: `Industri_24`. De viktigaste enligt Energimyndigheten (2018) ⭐:
 **energi- och koldioxidskatterna** och **EU:s system för handel med
@@ -240,7 +240,7 @@ företag, Energisteget, Coacher.
 
 **PFE (Programmet för energieffektivisering i energiintensiv industri):** Frivilligt, femårigt avtal mellan Energimyndigheten och energiintensiva företag. Företagen åtog sig att införa energiledningssystem och genomföra energikartläggningar. I gengäld slapp de energiskatten på el. Inte ett 35 %-subventionsprogram för SME (det var det tidigare solcellsstödet).
 
-### 6.5 Stöd för grön teknik (solceller) {#gron-teknik}
+### 6.5 Stöd för grön teknik (solceller)
 
 Bild: `Industri_25`.
 
@@ -254,13 +254,13 @@ Bild: `Industri_25`.
 
 ---
 
-## 7. Utvärdering av styrmedel {#utvardering}
+## 7. Utvärdering av styrmedel
 
 Bild: `Industri_30`–`33`. Disposition: styrmedelsprocess, ex-ante och ex-post,
 effekt- och processutvärdering, logik bakom ett industriellt energiprogram,
 hinder mot energieffektivisering, modell för energieffektivitet.
 
-### 7.1 Exempel: svenska energikartläggningsstödet (policyprocess) {#policyprocess}
+### 7.1 Exempel: svenska energikartläggningsstödet (policyprocess)
 
 1. 2006: ESD (Energy End-Use and Energy Services Directive).
 2. 2005–2008: utvärdering av regionalt program (Projekt Utveckling Högland),
@@ -281,7 +281,7 @@ SOU = statens offentliga utredningar.
 - **Ex-ante:** utvärdering **innan** styrmedlet är avslutat (bilden: "görs innan
   styrmedlet är avslutat"). **Ex-post** görs efter.
 
-### 7.3 Effektutvärdering (impact evaluation) ⭐ {#effektutvardering}
+### 7.3 Effektutvärdering (impact evaluation) ⭐
 
 **Net energy savings = gross energy savings − savings not caused by the program
 (free-rider) + additional savings + non-participant spillover.**
@@ -295,7 +295,7 @@ SOU = statens offentliga utredningar.
 
 **Viktigt förtydligande från övning:** Gross (brutto) är besparingen *före* avdrag för free-riders m.m. Netto är det justerade värdet. Free-rider är besparingar som hade skett ändå (hos deltagare). Non-participant spillover är besparingar hos aktörer *utanför* programmet. Blanda inte ihop dem.
 
-### 7.4 Processutvärdering ⭐ {#processutvardering}
+### 7.4 Processutvärdering ⭐
 
 - Ta fram underliggande projekt- eller **styrmedelslogik**: vad vill styrmedlet
   uppnå, och vilka processer eller aktiviteter finns för att uppnå det?
@@ -303,7 +303,7 @@ SOU = statens offentliga utredningar.
 - **Formativ utvärdering:** resultatet ändrar eller formar styrmedlet under dess
   livstid. **Summativ utvärdering:** ingen ändring av styrmedlet sker.
 
-### 7.5 Energikartläggningsprogram {#energikartlaggningsprogram}
+### 7.5 Energikartläggningsprogram
 
 Bild: `Industri_34`–`35` (Thollander & Palm, 2012; Väisänen, 2003; Thollander
 m.fl., 2019).
@@ -323,7 +323,7 @@ m.fl., 2019).
 
 ---
 
-## 8. Hinder mot energieffektivisering och marknadsmisslyckanden {#hinder}
+## 8. Hinder mot energieffektivisering och marknadsmisslyckanden
 
 Bild: `Industri_36`–`40`.
 
@@ -357,7 +357,7 @@ enbart på prismekanismer såsom höjda energipriser (Bertoldi m.fl., 2005).
 
 ---
 
-## 9. Sveriges energi- och klimatpolitik och andel förnybart {#sverige}
+## 9. Sveriges energi- och klimatpolitik och andel förnybart
 
 Bild: `Industri_50`–`52`.
 
