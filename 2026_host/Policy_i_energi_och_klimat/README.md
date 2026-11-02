@@ -113,7 +113,6 @@ Policy_i_energi_och_klimat/
 └── essa-upg2/
     ├── krav-essa.md               # krav och struktur för UPG2 enligt föreläsningsbilderna
     ├── essa-stomme.md             # stomme (disposition med ordbudget) till policyrapporten
-    ├── essa-utkast.md             # arbetsutkast till löpande text, att skriva om
     └── disposition-essa.md        # mall/disposition för UPG2 – sektor och policyinstrument ännu öppna
 ```
 
