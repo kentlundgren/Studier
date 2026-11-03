@@ -559,28 +559,55 @@ innan de används i text som ska lämnas in.
 - SCB, bild `Bostad_02` och `Bostad_09`.
 - von Malmborg, F., Rohdin, P. och Wihlborg, E. (2024), bild `Bostad_41`.
 
-**Extra läsning enligt Lisam Modul 3** (läses inte här, men kan ge fördjupning). Lisams
-text beskriver artiklarna så här, och uppgifterna nedan är hämtade därifrån:
+**Extra läsning enligt Lisam Modul 3.** Helartiklarna går inte att hämta (förlagen blockerar),
+så underlaget nedan är de sammanfattningar (abstracts) som söktjänsterna visar, plus
+Lisams egen beskrivning. Läs artiklarna själv om testet frågar om detaljer. Referensuppgifter
+(volym, sidor) är hämtade ur söktjänster och kan avvika från Lisams.
 - Blomqvist, S., Glad, W. och Rohdin, P. (2022) *Ten years of energy efficiency – Exploring
   the progress of barriers and drivers in the Swedish residential and services sector*,
-  *Energy Reports* 10. DOI: [10.1016/j.egyr.2022.10.439](https://doi.org/10.1016/j.egyr.2022.10.439).
-  Behandlar hinder och drivkrafter och hur de utvecklats under en tioårsperiod.
-- von Malmborg, F., Rohdin, P. och Wihlborg, E. (2024) *Climate declarations for buildings as a
-  new policy instrument in Sweden: a multiple streams perspective*, *Building Research and
-  Information*. DOI: [10.1080/09613218.2023.2222320](https://doi.org/10.1080/09613218.2023.2222320).
-  Behandlar klimatdeklarationer, som nyligen blivit svensk lag.
+  *Energy Reports*, 8 (sidorna 14726–14740 enligt [DOAJ](https://doaj.org/article/275f96eb589d4ed0b915712204635c76);
+  Lisam anger "10"). DOI: [10.1016/j.egyr.2022.10.439](https://doi.org/10.1016/j.egyr.2022.10.439).
+  Enligt abstract: jämför **enkäter från 2010 och 2020** till organisationer som främst bygger,
+  äger och förvaltar **flerbostadshus**. ⭐ **Hinder:** *brist på tid eller andra prioriteringar*
+  och *slimmade organisationer* är fortfarande de viktigaste hindren, tydligast i små
+  organisationer. **Drivkraft:** *kostnadsminskning* är fortfarande den största.
+  Osäkerheten om stigande energipriser har minskat, kostnadseffektiva lösningar är mer
+  anpassningsbara, och mer kapital finns tillgängligt (särskilt i privat sektor).
+  Reglerande åtgärder har haft betydelse. Framtida utmaningar: **dolda kostnader** och
+  **kunskapsinhämtning**. Författarna kopplar energieffektivisering till organisationens
+  utveckling och dagordning.
+- von Malmborg, F., Rohdin, P. och Wihlborg, E. (**2023** enligt söktjänsterna, *Building
+  Research & Information*, 51; Lisam och bilden anger 2024) *Climate declarations for buildings
+  as a new policy instrument in Sweden: a multiple streams perspective*. DOI:
+  [10.1080/09613218.2023.2222320](https://doi.org/10.1080/09613218.2023.2222320).
+  Enligt abstract: **multiple streams-ramverket** och kvalitativ och kvantitativ textanalys
+  av hur lagen utformades och beslutades. En **majoritet av intressenterna** ställde sig bakom
+  förslaget, men det var inte ostridigt: några ville ha **frivillig** i stället för
+  obligatorisk deklaration. Kritik: deklarationen är **inte kopplad till den viktigaste fasen
+  för att minska byggnadens klimatpåverkan, planering och projektering**, utan till
+  byggskedet. Den svenska versionen i *Statsvetenskaplig tidskrift*
+  ([Legitima styrmedel](https://journals.lub.lu.se/st/article/view/28815)) landar i att
+  trots brett stöd är **legitimiteten svag**, särskilt throughput- och output-legitimitet.
+  Detta stämmer med bild `Bostad_41` (115 remissvar).
 - Liu, L., Rohdin, P. och Moshfegh, B. (2015) *Evaluating indoor environment of a retrofitted
-  multi-family building with improved energy performance in Sweden*, *Energy and Buildings*.
-  DOI: [10.1016/j.enbuild.2015.05.021](https://doi.org/10.1016/j.enbuild.2015.05.021).
-  Exempel på studie av energirenovering.
+  multi-family building with improved energy performance in Sweden*, *Energy and Buildings*,
+  102, 32–44. DOI: [10.1016/j.enbuild.2015.05.021](https://doi.org/10.1016/j.enbuild.2015.05.021).
+  Abstract hittades inte. Titeln visar att det är en studie av **inomhusmiljön i ett
+  energirenoverat flerbostadshus**. Lisam kallar den ett exempel på trender i
+  energirenoveringar.
 - Rohdin, P., Molin, A. och Moshfegh, B. (2014) *Experiences from nine passive houses in
   Sweden – Indoor thermal environment and energy use*, *Building and Environment*.
   DOI: [10.1016/j.buildenv.2013.09.017](https://doi.org/10.1016/j.buildenv.2013.09.017).
-  Exempel på studie av lågenergihus.
+  Abstract hittades inte. Titeln visar att det gäller **termiskt inomhusklimat och
+  energianvändning i nio passivhus**. Lisam kallar den ett exempel på lågenergihus.
 - Thollander, P., Rohdin, P. och Moshfegh, B. (2012) *On the formation of energy policies
   towards 2020: Challenges in the Swedish industrial and building sectors*, *Energy Policy*,
-  42, s. 461–467. Lisam anger den som ett exempel på en tidigare syn på energipolicy, då mot
-  målet 2020.
+  42, 461–467 ([IDEAS](https://ideas.repec.org/a/eee/enepol/v42y2012icp461-467.html)).
+  Enligt abstract: presenterar de största utmaningarna i utformningen av energipolitik för
+  industri- och byggsektorn för att nå **EU:s mål för primärenergi 2020**. Introducerar
+  teorin om **Asymmetric Energy Policy Shocks (AEPS)**. **Regionala skillnader** måste
+  beaktas. Slutsats: att **överbrygga AEPS och gå mot ett långsiktigt energipolitiskt
+  angreppssätt (Long-Term Energy Policy Approach, LTEPA)** är avgörande för att nå målet.
 
 Lisam, ETE409 Modul 3 (föreläsningsbilder), se
 [`Bilder/Kurs/`](https://github.com/kentlundgren/Studier/tree/main/2026_host/Policy_i_energi_och_klimat/Bilder/Kurs).
