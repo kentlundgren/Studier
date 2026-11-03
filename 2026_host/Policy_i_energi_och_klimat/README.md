@@ -109,7 +109,7 @@ Policy_i_energi_och_klimat/
 ├── moduler/
 │   ├── modul-1-transport.md       # sammanfattning efter genomgång
 │   ├── modul-2-industri.md        # sammanfattning av föreläsningsbilderna
-│   └── modul-3-bostad-service.md  # mall, fylls senare
+│   └── modul-3-bostad-service.md  # sammanfattning av föreläsningsbilderna
 └── essa-upg2/
     ├── krav-essa.md               # krav och struktur för UPG2 enligt föreläsningsbilderna
     ├── essa-stomme.md             # stomme (disposition med ordbudget) till policyrapporten

@@ -10,7 +10,7 @@ innan något återges.
 |---|---|---|---|
 | 1 | Transportsektorn | [modul-1-transport.md](https://github.com/kentlundgren/Studier/blob/main/2026_host/Policy_i_energi_och_klimat/moduler/modul-1-transport.md) | Sammanfattning klar |
 | 2 | Industrisektorn | [modul-2-industri.md](https://github.com/kentlundgren/Studier/blob/main/2026_host/Policy_i_energi_och_klimat/moduler/modul-2-industri.md) | Sammanfattning av föreläsningsbilderna |
-| 3 | Bostads- och servicesektorn | [modul-3-bostad-service.md](https://github.com/kentlundgren/Studier/blob/main/2026_host/Policy_i_energi_och_klimat/moduler/modul-3-bostad-service.md) | Mall, fylls senare |
+| 3 | Bostads- och servicesektorn | [modul-3-bostad-service.md](https://github.com/kentlundgren/Studier/blob/main/2026_host/Policy_i_energi_och_klimat/moduler/modul-3-bostad-service.md) | Sammanfattning av föreläsningsbilderna |
 
 Kursens övergripande README: [Policy_i_energi_och_klimat](https://github.com/kentlundgren/Studier/blob/main/2026_host/Policy_i_energi_och_klimat/README.md).
 
