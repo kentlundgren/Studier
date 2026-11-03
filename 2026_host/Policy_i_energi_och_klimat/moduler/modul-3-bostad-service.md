@@ -17,8 +17,8 @@ Kommissionens sidor), eller märkta som okontrollerade. Allt utan märkning komm
 som är lätt att fråga om, inte ett besked från kursen. Grafvärden som är avlästa ur
 diagram anges med "ca".
 
-**Quiz (UPG3):** inte genomfört. Enligt [`personlig-kursplan.md`](../personlig-kursplan.md)
-ska det vara klart senast 20 november kl. 20.
+**Quiz (UPG3):** genomfört, alla rätt enligt Kent (uppgift 2026-11-03). Fristen var
+20 november kl. 20.
 
 **Kursens beskrivning av modulen (Lisam):** två inspelade föreläsningar och några exempel på
 extra litteratur (se avsnittet Källor sist i filen).

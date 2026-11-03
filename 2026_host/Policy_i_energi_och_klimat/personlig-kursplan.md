@@ -163,8 +163,8 @@ matchar UPG-numreringen.)*
 - Sammanfattningar: [`moduler/modul-1-transport.md`](moduler/modul-1-transport.md) (klar), [`moduler/modul-2-industri.md`](moduler/modul-2-industri.md), [`moduler/modul-3-bostad-service.md`](moduler/modul-3-bostad-service.md).
 - **Checklista:**
   - [x] Modul 1 Transport – quiz genomfört (2026-10-28)
-  - [ ] Modul 2 Industri – quiz genomfört
-  - [ ] Modul 3 Bostad och service – quiz genomfört
+  - [x] Modul 2 Industri – quiz genomfört (alla rätt enligt Kent)
+  - [x] Modul 3 Bostad och service – quiz genomfört (alla rätt enligt Kent)
 
 ### UPG2 – Individuell essä / policyrapport (1,5 hp, LM 1, delvis 2–3)
 

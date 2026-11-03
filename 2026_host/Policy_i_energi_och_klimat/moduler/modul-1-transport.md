@@ -6,7 +6,7 @@ nischinnovationer med verifierade officiella källor.
 
 **Lisam:** sidans titel är Modul 1 Transport; URL:en kan fortfarande heta
 Modul 2 (se kursens README).
-**Quiz (UPG3):** genomfört 2026-10-28 enligt Kent.
+**Quiz (UPG3):** genomfört 2026-10-28, alla rätt enligt Kent.
 
 **Tillägg 2026-11-03:** avsnitten 1.4, 2.4, 4.1 och 4.2 samt förtydliganden i övriga avsnitt är
 märkta **Tillägg**. De är kontrollerade mot den källa som anges, eller märkta som
