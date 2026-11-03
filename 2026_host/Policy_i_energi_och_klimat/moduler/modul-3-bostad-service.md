@@ -8,6 +8,10 @@ EU-direktiv och styrmedel i bostad och servicesektorn*). Siffror och påstående
 från bilderna och inte kontrollerade mot originalkällorna. Kontrollera mot källan innan
 något används i UPG2. Filen är **inte** ett quiz-facit.
 
+**Tillägg utöver bilderna** är markerade med **Tillägg:**. De är kontrollerade mot den källa
+som anges där (Boverkets återgivning av lag 2021:787, EU-direktivens texter och
+Kommissionens sidor), eller märkta som okontrollerade. Allt utan märkning kommer från bilderna.
+
 **Så läser du filen:** punkter märkta ⭐ är sådant som sannolikt kommer på testet
 (siffror, årtal, definitioner och listor som bilderna betonar). Det är en bedömning av vad
 som är lätt att fråga om, inte ett besked från kursen. Grafvärden som är avlästa ur
@@ -46,6 +50,13 @@ kärnkraftverk) → **distribution** (el, fjärrvärme, fjärrkyla, bränslen) �
 
 Slutanvändning = den energi som når användaren, efter omvandlings- och distributionsförluster.
 
+**Vad det innebär för beståndet ⭐:** nybyggnadstakten på ca 4 miljoner m² per år är liten mot
+ett bestånd på ca 700 miljoner m². Det är ca 0,6 % per år (4 / 700, egen uträkning).
+**Det befintliga beståndet** avgör därför sektorns energianvändning under överskådlig tid, och
+**renovering** är viktigare än nybyggnad för energieffektivisering. Att ca 30 % av ytan är
+byggd före 1950 betyder att en stor del av beståndet är gammalt och har högre specifik
+energianvändning (se avsnitt 3.1) och att det finns ett stort renoveringsbehov.
+
 ### 1.2 Delsektorer ⭐ (`Bostad_03`)
 
 Fördelning av energianvändningen mellan delsektorer i bostads- och servicesektorn, 2018
@@ -70,8 +81,10 @@ Bilden listar sex punkter:
    olika år.
 4. Sektorn har ett **stort renoveringsbehov**, vilket är en möjlighet att
    energieffektivisera samtidigt.
-5. **Viktig sektor för att minska koldioxidutsläpp (indirekt)**, eftersom utsläppen
-   uppstår i el- och värmeproduktionen och inte i byggnaden.
+5. **Viktig sektor för att minska koldioxidutsläpp (indirekt)**. *Tillägg (resonemang, inte
+   från bilden):* byggnaden släpper till stor del inte ut själv, utan utsläppen uppstår där
+   el och värme produceras, så minskad energianvändning i byggnaden minskar utsläppen i
+   energisystemet. Klimatdeklarationen (avsnitt 9) tar däremot sikte på utsläpp i byggskedet.
 6. Sektorn är **inte direkt internationellt konkurrensutsatt** (jämför industrin i modul 2,
    där koldioxidläckage är ett problem).
 
@@ -84,10 +97,12 @@ Bild: `Bostad_04`–`06`.
 ### 2.1 Slutlig energianvändning per energibärare, 1970–2022 (`Bostad_04`) ⭐
 
 Kommentarerna på bilden:
-- **Relativt konstant utveckling** (totalt ca 140–175 TWh genom hela perioden).
+- **Relativt konstant utveckling** (totalt ca 140–175 TWh genom hela perioden, från ca 165 TWh
+  år 1970 till ca 140 TWh år 2022, avläst ur diagrammet). Den totala energianvändningen har
+  alltså inte ökat, trots fler och större byggnader.
 - **Ökad andel el** med utbyggnad av kärnkraft och övrig kraft.
-- **Konvertering olja–el** (petroleumprodukterna faller kraftigt, från ca 130 TWh år 1970 till
-  nära noll).
+- **Konvertering olja–el** (petroleumprodukterna faller **kraftigt**, från ca 130 TWh år 1970 till
+  nära noll). Olja ersätts av el och fjärrvärme.
 - **Utbyggnad av fjärrvärme**.
 
 TWh = terawattimmar (1 TWh = 1 miljard kWh).
@@ -123,13 +138,18 @@ Bild: `Bostad_07`–`08`.
 
 Källa på bilden: Abel och Elmroth, *Byggnaden som system*, Formas.
 
-| Byggnadstyp | Byggd före 1940 | Byggd 1991 och senare | Idag (nybyggnad) |
+| Byggnadstyp | Byggd före 1940 | Byggd 1991 och senare | Idag |
 |---|---|---|---|
 | Enfamiljshus/villor | ca 170 kWh/m² | ca 110 kWh/m² | ca **90** kWh/m² |
 | Flerfamiljshus | ca 190 kWh/m² | ca 150 kWh/m² | ca **110–120** kWh/m² (85 kWh/m² + tillägg) |
 | Lokaler och kontor | ca 150 kWh/m² | ca 110 kWh/m² | ca **90–110** kWh/m² (80 kWh/m² + tillägg) |
 
-Mönstret: äldre hus använder mer energi per kvadratmeter, och kraven har skärpts över tid.
+⭐ **Mönstret:** äldre byggnader har generellt **högre specifik energianvändning** (kWh per m²
+och år), och kraven har skärpts över tid. Exempel: enfamiljshus **ca 170 → ca 90 kWh/m²**
+(före 1940 → idag), flerfamiljshus ca 190 → 110–120, lokaler ca 150 → 90–110.
+Bilden anger inte vad "idag" avser (nybyggnad, kravnivå eller bestånd). Parenteserna
+"85 kWh/m² + tillägg" och "80 kWh/m² + tillägg" tyder på att det är en kravnivå med tillägg,
+men det är en tolkning.
 Diagrammen visar också hur många TWh per år som varje byggårsgrupp står för (flest i
 byggårsgrupperna 1941–1970 för flerfamiljshus).
 
@@ -178,7 +198,7 @@ Bild: `Bostad_20`–`22`.
 
 | Direktiv/förordning | Vad det gör för bostads- och servicesektorn |
 |---|---|
-| **Energieffektiviseringsdirektivet (EED), 2012/27/EU** | Det mest centrala direktivet för både energi och miljö. Krav på energibesiktningar och energiledningssystem för stora företag, renovering av offentliga byggnader, energibesparingsmål för medlemsländerna, främjande av smarta mätare och energitjänster. |
+| **Energieffektiviseringsdirektivet (EED), 2012/27/EU** | Det mest centrala direktivet för både energi och miljö. Krav på **energibesiktningar** (på svenska energikartläggningar, engelska *energy audits*) och **energiledningssystem** för stora företag, renovering av offentliga byggnader, **energibesparingsmål** för medlemsländerna, främjande av **smarta mätare** och **energitjänster**. |
 | ⭐ **Direktivet om byggnaders energiprestanda (EPBD), 2010/31/EU** (fetmarkerat på bilden) | Energideklarationer vid försäljning eller uthyrning, minimikrav på energiprestanda vid nybyggnation och renovering, mål att alla nya byggnader ska vara **nära-nollenergibyggnader (NNE)**. |
 | **Förnybartdirektivet (RED), 2018/2001/EU** | Stöd till solceller, värmepumpar och biobränslen. Krav på medlemsländer att underlätta egenproduktion (t.ex. solpaneler på bostäder). |
 | **Förordning (EU) nr 305/2011** om harmoniserade villkor för saluföring av byggprodukter | Tekniska krav på byggprodukter: krav på hållbarhet och miljöegenskaper hos byggmaterial, möjlighet att välja produkter med låg klimatpåverkan. |
@@ -186,11 +206,19 @@ Bild: `Bostad_20`–`22`.
 EPBD = *Energy Performance of Buildings Directive*. Bilden fetmarkerar EPBD, vilket tyder
 på att det är föreläsningens huvuddirektiv för sektorn.
 
+**Tillägg (EED):** direktiv 2012/27/EU har ersatts av omarbetningen **(EU) 2023/1791**, och
+2012/27/EU upphävs med verkan från **12 oktober 2025** (enligt sekundärkällor, kontrollera mot
+EUR-Lex). I omarbetningen styr **energianvändningens storlek** i stället för företagsstorlek
+vilka som omfattas av krav på energikartläggning och energiledningssystem. Trösklarna är
+85 TJ och 10 TJ: se [modul 2](modul-2-industri.md) för vilken tröskel som gäller vad, eftersom
+sekundärkällorna redovisar det olika.
+
 ### 5.2 Byggnadsdirektivet inom EU (`Bostad_21`) ⭐
 
 - ”Nytt” byggnadsdirektiv från **2010**, som är ett resultat av att stora ändringar gjordes i
   direktivet från **2002**. Direktivet 2010/31/EU gäller *Energy Performance of Buildings
-  (recast)*, antaget **19 maj 2010**.
+  (recast)*, antaget **19 maj 2010**. ⭐ **Recast = omarbetning:** 2010 års direktiv är en
+  omarbetning av 2002 års direktiv (*Tillägg, okontrollerat här:* 2002 års direktiv är 2002/91/EG).
 - **Revidering av byggnadsdirektivet 2018 och 2021:**
   - Direktiv (EU) **2018/844** av den **30 maj 2018** ändrar direktiv 2010/31/EU och
     EED 2012/27/EU.
@@ -198,6 +226,18 @@ på att det är föreläsningens huvuddirektiv för sektorn.
     **European Green Deal** och planen att nå ett **koldioxidneutralt byggnadsbestånd i EU
     till 2050**. Förslaget syftar till att omsätta EU-kommissionens strategi för
     **renoveringsvågen** (publicerad hösten 2020) till konkreta lagstiftningsåtgärder.
+- **Tillägg: vad 2018/844 ändrade** (Kommissionens sida och direktivets text): publicerat
+  **19 juni 2018**, i kraft **9 juli 2018**, skulle genomföras nationellt senast **10 mars 2020**.
+  Bland annat flyttades **långsiktiga renoveringsstrategier** från EED till EPBD (artikel 2a, mål
+  ett högeffektivt och koldioxidfritt byggnadsbestånd 2050), **smartreadiness-indikatorn**
+  (frivillig, mäter byggnadens förmåga att anpassa driften med digital teknik) infördes och
+  det kom stöd för **laddinfrastruktur** för elfordon i byggnaders parkeringar.
+- **Tillägg: utfallet av 2021-förslaget.** Förslaget från 15 december 2021 ledde till en ny
+  omarbetning, **direktiv (EU) 2024/1275**, undertecknad 24 april 2024, publicerad **8 maj 2024**
+  och i kraft **28 maj 2024**. Den ersätter 2010/31/EU och inför **nollutsläppsbyggnader**
+  (zero-emission buildings): alla nya byggnader från **2030**, offentliga från **2028**. Målet är
+  ett nollutsläppsbestånd 2050. Källor: sekundärkällor (advokatbyråer, EU-organ), kontrollera
+  datumen mot EUR-Lex. Tidpunkten för införlivandet i svensk rätt är inte kontrollerad.
 
 ### 5.3 Direktivets kärnidéer (`Bostad_22`)
 
@@ -243,6 +283,12 @@ Bild: `Bostad_23`–`29`.
   - **alla nya byggnader senast den 31 december 2020** är nära-nollenergibyggnader, och
   - **nya byggnader som används och ägs av offentliga myndigheter** är
     nära-nollenergibyggnader **efter den 31 december 2018**.
+
+  **Tillägg:** lydelsen i artikel 9.1 (a) och (b) stämmer med detta. Definitionen i artikel 2:
+  en byggnad med **mycket hög energiprestanda** där den **låga energimängd som behövs i
+  mycket hög grad täcks av energi från förnybara källor**. EU anger ingen gemensam nivå, så
+  varje medlemsland definierar själv vad NNE betyder, vilket är varför Sverige behövde en
+  egen definition.
 
   Boverket gjorde en utredning om hur Sveriges definition av NNE ska utformas (klar sommaren
   2017). Rapport 2015:26, *Förslag till svensk tillämpning av nära-nollenergibyggnader*.
@@ -431,7 +477,11 @@ Bild: `Bostad_38`–`42`.
   vägledningsunderlag samt en plan för fortsatt utveckling.
 - Kravet omfattas av **januariöverenskommelsen** mellan regeringspartierna, Centerpartiet
   och Liberalerna.
-- ⭐ **Från och med 1 januari 2022 ska nya byggnader klimatdeklareras.**
+- ⭐ **Från och med 1 januari 2022 ska nya byggnader klimatdeklareras.** *Tillägg:* lagen
+  (2021:787) gäller när nya byggnader uppförs, enligt Boverket för byggnader där
+  bygglov söks från och med det datumet. Deklarationen ges in till **Boverket**, som för
+  **klimatdeklarationsregistret** (förordning 2021:789) och har tillsyn över deklarationens
+  kvalitet och riktighet. **Kommunen** bedömer om en byggnad omfattas av något undantag.
 
 ### 9.2 Processen i sju steg (`Bostad_38`)
 
@@ -466,8 +516,23 @@ Tabellen *Livscykelinformation byggnad* (enligt standarden för livscykelbedömn
 - **Gäller ej småhus (<100 m²) och byggherrar som uppför byggnaden privat.**
 
 Bilderna anger alltså att kravet i första hand gäller byggskedet (A), inte byggnadens
-driftenergi (B6). Småhus förekommer ändå i statistiken (se avsnitt 9.5).
-Kontrollera exakt omfattning mot Boverket/lagtexten.
+driftenergi (B6).
+
+**Tillägg: undantag enligt lagtexten** (lag 2021:787, 5–6 §§, enligt Boverkets återgivning).
+Skyldigheten omfattar inte:
+1. byggnader med tidsbegränsat bygglov för högst två år,
+2. byggnader som inte kräver bygglov enligt 9 kap. 6, 7 eller 9 § plan- och bygglagen,
+3. byggnader för industri- eller verkstadsändamål,
+4. ekonomibyggnader för jordbruk, skogsbruk eller liknande näring,
+5. ⭐ **byggnader som inte har större bruttoarea än 100,0 m²**,
+6. byggnader avsedda för totalförsvaret och byggnader av betydelse för Sveriges säkerhet.
+
+Dessutom är ⭐ **en byggherre som är en privatperson** och som uppför byggnaden på annat sätt
+än i näringsverksamhet **inte skyldig** att deklarera (6 §). Bildens "småhus (<100 m²)" är alltså
+en förenkling: gränsen på 100 m² gäller **alla** byggnader, inte bara småhus. Det förklarar
+varför småhus ändå utgör 935 av 1 765 deklarationer (avsnitt 9.5). Rimlig förklaring (min
+slutsats, inte från källan): de är större än 100 m² och uppförs i näringsverksamhet. Boverkets sida visar också en senare ändring av paragrafen (lag
+2026:746) som inte är genomgången här, så kontrollera gällande lydelse.
 
 ### 9.4 Vägen till implementering: multiple streams ⭐ (`Bostad_41`)
 
@@ -536,6 +601,10 @@ LIU-IEI-TEK-A--25/05099--SE.
     (2018–2022)?
 17. Hur många intressenter svarade i remissen, och vad förordade de flesta?
 18. Hur många klimatdeklarationer lämnades 2022–2024, och vilken byggnadstyp var vanligast?
+19. Varför är det befintliga beståndet viktigare än nybyggnation för sektorns energianvändning?
+    (4 miljoner m² per år mot 700 miljoner m².)
+20. Vilka byggnader och byggherrar undantas från klimatdeklaration (100 m², privatperson)?
+21. Vad är skillnaden mellan EPBD 2010/31/EU, ändringen 2018/844 och omarbetningen 2024/1275?
 
 ---
 
@@ -545,6 +614,17 @@ Alla hänvisningar nedan står på föreläsningsbilderna eller i kursens beskri
 modulen på Lisam. Originaltexterna är inte lästa här, så årtal och uppgifter ska
 kontrolleras mot [`litteraturlista.md`](https://github.com/kentlundgren/Studier/blob/main/2026_host/Policy_i_energi_och_klimat/litteratur/litteraturlista.md)
 innan de används i text som ska lämnas in.
+
+**Källor till tilläggen** (lästa som webbsidor, inte som hela rättsakter):
+- Boverket, [Dessa byggnader behöver inte klimatdeklareras](https://www.boverket.se/sv/klimatdeklaration/vilka-byggnader/inte-deklareras/),
+  återger lag (2021:787) 5–6 §§ och förordning (2021:789). Använt för avsnitt 9.1 och 9.3.
+- Europeiska kommissionen, [New Energy Performance of Buildings Directive kicks in](https://commission.europa.eu/news-and-media/news/new-energy-performance-buildings-directive-kicks-2020-03-09_en),
+  samt direktiv (EU) 2018/844 ([legislation.gov.uk](https://www.legislation.gov.uk/eudr/2018/844/body/data.htm)).
+  Använt för avsnitt 5.2.
+- Direktiv 2010/31/EU, artikel 9 ([legislation.gov.uk](https://legislation.gov.uk/eudr/2010/31/article/9/data.xht)).
+  Använt för avsnitt 6.1.
+- Direktiv (EU) 2024/1275 och (EU) 2023/1791: endast sekundärkällor (advokatbyråer,
+  EU-organ, branschsidor). Kontrollera mot EUR-Lex innan datum citeras.
 
 **På föreläsningsbilderna:**
 - Abel, E. och Elmroth, A., *Byggnaden som system*, Formas, bild `Bostad_07`.
