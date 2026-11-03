@@ -69,8 +69,8 @@ kontrollera exakt siffra i Lisam). AI är inte tillåtet under quiz.
 
 Själva testerna ligger inte i SharePoint-sidorna utan i LiU:s Moodle
 (Moodular), öppnad från Lisam. Lista 2026-10-28: Modul 1 Transportsektorn,
-Modul 2 Industrisektorn, Modul 3 Bostad- och service sektor. **Inte gjorda
-än** (Kent gör dem senare).
+Modul 2 Industrisektorn, Modul 3 Bostad- och service sektor. **Alla tre är
+genomförda** (alla rätt enligt Kent, 2026-11-03).
 [Öppna testlistan](https://moodle.integration.it.liu.se/moodular/#/quiz?SPHostUrl=https:%2F%2Fliuonline.sharepoint.com%2Fsites%2FLisam_ETE409_2026HT_DY&HostTitle=Policys%20i%20energi-%20och%20klimatomst%C3%A4llningen%20(ETE409%202026HT%20DY)&CourseMomentCode=ETE409_2026HT_DY&CourseOfferingKey=ETE409_2026HT_DY&View=quiz&lang=sv).
 Skärmbild: [`Bilder/moodle_ETE409_testlista_2026-10-28.png`](Bilder/moodle_ETE409_testlista_2026-10-28.png).
 
