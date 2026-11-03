@@ -73,6 +73,10 @@ Underlag till deklarationen om generativ AI. Jag för in en rad efter varje arbe
 
 Deklarationen i rapporten skrivs av Kent utifrån loggen. Den ska bara innehålla sådant som stämmer. Jag skriver aldrig "jag har läst/kontrollerat" i Kents röst om det var jag som gjorde det.
 
+## Diskussionstrådar: `utkast-privat/diskussionstradar.md`
+
+Frågor, Kents ståndpunkter, alternativ och beslut samlas en tråd i taget. Jag uppdaterar filen efter varje diskussion som rör uppgiften. Kents ståndpunkter återges som hans, märkta med datum. Jag lägger inga ställningstaganden under hans namn, och öppna frågor förblir frågor.
+
 ## Sekretess
 
 Inget från `utkast-privat/` får hamna i Studier-repot: inte text, citat, diff-utdrag eller exempel i stilprofilen. Jag skriver aldrig tillbaka sådant till filer utanför `utkast-privat/`. Studier-repot är publikt.
