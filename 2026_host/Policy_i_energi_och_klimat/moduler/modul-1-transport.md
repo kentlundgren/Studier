@@ -8,6 +8,11 @@ nischinnovationer med verifierade officiella källor.
 Modul 2 (se kursens README).
 **Quiz (UPG3):** genomfört 2026-10-28 enligt Kent.
 
+**Tillägg 2026-11-03:** avsnitten 1.4, 2.4, 4.1 och 4.2 samt förtydliganden i övriga avsnitt är
+märkta **Tillägg**. De är kontrollerade mot den källa som anges, eller märkta som
+*okontrollerade* eller *enligt Kents underlag* (Lisams material som inte finns som bilder i
+repot). Märkningen nedan gäller även tilläggen.
+
 ---
 
 ## Tre slags påståenden i den här filen
@@ -48,6 +53,13 @@ konstruktion av det *sektorsövergripande* 2030-etappmålet
 Det är ett utredningsförslag. 70-procentsmålet för inrikes transporter
 återges fortfarande som gällande etappmål i juni 2026.
 
+**Tillägg, avgränsning (officiellt mål):** −70 procent är ett **svenskt** etappmål för inrikes
+transporter (utom inrikes luftfart), en del av Sveriges energi- och klimatmål för 2030. Det är
+inte samma sak som EU:s **−55 procent till 2030 mot 1990** (Fit for 55, hela unionens
+nettoutsläpp, avsnitt 2.1) och inte samma sak som RED III:s **42,5 procent förnybar energi**
+(ett EU-mål för energisystemet, avsnitt 2.2). Det är inte heller ett riksdagsbeslut att just
+transporterna ska nå 42,5 procent förnybart.
+
 ### 1.2 Nettonoll 2045 (**officiellt mål**) plus Trafikverkets läsning (**tolkning**)
 
 Senast **2045** ska Sverige inte ha några nettoutsläpp av växthusgaser, och
@@ -84,6 +96,37 @@ Det är ett **annat** mål än 70 procent mot 2010: annat basår, annan
 avgränsning (hela ESR-sektorn, inte bara transporter). 70-procentsmålet är
 nationellt skarpare för just transporter.
 
+### 1.4 Tillägg: svenska styrmedel och bioenergi i transportsektorn
+
+**Bioenergi** är energi från organiskt material (biomassa). Biodrivmedel i transportsektorn
+är bl.a. **HVO** (hydrerade vegetabiliska och animaliska oljor, *hydrotreated vegetable oil*),
+**FAME** (fettsyrametylester, biodiesel), **bioetanol** och **biogas**. **HVO och FAME är
+biodrivmedel, inte fossila drivmedel.**
+
+**Hinder för bioenergi** (*enligt Kents underlag, ej kontrollerat mot källa i den här filen*):
+begränsad tillgång på biomassa och konkurrens om markanvändning, kunskapsbrist och bristande
+samordning i försörjningskedjan.
+
+**Reduktionsplikten (officiellt styrmedel).** [Lag (2017:1201)](https://lagen.nu/2017:1201)
+om reduktion av växthusgasutsläpp från bensin och diesel är ett centralt svenskt styrmedel.
+Kraven på minskade utsläpp höjs stegvis fram till 2030. Enligt Lagen.nu trädde lagen i kraft
+**1 juli 2018** och omfattade ursprungligen även flygfotogen. En lag från 2025 (SFS 2025:576)
+tycks ha begränsat titeln till bensin och diesel, och en planerad höjning för 2023 pausades
+(Regeringskansliet). Detaljer och gällande lydelse ska kontrolleras i SFS och hos
+Energimyndigheten. Lagen är ett **regimverktyg** som matar nischen för biodrivmedel (avsnitt 4).
+
+**Klimatklivet (Naturvårdsverket).** Stödet har gått till **produktionsanläggningar och
+tankstationer för biogas** (Naturvårdsverket). Enligt sidans senaste uppdatering (september
+2025) kan stöd fortfarande ges när gasen ersätter fordonsbränsle, men inte när biogas ersätter
+el och värme. Stödvillkoren har ändrats över tid, så kontrollera aktuella regler.
+
+**Biogas.** Sverige har styrmedel för biogas och de avskaffades inte helt 2022. Exempel är
+Klimatklivet och ett produktionsstöd för gödselbaserad biogas via Energimyndigheten, och enligt
+en branschorganisation även skattebefrielse. Uppgifterna om nivåer och gällande status är
+inte kontrollerade här, och en nyhetsartikel (TT, 2025) uppger att statligt stöd till
+biogasanläggningar på gårdar har upphört. Kontrollera mot Energimyndigheten innan något
+påstås om styrmedlets status.
+
 ---
 
 ## 2. EU-mål som rör transporter
@@ -100,6 +143,14 @@ nationellt skarpare för just transporter.
   2036 får högkvalitativa internationella krediter bidra med högst 5 procent
   av 1990 års unionsnetto, vilket i praktiken kräver minst 85 procent
   *inhemsk* minskning ([rådet, 2026](https://www.consilium.europa.eu/en/press/press-releases/2026/03/05/2040-climate-target-council-gives-final-green-light/)).
+
+**Tillägg, transportsektorns eget EU-mål (strategiskt mål, inte klimatlagens siffra):** i den
+europeiska gröna given är ambitionen att **transportrelaterade växthusgasutsläpp ska minska
+med 90 procent till 2050**. Det ska inte förväxlas med **−90 procent netto till 2040**, som
+gäller hela unionens ekonomi, och inte med −55 procent till 2030, som gäller hela unionen mot
+1990 och inte bara transporter. Uppgiften om −90 procent för transporter är *inte
+kontrollerad mot Kommissionens text* här. En sekundärkälla (Lexblog) beskriver den som en
+följd av klimatneutralitet 2050.
 
 Sveriges 2045 (−85 procent territoriella utsläpp + kompletterande) ligger
 *före* EU:s 2050 och ungefär i linje med EU:s 2040-konstruktion (90 procent
@@ -121,6 +172,11 @@ Därutöver ett bindande kombinerat delmål **5,5 procent** avancerade
 biodrivmedel + RFNBO, varav minst **1 procent** RFNBO
 ([rådet, 2023](https://www.consilium.europa.eu/en/press/press-releases/2023/10/09/renewable-energy-council-adopts-new-rules/)).
 
+**Tillägg, förtydligande:** unionsmålet **42,5 procent** är **bindande** på EU-nivå
+(medlemsstaterna bidrar nationellt) och är inte det gamla frivilliga 14-procentsmålet för
+transport. Det gäller **hela energisystemet**, med särskilda delmål för transport enligt ovan.
+Det är alltså inte ett svenskt riksdagsbeslut enbart för transport.
+
 RED III är ett **energimål** (andel/intensitet), inte samma sak som Sveriges
 **utsläppsmål** −70 procent. Båda kan uppfyllas med elektrifiering och
 förnybara drivmedel, men de räknas olika.
@@ -132,12 +188,42 @@ nationella mål ligger mellan 10 och 50 procent. Sverige ligger i toppen
 (50 procent) ([kommissionen, u.å. a](https://climate.ec.europa.eu/areas-action/effort-sharing-member-states-emission-targets/effort-sharing-2021-2030-targets-and-flexibilities_en)).
 
 **ETS2** (nytt handelssystem för bränslen i byggnader, vägtransport m.m.)
-ska vara i drift **2028** och dra ner täckta utsläpp med **42 procent till
-2030 mot 2005**. Skyldigheten ligger på *bränsleleverantörer*, inte på
+ska vara i drift **2028** (uppskjutet från 2027 enligt överenskommelsen i december 2025,
+[Euronews, 2025](https://www.euronews.com/2025/12/10/carbon-tax-on-buildings-and-transport-delayed-to-2028-under-eu-climate-deal))
+och dra ner täckta utsläpp med **42 procent till 2030 mot 2005**. Skyldigheten ligger på *bränsleleverantörer*, inte på
 bilisten ([kommissionen, u.å. b](https://climate.ec.europa.eu/areas-action/carbon-markets/ets2-buildings-road-transport-and-additional-sectors_en)).
 
 Vägtransporter träffas alltså av **både** ESR (medlemsstatens tak) och,
-från 2027/2028, ETS2 (pris på bränslet).
+från 2028, ETS2 (pris på bränslet).
+
+**Tillägg, det befintliga EU ETS för flyg och sjöfart (officiellt styrmedel):** det vanliga
+utsläppshandelssystemet (ETS, skilt från ETS2) omfattar **koldioxid från flyg inom EES** (och
+avgående flyg till Schweiz och Storbritannien) och **sjöfart från 2024**: **100 procent** av
+utsläppen på resor mellan två EU-hamnar och i hamn, **50 procent** av utsläppen på resor som
+börjar eller slutar utanför EU ([kommissionen, u.å. d](https://climate.ec.europa.eu/eu-action/eu-emissions-trading-system-eu-ets/scope-eu-emissions-trading-system_en)).
+**Vägtransporter ingår inte i ETS utan i ETS2.** Därför står inrikes flyg utanför
+Sveriges −70-mål (avsnitt 1.1).
+
+### 2.4 Tillägg: fler EU-styrmedel för transport
+
+- **ReFuelEU Aviation (officiellt, förordning (EU) 2023/2405):** ökar andelen **hållbara
+  flygbränslen (SAF, *sustainable aviation fuel*)**, inte fossila. Blandningskravet börjar på
+  **2 procent 2025** och stiger till **70 procent 2050** (ICCT). Delmålen däremellan, bland
+  annat för 2030, är *inte kontrollerade här*.
+- **FuelEU Maritime (officiellt, förordning (EU) 2023/1805):** gränsvärden för
+  **växthusgasintensiteten i energin som används ombord** på fartyg över 5 000 bruttoton i EU-hamnar
+  (Energydigital via sökresultat). Gränsvärdenas nivåer per år är *inte kontrollerade här*.
+- **Direktivet om rena fordon (officiellt, (EU) 2019/1161):** nationella **minimimål för
+  offentlig upphandling** av rena fordon (personbilar, lätta lastbilar, lastbilar och bussar) för
+  **2025 och 2030**, och definierar vad ett rent fordon är. För personbilar och lätta
+  lastbilar: högst 50 g CO₂/km till och med 2025, därefter bara nollutsläppsfordon. För tunga
+  fordon räknas bl.a. vätgas, el, biometan och flytande biodrivmedel ([kommissionen, u.å. c](https://transport.ec.europa.eu/transport-themes/clean-transport/clean-and-energy-efficient-vehicles/clean-vehicles-directive_en)).
+  Målen gäller medlemsstaten som helhet, inte varje enskild upphandlande myndighet.
+- **AFIR, förordning (EU) 2023/1804 (officiellt):** infrastruktur för alternativa bränslen.
+  Enligt Kents underlag sätter den **bindande nationella mål** för utbyggnad för
+  **vägfordon, fartyg och stillastående flygplan**. Förordningens enskilda mål och
+  tidpunkter är *inte kontrollerade här*.
+
 
 ---
 
@@ -145,12 +231,14 @@ från 2027/2028, ETS2 (pris på bränslet).
 
 ```
 EU 2050 klimatneutralt ── mer tid än ── Sverige 2045 nettonoll
+  (transporter −90 %, strategiskt mål)       │
          │                                    │
 EU 2040 −90 % netto                           territoriella −85 % + kompletterande
          │
 EU 2030 −55 % netto
          ├── RED III: 42,5 % förnybart (hela energin); transport 29 % eller −14,5 % intensitet
          ├── ESR: SE −50 % mot 2005 (transporter ingår)
+         ├── EU ETS: flyg inom EES, sjöfart från 2024
          └── ETS2 från 2028: vägbränslen, −42 % mot 2005 i systemet
 ```
 
@@ -174,6 +262,10 @@ omställning som samspel mellan tre nivåer:
 - **Landskap** – långsamma yttre tryck (klimatpolitik, priser, krig,
   normer) som kan öppna fönster när regimen är spänd.
 
+Geels (2002) handlar om **sociotekniska system** (teknik, regler, marknader, användarpraktiker
+och mening tillsammans) och inte enbart om sektorpolitik. MLP förklarar *varför* omställning
+tar tid, och skiljer sig därför från en lista över sektorsmål.
+
 Målen i avsnitt 1–2 är i första hand **landskap och regim**: klimatlag,
 RED III, ESR, ETS2, reduktionsplikt, koldioxidskatt. De skapar tryck mot
 den fossila vägregimen, men de *är inte* nischen.
@@ -187,6 +279,8 @@ Nischer som kursen kopplar till hållbar mobilitet:
 | Avancerade biodrivmedel | teknisk + policy (reduktionsplikt) | RED III 5,5 %; nationell plikt – *regimverktyg* som matar nischen |
 | Delad mobilitet, MaaS, bilpool | social / affärsmodell | transporteffektivitet (Sveriges miljömål: mindre energiintensivt trafikarbete) |
 | Civila drönare / UAV | teknisk nisch i tidigt skede | ännu inte ett styrmedel mot 70 %; möjligt komplement i gods/akut |
+| Batteribyte (*tillägg*) | teknisk + affärsmodell | kräver standardisering och samarbete i hela branschen (enligt Kents underlag) |
+| Elektrobränslen och SAF (*tillägg*) | teknisk + bränsle | ReFuelEU (avsnitt 2.4), RED III:s RFNBO; ännu inte fullt kommersiella i stor skala, produktions- och skalningsutmaningar (enligt Kents underlag) |
 
 [Raghunatha, Thollander och Barthel (2023a)](https://doi.org/10.1016/j.trip.2023.100795)
 och [Raghunatha m.fl. (2023b)](https://doi.org/10.1038/s41598-023-38922-z)
@@ -201,6 +295,36 @@ nischspår som redan *kopplats in* i regimen via EU- och svensk lag. Delad
 mobilitet träffar volymen (trafikarbete). Drönare är fortfarande nisch:
 relevant för policyanalys, svagt som huvudväg till 70 procent 2030.
 
+### 4.1 Tillägg: policy för omställning enligt Loorbach (2010)
+
+[Loorbach (2010)](https://doi.org/10.1111/j.1468-0491.2009.01471.x), *Governance* 23(1),
+presenterar **omställningsstyrning** (*transition management*) som ett ramverk för
+styrning av långsiktiga, ihållande hållbarhetsproblem. Abstractet anger att ramverket skiljer
+mellan **fyra typer av styrningsaktiviteter**. Enligt Kents underlag är de **strategiska,
+taktiska, operativa och reflexiva**, i en **cykel** där **utvärdering, uppföljning och lärande**
+är den reflexiva delen. Namnen på de fyra är *inte kontrollerade mot artikeln* här (abstractet
+nämner dem inte).
+
+*Tolkning (enligt Kents underlag):*
+- Policyn är **flernivå- och flerfasad** och har flera dimensioner: **vertikalt** (uppifrån-och-ned
+  respektive nedifrån-och-upp) och **horisontellt** (sektorsövergripande).
+- Omställningspolitik handlar också om att **bygga stöd i samhälle och näringsliv** och om att
+  **fasa ut befintliga system**, inte bara om att stödja ny teknik.
+- Kopplingen till MLP: styrmedel som reduktionsplikt eller ETS2 är regimverktyg, medan
+  utfasning av den fossila vägregimen är den del som ofta saknas i en ren teknikstödspolitik.
+  (Egen tolkning, inte från källan.)
+
+### 4.2 Tillägg: alternativa lösningar och deras hinder (enligt Kents underlag)
+
+- **Vätgas för bränslecellsfordon:** kräver **färskvatten** (för elektrolys) och har
+  utmaningar kring **transport och lagring**.
+- **Batteribyte:** kräver **standardisering** och **samarbete i hela branschen**.
+- **Elektrobränslen och SAF:** inte fullt kommersiella i stor skala, med **produktions- och
+  skalningsutmaningar**.
+
+Kopplingen till styrmedel: RED III:s delmål för RFNBO, ReFuelEU och AFIR (avsnitt 2.2 och 2.4)
+är regimtryck som ska ge de här nischerna en marknad.
+
 ---
 
 ## 5. Öppet efter quiz
@@ -211,6 +335,11 @@ relevant för policyanalys, svagt som huvudväg till 70 procent 2030.
 - Sveriges *val* under RED III (29 procent andel eller 14,5 procent
   intensitet) är inte kontrollerat i den här filen.
 - UPG2: transport + drone-policy är en möjlig sektor, inte ett beslut.
+- Tillägg: transportmålet −90 procent till 2050, ReFuelEU:s delmål för 2030 och framåt,
+  FuelEU Maritime:s nivåer, AFIR:s enskilda mål och Loorbachs fyra aktivitetsnamn är inte
+  kontrollerade mot primärkällan.
+- Tillägg: gällande status för biogasstöd och Klimatklivets villkor ändras över tid och ska
+  kontrolleras mot Energimyndigheten och Naturvårdsverket.
 
 ---
 
@@ -219,6 +348,12 @@ relevant för policyanalys, svagt som huvudväg till 70 procent 2030.
 Europeiska kommissionen (u.å. a) *Effort sharing 2021-2030: targets and flexibilities*. Tillgänglig på: https://climate.ec.europa.eu/areas-action/effort-sharing-member-states-emission-targets/effort-sharing-2021-2030-targets-and-flexibilities_en (Hämtad 2026-10-28). *(Officiell översikt av ESR: 40 procent på unionsnivå mot 2005, nationella mål 10–50 procent.)*
 
 Europeiska kommissionen (u.å. b) *ETS2: buildings, road transport and additional sectors*. Tillgänglig på: https://climate.ec.europa.eu/areas-action/carbon-markets/ets2-buildings-road-transport-and-additional-sectors_en (Hämtad 2026-10-28). *(Officiell beskrivning av ETS2: drift 2028, −42 procent mot 2005 i systemet, skyldighet på bränsleleverantörer.)*
+
+Europeiska kommissionen (u.å. c) *Clean Vehicles Directive*. Tillgänglig på: https://transport.ec.europa.eu/transport-themes/clean-transport/clean-and-energy-efficient-vehicles/clean-vehicles-directive_en (Hämtad 2026-11-03). *(Direktiv 2019/1161: minimimål för offentlig upphandling, definition av rent fordon, översyn 2027.)*
+
+Europeiska kommissionen (u.å. d) *Scope of the EU Emissions Trading System*. Tillgänglig på: https://climate.ec.europa.eu/eu-action/eu-emissions-trading-system-eu-ets/scope-eu-emissions-trading-system_en (Hämtad 2026-11-03). *(ETS omfattar flyg inom EES och sjöfart från 2024: 100 procent inom EU, 50 procent för resor utanför.)*
+
+Euronews (2025) *Carbon tax on buildings and transport delayed to 2028 under EU climate deal*, 10 december. Tillgänglig på: https://www.euronews.com/2025/12/10/carbon-tax-on-buildings-and-transport-delayed-to-2028-under-eu-climate-deal (Hämtad 2026-11-03). *(Sekundärkälla för uppskjutningen av ETS2 till 2028.)*
 
 Europeiska unionens råd (2023) *Renewable energy: Council adopts new rules* [pressmeddelande], 9 oktober. Tillgänglig på: https://www.consilium.europa.eu/en/press/press-releases/2023/10/09/renewable-energy-council-adopts-new-rules/ (Hämtad 2026-10-28). *(Bekräftar RED III: 42,5/45 procent totalt; transport 29 procent eller −14,5 procent intensitet; 5,5 procent avancerat + RFNBO varav 1 procent RFNBO.)*
 
@@ -234,9 +369,15 @@ Energimyndigheten (u.å.) *Det klimatpolitiska ramverket*. Tillgänglig på: htt
 
 Geels, F.W. (2002) 'Technological transitions as evolutionary reconfiguration processes: a multi-level perspective and a case-study', *Research Policy*, 31(8–9), s. 1257–1274. DOI: https://doi.org/10.1016/S0048-7333(02)00062-8 Fulltext: https://ris.utwente.nl/ws/files/6761018/Geels02technological.pdf *(Grundtext för MLP: nisch, regim, landskap; sociotekniskt system som mer än teknik.)*
 
+Loorbach, D. (2010) 'Transition management for sustainable development: a prescriptive, complexity-based governance framework', *Governance*, 23(1), s. 161–183. DOI: https://doi.org/10.1111/j.1468-0491.2009.01471.x (Hämtad 2026-11-03, endast abstract). *(Omställningsstyrning: fyra typer av styrningsaktiviteter; namnen är inte kontrollerade mot fulltexten.)*
+
 Miljömålsberedningen (2025) *Sveriges nationella klimatmål – uppdaterat etappmål till 2030*, SOU 2025:107. Stockholm: Regeringskansliet. Tillgänglig på: https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/10/sou-2025107/ (Hämtad 2026-10-28). *(Utredningsförslag, inte antaget mål; nämns för att inte blanda ihop förslag med gällande 70-procentsmål.)*
 
 Naturvårdsverket (2026a) *Utsläpp av växthusgaser från inrikes transporter*. Sveriges miljömål. Tillgänglig på: https://www.sverigesmiljomal.se/etappmalen/utslapp-av-vaxthusgaser-fran-inrikes-transporter/ (Hämtad 2026-10-28). *(Officiell formulering av 70-procentsmålet; tre åtgärdsansatser; bedömning att styrmedel inte räcker.)*
+
+Naturvårdsverket (2025) *Klimatklivet: biogas*. Tillgänglig på: https://www.naturvardsverket.se/amnesomraden/klimatomstallningen/klimatklivet/biogas/ (Hämtad 2026-11-03). *(Stöd till produktionsanläggningar och tankstationer för biogas; ändrade villkor hösten 2025.)*
+
+Lagen.nu (u.å.) *Lag (2017:1201) om reduktion av växthusgasutsläpp från bensin och diesel*. Tillgänglig på: https://lagen.nu/2017:1201 (Hämtad 2026-11-03). *(Reduktionsplikten; konsoliderad lydelse ska kontrolleras mot SFS.)*
 
 Raghunatha, A., Thollander, P. & Barthel, S. (2023a) 'Addressing the emergence of drones – A policy development framework for regional drone transportation systems', *Transportation Research Interdisciplinary Perspectives*, 18, 100795. DOI: https://doi.org/10.1016/j.trip.2023.100795 *(Lisams extra läsning; policyramverk för AAM i nischskede.)*
 
