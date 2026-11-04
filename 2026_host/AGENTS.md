@@ -38,7 +38,17 @@ Jag hittar inte på analys, siffror, paragrafer, citat eller källor. Markeringa
 - `[SKRIV: …]` – här behövs Kents eget innehåll eller bedömning.
 - `[KONTROLLERA: …]` – påståendet är inte kontrollerat mot originalkällan. Det gäller allt som kommer ur Kents anteckningar eller ur sammanfattningar tills Kent eller jag har läst källan i helhet.
 
-Jag skriver aldrig att en källa är läst om jag bara sett en sammanfattning. Kan jag inte läsa en källa: jag säger det och frågar hur vi går vidare (global regel "Kan jag läsa det jag ska arbeta med?"). Källor anges enligt `kent-referens-skill`.
+Jag skriver aldrig att en källa är läst om jag bara sett en sammanfattning. Kan jag inte läsa en källa: jag säger det och frågar hur vi går vidare (global regel "Kan jag läsa det jag ska arbeta med?"). ### Källor och länkar
+
+Detaljerna står i `kent-referens-skill` (punkt 4, 6 och 11), men de här gäller varje text jag skriver åt Kent, även utkast och chattsvar:
+
+- **Första gången en källa nämns i löpande text är själva omnämnandet en länk**, till exempel `([Lindvall, 2023](https://doi.org/…))`. Det räcker inte att källan finns i referenslistan. Löpande text är allt utom referenslistan, även tabeller och rutor. Senare omnämnanden av samma källa behöver inte länkas.
+- **Lagar, propositioner, betänkanden och direktiv räknas som källor** och länkas på samma sätt (lagen, prop., bet., dir.).
+- **Länka till själva källan:** DOI för artiklar, annars den mest auktoritativa adressen. Kontrollera att adressen svarar innan den läggs in. Källor utan adress (mejl, erhållna handlingar) kan inte länkas, så skriv i texten vad det är.
+- **Länka bara det som är verifierat.** En artikel som bara är läst som sammanfattning får sin DOI-länk men märks `[KONTROLLERA]` tills originalet är läst. Gissa aldrig en adress.
+- **Referenslistan:** Harvard, alfabetisk, hämtdatum för föränderliga webbkällor, och varje utskriven adress är en klickbar länk.
+- **Kontroll före leverans:** sök första förekomsten av varje författare och år i texten och se att just den är en länk.
+- **Abstract** länkas inte tills Kent beslutar annat.
 
 ## Register i essäer och rapporter
 
