@@ -38,7 +38,20 @@ Jag hittar inte på analys, siffror, paragrafer, citat eller källor. Markeringa
 - `[SKRIV: …]` – här behövs Kents eget innehåll eller bedömning.
 - `[KONTROLLERA: …]` – påståendet är inte kontrollerat mot originalkällan. Det gäller allt som kommer ur Kents anteckningar eller ur sammanfattningar tills Kent eller jag har läst källan i helhet.
 
-Jag skriver aldrig att en källa är läst om jag bara sett en sammanfattning. Kan jag inte läsa en källa: jag säger det och frågar hur vi går vidare (global regel "Kan jag läsa det jag ska arbeta med?"). ### Källor och länkar
+Jag skriver aldrig att en källa är läst om jag bara sett en sammanfattning. Kan jag inte läsa en källa: jag säger det och frågar hur vi går vidare (global regel "Kan jag läsa det jag ska arbeta med?").
+
+### Lagar och förordningar: alltid namn och SFS-nummer
+
+Det finns många lagar och förordningar i ämnena, och Kent ska inte behöva minnas vilken som avses. Gäller i varje text och i chattsvar, även rubriker, tabeller och frågor till Kent.
+
+- **Skriv aldrig "lagen", "förordningen", "balken" eller "den" ensamt** när en författning avses. Skriv namnet och SFS-numret vid varje omnämnande, i varje stycke.
+- **Paragrafen står med lagnamn:** "16 kap. 4 § miljöbalken (1998:808)", aldrig bara "16 kap. 4 §" eller "7 §".
+- **Huvudlagen i ETE409-essän** är lag (2026:1113) om intäktsdelning från vindkraftsanläggningar. Första gången i en text skrivs hela namnet med länk och "(i rapporten kallad intäktsdelningslagen)". Därefter alltid **intäktsdelningslagen (2026:1113)**, även i tabeller. Kortnamnet är inte lagens officiella namn (valt av Kent 2026-11-04).
+- **Förordningen till den** är förordning (2026:1115) om intäktsdelning från vindkraftsanläggningar. Kortnamn: **intäktsdelningsförordningen (2026:1115)**.
+- **Andra författningar:** miljöbalken (1998:808), miljöprövningsförordningen (2013:251), miljöbedömningsförordningen (2017:966). Nya författningar får SFS-nummer hämtat ur originaltexten (till exempel `data.riksdagen.se/dokument/sfs-<år>-<nr>.text`), aldrig gissat.
+- **Kontroll före leverans:** sök efter `lagen`, `lagens`, `förordningen` och `§` utan lagnamn efter, och skriv om varje träff. Citat ur Kents egna ord ändras inte.
+
+### Källor och länkar
 
 Detaljerna står i `kent-referens-skill` (punkt 4, 6 och 11), men de här gäller varje text jag skriver åt Kent, även utkast och chattsvar:
 
