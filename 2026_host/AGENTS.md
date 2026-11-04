@@ -60,6 +60,10 @@ Detaljerna står i `kent-referens-skill` (punkt 4, 6 och 11), men de här gälle
 - **Länka till själva källan:** DOI för artiklar, annars den mest auktoritativa adressen. Kontrollera att adressen svarar innan den läggs in. Källor utan adress (mejl, erhållna handlingar) kan inte länkas, så skriv i texten vad det är.
 - **Länka bara det som är verifierat.** En artikel som bara är läst som sammanfattning får sin DOI-länk men märks `[KONTROLLERA]` tills originalet är läst. Gissa aldrig en adress.
 - **Referenslistan:** Harvard, alfabetisk, hämtdatum för föränderliga webbkällor, och varje utskriven adress är en klickbar länk.
+- **Varje post i referenslistan slutar med en kursiv förklaring i parentes** (`*(…)*`) på en till två meningar: varför källan finns med och vad den belägger i rapporten (regeln finns i `kent-referens-skill`, punkt 7). Den står direkt efter referensuppgifterna i samma stycke. Gäller alla poster, även lagar, propositioner, domar, erhållna handlingar och föreläsningsbilder. Förklaringen skriver bara vad källan används till och vad Kent har läst, aldrig mer än så.
+- **Föreläsningsbilder ur Lisam** (`Bilder/Kurs/`) är källor och förs in som egna poster (Linköpings universitet, år + a/b/c efter titelordning, bildens titel, fil) med länk till bilden på GitHub och förklaring. Första omnämnandet i texten är en länk till bilden. Kontrollera att bilden visar det som påstås innan den citeras.
+- **Bara källor Kent kan stå för.** En källa tas med om den stöder ett påstående i texten och Kent har läst åtminstone sammanfattningen. Redundanta källor (flera som styrker samma sak) och källor för sidospår föreslås för strykning, men Kent avgör.
+- **Kontroll före leverans:** räkna posterna i referenslistan och posterna som slutar på `)*`. Talen ska vara lika. Varje källa i listan ska finnas i texten, och varje källa i texten i listan.
 - **Kontroll före leverans:** sök första förekomsten av varje författare och år i texten och se att just den är en länk.
 - **Abstract** länkas inte tills Kent beslutar annat.
 
