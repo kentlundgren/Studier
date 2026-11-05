@@ -67,10 +67,9 @@ ekonomiska och administrativa styrmedel) och
 
 ## 4. Att stämma av
 
-- **Ordgräns:** bilden anger **max 3 000 ord** utan nedre gräns och undantar abstract,
-  referenser och AI-deklaration. Kursens README och `disposition-essa.md` anger
-  **2 000–3 000 ord** och undantar "tabeller, referenser och appendix". Stäm av nedre
-  gräns och vad som räknas bort mot Lisam.
+- **Ordgräns:** bild (iii) anger **max 3 000 ord** utan nedre gräns, exklusive abstract,
+  referenser och deklaration om generativ AI. Tabeller, bildtexter och källhänvisningar i
+  löpande text räknas.
 - **Referenser:** "minst 6 nya referenser" (bild ii) och "minst sex vetenskapliga
   artiklar" (bild iii) kan vara samma krav eller två olika. Bilden säger inte om
   kurslitteraturen räknas med. Fråga kursledningen eller kontrollera i Lisam.

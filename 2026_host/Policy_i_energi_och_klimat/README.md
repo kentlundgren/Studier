@@ -74,8 +74,8 @@ genomförda** (alla rätt enligt Kent, 2026-11-03).
 [Öppna testlistan](https://moodle.integration.it.liu.se/moodular/#/quiz?SPHostUrl=https:%2F%2Fliuonline.sharepoint.com%2Fsites%2FLisam_ETE409_2026HT_DY&HostTitle=Policys%20i%20energi-%20och%20klimatomst%C3%A4llningen%20(ETE409%202026HT%20DY)&CourseMomentCode=ETE409_2026HT_DY&CourseOfferingKey=ETE409_2026HT_DY&View=quiz&lang=sv).
 Skärmbild: [`Bilder/moodle_ETE409_testlista_2026-10-28.png`](Bilder/moodle_ETE409_testlista_2026-10-28.png).
 
-**UPG2 (samma källa):** individuell essä, **2 000–3 000 ord** (exklusive
-tabeller, referenser och appendix). Deadline **27 november kl. 20.00** till
+**UPG2 (samma källa):** individuell essä, **max 3 000 ord** (exklusive
+abstract, referenser och deklaration om generativ AI). Deadline **27 november kl. 20.00** till
 Lisam. AI får användas som stöd om det redovisas; hela texten får inte
 genereras av AI. Detaljer i
 [`essa-upg2/disposition-essa.md`](essa-upg2/disposition-essa.md). Kraven enligt

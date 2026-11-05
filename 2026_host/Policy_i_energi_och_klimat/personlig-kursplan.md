@@ -168,7 +168,7 @@ matchar UPG-numreringen.)*
 
 ### UPG2 – Individuell essä / policyrapport (1,5 hp, LM 1, delvis 2–3)
 
-- **Omfång:** 2 000–3 000 ord (exklusive tabeller, referenser, appendix).
+- **Omfång:** max 3 000 ord (exklusive abstract, referenser och deklaration om generativ AI).
 - **Deadline:** **27 november kl. 20.00** till Lisam.
 - **AI:** får användas som stöd om det redovisas; inte som hela texten.
 - **Uppgift:** analysera och föreslå ett policyinstrument – antingen för
@@ -209,7 +209,7 @@ LiU:s schema är känt.
 - [x] Kursrum lokaliserat: Lisam, [ETE409 2026HT DY](https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY) (2026-10-28)
 - [x] Kursupplägg (sidan 0) noterat; tre kartor (UPG-koder / quiz-sektorer / tematiska steg) flaggade
 - [x] Deadlines enligt Lisam: UPG3-quiz till 20 nov kl. 20; UPG2 essä 27 nov kl. 20
-- [x] Formkrav essä: 2 000–3 000 ord; AI-regler noterade (quiz: AI förbjudet)
+- [x] Formkrav essä: max 3 000 ord; AI-regler noterade (quiz: AI förbjudet)
 - [x] Quizytan hittad (Moodle/Moodular); Modul 1 gjord 2026-10-28
 - [ ] Bedömningskriterier för UPG2 utöver formkrav (om Lisam har en separat rubrik)
 - [ ] Exakt digitalt kursmaterial per modul → komplettera litteraturlistan

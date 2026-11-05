@@ -114,6 +114,8 @@ Inget från `utkast-privat/` får hamna i Studier-repot: inte text, citat, diff-
 
 Kent committar och pushar själv i Cursor. Jag föreslår commit-meddelanden men kör aldrig `git commit` eller `git push` utan hans uttryckliga begäran. Läsande git är alltid ok.
 
+**Rutin (Kent, 2026-11-05):** Kent använder Cursor för att göra, se och följa upp ändringar. Cursors egen AI föreslår commit-meddelandena, och Kent läser, godkänner och committar. Det är generativ AI-användning som ska redovisas i deklarationen och i AI-loggen. Jag skriver inga commit-meddelanden i Cursors ställe om inte Kent ber om det.
+
 ## Märkning
 
 Det som inte är kontrollerat mot källa märks med `[KONTROLLERA]`. Märkningen tas bara bort av Kent, eller av mig efter att jag läst originalkällan i helhet och sagt det.

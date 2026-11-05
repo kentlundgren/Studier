@@ -4,7 +4,7 @@
 **Uppgift:** UPG2 Individuell essä (policyrapport), 1,5 hp, U/G
 **Inte:** modul 2. Modul 1–3 är quiz-sektorerna i UPG3.
 **Deadline:** 27 november 2026 kl. 20.00, Lisam
-**Omfång:** 2 000–3 000 ord (exklusive tabeller, referenser och appendix)
+**Omfång:** max 3 000 ord (exklusive abstract, referenser och deklaration om generativ AI; tabeller och källhänvisningar i texten räknas)
 **Status:** öppen disposition – inget val av sektor eller policyinstrument är gjort, men ett starkt kandidatämne finns (avsnitt 4)
 **Arbetshypotes:** 2026-11-02, se *Underlag och tankar*: förnybar energi, landbaserad vindkraft, lagen (2026:1113). Avsnitt 3 är inte avgjort.
 
@@ -97,7 +97,7 @@ samma termin.
 
 Sammanfattning, inte avskrift av kursens slides:
 
-- Rapport 2 000–3 000 ord, exklusive tabeller, referenser och appendix.
+- Rapport max 3 000 ord, exklusive abstract, referenser och deklaration om generativ AI.
 - Inlämning till Lisam senast 27 november kl. 20.00.
 - AI får användas som stöd för sökning, sammanställning och språk, om
   verktyg och användning redovisas. Hela essän får inte genereras av AI.
