@@ -71,6 +71,8 @@ Detaljerna står i `kent-referens-skill` (punkt 4, 6 och 11), men de här gälle
 
 Saklig rapportton. Använd "rapporten" om texten och "jag" när Kent tar ställning. Ingen scenöppning och ingen bloggton. Ur Kents skrivstil behåller jag de dragen som passar genren: konkreta siffror, namn och datum i stället för vaga formuleringar, korta tydliga ställningstaganden, ärlighet om osäkerhet ("underlaget räcker inte för att…") och inga uppblåsta adjektiv. Rytm, tankestreck och trippelregel enligt `humanizer_ton`. Avslutande stycken ska inte vara fraser; de ska säga vad som återstår.
 
+**Kents egna tidigare texter (uppsatser, bloggen):** skriv "jag" när Kent beskriver vad han själv gjorde eller fann, och ge den formella referensen i parentes efteråt, till exempel "visade jag … ([Lundgren, 2017](länk))". Använd "(Lundgren, 2017)" utan "jag" när texten bara stöder ett påstående. Samma text ska inte växla mellan "jag" och "Lundgren (år)". Texten ska finnas i referenslistan med förklaring och märkas som egen text i förklaringen.
+
 Språk: svenska om inte kursdokumentet säger annat. Svensk versalbruk i rubriker.
 
 ## Lärloop: skillnaden mellan mitt utkast och Kents version
