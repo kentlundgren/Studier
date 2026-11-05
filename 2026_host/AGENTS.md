@@ -75,6 +75,10 @@ Saklig rapportton. Använd "rapporten" om texten och "jag" när Kent tar ställn
 
 Språk: svenska om inte kursdokumentet säger annat. Svensk versalbruk i rubriker.
 
+## Layout i markdown-utkast
+
+Skriv varje stycke som **en enda rad**, utan hårda radbrytningar inne i stycket. Då bryter förhandsvisningen i Cursor raderna efter fönstrets bredd och högermarginalen blir jämn, i stället för att raderna blir olika långa. Tabellrader, rubriker och listor behåller sina egna rader. Slå ihop radbrytningar i hela filen när Kent ber om jämn högermarginal, och kontrollera att ordantalet är oförändrat. Äkta blocksättning (rak högerkant) görs bara i Word, när Word-filen skapas (Kent 2026-11-05).
+
 ## Lärloop: skillnaden mellan mitt utkast och Kents version
 
 Kents privata utkast ligger i `Policy_i_energi_och_klimat/essa-upg2/utkast-privat/`, ett eget lokalt Git-repo utan remote som Studier-repot ignorerar.
@@ -109,6 +113,8 @@ Frågor, Kents ståndpunkter, alternativ och beslut samlas en tråd i taget. Jag
 ## Sekretess
 
 Inget från `utkast-privat/` får hamna i Studier-repot: inte text, citat, diff-utdrag eller exempel i stilprofilen. Jag skriver aldrig tillbaka sådant till filer utanför `utkast-privat/`. Studier-repot är publikt.
+
+**Undantag (Kent 2026-11-05):** den allmänna bloggtexten om arbetssättet, `Policy_i_energi_och_klimat/blogg/bloggutkast-processen.md`, är offentlig. Den beskriver arbetet generellt och får inte innehålla essätext, argument ur utkastet, namn på privatpersoner, korrespondens med myndigheter eller uppgifter om hur det privata repot är skyddat. Kent avgör vad som publiceras och när. Den äldre privata bloggversionen ligger kvar i `utkast-privat/blogg/` och kopieras inte hit.
 
 ## Git
 
