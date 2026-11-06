@@ -79,6 +79,14 @@ Språk: svenska om inte kursdokumentet säger annat. Svensk versalbruk i rubrike
 
 Skriv varje stycke som **en enda rad**, utan hårda radbrytningar inne i stycket. Då bryter förhandsvisningen i Cursor raderna efter fönstrets bredd och högermarginalen blir jämn, i stället för att raderna blir olika långa. Tabellrader, rubriker och listor behåller sina egna rader. Slå ihop radbrytningar i hela filen när Kent ber om jämn högermarginal, och kontrollera att ordantalet är oförändrat. Äkta blocksättning (rak högerkant) görs bara i Word, när Word-filen skapas (Kent 2026-11-05).
 
+## Word-filer från markdown
+
+När jag gör en Word-fil av en `.md`-fil (Kent 2026-11-06):
+- **Sidfot:** det datum som gäller (`ÅÅÅÅ-MM-DD`, dagens datum om inget annat sägs) längst ned till vänster och sidnumret som `sid X (Y)` längst ned till höger, där Y är det totala antalet sidor. En rapport på sju sidor visar `sid 1 (7)` på första och `sid 7 (7)` på sista sidan. Använd fälten PAGE och NUMPAGES så att Word räknar själv.
+- **Sidformat:** A4, marginaler 2,5 cm, Calibri 11 pt, rubriker i svart.
+- **Filnamn:** datumet i namnet följer dagens datum (`ÅÅÅÅMMDD_namn.docx`), och gamla versioner läggs i `old/` med sitt eget datum och `_old` sist.
+- Interna versions- och statusrader i `.md`-filen tas inte med i Word-filen.
+
 ## Lärloop: skillnaden mellan mitt utkast och Kents version
 
 Kents privata utkast ligger i `Policy_i_energi_och_klimat/essa-upg2/utkast-privat/`, ett eget lokalt Git-repo utan remote som Studier-repot ignorerar.
