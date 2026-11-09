@@ -18,7 +18,9 @@
 | # | Källa | Typ | Omfång | Språk |
 |---|-------|-----|--------|-------|
 | 1 | Europaparlamentet och rådet (2024), *Artificial Intelligence Act* (förordning (EU) 2024/1689) | EU-förordning | Omfattande (rättsakt) | Finns på svenska och engelska |
-| 2 | Floridi, L. (2023), *The Ethics of Artificial Intelligence* | Akademisk monografi | ca 272 s. | Engelska |
+| 2 | Europaparlamentet och rådet (2026) *Förordning (EU) 2026/1744 om förenkling av genomförandet av harmoniserade regler för artificiell intelligens (Digital Omnibus on AI)*. EUT L, 2026/1744, 24.7.2026. Tillgänglig på: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R1744 (Hämtad 2026-11-09). *(Ändringsförordning som justerar genomförandet och tidsfristerna i AI Act; behövs för att läsa 2024 års ursprungstext i rätt sammanhang.)*
+
+Floridi, L. (2023), *The Ethics of Artificial Intelligence* | Akademisk monografi | ca 272 s. | Engelska |
 | 3 | Modlitba, P. (2025), *Vad fan ska vi med AI till?* | Populär facklitteratur | 170 s. | Svenska |
 | 4 | AI-kommissionen (2025), *AI-kommissionens färdplan för Sverige* (SOU 2025:12) | Statlig utredning | Omfattande | Svenska |
 
@@ -67,9 +69,12 @@ rules on artificial intelligence and amending Regulations (EC) No 300/2008,
 (Artificial Intelligence Act)".
 
 **Länkar och noteringar**
-- Officiell text (språkneutral ELI-länk, med språkväljare för svenska och engelska): <http://data.europa.eu/eli/reg/2024/1689/oj>
-- Engelsk version i EUT, verifierad 2026-09-04: <https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng>
-- EUT-referens: OJ L, 2024/1689, 12.7.2024. Konsoliderad version finns (rättsakten har ändrats efter publicering) – använd den konsoliderade när du vill ha gällande lydelse.
+- Svensk fulltext i EUT (HTML): <https://eur-lex.europa.eu/legal-content/SV/TXT/HTML/?uri=OJ:L_202401689>
+- Svensk PDF-kopia i kursmappen: <https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/litteratur/AI_act_2024_SV_TXT.pdf>
+- Officiell språkneutral ELI-länk, med språkväljare för svenska och engelska: <http://data.europa.eu/eli/reg/2024/1689/oj>
+- Engelsk version i EUT: <https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng>
+- EUT-referens: OJ L, 2024/1689, 12.7.2024. AI Act har senare ändrats genom förordning (EU) 2026/1744 (Digital Omnibus on AI). PDF-filen här är 2024 års ursprungstext; använd konsoliderad EUR-Lex-text för aktuell lydelse.
+- Ändringsförordning (EU) 2026/1744: <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R1744> (Hämtad 2026-11-09).
 
 ---
 
@@ -198,7 +203,7 @@ Harvard-referenser och länkar.
 
 AI-kommissionen (2025) *AI-kommissionens färdplan för Sverige*. SOU 2025:12. Stockholm: Finansdepartementet. Tillgänglig på: https://regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/02/sou-202512/ (Hämtad 2026-09-04). *(Kurslitteratur i AI101A; ger en aktuell nationell lägesbild av det svenska AI-ekosystemet och belägger resonemang om ledarskapets och politikens roll i AI-driven transformation.)*
 
-Europaparlamentet och rådet (2024) *Förordning (EU) 2024/1689 av den 13 juni 2024 om harmoniserade regler för artificiell intelligens (förordningen om artificiell intelligens)*. EUT L, 2024/1689, 12.7.2024. Tillgänglig på: http://data.europa.eu/eli/reg/2024/1689/oj (Hämtad 2026-09-04). Engelsk lydelse: https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng *(Kurslitteratur i AI101A; den primära rättskällan bakom kursens juridiska lärandemål om EU:s AI Act. HKR:s lista anger utfärdaren som "Europeiska kommissionen", men rättsakten är antagen av Europaparlamentet och rådet.)*
+Europaparlamentet och rådet (2024) *Förordning (EU) 2024/1689 av den 13 juni 2024 om harmoniserade regler för artificiell intelligens (förordningen om artificiell intelligens)*. EUT L, 2024/1689, 12.7.2024. Svensk fulltext: https://eur-lex.europa.eu/legal-content/SV/TXT/HTML/?uri=OJ:L_202401689. Svensk PDF-kopia i kursmappen: https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/litteratur/AI_act_2024_SV_TXT.pdf. Språkneutral ELI-länk: http://data.europa.eu/eli/reg/2024/1689/oj (Hämtad 2026-11-09). *(Kurslitteratur i AI101A; den primära rättskällan bakom kursens juridiska lärandemål om EU:s AI Act. HKR:s lista anger utfärdaren som "Europeiska kommissionen", men rättsakten är antagen av Europaparlamentet och rådet. PDF-kopian är 2024 års ursprungstext; se även ändringsförordning (EU) 2026/1744 för senare ändringar.)*
 
 Floridi, L. (2023) *The Ethics of Artificial Intelligence: Principles, Challenges, and Opportunities*. 1 uppl. Oxford: Oxford University Press. DOI: https://doi.org/10.1093/oso/9780198883098.001.0001. Förlagsinformation: https://global.oup.com/academic/product/the-ethics-of-artificial-intelligence-9780198883098 *(Kurslitteratur i AI101A; grundverket för kursens etiska lärandemål, med begreppsapparaten för att kritiskt värdera AI ur ett etiskt och mänskligt perspektiv. Sidantalet anges som 272 s. av förlag och kursplan men som 243 s. i en recension i Business Ethics Quarterly.)*
 
