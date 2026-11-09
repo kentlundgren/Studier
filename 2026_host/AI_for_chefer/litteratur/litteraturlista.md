@@ -15,20 +15,24 @@
 
 ## Översikt
 
-| # | Källa | Typ | Omfång | Språk |
-|---|-------|-----|--------|-------|
-| 1 | Europaparlamentet och rådet (2024), *Artificial Intelligence Act* (förordning (EU) 2024/1689) | EU-förordning | Omfattande (rättsakt) | Finns på svenska och engelska |
-| 2 | Europaparlamentet och rådet (2026) *Förordning (EU) 2026/1744 om förenkling av genomförandet av harmoniserade regler för artificiell intelligens (Digital Omnibus on AI)*. EUT L, 2026/1744, 24.7.2026. Tillgänglig på: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R1744 (Hämtad 2026-11-09). *(Ändringsförordning som justerar genomförandet och tidsfristerna i AI Act; behövs för att läsa 2024 års ursprungstext i rätt sammanhang.)*
+| # | Källa | Typ | Omfång | Språk | Läs-spår |
+|---|-------|-----|--------|-------|----------|
+| 1 | Europaparlamentet och rådet (2024), *Artificial Intelligence Act* (förordning (EU) 2024/1689) | EU-förordning | Omfattande (rättsakt) | Finns på svenska och engelska | [📖 AI Act-analys →](ai_act_2024_analys.md#ref-ai-act-2024) |
+| 1a | Europaparlamentet och rådet (2026), ändringsförordning (EU) 2026/1744, *Digital Omnibus on AI* | Ändringsförordning | Ändringar av AI Act | Engelska / språkval i EUR-Lex | [📖 Fem ändringar 2026 →](ai_act_2024_analys.md#ai-act-2026-updates) |
+| 2 | Floridi, L. (2023), *The Ethics of Artificial Intelligence* | Akademisk monografi | ca 272 s. | Engelska | [📖 Floridi i listan ↓](#ref-floridi-2023) · [Medvetandeanalys →](floridi_ai_medvetande.md#ref-floridi-2023) |
+| 3 | Modlitba, P. (2025), *Vad fan ska vi med AI till?* | Populär facklitteratur | 170 s. | Svenska | [📖 Fördjupning ↓](#ref-modlitba-2025) |
+| 4 | AI-kommissionen (2025), *AI-kommissionens färdplan för Sverige* (SOU 2025:12) | Statlig utredning | Omfattande | Svenska | [📖 Fördjupning ↓](#ref-sou-2025-12) |
 
-Floridi, L. (2023), *The Ethics of Artificial Intelligence* | Akademisk monografi | ca 272 s. | Engelska |
-| 3 | Modlitba, P. (2025), *Vad fan ska vi med AI till?* | Populär facklitteratur | 170 s. | Svenska |
-| 4 | AI-kommissionen (2025), *AI-kommissionens färdplan för Sverige* (SOU 2025:12) | Statlig utredning | Omfattande | Svenska |
+
+**Så fungerar litteraturens läs-spår:** `📖 Läs vidare →` går från samlingslistan till en analys eller källans avsnitt; `↩ Till litteraturkartan` i varje analys leder tillbaka hit. Använd samma stabila käll-ID i båda riktningarna för all kurslitteratur, även nytillkomna titlar. Saknar en källa en egen analysfil länkar pilen till dess avsnitt här.
 
 I kursplanen anges källa 1 som "Europeiska kommissionen (2024)". Den auktoritativa
 utfärdaren av rättsakten är dock **Europaparlamentet och rådet** – kommissionen
 lade fram förslaget. Referensen nedan följer den officiella uppgiften i EUT.
 
 ---
+
+<a id="ref-ai-act-2024"></a>
 
 ## 1. EU:s AI-förordning (AI Act)
 
@@ -76,7 +80,11 @@ rules on artificial intelligence and amending Regulations (EC) No 300/2008,
 - EUT-referens: OJ L, 2024/1689, 12.7.2024. AI Act har senare ändrats genom förordning (EU) 2026/1744 (Digital Omnibus on AI). PDF-filen här är 2024 års ursprungstext; använd konsoliderad EUR-Lex-text för aktuell lydelse.
 - Ändringsförordning (EU) 2026/1744: <https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R1744> (Hämtad 2026-11-09).
 
+↩ [Till litteraturkartan](litteraturlista.md#samlad-litteratur)
+
 ---
+
+<a id="ref-floridi-2023"></a>
 
 ## 2. Floridi – *The Ethics of Artificial Intelligence*
 
@@ -110,6 +118,8 @@ motiveras, granskas eller stoppas. Den är skriven för en akademisk läsekrets
 och är mer principiell än praktisk; den kompletterar snarare än ersätter
 konkreta metodböcker.
 
+Floridis offentliga profil och hans idéer kan även orienteras via [svenska Wikipediaartikeln om Luciano Floridi](https://sv.wikipedia.org/wiki/Luciano_Floridi). Där beskrivs han bland annat som en av grundarna av informationsfilosofi och informationetik. Artikeln är sekundär, har en äldre uppdatering (2020) och märkning om förtydligandebehov; använd den som introduktion, inte som auktoritativ källa för aktuella uppgifter. Webbplatsen [Luciano Floridi Agent](https://www.lucianofloridi.com/) erbjuder en AI-agent som svarar med utgångspunkt i Floridis verk. Agenten är inte Floridi själv och webbplatsen varnar för att svaren kan innehålla fel. En utvecklad analys av agentens svar om AI-medvetande finns i [den separata medvetandeanalysen](floridi_ai_medvetande.md#ref-floridi-2023).
+
 **Länkar och noteringar**
 - DOI (leder till förlagets boksida på Oxford Academic): <https://doi.org/10.1093/oso/9780198883098.001.0001>
 - Förlagsinformation: <https://global.oup.com/academic/product/the-ethics-of-artificial-intelligence-9780198883098>
@@ -117,7 +127,11 @@ konkreta metodböcker.
 - Sidantal: förlaget och kursplanen anger 272 s.; en recension i *Business Ethics Quarterly* anger 243 s. (sannolikt exklusive för- och eftertext). Kontrollera i den upplaga du får tag på.
 - Tillgång: kontrollera bibliotekets e-boks- och lånebestånd. Åtkomst till fulltext på Oxford Academic kräver normalt institutionell inloggning.
 
+↩ [Till litteraturkartan](litteraturlista.md#samlad-litteratur)
+
 ---
+
+<a id="ref-modlitba-2025"></a>
 
 ## 3. Modlitba – *Vad fan ska vi med AI till?*
 
@@ -152,7 +166,11 @@ artiklar och med Floridi.
 - ISBN: 9789127470415 (häftad), 9789127470422 (e-bok).
 - Utgivningsår: 2025.
 
+↩ [Till litteraturkartan](litteraturlista.md#samlad-litteratur)
+
 ---
+
+<a id="ref-sou-2025-12"></a>
 
 ## 4. AI-kommissionens färdplan för Sverige (SOU 2025:12)
 
@@ -188,6 +206,8 @@ för med sig.
 - Riksdagens dokumentsida: <https://www.riksdagen.se/sv/dokument-och-lagar/dokument/statens-offentliga-utredningar/ai-kommissionens-fardplan-for-sverige_hdb312/>
 - Rapporten skickades på remiss under 2025; remissyttranden kan vara användliga som kritiska motröster.
 
+↩ [Till litteraturkartan](litteraturlista.md#samlad-litteratur)
+
 ---
 
 ## Kompletterande material
@@ -199,11 +219,15 @@ Harvard-referenser och länkar.
 
 ---
 
+<a id="samlad-litteratur"></a>
+
 ## Referensförteckning
 
 AI-kommissionen (2025) *AI-kommissionens färdplan för Sverige*. SOU 2025:12. Stockholm: Finansdepartementet. Tillgänglig på: https://regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/02/sou-202512/ (Hämtad 2026-09-04). *(Kurslitteratur i AI101A; ger en aktuell nationell lägesbild av det svenska AI-ekosystemet och belägger resonemang om ledarskapets och politikens roll i AI-driven transformation.)*
 
 Europaparlamentet och rådet (2024) *Förordning (EU) 2024/1689 av den 13 juni 2024 om harmoniserade regler för artificiell intelligens (förordningen om artificiell intelligens)*. EUT L, 2024/1689, 12.7.2024. Svensk fulltext: https://eur-lex.europa.eu/legal-content/SV/TXT/HTML/?uri=OJ:L_202401689. Svensk PDF-kopia i kursmappen: https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/litteratur/AI_act_2024_SV_TXT.pdf. Språkneutral ELI-länk: http://data.europa.eu/eli/reg/2024/1689/oj (Hämtad 2026-11-09). *(Kurslitteratur i AI101A; den primära rättskällan bakom kursens juridiska lärandemål om EU:s AI Act. HKR:s lista anger utfärdaren som "Europeiska kommissionen", men rättsakten är antagen av Europaparlamentet och rådet. PDF-kopian är 2024 års ursprungstext; se även ändringsförordning (EU) 2026/1744 för senare ändringar.)*
+
+Europaparlamentet och rådet (2026) *Förordning (EU) 2026/1744 om förenkling av genomförandet av harmoniserade regler för artificiell intelligens (Digital Omnibus on AI)*. EUT L, 2026/1744, 24.7.2026. Tillgänglig på: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R1744 (Hämtad 2026-11-09). *(Ändrar AI Act 2024 bland annat genom justerade tidsfrister, förbud mot vissa skadliga bildgenereringar, stöd och förenklingar för företag samt förändringar i tillsyn och AI-kunnighet; se analysen för avgränsningar och ikraftträdandedatum.)*
 
 Floridi, L. (2023) *The Ethics of Artificial Intelligence: Principles, Challenges, and Opportunities*. 1 uppl. Oxford: Oxford University Press. DOI: https://doi.org/10.1093/oso/9780198883098.001.0001. Förlagsinformation: https://global.oup.com/academic/product/the-ethics-of-artificial-intelligence-9780198883098 *(Kurslitteratur i AI101A; grundverket för kursens etiska lärandemål, med begreppsapparaten för att kritiskt värdera AI ur ett etiskt och mänskligt perspektiv. Sidantalet anges som 272 s. av förlag och kursplan men som 243 s. i en recension i Business Ethics Quarterly.)*
 
@@ -211,7 +235,12 @@ Högskolan Kristianstad (2025) *Kursplan: AI för chefer och ledare, AI101A, 3 h
 
 Högskolan Kristianstad (2026) *Litteraturlista: AI för chefer och ledare, AI101A*. Kristianstad: Högskolan Kristianstad. Tillgänglig på: https://www.hkr.se/kurs/ai101a/litteraturlista/ (Hämtad 2026-09-04). *(Den publicerade litteraturlista som den här filen bygger på; kan enligt HKR revideras fram till åtta veckor före kursstart.)*
 
+Luciano Floridi Agent (u.å.) *Luciano Floridi Agent*. Tillgänglig på: https://www.lucianofloridi.com/ (Hämtad 2026-11-09). *(AI-agent som genererar svar med utgångspunkt i Floridis arbeten; svaren är sekundärt AI-genererade och behöver kontrolleras mot primärkällor.)*
+
+
 Modlitba, P. (2025) *Vad fan ska vi med AI till? Affärsutveckling & innovation med AI*. 1 uppl. Stockholm: Natur & Kultur. ISBN 9789127470415. Förlagsinformation: https://www.nok.se/titlar/laromedel-b2/vad-fan-ska-vi-med-ai-till/4fca71ea-b8d7-4940-871a-332c9dc68acf (Hämtad 2026-09-04). *(Kurslitteratur i AI101A; den praktiskt inriktade titeln som stödjer kursens projektmoment om att ta fram en AI-handlingsplan för den egna verksamheten.)*
+
+Wikipedia-bidragsgivare (u.å.) *Luciano Floridi*. Svenska Wikipedia. Tillgänglig på: https://sv.wikipedia.org/wiki/Luciano_Floridi (Hämtad 2026-11-09). *(Översiktlig biografisk orientering om Floridi och informationsfilosofi; artikeln är sekundär, senast uppdaterad 2020 och flaggad för förtydligande.)*
 
 ---
 
