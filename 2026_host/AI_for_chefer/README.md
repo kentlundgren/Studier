@@ -35,21 +35,21 @@ Godkänt krävs VG på båda.
 
 ## Innehåll i mappen
 
-```
-AI_for_chefer/
-├── README.md                         # denna fil
-├── personlig-kursplan.md             # vad som ska läsas till vilket delmoment
-├── Bilder/
-│   └── antagen_till_kursen_...jpg
-├── kursplan/
-│   └── AI101A-kursplan.pdf
-├── litteratur/
-│   └── litteraturlista.md            # 4 titlar: referenser, länkar, sammanfattningar
-├── delprov1-vindkraftskalkyler/
-│   └── analys-tillampningsomrade.md  # utkast: AI-stödda ekonomiska kalkylverktyg
-└── delprov2-handlingsplan/
-    └── handlingsplan-vindkraftskalkyler.md  # utkast: handlingsplan för Skånes vindkraftsakademi
-```
+- [Personlig kursplan](personlig-kursplan.md) – läsning kopplad till kursens delmoment.
+- `Bilder/` – kursrelaterade bilder.
+- `kursplan/` – kursplan och kursdokument.
+- [`litteratur/`](litteratur/) – litteratur, källor och analyser:
+  - [Litteraturkarta](litteratur/litteraturlista.md) – Harvardreferenser, länkar, relevansnoteringar och sammanfattningar.
+  - [AI Act: 2024 års regler och ändringarna 2026](litteratur/ai_act_2024_analys.md) – bland annat Digital Omnibus, konsensusområden, omstridda vägval och nya frågor.
+  - [Floridi och frågan om AI-medvetande](litteratur/floridi_ai_medvetande.md) – vidareutveckling och källkritisk granskning av svaret från Floridi Agent.
+  - [Bifogat svar från Floridi Agent](litteratur/Hur_vet_man_om_AI_generativ_A_response.md).
+  - PDF-filer med AI Act på svenska och kompletterande kurslitteratur.
+- `delprov1-vindkraftskalkyler/` – arbete med analys av ett AI-tillämpningsområde.
+- `delprov2-handlingsplan/` – arbete med handlingsplan för Skånes vindkraftsakademi.
+
+### Litteraturens läs-spår
+
+I litteraturkartan går **📖 Läs vidare →** från en källa till dess analys eller fördjupning. Varje analys har **↩ Till litteraturkartan** tillbaka till den samlade förteckningen. Samma mönster används för all kurslitteratur; om en källa ännu saknar en egen analys leder länken till dess avsnitt i litteraturkartan.
 
 ## Vald inriktning på examinationen
 
@@ -69,12 +69,14 @@ Både delproven byggs kring **Kents vindkraftskalkyler** som genomgående case:
 
 ## Länkar
 
-- Kurssida: <https://www.hkr.se/kurs/ai101a/>
+- Kurssida (HKR): <https://www.hkr.se/kai101a/>
 - Välkomstbrev: <https://www.hkr.se/kurs/ai101a/valkomstbrev/>
 - Kursplan: <https://www.hkr.se/kurs/ai101a/kursplan/>
 - Litteraturlista (HKR): <https://www.hkr.se/kurs/ai101a/litteraturlista/>
 - Ny student: <https://www.hkr.se/nystudent/>
+- Kursens samlade litteratur och analysfiler: [litteraturkartan](litteratur/litteraturlista.md)
 
+> AI Act-PDF:en i kursmappen är 2024 års ursprungstext. För ändringar som beslutats 2026, se analysen och den länkade ändringsförordningen; PDF-kopian ensam återger inte den senare lydelsen.
 ## Repo
 
 - GitHub: <https://github.com/kentlundgren/Studier/tree/main/2026_host/AI_for_chefer>
