@@ -1,10 +1,34 @@
+<a id="ref-ai-act-2024"></a>
 # EU:s AI Act – gemensamma principer, omstridda vägval och frågor som växt sedan 2024
+
+↩ [Till kursens samlade litteraturlista](litteraturlista.md#samlad-litteratur)
 
 **Underlag:** AI Act (förordning (EU) 2024/1689), inklusive den svenska EUR-Lex-texten och kursens PDF-kopia.  
 **Aktualitetsdatum:** 9 november 2026  
 **Avgränsning:** Detta är ett diskussionsunderlag, inte juridisk rådgivning. Punkterna om konsensus gäller bred samsyn om mål och värden, inte enighet om exakt lagtext eller verktyg.
 
 > **Viktig uppdatering:** PDF-filen i kursmappen är 2024 års ursprungstext. Den är inte ensam en fullständig bild av gällande rätt. Förordningen har ändrats genom förordning (EU) 2026/1744, AI Omnibus, som trädde i kraft 27 juli 2026. Bland annat flyttades tillämpningen av flera högriskregler till 2 december 2027 och 2 augusti 2028, och ett förbud mot så kallade nudification-system lades till med tillämpning från 2 december 2026. Jämför därför alltid PDF-kopian med den konsoliderade EUR-Lex-texten och ändringsförordningen ([Europaparlamentet och rådet (2026)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R1744); [Europeiska kommissionen (2026a)](https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force)).
+
+## AI Act 2024 och ändringarna 2026
+
+### Vad betyder ”omnibus”?
+
+*Omnibus* betyder ungefär ”allt samlat i ett paket”. I EU-lagstiftning används ordet om en ändringsakt som samlar flera justeringar i ett eller flera befintliga regelverk. Det är alltså inte namnet på en ny, helt fristående AI Act. Förordning (EU) 2026/1744 ändrar AI Act från 2024 och gör också ändringar i två andra EU-förordningar. Själva ändringsakten trädde i kraft den 27 juli 2026 ([Europaparlamentet och rådet (2026)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R1744); [Europeiska kommissionen (2026a)](https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force)).
+
+<a id="ai-act-2026-updates"></a>
+### Fem centrala ändringar som antogs 2026
+
+Punkterna nedan är ändringar som antogs genom AI Omnibus, inte bara förslag eller vägledning. De sammanfattar de mest praktiskt betydelsefulla förändringarna; ändringsakten innehåller även andra tekniska och rättsliga justeringar.
+
+1. **Nya tidsfrister för högriskregler.** Kraven för högriskanvändningar i bilaga III börjar gälla den 2 december 2027. För AI som ingår i produkter som maskiner, leksaker och hissar (bilaga I) börjar de gälla den 2 augusti 2028. Syftet är att ge mer tid för standarder och nationell tillsyn att komma på plats.
+2. **Ett nytt förbud mot så kallade nudification-system.** AI-system som skapar icke-samtyckta sexuellt explicita/intima bilder eller material med sexuella övergrepp mot barn förbjuds. Den nya bestämmelsen börjar tillämpas den 2 december 2026; den är därför beslutad men ännu inte tillämplig per dokumentets aktualitetsdatum.
+3. **Förenkling och stöd för växande företag.** Vissa lättnader som tidigare gällde små och medelstora företag utvidgas till små mid-cap-företag. Ändringen breddar också tillgången till regulatoriska sandlådor och skapar en EU-sandlåda för tester under tillsyn. Registreringen av vissa system som annars är undantagna från högriskklassning förenklas.
+4. **Ändrat krav på AI-kunnighet.** 2024 års text sade att leverantörer och användare skulle *säkerställa* tillräcklig AI-kunnighet hos berörd personal. Efter ändringen ska de vidta åtgärder för att *stödja utvecklingen* av sådan kunnighet. Kommissionen och medlemsstaterna får samtidigt en tydligare främjande roll. Det ändrar den juridiska formuleringen, men gör inte AI-kunnighet oviktig i praktiken.
+5. **Förtydligad tillsyn och möjlighet att upptäcka bias.** AI-kontorets tillsyn utvidgas för vissa AI-system som bygger på generella AI-modeller eller ingår i mycket stora onlineplattformar och sökmotorer. Ändringen tillåter också, under villkor, behandling av särskilda kategorier av personuppgifter för att upptäcka och korrigera bias. Avsikten är att kunna kontrollera och minska diskriminering med integritetsskydd.
+
+Kommissionens översikt beskriver dessa som en kombination av tidsförlängning, förenkling och förtydliganden samtidigt som grundläggande skydd ska finnas kvar ([Europeiska kommissionen (2026a)](https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force)). För kursbruk: skilj alltid mellan **antagen ändring**, **datum då den börjar tillämpas** och **kommissionens vägledning eller ännu inte antagna förslag**.
+
+**Korslänk:** [↩ Till AI Act-posten och den samlade litteraturlistan](litteraturlista.md#ref-ai-act-2024).
 
 ## 1. Fem områden med bred samsyn
 
