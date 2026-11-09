@@ -4,6 +4,8 @@ Kursmaterial, planering och examinationsarbete för kursen **AI101A "AI för
 chefer och ledare"**, 3 hp, avancerad nivå, Högskolan Kristianstad.
 Höstterminen 2026.
 
+🎓 **[Öppna kursplattformen i Canvas – AI101A HT26](https://hkr.instructure.com/courses/9408)**
+
 ## Kursfakta
 
 | | |
