@@ -19,7 +19,7 @@
 |---|-------|-----|--------|-------|----------|
 | 1 | Europaparlamentet och rådet (2024), *Artificial Intelligence Act* (förordning (EU) 2024/1689) | EU-förordning | Omfattande (rättsakt) | Finns på svenska och engelska | [📖 AI Act-analys →](ai_act_2024_analys.md#ref-ai-act-2024) |
 | 1a | Europaparlamentet och rådet (2026), ändringsförordning (EU) 2026/1744, *Digital Omnibus on AI* | Ändringsförordning | Ändringar av AI Act | Engelska / språkval i EUR-Lex | [📖 Fem ändringar 2026 →](ai_act_2024_analys.md#ai-act-2026-updates) |
-| 2 | Floridi, L. (2023), *The Ethics of Artificial Intelligence* | Akademisk monografi | ca 272 s. | Engelska | [📖 Floridi i listan ↓](#ref-floridi-2023) · [Medvetandeanalys →](floridi_ai_medvetande.md#ref-floridi-2023) |
+| 2 | Floridi, L. (2023), *The Ethics of Artificial Intelligence* | Akademisk monografi | ca 272 s. | Engelska | [📖 Floridi i listan ↓](#ref-floridi-2023) · [Medvetandeanalys →](More/floridi_ai_medvetande.md#ref-floridi-2023) |
 | 3 | Modlitba, P. (2025), *Vad fan ska vi med AI till?* | Populär facklitteratur | 170 s. | Svenska | [📖 Fördjupning ↓](#ref-modlitba-2025) |
 | 4 | AI-kommissionen (2025), *AI-kommissionens färdplan för Sverige* (SOU 2025:12) | Statlig utredning | Omfattande | Svenska | [📖 Fördjupning ↓](#ref-sou-2025-12) |
 
@@ -118,7 +118,7 @@ motiveras, granskas eller stoppas. Den är skriven för en akademisk läsekrets
 och är mer principiell än praktisk; den kompletterar snarare än ersätter
 konkreta metodböcker.
 
-Floridis offentliga profil och hans idéer kan även orienteras via [svenska Wikipediaartikeln om Luciano Floridi](https://sv.wikipedia.org/wiki/Luciano_Floridi). Där beskrivs han bland annat som en av grundarna av informationsfilosofi och informationetik. Artikeln är sekundär, har en äldre uppdatering (2020) och märkning om förtydligandebehov; använd den som introduktion, inte som auktoritativ källa för aktuella uppgifter. Webbplatsen [Luciano Floridi Agent](https://www.lucianofloridi.com/) erbjuder en AI-agent som svarar med utgångspunkt i Floridis verk. Agenten är inte Floridi själv och webbplatsen varnar för att svaren kan innehålla fel. En utvecklad analys av agentens svar om AI-medvetande finns i [den separata medvetandeanalysen](floridi_ai_medvetande.md#ref-floridi-2023).
+Floridis offentliga profil och hans idéer kan även orienteras via [svenska Wikipediaartikeln om Luciano Floridi](https://sv.wikipedia.org/wiki/Luciano_Floridi). Där beskrivs han bland annat som en av grundarna av informationsfilosofi och informationetik. Artikeln är sekundär, har en äldre uppdatering (2020) och märkning om förtydligandebehov; använd den som introduktion, inte som auktoritativ källa för aktuella uppgifter. Webbplatsen [Luciano Floridi Agent](https://www.lucianofloridi.com/) erbjuder en AI-agent som svarar med utgångspunkt i Floridis verk. Agenten är inte Floridi själv och webbplatsen varnar för att svaren kan innehålla fel. En utvecklad analys av agentens svar om AI-medvetande finns i [den separata medvetandeanalysen](More/floridi_ai_medvetande.md#ref-floridi-2023). Det ursprungliga [svaret från Floridi Agent](More/Hur_vet_man_om_AI_generativ_A_response.md) finns också sparat här.
 
 **Länkar och noteringar**
 - DOI (leder till förlagets boksida på Oxford Academic): <https://doi.org/10.1093/oso/9780198883098.001.0001>

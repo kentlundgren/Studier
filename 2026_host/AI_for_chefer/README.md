@@ -41,8 +41,8 @@ Godkänt krävs VG på båda.
 - [`litteratur/`](litteratur/) – litteratur, källor och analyser:
   - [Litteraturkarta](litteratur/litteraturlista.md) – Harvardreferenser, länkar, relevansnoteringar och sammanfattningar.
   - [AI Act: 2024 års regler och ändringarna 2026](litteratur/ai_act_2024_analys.md) – bland annat Digital Omnibus, konsensusområden, omstridda vägval och nya frågor.
-  - [Floridi och frågan om AI-medvetande](litteratur/floridi_ai_medvetande.md) – vidareutveckling och källkritisk granskning av svaret från Floridi Agent.
-  - [Bifogat svar från Floridi Agent](litteratur/Hur_vet_man_om_AI_generativ_A_response.md).
+  - [Floridi och frågan om AI-medvetande](litteratur/More/floridi_ai_medvetande.md) – vidareutveckling och källkritisk granskning av svaret från Floridi Agent.
+  - [Bifogat svar från Floridi Agent](litteratur/More/Hur_vet_man_om_AI_generativ_A_response.md).
   - PDF-filer med AI Act på svenska och kompletterande kurslitteratur.
 - `delprov1-vindkraftskalkyler/` – arbete med analys av ett AI-tillämpningsområde.
 - `delprov2-handlingsplan/` – arbete med handlingsplan för Skånes vindkraftsakademi.
