@@ -38,6 +38,7 @@ Godkänt krävs VG på båda.
 - [Personlig kursplan](personlig-kursplan.md) – läsning kopplad till kursens delmoment.
 - `Bilder/` – kursrelaterade bilder.
 - `kursplan/` – kursplan och kursdokument.
+- `kursplattform/` – skärmbild från kursens Canvas-plattform: [AI101A HT26 i Canvas](kursplattform/kursplattform.jpg).
 - [`litteratur/`](litteratur/) – litteratur, källor och analyser:
   - [Litteraturkarta](litteratur/litteraturlista.md) – Harvardreferenser, länkar, relevansnoteringar och sammanfattningar.
   - [AI Act: 2024 års regler och ändringarna 2026](litteratur/ai_act_2024_analys.md) – bland annat Digital Omnibus, konsensusområden, omstridda vägval och nya frågor.
@@ -68,6 +69,8 @@ Både delproven byggs kring **Kents vindkraftskalkyler** som genomgående case:
 > och slutlig argumentation krävs.
 
 ## Länkar
+
+**Kursplattform (Canvas): [Öppna AI101A HT26](https://hkr.instructure.com/courses/9408)** – kursens startsida med moduler, anslag, uppgifter och kursinformation. Se även [skärmbilden från kursplattformen](kursplattform/kursplattform.jpg).
 
 - Kurssida (HKR): <https://www.hkr.se/kai101a/>
 - Välkomstbrev: <https://www.hkr.se/kurs/ai101a/valkomstbrev/>
