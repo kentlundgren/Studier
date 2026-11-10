@@ -322,8 +322,27 @@ På skärmbilden är lager 1 kopplat till enkla mönster, lager 2 till objekt oc
 
 Frågan kopplar detta till djupinlärning och förbättrad beräkningskapacitet och minne under 1980- och 1990-talen. Det är en grov historisk sammanfattning: deep learning utvecklades genom flera forskningsbidrag och inte genom en enskild metod eller person. För just matchningsuppgiften är den centrala idén att representationerna blir mer sammansatta ju längre de ligger från indata och närmare utdata.
 
+### Fråga 8: self-attention i transformern
+
+**Frågan:** År 2021 använde Google AI mer intensivt i sina sök- och annonssystem. Från 2011 arbetade AI-forskaren Andre Ng vid forskningslabbet Google X med att utveckla storskaliga AI-modeller. År 2012 visade Ng och hans team att en modell kunde vara självlärande och känna igen katter i YouTube-videor. Djupinlärningen tog fart. Den tidigare schackdatorn utvecklades vidare till AlphaGo, som överträffade mänskliga spelare genom att hitta nya strategier och slog världsmästaren Lee Sedol. År 2017 lades transformern ”T” till i ”GPT”, vilket förbättrade hur AI kan förstå och generera text på en gång. Modellen använder också det som på engelska kallas *self-attention*. Vad betyder det?
+
+**Svarsalternativ i bilden:**
+
+- Vilka ord i texten hänger ihop mest?
+- Kan förstå olika betydelser för samma ord och dess kontext.
+- Vilka delar av texten är viktigast att fokusera på?
+
+**Bästa svar:** *Vilka delar av texten är viktigast att fokusera på.* Self-attention låter varje ord eller token väga information från andra positioner i sekvensen och använda den för att skapa en kontextuell representation. Som enkel pedagogisk förklaring beskriver alltså det sista alternativet vad uppmärksamhetsvikterna gör.
+
+Alternativet *”Vilka ord i texten hänger ihop mest?”* ligger också nära den tekniska idén: mekanismen beräknar relationer och relevans mellan token. Om quizet tillåter flera svar kan även det vara avsett som rätt. Alternativet om att förstå olika betydelser beroende på kontext beskriver snarare en möjlig effekt av self-attention och kontextualisering än mekanismens direkta definition. I transformerns ursprungliga artikel beskrivs self-attention som att positioner i en sekvens kan uppmärksamma andra positioner för att bilda representationer (Vaswani et al., 2017).
+
+**Historisk reservation:** Den inledande tidslinjen verkar vara en förenklad kursbeskrivning. Frågan blandar flera utvecklingsspår och årtal; analysen ovan gäller vad self-attention betyder, inte en faktagranskning av varje historiskt påstående.
+
 
 ## Källförteckning
+Vaswani, A. et al. (2017) ‘Attention Is All You Need’, *Advances in Neural Information Processing Systems*, 30. Tillgänglig på: https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf (Hämtad 2026-11-10). *(Originalartikeln som introducerar Transformerarkitekturen och beskriver self-attention mellan positioner i en sekvens.)*
+
+
 LeCun, Y., Bottou, L., Bengio, Y. & Haffner, P. (1998) ‘Gradient-based learning applied to document recognition’, *Proceedings of the IEEE*, 86(11), pp. 2278–2324. Tillgänglig på: https://proceedingsoftheieee.ieee.org/gradient-based-learning-applied-to-document-recognition/ (Hämtad 2026-11-10). *(Primär forskningsartikel om flerskiktade konvolutionsnätverk och inlärda representationer för bild- och teckenigenkänning.)*
 
 
