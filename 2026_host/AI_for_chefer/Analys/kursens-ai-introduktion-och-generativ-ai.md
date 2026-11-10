@@ -247,7 +247,17 @@ Kursledningen har öppnat en Canvas-diskussion med frågan **”Varför går du 
 
 Diskussionen är markerad som delvis anonym och har enligt skärmbilden öppet 10–22 november 2026. Det kan bli intressant att senare läsa vilka motiv och förväntningar som finns i gruppen och jämföra dem med kursens innehåll. Än så länge är detta en anteckning om frågan och kursledningens syfte; deltagarnas svar har inte sammanställts här.
 
+<a id="quiz-1-generativ-ai"></a>
+
+## Quiz 1: ”Vad är Generativ AI?”
+
+Den 10 november 2026 startade Kent det första quizet i kursen, med titeln **”Vad är Generativ AI?”**. I instruktionen beskriver kursledningen quizet som ett stöd före eller efter läsningen av kurslitteraturen.
+
+Den första frågan på skärmbilden säger att AI har en lång historia före det breda genombrottet för generativ AI 2023 och frågar vilka två forskare som under 1940-talet formulerade en matematisk modell inspirerad av hur nervceller fungerar. Det historiskt avsedda svaret är **Warren McCulloch och Walter Pitts**, som publicerade sin matematiska/logiska modell av nervaktivitet 1943 ([McCulloch & Pitts, 1943](https://doi.org/10.1007/BF02478259)). Skärmbilden visar att **Alan Turing och Marvin Minsky** var markerat när bilden togs; den visar inte om svaret sedan skickades in eller ändrades.
+
 ## Källförteckning
+
+McCulloch, W.S. & Pitts, W. (1943) ‘A logical calculus of the ideas immanent in nervous activity’, *Bulletin of Mathematical Biophysics*, 5, pp. 115–133. Tillgänglig på: https://doi.org/10.1007/BF02478259 (Hämtad 2026-11-10). *(Originalartikeln med den matematiska modellen av nervsystemets aktivitet som quizfrågan syftar på.)*
 
 Google (u.å.) *NotebookLM Help*. Tillgänglig på: https://support.google.com/notebooklm/ (Hämtad 2026-11-10). *(Officiell hjälpsida för NotebookLM; stöd för att beskriva verktyget och dess hantering av källmaterial.)*
 
