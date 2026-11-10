@@ -291,6 +291,12 @@ Alternativet **”En modell kan fatta beslut med dess data”** är mindre preci
 
 **Analys:** Frågan förmedlar en användbar grundidé om neurala nätverk, men den beskriver förenklat hur biologiska neuroner fungerar och hur artificiella nätverk lär sig. Att system kan känna igen text eller bilder betyder inte att de förstår dem på samma sätt som människor. Det är också viktigt att inte blanda ihop mönsterigenkänning och klassificering med generativ AI: båda kan använda neurala nätverk, men generativa system dessutom producerar nytt innehåll. OECD:s beskrivning av AI-system skiljer mellan flera möjliga uppgifter och utdata, vilket hjälper att precisera sådana skillnader (OECD, 2024).
 
+### Fråga 4: koppla begrepp till funktion
+
+Fråga 4 ber deltagaren matcha åtta begrepp med åtta alternativ: *instruktion, innehållsskapande, fråga/svar, datamodell, kodgenerator, beräkning, språkmodell* och *bildgenerator*. Om varje alternativ ska användas en gång blir den mest sannolika kopplingen att generativ AI står för innehållsskapande, en prompt är en instruktion och användaren deltar i ett fråga–svar-utbyte. Träningsdata kopplas då till datamodell, text till språkmodell, bild till bildgenerator, kod till kodgenerator och algoritm till beräkning.
+
+Matchningen verkar följa en enkel kedja från användarens instruktion till en modell som bearbetar information och skapar ett resultat: text, bild eller kod. Kopplingen mellan **träningsdata och datamodell** är dock förenklad. Träningsdata används för att träna eller anpassa en modell; datamodellen är inte själva träningsmaterialet. Därför bör den kopplingen ses som quizets sannolika avsedda par om alternativen ska fördelas ett-till-ett, inte som en exakt teknisk definition. Även algoritm–beräkning beskriver ett samband snarare än att begreppen betyder samma sak: en algoritm anger steg eller regler som kan utföras genom beräkning.
+
 
 ## Källförteckning
 
