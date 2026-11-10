@@ -389,6 +389,14 @@ Samtidigt visar den bredare statistiken en annan sida. Eurostat redovisar att **
 
 **Samlad slutsats:** quizfrågan fångar en möjlig skillnad i ledningars entusiasm och syn på generativ AI, särskilt mellan Sverige och Finland. Deloitte ger visst stöd för att nordiska organisationer varit försiktigare än vissa europeiska grannar i fråga om GenAI-intresse och införande. Men det blir missvisande att dra den breda slutsatsen att svenska företag generellt ligger efter i AI-användning: officiell EU-statistik placerar Sverige bland de främsta. En mer hållbar formulering är att **svenska och nordiska ledningar kan ha varit försiktiga med att prioritera och skala upp generativ AI, samtidigt som den bredare AI-användningen i svenska företag är hög i europeisk jämförelse**. Skillnader mellan attityd, pilotprojekt, faktisk användning och storskalig verksamhetsförändring är centrala.
 
+### Fråga 17: behövs en AI-strategi?
+
+**Frågan:** ”För att AI skall ha en potential i företag och organisationer, vad krävs för strategi för att förverkliga detta? Välj det alternativ som får ett företag eller en organisation bäst in på en AI-strategi.” Svarsalternativen är bara *True* och *False*.
+
+**Troligast avsett svar: True.** Jag tolkar quizets kärnpåstående som att en organisation behöver en AI-strategi för att kunna omsätta AI:s potential i praktiken. Men frågan är otydlig: den frågar först *vad strategin ska innehålla* och ber sedan välja ett sant eller falskt alternativ. Det saknas ett konkret påstående att värdera och alternativen svarar inte på frågan om vad en bra strategi bör innehålla.
+
+En mer precis fråga kunde exempelvis be om vilka delar en AI-strategi behöver omfatta – verksamhetsmål och prioriterade användningsfall, ansvar och styrning, data och teknik, kompetens samt riskhantering och uppföljning. Utifrån den skärmbild som finns går det därför att ange **True som sannolikt avsett**, men inte att säkert veta exakt hur quizförfattaren formulerat det underförstådda påståendet.
+
 ## Källförteckning
 Vaswani, A. et al. (2017) ‘Attention Is All You Need’, *Advances in Neural Information Processing Systems*, 30. Tillgänglig på: https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf (Hämtad 2026-11-10). *(Originalartikeln som introducerar Transformerarkitekturen och beskriver self-attention mellan positioner i en sekvens.)*
 
