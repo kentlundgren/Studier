@@ -21,7 +21,7 @@
 | 1a | Europaparlamentet och rådet (2026), ändringsförordning (EU) 2026/1744, *Digital Omnibus on AI* | Ändringsförordning | Ändringar av AI Act | Engelska / språkval i EUR-Lex | [📖 Fem ändringar 2026 →](ai_act_2024_analys.md#ai-act-2026-updates) |
 | 2 | Floridi, L. (2023), *The Ethics of Artificial Intelligence* | Akademisk monografi | ca 272 s. | Engelska | [📖 Floridi i listan ↓](#ref-floridi-2023) · [Medvetandeanalys →](More/floridi_ai_medvetande.md#ref-floridi-2023) |
 | 3 | Modlitba, P. (2025), *Vad fan ska vi med AI till?* | Populär facklitteratur | 170 s. | Svenska | [📖 Fördjupning ↓](#ref-modlitba-2025) |
-| 4 | AI-kommissionen (2025), *AI-kommissionens färdplan för Sverige* (SOU 2025:12) | Statlig utredning | Omfattande | Svenska | [📖 Fördjupning ↓](#ref-sou-2025-12) |
+| 4 | AI-kommissionen (2025), *AI-kommissionens färdplan för Sverige* (SOU 2025:12) | Statlig utredning | Omfattande | Svenska | [📖 Fem gemensamma linjer och fem debatter →](More/ai_kommissionens_fardplan_analys.md#ref-sou-2025-12) |
 
 
 **Så fungerar litteraturens läs-spår:** `📖 Läs vidare →` går från samlingslistan till en analys eller källans avsnitt; `↩ Till litteraturkartan` i varje analys leder tillbaka hit. Använd samma stabila käll-ID i båda riktningarna för all kurslitteratur, även nytillkomna titlar. Saknar en källa en egen analysfil länkar pilen till dess avsnitt här.
@@ -179,6 +179,9 @@ artiklar och med Floridi.
 den statliga AI-kommissionen. Rapporten presenterades den 26 november 2024 och
 publicerades formellt som SOU den 4 februari 2025 (Finansdepartementet).
 
+**Hela rapporten:** [formell PDF från Regeringskansliet (168 s.)](https://www.regeringen.se/contentassets/7b80c90b74b04902afbb800bea581c9b/ai-kommissionens-fardplan-for-sverige-sou-202512.pdf) · [lokal PDF-kopia i litteraturmappen](ai-kommissionens-fardplan-for-sverige-sou-202512.pdf) · [GitHub-kopia](https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/litteratur/ai-kommissionens-fardplan-for-sverige-sou-202512.pdf).
+**Sökbar fulltext:** [textversion med sidmarkörer](More/ai_kommissionens_fardplan_sou_2025_12_sokbar.txt). Kontrollera alltid citat och sidnummer mot PDF-originalet.
+
 *Belägger kursmålen om att förstå AI ur ett verksamhets-, samhälls- och ledningsperspektiv (lärandemål 2) och att reflektera över ledarskapets roll i att driva AI- och datadriven transformation (lärandemål 8).*
 
 Kommissionen beskriver Sverige som ett land med goda förutsättningar –
@@ -196,10 +199,9 @@ för grundläggande rättigheter.
 
 För kursen fungerar rapporten som en aktuell lägesbild av det svenska
 AI-ekosystemet och som referenspunkt när den egna organisationens AI-arbete
-ska sättas i ett nationellt sammanhang. Den är ett beslutsunderlag och ett
-inspel till en kommande nationell AI-strategi, inte ett bindande dokument –
-läs den som en argumenterande utredning, med de anspråk och avgränsningar det
-för med sig.
+ska sättas i ett nationellt sammanhang. Den är ett beslutsunderlag, inte bindande lag. Regeringen har sedan dess publicerat en nationell AI-strategi som uttryckligen anger SOU 2025:12 som ett av underlagen; [se regeringens strategi](https://www.regeringen.se/regeringens-politik/sveriges-ai-strategi). Skilj därför mellan kommissionens rekommendationer och senare beslut.
+
+**Fördjupning:** [Analys av samsyn, remissperspektiv och kopplingar till EU:s AI Act](More/ai_kommissionens_fardplan_analys.md#ref-sou-2025-12).
 
 **Länkar och noteringar**
 - Landningssida med sammanfattning och nedladdning (regeringen.se), verifierad 2026-09-04: <https://regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/02/sou-202512/>
@@ -223,7 +225,7 @@ Harvard-referenser och länkar.
 
 ## Referensförteckning
 
-AI-kommissionen (2025) *AI-kommissionens färdplan för Sverige*. SOU 2025:12. Stockholm: Finansdepartementet. Tillgänglig på: https://regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/02/sou-202512/ (Hämtad 2026-09-04). *(Kurslitteratur i AI101A; ger en aktuell nationell lägesbild av det svenska AI-ekosystemet och belägger resonemang om ledarskapets och politikens roll i AI-driven transformation.)*
+AI-kommissionen (2025) *AI-kommissionens Färdplan för Sverige*. SOU 2025:12. Stockholm: Finansdepartementet. Officiell PDF: https://www.regeringen.se/contentassets/7b80c90b74b04902afbb800bea581c9b/ai-kommissionens-fardplan-for-sverige-sou-202512.pdf. Lokal PDF-kopia och GitHub-kopia: https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/litteratur/ai-kommissionens-fardplan-for-sverige-sou-202512.pdf. Landningssida: https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/02/sou-202512/ (Hämtad 2026-11-10). *(Kurslitteratur i AI101A; primärkälla för färdplanens analys av Sveriges AI-ekosystem och dess förslag om ledarskap, kompetens, forskning och offentlig sektor.)*
 
 Europaparlamentet och rådet (2024) *Förordning (EU) 2024/1689 av den 13 juni 2024 om harmoniserade regler för artificiell intelligens (förordningen om artificiell intelligens)*. EUT L, 2024/1689, 12.7.2024. Svensk fulltext: https://eur-lex.europa.eu/legal-content/SV/TXT/HTML/?uri=OJ:L_202401689. Svensk PDF-kopia i kursmappen: https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/litteratur/AI_act_2024_SV_TXT.pdf. Språkneutral ELI-länk: http://data.europa.eu/eli/reg/2024/1689/oj (Hämtad 2026-11-09). *(Kurslitteratur i AI101A; den primära rättskällan bakom kursens juridiska lärandemål om EU:s AI Act. HKR:s lista anger utfärdaren som "Europeiska kommissionen", men rättsakten är antagen av Europaparlamentet och rådet. PDF-kopian är 2024 års ursprungstext; se även ändringsförordning (EU) 2026/1744 för senare ändringar.)*
 
