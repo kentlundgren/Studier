@@ -224,6 +224,21 @@ NotebookLM kan vara användbart för att samla ett avgränsat källmaterial, st�
 
 Bilderna gör förändringsledning till en tydlig del av kursens AI-perspektiv. Det är relevant för dig: en användbar kalkyl handlar inte bara om att få fram ett belopp, utan också om att användare förstår antagandena, kan granska dem och vet vem som ansvarar för resultatet. Make och NotebookLM kan stödja olika delar av arbetet, men de fyller olika roller: Make automatiserar flöden mellan tjänster, medan NotebookLM hjälper till att arbeta med källmaterial. Inget av verktygen ersätter en genomtänkt process, verifierade beräkningar eller mänskligt ansvar.
 
+<a id="6g-ai-native"></a>
+
+### Kursbildens koppling mellan 6G och AI-native nät
+
+Den nya bilden återkommer till **6G** och beskriver ambitionen att nätet ska bli ”AI-native”: AI ska integreras i nätverksarkitekturen från början, snarare än läggas till som en fristående funktion i efterhand. Den placerar detta tillsammans med Industry 6.0 och visionen om mer integrerade och autonoma system.
+
+Detta är en rimlig framtidsriktning att diskutera, men formuleringen bör läsas som en **designambition**, inte som att dagens 6G-nät redan finns färdigbyggda eller att alla nät kommer att fungera så. ITU:s ramverk för IMT-2030 (6G) tar upp AI och kommunikation som ett användningsscenario och beskriver AI som möjlig del av framtida nätfunktioner. Standardisering och tekniska krav utvecklas stegvis ([ITU, IMT-2030](https://www.itu.int/en/ITU-R/study-groups/rsg5/rwp5d/imt-2030/pages/default.aspx); [ITU:s ramverk M.2160](https://www.itu.int/dms_pubrec/itu-r/rec/m/R-REC-M.2160-0-202311-I%21%21PDF-E.pdf)).
+
+Det är också bra att hålla isär två betydelser:
+
+- **AI för nätet:** AI kan hjälpa till att styra, optimera och felsöka själva kommunikationsnätet.
+- **Nätet för AI:** 6G kan ge uppkoppling, kapacitet och låg fördröjning åt AI-tillämpningar, sensorer och autonoma system.
+
+Kopplingen till Industry 6.0 är därför möjlig men inte automatisk. 6G är en kommunikationsinfrastruktur; Industry 6.0 är en bredare industriell framtidsvision. Varken den ena termen bevisar att den andra redan har inträffat. För din vindkraftsanalys är 6G främst en omvärlds- och framtidsfråga: beräkning av intäktsdelning kräver inte i sig 6G, även om framtida uppkopplade vindkraftsparker kan använda avancerad nätverksinfrastruktur för sensorer, övervakning och styrning.
+
 ## Källförteckning
 
 Google (u.å.) *NotebookLM Help*. Tillgänglig på: https://support.google.com/notebooklm/ (Hämtad 2026-11-10). *(Officiell hjälpsida för NotebookLM; stöd för att beskriva verktyget och dess hantering av källmaterial.)*
