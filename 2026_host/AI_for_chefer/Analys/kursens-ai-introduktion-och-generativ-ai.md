@@ -338,6 +338,14 @@ Alternativet *”Vilka ord i texten hänger ihop mest?”* ligger också nära d
 
 **Historisk reservation:** Den inledande tidslinjen verkar vara en förenklad kursbeskrivning. Frågan blandar flera utvecklingsspår och årtal; analysen ovan gäller vad self-attention betyder, inte en faktagranskning av varje historiskt påstående.
 
+### Fråga 9: generativ AI i AI-hierarkin
+
+**Frågan:** Texten säger att generativ AI blev mainstream och utvecklades snabbt under 2024–2025, och nämner språkmodellerna GPT-4, Gemini och Claude. Den frågar var generativ AI och dess språkmodeller hör hemma i det större AI-fältet. Deltagaren ska ordna fyra begrepp från det bredaste ämnesområdet till den innersta kärnan.
+
+**Rätt ordning:** **Artificiell intelligens → maskininlärning → djupinlärning → generativ AI.** Placeringen i skärmbilden ser alltså rätt ut. Maskininlärning är ett delområde inom AI; djupinlärning är en familj av metoder inom maskininlärning; och de moderna generativa språkmodeller som frågan nämner bygger i regel på djupinlärning.
+
+Detta är en användbar förenklad hierarki för att förstå kursens begrepp. En precisering är att generativ AI inte alltid måste bygga på djupinlärning, och att generativ AI omfattar mer än språkmodeller: det kan också generera exempelvis bilder, ljud, video och kod. OECD:s beskrivning av AI-uppgifter tar upp innehållsgenerering som en uppgift bland flera andra (OECD, 2024).
+
 
 ## Källförteckning
 Vaswani, A. et al. (2017) ‘Attention Is All You Need’, *Advances in Neural Information Processing Systems*, 30. Tillgänglig på: https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf (Hämtad 2026-11-10). *(Originalartikeln som introducerar Transformerarkitekturen och beskriver self-attention mellan positioner i en sekvens.)*
