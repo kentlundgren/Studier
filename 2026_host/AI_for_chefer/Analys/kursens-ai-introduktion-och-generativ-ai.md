@@ -67,6 +67,6 @@ Madsen, D.Ø., Slåtten, K. & Berg, T. (2025) ‘From Industry 4.0 to Industry 6
 
 OECD (2022) *OECD Framework for the Classification of AI Systems*. OECD Digital Economy Papers, No. 323. Paris: OECD Publishing. Tillgänglig på: https://doi.org/10.1787/cb6d9eca-en (Hämtad 2026-11-10). *(Ger en flerdimensionell metod för att klassificera AI-system efter bland annat sammanhang, data, modell och uppgift/resultat.)*
 
-Shivshankar, S., Kar, P. & Acharya, N. (2025) ‘Reimagining Wireless: A Literature Review of the 6G Cyber-Physical Continuum’, *Telecom*, 6(4), 91. Tillgänglig på: https://doi.org/10.3390/telecom6040091 (Hämtad 2026-11-10). *(Översikt över 6G-forskning och prognosen om möjlig kommersiell användning omkring 2030; stödjer att denna del är en nätverksprognos, inte en daterad industriperiod.)*
-
 OECD (2024) *Explanatory Memorandum on the Updated OECD Definition of an AI System*. OECD Artificial Intelligence Papers, No. 8. Paris: OECD Publishing. Tillgänglig på: https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/03/explanatory-memorandum-on-the-updated-oecd-definition-of-an-ai-system_3c815e51/623da898-en.pdf (Hämtad 2026-11-10). *(Förklarar olika AI-uppgifter, där innehållsgenerering är en kategori bland flera, exempelvis igenkänning, prognoser och optimering.)*
+
+Shivshankar, S., Kar, P. & Acharya, N. (2025) ‘Reimagining Wireless: A Literature Review of the 6G Cyber-Physical Continuum’, *Telecom*, 6(4), 91. Tillgänglig på: https://doi.org/10.3390/telecom6040091 (Hämtad 2026-11-10). *(Översikt över 6G-forskning och prognosen om möjlig kommersiell användning omkring 2030; stödjer att denna del är en nätverksprognos, inte en daterad industriperiod.)*
