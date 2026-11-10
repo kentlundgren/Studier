@@ -451,15 +451,19 @@ Du markerade **övervakad och oövervakad träning** samt **finjustering och fö
 
 ### Fråga 18 – ”The Virtuous Cycle of AI” (0/1)
 
-Ditt försök använde följande ordning: **Bättre produkter → modeller lär sig av data**, **Fler användare → produkten blir mer relevant och tilltalande**, **Mer data → loggad användning visar hur människor använder produkten**. Det gav noll poäng. Det innebär att min tidigare föreslagna matchning var fel i förhållande till quizets facit; den bör inte återanvändas.
+**Trolig rätt matchning utifrån svarsalternativens innehåll:**
 
-Utifrån ordalydelsen är denna alternativa fördelning mer sannolik:
+| Quizrad | Matcha med detta alternativ |
+|---|---|
+| **Bättre produkter/Produkten** | ”När AI används för att förbättra funktioner och individanpassa upplevelsen blir … mer relevant och tilltalande.” |
+| **Fler användare** | ”När AI används och … loggas visar data hur människor använder den/det.” |
+| **Mer data** | ”AI-modeller lär sig av … och blir bättre på att förstå mönster, förutsäga beteenden och fatta beslut.” |
 
-- **Bättre produkter/Produkten:** ”När AI används för att förbättra funktioner och individanpassa upplevelsen blir … mer relevant och tilltalande.”
-- **Fler användare:** ”När AI används och … loggas visar data hur människor använder den/det.”
-- **Mer data:** ”AI-modeller lär sig av … och blir bättre på att förstå mönster, förutsäga beteenden och fatta beslut.”
+Den här ordningen knyter varje formulering till det begrepp den tydligast beskriver: AI förbättrar produktens relevans, användning skapar loggar om hur produkten används, och data kan användas för att förbättra modeller. Tillsammans bildar dessa delar Ngs återkopplingsloop: **bättre produkt → fler användare → mer data → bättre produkt**.
 
-Denna matchning binder varje rad till det alternativ som tydligast beskriver just den kategorin: produktens förbättring, användares interaktioner och data som lärandematerial. Den bakomliggande återkopplingsloopen går sedan från bättre produkt till fler användare, vidare till mer data och tillbaka till en bättre produkt. Den nya ordningen är en välgrundad rättningshypotes utifrån nollpoängen och textfragmenten, men facit visas inte i resultatbilden.
+**Vad gick fel i det första försöket?** Första gången matchade du *Bättre produkter* med modellens lärande från data, *Fler användare* med en mer relevant produkt och *Mer data* med loggad användning. Det var en begriplig tolkning av själva orsakskedjan: data förbättrar modellen, en bättre produkt lockar användare och användning ger data. Men matchningsuppgiften verkar vilja att varje rad paras med den formulering som direkt beskriver just den delen av loopen, inte med det steg som den delen orsakar. Därför passar produktförbättringsformuleringen bäst under *Bättre produkter*, användningsloggar under *Fler användare* och modellernas lärande under *Mer data*.
+
+Din första tolkning var alltså inte orimlig; den följde sambanden mellan stegen. Svårigheten är att alternativen beskriver både en kategori och dess orsak eller följd, medan quizet kräver en enda koppling per rad. Noll poäng visar att den första kombinationen inte stämde med quizets bedömning. **Resultatbilden visar däremot inte facit**, så matchningen ovan är den starkaste rättningshypotesen utifrån formuleringarna – inte officiellt bekräftad facittext.
 
 ### Fråga 19 – aktör, utmaning och lösningsdelar (0,71/1)
 
