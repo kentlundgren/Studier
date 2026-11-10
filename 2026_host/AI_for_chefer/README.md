@@ -35,6 +35,26 @@ egna organisationen med hänsyn till teknik, strategi, etik och juridik.
 För Godkänt på hela kursen krävs minst Godkänt på båda delproven. För Väl
 Godkänt krävs VG på båda.
 
+## Quiz om kurslitteraturen
+
+I kursbilden anges tre kommande quiz kopplade till Paulina Modlitbas bok *Vad fan ska vi med AI till? – Affärsutveckling & innovation med AI* ([litteraturkartan](litteratur/litteraturlista.md#ref-modlitba-2025)):
+
+| Quiz | Läsning | Sidomfång enligt bokens innehåll |
+|---|---|---:|
+| **Quiz 1 – AI och grunderna i generativ AI** | ”AI är här för att stanna” och kapitel 1, ”Vad är generativ AI?” | s. 10–71 |
+| **Quiz 2 – Så kommer ni igång** | Kapitel 2, ”Så kommer ni igång!” | s. 72–122 |
+| **Quiz 3 – Skuggsidor och framtid** | Kapitel 3, ”AI:s skuggsidor och fallgropar”, och kapitel 4, ”Framtiden för AI” | s. 123–177 |
+
+*Sidintervallen är uppskattade från kapitlens start på innehållssidan. Quizdatum och eventuella ytterligare instruktioner meddelas i kursplattformen.*
+
+## Skrivmall för kursens skriftliga arbeten
+
+**Utgångsmall:** [HKR:s mall för examensarbete (Word)](https://www.hkr.se/globalassets/avdelningar/bhp/larverkstader/mall-exemensarbete/hkr-examensarbete-mall2.docx) från [HKR:s officiella mallsida](https://www.hkr.se/uppsatsmall/).
+
+Använd den aktuella HKR-mallen som grund när du skriver kursens skriftliga arbeten. Följ mallens instruktioner för rubrikformat, så att dokumentets innehållsförteckning fungerar. HKR anger att mallen är gjord för skrivbordsversionen av Office 365 och rekommenderar att man skriver direkt i mallen från början.
+
+**Kursens uppgiftsinstruktioner i Canvas styr innehållet och eventuella särskilda formkrav.** Mallen är HKR:s examensarbetsmall; krav som gäller examensarbetens titel- och abstractsidor ska därför bara användas när de passar den aktuella uppgiften eller uttryckligen efterfrågas. Vid motstridiga instruktioner, följ kursens instruktioner och fråga kursansvarig om det är oklart.
+
 ## Innehåll i mappen
 
 - [Personlig kursplan](personlig-kursplan.md) – läsning kopplad till kursens delmoment.
