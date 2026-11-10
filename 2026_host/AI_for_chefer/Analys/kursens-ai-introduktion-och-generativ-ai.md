@@ -297,6 +297,12 @@ Fråga 4 ber deltagaren matcha åtta begrepp med åtta alternativ: *instruktion,
 
 Matchningen verkar följa en enkel kedja från användarens instruktion till en modell som bearbetar information och skapar ett resultat: text, bild eller kod. Kopplingen mellan **träningsdata och datamodell** är dock förenklad. Träningsdata används för att träna eller anpassa en modell; datamodellen är inte själva träningsmaterialet. Därför bör den kopplingen ses som quizets sannolika avsedda par om alternativen ska fördelas ett-till-ett, inte som en exakt teknisk definition. Även algoritm–beräkning beskriver ett samband snarare än att begreppen betyder samma sak: en algoritm anger steg eller regler som kan utföras genom beräkning.
 
+### Fråga 5: Rosenblatts modell
+
+Fråga 5 anger att Frank Rosenblatt presenterade en modell på 1950-talet som blev ett tidigt steg i maskininlärning. Även om quizet frågar ”Vad karaktäriserade denna modell?” visas bara svaren *True* och *False*. Det gör uppgiften klurigt formulerad: i praktiken verkar deltagaren behöva bedöma hela påståendet, inte välja en egenskap hos modellen.
+
+Det sannolikt avsedda svaret är **True**. Rosenblatts modell var perceptronen, ett tidigt neuralt nätverk som kunde tränas att känna igen mönster genom att justera sina kopplingar utifrån exempel. Den blev ett viktigt tidigt steg mot maskininlärning. Samtidigt bör formuleringen ”början av maskininlärning som vi känner den i dag” förstås brett: perceptronen var en milstolpe, men den representerar inte ensam hela maskininlärningens historia eller dagens metoder. Rosenblatts ursprungliga artikel från 1958 presenterar perceptronen som en probabilistisk modell för informationslagring och organisering i hjärnan (Rosenblatt, 1958).
+
 
 ## Källförteckning
 
