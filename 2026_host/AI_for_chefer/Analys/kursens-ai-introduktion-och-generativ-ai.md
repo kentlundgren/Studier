@@ -90,6 +90,8 @@ Det här perspektivet passar direkt i AI-inventeringen om vindkraftskalkylen, s�
 - Ska AI-inventeringen omfatta alla AI-typer i verksamheten, eller avgränsas uppgiften till generativ AI?
 - Hur bör vi skilja mellan arbetsuppgifter som AI stödjer, uppgifter som automatiseras och beslut där en människa fortfarande har ansvar?
 
+<a id="svea-drivkraft-ai-2026"></a>
+
 ## Nytt kursmaterial: affärsnytta och AI-användning i svenska företag
 
 Bilden hänvisar till [Svea Bank (2026), *Drivkraft: AI 2026*](https://www.svea.com/sv-se/foretag/finansiering/drivkraft-ai). Rapportens översikt anger att AI-användningen bland svenska företag har mer än tredubblats på två år och att 38 procent använder AI i dag. Den lyfter också två förväntningar: nio av tio företag tror att AI minskar personalbehovet inom fem år, och tre av fyra tror att AI kommer att vara implementerat i verksamheten inom fem år.
