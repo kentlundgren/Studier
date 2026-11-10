@@ -362,6 +362,16 @@ Uttrycket ”i det stora hela” gör därför båda alternativen relevanta, eft
 
 Det är en pedagogisk förenkling att likställa oövervakad inlärning med ”ostrukturerad information”. Den avgörande skillnaden är om träningsmaterialet har etiketter/facit, inte om data i vardaglig mening är strukturerad. På skärmbilden ser dessutom båda raderna ut att ha etiketten *Övervakad inlärning*; den första bör rimligen stå som *Oövervakad inlärning*. Därför verkar själva matchningarna vara rätt, men rubriken på första raden kan vara ett skrivfel.
 
+### Fråga 15: vad transformer-modellen fångar
+
+**Frågan:** ”Angående transformermodellen, vad förstår den/modellen?” Alternativen är *sammanhang*, *vilka ord som är viktigast* och *vilka ord som hör ihop*. Skärmbilden visar att endast det sista alternativet först var markerat.
+
+**Rekommendation:** Om quizet tillåter flera svar skulle jag markera alla tre, men med olika grad av precision. **Sammanhang** och **vilka ord som hör ihop** beskriver tydligast hur self-attention gör att modellen väger information från andra ord/token i sekvensen. **Vilka ord som är viktigast** kan också vara avsett: uppmärksamhetsvikter kan beskrivas förenklat som att modellen väger vilka delar som är mer relevanta för en viss position och uppgift.
+
+Det sista alternativet är dock inte en exakt beskrivning av en enda, stabil lista över ”viktiga ord”. Relevansen varierar mellan positioner, lager, uppmärksamhetshuvuden och uppgift. Den ursprungliga Transformerartikeln beskriver hur positioner i sekvensen kan uppmärksamma andra positioner för att bygga kontextuella representationer (Vaswani et al., 2017).
+
+**Varför frågan är svår att besvara entydigt:** ordet ”förstår” kan låta som mänsklig förståelse. Mer precist fångar modellen statistiska relationer och kontextmönster i texten. Därför är **sammanhang + vilka ord som hör ihop** det mest tekniskt försvarbara paret, medan ”vilka ord som är viktigast” är en användbar men förenklad undervisningsformulering. Om instruktionen är att välja allt som passar är alla tre sannolikt tänkta att markeras; om quizet kräver ett strikt tekniskt svar är de två första tydligast.
+
 
 ## Källförteckning
 Vaswani, A. et al. (2017) ‘Attention Is All You Need’, *Advances in Neural Information Processing Systems*, 30. Tillgänglig på: https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf (Hämtad 2026-11-10). *(Originalartikeln som introducerar Transformerarkitekturen och beskriver self-attention mellan positioner i en sekvens.)*
