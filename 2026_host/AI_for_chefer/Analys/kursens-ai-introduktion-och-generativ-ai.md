@@ -346,6 +346,14 @@ Alternativet *”Vilka ord i texten hänger ihop mest?”* ligger också nära d
 
 Detta är en användbar förenklad hierarki för att förstå kursens begrepp. En precisering är att generativ AI inte alltid måste bygga på djupinlärning, och att generativ AI omfattar mer än språkmodeller: det kan också generera exempelvis bilder, ljud, video och kod. OECD:s beskrivning av AI-uppgifter tar upp innehållsgenerering som en uppgift bland flera andra (OECD, 2024).
 
+### Fråga 11: hur generativ AI tränas – datorer och människor
+
+**Frågan:** ”Hur tränas Generativ AI i det stora hela?” Quizet erbjuder två alternativ: *Via maskiner/datorer* och *Via människor*.
+
+**Resonemang:** Det är rimligt att välja båda. Datorer utför de stora beräkningsstegen som justerar modellens parametrar utifrån träningsdata. Människor bidrar på flera sätt: de skapar och väljer en del av materialet, utformar exempel på önskade svar och kan bedöma eller rangordna modellens svar för senare finjustering. De mänskliga insatserna varierar mellan modeller och träningssteg; det betyder inte att varje modell tränas enbart eller direkt av människor.
+
+Uttrycket ”i det stora hela” gör därför båda alternativen relevanta, eftersom de beskriver olika delar av processen. En kort sammanfattning är: **människor bidrar med data, urval och återkoppling; datorer genomför träningsberäkningarna.** Modellen tränas inte nödvändigtvis på allt som finns på internet. Exempel på dokumenterad träning använder ett urval av datakällor, och senare finjustering kan använda mänskligt skrivna exempel och bedömningar (Brown et al., 2020; Ouyang et al., 2022).
+
 
 ## Källförteckning
 Vaswani, A. et al. (2017) ‘Attention Is All You Need’, *Advances in Neural Information Processing Systems*, 30. Tillgänglig på: https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf (Hämtad 2026-11-10). *(Originalartikeln som introducerar Transformerarkitekturen och beskriver self-attention mellan positioner i en sekvens.)*
