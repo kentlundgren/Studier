@@ -183,7 +183,52 @@ En språkmodell kan eventuellt hjälpa till att hitta och förklara material, me
 
 **Min läsning av bilden:** den breddar samtalet från ”vilken AI ger avkastning?” till ”under vilka villkor skapas värde utan oacceptabla risker?”. Det passar ledningsperspektivet väl, eftersom ansvar för data, beslut, säkerhet och konsekvenser måste fördelas i verksamheten.
 
+<a id="forandringsledning-make-notebooklm"></a>
+
+## Förändringsledning, kompetens och praktiska AI-verktyg
+
+De nya kursbilderna förskjuter fokus från AI-teknik till införande i organisationer: ledarskap, förändringsarbete, kompetensförsörjning och människors upplevelse av förändringen. Huvudbudskapet är att AI-omställning behöver behandlas som verksamhetsutveckling, inte enbart som ett IT-projekt. Bilden betonar psykologisk trygghet, iterativa pilotprojekt, kompetensutveckling och mänskliga förmågor som omdöme och kritiskt tänkande.
+
+### Så kan perspektiven användas i ditt arbete
+
+Detta går att omsätta i ett konkret förändringsarbete, exempelvis Skånes Vindkraftsakademis utforskande av kalkyler och intäktsdelning:
+
+1. **Börja i ett verkligt behov.** Beskriv vilket beslut eller vilken arbetsprocess som är svår i dag. Undvik att börja med verktygsvalet.
+2. **Kartlägg berörda.** Vilka använder kalkylen, vilka granskar den och vilka påverkas av resultatet? Ta med olika perspektiv tidigt.
+3. **Gör ett avgränsat försök.** Testa exempelvis om AI kan hjälpa till att hitta och sammanfatta källor eller förklara kalkylens antaganden. Låt verifierbara formler och mänsklig granskning styra beloppen och slutsatserna.
+4. **Skapa trygghet att pröva och säga ifrån.** Gör det legitimt att rapportera fel, osäkerhet och oönskade konsekvenser. Ett pilotprojekt är också ett sätt att lära sig var AI inte passar.
+5. **Bygg kompetens och ansvar samtidigt.** Utse vem som kontrollerar källor, data, beräkningar och ändringar. Lärandet bör omfatta både verktyg och processkunskap.
+6. **Följ upp mer än användningsgrad.** Mät exempelvis begriplighet, felupptäckt, tidsåtgång, förtroende och kostnader. Att människor använder ett verktyg visar inte ensamt att verksamheten blivit bättre.
+
+Detta är min tillämpning av bildens teman, inte en garanti för att en viss metod ger framgång. Siffran i bilden om att över 90 procent av HR-ledare anser att befintlig personal kan omskolas bör behandlas som ett kursbildspåstående tills ursprungsundersökning, urval och frågeformulering har kontrollerats.
+
+### Make: verktyg för att koppla ihop arbetsflöden
+
+[Make](https://www.make.com/) är en visuell plattform för att koppla samman appar och automatisera arbetsflöden. I kursbilden skiljer markeringen mellan användarverktyg och utvecklarverktyg; Make kan vara ett exempel på att bygga automatiserade flöden utan att utveckla ett helt system från grunden. Det är ett möjligt verktyg att undersöka, inte ett självklart val för kalkylen.
+
+För ditt fall kan ett flöde exempelvis hämta en uppdatering eller skicka ett granskningsärende vidare. Men automatisering av ett arbetsflöde gör inte i sig en beräkning korrekt eller juridiskt giltig. Innan verkliga data används behöver man bedöma informationssäkerhet, personuppgifter, åtkomst, loggning, felhantering och vem som ansvarar när ett flöde stannar eller ger fel resultat.
+
+### Arkitekturdiagrammet: verktyg nära den uppgift de stöder
+
+En av bilderna visar ett exempel på en agentarkitektur med separata agenter för perception, avvikelsedetektion, kunskap, diagnos och samordning. Verktyg som logghantering, datalagring, kunskapsbaser och övervakning placeras intill de funktioner som använder dem. Den övergripande idén är att göra systemets delar, informationsflöden och mänskliga kontrollpunkter synliga.
+
+Det kan vara användbart som tankemodell när en verksamhet har flera automatiserade steg. För en liten vindkraftskalkyl vore hela agentarkitekturen sannolikt överdimensionerad; nyttan ligger främst i frågorna: vilka steg finns, vilka data passerar mellan dem, vilka verktyg får agera och var krävs godkännande? Den första bifogade bilden ser dessutom ut att innehålla en redaktionell platshållare (“Replace Figure 25…”). Därför behandlar jag den som ett illustrativt eller ofärdigt exempel, inte som en färdig och verifierad teknisk rekommendation.
+
+### NotebookLM: arbetsyta för källbaserat lärande
+
+Kursbilden visar Gemini Notebook/NotebookLM med anteckningsboken **“Leading the AI-Driven Organization”** och en tankekarta om ledarskap, förändringsledning, teknostress och kompetensförsörjning. Den visade delningslänken är [https://notebooklm.link.google/rcmb3uWUjR6I](https://notebooklm.link.google/rcmb3uWUjR6I). Länken kommer från kursbilden; jag har inte kunnat kontrollera åtkomst eller innehållet bakom den.
+
+NotebookLM kan vara användbart för att samla ett avgränsat källmaterial, ställa frågor mot materialet och skapa studieöversikter. Det passar exempelvis för att jämföra kurslitteratur, AI Swedens vägledning och egna projektdokument. Svar och sammanfattningar behöver ändå kontrolleras mot originalkällorna, särskilt när de gäller lag, ekonomi eller sakförhållanden. Tänk också igenom vilka interna eller personrelaterade dokument du laddar upp och vilka delningsinställningar som gäller.
+
+### Min bedömning
+
+Bilderna gör förändringsledning till en tydlig del av kursens AI-perspektiv. Det är relevant för dig: en användbar kalkyl handlar inte bara om att få fram ett belopp, utan också om att användare förstår antagandena, kan granska dem och vet vem som ansvarar för resultatet. Make och NotebookLM kan stödja olika delar av arbetet, men de fyller olika roller: Make automatiserar flöden mellan tjänster, medan NotebookLM hjälper till att arbeta med källmaterial. Inget av verktygen ersätter en genomtänkt process, verifierade beräkningar eller mänskligt ansvar.
+
 ## Källförteckning
+
+Google (u.å.) *NotebookLM Help*. Tillgänglig på: https://support.google.com/notebooklm/ (Hämtad 2026-11-10). *(Officiell hjälpsida för NotebookLM; stöd för att beskriva verktyget och dess hantering av källmaterial.)*
+
+Make (u.å.) *Automation Tool | Integration Platform*. Tillgänglig på: https://www.make.com/en/product (Hämtad 2026-11-10). *(Make beskriver sin visuella plattform för att koppla ihop tjänster och automatisera arbetsflöden; används som verktygsbeskrivning, inte som oberoende effektutvärdering.)*
 
 AI Sweden (u.å.) *Ansvarsfull användning av AI*. Tillgänglig på: https://www.ai.se/sv/tillampning/ansvarsfull-anvandning-av-ai (Hämtad 2026-11-10). *(AI Swedens beskrivning av organisatoriska förmågor för regelverk och efterlevnad, etik och hållbarhet samt AI-säkerhet och tillförlitlighet; används för att analysera kursbilden, inte som bindande regelverk.)*
 
