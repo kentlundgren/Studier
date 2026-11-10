@@ -278,6 +278,19 @@ Uttrycket ”Generativ AI … slog igenom 2023” fungerar som en kort beskrivni
 
 Som första quizfråga fungerar detta väl för att öppna ett historiskt perspektiv: dagens generativa verktyg står på en lång utvecklingslinje. Den pedagogiska poängen blir starkast om kursen samtidigt skiljer mellan **AI som brett forsknings- och teknikfält**, **neurala nätverk som en familj av metoder** och **generativ AI som system som skapar nytt innehåll**. Frågan testar främst historisk orientering; den säger ännu inte i sig hur moderna generativa modeller fungerar.
 
+### Fråga 3: vad neurala nätverk kan göra
+
+Den tredje frågan beskriver neurala nätverk som sammankopplade delar som bearbetar information och för vidare signaler. Den kopplar det till mönsterigenkänning i exempelvis text och bilder. På skärmbilden är alternativet **”Känna igen mönster i data”** markerat. Eftersom svarsalternativen visas med kryssrutor verkar frågan kunna tillåta flera svar; skärmbilden visar dock inte om svaret skickades in.
+
+Två alternativ ligger nära etablerade användningar av neurala nätverk:
+
+- **Känna igen mönster i data** – detta är den tydligaste kärnfunktionen i frågans egen beskrivning.
+- **Lära från stora mängder data och klassificera denna data** – neurala nätverk kan tränas på exempel och användas för klassificering. Det är en vanlig, men inte enda, användning; stora datamängder är inte ett absolut krav för varje nätverk.
+
+Alternativet **”En modell kan fatta beslut med dess data”** är mindre precist. Ett neuralt nätverk kan ge en klassificering, prognos eller rekommendation som används i ett beslutsunderlag. Men om ett system faktiskt fattar eller verkställer beslut beror på hur det byggts in i ett större system och vilken roll människor har. Formuleringen riskerar att blanda ihop modellens utdata med organisationens beslut.
+
+**Analys:** Frågan förmedlar en användbar grundidé om neurala nätverk, men den beskriver förenklat hur biologiska neuroner fungerar och hur artificiella nätverk lär sig. Att system kan känna igen text eller bilder betyder inte att de förstår dem på samma sätt som människor. Det är också viktigt att inte blanda ihop mönsterigenkänning och klassificering med generativ AI: båda kan använda neurala nätverk, men generativa system dessutom producerar nytt innehåll. OECD:s beskrivning av AI-system skiljer mellan flera möjliga uppgifter och utdata, vilket hjälper att precisera sådana skillnader (OECD, 2024).
+
 
 ## Källförteckning
 
