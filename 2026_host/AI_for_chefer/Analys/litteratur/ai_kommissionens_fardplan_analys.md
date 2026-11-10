@@ -109,6 +109,14 @@ Landsorganisationen i Sverige (LO) (2025) *LO:s yttrande över AI-kommissionens 
 
 Myndigheten för delaktighet (MFD) (2025) *AI-kommissionens betänkande Färdplan för Sverige*. Tillgänglig på: https://www.mfd.se/material/remissvar/ai-kommissionens-betankande-fardplan-for-sverige/ (Hämtad 2026-11-10). *(Konkretiserar tillgänglighet, universell utformning och medverkan från funktionshindersrörelsen.)*
 
+Europeiska kommissionen (2026) *Agentic AI: Leveraging European AI talent and Regulatory Assets to Scale Adoption*. Tillgänglig på: https://digital-strategy.ec.europa.eu/en/library/agentic-ai-leveraging-european-ai-talent-and-regulatory-assets-scale-adoption (Hämtad 2026-11-10). *(Aktuell analys av agentisk AI, autonomi, ansvar, spårbarhet, kompetens och infrastruktur.)*
+
+Europeiska kommissionen (2025) *AI Continent*. Tillgänglig på: https://commission.europa.eu/topics/competitiveness/ai-continent_en (Hämtad 2026-11-10). *(EU:s satsning på AI-fabriker, beräkningskapacitet och hållbara datacenter; relevant för infrastrukturens resursavvägningar.)*
+
+Europeiska unionen (2024, konsoliderad lydelse 2026) *Europaparlamentets och rådets förordning (EU) 2024/1689 om harmoniserade regler för artificiell intelligens*, särskilt artikel 53. Tillgänglig på: https://eur-lex.europa.eu/legal-content/SV/TXT/HTML/?uri=CELEX:02024R1689-20260727 (Hämtad 2026-11-10). *(Primärkälla för AI Act-kraven på leverantörer av generella AI-modeller, inklusive upphovsrättspolicy och sammanfattning av träningsinnehåll.)*
+
+Europeiska unionen (2026) *Rules for trustworthy artificial intelligence in the EU*. EUR-Lex, sammanfattning av förordning (EU) 2024/1689. Tillgänglig på: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=LEGISSUM%3A4762484 (Hämtad 2026-11-10). *(Översikt över transparenskrav och tidslinjer för förbud, inklusive vissa särskilda förbud som börjar tillämpas 2 december 2026.)*
+
 Regeringen (2026) *Sveriges AI-strategi*. Tillgänglig på: https://www.regeringen.se/regeringens-politik/sveriges-ai-strategi (Hämtad 2026-11-10). *(Visar hur färdplanen senare har använts som ett underlag för regeringens beslutade strategiska inriktning.)*
 
 Regeringskansliet (2025) *Remiss SOU 2025:12 AI-kommissionens Färdplan för Sverige*, diarienummer Fi2025/00457. Tillgänglig på: https://www.regeringen.se/remisser/2025/03/remiss-sou-202512-ai-kommissionens-fardplan-for-sverige/ (Hämtad 2026-11-10). *(Samlad officiell ingång till publicerade remissvar; gör det möjligt att kontrollera fler än de exempel som diskuteras här.)*
