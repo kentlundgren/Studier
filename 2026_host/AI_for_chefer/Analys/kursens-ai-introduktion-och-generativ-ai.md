@@ -304,7 +304,28 @@ Fråga 5 anger att Frank Rosenblatt presenterade en modell på 1950-talet som bl
 Det sannolikt avsedda svaret är **True**. Rosenblatts modell var perceptronen, ett tidigt neuralt nätverk som kunde tränas att känna igen mönster genom att justera sina kopplingar utifrån exempel. Den blev ett viktigt tidigt steg mot maskininlärning. Samtidigt bör formuleringen ”början av maskininlärning som vi känner den i dag” förstås brett: perceptronen var en milstolpe, men den representerar inte ensam hela maskininlärningens historia eller dagens metoder. Rosenblatts ursprungliga artikel från 1958 presenterar perceptronen som en probabilistisk modell för informationslagring och organisering i hjärnan (Rosenblatt, 1958).
 
 
+### Fråga 6: Minskys invändningar mot vad AI kunde göra
+
+Frågan ber om Marvin Minskys invändningar mot dåtidens AI- och maskininlärningsmodeller och visar tre markerade alternativ. **Det går inte att slå fast att alla tre är rätt utifrån bilden.** Formuleringen blandar dessutom ihop olika årtionden och idéer från Minskys karriär.
+
+Det starkaste historiska stödet finns för tanken att enkla lärande system kan anpassa numeriska vikter och känna igen vissa mönster utan att därmed få en rikare, strukturerad representation av kunskap. I en text från 1971 diskuterar Minsky och Papert behovet av beskrivande struktur i lärande och kritiserar begränsningarna hos vissa perceptronliknande system. Det ligger nära det andra alternativet om att lära statistiska mönster utan att nödvändigtvis förstå vad informationen betyder, även om quizets formulering är en modern förenkling av deras resonemang (Minsky & Papert, 1971).
+
+Det tredje alternativet anknyter tydligt till Minskys senare teori *The Society of Mind*: intelligens uppstår genom samverkan mellan många enklare processer eller ”agenter”. Det är en rimlig beskrivning av den teorin, men den utvecklades långt senare och bör inte utan vidare presenteras som en invändning han framförde redan på 1950-talet (Minsky, 1986).
+
+Det första alternativet – att maskininlärning kräver mycket träningsdata medan människor ofta lär sig av få exempel – kan uttrycka en bred och relevant skillnad mellan vissa moderna inlärningsmetoder och mänskligt lärande. Men i de källor som direkt belägger Minskys kända kritik av perceptroner är det inte den mest tydliga eller specifika kärninvändningen. Det bör därför behandlas som en möjlig sammanfattning snarare än ett säkert historiskt citat eller argument från 1950-talet.
+
+En precis historisk hållpunkt är att Minsky tillsammans med Seymour Papert publicerade *Perceptrons* 1969. Där analyserade de matematiskt vad vissa perceptronmodeller kunde och inte kunde beräkna. Den välkända kritiken gällde specifika modellklassers begränsningar; den bör inte förenklas till att Minsky avvisade all maskininlärning eller alla neurala nätverk (Minsky & Papert, 1969).
+
+**Bedömning av de markerade svaren:** alternativ 2 har tydligast stöd som en förenklad sammanfattning av Minskys kritik; alternativ 3 beskriver hans senare *Society of Mind*-idé, men är inte en samtida invändning från 1950-talet; alternativ 1 är tänkbart men mindre tydligt belagt som hans specifika argument. Quizfrågan behöver därför precisera om den testar Minskys historiska kritik av perceptroner, hans senare teori om intelligens eller en allmän jämförelse mellan maskinellt och mänskligt lärande.
+
 ## Källförteckning
+Minsky, M. (1986) *The Society of Mind*. New York: Simon & Schuster. Tillgänglig på: https://www.simonandschuster.ca/books/Society-Of-Mind/Marvin-Minsky/9780671657130 (Hämtad 2026-11-10). *(Minskys senare teori om hur intelligens kan uppstå genom samverkan mellan enklare processer.)*
+
+Minsky, M. & Papert, S. (1969) *Perceptrons: An Introduction to Computational Geometry*. Cambridge, MA: MIT Press. Tillgänglig på: https://mitpress.mit.edu/9780262130431/perceptrons/ (Hämtad 2026-11-10). *(Förlagets presentation av den matematiska analysen av perceptronernas möjligheter och begränsningar.)*
+
+Minsky, M. & Papert, S. (1971) *Progress Report*. Tillgänglig på: https://www.mit.edu/~dxh/marvin/web.media.mit.edu/~minsky/papers/PR1971.html (Hämtad 2026-11-10). *(Primärtext om lärande, behovet av kunskapsstruktur och begränsningar hos vissa adaptiva och perceptronliknande system.)*
+
+
 
 McCulloch, W.S. & Pitts, W. (1943) ‘A logical calculus of the ideas immanent in nervous activity’, *Bulletin of Mathematical Biophysics*, 5, pp. 115–133. Tillgänglig på: https://doi.org/10.1007/BF02478259 (Hämtad 2026-11-10). *(Originalartikeln med den matematiska modellen av nervsystemets aktivitet som quizfrågan syftar på.)*
 
