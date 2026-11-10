@@ -25,15 +25,16 @@ betydelse för verksamhetsutveckling och digital omställning, samt en
 grundläggande förmåga att initiera och värdera AI-baserade lösningar i den
 egna organisationen med hänsyn till teknik, strategi, etik och juridik.
 
-## Examination
+## Examination och kursupplägg
 
-| Delprov | hp | Uppgift | Lärandemål | Betyg |
-|---------|----|---------|-----------|-------|
-| **Delprov 1** | 1,5 | Analys av ett tillämpningsområde för AI – individuell skriftlig inlämning | 1–3 samt 7–8 | U / G / VG |
-| **Delprov 2** | 1,5 | Utveckling av handlingsplan för verksamheten – individuell projektrapport | 4–6 samt 7–8 | U / G / VG |
+Kursen består av två delprov om **1,5 hp vardera**. Quizpoängen ingår i respektive delprovs 1,5 hp.
 
-För Godkänt på hela kursen krävs minst Godkänt på båda delproven. För Väl
-Godkänt krävs VG på båda.
+| Del | Innehåll och poängfördelning | I korthet |
+|---|---|---|
+| **Delprov 1 – analys (1,5 hp)** | Skriftlig analys av ett AI-tillämpningsområde. Quiz 1 och 2: **0,25 hp vardera**; analysarbetet: resterande **1,0 hp**. | För G: avgränsa ett verksamhetsområde, beskriva minst två AI-användningar och resonera om nytta, risker och kompetens. VG kräver dessutom strategisk analys, välgrundade prioriteringar och en tydlig avvägning mellan nytta, risk, etik och verksamhetsmål. |
+| **Delprov 2 – handlingsplan (1,5 hp)** | Projektarbete med handlingsplan för verksamheten. Quiz 3: **0,5 hp**; handlingsplanen: resterande **1,0 hp**. | Planen ska bygga vidare på en AI-inventering och innehålla en fördjupad fråga i en bilaga på 1–2 sidor. För VG ingår även en podd som genererats från textdokumentet. |
+
+**Quizgränser enligt betygsmatrisen:** under 50 % = U; 50–under 80 % = G; 80–100 % = VG. För Godkänt på hela kursen krävs minst G på båda delproven; för Väl Godkänt krävs VG på båda. Följ alltid den aktuella uppgiftsinformationen i Canvas om detaljer eller bedömningsgränser förtydligas där.
 
 ## Quiz om kurslitteraturen
 
