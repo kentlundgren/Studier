@@ -66,6 +66,7 @@ Använd den aktuella HKR-mallen som grund när du skriver kursens skriftliga arb
   - [Litteraturkarta](litteratur/litteraturlista.md) – Harvardreferenser, länkar, relevansnoteringar och sammanfattningar.
   - [AI Act: 2024 års regler och ändringarna 2026](Analys/litteratur/ai_act_2024_analys.md) – bland annat Digital Omnibus, konsensusområden, omstridda vägval och nya frågor.
   - [AI-kommissionens Färdplan för Sverige – analys](Analys/litteratur/ai_kommissionens_fardplan_analys.md) – samsyn, remissperspektiv och kopplingar till EU:s AI Act.
+  - [Kursens AI-introduktion: Industry 4.0–6.0 och generativ AI](Analys/kursens-ai-introduktion-och-generativ-ai.md) – skiljer AI-uppgifter från generativ AI och diskuterar Industry 6.0 som framtidsvision.
   - [SOU 2025:12 – lokal PDF-kopia](litteratur/ai-kommissionens-fardplan-for-sverige-sou-202512.pdf) · [formell PDF från Regeringskansliet](https://www.regeringen.se/contentassets/7b80c90b74b04902afbb800bea581c9b/ai-kommissionens-fardplan-for-sverige-sou-202512.pdf).
   - [Sökbar fulltext med sidmarkörer](litteratur/More/ai_kommissionens_fardplan_sou_2025_12_sokbar.txt) – automatisk textutvinning; använd PDF:en för kontroll av citat och sidnummer.
   - [Floridi och frågan om AI-medvetande](Analys/litteratur/floridi_ai_medvetande.md) – vidareutveckling och källkritisk granskning av svaret från Floridi Agent.
