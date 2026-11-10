@@ -12,7 +12,7 @@ Bilden ordnar industriella visioner i tre led och kopplar dem till olika nätver
 
 | Begrepp i bilden | AI-exempel | Förhållande till generativ AI | Hur säkert är tidsperspektivet? |
 |---|---|---|---|
-| **Industry 4.0** | Maskininlärning, prediktiv analys, datorseende och avvikelsedetektion för övervakning och optimering. | Det här är främst analys, mönsterigenkänning och prognoser. Sådana system kan använda AI utan att generera nytt innehåll. | Industry 4.0 blev ett etablerat industripolitiskt begrepp kring 2011. |
+| **Industry 4.0** | Maskininlärning, prediktiv analys, datorseende och avvikelsedetektion för övervakning och optimering. | Det här är främst analys, mönsterigenkänning och prognoser. Sådana system kan använda AI utan att generera nytt innehåll. | Industry 4.0 blev ett etablerat industripolitiskt begrepp kring 2011 ([Madsen, Slåtten och Berg (2025)](https://doi.org/10.3390/systems13050387)). |
 | **Industry 5.0** | Människa-i-loopen, samarbetsrobotik, beslutsstöd, förklarbar AI och adaptiva system. | Här ligger tonvikten på människans roll, tillit och hur teknik används. Exemplen är bredare än generativ AI och behöver inte använda generativa modeller. | Europeiska kommissionen beskriver Industry 5.0 som en vision som kompletterar Industry 4.0, med människocentrering, hållbarhet och resiliens. |
 | **Industry 6.0** | Agentisk AI, generativ AI, multiagentsystem och autonom samordning. | Generativ AI är uttryckligen med, men bara som en del av ett större system med agenter och automatisering. | Industry 6.0 är en framväxande och omdiskuterad framtidsvision. ”Från cirka 2030” ska läsas som en prognos, inte som en fastställd övergång. |
 
@@ -36,7 +36,7 @@ Generativ AI är en kategori inom AI som skapar exempelvis text, bilder, ljud el
 
 ### 3. Industry 6.0 behöver presenteras som ett osäkrare begrepp
 
-[Madsen, Slåtten och Berg (2025)](https://doi.org/10.3390/systems13050387) beskriver Industry 6.0 som ett framväxande och i betydande grad spekulativt begrepp. De visar också hur numrerade ”industriella revolutioner” fungerar både som tekniska framtidsbilder och som idéer som sprids i forskning, policy och ledningsdiskussioner. En annan vetenskaplig översikt om 6G anger en kommersiell förväntan runt 2030, men det är en prognos om nätverksteknik, inte ett bevis för att Industry 6.0 då blir en etablerad industriell epok.
+Madsen, Slåtten och Berg (2025) beskriver Industry 6.0 som ett framväxande och i betydande grad spekulativt begrepp. De visar också hur numrerade ”industriella revolutioner” fungerar både som tekniska framtidsbilder och som idéer som sprids i forskning, policy och ledningsdiskussioner. En vetenskaplig översikt om 6G anger en kommersiell förväntan runt 2030 ([Shivshankar, Kar och Acharya (2025)](https://doi.org/10.3390/telecom6040091)), men det är en prognos om nätverksteknik, inte ett bevis för att Industry 6.0 då blir en etablerad industriell epok.
 
 Det gör formuleringen ”c. 2030 onward — projected” rimlig som framtidsscenario, förutsatt att kursen markerar osäkerheten. En tydlig diskussion kan skilja mellan:
 - tekniker som redan används, exempelvis prediktivt underhåll och datorseende,
@@ -66,5 +66,7 @@ International Telecommunication Union (u.å.) *IMT towards 2030 and beyond (IMT-
 Madsen, D.Ø., Slåtten, K. & Berg, T. (2025) ‘From Industry 4.0 to Industry 6.0: Tracing the Evolution of Industrial Paradigms Through the Lens of Management Fashion Theory’, *Systems*, 13(5), 387. Tillgänglig på: https://doi.org/10.3390/systems13050387 (Hämtad 2026-11-10). *(Vetenskaplig analys av hur Industry 4.0–6.0-begreppen växer fram, sprids och får status som framtidsvisioner; särskilt relevant för att nyansera Industry 6.0.)*
 
 OECD (2022) *OECD Framework for the Classification of AI Systems*. OECD Digital Economy Papers, No. 323. Paris: OECD Publishing. Tillgänglig på: https://doi.org/10.1787/cb6d9eca-en (Hämtad 2026-11-10). *(Ger en flerdimensionell metod för att klassificera AI-system efter bland annat sammanhang, data, modell och uppgift/resultat.)*
+
+Shivshankar, S., Kar, P. & Acharya, N. (2025) ‘Reimagining Wireless: A Literature Review of the 6G Cyber-Physical Continuum’, *Telecom*, 6(4), 91. Tillgänglig på: https://doi.org/10.3390/telecom6040091 (Hämtad 2026-11-10). *(Översikt över 6G-forskning och prognosen om möjlig kommersiell användning omkring 2030; stödjer att denna del är en nätverksprognos, inte en daterad industriperiod.)*
 
 OECD (2024) *Explanatory Memorandum on the Updated OECD Definition of an AI System*. OECD Artificial Intelligence Papers, No. 8. Paris: OECD Publishing. Tillgänglig på: https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/03/explanatory-memorandum-on-the-updated-oecd-definition-of-an-ai-system_3c815e51/623da898-en.pdf (Hämtad 2026-11-10). *(Förklarar olika AI-uppgifter, där innehållsgenerering är en kategori bland flera, exempelvis igenkänning, prognoser och optimering.)*
