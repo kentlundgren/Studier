@@ -1,7 +1,7 @@
 <a id="ref-sou-2025-12"></a>
 # AI-kommissionens Färdplan för Sverige – samsyn, meningsskiljaktigheter och kopplingar till EU:s AI Act
 
-↩ [Till kursens samlade litteraturkarta](../litteraturlista.md#ref-sou-2025-12)
+↩ [Till kursens samlade litteraturkarta](../../litteratur/litteraturlista.md#ref-sou-2025-12)
 
 **Underlag och datum:** hela rapporten [AI-kommissionen (2025)](https://www.regeringen.se/contentassets/7b80c90b74b04902afbb800bea581c9b/ai-kommissionens-fardplan-for-sverige-sou-202512.pdf), SOU 2025:12 (168 sidor), publicerade remissvar och läget den 10 november 2026. Färdplanen presenterades 26 november 2024 och publicerades som SOU i februari 2025. Själva färdplanen ingår som bilaga 2 i betänkandet.
 
@@ -15,13 +15,13 @@ Det blir särskilt användbart när analysen ska hållas uppdaterad: färdplanen
 
 ### Så söker du i rapporten
 
-PDF-filen har ett textlager: det gick att extrahera text från alla 168 sidor. I en PDF-läsare kan du därför normalt använda **Ctrl+F** för att söka efter exempelvis ”AI-verkstad”, ”datadelning” eller ”kompetens”. Jag har dessutom skapat en UTF-8-textversion med sidmarkörer: [SOU 2025:12 – sökbar fulltext](ai_kommissionens_fardplan_sou_2025_12_sokbar.txt). Den fungerar bra för textsökning i Cursor, VS Code och andra verktyg som söker i filer.
+PDF-filen har ett textlager: det gick att extrahera text från alla 168 sidor. I en PDF-läsare kan du därför normalt använda **Ctrl+F** för att söka efter exempelvis ”AI-verkstad”, ”datadelning” eller ”kompetens”. Jag har dessutom skapat en UTF-8-textversion med sidmarkörer: [SOU 2025:12 – sökbar fulltext](../../litteratur/More/ai_kommissionens_fardplan_sou_2025_12_sokbar.txt). Den fungerar bra för textsökning i Cursor, VS Code och andra verktyg som söker i filer.
 
 Textfilen är ett sökhjälpmedel framställt automatiskt från PDF:en. Radbrytningar och läsordning kan ibland bli mindre snygga, så använd alltid PDF:en som original när du kontrollerar citat, tabeller eller sidnummer. Att PDF:en går att söka med Ctrl+F är säkrare än att räkna med att Windows indexerar PDF-innehållet i Utforskaren.
 
 **Rapportens tre versioner/läsingångar:**
 - Formell PDF från Regeringskansliet (168 s.): https://www.regeringen.se/contentassets/7b80c90b74b04902afbb800bea581c9b/ai-kommissionens-fardplan-for-sverige-sou-202512.pdf
-- Lokal projektkopia: [ai-kommissionens-fardplan-for-sverige-sou-202512.pdf](../ai-kommissionens-fardplan-for-sverige-sou-202512.pdf)
+- Lokal projektkopia: [ai-kommissionens-fardplan-for-sverige-sou-202512.pdf](../../litteratur/ai-kommissionens-fardplan-for-sverige-sou-202512.pdf)
 - GitHub-kopian: https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/litteratur/ai-kommissionens-fardplan-for-sverige-sou-202512.pdf
 
 ## Fem områden med bred samsyn
@@ -54,7 +54,7 @@ Punkterna nedan är högsalienta skiljelinjer i de dokumenterade yttrandena, int
 
 ## Fem intressanta kopplingar mellan Färdplanen och EU:s AI Act
 
-AI Act är EU:s bindande och riskbaserade regelverk. Den svenska färdplanen är en nationell strategi- och investeringsagenda. För aktuell rättslig lydelse behöver 2024 års ursprungstext läsas tillsammans med 2026 års ändring; använd [den konsoliderade svenska AI Act-texten i EUR-Lex](https://eur-lex.europa.eu/legal-content/SV/TXT/HTML/?uri=CELEX:02024R1689-20260727) och kursens [AI Act-analysfil](../ai_act_2024_analys.md#ref-ai-act-2024).
+AI Act är EU:s bindande och riskbaserade regelverk. Den svenska färdplanen är en nationell strategi- och investeringsagenda. För aktuell rättslig lydelse behöver 2024 års ursprungstext läsas tillsammans med 2026 års ändring; använd [den konsoliderade svenska AI Act-texten i EUR-Lex](https://eur-lex.europa.eu/legal-content/SV/TXT/HTML/?uri=CELEX:02024R1689-20260727) och kursens [AI Act-analysfil](ai_act_2024_analys.md#ref-ai-act-2024).
 
 1. **Svenskt ledarskap inom en gemensam europeisk spelplan.** Färdplanen vill att Sverige bygger egen kapacitet och driver EU-frågor aktivt. AI Act harmoniserar samtidigt centrala produkt- och användningsregler och bygger på nationella myndigheter plus EU-samordning. Den intressanta balansfrågan är hur Sverige kan ha en tydlig AI-strategi utan att skapa parallella eller motstridiga krav för företag och myndigheter.
 

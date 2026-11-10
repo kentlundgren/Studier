@@ -1,7 +1,7 @@
 <a id="ref-ai-act-2024"></a>
 # EU:s AI Act – gemensamma principer, omstridda vägval och frågor som växt sedan 2024
 
-↩ [Till kursens samlade litteraturlista](litteraturlista.md#samlad-litteratur)
+↩ [Till kursens samlade litteraturlista](../../litteratur/litteraturlista.md#samlad-litteratur)
 
 **Underlag:** AI Act (förordning (EU) 2024/1689), inklusive den svenska EUR-Lex-texten och kursens PDF-kopia.  
 **Aktualitetsdatum:** 9 november 2026  
@@ -28,7 +28,7 @@ Punkterna nedan är ändringar som antogs genom AI Omnibus, inte bara förslag e
 
 Kommissionens översikt beskriver dessa som en kombination av tidsförlängning, förenkling och förtydliganden samtidigt som grundläggande skydd ska finnas kvar ([Europeiska kommissionen (2026a)](https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force)). För kursbruk: skilj alltid mellan **antagen ändring**, **datum då den börjar tillämpas** och **kommissionens vägledning eller ännu inte antagna förslag**.
 
-**Korslänk:** [↩ Till AI Act-posten och den samlade litteraturlistan](litteraturlista.md#ref-ai-act-2024).
+**Korslänk:** [↩ Till AI Act-posten och den samlade litteraturlistan](../../litteratur/litteraturlista.md#ref-ai-act-2024).
 
 ## 1. Fem områden med bred samsyn
 

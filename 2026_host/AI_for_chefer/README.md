@@ -43,11 +43,11 @@ Godkänt krävs VG på båda.
 - `kursplattform/` – skärmbild från kursens Canvas-plattform: [AI101A HT26 i Canvas](kursplattform/kursplattform.jpg).
 - [`litteratur/`](litteratur/) – litteratur, källor och analyser:
   - [Litteraturkarta](litteratur/litteraturlista.md) – Harvardreferenser, länkar, relevansnoteringar och sammanfattningar.
-  - [AI Act: 2024 års regler och ändringarna 2026](litteratur/ai_act_2024_analys.md) – bland annat Digital Omnibus, konsensusområden, omstridda vägval och nya frågor.
-  - [AI-kommissionens Färdplan för Sverige – analys](litteratur/More/ai_kommissionens_fardplan_analys.md) – samsyn, remissperspektiv och kopplingar till EU:s AI Act.
+  - [AI Act: 2024 års regler och ändringarna 2026](Analys/litteratur/ai_act_2024_analys.md) – bland annat Digital Omnibus, konsensusområden, omstridda vägval och nya frågor.
+  - [AI-kommissionens Färdplan för Sverige – analys](Analys/litteratur/ai_kommissionens_fardplan_analys.md) – samsyn, remissperspektiv och kopplingar till EU:s AI Act.
   - [SOU 2025:12 – lokal PDF-kopia](litteratur/ai-kommissionens-fardplan-for-sverige-sou-202512.pdf) · [formell PDF från Regeringskansliet](https://www.regeringen.se/contentassets/7b80c90b74b04902afbb800bea581c9b/ai-kommissionens-fardplan-for-sverige-sou-202512.pdf).
   - [Sökbar fulltext med sidmarkörer](litteratur/More/ai_kommissionens_fardplan_sou_2025_12_sokbar.txt) – automatisk textutvinning; använd PDF:en för kontroll av citat och sidnummer.
-  - [Floridi och frågan om AI-medvetande](litteratur/More/floridi_ai_medvetande.md) – vidareutveckling och källkritisk granskning av svaret från Floridi Agent.
+  - [Floridi och frågan om AI-medvetande](Analys/litteratur/floridi_ai_medvetande.md) – vidareutveckling och källkritisk granskning av svaret från Floridi Agent.
   - [Bifogat svar från Floridi Agent](litteratur/More/Hur_vet_man_om_AI_generativ_A_response.md).
 - `delprov1-vindkraftskalkyler/` – arbete med analys av ett AI-tillämpningsområde.
 - `delprov2-handlingsplan/` – arbete med handlingsplan för Skånes vindkraftsakademi.

@@ -2,7 +2,7 @@
 # Kan vi avgöra om AI har medvetande?
 ## Vidareutveckling av svaret från Luciano Floridi Agent
 
-↩ [Till Floridi i kursens samlade litteraturlista](../litteraturlista.md#ref-floridi-2023)
+↩ [Till Floridi i kursens samlade litteraturlista](../../litteratur/litteraturlista.md#ref-floridi-2023)
 
 **Underlag:** Din fråga, skärmbilden och den inklistrade texten om medvetande, Turingtestet och Floridis ”knowledge game”. Jag har inte hittat en separat medvetandeanalys i GitHub-projektmappen; därför har jag skapat denna fil utifrån det material du bifogade.
 

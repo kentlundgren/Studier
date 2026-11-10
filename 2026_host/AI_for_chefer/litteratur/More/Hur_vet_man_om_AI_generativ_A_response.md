@@ -1,4 +1,4 @@
-↩ [Till fördjupningen om AI-medvetande](floridi_ai_medvetande.md#ref-floridi-2023) · [Till kursens litteraturkarta](../litteraturlista.md#ref-floridi-2023)
+↩ [Till fördjupningen om AI-medvetande](../../Analys/litteratur/floridi_ai_medvetande.md#ref-floridi-2023) · [Till kursens litteraturkarta](../../litteraturlista.md#ref-floridi-2023)
 
 # Hur vet man om AI, generativ AI, har ett medvetande? Finns det något "test", någon fråga, som man kan göra, ställa, till en AI-modell, för att klargöra om modellen har egna tankar, ett medvetande?
 
