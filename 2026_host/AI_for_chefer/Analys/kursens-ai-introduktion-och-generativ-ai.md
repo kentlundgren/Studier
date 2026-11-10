@@ -90,6 +90,39 @@ Det här perspektivet passar direkt i AI-inventeringen om vindkraftskalkylen, s�
 - Ska AI-inventeringen omfatta alla AI-typer i verksamheten, eller avgränsas uppgiften till generativ AI?
 - Hur bör vi skilja mellan arbetsuppgifter som AI stödjer, uppgifter som automatiseras och beslut där en människa fortfarande har ansvar?
 
+<a id="roi-ai-nytta"></a>
+
+## ROI: avkastning i förhållande till investering
+
+Bilden ställer tre frågor: **Avkastning? ROI? What’s in it for me?** Den signalerar att AI inte bör införas enbart för att tekniken finns; verksamheten behöver kunna förklara vilken nytta en investering ska ge och för vem.
+
+ROI (Return on Investment) jämför ekonomisk avkastning med investerat kapital. Ett vanligt uttryck är nettoavkastning dividerad med investeringens kostnad, gånger 100. För att jämförelsen ska gå att tolka behöver man ange vad som räknas som avkastning och kostnad, vilken period man mäter och vilket utgångsläge man jämför med. Olika verksamheter kan redovisa ROI på olika sätt ([U.S. Energy Information Administration, u.å.](https://www.eia.gov/finance/performanceprofiles/terms.php)).
+
+### Vad behöver räknas med?
+
+- **Kostnader:** licenser och användning, arbetstid för införande, datakvalitet, integration, utbildning, granskning, säkerhet, förvaltning och uppdateringar.
+- **Möjliga ekonomiska nyttor:** minskade kostnader, mer intäkter eller kapacitet som faktiskt används till värdeskapande arbete.
+- **Andra verksamhetsvärden:** kvalitet, kortare handläggningstid, färre fel, bättre beslutsunderlag, tillgänglighet eller nöjdare användare. Dessa kan vara viktiga även om de inte enkelt blir kronor i en ROI-beräkning.
+- **Tid och jämförelse:** skilj mellan förväntad och realiserad nytta. Jämför med en baslinje eller ett rimligt alternativ utan AI och följ upp efter en angiven tid.
+
+Sparad arbetstid är inte automatiskt en besparing. Om en AI-funktion frigör fem timmar men ingen kostnad minskar och tiden inte används till något annat värdefullt, är det ännu inte visat att verksamheten fått ekonomisk avkastning. Det kan ändå vara en användbar kapacitets- eller arbetsmiljöförbättring; den bör då mätas som sådan och inte räknas som en kontant besparing.
+
+### ”What’s in it for me?” – för vem uppstår värdet?
+
+Frågan bör ställas från flera perspektiv: ledning och ägare, medarbetare, kunder och andra som påverkas. En investering kan ge ekonomisk nytta för organisationen men samtidigt förändra arbetsbelastning, kompetenskrav eller kontroll över arbetet. Det är därför viktigt att redovisa vem som får nyttan, vem som bär kostnaden och vilka risker som följer med införandet.
+
+### Tillämpning på vindkraftskalkylen
+
+I analysen av [AI-inventeringen för vindkraftskalkylen](../delprov1-vindkraftskalkyler/ai-inventering-vindkraftskalkyler-utkast.md) kan nyttan undersökas med ett litet antal tydliga mått, utan att på förhand anta att AI ger positiv ROI:
+
+- tid för att uppdatera och kontrollera kalkylens antaganden,
+- fel som upptäcks i formler, källor eller tolkningar,
+- användarnas förståelse av beräkningsmetod och resultat,
+- kostnad för AI-verktyg, granskning, underhåll och uppdatering,
+- om frigjord tid faktiskt används till en definierad uppgift med värde.
+
+För ett AI-stöd som förklarar ersättning till närboende kan ekonomisk avkastning vara svår att fånga ensam. Begriplighet, spårbarhet och minskad risk för missförstånd kan också vara relevanta resultat. De bör mätas separat och inte döljas bakom ett enda ROI-tal.
+
 <a id="svea-drivkraft-ai-2026"></a>
 
 ## Nytt kursmaterial: affärsnytta och AI-användning i svenska företag
@@ -128,3 +161,4 @@ OECD (2024) *Explanatory Memorandum on the Updated OECD Definition of an AI Syst
 Shivshankar, S., Kar, P. & Acharya, N. (2025) ‘Reimagining Wireless: A Literature Review of the 6G Cyber-Physical Continuum’, *Telecom*, 6(4), 91. Tillgänglig på: https://doi.org/10.3390/telecom6040091 (Hämtad 2026-11-10). *(Översikt över 6G-forskning och prognosen om möjlig kommersiell användning omkring 2030; stödjer att denna del är en nätverksprognos, inte en daterad industriperiod.)*
 
 Svea Bank (2026) *Drivkraft: AI 2026*. Tillgänglig på: https://www.svea.com/sv-se/foretag/finansiering/drivkraft-ai (Hämtad 2026-11-10). *(Rapportsida med uppgifter om AI-användning bland företag och beskrivning av Novusundersökningens urval och genomförande; används här för att skilja mätning från förväntningar.)*
+U.S. Energy Information Administration (u.å.) *Financial and Performance Management: Terms*. Tillgänglig på: https://www.eia.gov/finance/performanceprofiles/terms.php (Hämtad 2026-11-10). *(Definition av avkastning på investering som resultat i förhållande till investerat kapital; används för att förklara ROI-grundbegreppet.)*
