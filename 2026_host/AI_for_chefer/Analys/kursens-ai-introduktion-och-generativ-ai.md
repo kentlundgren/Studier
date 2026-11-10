@@ -354,6 +354,14 @@ Detta är en användbar förenklad hierarki för att förstå kursens begrepp. E
 
 Uttrycket ”i det stora hela” gör därför båda alternativen relevanta, eftersom de beskriver olika delar av processen. En kort sammanfattning är: **människor bidrar med data, urval och återkoppling; datorer genomför träningsberäkningarna.** Modellen tränas inte nödvändigtvis på allt som finns på internet. Exempel på dokumenterad träning använder ett urval av datakällor, och senare finjustering kan använda mänskligt skrivna exempel och bedömningar (Brown et al., 2020; Ouyang et al., 2022).
 
+### Fråga 13: övervakad och oövervakad inlärning
+
+**Frågan:** Vad kännetecknar övervakad respektive oövervakad inlärning (*supervised* och *unsupervised learning*)? Skärmbilden visar två matchningar: en träning med ostrukturerad information och en träning med ett slags ”facit”.
+
+**Rätt matchning:** *Oövervakad inlärning* kopplas till den första beskrivningen: modellen tränas på data utan facit eller etiketter och söker efter mönster eller grupperingar. *Övervakad inlärning* kopplas till den andra: modellen tränas med exempel där önskat svar eller etikett finns angivet.
+
+Det är en pedagogisk förenkling att likställa oövervakad inlärning med ”ostrukturerad information”. Den avgörande skillnaden är om träningsmaterialet har etiketter/facit, inte om data i vardaglig mening är strukturerad. På skärmbilden ser dessutom båda raderna ut att ha etiketten *Övervakad inlärning*; den första bör rimligen stå som *Oövervakad inlärning*. Därför verkar själva matchningarna vara rätt, men rubriken på första raden kan vara ett skrivfel.
+
 
 ## Källförteckning
 Vaswani, A. et al. (2017) ‘Attention Is All You Need’, *Advances in Neural Information Processing Systems*, 30. Tillgänglig på: https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf (Hämtad 2026-11-10). *(Originalartikeln som introducerar Transformerarkitekturen och beskriver self-attention mellan positioner i en sekvens.)*
