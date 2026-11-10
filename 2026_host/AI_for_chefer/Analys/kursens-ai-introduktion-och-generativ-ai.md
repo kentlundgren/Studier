@@ -239,6 +239,14 @@ Det är också bra att hålla isär två betydelser:
 
 Kopplingen till Industry 6.0 är därför möjlig men inte automatisk. 6G är en kommunikationsinfrastruktur; Industry 6.0 är en bredare industriell framtidsvision. Varken den ena termen bevisar att den andra redan har inträffat. För din vindkraftsanalys är 6G främst en omvärlds- och framtidsfråga: beräkning av intäktsdelning kräver inte i sig 6G, även om framtida uppkopplade vindkraftsparker kan använda avancerad nätverksinfrastruktur för sensorer, övervakning och styrning.
 
+<a id="deltagarnas-forvantningar"></a>
+
+## Kursstart: varför går vi kursen och vad vill vi få ut av den?
+
+Kursledningen har öppnat en Canvas-diskussion med frågan **”Varför går du denna kurs? Och vad vill du ha ut av kursen?”**. Charlotte Sennersten skriver att hon är nyfiken på varför AI kan vara intressant för deltagarna och vad de hoppas få ut av kursen. Svaren ska också hjälpa henne att se vad kursen bör rikta presentationer och ämnen mot för att deltagarna ska få så mycket som möjligt av undervisningen.
+
+Diskussionen är markerad som delvis anonym och har enligt skärmbilden öppet 10–22 november 2026. Det kan bli intressant att senare läsa vilka motiv och förväntningar som finns i gruppen och jämföra dem med kursens innehåll. Än så länge är detta en anteckning om frågan och kursledningens syfte; deltagarnas svar har inte sammanställts här.
+
 ## Källförteckning
 
 Google (u.å.) *NotebookLM Help*. Tillgänglig på: https://support.google.com/notebooklm/ (Hämtad 2026-11-10). *(Officiell hjälpsida för NotebookLM; stöd för att beskriva verktyget och dess hantering av källmaterial.)*
