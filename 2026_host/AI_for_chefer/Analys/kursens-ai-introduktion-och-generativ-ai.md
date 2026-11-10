@@ -249,11 +249,35 @@ Diskussionen är markerad som delvis anonym och har enligt skärmbilden öppet 1
 
 <a id="quiz-1-generativ-ai"></a>
 
-## Quiz 1: ”Vad är Generativ AI?”
+## Analys av quiz 1: ”Vad är Generativ AI?”
 
-Den 10 november 2026 startade Kent det första quizet i kursen, med titeln **”Vad är Generativ AI?”**. I instruktionen beskriver kursledningen quizet som ett stöd före eller efter läsningen av kurslitteraturen.
+Den 10 november 2026 startade Kent det första quizet i kursen, med titeln **”Vad är Generativ AI?”**. Kursledningen presenterar quizet som ett stöd för läsningen av kurslitteraturen – det kan göras före eller efter läsningen.
 
-Den första frågan på skärmbilden säger att AI har en lång historia före det breda genombrottet för generativ AI 2023 och frågar vilka två forskare som under 1940-talet formulerade en matematisk modell inspirerad av hur nervceller fungerar. Det historiskt avsedda svaret är **Warren McCulloch och Walter Pitts**, som publicerade sin matematiska/logiska modell av nervaktivitet 1943 ([McCulloch & Pitts, 1943](https://doi.org/10.1007/BF02478259)). Skärmbilden visar att **Alan Turing och Marvin Minsky** var markerat när bilden togs; den visar inte om svaret sedan skickades in eller ändrades.
+### Första frågan och det historiska svaret
+
+Frågan på skärmbilden säger att AI har en lång historia före det breda genombrottet för generativ AI 2023. Den frågar efter två forskare som på 1940-talet formulerade en matematisk modell inspirerad av hur nervceller fungerar. Det avsedda svaret är **Warren McCulloch och Walter Pitts**, vars artikel om en logisk/matematisk modell av nervaktivitet publicerades 1943 ([McCulloch & Pitts, 1943](https://doi.org/10.1007/BF02478259)).
+
+Skärmbilden visar att **Alan Turing och Marvin Minsky** var markerat när den togs. Den visar inte om svaret sedan skickades in eller ändrades. Turing och Minsky är båda viktiga i AI:s historia, men de är inte författarna till den modell som beskrivs i frågan.
+
+### Vad quizfrågan vill göra
+
+Frågan hjälper till att placera AI i en längre idé- och forskningstradition. Generativ AI blev mycket synlig för allmänheten kring 2022–2023, men AI som forskningsfält och arbetet med matematiska modeller av neuroner är betydligt äldre. Det motverkar en förenklad berättelse där AI skulle ha börjat med moderna chattbottar.
+
+Samtidigt behöver två påståenden hållas isär:
+
+- **AI har en lång förhistoria och utvecklingshistoria.** Frågan illustrerar detta med McCulloch och Pitts modell från 1943.
+- **Generativ AI fick ett brett och nytt genomslag under 2020-talet.** Det handlar om moderna modeller, skalning och tillgängliga verktyg, inte om att generativ AI eller AI som idé uppstod just 2023.
+
+### En precisering av formuleringen
+
+Uttrycket ”Generativ AI … slog igenom 2023” fungerar som en kort beskrivning av det breda publika genomslaget, men det kan låta som om tekniken eller forskningsområdet uppstod då. Det är tydligare att tala om **det breda genombrottet eller den snabba spridningen av moderna generativa AI-tjänster**, samtidigt som man anger att deras idéhistoriska och tekniska rötter är äldre.
+
+Även formuleringen att McCulloch och Pitts beskrev hur ”matematik och maskiner kan efterlikna nervceller” bör förstås som en abstrakt matematisk modell, inte som att de byggde en modern lärande AI eller en realistisk kopia av en biologisk hjärna. Det är en viktig skillnad mellan tidiga teoretiska modeller och dagens neurala nätverk.
+
+### Samlad bedömning
+
+Som första quizfråga fungerar detta väl för att öppna ett historiskt perspektiv: dagens generativa verktyg står på en lång utvecklingslinje. Den pedagogiska poängen blir starkast om kursen samtidigt skiljer mellan **AI som brett forsknings- och teknikfält**, **neurala nätverk som en familj av metoder** och **generativ AI som system som skapar nytt innehåll**. Frågan testar främst historisk orientering; den säger ännu inte i sig hur moderna generativa modeller fungerar.
+
 
 ## Källförteckning
 
