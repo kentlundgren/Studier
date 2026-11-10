@@ -397,6 +397,28 @@ Samtidigt visar den bredare statistiken en annan sida. Eurostat redovisar att **
 
 En mer precis fråga kunde exempelvis be om vilka delar en AI-strategi behöver omfatta – verksamhetsmål och prioriterade användningsfall, ansvar och styrning, data och teknik, kompetens samt riskhantering och uppföljning. Utifrån den skärmbild som finns går det därför att ange **True som sannolikt avsett**, men inte att säkert veta exakt hur quizförfattaren formulerat det underförstådda påståendet.
 
+### Fråga 18: Andrew Ngs ”The Virtuous Cycle of AI”
+
+**Frågan:** Vad innebär Andrew Ngs modell ”The Virtuous Cycle of AI”? Raderna är *Bättre produkter/Produkten*, *Fler användare* och *Mer data*. I skärmbilden syns tre alternativ:
+
+- ”När AI används för att förbättra funktioner och individanpassa upplevelsen blir … mer relevant och tilltalande.”
+- ”AI-modeller lär sig av … och blir bättre på att förstå mönster, förutsäga beteenden och fatta beslut.”
+- ”När AI används och … loggas visar data hur människor använder den/det.”
+
+**Mest rimlig matchning av de tre alternativen:**
+
+| Quizrad | Alternativ | Samband |
+|---|---|---|
+| **Bättre produkter/Produkten** | ”AI-modeller lär sig av … och blir bättre på att förstå mönster, förutsäga beteenden och fatta beslut.” | Mer och användbar data kan förbättra modellens resultat och därmed produkten. |
+| **Fler användare** | ”När AI används för att förbättra funktioner och individanpassa upplevelsen blir … mer relevant och tilltalande.” | En mer relevant och attraktiv produkt kan locka fler användare. |
+| **Mer data** | ”När AI används och … loggas visar data hur människor använder den/det.” | Användning och interaktioner kan ge data om hur produkten används. |
+
+Tillsammans bildar alternativen loopen **data → bättre modell och produkt → fler användare → mer användningsdata**. Det är samma kärna som i mina tidigare, mer generella formuleringar. Dina alternativ gör sambanden mer konkreta genom att beskriva modellförbättring, individanpassning och loggad användning. De är dock inte helt fristående: det första alternativet om en mer relevant produkt förklarar också varför fler användare kan tillkomma, medan alternativet om modellinlärning beskriver hur data kan förbättra produkten. Tabellen visar därför den mest rimliga fördelningen mellan de tre raderna, snarare än tre helt separata definitioner.
+
+**Varför heter modellen ”Ng”?** ”Ng” är Andrew Ngs efternamn. Modellen kallas så eftersom han presenterar och beskriver den som *The Virtuous Cycle of AI* i sin *AI Transformation Playbook*. ”Ng” är alltså inte en förkortning eller ett namn på en särskild algoritm. Playbooken illustrerar kretsloppet med en bättre produkt, fler användare och mer data, och tar sökmotorer som exempel ([Ng, 2018](https://assets.landing.ai/content/uploads/2018/12/AI-Transformation-Playbook-v8.pdf)).
+
+**Viktig begränsning:** fler användare och mer data leder inte automatiskt till en bättre produkt. Datan behöver vara relevant, tillräckligt god och användas på ett ansvarsfullt sätt. En organisation behöver också ha möjlighet att omsätta lärdomarna i faktiska produktförbättringar.
+
 ## Källförteckning
 Vaswani, A. et al. (2017) ‘Attention Is All You Need’, *Advances in Neural Information Processing Systems*, 30. Tillgänglig på: https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf (Hämtad 2026-11-10). *(Originalartikeln som introducerar Transformerarkitekturen och beskriver self-attention mellan positioner i en sekvens.)*
 
@@ -445,3 +467,5 @@ Deloitte (2025) ‘Adopting and scaling GenAI: What can the Nordics learn from E
 Eurostat (2025) ‘20% of EU enterprises use AI technologies’, 11 december. Tillgänglig på: https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20251211-2 (Hämtad 2026-11-10). *(Officiell jämförelse av företagens AI-användning i EU 2025; visar Sverige bland de högsta länderna och beskriver vilka AI-tekniker som ingår.)*
 
 Statistiska centralbyrån (SCB) (2026) ‘AI-användningen breddas i näringslivet och växer i befolkningen’, 21 maj. Tillgänglig på: https://www.scb.se/hitta-statistik/statistik-efter-amne/forskning-och-det-digitala-samhallet/ovrigt/artificiell-intelligens-i-sverige/pong/statistiknyhet/artificiell-intelligens-i-sverige-2026/ (Hämtad 2026-11-10). *(Sveriges officiella statistik om företagens AI-användning 2025; kompletterar attitydundersökningarna med faktisk användning.)*
+
+Ng, A. (2018) *AI Transformation Playbook*. Landing AI. Tillgänglig på: https://assets.landing.ai/content/uploads/2018/12/AI-Transformation-Playbook-v8.pdf (Hämtad 2026-11-10). *(Andrew Ngs egen playbook presenterar modellen ”The Virtuous Cycle of AI” och förklarar sambandet mellan bättre produkt, fler användare och mer data.)*
