@@ -419,6 +419,62 @@ Tillsammans bildar alternativen loopen **data → bättre modell och produkt →
 
 **Viktig begränsning:** fler användare och mer data leder inte automatiskt till en bättre produkt. Datan behöver vara relevant, tillräckligt god och användas på ett ansvarsfullt sätt. En organisation behöver också ha möjlighet att omsätta lärdomarna i faktiska produktförbättringar.
 
+<a id="resultatanalys-av-forsta-quizforsoket"></a>
+
+## Resultatanalys av första quizförsöket
+
+### Resultatet i korthet
+
+Skärmbilden från Canvas visar **15,3 av 19 poäng**, alltså cirka **80,5 procent**, efter 97 minuter. Sju frågor fick delpoäng: 3, 4, 6, 8, 12, 18 och 19. De övriga tolv verkar därmed ha gett full poäng. Mönstret tyder på att grunderna ofta satt, medan flervalsfrågor med flera möjliga svar och matchningsfrågor var svårare att tolka.
+
+Canvas-resultaten visar hur svaret bedömdes, men inte i sig hela facit. För delpoängsfrågorna går det därför att dra vissa slutsatser om svaren, men inte alltid att slå fast exakt vilka alternativ som skulle ha valts.
+
+### Fråga 3 – neurala nätverk (0,67/1)
+
+Du markerade **”Känna igen mönster i data”** och **”Lära från stora mängder data och klassificera denna data”**. Båda passar med neurala nätverks vanliga användningar. Delpoängen visar att ditt svar inte motsvarade hela det poänggivande mönstret. Det kan betyda att ett ytterligare alternativ också skulle ha gett poäng, eller att bedömningen använder en särskild poängregel. Ett möjligt alternativ är att modellen kan bidra till beslut med sina utdata, men det beror på hur quizet menar med ”fatta beslut”: en modell kan ge en klassificering eller rekommendation, medan beslut och ansvar i en verksamhet också beror på systemets utformning och människors roller. Skärmbilden visar inte facit, så detta förblir en möjlighet, inte en säker rättning.
+
+### Fråga 4 – begreppsmatchning (0,75/1)
+
+Du fick tre fjärdedelar av poängen. Det visar att många matchningar var godtagna, men inte exakt vilka som var fel. De tydligaste kopplingarna var generativ AI–innehållsskapande, prompt–instruktion, text–språkmodell, bild–bildgenerator, kod–kodgenerator och användare–fråga/svar. Kopplingarna **träningsdata–datamodell** och **algoritm–beräkning** är mer indirekta: data används för att träna en modell, och en algoritm är en uppsättning steg som utförs genom beräkning. De två kan därför vara ställen att granska, men poängen ensam avslöjar inte facit.
+
+### Fråga 6 – Minskys invändning (0,33/1)
+
+Du valde alternativet om att ML-modeller kan lära statistiska mönster utan att nödvändigtvis förstå informationens betydelse. Det är en rimlig sammanfattning av en återkommande kritik mot sådana system. Poängen **0,33** betyder att svaret bara fick en del av poängen. Det gör att den tidigare slutsatsen att endast detta alternativ skulle vara rätt var för säker. Frågan kan ha gett poäng för fler alternativ, eller så använder quizet en poängregel där val och utelämnade svar påverkar resultatet. Skärmbilden visar inte tillräckligt för att avgöra vilket. Dessutom blandar svarsalternativen argument från olika tider i Minskys arbete, vilket gör frågan historiskt svårtolkad.
+
+### Fråga 8 – self-attention (0,33/1)
+
+Du markerade **”Vilka delar av texten är viktigast att fokusera på.”** Den formuleringen är en förenklad men användbar beskrivning av uppmärksamhetsmekanismen. Delpoängen visar dock att det inte gav full utdelning. Alternativet om vilka ord som hänger ihop kan också ligga nära hur self-attention väger relationer mellan token. Formuleringen om kontext kan beskriva en effekt av mekanismen. Utan facit går det inte att veta vilka av dessa formuleringar kursledningen räknar som rätt. Frågan är svår eftersom flera svar kan beskriva olika aspekter av samma mekanism, trots att de inte uttrycker exakt samma sak.
+
+### Fråga 12 – metoder kopplade till generativ AI (0,5/1)
+
+Du markerade **övervakad och oövervakad träning** samt **finjustering och förstärkningsinlärning**. Alla dessa är relevanta träningsbegrepp. RAG används ofta tillsammans med generativ AI för att hämta extern information när ett svar skapas, men är i sig inte en träningsmetod. Transformermodell och temperatur handlar snarare om modellarkitektur respektive hur utdata genereras. Halv poäng visar att ditt val inte helt matchade quizets poängsättning. Det kan bero på att ytterligare ett alternativ förväntades eller på hur svaren poängsätts; skärmbilden visar inte vilket.
+
+### Fråga 18 – ”The Virtuous Cycle of AI” (0/1)
+
+Ditt försök använde följande ordning: **Bättre produkter → modeller lär sig av data**, **Fler användare → produkten blir mer relevant och tilltalande**, **Mer data → loggad användning visar hur människor använder produkten**. Det gav noll poäng. Det innebär att min tidigare föreslagna matchning var fel i förhållande till quizets facit; den bör inte återanvändas.
+
+Utifrån ordalydelsen är denna alternativa fördelning mer sannolik:
+
+- **Bättre produkter/Produkten:** ”När AI används för att förbättra funktioner och individanpassa upplevelsen blir … mer relevant och tilltalande.”
+- **Fler användare:** ”När AI används och … loggas visar data hur människor använder den/det.”
+- **Mer data:** ”AI-modeller lär sig av … och blir bättre på att förstå mönster, förutsäga beteenden och fatta beslut.”
+
+Denna matchning binder varje rad till det alternativ som tydligast beskriver just den kategorin: produktens förbättring, användares interaktioner och data som lärandematerial. Den bakomliggande återkopplingsloopen går sedan från bättre produkt till fler användare, vidare till mer data och tillbaka till en bättre produkt. Den nya ordningen är en välgrundad rättningshypotes utifrån nollpoängen och textfragmenten, men facit visas inte i resultatbilden.
+
+### Fråga 19 – aktör, utmaning och lösningsdelar (0,71/1)
+
+Du fick **0,71 poäng**, vilket motsvarar ungefär fem av sju matchningar om poängen fördelas jämnt per rad. Aktör–**Företag/Organisation**, teknisk lösning–**RAG och språkmodell**, resultat–**”Mentorn”/maskeringstjänst** samt lärdomar–**datakvalitet och mänskliga faktorer** ser fortsatt rimliga ut. Skärmbilden avslöjar däremot inte vilka två matchningar som saknade poäng. De två rader som framför allt bör kontrolleras mot facit är **Utmaning**, **Lösning** och **Arbetsmetod**, eftersom deras beskrivningar överlappar: ett användningsområde i hemtjänsten kan beskriva lösningen eller sammanhanget, medan samarbete mellan teknik och verksamhet tydligare låter som arbetsmetod. Det går inte att säkert peka ut exakt fel rad enbart från totalpoängen.
+
+### Vad försöket lär oss om quizformatet
+
+Delpoängen visar ett återkommande problem: frågor som ser ut att be om en enkel definition kan i själva verket kräva flera kryss eller en bestämd matchning. I några frågor överlappar alternativen dessutom sakligt, eller använder förenklade formuleringar. En bra strategi inför nästa försök är därför att läsa instruktionen extra noga – särskilt om den säger ”välj alla” eller ”matcha” – och skilja mellan:
+
+1. vad begreppet betyder,
+2. vad som ofta är en följd av det,
+3. vilka andra steg som ingår i ett större kretslopp.
+
+Resultatet ska samtidigt inte tolkas som att alla tidigare resonemang om de enskilda frågorna var bekräftade. Framför allt behöver matchningen i fråga 18 rättas, och våra tidigare säkra uttalanden om fråga 6 bör betraktas som preliminära tills facit eller en ny försöksomgång ger mer information.
+
 ## Källförteckning
 Vaswani, A. et al. (2017) ‘Attention Is All You Need’, *Advances in Neural Information Processing Systems*, 30. Tillgänglig på: https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf (Hämtad 2026-11-10). *(Originalartikeln som introducerar Transformerarkitekturen och beskriver self-attention mellan positioner i en sekvens.)*
 
