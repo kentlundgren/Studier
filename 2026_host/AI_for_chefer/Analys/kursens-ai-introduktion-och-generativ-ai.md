@@ -57,6 +57,39 @@ Det behöver inte betyda att kursen saknar fokus på generativ AI. Bilden kan va
 - Är Industry 6.0 och kopplingen till 6G etablerade beskrivningar eller framtidsscenarier? Vilka delar är mest osäkra?
 - Hur ska vi använda den här indelningen i våra egna uppgifter, till exempel när vi analyserar en konkret verksamhetsprocess?
 
+## Den nya bilden: AI som lednings- och systemfråga
+
+Den här bilden breddar introduktionen från AI-områden till hur chefer och ledare kan förstå och styra AI i verksamheten. Den gör en användbar skillnad mellan språkmodeller som en användarnära del av AI och AI som byggs in i programvara, arbetsflöden och andra system. En chattbot eller språkmodell är alltså inte hela lösningen: nyttan och riskerna beror också på data, integrationer, arbetsprocesser, befogenheter och mänsklig uppföljning.
+
+### Mänsklig intelligens, artificiell intelligens och systemintelligens
+
+- **Mänsklig intelligens** kan här användas om människors kunnande, erfarenhet, omdöme, förståelse av sammanhang och ansvar för handlingar och beslut.
+- **Artificiell intelligens** är maskinbaserade system som, utifrån mål och indata, kan dra slutsatser om hur utdata ska skapas. OECD räknar bland annat upp prognoser, innehåll, rekommendationer och beslut som möjliga utdata (OECD, 2024). Generativ AI är alltså en del av AI-området, men långt ifrån hela området.
+- **Systemintelligens** verkar i bilden beteckna den förmåga som uppstår när AI ingår i ett större sociotekniskt system av människor, data, programvara, regler, arbetsuppgifter och uppföljning. Det är en användbar arbetstolkning, men bilden ger ingen definition. I klassificeringar som OECD:s ramverk är detta inte en egen modelltyp jämsides med generativ AI. Kursen bör därför precisera om ”systemintelligens” är ett särskilt begrepp i kursen eller ett sätt att tala om resultatet av samspelet i en verksamhet.
+
+[NIST (2023)](https://doi.org/10.6028/NIST.AI.100-1) behandlar AI-riskhantering på organisationsnivå genom hela livscykeln för AI-system. Det ligger nära bildens poäng att AI-frågor omfattar styrning, risker, användning och uppföljning, inte bara val av modell eller verktyg.
+
+### Ledningsfrågorna i bilden
+
+Bildens gröna ruta flyttar fokus från ”Vilken teknik är detta?” till ”Vad innebär den för verksamheten?” Frågorna om var AI skapar nytta, vilka arbetsuppgifter AI kan stödja eller automatisera, vilka data som används, vem som ansvarar och vilken kompetens och uppföljning som behövs är därför en bra brygga mellan teknisk introduktion och praktisk AI-inventering.
+
+Formuleringen ”stödja, men inte ersätta” kan dock ge intryck av ett enkelt antingen–eller. I praktiken kan AI automatisera vissa moment, stödja andra och lämna ytterligare moment till människor. En användbar analys bryter därför ned en arbetsprocess i uppgifter och frågar för varje uppgift: vad gör systemet, vad gör människan, vem får fatta eller verkställa beslut och hur upptäcks och hanteras fel? OECD:s definition skiljer också mellan utdata som prognoser, rekommendationer och beslut, vilket kan hjälpa till att diskutera hur långt systemet påverkar processen.
+
+### Koppling till vindkraftskalkylen
+
+Det här perspektivet passar direkt i AI-inventeringen om vindkraftskalkylen, särskilt arbetet med intäktsdelning till närboende ([utkastet till Uppgift 1](../delprov1-vindkraftskalkyler/ai-inventering-vindkraftskalkyler-utkast.md)):
+
+- **Mänskligt kunnande:** erfarenhet av vindkraftsekonomi, kalkylens antaganden och vilka frågor styrelsen, medlemmar och andra användare behöver få belysta. [KENT: komplettera med dina egna erfarenheter och prioriteringar.]
+- **AI-funktioner:** möjliga användningar är att hjälpa till att hitta och sammanfatta källor, föreslå kod eller testfall och formulera begripliga förklaringar. [KENT: bekräfta vilka av dessa du faktiskt använder, har testat eller bara överväger.]
+- **Systemet runt AI:** rättskällor och versionshantering, kalkylens beräkningsregler, indata, användargränssnitt, mänsklig granskning och vem som ansvarar för att en uppdatering är korrekt.
+- **En viktig gräns:** om ersättningsbelopp räknas fram med kontrollerbara formler ska språkmodellen inte framställas som den som räknar ut eller fastställer den rättsliga ersättningen. Ett generativt lager kan möjligen hjälpa användaren att förstå metod, antaganden och resultat, men den rollen behöver beskrivas och granskas.
+
+### Frågor att ta med till kursdialogen
+
+- Hur definierar kursen ”systemintelligens”, och hur skiljer det sig från AI-system eller sociotekniska system?
+- Ska AI-inventeringen omfatta alla AI-typer i verksamheten, eller avgränsas uppgiften till generativ AI?
+- Hur bör vi skilja mellan arbetsuppgifter som AI stödjer, uppgifter som automatiseras och beslut där en människa fortfarande har ansvar?
+
 ## Källförteckning
 
 Europeiska kommissionen (u.å.) *Industry 5.0*. Tillgänglig på: https://research-and-innovation.ec.europa.eu/research-area/industrial-research-and-innovation/industry-50_en (Hämtad 2026-11-10). *(Beskriver kommissionens nuvarande inramning av Industry 5.0 som människocentrerad, hållbar och resilient industrivision.)*
@@ -64,6 +97,8 @@ Europeiska kommissionen (u.å.) *Industry 5.0*. Tillgänglig på: https://resear
 International Telecommunication Union (u.å.) *IMT towards 2030 and beyond (IMT-2030)*. Tillgänglig på: https://www.itu.int/en/ITU-R/study-groups/rsg5/rwp5d/imt-2030/pages/default.aspx (Hämtad 2026-11-10). *(Primärkälla för den separata utvecklingen av 6G/IMT-2030 och dess internationella standardiseringsprocess.)*
 
 Madsen, D.Ø., Slåtten, K. & Berg, T. (2025) ‘From Industry 4.0 to Industry 6.0: Tracing the Evolution of Industrial Paradigms Through the Lens of Management Fashion Theory’, *Systems*, 13(5), 387. Tillgänglig på: https://doi.org/10.3390/systems13050387 (Hämtad 2026-11-10). *(Vetenskaplig analys av hur Industry 4.0–6.0-begreppen växer fram, sprids och får status som framtidsvisioner; särskilt relevant för att nyansera Industry 6.0.)*
+
+NIST (2023) *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*. NIST AI 100-1. Gaithersburg, MD: National Institute of Standards and Technology. Tillgänglig på: https://doi.org/10.6028/NIST.AI.100-1 (Hämtad 2026-11-10). *(Ett organisationsinriktat ramverk för att hantera risker och bygga tillförlitlighet genom utveckling, införande och användning av AI-system.)*
 
 OECD (2022) *OECD Framework for the Classification of AI Systems*. OECD Digital Economy Papers, No. 323. Paris: OECD Publishing. Tillgänglig på: https://doi.org/10.1787/cb6d9eca-en (Hämtad 2026-11-10). *(Ger en flerdimensionell metod för att klassificera AI-system efter bland annat sammanhang, data, modell och uppgift/resultat.)*
 
