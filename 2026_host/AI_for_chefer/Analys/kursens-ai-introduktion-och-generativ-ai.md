@@ -90,6 +90,25 @@ Det här perspektivet passar direkt i AI-inventeringen om vindkraftskalkylen, s�
 - Ska AI-inventeringen omfatta alla AI-typer i verksamheten, eller avgränsas uppgiften till generativ AI?
 - Hur bör vi skilja mellan arbetsuppgifter som AI stödjer, uppgifter som automatiseras och beslut där en människa fortfarande har ansvar?
 
+## Nytt kursmaterial: affärsnytta och AI-användning i svenska företag
+
+Bilden hänvisar till [Svea Bank (2026), *Drivkraft: AI 2026*](https://www.svea.com/sv-se/foretag/finansiering/drivkraft-ai). Rapportens översikt anger att AI-användningen bland svenska företag har mer än tredubblats på två år och att 38 procent använder AI i dag. Den lyfter också två förväntningar: nio av tio företag tror att AI minskar personalbehovet inom fem år, och tre av fyra tror att AI kommer att vara implementerat i verksamheten inom fem år.
+
+### Vad som är viktigt att skilja åt
+
+- **Användning nu:** 38 procent är rapportens uppgift om hur många företag som uppger att de använder AI.
+- **Förväntningar framåt:** siffrorna om personalbehov och implementering är företagens förväntningar, inte konstaterade framtida utfall.
+- **Faktisk verksamhetsnytta:** rubriken på kursbilden handlar om affärsmässiga och organisatoriska nyttor. Siffrorna ovan visar främst användning och förväntningar; de bevisar inte i sig förbättrad lönsamhet eller produktivitet.
+- **Vilken AI?** Bilden och rapportöversikten använder det breda ordet AI. De visar inte här hur resultaten fördelar sig mellan generativ AI, prediktiv analys, automatisering eller andra AI-typer.
+
+Rapportsidan anger att underlaget är en Novusundersökning med 500 svenska företag i olika branscher, genomförd 3–24 oktober 2025. Det är därför en undersökning av företags svar och förväntningar vid den tidpunkten, inte en fullständig mätning av alla svenska företags AI-användning i november 2026.
+
+### Min läsning av kursbilden
+
+Bilden tar diskussionen från vad AI är och vilka tekniker som finns till varför organisationer vill använda AI. Det är en viktig brygga till kursens ledningsperspektiv: börja med verksamhetsproblem, tänkbara nyttor och konsekvenser för arbete och ansvar. Men ”AI används” och ”AI ger nytta” är olika påståenden. För att bedöma nyttan behöver man veta vilken uppgift som förändras, jämföra resultat med ett utgångsläge och väga in kostnader, kvalitet, risker och påverkan på medarbetare.
+
+**Metod för de här bildsammanfattningarna:** jag beskriver först vad som syns på bilden, kontrollerar den angivna källan när en sådan finns och skiljer sedan mellan rapporterade siffror, prognoser och min tolkning. Här bygger sammanfattningen på kursbilden och Svea Banks rapportsida; jag har inte gjort en fullständig granskning av rapportens alla resultat eller metodbilaga.
+
 ## Källförteckning
 
 Europeiska kommissionen (u.å.) *Industry 5.0*. Tillgänglig på: https://research-and-innovation.ec.europa.eu/research-area/industrial-research-and-innovation/industry-50_en (Hämtad 2026-11-10). *(Beskriver kommissionens nuvarande inramning av Industry 5.0 som människocentrerad, hållbar och resilient industrivision.)*
@@ -105,3 +124,5 @@ OECD (2022) *OECD Framework for the Classification of AI Systems*. OECD Digital 
 OECD (2024) *Explanatory Memorandum on the Updated OECD Definition of an AI System*. OECD Artificial Intelligence Papers, No. 8. Paris: OECD Publishing. Tillgänglig på: https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/03/explanatory-memorandum-on-the-updated-oecd-definition-of-an-ai-system_3c815e51/623da898-en.pdf (Hämtad 2026-11-10). *(Förklarar olika AI-uppgifter, där innehållsgenerering är en kategori bland flera, exempelvis igenkänning, prognoser och optimering.)*
 
 Shivshankar, S., Kar, P. & Acharya, N. (2025) ‘Reimagining Wireless: A Literature Review of the 6G Cyber-Physical Continuum’, *Telecom*, 6(4), 91. Tillgänglig på: https://doi.org/10.3390/telecom6040091 (Hämtad 2026-11-10). *(Översikt över 6G-forskning och prognosen om möjlig kommersiell användning omkring 2030; stödjer att denna del är en nätverksprognos, inte en daterad industriperiod.)*
+
+Svea Bank (2026) *Drivkraft: AI 2026*. Tillgänglig på: https://www.svea.com/sv-se/foretag/finansiering/drivkraft-ai (Hämtad 2026-11-10). *(Rapportsida med uppgifter om AI-användning bland företag och beskrivning av Novusundersökningens urval och genomförande; används här för att skilja mätning från förväntningar.)*
