@@ -144,7 +144,48 @@ Bilden tar diskussionen från vad AI är och vilka tekniker som finns till varf�
 
 **Metod för de här bildsammanfattningarna:** jag beskriver först vad som syns på bilden, kontrollerar den angivna källan när en sådan finns och skiljer sedan mellan rapporterade siffror, prognoser och min tolkning. Här bygger sammanfattningen på kursbilden och Svea Banks rapportsida; jag har inte gjort en fullständig granskning av rapportens alla resultat eller metodbilaga.
 
+<a id="ansvarsfull-ai-ai-sweden"></a>
+
+## Etik, juridik och hållbarhet: AI Sweden om ansvarsfull AI
+
+Kursbilden hänvisar till [AI Swedens sida om ansvarsfull användning av AI](https://www.ai.se/sv/tillampning/ansvarsfull-anvandning-av-ai). AI Sweden ramar in ansvarsfull AI som organisatorisk förmåga: att kunna fatta välgrundade beslut om AI:s användning och påverkan, bygga kompetens och omsätta principer i praktiken. Sidan grupperar arbetet i tre överlappande områden:
+
+1. **Regelverk och efterlevnad** – förstå vilka bindande krav och andra regler som gäller för den konkreta användningen, och kunna visa hur de hanteras.
+2. **Etik och hållbarhet** – pröva vilka värden och samhällseffekter användningen främjar eller riskerar, inklusive långsiktiga konsekvenser.
+3. **AI-säkerhet och tillförlitlighet** – hantera tekniska sårbarheter och skapa system som fungerar robust och förutsägbart.
+
+AI Sweden lyfter även välgrundat ledarskap, domänkunskap i kombination med teknisk kompetens, säkert experimenterande och tvärfunktionellt engagemang. Arbetet beskrivs som något som behöver ingå från början och genom hela livscykeln, snarare än en kontroll i efterhand. Sidan är vägledning och stöd för organisationer; den är inte i sig en lag eller ett certifikat på att en AI-lösning är ansvarsfull.
+
+### Tre perspektiv som hänger ihop men inte är samma sak
+
+Rubriken på kursbilden samlar etik, juridik och hållbarhet, men de svarar på olika frågor:
+
+- **Juridik:** Vad kräver lagar och regler i just detta fall? Exempelvis kan AI-förordningen, dataskyddsregler och annan sektorslagstiftning bli relevanta beroende på systemets syfte och användning.
+- **Etik:** Vad är rimligt och rättvist för berörda människor, även där lagen inte ger ett fullständigt svar?
+- **Hållbarhet:** Vilka miljömässiga, sociala och ekonomiska följder får utveckling, drift och användning över tid?
+
+En lösning kan följa ett visst lagkrav men ändå väcka etiska eller hållbarhetsmässiga frågor. Omvänt ersätter goda avsikter inte skyldigheten att följa tillämplig lag. AI Sweden-sidans tre områden hjälper därför till att hålla ihop frågorna utan att blanda ihop dem.
+
+### Koppling till nytta och ROI
+
+Detta fördjupar kursens tidigare ROI-fråga. Nytta bör inte bara räknas som snabbare arbete eller lägre kostnad. En mer fullständig bedömning tar även med kostnader för säkerhet, granskning, datakvalitet, kompetens, efterlevnad och uppföljning, samt konsekvenser för dem som påverkas. Ansvarsfullhetsarbetet kan därmed både förebygga skada och göra nyttan mer varaktig. Det är en analytisk koppling mellan kursbilderna, inte ett effektpåstående som AI Sweden kvantifierar på sidan.
+
+### Tillämpning på vindkraftskalkylen
+
+För ett möjligt AI-stöd kring kalkyler för intäktsdelning till närboende kan de tre perspektiven omsättas i frågor:
+
+- **Regler och spårbarhet:** Vilken aktuell rättskälla och version ligger bakom varje regel eller antagande? Kan användaren se hur resultatet räknats fram?
+- **Etik och påverkan:** Är antaganden och resultat begripliga för närboende och andra berörda? Vilka grupper påverkas, och hur hanteras osäkerhet eller oenighet?
+- **Säkerhet och tillförlitlighet:** Är själva beloppsberäkningen gjord med kontrollerbara formler och testdata? Hur upptäcks felaktiga källor, AI-genererade påhitt eller ändringar i beräkningslogiken?
+- **Data och ansvar:** Behöver personuppgifter över huvud taget användas eller skickas till en extern AI-tjänst? Vem granskar och godkänner uppdateringar och förklaringar?
+
+En språkmodell kan eventuellt hjälpa till att hitta och förklara material, men den bör inte beskrivas som rättslig beslutsfattare eller som källa till ett ersättningsbelopp utan verifierad beräkningsmetod och mänsklig kontroll. Vilka AI-funktioner som faktiskt ingår i projektet behöver fortfarande bekräftas.
+
+**Min läsning av bilden:** den breddar samtalet från ”vilken AI ger avkastning?” till ”under vilka villkor skapas värde utan oacceptabla risker?”. Det passar ledningsperspektivet väl, eftersom ansvar för data, beslut, säkerhet och konsekvenser måste fördelas i verksamheten.
+
 ## Källförteckning
+
+AI Sweden (u.å.) *Ansvarsfull användning av AI*. Tillgänglig på: https://www.ai.se/sv/tillampning/ansvarsfull-anvandning-av-ai (Hämtad 2026-11-10). *(AI Swedens beskrivning av organisatoriska förmågor för regelverk och efterlevnad, etik och hållbarhet samt AI-säkerhet och tillförlitlighet; används för att analysera kursbilden, inte som bindande regelverk.)*
 
 Europeiska kommissionen (u.å.) *Industry 5.0*. Tillgänglig på: https://research-and-innovation.ec.europa.eu/research-area/industrial-research-and-innovation/industry-50_en (Hämtad 2026-11-10). *(Beskriver kommissionens nuvarande inramning av Industry 5.0 som människocentrerad, hållbar och resilient industrivision.)*
 
