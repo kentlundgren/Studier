@@ -314,8 +314,19 @@ De andra alternativen ska inte väljas enligt den här återkopplingen. Jämför
 
 Frågan anger 1950-talet, medan Minskys och Paperts välkända systematiska kritik av perceptroner publicerades 1969 och deras vidare resonemang om lärande kom senare. Den historiska tidslinjen kunde därför ha varit tydligare. Men utifrån den nya bilden är quizets förväntade svar entydigt: **alternativ 2**.
 
+### Fråga 7: lager i ett djupt nätverk
+
+Fråga 7 ber deltagaren placera tre typer av igenkänning i en hierarki av lager: lager 1 ligger närmast indata och lager 3 närmast utdata. Den mest rimliga ordningen är **enkla mönster → former/delar → objekt**. Alltså: lager 1 känner igen enkla mönster, lager 2 känner igen former eller delar, och lager 3 känner igen objekt.
+
+På skärmbilden är lager 1 kopplat till enkla mönster, lager 2 till objekt och lager 3 till former. Den första kopplingen verkar rimlig, men de två sista ser omkastade ut. I många bildnätverk bygger senare lager vidare på enklare egenskaper: från kanter och enkla visuella drag, via kombinationer och delar, till mer sammansatta objekt eller kategorier. Denna lagerordning är en pedagogisk förenkling, eftersom exakt vad varje lager representerar beror på modellens arkitektur och träning. LeCun, Bottou, Bengio och Haffner (1998) beskriver flerskiktade konvolutionsnätverk för att lära representationer vid bild- och teckenigenkänning.
+
+Frågan kopplar detta till djupinlärning och förbättrad beräkningskapacitet och minne under 1980- och 1990-talen. Det är en grov historisk sammanfattning: deep learning utvecklades genom flera forskningsbidrag och inte genom en enskild metod eller person. För just matchningsuppgiften är den centrala idén att representationerna blir mer sammansatta ju längre de ligger från indata och närmare utdata.
+
 
 ## Källförteckning
+LeCun, Y., Bottou, L., Bengio, Y. & Haffner, P. (1998) ‘Gradient-based learning applied to document recognition’, *Proceedings of the IEEE*, 86(11), pp. 2278–2324. Tillgänglig på: https://proceedingsoftheieee.ieee.org/gradient-based-learning-applied-to-document-recognition/ (Hämtad 2026-11-10). *(Primär forskningsartikel om flerskiktade konvolutionsnätverk och inlärda representationer för bild- och teckenigenkänning.)*
+
+
 Minsky, M. (1986) *The Society of Mind*. New York: Simon & Schuster. Tillgänglig på: https://www.simonandschuster.ca/books/Society-Of-Mind/Marvin-Minsky/9780671657130 (Hämtad 2026-11-10). *(Minskys senare teori om hur intelligens kan uppstå genom samverkan mellan enklare processer.)*
 
 Minsky, M. & Papert, S. (1969) *Perceptrons: An Introduction to Computational Geometry*. Cambridge, MA: MIT Press. Tillgänglig på: https://mitpress.mit.edu/9780262130431/perceptrons/ (Hämtad 2026-11-10). *(Förlagets presentation av den matematiska analysen av perceptronernas möjligheter och begränsningar.)*
