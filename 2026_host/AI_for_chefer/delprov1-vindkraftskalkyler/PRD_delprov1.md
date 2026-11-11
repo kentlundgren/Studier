@@ -7,7 +7,7 @@
 
 ## 1. Syfte
 
-Ta fram en kort individuell rapport som analyserar hur generativ AI har använts eller kan användas i utvecklingen av Kents ekonomiska vindkraftskalkyler. Rapporten ska hjälpa läsaren att förstå både den möjliga verksamhetsnyttan och de risker som uppstår när en enkel kalkyl för en aktör utvecklas till en mer omfattande modell med flera aktörsperspektiv.
+Ta fram en kort individuell rapport som analyserar hur generativ AI har använts eller kan användas i utvecklingen och förklaringen av Kents vindkraftskalkyler samt i analysen och förklaringen av intäktsdelningens regler och aktörsperspektiv. Rapporten ska hjälpa läsaren att förstå både den möjliga verksamhetsnyttan och de risker som uppstår när en enkel kalkyl för en aktör utvecklas till en mer omfattande modell med flera aktörsperspektiv.
 
 Rapporten ska stödja examinationen av lärandemål 1–3 och 7–8. Den ska följa den officiella mallen för Delprov 1 så långt den stämmer med uppgiftens aktuella instruktioner i Canvas.
 
@@ -19,12 +19,16 @@ Rapporten ska inventera befintliga eller möjliga användningar av generativ AI 
 
 ## 3. Föreslagen avgränsning
 
-Analysera två möjliga, men ännu inte slutligt verifierade, användningar av generativ AI i utvecklingsarbetet:
+Rapporten avgränsas till två föreslagna användningsfall, med befintligt arbete som utgångspunkt och möjliga fortsättningar tydligt markerade:
 
-1. **AI-stöd vid utveckling av en traditionell projektörskalkyl.** Undersök konkret om och hur AI användes för att skriva eller ändra kod, formler, förklaringar eller andra delar av en kalkyl som i huvudsak visar projektörens perspektiv.
-2. **AI-stöd vid utvidgning till en modell med flera aktörsperspektiv.** Undersök konkret om och hur AI bidrog till idéarbete, struktur, kod eller beräkningslogik när modellen utökades till projektör, markägare, kommun/samhälle, andelsägare och närboende.
+1. **Utveckla och förklara kalkylscenarier tillsammans med generativ AI.** Underlag är [den publicerade kalkylen](https://kentlundgren.github.io/Vindkraft/vindkraftskalkyl/vindkraftskalkyl.html), tidigare versioner, kod och antaganden. Undersök AI:s uppgifter i utvecklingen och hur scenarioförklaringar skulle kunna göra resultaten mer begripliga för olika aktörer. Ett integrerat AI-lager är en idé, inte en dokumenterad införd funktion.
+2. **Analysera och förklara regler och aktörsperspektiv tillsammans med generativ AI.** Underlag är rättskällor och [Kents publicerade bloggtext *Besked före beslut*](https://controllerutangranser.wordpress.com/2026/11/11/besked-fore-beslut-att-forbattra-intaktsdelningen-fran-vindkraft-till-narboende/). Undersök arbetet med källor, frågor, perspektiv och förklaringar, och möjligheten att utveckla en källanknuten frågeguide. Skilj gällande rätt från tolkningar och policyförslag.
 
-Perspektiven är inte i sig olika AI-användningar. Rapporten behöver beskriva vilken uppgift AI utför eller skulle kunna utföra och skilja mellan vad som faktiskt gjordes, vad som bara testades och vad som ännu är en idé.
+Gemensam fråga: **Hur kan Kent, tillsammans med generativ AI, göra vindkraftens ekonomiska konsekvenser och deras förutsättningar mer begripliga och granskningsbara för olika aktörer?**
+
+Avgränsningen bygger på olika arbetsuppgifter, inte på två generationer av kalkyler. Bredare problemformulering och kritisk granskning ingår i båda fallen. Konkurrenskraft är ett analytiskt perspektiv; rapporten ska inte bli en fullständig vindkraftspolitisk utredning. Publicering på webben skiljs från påvisad begriplighet, räckvidd eller verksamhetsnytta.
+
+För varje fall skiljs producerade resultat från planerade användningar och uppmätta effekter. Kents arbete med mål, restriktioner, kontext, instruktioner, verktyg, kontroll och omarbetning ska framgå. Den lokala [policytexten](../litteratur/More/intaktsdelningslagen_3000_ord.md) behålls som arbetsunderlag; i rapporten hänvisas till den publika bloggtexten. Bloggsidan kunde inte hämtas vid denna granskning; analysen av innehållet bygger därför på det lokala underlaget och Kents beskrivning, inte på en verifierad jämförelse mellan versionerna.
 
 ## 4. Underlag och arbetsfiler
 
