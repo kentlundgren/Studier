@@ -28,13 +28,22 @@ Perspektiven är inte i sig olika AI-användningar. Rapporten behöver beskriva 
 
 ## 4. Underlag och arbetsfiler
 
+### Fil- och mappstruktur
+
+| Del i arbetsflödet | Plats | Innehåll och roll |
+|---|---|---|
+| Kravunderlag och stöd | `delprov1-vindkraftskalkyler/mall/` | HKR:s originalmall, vår ifyllningsmall `mall-delprov1.md` och arbetsguiden `arbetsguide-delprov1.docx`. Dessa beskriver uppgiften och hur arbetet kan genomföras. |
+| PRD | `delprov1-vindkraftskalkyler/PRD_delprov1.md` | Kursens arbetsbeskrivning: syfte, avgränsning, filstruktur, arbetsflöde, öppna frågor och kriterier. |
+| Utkastserie, fas 4 | `Analys/delprov1-vindkraftskalkyler/` | Samtliga versioner 4a, 4b, 4c och vid behov 4d samlas här. Gemensam namnstam `utkast-4a.md`, `utkast-4b.md` osv. gör ordningen tydlig; äldre utkast bevaras som underlag. |
+
+
 - Den officiella Word-mallen `delprov1-vindkraftskalkyler/mall/AI Inventering Dokument för Uppgift 1.docx` är kravunderlag. Den anger bland annat rekommenderad längd 4–6 sidor exklusive bilagor och efterfrågar sammanfattning, 5–8 nyckelord, bakgrund/avgränsning, AI-inventering, nyttobedömning, risk- och konsekvensbedömning, kompetens/ansvar, metod, ifyllda tabeller, analys, prioriterad handlingsplan, individuell reflektion och referenser.
-- `delprov1-vindkraftskalkyler/ai-inventering-vindkraftskalkyler-utkast.md` används tills vidare som inventerings- och faktaunderlag. Markeringar och tänkta användningar där ska verifieras av Kent.
-- `Analys/delprov1-vindkraftskalkyler/analys-tillampningsomrade.md` är analysunderlag 4b och ska inte skrivas över. `Analys/delprov1-vindkraftskalkyler/utkast-4c.md` är den nya sammanhållna arbetsversionen, byggd av 4a, 4b och arbetsguiden.
+- `Analys/delprov1-vindkraftskalkyler/utkast-4a.md` används tills vidare som inventerings- och faktaunderlag. Markeringar och tänkta användningar där ska verifieras av Kent.
+- I `Analys/delprov1-vindkraftskalkyler/` är `utkast-4a.md` inventerings- och faktaunderlag, `utkast-4b.md` det tidigare analysutkastet och `utkast-4c.md` den första sammanhållna arbetsversionen byggd av 4a, 4b och arbetsguiden. De ska inte skrivas över när en ny version skapas.
 - Vindkraftskalkylens tidigare och nuvarande versioner används som fallmaterial. Påståenden om vad AI bidrog med ska beläggas med Kents minne, arbetsmaterial, versionshistorik eller annat verifierbart underlag.
 - Kursplanen och uppgiftens instruktioner i Canvas styr om de skiljer sig från den lokala sammanfattningen eller mallens rekommendationer.
 
-De två utkasten är tills vidare separata arbetsunderlag, inte två konkurrerande slutversioner. Ingen av dem ska raderas eller skrivas över i detta skede.
+Utkast 4a och 4b är separata arbetsunderlag till 4c, inte konkurrerande slutversioner. Alla versioner i fas 4 samlas i samma utkastmapp och bevaras när en ny version skapas.
 
 ## 5. Innehåll som rapporten ska täcka
 
@@ -63,18 +72,19 @@ De två utkasten är tills vidare separata arbetsunderlag, inte två konkurreran
 - Vid en separat granskning får Claude en avgränsad fråga och samma version av PRD eller rapport. Kent jämför råden och fattar beslut; modellerna skriver inte samtidigt i samma fil.
 - För varje arbetspass antecknas kort: datum, modell/verktyg, uppgift, AI-bidrag, Kents egna beslut/ändringar och om källor har kontrollerats. Loggens placering och eventuell redovisning i inlämningen bestäms först efter kontroll av kursens regler.
 
-### Arbetskedja från uppgift till rapportutkast
+### Arbetskedja från uppgift till färdig rapport
 
-1. **Uppgiften och mallen** anger vad som ska göras, vilka frågor som ska besvaras och rapportens form.
-2. **Betygsmatrisen** beskriver hur det färdiga arbetet bedöms på G- respektive VG-nivå. Den används bakifrån för att kontrollera att varje bedömningspunkt får synligt stöd i rapporten.
-3. **Arbetsguiden** översätter mallen och matrisen till en konkret arbetsordning, avsnittsstruktur och slutkontroll.
-4. **Tidigare utkast** återanvänds som olika underlag: `ai-inventering-vindkraftskalkyler-utkast.md` (4a) främst för inventering och möjliga AI-användningar; `analys-tillampningsomrade.md` (4b) för analys, kontext och text som Kent har börjat lägga in. De är arbetsunderlag, inte konkurrerande slutversioner.
-5. **Samlat utkast 4c** skapas som en ny fil enligt rapportmallen och arbetsguiden. AI-bidrag, Kents egna uppgifter, antaganden och källor hålls isär. Saknade egna erfarenheter eller ställningstaganden markeras `[KENT: …]`; obekräftade fakta eller rättsliga påståenden markeras `[KONTROLLERA: …]`. Utkastet ska vara ett hanterbart arbetsunderlag, inte en färdig inlämning.
-6. **Iterativ bearbetning** sker område för område: Kent granskar och ändrar i Cursor, sparar och delar den aktuella versionen; AI ger synliga förslag, pekar ut luckor och föreslår nästa fråga eller avsnitt. Kent avgör vad som förs vidare. En annan modell kan få en avgränsad granskning av samma version, utan att flera modeller redigerar samma fil parallellt.
-7. **Metanivån** dokumenterar kort vad AI gjorde, vad Kent själv tillförde eller ändrade, vilka källor som kontrollerades och vad arbetssättet lärde oss. Hur detta ska redovisas i inlämningen avgörs först efter kontroll av Canvas-reglerna.
-8. **Generalisering till Studier-repot** görs efter att Kent granskat och committat denna kursanpassade arbetsbeskrivning. Därefter kan den lyftas till en generell metod för studieuppgifter, med lokala kursregler som styr varje uppdrag.
+1. **Uppgift och mall.** Klargör vad som ska göras, vilka frågor som ska besvaras och vilka formkrav mallen anger.
+2. **Betygsmatris.** Läs bedömningskriterierna bakifrån från önskad nivå. Gör synligt vad som behöver finnas i rapporten för G och vad som ytterligare krävs för VG.
+3. **Arbetsguide.** Översätt uppgift, mall och matris till en hanterbar arbetsordning och slutkontroll.
+4. **Innehållsutkast.** Bygg och pröva innehållet stegvis, område för område. Spara 4a, 4b, 4c och eventuellt 4d tillsammans i `Analys/delprov1-vindkraftskalkyler/`, med filnamnen `utkast-4a.md`, `utkast-4b.md` osv. Ge varje version en beskriven roll och bevara tidigare underlag. Saknade egna erfarenheter markeras `[KENT: …]`, obekräftade sakuppgifter `[KONTROLLERA: …]`.
+5. **Innehållet är tillräckligt – men texten kan vara för lång.** Stanna med nya tillägg och bedöm om alla krav, belägg och egna resonemang finns med. Ta bort upprepningar, sidospår och text som inte hjälper rapportens syfte. Det här är en medveten mellanversion, inte ett misslyckande.
+6. **Rätt omfattning och detaljredigering.** Anpassa texten till uppgiftens ord-, tecken- eller sidram. När innehållet är låst görs främst språkliga justeringar: meningslängd, disposition inom stycken, tydlighet, kommatering och konsekventa hänvisningar. Nya sakfrågor öppnas bara om granskningen visar en verklig lucka.
+7. **Färdig rapport.** Kent godkänner att texten inte längre är ett utkast. Gör slutkontroll mot uppgift, matris, källor, formkrav och kursens AI-regler. Kent hanterar fortsatt Git, commit och push i Cursor.
 
-Arbetskedjan beskriver arbetsmetoden, inte en fast avgränsning av rapportens ämne. Kursens instruktioner i Canvas har företräde om de skiljer sig från lokala arbetsdokument.
+För Delprov 1 är vi nu i **fas 4**, med utkast 4c. Fas 5 börjar när Kent bedömer att rapporten täcker det som behövs och vi ska i huvudsak gallra och strama upp texten. Metanivån dokumenteras under arbetets gång: AI-bidrag, Kents egna beslut och ändringar, källkontroller samt lärdomar om arbetssättet. Hur AI-stödet får användas och redovisas i examinationen kontrolleras mot Canvas innan rapporten färdigställs.
+
+När kursversionen av arbetsmetoden har prövats och Kent har granskat och committat PRD:n kan den generaliseras till Studier-repots rot. Kursens egna instruktioner ska även då styra den konkreta uppgiften.
 ## 8. Kriterier för en färdig rapport
 
 - Rapportens struktur följer Canvas-instruktionen och den officiella mallen, inklusive eventuella krav på omfång och format.
@@ -90,7 +100,7 @@ Arbetskedjan beskriver arbetsmetoden, inte en fast avgränsning av rapportens ä
 1. Vilken är den fullständiga uppgiftsinstruktionen och bedömningsmatrisen i Canvas? Stämmer Word-mallens rekommendation om 4–6 sidor med uppgiftens instruktion?
 2. Vilka regler gäller i kursen för AI-stöd, AI-deklaration och eget författarskap?
 3. Vad gjorde AI faktiskt i utvecklingen av den traditionella kalkylen och i utvidgningen till flera aktörsperspektiv? Vilka verktyg, exempel och granskningssteg kan Kent belägga?
-4. Ska den sammanhållna rapportens huvudsakliga arbetsfil ligga kvar i `Analys/`, eller vill Kent senare samla samtliga Delprov 1-filer i `delprov1-vindkraftskalkyler/`?
+4. Är mappstrukturen för kravunderlag, PRD och utkastserie tydlig och fungerande i praktiken?
 5. Vilka kurskällor krävs eller rekommenderas utöver de källor som redan finns i utkasten?
 
 Denna PRD är en arbetsversion. Den fastställs först när de öppna kurskraven har kontrollerats och Kent har godkänt avgränsningen och de faktiska AI-användningarna.

@@ -4,7 +4,7 @@
 **Kurs:** AI101A, AI för chefer och ledare, Högskolan Kristianstad  
 **Fokus:** Generativ AI i arbetet med ekonomiska kalkyler för vindkraft, med särskilt fokus på den nya intäktsdelningen till närboende  
 **Status:** Första arbetsutkast, 10 november 2026  
-**Mall:** [AI Inventering Dokument för Uppgift 1.docx](mall/AI%20Inventering%20Dokument%20f%C3%B6r%20Uppgift%201.docx)
+**Mall:** [AI Inventering Dokument för Uppgift 1.docx](../../delprov1-vindkraftskalkyler/mall/AI%20Inventering%20Dokument%20f%C3%B6r%20Uppgift%201.docx)
 
 > **Arbetsnot:** Detta utkast följer de delar av mallen som syns i den tillgängliga sidan: verksamhet och ansvar samt kartläggning av AI-användning. Text inom hakparenteser behöver Kents kontroll, egna uppgifter eller beslut. Det är inte en färdig inlämning.
 

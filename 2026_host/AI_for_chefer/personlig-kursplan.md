@@ -65,7 +65,7 @@ delprov 2 (färdighet + värdering):
 - **Tillämpningsområde:** AI-stödd utveckling av ekonomiska kalkyl- och
   beslutsverktyg, med Kents vindkraftskalkyler som fallstudie.
 - **Produkt:** individuell skriftlig inlämning.
-- **Underlag/utkast:** [`Analys/delprov1-vindkraftskalkyler/analys-tillampningsomrade.md`](Analys/delprov1-vindkraftskalkyler/analys-tillampningsomrade.md)
+- **Underlag/utkast:** [`Analys/delprov1-vindkraftskalkyler/utkast-4c.md`](Analys/delprov1-vindkraftskalkyler/utkast-4c.md)
 - **Checklista mot lärandemålen:**
   - [ ] LM 1: förklarar de AI-begrepp/metoder som är relevanta för fallet (generativ AI, LLM, kodgenerering, "agens utan förståelse")
   - [ ] LM 2: analyserar nytta, begränsning och konsekvens ur verksamhets-, samhälls- och ledningsperspektiv

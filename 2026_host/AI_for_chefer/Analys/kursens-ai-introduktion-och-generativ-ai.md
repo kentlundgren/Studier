@@ -77,7 +77,7 @@ Formuleringen ”stödja, men inte ersätta” kan dock ge intryck av ett enkelt
 
 ### Koppling till vindkraftskalkylen
 
-Det här perspektivet passar direkt i AI-inventeringen om vindkraftskalkylen, särskilt arbetet med intäktsdelning till närboende ([utkastet till Uppgift 1](../delprov1-vindkraftskalkyler/ai-inventering-vindkraftskalkyler-utkast.md)):
+Det här perspektivet passar direkt i AI-inventeringen om vindkraftskalkylen, särskilt arbetet med intäktsdelning till närboende ([utkastet till Uppgift 1](delprov1-vindkraftskalkyler/utkast-4a.md)):
 
 - **Mänskligt kunnande:** erfarenhet av vindkraftsekonomi, kalkylens antaganden och vilka frågor styrelsen, medlemmar och andra användare behöver få belysta. [KENT: komplettera med dina egna erfarenheter och prioriteringar.]
 - **AI-funktioner:** möjliga användningar är att hjälpa till att hitta och sammanfatta källor, föreslå kod eller testfall och formulera begripliga förklaringar. [KENT: bekräfta vilka av dessa du faktiskt använder, har testat eller bara överväger.]
@@ -113,7 +113,7 @@ Frågan bör ställas från flera perspektiv: ledning och ägare, medarbetare, k
 
 ### Tillämpning på vindkraftskalkylen
 
-I analysen av [AI-inventeringen för vindkraftskalkylen](../delprov1-vindkraftskalkyler/ai-inventering-vindkraftskalkyler-utkast.md) kan nyttan undersökas med ett litet antal tydliga mått, utan att på förhand anta att AI ger positiv ROI:
+I analysen av [AI-inventeringen för vindkraftskalkylen](delprov1-vindkraftskalkyler/utkast-4a.md) kan nyttan undersökas med ett litet antal tydliga mått, utan att på förhand anta att AI ger positiv ROI:
 
 - tid för att uppdatera och kontrollera kalkylens antaganden,
 - fel som upptäcks i formler, källor eller tolkningar,
