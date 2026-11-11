@@ -3,7 +3,7 @@
 **Kurs:** AI för chefer och ledare, AI101A, Högskolan Kristianstad  
 **Status:** Arbetsversion – inte fastställd  
 **Ägare och författare:** Kent Lundgren  
-**Arbetsfil för rapporten:** `Analys/delprov1-vindkraftskalkyler/analys-tillampningsomrade.md`
+**Arbetsfil för rapporten:** `Analys/delprov1-vindkraftskalkyler/utkast-4c.md` (arbetsutkast; avgränsning och innehåll ska bekräftas av Kent)
 
 ## 1. Syfte
 
@@ -30,7 +30,7 @@ Perspektiven är inte i sig olika AI-användningar. Rapporten behöver beskriva 
 
 - Den officiella Word-mallen `delprov1-vindkraftskalkyler/mall/AI Inventering Dokument för Uppgift 1.docx` är kravunderlag. Den anger bland annat rekommenderad längd 4–6 sidor exklusive bilagor och efterfrågar sammanfattning, 5–8 nyckelord, bakgrund/avgränsning, AI-inventering, nyttobedömning, risk- och konsekvensbedömning, kompetens/ansvar, metod, ifyllda tabeller, analys, prioriterad handlingsplan, individuell reflektion och referenser.
 - `delprov1-vindkraftskalkyler/ai-inventering-vindkraftskalkyler-utkast.md` används tills vidare som inventerings- och faktaunderlag. Markeringar och tänkta användningar där ska verifieras av Kent.
-- `Analys/delprov1-vindkraftskalkyler/analys-tillampningsomrade.md` används tills vidare som analysutkast och möjlig arbetsfil för den sammanhållna rapporten.
+- `Analys/delprov1-vindkraftskalkyler/analys-tillampningsomrade.md` är analysunderlag 4b och ska inte skrivas över. `Analys/delprov1-vindkraftskalkyler/utkast-4c.md` är den nya sammanhållna arbetsversionen, byggd av 4a, 4b och arbetsguiden.
 - Vindkraftskalkylens tidigare och nuvarande versioner används som fallmaterial. Påståenden om vad AI bidrog med ska beläggas med Kents minne, arbetsmaterial, versionshistorik eller annat verifierbart underlag.
 - Kursplanen och uppgiftens instruktioner i Canvas styr om de skiljer sig från den lokala sammanfattningen eller mallens rekommendationer.
 
@@ -63,6 +63,18 @@ De två utkasten är tills vidare separata arbetsunderlag, inte två konkurreran
 - Vid en separat granskning får Claude en avgränsad fråga och samma version av PRD eller rapport. Kent jämför råden och fattar beslut; modellerna skriver inte samtidigt i samma fil.
 - För varje arbetspass antecknas kort: datum, modell/verktyg, uppgift, AI-bidrag, Kents egna beslut/ändringar och om källor har kontrollerats. Loggens placering och eventuell redovisning i inlämningen bestäms först efter kontroll av kursens regler.
 
+### Arbetskedja från uppgift till rapportutkast
+
+1. **Uppgiften och mallen** anger vad som ska göras, vilka frågor som ska besvaras och rapportens form.
+2. **Betygsmatrisen** beskriver hur det färdiga arbetet bedöms på G- respektive VG-nivå. Den används bakifrån för att kontrollera att varje bedömningspunkt får synligt stöd i rapporten.
+3. **Arbetsguiden** översätter mallen och matrisen till en konkret arbetsordning, avsnittsstruktur och slutkontroll.
+4. **Tidigare utkast** återanvänds som olika underlag: `ai-inventering-vindkraftskalkyler-utkast.md` (4a) främst för inventering och möjliga AI-användningar; `analys-tillampningsomrade.md` (4b) för analys, kontext och text som Kent har börjat lägga in. De är arbetsunderlag, inte konkurrerande slutversioner.
+5. **Samlat utkast 4c** skapas som en ny fil enligt rapportmallen och arbetsguiden. AI-bidrag, Kents egna uppgifter, antaganden och källor hålls isär. Saknade egna erfarenheter eller ställningstaganden markeras `[KENT: …]`; obekräftade fakta eller rättsliga påståenden markeras `[KONTROLLERA: …]`. Utkastet ska vara ett hanterbart arbetsunderlag, inte en färdig inlämning.
+6. **Iterativ bearbetning** sker område för område: Kent granskar och ändrar i Cursor, sparar och delar den aktuella versionen; AI ger synliga förslag, pekar ut luckor och föreslår nästa fråga eller avsnitt. Kent avgör vad som förs vidare. En annan modell kan få en avgränsad granskning av samma version, utan att flera modeller redigerar samma fil parallellt.
+7. **Metanivån** dokumenterar kort vad AI gjorde, vad Kent själv tillförde eller ändrade, vilka källor som kontrollerades och vad arbetssättet lärde oss. Hur detta ska redovisas i inlämningen avgörs först efter kontroll av Canvas-reglerna.
+8. **Generalisering till Studier-repot** görs efter att Kent granskat och committat denna kursanpassade arbetsbeskrivning. Därefter kan den lyftas till en generell metod för studieuppgifter, med lokala kursregler som styr varje uppdrag.
+
+Arbetskedjan beskriver arbetsmetoden, inte en fast avgränsning av rapportens ämne. Kursens instruktioner i Canvas har företräde om de skiljer sig från lokala arbetsdokument.
 ## 8. Kriterier för en färdig rapport
 
 - Rapportens struktur följer Canvas-instruktionen och den officiella mallen, inklusive eventuella krav på omfång och format.
