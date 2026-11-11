@@ -1,13 +1,13 @@
 # PRD – Delprov 1: analys av ett AI-tillämpningsområde
 
 **Kurs:** AI för chefer och ledare, AI101A, Högskolan Kristianstad  
-**Status:** Arbetsversion – inte fastställd  
+**Status:** Arbetsversion, fas 4 – uppdaterad 11 november 2026
 **Ägare och författare:** Kent Lundgren  
-**Arbetsfil för rapporten:** `Analys/delprov1-vindkraftskalkyler/utkast-4c.md` (arbetsutkast; avgränsning och innehåll ska bekräftas av Kent)
+**Arbetsfil för rapporten:** [utkast 4c](../Analys/delprov1-vindkraftskalkyler/utkast-4c.md) (aktuell arbetsversion som Kent granskar och utvecklar)
 
 ## 1. Syfte
 
-Ta fram en kort individuell rapport som analyserar hur generativ AI har använts eller kan användas i utvecklingen och förklaringen av Kents vindkraftskalkyler samt i analysen och förklaringen av intäktsdelningens regler och aktörsperspektiv. Rapporten ska hjälpa läsaren att förstå både den möjliga verksamhetsnyttan och de risker som uppstår när en enkel kalkyl för en aktör utvecklas till en mer omfattande modell med flera aktörsperspektiv.
+Ta fram en kort individuell rapport som analyserar hur generativ AI har använts eller kan användas i utvecklingen och förklaringen av Kents vindkraftskalkyler samt i analysen och förklaringen av intäktsdelningens regler och aktörsperspektiv. Rapporten ska bedöma möjlig verksamhetsnytta, risker och ledningsansvar i båda fallen: kontrollerbara kalkyler samt källgrundade analyser och förklaringar. Kents aktiva arbete och lärande tillsammans med generativ AI ska framgå.
 
 Rapporten ska stödja examinationen av lärandemål 1–3 och 7–8. Den ska följa den officiella mallen för Delprov 1 så långt den stämmer med uppgiftens aktuella instruktioner i Canvas.
 
@@ -15,7 +15,7 @@ Rapporten ska stödja examinationen av lärandemål 1–3 och 7–8. Den ska fö
 
 Vindkraftskalkyler kan ge beslutsunderlag för olika aktörer. En traditionell kalkyl kan fokusera på projektörens investering och lönsamhet. En modell med flera perspektiv kan dessutom visa beräkningar för exempelvis markägare, kommun/samhälle, andelsägare och närboende. Den bredare modellen kan synliggöra fler konsekvenser, men dess antaganden, formler och samband kan också bli svårare att överblicka och kontrollera.
 
-Rapporten ska inventera befintliga eller möjliga användningar av generativ AI i denna utveckling, vad AI-stödet har tillfört eller kan tillföra och vilka krav det ställer på mänsklig granskning, kompetens och ansvar.
+Intäktsdelningen aktualiserar också frågor om hur regler, tolkningar och ekonomiska konsekvenser beskrivs för olika aktörer. Att kalkyler och texter är offentliga innebär inte automatiskt att de är begripliga. Rapporten ska därför inventera hur samarbetet med generativ AI kan förbättra både beräkningar och förklaringar, och vilka krav det ställer på granskning, kompetens och ansvar.
 
 ## 3. Föreslagen avgränsning
 
@@ -28,7 +28,7 @@ Gemensam fråga: **Hur kan Kent, tillsammans med generativ AI, göra vindkraften
 
 Avgränsningen bygger på olika arbetsuppgifter, inte på två generationer av kalkyler. Bredare problemformulering och kritisk granskning ingår i båda fallen. Konkurrenskraft är ett analytiskt perspektiv; rapporten ska inte bli en fullständig vindkraftspolitisk utredning. Publicering på webben skiljs från påvisad begriplighet, räckvidd eller verksamhetsnytta.
 
-För varje fall skiljs producerade resultat från planerade användningar och uppmätta effekter. Kents arbete med mål, restriktioner, kontext, instruktioner, verktyg, kontroll och omarbetning ska framgå. Den lokala [policytexten](../litteratur/More/intaktsdelningslagen_3000_ord.md) behålls som arbetsunderlag; i rapporten hänvisas till den publika bloggtexten. Bloggsidan kunde inte hämtas vid denna granskning; analysen av innehållet bygger därför på det lokala underlaget och Kents beskrivning, inte på en verifierad jämförelse mellan versionerna.
+För varje fall skiljs producerade resultat från planerade användningar och uppmätta effekter. Kents arbete med mål, restriktioner, kontext, instruktioner, verktyg, kontroll och omarbetning ska framgå. Huvudhänvisningen för intäktsdelningsanalysen är [Lundgren (2026), *Besked före beslut: att förbättra intäktsdelningen från vindkraft till närboende*](https://controllerutangranser.wordpress.com/2026/11/11/besked-fore-beslut-att-forbattra-intaktsdelningen-fran-vindkraft-till-narboende/). Kent har bekräftat att bloggtexten och det lokala underlaget innehåller samma text. Bloggtexten används som fallmaterial; rättsliga påståenden kontrolleras mot rättskällorna.
 
 ## 4. Underlag och arbetsfiler
 
@@ -53,27 +53,27 @@ Utkast 4a och 4b visar att en rapport kan börja som ett friare analysutkast ell
 ## 5. Innehåll som rapporten ska täcka
 
 - Vad tillämpningsområdet och den analyserade processen omfattar.
-- Minst två avgränsade AI-användningar, med syfte, användare, underlag, ansvar, påverkan och mognadsgrad enligt mallen.
+- Minst två avgränsade befintliga eller möjliga AI-användningar, med syfte, användare, underlag, ansvar, påverkan och mognadsgrad enligt mallen.
 - Verksamhetsnytta, till exempel effektivitet, kvalitet, begriplighet eller bredare beslutsunderlag.
-- Risker när modellen går från en aktör till flera: komplexitet, svåröverblickbar beräkningslogik, felaktiga antaganden, falsk precision och behov av oberoende kontroll.
+- Risker i fall 1: komplexitet, svåröverblickbar beräkningslogik, felaktiga antaganden och falsk precision. Risker i fall 2: felaktiga eller inaktuella källor, missvisande tolkningar och sammanblandning av regler och egna förslag. Beskriv hur riskerna ska hanteras.
 - Juridiska, etiska, organisatoriska, tekniska och pedagogiska aspekter i den omfattning som kurskrav och belägg medger.
 - Vilken AI-kompetens, mänsklig kontroll, ansvarsfördelning och uppföljning som behövs.
 - Kents egen reflektion och prioritering. AI får inte hitta på hans erfarenheter, slutsatser eller ställningstaganden.
 
 ## 6. Utanför omfattningen
 
-- Delprov 2:s handlingsplan. Dess utkast kan behöva omarbetas när den tillhörande mallen och uppgiftsinstruktionen är kända.
+- Den fullständiga projektrapporten för Delprov 2. Delprov 1 ska ändå innehålla de prioriterade rekommendationer och nästa steg som dess egen mall och betygsmatris efterfrågar.
 - Att beskriva ett tänkt AI-lager i den färdiga kalkylen som om det redan vore byggt eller infört.
 - Att likställa en modell med flera aktörsperspektiv med flera AI-användningar utan att ange AI:ns konkreta uppgifter.
 - Att låta AI fatta eller avgöra rättsliga beslut om ersättning till enskilda.
-- Att skriva en komplett inlämningsuppgift innan kursens AI-regler och Kents egna ställningstaganden är klarlagda.
+- Att bygga eller införa de föreslagna AI-funktionerna som en del av Delprov 1. Inventeringen kan bedöma dem som möjliga användningar.
 
 ## 7. Arbetsprinciper mellan Kent, ChatGPT Work, Cursor och Claude
 
 - Kent äger innehåll, egna erfarenheter, slutsatser och slutlig text.
 - Kent gör och granskar sina ändringar i Cursor och hanterar själv Git, commit och push.
 - ChatGPT Work och Claude arbetar mot en tydligt angiven lokal eller publicerad version. Granskning ska skiljas från textförslag och från verifiering av källor.
-- När Kent ber om ändringsförslag kan de lämnas som en lokal, ogranskad ändring så att skillnaden syns i Cursor. Kent avgör vad som behålls. Ingen modell committar eller pushar.
+- Kent skriver och lägger vid behov önskemål inom hakparenteser i 4c. Assistenten läser den aktuella lokala texten och Git-diffen, genomför önskemålen och redovisar vilka filer som ändrats. Hanterade anteckningar tas bort; endast verkligt återstående frågor lämnas kvar. Kent granskar ändringarna i Cursor och avgör vad som behålls. Ingen modell committar eller pushar utan uttryckligt uppdrag.
 - Vid en separat granskning får Claude en avgränsad fråga och samma version av PRD eller rapport. Kent jämför råden och fattar beslut; modellerna skriver inte samtidigt i samma fil.
 - För varje arbetspass antecknas kort: datum, modell/verktyg, uppgift, AI-bidrag, Kents egna beslut/ändringar och om källor har kontrollerats. Loggens placering och eventuell redovisning i inlämningen bestäms först efter kontroll av kursens regler.
 
@@ -93,12 +93,13 @@ Den generella arbetsordningen finns i Studier-repots [`AGENTS.md`](../../../AGEN
 
 För Delprov 1 är vi nu i **fas 4**, med utkast 4c. Fas 5 börjar när Kent bedömer att rapporten täcker det som behövs och vi ska i huvudsak gallra och strama upp texten. Metanivån dokumenteras under arbetets gång: AI-bidrag, Kents egna beslut och ändringar, källkontroller samt lärdomar om arbetssättet. Hur AI-stödet får användas och redovisas i examinationen kontrolleras mot Canvas innan rapporten färdigställs.
 
-När kursversionen av arbetsmetoden har prövats och Kent har granskat och committat PRD:n kan den generaliseras till Studier-repots rot. Kursens egna instruktioner ska även då styra den konkreta uppgiften.
+Den generella sjustegsprocessen finns redan i rotens [AGENTS.md](../../../AGENTS.md). Denna PRD beskriver tillämpningen i Delprov 1. Nya erfarenheter dokumenteras här och förs vidare till den generella processen när de är användbara även för andra uppgifter.
+
 ## 8. Kriterier för en färdig rapport
 
 - Rapportens struktur följer Canvas-instruktionen och den officiella mallen, inklusive eventuella krav på omfång och format.
 - Minst två befintliga eller möjliga AI-användningar är tydligt avgränsade och skiljer mellan genomfört, testat och planerat.
-- Nytta och risk analyseras tillsammans, särskilt avvägningen mellan fler synliga aktörsperspektiv och ökad komplexitet i modellens logik.
+- Nytta, risk och kontroll analyseras för båda fallen. Rekommendationerna prioriteras utifrån verksamhetsmål och genomförbarhet; producerat material skiljs från belägg för bättre förståelse eller andra effekter.
 - Alla uppgifter om Kents erfarenheter och ställningstaganden är bekräftade av Kent.
 - Fakta och källor är kontrollerade mot relevanta originalkällor; osäkra uppgifter markeras tills de är kontrollerade. Relevanta kursmoment och quizbegrepp har kopplats till rapportens analys utan att quizmaterialet okritiskt kopierats in.
 - Rapporten innehåller Kents egen analys, reflektion och slutliga argumentation.
@@ -108,8 +109,8 @@ När kursversionen av arbetsmetoden har prövats och Kent har granskat och commi
 
 1. Vilken är den fullständiga uppgiftsinstruktionen och bedömningsmatrisen i Canvas? Stämmer Word-mallens rekommendation om 4–6 sidor med uppgiftens instruktion?
 2. Vilka regler gäller i kursen för AI-stöd, AI-deklaration och eget författarskap?
-3. Vad gjorde AI faktiskt i utvecklingen av den traditionella kalkylen och i utvidgningen till flera aktörsperspektiv? Vilka verktyg, exempel och granskningssteg kan Kent belägga?
-4. Är mappstrukturen för kravunderlag, PRD och utkastserie tydlig och fungerande i praktiken?
+3. Vilka konkreta arbetsmoment, verktyg och granskningssteg kan beskrivas i respektive fall: kalkylutvecklingen och arbetet med bloggtexten? Vilka fortsättningar är fortfarande idéer?
+4. Vilken verksamhet, processägare och huvudsaklig användargrupp ska inventeringen utgå från? Vilket informationsbehov ska prioriteras i vart och ett av fallen?
 5. Vilka kurskällor krävs eller rekommenderas utöver de källor som redan finns i utkasten?
 
 
@@ -125,6 +126,10 @@ Denna PRD är en arbetsversion. Den fastställs först när de öppna kurskraven
 
 ## Förtydligande av inventeringens omfattning, 11 november 2026
 
-[HKR:s originalmall](mall/AI%20Inventering%20Dokument%20f%C3%B6r%20Uppgift%201.docx) anger ”befintliga eller möjliga AI-användningar” och mognadsgrader från idé till införd lösning. [Betygsmatrisen](../kursplan/betygsmatris_AI101A.jpg), G punkt 2, kräver minst två AI-användningar eller möjliga AI-användningar. Två redan genomförda användningar är alltså inte ett krav i dessa underlag. Den tidigare snävare tolkningen i 4c har rättats. Befintliga erfarenheter ska fortfarande beskrivas sanningsenligt; möjliga användningar analyseras med tydlig status, ansvar, underlag, förväntad nytta och risk.
+[HKR:s originalmall](mall/AI%20Inventering%20Dokument%20f%C3%B6r%20Uppgift%201.docx) anger ”befintliga eller möjliga AI-användningar” och mognadsgrader från idé till införd lösning. [Betygsmatrisen](../kursplan/betygsmatris_AI101A.jpg), G punkt 2, kräver minst två AI-användningar eller möjliga AI-användningar. Två redan genomförda användningar är alltså inte ett krav i dessa underlag. Befintliga erfarenheter ska fortfarande beskrivas sanningsenligt; möjliga användningar analyseras med tydlig status, ansvar, underlag, förväntad nytta och risk.
 
-[Avhandlingen](../litteratur/More/Lundgren_1998_lic_arbete.pdf), särskilt s. 93–99, ger tre analytiska perspektiv. [Policyrapporten](../litteratur/More/intaktsdelningslagen_3000_ord.md) ger ett konkret informationsbehov och scenarioexempel. Dessa används som bakgrund till AI-inventeringen; policyförslag och beräkningsexempel ska inte framställas som gällande rätt eller observerade effekter.
+[Avhandlingen](../litteratur/More/Lundgren_1998_lic_arbete.pdf), särskilt s. 93–99, ger tre analytiska perspektiv. [Bloggtexten *Besked före beslut*](https://controllerutangranser.wordpress.com/2026/11/11/besked-fore-beslut-att-forbattra-intaktsdelningen-fran-vindkraft-till-narboende/) ger ett konkret informationsbehov och scenarioexempel. Dessa används som bakgrund till AI-inventeringen; policyförslag och beräkningsexempel ska inte framställas som gällande rätt eller observerade effekter.
+
+## 11. Arbetsanteckning – 11 november 2026
+
+PRD:n har setts över tillsammans med ChatGPT. Kent har angett den publicerade bloggtexten som önskad huvudhänvisning och bekräftat att den motsvarar den lokala texten. Avgränsning, risker, färdigkriterier och öppna frågor har samordnats kring de två användningsfallen. Den generella processen finns kvar i AGENTS.md, medan den konkreta tillämpningen finns här. Blogglänkens åtkomst kunde inte verifieras med läsverktyget vid föregående kontroll; detta ändrar inte Kents val av hänvisning. Kent granskar ändringarna och hanterar commit och push.
