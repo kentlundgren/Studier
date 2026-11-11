@@ -39,12 +39,12 @@ Perspektiven är inte i sig olika AI-användningar. Rapporten behöver beskriva 
 
 
 - Den officiella Word-mallen `delprov1-vindkraftskalkyler/mall/AI Inventering Dokument för Uppgift 1.docx` är kravunderlag. Den anger bland annat rekommenderad längd 4–6 sidor exklusive bilagor och efterfrågar sammanfattning, 5–8 nyckelord, bakgrund/avgränsning, AI-inventering, nyttobedömning, risk- och konsekvensbedömning, kompetens/ansvar, metod, ifyllda tabeller, analys, prioriterad handlingsplan, individuell reflektion och referenser.
-- `Analys/delprov1-vindkraftskalkyler/utkast-4a.md` används tills vidare som inventerings- och faktaunderlag. Markeringar och tänkta användningar där ska verifieras av Kent.
-- I `Analys/delprov1-vindkraftskalkyler/` är `utkast-4a.md` inventerings- och faktaunderlag, `utkast-4b.md` det tidigare analysutkastet och `utkast-4c.md` den första sammanhållna arbetsversionen byggd av 4a, 4b och arbetsguiden. De ska inte skrivas över när en ny version skapas.
+- `Analys/delprov1-vindkraftskalkyler/utkast-4b.md` används tills vidare som inventerings- och faktaunderlag. Markeringar och tänkta användningar där ska verifieras av Kent.
+- I `Analys/delprov1-vindkraftskalkyler/` är `utkast-4a.md` det tidigare, bredare analysutkastet, `utkast-4b.md` det senare inventerings- och faktaunderlaget och `utkast-4c.md` den första sammanhållna arbetsversionen byggd av 4a, 4b och arbetsguiden. De ska inte skrivas över när en ny version skapas.
 - Vindkraftskalkylens tidigare och nuvarande versioner används som fallmaterial. Påståenden om vad AI bidrog med ska beläggas med Kents minne, arbetsmaterial, versionshistorik eller annat verifierbart underlag.
 - Kursplanen och uppgiftens instruktioner i Canvas styr om de skiljer sig från den lokala sammanfattningen eller mallens rekommendationer.
 
-Utkast 4a och 4b är separata arbetsunderlag till 4c, inte konkurrerande slutversioner. 4a (10 november 2026) följer inventeringsmallen och fokuserar på en konkret AI-fråga kring vindkraftsersättning och ansvar. 4b (4 september 2026) är ett tidigare, bredare analysutkast om kalkylens utveckling och fler aktörsperspektiv. 4c sammanför och omstrukturerar relevant material från båda utifrån aktuell mall, matris och arbetsguide. Alla versioner i fas 4 samlas i samma utkastmapp och bevaras när en ny version skapas.
+Utkast 4a och 4b är separata arbetsunderlag till 4c, inte konkurrerande slutversioner. 4a (4 september 2026) är det tidigare, bredare analysutkastet om kalkylens utveckling och fler aktörsperspektiv. 4b (10 november 2026) följer inventeringsmallen och fokuserar på en konkret AI-fråga kring vindkraftsersättning och ansvar. 4c sammanför och omstrukturerar relevant material från båda utifrån aktuell mall, matris och arbetsguide. Alla versioner i fas 4 samlas i samma utkastmapp och bevaras när en ny version skapas.
 
 ## 5. Innehåll som rapporten ska täcka
 
