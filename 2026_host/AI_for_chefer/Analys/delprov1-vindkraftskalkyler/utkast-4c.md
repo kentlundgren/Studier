@@ -28,6 +28,14 @@ Fallet avgränsas till utvecklingsprocessen och kalkylens användning som beslut
 
 Min bakgrund inom miljöekonomi kommer bland annat till uttryck i min licentiatavhandling om förnyelsebara energibärares konkurrenskraft ([Lundgren, 1998](https://portal.research.lu.se/en/publications/f%C3%B6rnyelsebara-energib%C3%A4rares-nuvarande-och-framtida-konkurrenskraf/)). Jag arbetar också med ekonomistyrning och kalkyler. Som controller är jag van vid att bedöma hur antaganden påverkar ett kalkylresultat, och jag har själv byggt och vidareutvecklat vindkraftskalkyler. I mitt ekonomiarbete har kalkyler ofta fokuserat på en parts lönsamhet, exempelvis ett företags eller en organisations, med mått som payback och nettonuvärde (NNV). Jag ser AI-stöd som en möjlighet att gå från en sådan avgränsad kalkyl till ett öppet verktyg som synliggör hur flera parter påverkas. Fler perspektiv ger ett bredare underlag, men ökar också modellens komplexitet och kan göra fel svårare att upptäcka om syfte, underlag eller antaganden är otydliga.
 
+### Bakgrund: från AI till generativ AI och agentiska system
+
+Kursen behandlar AI brett. OECD:s definition omfattar system som utifrån indata härleder hur exempelvis prognoser, innehåll, rekommendationer eller beslut ska skapas ([OECD, 2024](https://doi.org/10.1787/623da898-en)). Den [paraplybild som delats på kursplattformen](../../delprov1-vindkraftskalkyler/Bilder/AI_paraplyet.jpg) ger en översikt över flera AI-begrepp, men blandar metodfamiljer, modelltyper och sätt att bygga system. Bildens raka utvecklingskedja bör därför inte läsas som en strikt hierarki: RAG och agentiska system är sätt att kombinera funktioner, och en språkmodell behöver inte använda RAG för att ingå i ett agentiskt system. Bildens ursprungliga upphovsperson är inte fastställd.
+
+Mitt fokus är generativ AI som stöd för att utveckla kalkyler och förklara deras antaganden, samt hur språkmodeller kan ingå i agentiska arbetsflöden. Anthropic skiljer mellan förutbestämda arbetsflöden och agenter där modellen själv väljer nästa steg och verktyg utifrån uppgiften och återkopplingen ([Anthropic, 2024](https://www.anthropic.com/research/building-effective-agents)). RAG innebär här att relevant information hämtas och tillförs modellen när ett svar skapas; det innebär inte i sig att systemet arbetar självständigt.
+
+Med *harness* avser jag den programvara runt modellen som organiserar körningen: verktygsanrop, kontext, sparat arbetsläge och kontroller. Sådant stöd kan hjälpa en agent att fortsätta ett arbete över flera sessioner ([Anthropic, 2025](https://www.anthropic.com/research/effective-harnesses-for-long-running-agents)). I kalkylfallet blir frågan vilka moment AI får föreslå eller utföra, hur resultat granskas och vilka beslut jag behåller. Att ett verktyg kan redigera filer visar inte ensamt hur självständigt det arbetar. Inventeringen ska därför beskriva faktiskt använda funktioner och skilja dem från möjliga framtida agentfunktioner.
+
 ## 2. Metod och underlag
 
 Analysen bygger på jämförelser mellan kalkylens olika versioner, tidigare arbetsmaterial och min erfarenhet av att utveckla ekonomiska kalkyler. Utvecklingen från äldre webbkalkyler till en interaktiv modell med flera aktörsperspektiv beskrivs också i mitt blogginlägg om att göra vindkraftens ekonomi synlig ([Lundgren, 2026b](https://controllerutangranser.wordpress.com/2026/07/13/att-gora-vindkraftens-ekonomi-synlig/)). Som jämförelsematerial använder jag den äldre webbkalkylen ([Lundgren, 2024](https://kentlundgren.se/kalkyler/vindkraftskalkyl_old.html)) och en senare kalkylversion ([Lundgren, 2025](https://kentlundgren.se/kalkyler/vindkraftskalkyl.html)); den nuvarande modellen beskrivs i inledningen ([Lundgren, 2026a](https://kentlundgren.github.io/Vindkraft/vindkraftskalkyl/vindkraftskalkyl.html)).
@@ -99,6 +107,10 @@ För VG behöver slutversionen göra prioriteringen tydlig och visa en genomför
 
 ## Referenser
 
+Anthropic (2024) *Building effective AI agents*. Tillgänglig på: https://www.anthropic.com/research/building-effective-agents (Hämtad: 11 november 2026). (*Utvecklarens beskrivning av skillnaden mellan fasta arbetsflöden och agenter som väljer steg och verktyg; används som teknisk primärkälla, inte som oberoende effektutvärdering.*)
+
+Anthropic (2025) *Effective harnesses for long-running agents*. 26 november. Tillgänglig på: https://www.anthropic.com/research/effective-harnesses-for-long-running-agents (Hämtad: 11 november 2026). (*Beskriver hur programvara runt modellen stödjer arbetsläge, kontinuitet och kontroll vid längre agentuppgifter.*)
+
 Europaparlamentet och Europeiska unionens råd (2024) *Förordning (EU) 2024/1689 om harmoniserade regler för artificiell intelligens (AI-förordningen).* Europeiska unionens officiella tidning, L 2024/1689. Tillgänglig på: https://data.europa.eu/eli/reg/2024/1689/oj (Hämtad: 11 november 2026). (*EU:s rättsakt som rapporten ska använda för den rättsliga analysen.*)
 
 Git (u.å.) *Git documentation*. Tillgänglig på: https://git-scm.com/docs/git (Hämtad: 11 november 2026). (*Officiell dokumentation som beskriver Git som ett distribuerat versionshanteringssystem.*)
@@ -121,6 +133,8 @@ Lundgren, K. (2025) *Vindkraftskalkyl* [interaktiv kalkyl]. Tillgänglig på: ht
 Lundgren, K. (2026a) *Vindkraftskalkyl* [interaktiv kalkyl]. Tillgänglig på: https://kentlundgren.github.io/Vindkraft/vindkraftskalkyl/vindkraftskalkyl.html (Hämtad: 11 november 2026). (*Fallmaterial för den nyare kalkylen med flera aktörsperspektiv.*)
 
 Lundgren, K. (2026b) ‘Att göra vindkraftens ekonomi synlig’. *Controller, lärare och coach utan gränser reflekterar*, 13 juli. Tillgänglig på: https://controllerutangranser.wordpress.com/2026/07/13/att-gora-vindkraftens-ekonomi-synlig/ (Hämtad: 11 november 2026). (*Beskriver bakgrund och utveckling från kalkyler till interaktiva webbsidor.*)
+
+OECD (2024) *Explanatory memorandum on the updated OECD definition of an AI system*. OECD Artificial Intelligence Papers, nr 8. Paris: OECD Publishing. https://doi.org/10.1787/623da898-en. (*Ger en bred definition som placerar generativ AI inom ett större AI-område.*)
 
 Regeringskansliet (2026) *Sveriges AI-strategi.* Publicerad 20 februari 2026, uppdaterad 26 februari 2026. Tillgänglig på: https://www.regeringen.se/informationsmaterial/2026/02/sveriges-ai-strategi/ (Hämtad: 11 november 2026). (*Regeringens strategiska inriktning som kan kopplas till rapportens verksamhets- och ledarskapsanalys.*)
 
