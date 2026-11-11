@@ -39,12 +39,12 @@ Perspektiven är inte i sig olika AI-användningar. Rapporten behöver beskriva 
 
 
 - Den officiella Word-mallen `delprov1-vindkraftskalkyler/mall/AI Inventering Dokument för Uppgift 1.docx` är kravunderlag. Den anger bland annat rekommenderad längd 4–6 sidor exklusive bilagor och efterfrågar sammanfattning, 5–8 nyckelord, bakgrund/avgränsning, AI-inventering, nyttobedömning, risk- och konsekvensbedömning, kompetens/ansvar, metod, ifyllda tabeller, analys, prioriterad handlingsplan, individuell reflektion och referenser.
-- `Analys/delprov1-vindkraftskalkyler/utkast-4b.md` används tills vidare som inventerings- och faktaunderlag. Markeringar och tänkta användningar där ska verifieras av Kent.
-- I `Analys/delprov1-vindkraftskalkyler/` är `utkast-4a.md` det tidigare, bredare analysutkastet, `utkast-4b.md` det senare inventerings- och faktaunderlaget och `utkast-4c.md` den första sammanhållna arbetsversionen byggd av 4a, 4b och arbetsguiden. De ska inte skrivas över när en ny version skapas.
+- `utkast-4a.md` (4 september 2026) är det tidiga, friare analysutkastet som skrevs innan kursmallen fanns. `utkast-4b.md` (10 november 2026) är det senare inventeringsutkastet, skrivet utifrån kursledningens mall. De är historiska underlag och ska inte konkurrera med den aktuella arbetsversionen `utkast-4c.md`.
+- Fortsatt arbete utgår från 4c och följer kursens uppgiftsmall och betygsmatris. Gå tillbaka till 4a eller 4b endast när ett konkret innehåll, en källa eller en tidigare tanke behöver hämtas därifrån. Bevara äldre versioner när nya utkast skapas.
 - Vindkraftskalkylens tidigare och nuvarande versioner används som fallmaterial. Påståenden om vad AI bidrog med ska beläggas med Kents minne, arbetsmaterial, versionshistorik eller annat verifierbart underlag.
 - Kursplanen och uppgiftens instruktioner i Canvas styr om de skiljer sig från den lokala sammanfattningen eller mallens rekommendationer.
 
-Utkast 4a och 4b är separata arbetsunderlag till 4c, inte konkurrerande slutversioner. 4a (4 september 2026) är det tidigare, bredare analysutkastet om kalkylens utveckling och fler aktörsperspektiv. 4b (10 november 2026) följer inventeringsmallen och fokuserar på en konkret AI-fråga kring vindkraftsersättning och ansvar. 4c sammanför och omstrukturerar relevant material från båda utifrån aktuell mall, matris och arbetsguide. Alla versioner i fas 4 samlas i samma utkastmapp och bevaras när en ny version skapas.
+Utkast 4a och 4b visar att en rapport kan börja som ett friare analysutkast eller byggas direkt utifrån en föreskriven mall. För det här delprovet är beslutet taget: 4c och senare versioner följer kursens mall och betygsmatris. De äldre utkasten används selektivt som historiska underlag.
 
 ## 5. Innehåll som rapporten ska täcka
 
@@ -103,5 +103,14 @@ När kursversionen av arbetsmetoden har prövats och Kent har granskat och commi
 3. Vad gjorde AI faktiskt i utvecklingen av den traditionella kalkylen och i utvidgningen till flera aktörsperspektiv? Vilka verktyg, exempel och granskningssteg kan Kent belägga?
 4. Är mappstrukturen för kravunderlag, PRD och utkastserie tydlig och fungerande i praktiken?
 5. Vilka kurskällor krävs eller rekommenderas utöver de källor som redan finns i utkasten?
+
+
+## 10. Metainsikt att bära vidare
+
+En rapport kan börja friare när ingen föreskriven struktur finns, eller följa en mall som kursledning eller organisation har fastställt. En mall kan göra krav, täckning och bedömning tydligare, men den kan också påverka hur personlig och självständigt disponerad texten blir. Detta ska inte antas på förhand.
+
+Inför en framtida rapport ska arbetsstarten därför klargöra om en mall är obligatorisk, vägledande eller saknas. Om en mall gäller följer arbetet dess krav och bedömningskriterier, samtidigt som utrymmet för Kents egna exempel, analys och röst synliggörs. Om ingen mall finns formas dispositionen utifrån syfte, målgrupp, lärandemål och bedömningskriterier.
+
+Efter färdigställandet ska Kent få reflektera över hur mycket struktur mallen gav, vad den begränsade och om den påverkade textens egen röst. Den erfarenheten kan sedan användas när nästa rapport planeras. För Delprov 1 är mallen och betygsmatrisen redan valda som styrande underlag; den diskussionen ska inte öppna den avgränsningen på nytt.
 
 Denna PRD är en arbetsversion. Den fastställs först när de öppna kurskraven har kontrollerats och Kent har godkänt avgränsningen och de faktiska AI-användningarna.
