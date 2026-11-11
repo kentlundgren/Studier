@@ -16,6 +16,16 @@ Stegen ger en gemensam karta. Arbetet kan gå fram och tillbaka mellan stegen n�
 6. **Rätt omfattning och detaljredigering.** Anpassa texten till ord-, tecken- eller sidram. När innehållet är på plats arbetar vi främst med tydlighet, disposition, meningsbyggnad, språk och konsekventa hänvisningar. Öppna nya sakfrågor endast om granskningen visar en faktisk brist.
 7. **Färdig text.** Stäm av slutversionen mot uppgift, mall, matris, källor, formkrav och regler för AI-stöd. Kent avgör när utkastet är färdigt och tar hand om eventuell inlämning samt Git, commit och push.
 
+## Länka till underlag
+
+När en text, tabell eller PRD nämner ett underlag som läsaren sannolikt vill granska, gör underlagets namn eller en tydlig beskrivning till en klickbar länk. För filer i repot används relativa Markdown-länkar, så att de fungerar både lokalt i editorn och som läsbara GitHub-länkar till filen.
+
+- Föredra en läsbar `.md`-version när den finns, men länka även till originalet när det är ett viktigt kravdokument eller källunderlag.
+- Länka direkt till den enskilda filen, inte bara till en mapp, när läsaren behöver se ett bestämt dokument.
+- För PDF-, Word-, bild- och andra binärfiler länka till själva filen och kalla den för vad den är; länken kan öppna förhandsvisning eller nedladdning.
+- Skriv inte en intern filväg som kod om den lika gärna kan presenteras som en klickbar länk.
+- Kontrollera att länkmålet finns och att en relativ länk utgår från rätt mapp innan leverans.
+
 ## Metareflektion att föra vidare
 
 Efter en färdig rapport ska assistenten bjuda in Kent att kort reflektera över arbetsprocessen. När en mall använts, fråga vad den hjälpte med, vad den begränsade och hur den påverkade textens egen röst. När ingen mall fanns, fråga hur dispositionen växte fram och vilket stöd den gav. Spara den konkreta erfarenheten i uppgiftens PRD eller arbetsanteckning; för över en generell lärdom hit först när Kent bedömer att den är användbar för kommande uppgifter.
