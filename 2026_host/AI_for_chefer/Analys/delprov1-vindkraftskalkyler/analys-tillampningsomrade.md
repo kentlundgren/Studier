@@ -32,9 +32,12 @@ Fallet är avgränsat till kalkylens *utvecklingsprocess* och *användning som
 beslutsunderlag*; själva vindkraftsekonomin behandlas bara i den mån den
 belyser AI-frågorna.
 
-[KENT: lägg till 2–4 meningar om varför just detta område engagerar dig –
-kopplingen till controlling/ekonomistyrning och till att du faktiskt byggt
-verktygen själv. Det ger uppgiften en tydlig egen röst.]
+Förnybar energi, som vindkraft, engagerar mig eftersom jag har en teknisk lic inom miljöekonomi (Lundgren. 1998) och jag är sedan många år engagerad som styrelsemedlem i Skånes vindkraftsakademi (lägg in källa, länk, till [https://skanesvindkraftsakademi.se/](https://skanesvindkraftsakademi.se/) ). Som ekonom, controller, som arbetar med ekonomistyrning är jag van vid att arbeta med kalkyler, i olika utformningar (länka till dels ett blogginlägg från 2014 [https://kentlundgren.blogspot.com/2014/01/lonsamhet-for-stora-3-mw-vindkraftverk.html](https://kentlundgren.blogspot.com/2014/01/lonsamhet-for-stora-3-mw-vindkraftverk.html) , samt dels till det tillhörande kalkylbladet [https://docs.google.com/spreadsheets/d/1mpdXLRknRO8vfQEzeCByqYeB5bVRuyWXRBKOR_eyZl0/edit](https://docs.google.com/spreadsheets/d/1mpdXLRknRO8vfQEzeCByqYeB5bVRuyWXRBKOR_eyZl0/edit) ). Sedan dess har kalkylen utvecklats på olika sätt, vilket denna text ska fokusera på. Ai, och mer specifikt generativ AI, förmåga att skriva och räkna, koda, har utvecklats enormt de sista åren. Det är bra, men det finns ändå begränsningar, svårigheter och risker med generativ AI och hur kalkyler utvecklas, visas och förändras, vilket vi ska se.   
+  
+  
+Ta bort: `[KENT: lägg till 2–4 meningar om varför just detta område engagerar dig –`  
+`kopplingen till controlling/ekonomistyrning och till att du faktiskt byggt`  
+`verktygen själv. Det ger uppgiften en tydlig egen röst.]`
 
 ### Frågeställningar
 
@@ -73,23 +76,23 @@ höjer trovärdigheten och krävs för LM 1.]
 De metoder som är relevanta för fallet:
 
 - **Generativ AI och stora språkmodeller (LLM).** Verktygen som användes för
-  att bygga kalkylen är LLM-baserade assistenter som genererar kod, text och
-  förklaringar från naturspråksinstruktioner. Nyckelbegrepp: förtränad modell,
-  prompt, kontextfönster, hallucination, "human in the loop".
+att bygga kalkylen är LLM-baserade assistenter som genererar kod, text och
+förklaringar från naturspråksinstruktioner. Nyckelbegrepp: förtränad modell,
+prompt, kontextfönster, hallucination, "human in the loop".
 - **AI som kodgenerator.** Kodgenerering är en avgränsad, verifierbar
-  uppgift: output kan köras och testas, vilket gör felaktigheter lättare att
-  upptäcka än i löpande text.
+uppgift: output kan köras och testas, vilket gör felaktigheter lättare att
+upptäcka än i löpande text.
 - **Floridis tes om agens utan intelligens.** [Floridi (2023)](https://doi.org/10.1093/oso/9780198883098.001.0001)
-  beskriver AI som en historisk åtskillnad mellan *handlingsförmåga* och
-  *förståelse*: modellen kan producera en fungerande kalkylmodell utan att
-  "förstå" vare sig vindkraft eller ekonomi. Det är den centrala begreppsliga
-  poängen för hela analysen.
+beskriver AI som en historisk åtskillnad mellan *handlingsförmåga* och
+*förståelse*: modellen kan producera en fungerande kalkylmodell utan att
+"förstå" vare sig vindkraft eller ekonomi. Det är den centrala begreppsliga
+poängen för hela analysen.
 - **Skillnad mot traditionell programvara.** AI-förordningen definierar
-  AI-system bl.a. genom förmågan att *dra slutsatser* (infer) och generera
-  output som påverkar omgivningen, till skillnad från regelstyrd programvara
-  ([Europaparlamentet och rådet, 2024](http://data.europa.eu/eli/reg/2024/1689/oj), skäl 12).
-  Kalkylverktyget självt är regelstyrt (deterministiska formler); det är
-  *utvecklingsprocessen* som är AI-stödd.
+AI-system bl.a. genom förmågan att *dra slutsatser* (infer) och generera
+output som påverkar omgivningen, till skillnad från regelstyrd programvara
+([Europaparlamentet och rådet, 2024](http://data.europa.eu/eli/reg/2024/1689/oj), skäl 12).
+Kalkylverktyget självt är regelstyrt (deterministiska formler); det är
+*utvecklingsprocessen* som är AI-stödd.
 
 [KENT: välj ut de 3–4 begrepp du vill ha kvar och stryk resten – bättre med
 djup än bredd på ett kunskapsmål. Lägg gärna till en mening om maskininlärning
@@ -147,20 +150,20 @@ något generation 4 av kalkylen adresserar genom att märka varje fält som
 ### 5.1 EU:s AI-förordning (2024/1689)
 
 - **Riskklassificering.** Ett internt kalkyl-/beslutsstöd för
-  investeringsanalys är sannolikt **inte** ett högrisksystem enligt
-  förordningens bilaga III (som rör bl.a. rekrytering, kreditvärdering,
-  utbildning och kritisk infrastruktur) ([Europaparlamentet och rådet, 2024](http://data.europa.eu/eli/reg/2024/1689/oj)).
-  Bedömningen ändras om verktyget används för att fatta beslut som väsentligt
-  påverkar enskildas rättigheter – t.ex. ersättningsnivåer till namngivna
-  närboende. [KENT: resonera kring var gränsen går för *din* tillämpning.]
+investeringsanalys är sannolikt **inte** ett högrisksystem enligt
+förordningens bilaga III (som rör bl.a. rekrytering, kreditvärdering,
+utbildning och kritisk infrastruktur) ([Europaparlamentet och rådet, 2024](http://data.europa.eu/eli/reg/2024/1689/oj)).
+Bedömningen ändras om verktyget används för att fatta beslut som väsentligt
+påverkar enskildas rättigheter – t.ex. ersättningsnivåer till namngivna
+närboende. [KENT: resonera kring var gränsen går för *din* tillämpning.]
 - **AI literacy (art. 4).** Förordningen kräver att organisationer som
-  utvecklar eller använder AI-system säkerställer tillräcklig AI-kunnighet hos
-  berörd personal. Det gäller även den som använder generativ AI för att
-  bygga verktyg.
+utvecklar eller använder AI-system säkerställer tillräcklig AI-kunnighet hos
+berörd personal. Det gäller även den som använder generativ AI för att
+bygga verktyg.
 - **Transparens.** Om verktyget innehåller AI-genererad text eller
-  interagerar med användare finns informationskrav (art. 50).
+interagerar med användare finns informationskrav (art. 50).
 - **GPAI-leverantörernas skyldigheter** ligger hos modelleverantören, inte
-  hos dig som användare – men de påverkar vilket ansvar du kan luta dig mot.
+hos dig som användare – men de påverkar vilket ansvar du kan luta dig mot.
 
 ### 5.2 Dataskydd (GDPR)
 
@@ -183,22 +186,22 @@ transparens kan byggas in ([Lundgren, 2026a](https://kentlundgren.github.io/Vind
 ## 6. Kritisk värdering: etiskt, hållbart, mänskligt (LM 7)
 
 - **Falsk precision och automation bias.** Det största etiska problemet är
-  inte att AI:n ljuger, utan att den övertygar. Ett välformaterat verktyg med
-  diagram och nyckeltal inbjuder till att lita mer på resultatet än
-  antagandena bär. [Floridi (2023)](https://doi.org/10.1093/oso/9780198883098.001.0001)
-  betonar spårbarhet och förklarbarhet som etiska krav, inte bara tekniska.
+inte att AI:n ljuger, utan att den övertygar. Ett välformaterat verktyg med
+diagram och nyckeltal inbjuder till att lita mer på resultatet än
+antagandena bär. [Floridi (2023)](https://doi.org/10.1093/oso/9780198883098.001.0001)
+betonar spårbarhet och förklarbarhet som etiska krav, inte bara tekniska.
 - **Vem representeras i modellen?** Steget från en investerarkalkyl till fem
-  perspektiv är i sig ett etiskt ställningstagande: det gör markägarens,
-  kommunens, andelsägarens och den närboendes ekonomi synlig. Modeller som
-  bara räknar investerarens IRR osynliggör fördelningsfrågan.
+perspektiv är i sig ett etiskt ställningstagande: det gör markägarens,
+kommunens, andelsägarens och den närboendes ekonomi synlig. Modeller som
+bara räknar investerarens IRR osynliggör fördelningsfrågan.
 - **Hållbarhet.** Verktyget värderar undviken CO₂ som en samhällsnytta – en
-  schablon som gör klimatnyttan jämförbar med kronor, men som också
-  förenklar. [KENT: din syn – är det rätt att sätta pris på CO₂ i kalkylen,
-  och vad är alternativet?]
+schablon som gör klimatnyttan jämförbar med kronor, men som också
+förenklar. [KENT: din syn – är det rätt att sätta pris på CO₂ i kalkylen,
+och vad är alternativet?]
 - **Mänskligt perspektiv.** Bevaras omdömet? Om nästa generation av
-  kalkylbyggare aldrig skrivit en annuitetsformel för hand – förstår de när
-  modellen är fel? [KENT: din erfarenhet av att bygga *med* respektive *utan*
-  AI-stöd är central här.]
+kalkylbyggare aldrig skrivit en annuitetsformel för hand – förstår de när
+modellen är fel? [KENT: din erfarenhet av att bygga *med* respektive *utan*
+AI-stöd är central här.]
 
 ---
 
@@ -210,8 +213,10 @@ värdeskapandet från produktion till omdöme, validering och kommunikation.**
 En ledning som vill dra nytta av detta behöver:
 
 1. **Kompetens** – AI literacy hos dem som bygger och tolkar verktygen (krav
+
    enligt förordningen och en huvudpoäng hos [AI-kommissionen, 2025](https://regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/02/sou-202512/)).
 2. **Process** – rutiner för validering, versionshantering och transparens om
+
    antaganden.
 3. **Kultur** – att det är legitimt att ifrågasätta ett snyggt verktyg.
 
