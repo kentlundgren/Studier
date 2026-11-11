@@ -8,7 +8,7 @@
 
 > **Läsanvisning:** `[KENT: …]` markerar en fråga eller uppgift som kräver Kents erfarenhet, bedömning eller besked. Ta bort markeringen när frågan är besvarad. `[KONTROLLERA: …]` används endast när en sakuppgift eller källa faktiskt återstår att verifiera. Utkastet samlar tidigare material och är inte en färdig inlämning. Kontrollera Canvas regler för AI-stöd innan texten färdigställs.
 
-> **Processnotering – tas bort före rapportversion:** Utkast 4c är den aktuella arbetsversionen. Äldre utkast 4a och 4b är bakgrundsmaterial; den fortsatta texten följer kursens uppgiftsmall och betygsmatris.
+> **Processnotering – tas bort före rapportversion:** Vi följer den gemensamma [sjustegsprocessen](../../../../AGENTS.md). [PRD:n för Delprov 1](../../delprov1-vindkraftskalkyler/PRD_delprov1.md) visar hur varje steg har använts här. Utkast 4c är den aktuella arbetsversionen och följer kursens mall och betygsmatris.
 
 ## Sammanfattning
 

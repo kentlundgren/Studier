@@ -73,15 +73,19 @@ Utkast 4a och 4b visar att en rapport kan börja som ett friare analysutkast ell
 - Vid en separat granskning får Claude en avgränsad fråga och samma version av PRD eller rapport. Kent jämför råden och fattar beslut; modellerna skriver inte samtidigt i samma fil.
 - För varje arbetspass antecknas kort: datum, modell/verktyg, uppgift, AI-bidrag, Kents egna beslut/ändringar och om källor har kontrollerats. Loggens placering och eventuell redovisning i inlämningen bestäms först efter kontroll av kursens regler.
 
-### Arbetskedja från uppgift till färdig rapport
+### Så användes sjustegsprocessen i Delprov 1
 
-1. **Uppgift, kursmoment och mall.** Klargör vad som ska göras, vilka frågor som ska besvaras och vilka formkrav mallen anger. Samla även relevanta kursmoment, quizfrågor, egna quizsvar och återkoppling. De kan visa vilka begrepp och problem kursledningen betonar.
-2. **Betygsmatris och relevans.** Läs bedömningskriterierna bakifrån från önskad nivå. Gör synligt vad som behöver finnas i rapporten för G och vad som ytterligare krävs för VG. Koppla relevanta quiz- och kursbegrepp till uppgiftens frågor och kriterier; ta bara med sådant som stärker analysen. Quizmaterial kompletterar uppgiftsinstruktion och matris, men ersätter dem inte och är inte i sig belägg för sakpåståenden. Material från andra quiz eller Delprov 2 kan bidra med begrepp som är gemensamma för kursen, men examinationernas uppgifter och krav ska hållas isär.
-3. **Arbetsguide.** Översätt uppgift, mall och matris till en hanterbar arbetsordning och slutkontroll.
-4. **Innehållsutkast.** Bygg och pröva innehållet stegvis, område för område. Spara 4a, 4b, 4c och eventuellt 4d tillsammans i `Analys/delprov1-vindkraftskalkyler/`, med filnamnen `utkast-4a.md`, `utkast-4b.md` osv. Ge varje version en beskriven roll och bevara tidigare underlag. Saknade egna erfarenheter markeras `[KENT: …]`, obekräftade sakuppgifter `[KONTROLLERA: …]`.
-5. **Innehållet är tillräckligt – men texten kan vara för lång.** Stanna med nya tillägg och bedöm om alla krav, belägg och egna resonemang finns med. Ta bort upprepningar, sidospår och text som inte hjälper rapportens syfte. Det här är en medveten mellanversion, inte ett misslyckande.
-6. **Rätt omfattning och detaljredigering.** Anpassa texten till uppgiftens ord-, tecken- eller sidram. När innehållet är låst görs främst språkliga justeringar: meningslängd, disposition inom stycken, tydlighet, kommatering och konsekventa hänvisningar. Nya sakfrågor öppnas bara om granskningen visar en verklig lucka.
-7. **Färdig rapport.** Kent godkänner att texten inte längre är ett utkast. Gör slutkontroll mot uppgift, matris, källor, formkrav och kursens AI-regler. Kent hanterar fortsatt Git, commit och push i Cursor.
+Den generella arbetsordningen finns i Studier-repots [`AGENTS.md`](../../../AGENTS.md). Tabellen nedan visar hur stegen har tillämpats i just det här arbetet. Kursens instruktioner, mall och betygsmatris är styrande för Delprov 1.
+
+| Steg | Delprov 1: konkret underlag och arbete | Läge |
+|---|---|---|
+| 1. Uppgift, sammanhang och mall | Kursens instruktioner och lärandemål, HKR:s Word-mall i `delprov1-vindkraftskalkyler/mall/`, relevanta quiz och kursmoment. | Underlagen är samlade. Canvas-instruktioner och AI-regler behöver slutkontrolleras. |
+| 2. Mål och bedömningskriterier | Betygsmatrisen `2026_host/AI_for_chefer/kursplan/betygsmatris_AI101A.jpg`; G- och VG-kriterierna kopplas till rapportens delar. | Första kartläggningen finns i arbetsguiden; den ska användas som kontroll när 4c utvecklas. |
+| 3. Arbetsguide | `mall/mall-delprov1.md` och `mall/arbetsguide-delprov1.docx` översätter uppgift, mall och matris till frågor och arbetsordning. | Framtaget; kan förtydligas om kurskraven ändras eller en lucka upptäcks. |
+| 4. Innehållsutkast | `utkast-4a.md` är det tidiga friare analysutkastet; `utkast-4b.md` skrevs senare utifrån kursmallen; `utkast-4c.md` är aktuell arbetsversion. | Pågår i 4c. Äldre versioner används selektivt, inte som alternativa huvudtexter. |
+| 5. Tillräckligt innehåll | Kontrollera att krav, belägg och Kents egna resonemang finns och att återstående `[KENT: …]`-punkter är hanterade. | Inte påbörjat som gallringsfas. |
+| 6. Rätt omfattning och detaljredigering | Anpassa innehållet till mallens rekommenderade omfång och finslipa språk och hänvisningar när större innehållsfrågor är lösta. | Inte påbörjat. |
+| 7. Färdig rapport | Slutkontroll mot instruktioner, mall, matris, källor och AI-regler; Kent avgör när rapporten är klar. | Inte påbörjat. Kent hanterar inlämning och Git i Cursor. |
 
 För Delprov 1 är vi nu i **fas 4**, med utkast 4c. Fas 5 börjar när Kent bedömer att rapporten täcker det som behövs och vi ska i huvudsak gallra och strama upp texten. Metanivån dokumenteras under arbetets gång: AI-bidrag, Kents egna beslut och ändringar, källkontroller samt lärdomar om arbetssättet. Hur AI-stödet får användas och redovisas i examinationen kontrolleras mot Canvas innan rapporten färdigställs.
 

@@ -1,7 +1,7 @@
 # AGENTS.md – 2026_host
 
 **Gäller:** AI-agenter som hjälper Kent Lundgren med skriftliga uppgifter i kurserna under `2026_host/`: `Policy_i_energi_och_klimat/` (ETE409) och `AI_for_chefer/` (AI101A).
-**Kompletterar:** `C:\Users\kentl\.claude\CLAUDE.md` (global) och `Studier/CLAUDE.md`. Vid konflikt: fråga Kent.
+**Kompletterar:** Studier-repots [`AGENTS.md`](../AGENTS.md) (gemensam sjustegsprocess), `Studier/CLAUDE.md` och `C:\Users\kentl\.claude\CLAUDE.md` (global). Vid konflikt: fråga Kent.
 **Skapad:** 2026-11-03
 
 Kursspecifika krav (disposition, ordgräns, referenskrav, deadline) står i kursens egna dokument och återges inte här. Läs dem före varje skrivuppdrag. För ETE409:s essä (UPG2) är det `Policy_i_energi_och_klimat/essa-upg2/krav-essa.md`, `disposition-essa.md` och `essa-stomme.md`.

@@ -104,7 +104,7 @@ kursens arbetsdokument, inte i en regelfil.
 
 ## Skriftliga uppgifter
 
-Skriver jag eller hjälper jag till med text till en kurs under `2026_host/`: läs först [`2026_host/AGENTS.md`](2026_host/AGENTS.md) (roll som utkastagent, AI-regler, lärloop mot Kents omskrivningar, sekretess för `utkast-privat/`).
+Skriver jag eller hjälper jag till med en text i Studier-repot: den gemensamma sjustegsprocessen läses in från @AGENTS.md. För kurstexter under `2026_host/`, läs också [`2026_host/AGENTS.md`](2026_host/AGENTS.md) för roll, kursregler, mallreflektion och lärloop mot Kents omskrivningar.
 
 ## Månadsrapport
 
