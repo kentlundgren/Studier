@@ -15,7 +15,7 @@ Rapporten ska stödja examinationen av lärandemål 1–3 och 7–8. Den ska fö
 
 Vindkraftskalkyler kan ge beslutsunderlag för olika aktörer. En traditionell kalkyl kan fokusera på projektörens investering och lönsamhet. En modell med flera perspektiv kan dessutom visa beräkningar för exempelvis markägare, kommun/samhälle, andelsägare och närboende. Den bredare modellen kan synliggöra fler konsekvenser, men dess antaganden, formler och samband kan också bli svårare att överblicka och kontrollera.
 
-Rapporten ska undersöka vilken roll generativ AI faktiskt haft i denna utveckling, vad AI-stödet kan tillföra och vilka krav det ställer på mänsklig granskning, kompetens och ansvar.
+Rapporten ska inventera befintliga eller möjliga användningar av generativ AI i denna utveckling, vad AI-stödet har tillfört eller kan tillföra och vilka krav det ställer på mänsklig granskning, kompetens och ansvar.
 
 ## 3. Föreslagen avgränsning
 
@@ -24,7 +24,7 @@ Analysera två möjliga, men ännu inte slutligt verifierade, användningar av g
 1. **AI-stöd vid utveckling av en traditionell projektörskalkyl.** Undersök konkret om och hur AI användes för att skriva eller ändra kod, formler, förklaringar eller andra delar av en kalkyl som i huvudsak visar projektörens perspektiv.
 2. **AI-stöd vid utvidgning till en modell med flera aktörsperspektiv.** Undersök konkret om och hur AI bidrog till idéarbete, struktur, kod eller beräkningslogik när modellen utökades till projektör, markägare, kommun/samhälle, andelsägare och närboende.
 
-Perspektiven är inte i sig olika AI-användningar. Rapporten behöver beskriva vilken uppgift AI utförde i varje steg och skilja mellan vad som faktiskt gjordes, vad som bara testades och vad som ännu är en idé.
+Perspektiven är inte i sig olika AI-användningar. Rapporten behöver beskriva vilken uppgift AI utför eller skulle kunna utföra och skilja mellan vad som faktiskt gjordes, vad som bara testades och vad som ännu är en idé.
 
 ## 4. Underlag och arbetsfiler
 
@@ -93,7 +93,7 @@ När kursversionen av arbetsmetoden har prövats och Kent har granskat och commi
 ## 8. Kriterier för en färdig rapport
 
 - Rapportens struktur följer Canvas-instruktionen och den officiella mallen, inklusive eventuella krav på omfång och format.
-- De två AI-användningarna är verkliga, tydligt avgränsade och skiljer mellan genomfört, testat och planerat.
+- Minst två befintliga eller möjliga AI-användningar är tydligt avgränsade och skiljer mellan genomfört, testat och planerat.
 - Nytta och risk analyseras tillsammans, särskilt avvägningen mellan fler synliga aktörsperspektiv och ökad komplexitet i modellens logik.
 - Alla uppgifter om Kents erfarenheter och ställningstaganden är bekräftade av Kent.
 - Fakta och källor är kontrollerade mot relevanta originalkällor; osäkra uppgifter markeras tills de är kontrollerade. Relevanta kursmoment och quizbegrepp har kopplats till rapportens analys utan att quizmaterialet okritiskt kopierats in.
@@ -117,4 +117,10 @@ Inför en framtida rapport ska arbetsstarten därför klargöra om en mall är o
 
 Efter färdigställandet ska Kent få reflektera över hur mycket struktur mallen gav, vad den begränsade och om den påverkade textens egen röst. Den erfarenheten kan sedan användas när nästa rapport planeras. För Delprov 1 är mallen och betygsmatrisen redan valda som styrande underlag; den diskussionen ska inte öppna den avgränsningen på nytt.
 
-Denna PRD är en arbetsversion. Den fastställs först när de öppna kurskraven har kontrollerats och Kent har godkänt avgränsningen och de faktiska AI-användningarna.
+Denna PRD är en arbetsversion. Den fastställs först när de öppna kurskraven har kontrollerats och Kent har godkänt avgränsningen och de befintliga eller möjliga AI-användningarna.
+
+## Förtydligande av inventeringens omfattning, 11 november 2026
+
+[HKR:s originalmall](mall/AI%20Inventering%20Dokument%20f%C3%B6r%20Uppgift%201.docx) anger ”befintliga eller möjliga AI-användningar” och mognadsgrader från idé till införd lösning. [Betygsmatrisen](../kursplan/betygsmatris_AI101A.jpg), G punkt 2, kräver minst två AI-användningar eller möjliga AI-användningar. Två redan genomförda användningar är alltså inte ett krav i dessa underlag. Den tidigare snävare tolkningen i 4c har rättats. Befintliga erfarenheter ska fortfarande beskrivas sanningsenligt; möjliga användningar analyseras med tydlig status, ansvar, underlag, förväntad nytta och risk.
+
+[Avhandlingen](../litteratur/More/Lundgren_1998_lic_arbete.pdf), särskilt s. 93–99, ger tre analytiska perspektiv. [Policyrapporten](../litteratur/More/intaktsdelningslagen_3000_ord.md) ger ett konkret informationsbehov och scenarioexempel. Dessa används som bakgrund till AI-inventeringen; policyförslag och beräkningsexempel ska inte framställas som gällande rätt eller observerade effekter.

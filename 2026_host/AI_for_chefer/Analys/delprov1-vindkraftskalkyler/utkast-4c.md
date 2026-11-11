@@ -12,7 +12,7 @@
 
 ## Sammanfattning
 
-[KENT: Skriv detta sist. Sammanfatta på högst 250 ord syftet, processen, de två AI-användningar som faktiskt kan beläggas, den viktigaste nyttan och risken samt rekommendationen.]
+[KENT: Skriv detta sist. Sammanfatta på högst 250 ord syftet, processen, minst två befintliga eller möjliga AI-användningar och deras mognadsgrad, den viktigaste nyttan och risken samt rekommendationen.]
 
 ## Ämnesord
 
@@ -56,16 +56,20 @@ Jag arbetar också på en metanivå: jag reflekterar över hur instruktioner, ma
 
 ## 3. Inventering av AI-användningar
 
-De två perspektiven – projektörens kalkyl och kalkylen med flera aktörer – är inte automatiskt två olika AI-användningar. Rapporten behöver visa vilken konkret uppgift AI utförde i varje utvecklingssteg. Tabellen är därför preliminär tills jag har bekräftat AI:s faktiska roll.
+De två perspektiven – projektörens kalkyl och kalkylen med flera aktörer – är inte automatiskt två olika AI-användningar. Inventeringen omfattar minst två befintliga eller möjliga användningar enligt kursens originalmall och betygsmatris. För varje användning beskrivs den konkreta uppgift AI utför eller skulle kunna utföra, underlag, ansvar, nytta, risk och mognadsgrad. En idé kan ingå utan att vara genomförd; förväntad nytta ska då skiljas från observerade resultat.
 
 | Kandidat till AI-användning                                 | Syfte och konkret uppgift                                                                                                                                                                 | Underlag                                                                   | Påverkan och kontroll                                                                                                          | Status                                |
 | ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------- |
 | AI-stöd vid utveckling av projektörskalkylen                | [KENT: ange om AI föreslog eller skrev kod, formler, struktur, förklaringar eller något annat.]                                                                                           | Kalkylark, kod, indata eller egna instruktioner. [KENT: precisera.]        | Om AI påverkat beräkningslogik behöver ändringar jämföras med kända värden och granskas av mig. [KENT: beskriv vad du gjorde.] | [KENT: genomfört/testat/planerat/idé] |
 | AI-stöd när kalkylen utvidgades till flera aktörsperspektiv | AI bidrog med idéer, nya aktörsperspektiv och förslag till beräkningslogik. Syftet var att synliggöra hur intäktsdelning fördelar ekonomiska konsekvenser mellan aktörer och att diskutera möjliga samband med acceptans, legitimitet och upplevd rättvisa. | Tidigare kalkyler, nya antaganden och aktörsperspektiv. [KENT: precisera.] | Fler perspektiv kan bredda beslutsunderlaget, men varje nytt samband och antagande behöver kunna förklaras och kontrolleras.   | [KENT: genomfört/testat/planerat/idé] |
 
-[KENT: Om en eller båda kandidaterna inte beskriver en faktisk AI-användning, välj en annan konkret användning. Möjliga framtida funktioner – exempelvis AI-stöd för källsökning, scenarier eller resultatförklaringar – får inte beskrivas som redan införda.]
+[KENT: Välj minst två tydligt avgränsade befintliga eller möjliga användningar. De kan exempelvis vara källbaserat analysstöd respektive utveckling och förklaring av kalkylscenarier. Ange mognadsgrad separat och behåll skillnaden mellan genomförda insatser och utvecklingsidéer.]
 
 ## 4. Verksamhetsanalys och möjlig nytta
+
+Min avhandling skiljer mellan affärsmässig produktionslogik, affärsmässig hållbarhetslogik och socio-ekonomisk hållbarhetslogik ([Lundgren, 1998, s. 93–99](../../litteratur/More/Lundgren_1998_lic_arbete.pdf)). De betonar produktionskostnader, efterfrågan på miljöprofilerade produkter respektive lokal förankring och legitimitet. Här använder jag dem som analytiska perspektiv på vilka frågor ett beslutsunderlag behöver belysa. Avhandlingen behandlar främst bioenergi och energiföretag; överföringen till vindkraft är min tillämpning, inte ett empiriskt resultat om närboende.
+
+Min [policyrapport om intäktsdelning](../../litteratur/More/intaktsdelningslagen_3000_ord.md) ger ett konkret verksamhetsbehov: att kunna redovisa beräknade ersättningsintervall och antaganden före beslut. Dess förslag om tidiga besked, automatisk rätt och uppföljning är policyförslag som ska skiljas från gällande regler. Två möjliga AI-användningar är att strukturera källor och aktörernas informationsbehov samt att hjälpa till att utveckla och förklara kontrollerbara kalkylscenarier. Långhult/Lunnarsbo används i policyrapporten som räkneillustration och Önnerup som kontrastfall, inte som belägg för effekten av utbetald ersättning. Jag har inte identifierat dokumenterade utbetalningsfall i detta underlag. Inventeringen bedömer därför möjliga nyttor och risker; den visar inte att AI eller ersättning har ökat acceptansen.
 
 En traditionell kalkyl med projektörsperspektiv kan ge en avgränsad bild av investeringens ekonomi. En modell med flera aktörsperspektiv kan synliggöra hur samma projekt kan påverka olika grupper ekonomiskt. [KENT: bedöm vad kalkylen faktiskt visar, vilka användare den är avsedd för och om den har använts av någon annan än dig.]
 
@@ -103,7 +107,7 @@ För VG behöver slutversionen göra prioriteringen tydlig och visa en genomför
 
 ## 8. Slutsats
 
-[KENT: Besvara rapportens syfte. Sammanfatta vad AI faktiskt bidrog med, vilken nytta kalkylutvecklingen gav, vilka risker som kräver kontroll och vad du rekommenderar som nästa steg. Slutsatsen ska uttrycka din bedömning, inte enbart återge tidigare avsnitt.]
+[KENT: Besvara rapportens syfte. Sammanfatta vad AI har bidragit med eller skulle kunna bidra med, skilj observerad från förväntad nytta, vilka risker som kräver kontroll och vad du rekommenderar som nästa steg. Slutsatsen ska uttrycka din bedömning, inte enbart återge tidigare avsnitt.]
 
 ## Referenser
 
@@ -142,7 +146,7 @@ SFS 2026:1113. *Lag om intäktsdelning från vindkraftsanläggningar.* Tillgäng
 
 ## Punkter att gå igenom tillsammans
 
-1. Fastställ två faktiska AI-användningar. Om AI bara användes i ett av stegen behöver inventeringen justeras.
+1. Välj minst två befintliga eller möjliga AI-användningar och ange mognadsgrad, ansvar, underlag och kontroll för var och en.
 2. Lägg in dina konkreta exempel och egna bedömningar där `[KENT: …]` står.
 3. Stäm av AI-deklarationen mot den faktiska användningen och kursens regler för AI-stöd. Kontrollera i slutversionen att varje källa stöder det påstående den hänvisas till.
 4. Gå igenom rapporten avsnitt för avsnitt och anpassa den till HKR-mallens rekommenderade omfång.
