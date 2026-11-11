@@ -34,6 +34,7 @@ Perspektiven är inte i sig olika AI-användningar. Rapporten behöver beskriva 
 |---|---|---|
 | Kravunderlag och stöd | `delprov1-vindkraftskalkyler/mall/` | HKR:s originalmall, vår ifyllningsmall `mall-delprov1.md` och arbetsguiden `arbetsguide-delprov1.docx`. Dessa beskriver uppgiften och hur arbetet kan genomföras. |
 | PRD | `delprov1-vindkraftskalkyler/PRD_delprov1.md` | Kursens arbetsbeskrivning: syfte, avgränsning, filstruktur, arbetsflöde, öppna frågor och kriterier. |
+| Kursmoment och quiz | `delprov1-vindkraftskalkyler/Quiz/` | Relevanta quizfrågor, egna svar och kursmoment används som kompletterande signaler om centrala begrepp och kursledningens betoningar. |
 | Utkastserie, fas 4 | `Analys/delprov1-vindkraftskalkyler/` | Samtliga versioner 4a, 4b, 4c och vid behov 4d samlas här. Gemensam namnstam `utkast-4a.md`, `utkast-4b.md` osv. gör ordningen tydlig; äldre utkast bevaras som underlag. |
 
 
@@ -43,7 +44,7 @@ Perspektiven är inte i sig olika AI-användningar. Rapporten behöver beskriva 
 - Vindkraftskalkylens tidigare och nuvarande versioner används som fallmaterial. Påståenden om vad AI bidrog med ska beläggas med Kents minne, arbetsmaterial, versionshistorik eller annat verifierbart underlag.
 - Kursplanen och uppgiftens instruktioner i Canvas styr om de skiljer sig från den lokala sammanfattningen eller mallens rekommendationer.
 
-Utkast 4a och 4b är separata arbetsunderlag till 4c, inte konkurrerande slutversioner. Alla versioner i fas 4 samlas i samma utkastmapp och bevaras när en ny version skapas.
+Utkast 4a och 4b är separata arbetsunderlag till 4c, inte konkurrerande slutversioner. 4a (10 november 2026) följer inventeringsmallen och fokuserar på en konkret AI-fråga kring vindkraftsersättning och ansvar. 4b (4 september 2026) är ett tidigare, bredare analysutkast om kalkylens utveckling och fler aktörsperspektiv. 4c sammanför och omstrukturerar relevant material från båda utifrån aktuell mall, matris och arbetsguide. Alla versioner i fas 4 samlas i samma utkastmapp och bevaras när en ny version skapas.
 
 ## 5. Innehåll som rapporten ska täcka
 
@@ -74,8 +75,8 @@ Utkast 4a och 4b är separata arbetsunderlag till 4c, inte konkurrerande slutver
 
 ### Arbetskedja från uppgift till färdig rapport
 
-1. **Uppgift och mall.** Klargör vad som ska göras, vilka frågor som ska besvaras och vilka formkrav mallen anger.
-2. **Betygsmatris.** Läs bedömningskriterierna bakifrån från önskad nivå. Gör synligt vad som behöver finnas i rapporten för G och vad som ytterligare krävs för VG.
+1. **Uppgift, kursmoment och mall.** Klargör vad som ska göras, vilka frågor som ska besvaras och vilka formkrav mallen anger. Samla även relevanta kursmoment, quizfrågor, egna quizsvar och återkoppling. De kan visa vilka begrepp och problem kursledningen betonar.
+2. **Betygsmatris och relevans.** Läs bedömningskriterierna bakifrån från önskad nivå. Gör synligt vad som behöver finnas i rapporten för G och vad som ytterligare krävs för VG. Koppla relevanta quiz- och kursbegrepp till uppgiftens frågor och kriterier; ta bara med sådant som stärker analysen. Quizmaterial kompletterar uppgiftsinstruktion och matris, men ersätter dem inte och är inte i sig belägg för sakpåståenden. Material från andra quiz eller Delprov 2 kan bidra med begrepp som är gemensamma för kursen, men examinationernas uppgifter och krav ska hållas isär.
 3. **Arbetsguide.** Översätt uppgift, mall och matris till en hanterbar arbetsordning och slutkontroll.
 4. **Innehållsutkast.** Bygg och pröva innehållet stegvis, område för område. Spara 4a, 4b, 4c och eventuellt 4d tillsammans i `Analys/delprov1-vindkraftskalkyler/`, med filnamnen `utkast-4a.md`, `utkast-4b.md` osv. Ge varje version en beskriven roll och bevara tidigare underlag. Saknade egna erfarenheter markeras `[KENT: …]`, obekräftade sakuppgifter `[KONTROLLERA: …]`.
 5. **Innehållet är tillräckligt – men texten kan vara för lång.** Stanna med nya tillägg och bedöm om alla krav, belägg och egna resonemang finns med. Ta bort upprepningar, sidospår och text som inte hjälper rapportens syfte. Det här är en medveten mellanversion, inte ett misslyckande.
@@ -91,7 +92,7 @@ När kursversionen av arbetsmetoden har prövats och Kent har granskat och commi
 - De två AI-användningarna är verkliga, tydligt avgränsade och skiljer mellan genomfört, testat och planerat.
 - Nytta och risk analyseras tillsammans, särskilt avvägningen mellan fler synliga aktörsperspektiv och ökad komplexitet i modellens logik.
 - Alla uppgifter om Kents erfarenheter och ställningstaganden är bekräftade av Kent.
-- Fakta och källor är kontrollerade mot relevanta originalkällor; osäkra uppgifter markeras tills de är kontrollerade.
+- Fakta och källor är kontrollerade mot relevanta originalkällor; osäkra uppgifter markeras tills de är kontrollerade. Relevanta kursmoment och quizbegrepp har kopplats till rapportens analys utan att quizmaterialet okritiskt kopierats in.
 - Rapporten innehåller Kents egen analys, reflektion och slutliga argumentation.
 - AI-användning redovisas på det sätt som kursen kräver.
 
