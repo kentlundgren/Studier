@@ -6,7 +6,7 @@
 **Status:** Arbetsutkast 4c. Inte färdig rapport eller inlämningsversion.  
 **Underlag:** HKR:s uppgiftsmall och betygsmatris, arbetsguide Delprov 1 samt utkast 4a och 4b.
 
-> **Läsanvisning:** `[KENT: …]` anger innehåll, erfarenheter eller beslut som Kent behöver lägga till eller bekräfta. `[KONTROLLERA: …]` anger fakta, rättsliga påståenden eller länkar som behöver verifieras mot originalkälla. Utkastet samlar och kortar tidigare material; det ersätter inte Kents egen analys. Kontrollera Canvas för uppgiftens slutliga instruktioner och regler om AI-stöd innan texten bearbetas för inlämning.
+> **Läsanvisning:** `[KENT: …]` markerar en fråga eller uppgift som kräver Kents erfarenhet, bedömning eller besked. Ta bort markeringen när frågan är besvarad. `[KONTROLLERA: …]` används endast när en sakuppgift eller källa faktiskt återstår att verifiera. Utkastet samlar tidigare material och är inte en färdig inlämning. Kontrollera Canvas regler för AI-stöd innan texten färdigställs.
 
 ## Sammanfattning
 
@@ -20,17 +20,17 @@
 
 Ekonomiska kalkyler är ett kärnverktyg i verksamhetsstyrning: de omvandlar antaganden om framtiden till jämförbara nyckeltal som beslut kan vila på. Den här rapporten analyserar AI-stödd utveckling av kalkyl- och beslutsverktyg. Fokus är alltså AI:s roll när modeller byggs, förbättras och förklaras – inte att låta en språkmodell ersätta kalkylens kontrollerbara beräkningar.
 
-Som fall används en investerings- och lönsamhetskalkyl för vindkraft som jag har utvecklat i flera steg. Den tidiga kalkylen utgick från projektörens ekonomi. Den nyare modellen visar ekonomiska perspektiv för projektören, markägaren, kommunen/samhället, andelsägare och närboende ([Lundgren, 2026a](https://kentlundgren.github.io/Vindkraft/vindkraftskalkyl/vindkraftskalkyl.html)). [Kent har kontrollerat] En äldre kalkyl och bakgrunden till den beskrivs i mitt blogginlägg från 2014 ([Lundgren, 2014](https://kentlundgren.blogspot.com/2014/01/lonsamhet-for-stora-3-mw-vindkraftverk.html)). [Kent har kontrollerat]
+Som fall använder jag en investerings- och lönsamhetskalkyl för vindkraft som jag har utvecklat i flera steg. Den tidiga kalkylen utgick från projektörens ekonomi. Den nyare modellen redovisar ekonomiska perspektiv för projektören, markägaren, kommunen/samhället, andelsägare och närboende ([Lundgren, 2026a](https://kentlundgren.github.io/Vindkraft/vindkraftskalkyl/vindkraftskalkyl.html)). En äldre kalkyl och bakgrunden till den beskrivs i mitt blogginlägg från 2014 ([Lundgren, 2014](https://kentlundgren.blogspot.com/2014/01/lonsamhet-for-stora-3-mw-vindkraftverk.html)).
 
-Fallet avgränsas till utvecklingsprocessen och kalkylens användning som beslutsunderlag. Vindkraftsekonomin behandlas bara där den behövs för att analysera AI-användning, nytta och risk. En särskild fråga är intäktsdelning till närboende som är rapportens huvudexempel, eftersom det är en ny lag som gäller från 1 juli och som många nya lagar kan vara svårtolkade, uppfattas olika av olika parter, därmed är det ett av flera exempel på hur en bredare kalkyl kan användas. [KENT: har kontrollerat]
+Fallet avgränsas till utvecklingsprocessen och kalkylens användning som beslutsunderlag. Vindkraftsekonomin behandlas bara där den behövs för att analysera AI-användning, nytta och risk. Jag har valt vindkraftsersättning till ägare av bostadsbyggnader nära vindkraftsanläggningar som rapportens huvudexempel. Lag (2026:1113) om intäktsdelning från vindkraftsanläggningar trädde i kraft den 1 juli 2026. Vilka anläggningar och byggnader som omfattas beror också på lagens villkor och övergångsbestämmelser (SFS 2026:1113). En fråga jag vill undersöka är hur en kalkyl kan synliggöra beräkningsgrunder, antaganden och konsekvenser för flera parter när reglerna är nya och olika parter kan ha olika informationsbehov. Kalkylen ska här analyseras som beslutsunderlag, inte som ersättning för en rättslig bedömning.
 
-Vindkraft engagerar mig genom min bakgrund inom miljöekonomi (tekn lic, 1998) och mitt arbete med ekonomistyrning och kalkyler. [du kan länka till min lic: [https://portal.research.lu.se/en/publications/f%C3%B6rnyelsebara-energib%C3%A4rares-nuvarande-och-framtida-konkurrenskraf/](https://portal.research.lu.se/en/publications/f%C3%B6rnyelsebara-energib%C3%A4rares-nuvarande-och-framtida-konkurrenskraf/) ] Som controller är jag van vid att bedöma hur antaganden påverkar ett kalkylresultat. Jag har också själv byggt och vidareutvecklat vindkraftskalkyler. Som ekonom är man van att ofta på en egen kammare räkna ut lönsamhet, pay-back, nettonuvärde (NNV) etc för en parts skull, för ett företag, för en organisation. Nu är det möjligt för den ledande parten, ofta en projektör, med AI:s hjälp, ta steget från en buden snäv kalkyl på den egna datorn, gå till öppen, synlig, kalkyl som visar hur flera parter påverkas. Men det finns så klar risker med detta, kalkylERna blir så klart mer komplexa, så det finns risker för fel, kanske beroende på att underlaget, syftet, definierades fel, medvetet elle omedvetet [KENT: har lagt till konkreta meningar om varför just kombinationen av kalkyler, vindkraft och AI är relevant för dig.]
+Min bakgrund inom miljöekonomi kommer bland annat till uttryck i min licentiatavhandling om förnyelsebara energibärares konkurrenskraft (Lundgren, 1998). Jag arbetar också med ekonomistyrning och kalkyler. Som controller är jag van vid att bedöma hur antaganden påverkar ett kalkylresultat, och jag har själv byggt och vidareutvecklat vindkraftskalkyler. I mitt ekonomiarbete har kalkyler ofta fokuserat på en parts lönsamhet, exempelvis ett företags eller en organisations, med mått som payback och nettonuvärde (NNV). Jag ser AI-stöd som en möjlighet att gå från en sådan avgränsad kalkyl till ett öppet verktyg som synliggör hur flera parter påverkas. Fler perspektiv ger ett bredare underlag, men ökar också modellens komplexitet och kan göra fel svårare att upptäcka om syfte, underlag eller antaganden är otydliga.
 
 ## 2. Metod och underlag
 
 Analysen utgår från kalkylens olika versioner, tidigare arbetsmaterial och min erfarenhet av att utveckla kalkylen. [KENT: ange vilka filer, versioner, datum, AI-verktyg och arbetssteg som faktiskt ingår.] För varje påstående om AI:s bidrag behöver jag skilja mellan vad jag själv gjorde, vad AI föreslog eller producerade och vad jag senare granskade, ändrade eller förkastade. [KENT: beskriv hur du kan belägga detta, exempelvis genom versionshistorik, sparade chattar eller arbetsanteckningar.]
 
-I texten skiljer jag mellan verifierade uppgifter, egna erfarenheter, bedömningar och sådant som ännu är en hypotes. Kursens instruktioner avgör hur AI-stödet i själva rapportarbetet ska redovisas. [KONTROLLERA: läs Canvas instruktion om tillåten AI-användning och eventuell AI-deklaration.]
+I texten skiljer jag mellan verifierade uppgifter, egna erfarenheter, bedömningar och sådant som ännu är en hypotes. [KENT: komplettera med kursens regler för AI-stöd och eventuell AI-deklaration från Canvas innan rapporten färdigställs.]
 
 ## 3. Inventering av AI-användningar
 
@@ -57,7 +57,7 @@ När kalkylen går från ett perspektiv till flera ökar antalet antaganden och 
 
 En central kontrollfråga är vem som granskar AI-genererade formler, kod och förklaringar. [KENT: beskriv din faktiska granskningsrutin, till exempel jämförelse med manuella beräkningar, testfall, källkontroll eller kodgranskning.] AI-stöd kan bidra till arbetet, men ansvaret för kalkylens användning, antaganden och publicerade resultat behöver vara tydligt placerat. [KENT: ange vem som i praktiken förvaltar kalkyl och källor.]
 
-Rapporten ska behandla EU:s AI-förordning och Sveriges AI-strategi på ett sätt som är relevant för den valda processen. [KONTROLLERA: identifiera vilka bestämmelser och delar av strategin som är relevanta; undvik att dra slutsatser om rättslig klassificering innan den tänkta användningen är tydligt beskriven.] Om kalkylen någon gång använder uppgifter om identifierbara fastigheter eller personer behöver även dataskyddsfrågan bedömas. [KENT: ange vilka data som faktiskt används i den aktuella kalkylen.]
+Rapporten ska behandla EU:s AI-förordning (förordning (EU) 2024/1689) och Sveriges AI-strategi (Europaparlamentet och rådet, 2024; Regeringskansliet, 2026) i relation till den valda processen. [KENT: välj relevanta bestämmelser och strategimål och tillämpa dem konkret på AI-stödd kalkylutveckling.] Om kalkylen någon gång använder uppgifter om identifierbara fastigheter eller personer behöver även dataskyddsfrågan bedömas. [KENT: ange vilka data som faktiskt används i den aktuella kalkylen.]
 
 Den samlade avvägningen bör visa vilken nytta den bredare modellen ger, vilka risker som följer av fler antaganden och hur riskerna kan minskas genom dokumentation, mänsklig kontroll och tydlig redovisning av osäkerhet. [KENT: ta ställning till om fortsatt utveckling är motiverad och på vilka villkor.]
 
@@ -83,20 +83,23 @@ För VG behöver slutversionen göra prioriteringen tydlig och visa en genomför
 
 [KENT: Besvara rapportens syfte. Sammanfatta vad AI faktiskt bidrog med, vilken nytta kalkylutvecklingen gav, vilka risker som kräver kontroll och vad du rekommenderar som nästa steg. Slutsatsen ska uttrycka din bedömning, inte enbart återge tidigare avsnitt.]
 
-## Referenser att färdigställa
+## Referenser
 
-Lundgren, K. (2014) *Lönsamhet för stora (3 MW) vindkraftverk*. Blogginlägg, 2014. Tillgänglig på: https://kentlundgren.blogspot.com/2014/01/lonsamhet-for-stora-3-mw-vindkraftverk.html [KONTROLLERA: öppna länken och kontrollera titel/datum samt vad den belägger.] *(Kents tidigare kalkylresonemang; används om rapporten jämför den senare utvecklingen med en äldre projektörskalkyl.)*
+Europaparlamentet och Europeiska unionens råd (2024) *Förordning (EU) 2024/1689 om harmoniserade regler för artificiell intelligens (AI-förordningen).* Europeiska unionens officiella tidning, L 2024/1689. Tillgänglig på: https://data.europa.eu/eli/reg/2024/1689/oj (Hämtad: 11 november 2026). (*EU:s rättsakt som rapporten ska använda för den rättsliga analysen.*)
 
-Lundgren, K. (2026a) *Vindkraftens ekonomi – fem perspektiv* [interaktiv kalkyl]. Tillgänglig på: https://kentlundgren.github.io/Vindkraft/vindkraftskalkyl/vindkraftskalkyl.html [KONTROLLERA: kontrollera sidans innehåll, versionsdatum och bibliografiska uppgifter.] *(Fallstudiens nuvarande kalkylversion, om den fortfarande motsvarar beskrivningen i rapporten.)*
+Lundgren, K. (1998) *Förnyelsebara energibärares nuvarande och framtida konkurrenskraft: föreställningar om konkurrenskraft.* Licentiatavhandling, Lunds universitet. https://doi.org/10.13140/RG.2.2.19213.23528. (*Bakgrund till Kents miljöekonomiska perspektiv.*)
 
-Europaparlamentet och Europeiska unionens råd (2024) *Förordning (EU) 2024/1689 om harmoniserade regler för artificiell intelligens*. Tillgänglig på: https://data.europa.eu/eli/reg/2024/1689/oj [KONTROLLERA: läs relevanta artiklar och använd den officiella rättsakten som källa.] *(Primärkälla för rapportens analys av EU:s AI-förordning.)*
+Lundgren, K. (2014) *Lönsamhet för stora (3 MW) vindkraftverk.* Blogginlägg. Tillgänglig på: https://kentlundgren.blogspot.com/2014/01/lonsamhet-for-stora-3-mw-vindkraftverk.html (Hämtad: 11 november 2026). (*Äldre kalkyl och bakgrund till den tidiga projektörskalkylen.*)
 
-[KENT: lägg till en verifierad primärkälla för Sveriges AI-strategi och de kurskällor du faktiskt använder. Ta bort referenser som inte stöder något påstående i den färdiga texten.]
+Lundgren, K. (2026a) *Vindkraftskalkyl* [interaktiv kalkyl]. Tillgänglig på: https://kentlundgren.github.io/Vindkraft/vindkraftskalkyl/vindkraftskalkyl.html (Hämtad: 11 november 2026). (*Fallmaterial för den nyare kalkylen med flera aktörsperspektiv.*)
+
+Regeringskansliet (2026) *Sveriges AI-strategi.* Publicerad 20 februari 2026, uppdaterad 26 februari 2026. Tillgänglig på: https://www.regeringen.se/informationsmaterial/2026/02/sveriges-ai-strategi/ (Hämtad: 11 november 2026). (*Regeringens strategiska inriktning som kan kopplas till rapportens verksamhets- och ledarskapsanalys.*)
+
+SFS 2026:1113. *Lag om intäktsdelning från vindkraftsanläggningar.* Tillgänglig på: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-20261113-om-intaktsdelning-fran_sfs-2026-1113/ (Hämtad: 11 november 2026). (*Primärkälla för rapportens konkreta exempel om intäktsdelning till närboende.*)
 
 ## Punkter att gå igenom tillsammans
 
-1. Bekräfta att AI-stödd kalkylutveckling är huvudområdet och att intäktsdelning är ett exempel snarare än rapportens huvudämne.
-2. Fastställ två faktiska AI-användningar. Om AI bara användes i ett av stegen behöver vi justera inventeringen.
-3. Lägg in dina konkreta exempel och egna bedömningar där `[KENT: …]` står.
-4. Kontrollera källor och kursens regler för AI-stöd innan texten görs om till en rapportversion.
-5. Gå därefter igenom rapporten avsnitt för avsnitt och korta eller utveckla den mot HKR-mallens rekommenderade omfång.
+1. Fastställ två faktiska AI-användningar. Om AI bara användes i ett av stegen behöver inventeringen justeras.
+2. Lägg in dina konkreta exempel och egna bedömningar där `[KENT: …]` står.
+3. Fyll i kursens regler för AI-stöd och eventuell AI-deklaration. Kontrollera i slutversionen att varje källa stöder det påstående den hänvisas till.
+4. Gå igenom rapporten avsnitt för avsnitt och anpassa den till HKR-mallens rekommenderade omfång.
