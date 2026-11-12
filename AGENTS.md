@@ -35,3 +35,16 @@ Efter en färdig rapport ska assistenten bjuda in Kent att kort reflektera över
 När Kent ber om en Word-fil ska sidfoten på samtliga sidor, även första sidan, innehålla exportens aktuella datum till vänster i formatet ÅÅÅÅ-MM-DD och sidnumrering till höger i formatet `sid 1 (7)`. Använd Word-fälten PAGE och NUMPAGES så att sidnummer och totalt sidantal följer dokumentets layout. Datumet ska vara ett fast exportdatum enligt Europe/Stockholm, inte ett fält som ändras när filen öppnas. Uppdatera fälten och kontrollera sidlayouten när verktygen medger det; redovisa om visuell kontroll inte kunde genomföras. Kursens uttryckliga formkrav eller Kents särskilda instruktioner har företräde.
 
 Markdown-filen är huvudversion om inget annat avtalats. Word-filen är en export av den versionen. Vid ett begärt versionsbyte kopieras innehållet till nästa utkast, versionsbeteckningen uppdateras och PRD samt länken till aktuellt utkast pekas om. Tidigare versioner bevaras. Om Kent begär låsning används lokalt skrivskydd som skydd mot misstag; det är inte ett lösenordsskydd och följer inte med Git. Dokumentera därför också i uppgiftens PRD vilka versioner som är arkiverade och vilken som ska redigeras. Ändra inte arkiverade versioner utan Kents uttryckliga uppdrag.
+
+## Bedöm AI-granskningar som kvalificerade förslag
+
+Kent vill kunna behålla automatisk AI-granskning som extra återkoppling, även när vissa påpekanden visar sig obefogade. Rekommendera inte att stänga av granskningen enbart för att den ger en tveksam varning. Principen gäller Cursor Agent Review och motsvarande granskningar i andra verktyg.
+
+När ett påpekande kommer:
+
+1. Läs hela motiveringen och den aktuella texten eller ändringen. Skilj granskarens iakttagelse från dess tolkning; en varning är inte i sig ett konstaterat fel.
+2. Pröva invändningen mot underlaget och sammanhanget. Skilj mellan vad Kent uppger, vad assistenten själv verifierat och vad som ännu är osäkert. Att ett verktyg inte kan hämta en webbsida bevisar varken att sidan är otillgänglig för andra eller att uppgifterna är felaktiga. Kents uppgift ska tillskrivas honom, inte beskrivas som assistentens egen verifiering.
+3. Rätta ett verkligt fel, förtydliga en oklar formulering eller rekommendera att ett obefogat påpekande avfärdas med en kort motivering. Använd inte automatisk rättning som ersättning för denna bedömning.
+4. Ta vara på lärdomen även när ingen rättning behövs. En välmenande invändning kan synliggöra ett behov av tydligare källredovisning eller arbetsprocess. Kent avgör vad som ska ändras.
+
+Instruktionerna här styr vårt sätt att hantera granskningar; de aktiverar inte någon granskningsfunktion och är inte en garanti för att varje verktygs specialiserade granskare läser denna fil. Uppgiftsspecifika erfarenheter dokumenteras i respektive PRD.

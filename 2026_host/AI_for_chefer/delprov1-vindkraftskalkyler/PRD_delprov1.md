@@ -137,3 +137,11 @@ PRD:n har setts över tillsammans med ChatGPT. Kent har angett den publicerade b
 ## Versionsbyte – 12 november 2026
 
 Kent har begärt att 4c bevaras och att fortsatt arbete sker i 4d. Utkast 4d är en kopia av 4c med enbart versionsbeteckningen uppdaterad. Markdown- och Word-filerna för 4c är lokalt skrivskyddade. Windows skrivskydd följer inte med Git; assistenter ska därför respektera denna versionsregel även i andra arbetskopior. Ändra inte 4c utan Kents uttryckliga önskemål. Word-filen för 4c har fått exportdatum 2026-11-12 och sidfält enligt den generella regeln i AGENTS.md.
+
+## Lärdom från Agent Review – 12 november 2026
+
+Cursor Agent Review invände mot att PRD:n angav att Kent bekräftat att bloggtexten och det lokala underlaget var samma text, samtidigt som assistentens läsverktyg inte hade kunnat hämta bloggsidan. Kent hade uttryckligen lämnat denna uppgift i samtalet. Vi bedömde därför att formuleringarna inte motsäger varandra: författarens bekräftelse och assistentens egen verifiering är olika saker. En tydligare formulering vid behov är: ”Enligt Kent innehåller bloggtexten och det lokala underlaget samma text. Assistenten har läst det lokala underlaget men har inte själv jämfört det med webbversionen.”
+
+Kents skärmbild visade att ”Start Agent Review on Commit” var aktiverat. Efter att ha förstått inställningen uttryckte Kent att automatisk granskning gärna kan vara kvar som extra återkoppling, även om vissa invändningar är onödiga. Att stänga av automatisk start skulle inte hindra en manuellt startad granskning från att ge samma påpekande. Vi har inte ändrat inställningen åt Kent och har inte verifierat att det enskilda påpekandet avfärdats i Cursor.
+
+Lärdomen är att även AI-granskarens analys behöver bedömas. Ett påpekande kan vara vällovligt och användbart utan att visa ett faktiskt fel. Läs motiveringen, granska underlaget och välj mellan rättning, förtydligande och avfärdande. Undvik att automatiskt acceptera ”Fix All Issues”. I detta fall var nyttan framför allt att tydliggöra vem som hade bekräftat vad. Den generella arbetsregeln finns i [AGENTS.md](../../../AGENTS.md#bedöm-ai-granskningar-som-kvalificerade-förslag).
