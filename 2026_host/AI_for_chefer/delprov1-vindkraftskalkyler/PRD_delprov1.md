@@ -28,7 +28,7 @@ Gemensam fråga: **Hur kan Kent, tillsammans med generativ AI, göra vindkraften
 
 Avgränsningen bygger på olika arbetsuppgifter, inte på två generationer av kalkyler. Bredare problemformulering och kritisk granskning ingår i båda fallen. Konkurrenskraft är ett analytiskt perspektiv; rapporten ska inte bli en fullständig vindkraftspolitisk utredning. Publicering på webben skiljs från påvisad begriplighet, räckvidd eller verksamhetsnytta.
 
-För varje fall skiljs producerade resultat från planerade användningar och uppmätta effekter. Kents arbete med mål, restriktioner, kontext, instruktioner, verktyg, kontroll och omarbetning ska framgå. Huvudhänvisningen för intäktsdelningsanalysen är [Lundgren (2026), *Besked före beslut: att förbättra intäktsdelningen från vindkraft till närboende*](https://controllerutangranser.wordpress.com/2026/11/11/besked-fore-beslut-att-forbattra-intaktsdelningen-fran-vindkraft-till-narboende/). Kent har bekräftat att bloggtexten och det lokala underlaget innehåller samma text. Bloggtexten används som fallmaterial; rättsliga påståenden kontrolleras mot rättskällorna.
+För varje fall skiljs producerade resultat från planerade användningar och uppmätta effekter. Kents arbete med mål, restriktioner, kontext, instruktioner, verktyg, kontroll och omarbetning ska framgå. Huvudhänvisningen för intäktsdelningsanalysen är [Lundgren (2026), *Besked före beslut: att förbättra intäktsdelningen från vindkraft till närboende*](https://controllerutangranser.wordpress.com/2026/11/11/besked-fore-beslut-att-forbattra-intaktsdelningen-fran-vindkraft-till-narboende/). Enligt Kent innehåller bloggtexten och det lokala underlaget samma text. Assistenten har läst det lokala underlaget men har inte själv jämfört det med webbversionen. Bloggtexten används som fallmaterial; rättsliga påståenden kontrolleras mot rättskällorna.
 
 ## 4. Underlag och arbetsfiler
 
@@ -132,7 +132,7 @@ Denna PRD är en arbetsversion. Den fastställs först när de öppna kurskraven
 
 ## 11. Arbetsanteckning – 11 november 2026
 
-PRD:n har setts över tillsammans med ChatGPT. Kent har angett den publicerade bloggtexten som önskad huvudhänvisning och bekräftat att den motsvarar den lokala texten. Avgränsning, risker, färdigkriterier och öppna frågor har samordnats kring de två användningsfallen. Den generella processen finns kvar i AGENTS.md, medan den konkreta tillämpningen finns här. Blogglänkens åtkomst kunde inte verifieras med läsverktyget vid föregående kontroll; detta ändrar inte Kents val av hänvisning. Kent granskar ändringarna och hanterar commit och push.
+PRD:n har setts över tillsammans med ChatGPT. Kent har valt den publicerade bloggtexten som huvudhänvisning och uppgett att den motsvarar den lokala texten. Uppgiften om överensstämmelse kommer från Kent; assistenten har inte själv jämfört versionerna. Avgränsning, risker, färdigkriterier och öppna frågor har samordnats kring de två användningsfallen. Den generella processen finns kvar i AGENTS.md, medan den konkreta tillämpningen finns här. Blogglänkens åtkomst kunde inte verifieras med läsverktyget vid föregående kontroll; detta ändrar inte Kents val av hänvisning. Kent granskar ändringarna och hanterar commit och push.
 
 ## Versionsbyte – 12 november 2026
 
