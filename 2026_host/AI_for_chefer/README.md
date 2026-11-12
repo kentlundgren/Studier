@@ -76,7 +76,7 @@ Använd den aktuella HKR-mallen som grund när du skriver kursens skriftliga arb
   - [Floridi och frågan om AI-medvetande](Analys/litteratur/floridi_ai_medvetande.md) – vidareutveckling och källkritisk granskning av svaret från Floridi Agent.
   - [Bifogat svar från Floridi Agent](litteratur/More/Hur_vet_man_om_AI_generativ_A_response.md).
 - `delprov1-vindkraftskalkyler/` – arbete med analys av ett AI-tillämpningsområde.
-  - [Aktuellt arbetsutkast 4c: analys av ett AI-tillämpningsområde](Analys/delprov1-vindkraftskalkyler/utkast-4c.md) – den sammanhållna rapportversionen som utvecklas vidare enligt PRD:n och arbetsguiden.
+  - [Aktuellt arbetsutkast 4d: analys av ett AI-tillämpningsområde](Analys/delprov1-vindkraftskalkyler/utkast-4d.md) – den sammanhållna rapportversionen som utvecklas vidare enligt PRD:n och arbetsguiden.
 - `delprov2-handlingsplan/` – arbete med handlingsplan för Skånes vindkraftsakademi.
 
 ### Litteraturens läs-spår

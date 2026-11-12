@@ -1,9 +1,9 @@
 # PRD – Delprov 1: analys av ett AI-tillämpningsområde
 
 **Kurs:** AI för chefer och ledare, AI101A, Högskolan Kristianstad  
-**Status:** Arbetsversion, fas 4 – uppdaterad 11 november 2026
+**Status:** Arbetsversion, fas 4 – uppdaterad 12 november 2026
 **Ägare och författare:** Kent Lundgren  
-**Arbetsfil för rapporten:** [utkast 4c](../Analys/delprov1-vindkraftskalkyler/utkast-4c.md) (aktuell arbetsversion som Kent granskar och utvecklar)
+**Arbetsfil för rapporten:** [utkast 4d](../Analys/delprov1-vindkraftskalkyler/utkast-4d.md) (aktuell arbetsversion som Kent granskar och utvecklar)
 
 ## 1. Syfte
 
@@ -39,12 +39,12 @@ För varje fall skiljs producerade resultat från planerade användningar och up
 | Kravunderlag och stöd | `delprov1-vindkraftskalkyler/mall/` | HKR:s originalmall, vår ifyllningsmall `mall-delprov1.md` och arbetsguiden `arbetsguide-delprov1.docx`. Dessa beskriver uppgiften och hur arbetet kan genomföras. |
 | PRD | `delprov1-vindkraftskalkyler/PRD_delprov1.md` | Kursens arbetsbeskrivning: syfte, avgränsning, filstruktur, arbetsflöde, öppna frågor och kriterier. |
 | Kursmoment och quiz | `delprov1-vindkraftskalkyler/Quiz/` | Relevanta quizfrågor, egna svar och kursmoment används som kompletterande signaler om centrala begrepp och kursledningens betoningar. |
-| Utkastserie, fas 4 | `Analys/delprov1-vindkraftskalkyler/` | Samtliga versioner 4a, 4b, 4c och vid behov 4d samlas här. Gemensam namnstam `utkast-4a.md`, `utkast-4b.md` osv. gör ordningen tydlig; äldre utkast bevaras som underlag. |
+| Utkastserie, fas 4 | `Analys/delprov1-vindkraftskalkyler/` | Samtliga versioner 4a, 4b, 4c och 4d samlas här. Gemensam namnstam `utkast-4a.md`, `utkast-4b.md` osv. gör ordningen tydlig; äldre utkast bevaras som underlag. |
 
 
 - Den officiella Word-mallen `delprov1-vindkraftskalkyler/mall/AI Inventering Dokument för Uppgift 1.docx` är kravunderlag. Den anger bland annat rekommenderad längd 4–6 sidor exklusive bilagor och efterfrågar sammanfattning, 5–8 nyckelord, bakgrund/avgränsning, AI-inventering, nyttobedömning, risk- och konsekvensbedömning, kompetens/ansvar, metod, ifyllda tabeller, analys, prioriterad handlingsplan, individuell reflektion och referenser.
-- `utkast-4a.md` (4 september 2026) är det tidiga, friare analysutkastet som skrevs innan kursmallen fanns. `utkast-4b.md` (10 november 2026) är det senare inventeringsutkastet, skrivet utifrån kursledningens mall. De är historiska underlag och ska inte konkurrera med den aktuella arbetsversionen `utkast-4c.md`.
-- Fortsatt arbete utgår från 4c och följer kursens uppgiftsmall och betygsmatris. Gå tillbaka till 4a eller 4b endast när ett konkret innehåll, en källa eller en tidigare tanke behöver hämtas därifrån. Bevara äldre versioner när nya utkast skapas.
+- `utkast-4a.md` (4 september 2026) är det tidiga, friare analysutkastet som skrevs innan kursmallen fanns. `utkast-4b.md` (10 november 2026) är det senare inventeringsutkastet, skrivet utifrån kursledningens mall. De är historiska underlag och ska inte konkurrera med den aktuella arbetsversionen `utkast-4d.md`.
+- Fortsatt arbete utgår från 4d och följer kursens uppgiftsmall och betygsmatris. Gå tillbaka till 4a eller 4b endast när ett konkret innehåll, en källa eller en tidigare tanke behöver hämtas därifrån. Bevara äldre versioner när nya utkast skapas.
 - Vindkraftskalkylens tidigare och nuvarande versioner används som fallmaterial. Påståenden om vad AI bidrog med ska beläggas med Kents minne, arbetsmaterial, versionshistorik eller annat verifierbart underlag.
 - Kursplanen och uppgiftens instruktioner i Canvas styr om de skiljer sig från den lokala sammanfattningen eller mallens rekommendationer.
 
@@ -73,7 +73,7 @@ Utkast 4a och 4b visar att en rapport kan börja som ett friare analysutkast ell
 - Kent äger innehåll, egna erfarenheter, slutsatser och slutlig text.
 - Kent gör och granskar sina ändringar i Cursor och hanterar själv Git, commit och push.
 - ChatGPT Work och Claude arbetar mot en tydligt angiven lokal eller publicerad version. Granskning ska skiljas från textförslag och från verifiering av källor.
-- Kent skriver och lägger vid behov önskemål inom hakparenteser i 4c. Assistenten läser den aktuella lokala texten och Git-diffen, genomför önskemålen och redovisar vilka filer som ändrats. Hanterade anteckningar tas bort; endast verkligt återstående frågor lämnas kvar. Kent granskar ändringarna i Cursor och avgör vad som behålls. Ingen modell committar eller pushar utan uttryckligt uppdrag.
+- Kent skriver och lägger vid behov önskemål inom hakparenteser i 4d. Assistenten läser den aktuella lokala texten och Git-diffen, genomför önskemålen och redovisar vilka filer som ändrats. Hanterade anteckningar tas bort; endast verkligt återstående frågor lämnas kvar. Kent granskar ändringarna i Cursor och avgör vad som behålls. Ingen modell committar eller pushar utan uttryckligt uppdrag.
 - Vid en separat granskning får Claude en avgränsad fråga och samma version av PRD eller rapport. Kent jämför råden och fattar beslut; modellerna skriver inte samtidigt i samma fil.
 - För varje arbetspass antecknas kort: datum, modell/verktyg, uppgift, AI-bidrag, Kents egna beslut/ändringar och om källor har kontrollerats. Loggens placering och eventuell redovisning i inlämningen bestäms först efter kontroll av kursens regler.
 
@@ -84,14 +84,14 @@ Den generella arbetsordningen finns i Studier-repots [`AGENTS.md`](../../../AGEN
 | Steg | Delprov 1: konkret underlag och arbete | Läge |
 |---|---|---|
 | 1. Uppgift, sammanhang och mall | Kursplan och lärandemål: [HKR:s kursplan](https://www.hkr.se/kurs/ai101a/kursplan/) och [Kents studieplan](../personlig-kursplan.md). Uppgiftsmall: [officiell Word-mall](mall/AI%20Inventering%20Dokument%20f%C3%B6r%20Uppgift%201.docx) och [läsbar Markdown-mall](mall/mall-delprov1.md). Kursunderlag: [quizresultat](Quiz/Bilder/Resultat1_1a_quizet.jpg) och [kursanteckningar](../Analys/kursens-ai-introduktion-och-generativ-ai.md). | Underlagen är samlade. Canvas-instruktioner och AI-regler behöver slutkontrolleras. |
-| 2. Mål och bedömningskriterier | [Betygsmatrisen för AI101A](../kursplan/betygsmatris_AI101A.jpg); G- och VG-kriterierna kopplas till rapportens delar. | Första kartläggningen finns i arbetsguiden; den ska användas som kontroll när 4c utvecklas. |
+| 2. Mål och bedömningskriterier | [Betygsmatrisen för AI101A](../kursplan/betygsmatris_AI101A.jpg); G- och VG-kriterierna kopplas till rapportens delar. | Första kartläggningen finns i arbetsguiden; den ska användas som kontroll när 4d utvecklas. |
 | 3. Arbetsguide | Den [läsbara ifyllningsmallen](mall/mall-delprov1.md) och [arbetsguiden i Word](mall/arbetsguide-delprov1.docx) översätter uppgift, mall och matris till frågor och arbetsordning. | Framtaget; kan förtydligas om kurskraven ändras eller en lucka upptäcks. |
-| 4. Innehållsutkast | [Utkast 4a](../Analys/delprov1-vindkraftskalkyler/utkast-4a.md) är det tidiga friare analysutkastet; [utkast 4b](../Analys/delprov1-vindkraftskalkyler/utkast-4b.md) skrevs senare utifrån kursmallen; [utkast 4c](../Analys/delprov1-vindkraftskalkyler/utkast-4c.md) är aktuell arbetsversion. | Pågår i 4c. Äldre versioner används selektivt, inte som alternativa huvudtexter. |
-| 5. Tillräckligt innehåll | Kontrollera [utkast 4c](../Analys/delprov1-vindkraftskalkyler/utkast-4c.md) mot uppgiftsmallen och [betygsmatrisen](../kursplan/betygsmatris_AI101A.jpg): krav, belägg, Kents egna resonemang och återstående `[KENT: …]`-punkter. | Inte påbörjat som gallringsfas. |
-| 6. Rätt omfattning och detaljredigering | Anpassa [utkast 4c](../Analys/delprov1-vindkraftskalkyler/utkast-4c.md) till omfånget i [kursmallen](mall/AI%20Inventering%20Dokument%20f%C3%B6r%20Uppgift%201.docx) och finslipa språk och hänvisningar när större innehållsfrågor är lösta. | Inte påbörjat. |
+| 4. Innehållsutkast | [Utkast 4a](../Analys/delprov1-vindkraftskalkyler/utkast-4a.md) är det tidiga friare analysutkastet; [utkast 4b](../Analys/delprov1-vindkraftskalkyler/utkast-4b.md) skrevs senare utifrån kursmallen; [utkast 4c](../Analys/delprov1-vindkraftskalkyler/utkast-4c.md) är bevarad föregångare; [utkast 4d](../Analys/delprov1-vindkraftskalkyler/utkast-4d.md) är aktuell arbetsversion. | Pågår i 4d. Äldre versioner används selektivt, inte som alternativa huvudtexter. |
+| 5. Tillräckligt innehåll | Kontrollera [utkast 4d](../Analys/delprov1-vindkraftskalkyler/utkast-4d.md) mot uppgiftsmallen och [betygsmatrisen](../kursplan/betygsmatris_AI101A.jpg): krav, belägg, Kents egna resonemang och återstående `[KENT: …]`-punkter. | Inte påbörjat som gallringsfas. |
+| 6. Rätt omfattning och detaljredigering | Anpassa [utkast 4d](../Analys/delprov1-vindkraftskalkyler/utkast-4d.md) till omfånget i [kursmallen](mall/AI%20Inventering%20Dokument%20f%C3%B6r%20Uppgift%201.docx) och finslipa språk och hänvisningar när större innehållsfrågor är lösta. | Inte påbörjat. |
 | 7. Färdig rapport | Slutkontroll mot [kursens instruktioner och lärandemål](https://www.hkr.se/kurs/ai101a/kursplan/), [mallen](mall/AI%20Inventering%20Dokument%20f%C3%B6r%20Uppgift%201.docx), [betygsmatrisen](../kursplan/betygsmatris_AI101A.jpg), källor och AI-regler; Kent avgör när rapporten är klar. | Inte påbörjat. Kent hanterar inlämning och Git i Cursor. |
 
-För Delprov 1 är vi nu i **fas 4**, med utkast 4c. Fas 5 börjar när Kent bedömer att rapporten täcker det som behövs och vi ska i huvudsak gallra och strama upp texten. Metanivån dokumenteras under arbetets gång: AI-bidrag, Kents egna beslut och ändringar, källkontroller samt lärdomar om arbetssättet. Hur AI-stödet får användas och redovisas i examinationen kontrolleras mot Canvas innan rapporten färdigställs.
+För Delprov 1 är vi nu i **fas 4**, med utkast 4d. Fas 5 börjar när Kent bedömer att rapporten täcker det som behövs och vi ska i huvudsak gallra och strama upp texten. Metanivån dokumenteras under arbetets gång: AI-bidrag, Kents egna beslut och ändringar, källkontroller samt lärdomar om arbetssättet. Hur AI-stödet får användas och redovisas i examinationen kontrolleras mot Canvas innan rapporten färdigställs.
 
 Den generella sjustegsprocessen finns redan i rotens [AGENTS.md](../../../AGENTS.md). Denna PRD beskriver tillämpningen i Delprov 1. Nya erfarenheter dokumenteras här och förs vidare till den generella processen när de är användbara även för andra uppgifter.
 
@@ -133,3 +133,7 @@ Denna PRD är en arbetsversion. Den fastställs först när de öppna kurskraven
 ## 11. Arbetsanteckning – 11 november 2026
 
 PRD:n har setts över tillsammans med ChatGPT. Kent har angett den publicerade bloggtexten som önskad huvudhänvisning och bekräftat att den motsvarar den lokala texten. Avgränsning, risker, färdigkriterier och öppna frågor har samordnats kring de två användningsfallen. Den generella processen finns kvar i AGENTS.md, medan den konkreta tillämpningen finns här. Blogglänkens åtkomst kunde inte verifieras med läsverktyget vid föregående kontroll; detta ändrar inte Kents val av hänvisning. Kent granskar ändringarna och hanterar commit och push.
+
+## Versionsbyte – 12 november 2026
+
+Kent har begärt att 4c bevaras och att fortsatt arbete sker i 4d. Utkast 4d är en kopia av 4c med enbart versionsbeteckningen uppdaterad. Markdown- och Word-filerna för 4c är lokalt skrivskyddade. Windows skrivskydd följer inte med Git; assistenter ska därför respektera denna versionsregel även i andra arbetskopior. Ändra inte 4c utan Kents uttryckliga önskemål. Word-filen för 4c har fått exportdatum 2026-11-12 och sidfält enligt den generella regeln i AGENTS.md.

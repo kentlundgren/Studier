@@ -29,3 +29,9 @@ När en text, tabell eller PRD nämner ett underlag som läsaren sannolikt vill 
 ## Metareflektion att föra vidare
 
 Efter en färdig rapport ska assistenten bjuda in Kent att kort reflektera över arbetsprocessen. När en mall använts, fråga vad den hjälpte med, vad den begränsade och hur den påverkade textens egen röst. När ingen mall fanns, fråga hur dispositionen växte fram och vilket stöd den gav. Spara den konkreta erfarenheten i uppgiftens PRD eller arbetsanteckning; för över en generell lärdom hit först när Kent bedömer att den är användbar för kommande uppgifter.
+
+## Word-export och versionsskydd
+
+När Kent ber om en Word-fil ska sidfoten på samtliga sidor, även första sidan, innehålla exportens aktuella datum till vänster i formatet ÅÅÅÅ-MM-DD och sidnumrering till höger i formatet `sid 1 (7)`. Använd Word-fälten PAGE och NUMPAGES så att sidnummer och totalt sidantal följer dokumentets layout. Datumet ska vara ett fast exportdatum enligt Europe/Stockholm, inte ett fält som ändras när filen öppnas. Uppdatera fälten och kontrollera sidlayouten när verktygen medger det; redovisa om visuell kontroll inte kunde genomföras. Kursens uttryckliga formkrav eller Kents särskilda instruktioner har företräde.
+
+Markdown-filen är huvudversion om inget annat avtalats. Word-filen är en export av den versionen. Vid ett begärt versionsbyte kopieras innehållet till nästa utkast, versionsbeteckningen uppdateras och PRD samt länken till aktuellt utkast pekas om. Tidigare versioner bevaras. Om Kent begär låsning används lokalt skrivskydd som skydd mot misstag; det är inte ett lösenordsskydd och följer inte med Git. Dokumentera därför också i uppgiftens PRD vilka versioner som är arkiverade och vilken som ska redigeras. Ändra inte arkiverade versioner utan Kents uttryckliga uppdrag.
