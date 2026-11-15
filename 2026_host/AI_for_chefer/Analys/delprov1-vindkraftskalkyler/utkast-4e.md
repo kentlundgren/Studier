@@ -12,7 +12,7 @@
 
 ## Sammanfattning
 
-[KENT: Skriv detta sist. Högst 250 ord på svenska: syftet, processen, minst två befintliga eller möjliga AI-användningar och deras mognadsgrad, den viktigaste nyttan och risken samt rekommendationen.]
+[KENT: Skriv detta sist. Högst 250 ord på svenska: verksamheten (kommunikation om vindkraftens ekonomi), syftet, processen, minst två befintliga eller möjliga AI-användningar och deras mognadsgrad, den viktigaste nyttan och risken samt rekommendationen.]
 
 ## Ämnesord
 
@@ -23,6 +23,8 @@
 **Fråga att besvara:** Vilket ledningsproblem eller vilken verksamhetsnytta ska AI-inventeringen bidra till? [KENT: formulera detta i en eller två meningar. Utgångspunkt från 4d: hur kalkyler som beslutsunderlag kan göras begripliga och granskningsbara för flera aktörer med hjälp av generativ AI, utan att AI ersätter kontrollerbara beräkningar.]
 
 ### Beskriv din verksamhet kort
+
+Mitt arbete ligger i skärningen mellan två roller. Som controller arbetar jag med ekonomistyrning och analys av konkurrenskraft, vilket också var temat i min licentiatavhandling ([Lundgren, 1998](https://portal.research.lu.se/en/publications/f%C3%B6rnyelsebara-energib%C3%A4rares-nuvarande-och-framtida-konkurrenskraf/)). Jag är dessutom styrelsesuppleant i [Skånes vindkraftsakademi](https://skanesvindkraftsakademi.se/), ett regionalt forum för vindkraftsfrågor i Skåne. Föreningen bildades 2009 och verkar för utbyte av kunskap och erfarenhet mellan aktörer inom vindkraftsområdet (Skånes vindkraftsakademi, u.å.a; [u.å.b](https://skanesvindkraftsakademi.se/om-oss/styrelsen-kansli/)). [KENT: ange sedan när du blev suppleant och vad ditt arbete med kommunikation om vindkraft har bestått i.] När ett eller flera vindkraftverk ska byggas väcker det ofta många åsikter och starka känslor. [KENT: bekräfta, eller ge ett konkret exempel ur ditt eget arbete.] I den miljön behövs tydliga och kontrollerbara uppgifter om vad som gäller ekonomiskt för olika parter. Det är den verksamhet jag inventerar för behov av generativ AI. Rapporten är min egen analys och uttrycker inte akademins ståndpunkt. [KONTROLLERA: uppgifterna om akademin är hämtade ur en sammanfattning av de två webbsidorna. Jämför bildandeår och uppdragsformulering med sidornas egen lydelse och ange vilken sida de står på. Sidorna anger inget datum.]
 
 Ekonomiska kalkyler är ett kärnverktyg i verksamhetsstyrning: de omvandlar antaganden om framtiden till jämförbara nyckeltal som beslut kan vila på. Som fall använder jag en investerings- och lönsamhetskalkyl för vindkraft som jag har utvecklat i flera steg. Den tidiga kalkylen utgick från projektörens ekonomi. Den nyare modellen redovisar ekonomiska perspektiv för projektören, markägaren, kommunen/samhället, andelsägare och närboende ([Lundgren, 2026a](https://kentlundgren.github.io/Vindkraft/vindkraftskalkyl/vindkraftskalkyl.html)). En äldre kalkyl och bakgrunden till den beskrivs i mitt blogginlägg från 2014 ([Lundgren, 2014](https://kentlundgren.blogspot.com/2014/01/lonsamhet-for-stora-3-mw-vindkraftverk.html)).
 
@@ -42,11 +44,11 @@ Med *harness* avser jag den programvara runt modellen som organiserar körningen
 
 Samarbetet kräver att jag formulerar mål, avgränsningar och instruktioner, ger relevant kontext och väljer verktyg och kontroller. AI kan föreslå kod, frågor, struktur och formuleringar, men förslagen behöver prövas och omarbetas.
 
-[KENT: besvara kort: vem äger processen (kalkylen och källorna), vem använder verktyget, vem fattar beslut och vem behöver informeras? Utgångspunkt från 4d: du formulerar frågorna, väljer antaganden och granskar kod och resultat. Ange också vem som i praktiken förvaltar kalkyl och källor.]
+[KENT: besvara kort, och ange din roll som styrelsesuppleant i förhållande till vad akademin kommunicerar (du är suppleant, inte ordinarie ledamot, enligt akademins webbsida): vem äger processen (kalkylen och källorna), vem använder verktyget, vem fattar beslut och vem behöver informeras? Utgångspunkt från 4d: du formulerar frågorna, väljer antaganden och granskar kod och resultat. Ange också vem som i praktiken förvaltar kalkyl och källor.]
 
 ### Enhet, process eller tjänst
 
-Den här rapporten analyserar AI-stödd utveckling av kalkyl- och beslutsverktyg. Fokus är alltså AI:s roll när modeller byggs, förbättras och förklaras – inte att låta en språkmodell ersätta kalkylens kontrollerbara beräkningar.
+Den verksamhet jag avgränsar är kommunikationen om vindkraftens ekonomi vid lokala etableringar. Rapporten analyserar AI-stödd utveckling av kalkyl- och beslutsverktyg i den kommunikationen. Fokus är alltså AI:s roll när modeller byggs, förbättras och förklaras – inte att låta en språkmodell ersätta kalkylens kontrollerbara beräkningar.
 
 Fallet avgränsas till utvecklingsprocessen och kalkylens användning som beslutsunderlag. Vindkraftsekonomin behandlas bara där den behövs för att analysera AI-användning, nytta och risk. Jag har valt vindkraftsersättning till ägare av bostadsbyggnader nära vindkraftsanläggningar som rapportens huvudexempel. [Lag (2026:1113) om intäktsdelning från vindkraftsanläggningar](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-20261113-om-intaktsdelning-fran_sfs-2026-1113/) trädde i kraft den 1 juli 2026. Vilka anläggningar och byggnader som omfattas beror också på lagens villkor och övergångsbestämmelser (SFS 2026:1113). En fråga jag vill undersöka är hur en kalkyl kan synliggöra beräkningsgrunder, antaganden och konsekvenser för flera parter när reglerna är nya och olika parter kan ha olika informationsbehov. Kalkylen ska här analyseras som beslutsunderlag, inte som ersättning för en rättslig bedömning.
 
@@ -228,6 +230,10 @@ OECD (2024) *Explanatory memorandum on the updated OECD definition of an AI syst
 Regeringskansliet (2026) *Sveriges AI-strategi.* Publicerad 20 februari 2026, uppdaterad 26 februari 2026. Tillgänglig på: https://www.regeringen.se/informationsmaterial/2026/02/sveriges-ai-strategi/ (Hämtad: 11 november 2026). (*Regeringens strategiska inriktning som kan kopplas till rapportens verksamhets- och ledarskapsanalys.*)
 
 SFS 2026:1113. *Lag om intäktsdelning från vindkraftsanläggningar.* Tillgänglig på: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-20261113-om-intaktsdelning-fran_sfs-2026-1113/ (Hämtad: 11 november 2026). (*Primärkälla för rapportens konkreta exempel om intäktsdelning till närboende.*)
+
+Skånes vindkraftsakademi (u.å.a) *Skånes vindkraftsakademi* [webbplats, startsida]. Tillgänglig på: https://skanesvindkraftsakademi.se/ (Hämtad: 15 november 2026). (*Föreningens egen beskrivning som regionalt forum för vindkraftsfrågor i Skåne; belägger beskrivningen av den miljö inventeringen avser.*)
+
+Skånes vindkraftsakademi (u.å.b) *Styrelsen & Kansli* [webbsida]. Tillgänglig på: https://skanesvindkraftsakademi.se/om-oss/styrelsen-kansli/ (Hämtad: 15 november 2026). (*Anger styrelsens sammansättning, där Kent Lundgren står som suppleant, och föreningens verksamhet.*)
 
 ## Punkter att gå igenom tillsammans
 
