@@ -28,7 +28,7 @@ Ekonomiska kalkyler är ett kärnverktyg i verksamhetsstyrning: de omvandlar ant
 
 Min bakgrund inom miljöekonomi kommer bland annat till uttryck i min licentiatavhandling om förnyelsebara energibärares konkurrenskraft ([Lundgren, 1998](https://portal.research.lu.se/en/publications/f%C3%B6rnyelsebara-energib%C3%A4rares-nuvarande-och-framtida-konkurrenskraf/)). Jag arbetar också med ekonomistyrning och kalkyler. Som controller är jag van vid att bedöma hur antaganden påverkar ett kalkylresultat, och jag har själv byggt och vidareutvecklat vindkraftskalkyler. I mitt ekonomiarbete har kalkyler ofta fokuserat på en parts lönsamhet, exempelvis ett företags eller en organisations, med mått som payback och nettonuvärde (NNV). Jag ser AI-stöd som en möjlighet att gå från en sådan avgränsad kalkyl till ett öppet verktyg som synliggör hur flera parter påverkas. Fler perspektiv ger ett bredare underlag, men ökar också modellens komplexitet och kan göra fel svårare att upptäcka om syfte, underlag eller antaganden är otydliga.
 
-[KENT: mallen frågar efter uppdrag, målgrupper, centrala processer och beslut där AI redan används eller kan bli relevant. Lägg till vilka som är kalkylens avsedda användare och vilka beslut den ska stödja.]
+[KENT: besvara frågor om uppdrag, målgrupper, centrala processer och beslut där AI redan används eller kan bli relevant. Lägg till vilka som är kalkylens avsedda användare och vilka beslut den ska stödja.]
 
 #### Begreppsbakgrund: från AI till generativ AI och agentiska system
 
@@ -42,7 +42,7 @@ Med *harness* avser jag den programvara runt modellen som organiserar körningen
 
 Samarbetet kräver att jag formulerar mål, avgränsningar och instruktioner, ger relevant kontext och väljer verktyg och kontroller. AI kan föreslå kod, frågor, struktur och formuleringar, men förslagen behöver prövas och omarbetas.
 
-[KENT: besvara mallens frågor kort: vem äger processen (kalkylen och källorna), vem använder verktyget, vem fattar beslut och vem behöver informeras? Utgångspunkt från 4d: du formulerar frågorna, väljer antaganden och granskar kod och resultat. Ange också vem som i praktiken förvaltar kalkyl och källor.]
+[KENT: besvara kort: vem äger processen (kalkylen och källorna), vem använder verktyget, vem fattar beslut och vem behöver informeras? Utgångspunkt från 4d: du formulerar frågorna, väljer antaganden och granskar kod och resultat. Ange också vem som i praktiken förvaltar kalkyl och källor.]
 
 ### Enhet, process eller tjänst
 
@@ -56,9 +56,7 @@ Analysen bygger på jämförelser mellan kalkylens olika versioner, tidigare arb
 
 Git är ett versionshanteringssystem: det sparar ändringar som versioner i projektets historik, så att utvecklingen kan följas och olika versioner jämföras ([Git, u.å.](https://git-scm.com/docs/git)). GitHub är plattformen där repot kan lagras och göras tillgängligt för granskning. Där visas Markdown-filer i läsbar form, och en README kan beskriva projektets syfte, användning och innehåll ([GitHub, u.å.a](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)). När ett projekt dessutom publiceras som en webbplats med GitHub Pages kan den interaktiva kalkylen användas i webbläsaren ([GitHub, u.å.b](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)). När jag under 2026 började använda AI-modeller i ett Git-baserat arbetsflöde blev det lättare att hantera många versioner. I mitt [Vindkraftsrepo på GitHub](https://github.com/kentlundgren/Vindkraft) kan läsaren följa dokumentation, kod och publicerade kalkylversioner. Det gör underlaget mer granskningsbart, men insyn i koden garanterar inte att antaganden eller beräkningar är korrekta; de behöver fortfarande kontrolleras.
 
-I kursintroduktionen behandlades AI i ett bredare system- och verksamhetssammanhang, där teknik behöver förstås tillsammans med människor, arbetsuppgifter och ansvar. Ett konkret exempel från första quizet är fråga 4, där begrepp som generativ AI, prompt, träningsdata och algoritm matchas mot funktioner som innehållsskapande, instruktion och beräkning ([Högskolan Kristianstad, 2026, fråga 4](../../delprov1-vindkraftskalkyler/Quiz/Bilder/4R.jpg)). Jag använder detta som en påminnelse om att beskriva vilken konkret uppgift AI bidrog med i kalkylutvecklingen, inte som belägg för att kalkylens resultat är riktiga.
-
-För varje påstående om AI:s bidrag skiljer jag därför mellan vad jag själv gjorde, vad AI föreslog eller producerade och vad jag senare granskade, ändrade eller förkastade. Kursmoment och quiz ger begrepp och frågor att pröva mot rapportens syfte och betygskriterier; quizsvar används inte automatiskt som belägg för sakpåståenden. I texten skiljer jag mellan verifierade uppgifter, egna erfarenheter, bedömningar och sådant som ännu är en hypotes.
+För varje påstående om AI:s bidrag skiljer jag därför mellan vad jag själv gjorde, vad AI föreslog eller producerade och vad jag senare granskade, ändrade eller förkastade. I texten skiljer jag mellan verifierade uppgifter, egna erfarenheter, bedömningar och sådant som ännu är en hypotes.
 
 #### AI-deklaration
 
@@ -70,7 +68,7 @@ Jag arbetar också på en metanivå: jag reflekterar över hur instruktioner, ma
 
 ### Lista användningar
 
-De två perspektiven – projektörens kalkyl och kalkylen med flera aktörer – är inte automatiskt två olika AI-användningar. Inventeringen omfattar minst två befintliga eller möjliga användningar enligt kursens originalmall och betygsmatris. En idé kan ingå utan att vara genomförd; förväntad nytta ska då skiljas från observerade resultat.
+De två perspektiven – projektörens kalkyl och kalkylen med flera aktörer – är inte automatiskt två olika AI-användningar. Inventeringen omfattar två befintliga eller möjliga användningar. En idé kan ingå utan att vara genomförd; förväntad nytta ska då skiljas från observerade resultat.
 
 Inventeringen avgränsas här till två fall:
 
@@ -122,7 +120,7 @@ Att material är tillgängligt på webben innebär inte automatiskt att läsaren
 
 Den möjliga nyttan är att fler antaganden och ekonomiska konsekvenser kan bli synliga i ett gemensamt beslutsunderlag. För att bedöma nyttan behöver jag jämföra vad användaren kunde förstå eller göra med den äldre kalkylen med vad den nyare modellen tillför. [KENT: ge ett konkret exempel på en fråga som den bredare modellen kan besvara bättre – och vad den inte kan besvara.]
 
-För VG behöver jag dessutom analysera processens strategiska betydelse och prioritera AI-initiativ utifrån verksamhetsmål, nytta, risk och genomförbarhet. [KENT: ange vilket mål eller vilket beslut kalkylen ska stödja och varför det är prioriterat.]
+Jag behöver också bedöma processens strategiska betydelse och prioritera AI-initiativ utifrån verksamhetsmål, nytta, risk och genomförbarhet. [KENT: ange vilket mål eller vilket beslut kalkylen ska stödja och varför det är prioriterat.]
 
 ### Inventeringstabell
 
@@ -151,7 +149,7 @@ En central kontrollfråga är vem som granskar AI-genererade formler, kod och f�
 
 ### Stoppsignal
 
-Mallens stoppsignal gäller AI som påverkar rättighetsnära beslut. I fall 2 ska AI inte avgöra en enskild persons rätt till ersättning. [KENT: bedöm om någon av användningarna kan påverka individers rättigheter, och i så fall när frågan ska lyftas till juridiskt, etiskt och informationssäkerhetsansvarigt stöd innan fortsatt användning.]
+Stoppsignalen gäller AI som påverkar rättighetsnära beslut. I fall 2 ska AI inte avgöra en enskild persons rätt till ersättning. [KENT: bedöm om någon av användningarna kan påverka individers rättigheter, och i så fall när frågan ska lyftas till juridiskt, etiskt och informationssäkerhetsansvarigt stöd innan fortsatt användning.]
 
 Den samlade avvägningen bör visa vilken nytta den bredare modellen ger, vilka risker som följer av fler antaganden och hur riskerna kan minskas genom dokumentation, mänsklig kontroll och tydlig redovisning av osäkerhet. [KENT: ta ställning till om fortsatt utveckling är motiverad och på vilka villkor.]
 
@@ -191,7 +189,7 @@ Följande är arbetsförslag att ta ställning till, inte mina färdiga rekommen
 | 2 | Skapa en enkel kontrollista för formler, antaganden, källor och AI-genererad kod | [KENT: vilka kontroller använder du redan?] | [KENT] | [KENT] | Ändringar kan följas och granskas innan publicering |
 | 3 | Prioritera nästa utvecklingssteg utifrån användarbehov och risk | [KENT: vem är viktigaste användargruppen och vilken fråga behöver kalkylen hjälpa till att besvara?] | [KENT] | [KENT] | [KENT: välj mått eller kontroll] |
 
-För VG behöver slutversionen göra prioriteringen tydlig. Den genomförbara AI-roadmapen med ansvarig roll, första steg och uppföljning fördjupas i delprov 2. [KENT: välj vilka förslag du själv står bakom.]
+Prioriteringen behöver bli tydlig. En genomförbar AI-roadmap med ansvarig roll, första steg och uppföljning fördjupas i delprov 2. [KENT: välj vilka förslag du själv står bakom.]
 
 ## 7. Individuell reflektion
 
@@ -210,8 +208,6 @@ Git (u.å.) *Git documentation*. Tillgänglig på: https://git-scm.com/docs/git 
 GitHub (u.å.a) *About repository README files*. Tillgänglig på: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes (Hämtad: 11 november 2026). (*Beskriver hur README-filer presenterar ett projekts syfte och hjälper besökare att förstå repot.*)
 
 GitHub (u.å.b) *Creating a GitHub Pages site*. Tillgänglig på: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site (Hämtad: 11 november 2026). (*Beskriver publicering av statiska webbplatser från ett GitHub-repo.*)
-
-Högskolan Kristianstad (2026) *AI101A: Quiz 1, fråga 4 – definition av generativ AI* [Canvas-quiz]. Skärmbild: [quizresultat i Studier-repot](../../delprov1-vindkraftskalkyler/Quiz/Bilder/4R.jpg). (*Quizfråga som matchar AI-begrepp mot funktioner och därför hjälper till att precisera vilken uppgift AI utför.*)
 
 Lundgren, K. (1998) *Förnyelsebara energibärares nuvarande och framtida konkurrenskraft: föreställningar om konkurrenskraft.* Licentiatavhandling, Lunds universitet. https://doi.org/10.13140/RG.2.2.19213.23528. (*Bakgrund till Kents miljöekonomiska perspektiv.*)
 
