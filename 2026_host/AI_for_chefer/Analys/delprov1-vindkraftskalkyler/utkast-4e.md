@@ -30,7 +30,11 @@ Ekonomiska kalkyler är ett kärnverktyg i verksamhetsstyrning: de omvandlar ant
 
 Min miljöekonomiska bakgrund och mitt arbete med ekonomistyrning och kalkyler gör att jag som controller är van vid att bedöma hur antaganden påverkar ett kalkylresultat, och jag har själv byggt och vidareutvecklat vindkraftskalkyler. I mitt ekonomiarbete har kalkyler ofta fokuserat på en parts lönsamhet, exempelvis ett företags eller en organisations, med mått som payback och nettonuvärde (NNV). Jag ser AI-stöd som en möjlighet att gå från en sådan avgränsad kalkyl till ett öppet verktyg som synliggör hur flera parter påverkas. Fler perspektiv ger ett bredare underlag, men ökar också modellens komplexitet och kan göra fel svårare att upptäcka om syfte, underlag eller antaganden är otydliga.
 
-[KENT: besvara frågor om uppdrag, målgrupper, centrala processer och beslut där AI redan används eller kan bli relevant. Lägg till vilka som är kalkylens avsedda användare och vilka beslut den ska stödja.]
+Skånes vindkraftsakademi: "är ett regionalt forum för vindkraftsfrågor i Skåne. Föreningen verkar som en plattform för utbyte av kunskap och erfarenhet. Föreningen syftar till att på ett balanserat sätt kanalisera tekniska, ekonomiska, miljö- och perceptionsmässiga aspekter och på ett inkluderande sätt verka för att vindkraftens roll i Skåne utvecklas i samverkan med dess intressenter." ([https://skanesvindkraftsakademi.se/om-oss/](https://skanesvindkraftsakademi.se/om-oss/))
+
+Bra transparenta kalkyler som visar inte bara verksamhetsutövarens ekonomi skulle kunna vara ett sätt att på ett "balanserat sätt kanalisera ekonomiska aspekter på ett inkludernande sätt" ([https://skanesvindkraftsakademi.se/om-oss/](https://skanesvindkraftsakademi.se/om-oss/)), eftersom just transparenta kalkyler skulle kunna tydliggöra ekonomisk påverkan på flera parter som berörs av en tänkt vindkraftspark. 
+
+
 
 #### Begreppsbakgrund: från AI till generativ AI och agentiska system
 
@@ -42,9 +46,9 @@ Med *harness* avser jag den programvara runt modellen som organiserar körningen
 
 ### Identifiera ansvar
 
-Samarbetet kräver att jag formulerar mål, avgränsningar och instruktioner, ger relevant kontext och väljer verktyg och kontroller. AI kan föreslå kod, frågor, struktur och formuleringar, men förslagen behöver prövas och omarbetas.
+Samarbetet med generativ AI kräver att jag formulerar mål, avgränsningar och instruktioner, ger relevant kontext och väljer verktyg och kontroller. AI kan föreslå kod, frågor, struktur och formuleringar, men förslagen behöver testas och omarbetas.
 
-[KENT: besvara kort, och ange din roll som styrelsesuppleant i förhållande till vad akademin kommunicerar (du är suppleant, inte ordinarie ledamot, enligt akademins webbsida): vem äger processen (kalkylen och källorna), vem använder verktyget, vem fattar beslut och vem behöver informeras? Utgångspunkt från 4d: du formulerar frågorna, väljer antaganden och granskar kod och resultat. Ange också vem som i praktiken förvaltar kalkyl och källor.]
+Nu är kaI framtiden kan kalkylmodeller läggas ut på akademins hemsida, [https://skanesvindkraftsakademi.se/](https://skanesvindkraftsakademi.se/) , då blir det i så fall akademins ansvar att kalkylerna fungerar och räknar rätt. 
 
 ### Enhet, process eller tjänst
 
@@ -54,7 +58,7 @@ Fallet avgränsas till utvecklingsprocessen och kalkylens användning som beslut
 
 ### Metod och underlag
 
-Analysen bygger på jämförelser mellan kalkylens olika versioner, tidigare arbetsmaterial och min erfarenhet av att utveckla ekonomiska kalkyler. Utvecklingen från äldre webbkalkyler till en interaktiv modell med flera aktörsperspektiv beskrivs också i mitt blogginlägg om att göra vindkraftens ekonomi synlig ([Lundgren, 2026b](https://controllerutangranser.wordpress.com/2026/07/13/att-gora-vindkraftens-ekonomi-synlig/)). Som jämförelsematerial använder jag den äldre webbkalkylen ([Lundgren, 2024](https://kentlundgren.se/kalkyler/vindkraftskalkyl_old.html)) och en senare kalkylversion ([Lundgren, 2025](https://kentlundgren.se/kalkyler/vindkraftskalkyl.html)); den nuvarande modellen beskrivs under Beskriv din verksamhet kort ([Lundgren, 2026a](https://kentlundgren.github.io/Vindkraft/vindkraftskalkyl/vindkraftskalkyl.html)).
+Analysen bygger på jämförelser mellan kalkylens olika versioner, tidigare arbetsmaterial och min erfarenhet av att utveckla ekonomiska kalkyler. Utvecklingen från äldre webbkalkyler till en interaktiv modell med flera aktörsperspektiv beskrivs också i mitt blogginlägg om att göra vindkraftens ekonomi synlig ([Lundgren, 2026b](https://controllerutangranser.wordpress.com/2026/07/13/att-gora-vindkraftens-ekonomi-synlig/)). Som jämförelsematerial använder jag den äldre webbkalkylen ([Lundgren, 2024](https://kentlundgren.se/kalkyler/vindkraftskalkyl_old.html)) och en senare kalkylversion ([Lundgren, 2025](https://kentlundgren.se/kalkyler/vindkraftskalkyl.html)). Den nuvarande modellen beskrivs i kalkylmodellen "Vindkraftens ekonomi - fem perspektiv" ([Lundgren, 2026a](https://kentlundgren.github.io/Vindkraft/vindkraftskalkyl/vindkraftskalkyl.html)).
 
 Git är ett versionshanteringssystem: det sparar ändringar som versioner i projektets historik, så att utvecklingen kan följas och olika versioner jämföras ([Git, u.å.](https://git-scm.com/docs/git)). GitHub är plattformen där repot kan lagras och göras tillgängligt för granskning. Där visas Markdown-filer i läsbar form, och en README kan beskriva projektets syfte, användning och innehåll ([GitHub, u.å.a](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)). När ett projekt dessutom publiceras som en webbplats med GitHub Pages kan den interaktiva kalkylen användas i webbläsaren ([GitHub, u.å.b](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)). När jag under 2026 började använda AI-modeller i ett Git-baserat arbetsflöde blev det lättare att hantera många versioner. I mitt [Vindkraftsrepo på GitHub](https://github.com/kentlundgren/Vindkraft) kan läsaren följa dokumentation, kod och publicerade kalkylversioner. Det gör underlaget mer granskningsbart, men insyn i koden garanterar inte att antaganden eller beräkningar är korrekta; de behöver fortfarande kontrolleras.
 
@@ -94,7 +98,7 @@ Den offentliga kalkylen och bloggtexten visar att material har producerats; de v
 
 #### Behovet av aktörsperspektiv
 
-En traditionell kalkyl med projektörsperspektiv kan ge en avgränsad bild av investeringens ekonomi. En modell med flera aktörsperspektiv kan synliggöra hur samma projekt kan påverka olika grupper ekonomiskt: projektören, markägaren, kommunen/samhället, andelsägare och närboende. [KENT: bedöm vad kalkylen faktiskt visar, vilka användare den är avsedd för och om den har använts av någon annan än dig.]
+En traditionell kalkyl med projektörsperspektiv kan ge en avgränsad bild av investeringens ekonomi. En modell med flera aktörsperspektiv kan synliggöra hur samma projekt kan påverka olika grupper ekonomiskt: projektören, markägaren, kommunen/samhället, andelsägare och närboende. Se ett utkast till kalkyl: "Vindkraftens ekonomi - fem perspektiv" ([Lundgren, 2026a](https://kentlundgren.github.io/Vindkraft/vindkraftskalkyl/vindkraftskalkyl.html)).
 
 Behovet av flera perspektiv hänger samman med de två fallen: i fall 1 gör perspektiven det möjligt att visa vem som påverkas av ett ändrat antagande, och i fall 2 att förklara vad reglerna betyder för olika aktörer.
 
@@ -114,11 +118,11 @@ Mognadsgraden skiljer här mellan det som har gjorts och det som är en idé. Un
 
 ### Nyttobedömning
 
-Min avhandling skiljer mellan affärsmässig produktionslogik, affärsmässig hållbarhetslogik och socio-ekonomisk hållbarhetslogik ([Lundgren, 1998, s. 93–99](../../litteratur/More/Lundgren_1998_lic_arbete.pdf)). De betonar produktionskostnader, efterfrågan på miljöprofilerade produkter respektive lokal förankring och legitimitet. Här använder jag dem som analytiska perspektiv på vilka frågor ett beslutsunderlag behöver belysa. Avhandlingen behandlar främst bioenergi och energiföretag; överföringen till vindkraft är min tillämpning, inte ett empiriskt resultat om närboende.
+Min avhandling skiljer mellan affärsmässig produktionslogik, affärsmässig hållbarhetslogik och socio-ekonomisk hållbarhetslogik ([Lundgren, 1998, s. 93–99](../../litteratur/More/Lundgren_1998_lic_arbete.pdf)). De betonar produktionskostnader, efterfrågan på miljöprofilerade produkter respektive lokal förankring och legitimitet. Här använder jag dem som analytiska perspektiv på vilka frågor ett beslutsunderlag behöver belysa. Avhandlingen behandlar främst bioenergi och energiföretag; överföringen till vindkraft är min tillämpning här.
 
-Min bloggtext *Besked före beslut* (Lundgren, 2026c), framtagen tillsammans med generativ AI, konkretiserar ett informationsbehov: att kunna redovisa beräknade ersättningsintervall och antaganden före beslut. Textens förslag om tidiga besked, automatisk rätt och uppföljning är policyförslag som ska skiljas från gällande regler. Långhult/Lunnarsbo används i underlaget som räkneillustration och Önnerup som kontrastfall, inte som belägg för effekten av utbetald ersättning. Jag har inte identifierat dokumenterade utbetalningsfall i detta underlag. Inventeringen bedömer därför möjliga nyttor och risker; den visar inte att AI eller ersättning har ökat acceptansen.
+Min bloggtext *Besked före beslut* (Lundgren, 2026c), konkretiserar ett informationsbehov: att kunna redovisa beräknade ersättningsintervall och antaganden före beslut. Textens förslag om tidiga besked, automatisk rätt och uppföljning är policyförslag som ska skiljas från gällande regler. Långhult/Lunnarsbo används i underlaget som räkneillustration och Önnerup som kontrastfall. Jag har inte identifierat dokumenterade utbetalningsfall. Lagen är så ny. Inventeringen fokuserare på möjliga nyttor och risker.
 
-Att material är tillgängligt på webben innebär inte automatiskt att läsaren kan förstå eller granska det. I fall 1 kan samarbetet med AI användas för att tydliggöra sambandet mellan antagande, beräkning och resultat. I fall 2 kan det användas för att skilja en regel från en tolkning eller ett förslag och förklara vad olika aktörer behöver veta. Nyttan kan prövas genom att låta avsedda läsare besvara några konkreta frågor utifrån materialet: kan de hitta rätt källa, förstå vad som påverkar utfallet och skilja ett scenario från ett besked om faktisk ersättning? Detta är ett förslag till utvärdering, inte en genomförd mätning.
+Att material är tillgängligt på webben innebär inte automatiskt att läsaren kan förstå eller granska det. I fall 1 kan samarbetet med AI användas för att tydliggöra sambandet mellan antagande, beräkning och resultat. I fall 2 kan det användas för att skilja en regel från en tolkning eller ett förslag och förklara vad **olika** aktörer behöver veta. Nyttan kan prövas genom att låta läsare besvara några konkreta frågor utifrån materialet: kan de hitta rätt källa, förstå vad som påverkar utfallet och skilja ett scenario från ett besked om faktisk ersättning? 
 
 Den möjliga nyttan är att fler antaganden och ekonomiska konsekvenser kan bli synliga i ett gemensamt beslutsunderlag. För att bedöma nyttan behöver jag jämföra vad användaren kunde förstå eller göra med den äldre kalkylen med vad den nyare modellen tillför. [KENT: ge ett konkret exempel på en fråga som den bredare modellen kan besvara bättre – och vad den inte kan besvara.]
 
