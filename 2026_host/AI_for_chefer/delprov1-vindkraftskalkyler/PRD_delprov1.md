@@ -3,7 +3,7 @@
 **Kurs:** AI för chefer och ledare, AI101A, Högskolan Kristianstad  
 **Status:** Arbetsversion, fas 4 – uppdaterad 15 november 2026
 **Ägare och författare:** Kent Lundgren  
-**Arbetsfil för rapporten:** [utkast 4d](../Analys/delprov1-vindkraftskalkyler/utkast-4d.md) (aktuell arbetsversion som Kent granskar och utvecklar)
+**Arbetsfil för rapporten:** [utkast 4e](../Analys/delprov1-vindkraftskalkyler/utkast-4e.md) (aktuell arbetsversion, byggd på [mall version 2](mall/ai-inventering-dokument-uppgift-1-v2.md); [utkast 4d](../Analys/delprov1-vindkraftskalkyler/utkast-4d.md) är bevarad föregångare)
 
 ## 1. Syfte
 
@@ -39,12 +39,12 @@ För varje fall skiljs producerade resultat från planerade användningar och up
 | Kravunderlag och stöd | `delprov1-vindkraftskalkyler/mall/` | HKR:s originalmall, Markdown-återgivningen [version 1](mall/ai-inventering-dokument-uppgift-1.md) och [version 2](mall/ai-inventering-dokument-uppgift-1-v2.md) (gällande struktur, med metod, handlingsplan och reflektion), vår ifyllningsmall `mall-delprov1.md` och arbetsguiden `arbetsguide-delprov1.docx`. Dessa beskriver uppgiften och hur arbetet kan genomföras. |
 | PRD | `delprov1-vindkraftskalkyler/PRD_delprov1.md` | Kursens arbetsbeskrivning: syfte, avgränsning, filstruktur, arbetsflöde, öppna frågor och kriterier. |
 | Kursmoment och quiz | `delprov1-vindkraftskalkyler/Quiz/` | Relevanta quizfrågor, egna svar och kursmoment används som kompletterande signaler om centrala begrepp och kursledningens betoningar. |
-| Utkastserie, fas 4 | `Analys/delprov1-vindkraftskalkyler/` | Samtliga versioner 4a, 4b, 4c och 4d samlas här. Gemensam namnstam `utkast-4a.md`, `utkast-4b.md` osv. gör ordningen tydlig; äldre utkast bevaras som underlag. |
+| Utkastserie, fas 4 | `Analys/delprov1-vindkraftskalkyler/` | Samtliga versioner 4a, 4b, 4c, 4d och 4e samlas här. Gemensam namnstam `utkast-4a.md`, `utkast-4b.md` osv. gör ordningen tydlig; äldre utkast bevaras som underlag. |
 
 
 - Den officiella Word-mallen `delprov1-vindkraftskalkyler/mall/AI Inventering Dokument för Uppgift 1.docx` är kravunderlag. Den anger bland annat rekommenderad längd 4–6 sidor exklusive bilagor och efterfrågar sammanfattning, 5–8 nyckelord, bakgrund/avgränsning, AI-inventering, nyttobedömning, risk- och konsekvensbedömning, kompetens/ansvar, metod, ifyllda tabeller, analys, prioriterad handlingsplan, individuell reflektion och referenser.
-- `utkast-4a.md` (4 september 2026) är det tidiga, friare analysutkastet som skrevs innan kursmallen fanns. `utkast-4b.md` (10 november 2026) är det senare inventeringsutkastet, skrivet utifrån kursledningens mall. De är historiska underlag och ska inte konkurrera med den aktuella arbetsversionen `utkast-4d.md`.
-- Fortsatt arbete utgår från 4d och följer kursens uppgiftsmall och betygsmatris. Gå tillbaka till 4a eller 4b endast när ett konkret innehåll, en källa eller en tidigare tanke behöver hämtas därifrån. Bevara äldre versioner när nya utkast skapas.
+- `utkast-4a.md` (4 september 2026) är det tidiga, friare analysutkastet som skrevs innan kursmallen fanns. `utkast-4b.md` (10 november 2026) är det senare inventeringsutkastet, skrivet utifrån kursledningens mall. De är historiska underlag och ska inte konkurrera med den aktuella arbetsversionen `utkast-4e.md`.
+- Fortsatt arbete utgår från 4e (som bygger på 4d:s innehåll) och följer kursens uppgiftsmall och betygsmatris. Gå tillbaka till 4a eller 4b endast när ett konkret innehåll, en källa eller en tidigare tanke behöver hämtas därifrån. Bevara äldre versioner när nya utkast skapas.
 - Vindkraftskalkylens tidigare och nuvarande versioner används som fallmaterial. Påståenden om vad AI bidrog med ska beläggas med Kents minne, arbetsmaterial, versionshistorik eller annat verifierbart underlag.
 - Kursplanen och uppgiftens instruktioner i Canvas styr om de skiljer sig från den lokala sammanfattningen eller mallens rekommendationer.
 
@@ -86,12 +86,12 @@ Den generella arbetsordningen finns i Studier-repots [`AGENTS.md`](../../../AGEN
 | 1. Uppgift, sammanhang och mall | Kursplan och lärandemål: [HKR:s kursplan](https://www.hkr.se/kurs/ai101a/kursplan/) och [Kents studieplan](../personlig-kursplan.md). Uppgiftsmall: [officiell Word-mall](mall/AI%20Inventering%20Dokument%20f%C3%B6r%20Uppgift%201.docx) och [läsbar Markdown-mall, version 2](mall/ai-inventering-dokument-uppgift-1-v2.md). Kursunderlag: [quizresultat](Quiz/Bilder/Resultat1_1a_quizet.jpg) och [kursanteckningar](../Analys/kursens-ai-introduktion-och-generativ-ai.md). | Underlagen är samlade. Canvas-instruktioner och AI-regler behöver slutkontrolleras. |
 | 2. Mål och bedömningskriterier | [Betygsmatrisen för AI101A](../kursplan/betygsmatris_AI101A.jpg); G- och VG-kriterierna kopplas till rapportens delar. | Första kartläggningen finns i arbetsguiden; den ska användas som kontroll när 4d utvecklas. |
 | 3. Arbetsguide | Den läsbara [mallen i version 2](mall/ai-inventering-dokument-uppgift-1-v2.md) (kursledningens struktur) och [arbetsguiden i Word](mall/arbetsguide-delprov1.docx) översätter uppgift, mall och matris till frågor och arbetsordning. Stödmallen [mall-delprov1.md](mall/mall-delprov1.md) finns kvar med utförligare stödfrågor, men styr inte strukturen. | Framtaget; kan förtydligas om kurskraven ändras eller en lucka upptäcks. |
-| 4. Innehållsutkast | [Utkast 4a](../Analys/delprov1-vindkraftskalkyler/utkast-4a.md) är det tidiga friare analysutkastet; [utkast 4b](../Analys/delprov1-vindkraftskalkyler/utkast-4b.md) skrevs senare utifrån kursmallen; [utkast 4c](../Analys/delprov1-vindkraftskalkyler/utkast-4c.md) är bevarad föregångare; [utkast 4d](../Analys/delprov1-vindkraftskalkyler/utkast-4d.md) är aktuell arbetsversion. | Pågår i 4d. Äldre versioner används selektivt, inte som alternativa huvudtexter. |
-| 5. Tillräckligt innehåll | Kontrollera [utkast 4d](../Analys/delprov1-vindkraftskalkyler/utkast-4d.md) mot uppgiftsmallen och [betygsmatrisen](../kursplan/betygsmatris_AI101A.jpg): krav, belägg, Kents egna resonemang och återstående `[KENT: …]`-punkter. | Inte påbörjat som gallringsfas. |
-| 6. Rätt omfattning och detaljredigering | Anpassa [utkast 4d](../Analys/delprov1-vindkraftskalkyler/utkast-4d.md) till omfånget i [kursmallen](mall/AI%20Inventering%20Dokument%20f%C3%B6r%20Uppgift%201.docx) och finslipa språk och hänvisningar när större innehållsfrågor är lösta. | Inte påbörjat. |
+| 4. Innehållsutkast | [Utkast 4a](../Analys/delprov1-vindkraftskalkyler/utkast-4a.md) är det tidiga friare analysutkastet; [utkast 4b](../Analys/delprov1-vindkraftskalkyler/utkast-4b.md) skrevs senare utifrån kursmallen; [utkast 4c](../Analys/delprov1-vindkraftskalkyler/utkast-4c.md) är bevarad föregångare; [utkast 4d](../Analys/delprov1-vindkraftskalkyler/utkast-4d.md) är bevarad föregångare med egen rubrikstruktur; [utkast 4e](../Analys/delprov1-vindkraftskalkyler/utkast-4e.md) är aktuell arbetsversion och följer [mall version 2](mall/ai-inventering-dokument-uppgift-1-v2.md). | Pågår i 4e. Äldre versioner används selektivt, inte som alternativa huvudtexter. |
+| 5. Tillräckligt innehåll | Kontrollera [utkast 4e](../Analys/delprov1-vindkraftskalkyler/utkast-4e.md) mot uppgiftsmallen och [betygsmatrisen](../kursplan/betygsmatris_AI101A.jpg): krav, belägg, Kents egna resonemang och återstående `[KENT: …]`-punkter. | Inte påbörjat som gallringsfas. |
+| 6. Rätt omfattning och detaljredigering | Anpassa [utkast 4e](../Analys/delprov1-vindkraftskalkyler/utkast-4e.md) till omfånget i [kursmallen](mall/AI%20Inventering%20Dokument%20f%C3%B6r%20Uppgift%201.docx) och finslipa språk och hänvisningar när större innehållsfrågor är lösta. | Inte påbörjat. |
 | 7. Färdig rapport | Slutkontroll mot [kursens instruktioner och lärandemål](https://www.hkr.se/kurs/ai101a/kursplan/), [mallen](mall/AI%20Inventering%20Dokument%20f%C3%B6r%20Uppgift%201.docx), [betygsmatrisen](../kursplan/betygsmatris_AI101A.jpg), källor och AI-regler; Kent avgör när rapporten är klar. | Inte påbörjat. Kent hanterar inlämning och Git i Cursor. |
 
-För Delprov 1 är vi nu i **fas 4**, med utkast 4d. Fas 5 börjar när Kent bedömer att rapporten täcker det som behövs och vi ska i huvudsak gallra och strama upp texten. Metanivån dokumenteras under arbetets gång: AI-bidrag, Kents egna beslut och ändringar, källkontroller samt lärdomar om arbetssättet. Hur AI-stödet får användas och redovisas i examinationen kontrolleras mot Canvas innan rapporten färdigställs.
+För Delprov 1 är vi nu i **fas 4**, med utkast 4e. Fas 5 börjar när Kent bedömer att rapporten täcker det som behövs och vi ska i huvudsak gallra och strama upp texten. Metanivån dokumenteras under arbetets gång: AI-bidrag, Kents egna beslut och ändringar, källkontroller samt lärdomar om arbetssättet. Hur AI-stödet får användas och redovisas i examinationen kontrolleras mot Canvas innan rapporten färdigställs.
 
 Den generella sjustegsprocessen finns redan i rotens [AGENTS.md](../../../AGENTS.md). Denna PRD beskriver tillämpningen i Delprov 1. Nya erfarenheter dokumenteras här och förs vidare till den generella processen när de är användbara även för andra uppgifter.
 
@@ -153,7 +153,7 @@ Lärdomen är att även AI-granskarens analys behöver bedömas. Ett påpekande 
 
 **Status: inspiration, inte krav.** Enligt sidans inledning, så som Kent återgett den, utgår kursledningen från Word-mallens titelindelning, och den extra texten står som inspiration och som ett urval att plocka ur utifrån det perspektiv man väljer. Mallens struktur styr alltså, och den extra texten lägger inga egna rubrikkrav.
 
-**Beslut (Kent, 15 november 2026).** Strukturen är [version 2 av Markdown-mallen](mall/ai-inventering-dokument-uppgift-1-v2.md): kursledningens kapitel 1–5 oförändrade, med metodbeskrivning sist i kapitel 1, prioriterad handlingsplan som kapitel 6 och individuell reflektion som kapitel 7. Tilläggen följer mallens slutstycke. [Version 1](mall/ai-inventering-dokument-uppgift-1.md) återger bara kursledningens mall och finns kvar. Ingen version 3 och ingen separat "1b" skapas. Den extra texten används som innehållschecklista inom kapitlen, inte som egna rubriker.
+**Beslut (Kent, 15 november 2026).** Strukturen är [version 2 av Markdown-mallen](mall/ai-inventering-dokument-uppgift-1-v2.md): kursledningens kapitel 1–5 oförändrade, med metodbeskrivning sist i kapitel 1, nyttobedömning som underrubrik först i kapitel 3 (före tabellen), slutsats och en kort prioriterad handlingsplan som kapitel 6 och individuell reflektion som kapitel 7. Tilläggen följer mallens slutstycke och mallens rekommenderade struktur. Den fullständiga handlingsplanen hör till delprov 2, så kapitel 6 är en kort avslutning och försmak (beslut Kent, 15 november 2026). [Version 1](mall/ai-inventering-dokument-uppgift-1.md) återger bara kursledningens mall och finns kvar. Ingen version 3 och ingen separat "1b" skapas. Den extra texten används som innehållschecklista inom kapitlen, inte som egna rubriker.
 
 **Hur den extra texten motsvaras i version 2.**
 
@@ -166,8 +166,8 @@ Lärdomen är att även AI-granskarens analys behöver bedömas. Ett påpekande 
 | 5 Risk- och konsekvensanalys | Kapitel 4: Mänsklig kontroll och Stoppsignal |
 | 6 AI-governance | Kapitel 5: Styrning |
 | 7 Kompetensinventering | Kapitel 5: AI-kompetens |
-| 10 Möjlighetsanalys, 11 Prioritering, 12 GAP-analys | Kapitel 6: Prioriterad handlingsplan |
-| Resultatet av inventeringen (beslutsunderlag) | Samma innehåll, utspritt över kapitlen; "Rekommendationer" blir kapitel 6 |
+| 10 Möjlighetsanalys, 11 Prioritering, 12 GAP-analys | Kapitel 6: Slutsats och prioriterad handlingsplan i korthet (fördjupas i delprov 2) |
+| Resultatet av inventeringen (beslutsunderlag) | Samma innehåll, utspritt över kapitlen; slutsats och rekommendationer blir kapitel 6 |
 
 **Vad mallen inte uttryckligen uppmanar till.** Ämnena finns i version 2, men fyra moment ligger bara i den extra texten: AI Act-klassificering i fyra risknivåer, intressentanalys, möjlighetsanalys och GAP-analys (nuläge mot önskat läge). De tas med som meningar eller en kolumn i rätt kapitel, där Kent bedömer att de bär analysen, inte som nya rubriker.
 

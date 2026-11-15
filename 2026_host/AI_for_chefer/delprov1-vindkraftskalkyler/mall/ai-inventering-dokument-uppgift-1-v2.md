@@ -9,10 +9,11 @@
 > | Del som slutstycket nämner | Placering i version 2 | Skäl |
 > |---|---|---|
 > | Kort metodbeskrivning | Underrubrik **Metod och underlag** sist i kapitel 1 | Metoden hör till förberedelsen: hur uppgifterna samlats in innan inventeringen görs |
-> | Prioriterad handlingsplan | Nytt **kapitel 6** efter Kompetens och Styrning | Planen bygger på inventeringen (2–3), riskerna (4) och styrningen (5) och är därför sist |
-> | Individuell reflektion | Nytt **kapitel 7** efter handlingsplanen | Egen, synlig del som knyter an till Ledningsfråga i kapitel 5 |
+> | Prioriterad handlingsplan, kort | Nytt **kapitel 6**, tillsammans med **slutsats** | Kapitlet sammanfattar analysen (2–5) och ger en kort försmak av handlingsplanen. Den fullständiga handlingsplanen görs i delprov 2, som bygger vidare på inventeringen |
+> | Individuell reflektion | Nytt **kapitel 7** efter kapitel 6 | Egen, synlig del som knyter an till Ledningsfråga i kapitel 5 |
+> | Nyttobedömning | Underrubrik först i **kapitel 3**, före tabellen | Mallens rekommenderade struktur nämner nyttobedömning som punkt 3, men ingen kapitelrubrik motsvarar den. Nyttan leder fram till tabellen |
 >
-> Tillägg är märkta **Tillagt i version 2** och rubriken har tillägget i klartext. Stödfrågorna under dem är förslag hämtade ur den egna mallen [mall-delprov1.md](mall-delprov1.md), inte kursledningens text. Kontrollera placering, namn och krav mot uppgiftsbeskrivningen i Canvas.
+> Tillägg är märkta **Tillagt i version 2** (nyttobedömningen **Förtydligat i version 2**) och rubriken har tillägget i klartext. Stödfrågorna under dem är förslag hämtade ur den egna mallen [mall-delprov1.md](mall-delprov1.md), inte kursledningens text. Kontrollera placering, namn och krav mot uppgiftsbeskrivningen i Canvas.
 
 <a id="innehall"></a>
 
@@ -32,6 +33,8 @@
   - [Beskriv varje användning](#kap2-beskriv)
   - [Bedöm mognad](#kap2-mognad)
 - [3. Enkel Inventeringstabell](#kap3)
+  - [Nyttobedömning *(förtydligat i version 2)*](#kap3-nytta)
+  - [Inventeringstabell](#kap3-tabell)
 - [4. Risk, Juridik och Etik](#kap4)
   - [Risknivå](#kap4-risknivaa)
   - [Data och integritet](#kap4-data)
@@ -42,7 +45,9 @@
   - [Styrning](#kap5-styrning)
   - [Ledningsfråga](#kap5-ledning)
   - [Dokumentation](#kap5-dokumentation)
-- [6. Prioriterad handlingsplan *(tillagt i version 2)*](#kap6)
+- [6. Slutsats och prioriterad handlingsplan i korthet *(tillagt i version 2)*](#kap6)
+  - [Slutsats](#kap6-slutsats)
+  - [Prioriterad handlingsplan i korthet](#kap6-plan)
 - [7. Individuell reflektion *(tillagt i version 2)*](#kap7)
 - [Referenser](#referenser)
 - [Information i mallen (kan raderas före inlämning)](#information)
@@ -165,6 +170,16 @@ Fakulteten för Naturvetenskap: Datavetenskap
 
 ## 3. Enkel Inventeringstabell
 
+<a id="kap3-nytta"></a>
+
+### Nyttobedömning *(förtydligat i version 2)*
+
+> **Förtydligat i version 2.** Mallens rekommenderade struktur, punkt 3: "Nyttobedömning: analysera vilken verksamhetsnytta AI kan skapa, exempelvis kvalitet, effektivitet, tillgänglighet, arbetsmiljö eller bättre beslutsunderlag." Nyttobedömningen leder fram till tabellen nedan.
+
+<a id="kap3-tabell"></a>
+
+### Inventeringstabell
+
 | AI användning | Syfte | Data | Ansvarig | Risk/Åtgärd |
 |---|---|---|---|---|
 | | | | | |
@@ -234,11 +249,21 @@ Fakulteten för Naturvetenskap: Datavetenskap
 
 <a id="kap6"></a>
 
-## 6. Prioriterad handlingsplan *(tillagt i version 2)*
+## 6. Slutsats och prioriterad handlingsplan i korthet *(tillagt i version 2)*
 
-> **Tillagt i version 2.** Mallens slutstycke: "prioriterad handlingsplan".
->
-> *Förslag på stödfrågor (ur mall-delprov1.md, inte kursledningens text):* Föreslå hur arbetet bör gå vidare. Ange prioritet, ansvarig roll, första steg, beroenden och hur resultat eller risk ska följas upp.
+> **Tillagt i version 2.** Mallens slutstycke: "prioriterad handlingsplan". Kapitlet är en kort avslutning och en försmak. Den fullständiga handlingsplanen görs i delprov 2, som bygger vidare på inventeringen ([examination och kursupplägg](https://github.com/kentlundgren/Studier/tree/main/2026_host/AI_for_chefer#examination-och-kursuppl%C3%A4gg)).
+
+<a id="kap6-slutsats"></a>
+
+### Slutsats
+
+> *Förslag på stödfrågor:* Vad visar inventeringen? Vilken nytta, vilka risker och vilka kompetens- och styrningsbehov är viktigast? Vad rekommenderar du som nästa steg?
+
+<a id="kap6-plan"></a>
+
+### Prioriterad handlingsplan i korthet
+
+> *Förslag på stödfrågor (ur mall-delprov1.md, inte kursledningens text):* Föreslå hur arbetet bör gå vidare. Ange prioritet, ansvarig roll, första steg, beroenden och hur resultat eller risk ska följas upp. Håll det kort: planen fördjupas i delprov 2.
 
 | Prioritet | Åtgärd/initiativ | Motivering | Ansvarig roll | Första steg/tid | Uppföljning |
 |---|---|---|---|---|---|
