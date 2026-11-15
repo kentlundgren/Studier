@@ -242,6 +242,8 @@ Luciano Floridi Agent (u.å.) *Luciano Floridi Agent*. Tillgänglig på: https:/
 
 Modlitba, P. (2025) *Vad fan ska vi med AI till? Affärsutveckling & innovation med AI*. 1 uppl. Stockholm: Natur & Kultur. ISBN 9789127470415. Förlagsinformation: https://www.nok.se/titlar/laromedel-b2/vad-fan-ska-vi-med-ai-till/4fca71ea-b8d7-4940-871a-332c9dc68acf (Hämtad 2026-09-04). *(Kurslitteratur i AI101A; den praktiskt inriktade titeln som stödjer kursens projektmoment om att ta fram en AI-handlingsplan för den egna verksamheten.)*
 
+Regeringen (2026) *Handlingsplan för Sveriges AI-strategi*. Stockholm: Regeringskansliet. Publicerad 2026-02-20. PDF: <https://www.regeringen.se/contentassets/541f2d592901483e858972fb7959d9f2/handlingsplan-for-sveriges-ai-strategi.pdf>. Landningssida: <https://www.regeringen.se/regeringens-politik/sveriges-ai-strategi/handlingsplan-for-sveriges-ai-strategi/> (Hämtad 2026-11-15). *(Kompletterande källa till regeringens AI-strategi: redovisar beslutade och planerade åtgärder som konkretiserar strategin, där merparten beslutades under 2025 och stora delar svarar mot AI-kommissionens förslag i SOU 2025:12. Visar vilka av färdplanens förslag som blivit beslut, och är därmed ett komplement till AI-kommissionen (2025).)*
+
 Wikipedia-bidragsgivare (u.å.) *Luciano Floridi*. Svenska Wikipedia. Tillgänglig på: https://sv.wikipedia.org/wiki/Luciano_Floridi (Hämtad 2026-11-09). *(Översiktlig biografisk orientering om Floridi och informationsfilosofi; artikeln är sekundär, senast uppdaterad 2020 och flaggad för förtydligande.)*
 
 ---
