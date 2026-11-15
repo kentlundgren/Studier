@@ -1,7 +1,7 @@
 # PRD – Delprov 1: analys av ett AI-tillämpningsområde
 
 **Kurs:** AI för chefer och ledare, AI101A, Högskolan Kristianstad  
-**Status:** Arbetsversion, fas 4 – uppdaterad 12 november 2026
+**Status:** Arbetsversion, fas 4 – uppdaterad 15 november 2026
 **Ägare och författare:** Kent Lundgren  
 **Arbetsfil för rapporten:** [utkast 4d](../Analys/delprov1-vindkraftskalkyler/utkast-4d.md) (aktuell arbetsversion som Kent granskar och utvecklar)
 
@@ -36,7 +36,7 @@ För varje fall skiljs producerade resultat från planerade användningar och up
 
 | Del i arbetsflödet | Plats | Innehåll och roll |
 |---|---|---|
-| Kravunderlag och stöd | `delprov1-vindkraftskalkyler/mall/` | HKR:s originalmall, vår ifyllningsmall `mall-delprov1.md` och arbetsguiden `arbetsguide-delprov1.docx`. Dessa beskriver uppgiften och hur arbetet kan genomföras. |
+| Kravunderlag och stöd | `delprov1-vindkraftskalkyler/mall/` | HKR:s originalmall, Markdown-återgivningen [version 1](mall/ai-inventering-dokument-uppgift-1.md) och [version 2](mall/ai-inventering-dokument-uppgift-1-v2.md) (gällande struktur, med metod, handlingsplan och reflektion), vår ifyllningsmall `mall-delprov1.md` och arbetsguiden `arbetsguide-delprov1.docx`. Dessa beskriver uppgiften och hur arbetet kan genomföras. |
 | PRD | `delprov1-vindkraftskalkyler/PRD_delprov1.md` | Kursens arbetsbeskrivning: syfte, avgränsning, filstruktur, arbetsflöde, öppna frågor och kriterier. |
 | Kursmoment och quiz | `delprov1-vindkraftskalkyler/Quiz/` | Relevanta quizfrågor, egna svar och kursmoment används som kompletterande signaler om centrala begrepp och kursledningens betoningar. |
 | Utkastserie, fas 4 | `Analys/delprov1-vindkraftskalkyler/` | Samtliga versioner 4a, 4b, 4c och 4d samlas här. Gemensam namnstam `utkast-4a.md`, `utkast-4b.md` osv. gör ordningen tydlig; äldre utkast bevaras som underlag. |
@@ -83,9 +83,9 @@ Den generella arbetsordningen finns i Studier-repots [`AGENTS.md`](../../../AGEN
 
 | Steg | Delprov 1: konkret underlag och arbete | Läge |
 |---|---|---|
-| 1. Uppgift, sammanhang och mall | Kursplan och lärandemål: [HKR:s kursplan](https://www.hkr.se/kurs/ai101a/kursplan/) och [Kents studieplan](../personlig-kursplan.md). Uppgiftsmall: [officiell Word-mall](mall/AI%20Inventering%20Dokument%20f%C3%B6r%20Uppgift%201.docx) och [läsbar Markdown-mall](mall/mall-delprov1.md). Kursunderlag: [quizresultat](Quiz/Bilder/Resultat1_1a_quizet.jpg) och [kursanteckningar](../Analys/kursens-ai-introduktion-och-generativ-ai.md). | Underlagen är samlade. Canvas-instruktioner och AI-regler behöver slutkontrolleras. |
+| 1. Uppgift, sammanhang och mall | Kursplan och lärandemål: [HKR:s kursplan](https://www.hkr.se/kurs/ai101a/kursplan/) och [Kents studieplan](../personlig-kursplan.md). Uppgiftsmall: [officiell Word-mall](mall/AI%20Inventering%20Dokument%20f%C3%B6r%20Uppgift%201.docx) och [läsbar Markdown-mall, version 2](mall/ai-inventering-dokument-uppgift-1-v2.md). Kursunderlag: [quizresultat](Quiz/Bilder/Resultat1_1a_quizet.jpg) och [kursanteckningar](../Analys/kursens-ai-introduktion-och-generativ-ai.md). | Underlagen är samlade. Canvas-instruktioner och AI-regler behöver slutkontrolleras. |
 | 2. Mål och bedömningskriterier | [Betygsmatrisen för AI101A](../kursplan/betygsmatris_AI101A.jpg); G- och VG-kriterierna kopplas till rapportens delar. | Första kartläggningen finns i arbetsguiden; den ska användas som kontroll när 4d utvecklas. |
-| 3. Arbetsguide | Den [läsbara ifyllningsmallen](mall/mall-delprov1.md) och [arbetsguiden i Word](mall/arbetsguide-delprov1.docx) översätter uppgift, mall och matris till frågor och arbetsordning. | Framtaget; kan förtydligas om kurskraven ändras eller en lucka upptäcks. |
+| 3. Arbetsguide | Den läsbara [mallen i version 2](mall/ai-inventering-dokument-uppgift-1-v2.md) (kursledningens struktur) och [arbetsguiden i Word](mall/arbetsguide-delprov1.docx) översätter uppgift, mall och matris till frågor och arbetsordning. Stödmallen [mall-delprov1.md](mall/mall-delprov1.md) finns kvar med utförligare stödfrågor, men styr inte strukturen. | Framtaget; kan förtydligas om kurskraven ändras eller en lucka upptäcks. |
 | 4. Innehållsutkast | [Utkast 4a](../Analys/delprov1-vindkraftskalkyler/utkast-4a.md) är det tidiga friare analysutkastet; [utkast 4b](../Analys/delprov1-vindkraftskalkyler/utkast-4b.md) skrevs senare utifrån kursmallen; [utkast 4c](../Analys/delprov1-vindkraftskalkyler/utkast-4c.md) är bevarad föregångare; [utkast 4d](../Analys/delprov1-vindkraftskalkyler/utkast-4d.md) är aktuell arbetsversion. | Pågår i 4d. Äldre versioner används selektivt, inte som alternativa huvudtexter. |
 | 5. Tillräckligt innehåll | Kontrollera [utkast 4d](../Analys/delprov1-vindkraftskalkyler/utkast-4d.md) mot uppgiftsmallen och [betygsmatrisen](../kursplan/betygsmatris_AI101A.jpg): krav, belägg, Kents egna resonemang och återstående `[KENT: …]`-punkter. | Inte påbörjat som gallringsfas. |
 | 6. Rätt omfattning och detaljredigering | Anpassa [utkast 4d](../Analys/delprov1-vindkraftskalkyler/utkast-4d.md) till omfånget i [kursmallen](mall/AI%20Inventering%20Dokument%20f%C3%B6r%20Uppgift%201.docx) och finslipa språk och hänvisningar när större innehållsfrågor är lösta. | Inte påbörjat. |
@@ -112,6 +112,7 @@ Den generella sjustegsprocessen finns redan i rotens [AGENTS.md](../../../AGENTS
 3. Vilka konkreta arbetsmoment, verktyg och granskningssteg kan beskrivas i respektive fall: kalkylutvecklingen och arbetet med bloggtexten? Vilka fortsättningar är fortfarande idéer?
 4. Vilken verksamhet, processägare och huvudsaklig användargrupp ska inventeringen utgå från? Vilket informationsbehov ska prioriteras i vart och ett av fallen?
 5. Vilka kurskällor krävs eller rekommenderas utöver de källor som redan finns i utkasten?
+6. Vilka punkter ur kursledningens [extra text i Canvas](#extra-text-från-kursledningen-i-canvas--15-november-2026) vill Kent lyfta fram i inventeringen?
 
 
 ## 10. Metainsikt att bära vidare
@@ -145,3 +146,33 @@ Cursor Agent Review invände mot att PRD:n angav att Kent bekräftat att bloggte
 Kents skärmbild visade att ”Start Agent Review on Commit” var aktiverat. Efter att ha förstått inställningen uttryckte Kent att automatisk granskning gärna kan vara kvar som extra återkoppling, även om vissa invändningar är onödiga. Att stänga av automatisk start skulle inte hindra en manuellt startad granskning från att ge samma påpekande. Vi har inte ändrat inställningen åt Kent och har inte verifierat att det enskilda påpekandet avfärdats i Cursor.
 
 Lärdomen är att även AI-granskarens analys behöver bedömas. Ett påpekande kan vara vällovligt och användbart utan att visa ett faktiskt fel. Läs motiveringen, granska underlaget och välj mellan rättning, förtydligande och avfärdande. Undvik att automatiskt acceptera ”Fix All Issues”. I detta fall var nyttan framför allt att tydliggöra vem som hade bekräftat vad. Den generella arbetsregeln finns i [AGENTS.md](../../../AGENTS.md#bedöm-ai-granskningar-som-kvalificerade-förslag).
+
+## Extra text från kursledningen i Canvas – 15 november 2026
+
+**Vad det är.** Kursledningen har lagt ut en Canvas-sida, [Individuell AI Inventering – extra text där ni kan se fler rubriker än de som efterfrågas i er Uppgift 1](https://hkr.instructure.com/courses/9408/pages/individuell-ai-inventering-extra-text-dar-ni-kan-se-fler-rubriker-an-de-som-efterfragas-i-er-uppgift-1?module_item_id=525542) (kräver inloggning). Sidan beskriver en inventering i tolv steg (bland annat nuläge, AI-register, klassificering enligt EU:s AI Act, dataanalys, risk, styrning, kompetens, juridik, intressenter, möjligheter, prioritering och GAP-analys) och ett beslutsunderlag med tio delar som resultat. Kursledningens text återges inte här, eftersom repot är publikt. Texten har Kent återgett i samtalet; assistenten har inte själv öppnat Canvas-sidan.
+
+**Status: inspiration, inte krav.** Enligt sidans inledning, så som Kent återgett den, utgår kursledningen från Word-mallens titelindelning, och den extra texten står som inspiration och som ett urval att plocka ur utifrån det perspektiv man väljer. Mallens struktur styr alltså, och den extra texten lägger inga egna rubrikkrav.
+
+**Beslut (Kent, 15 november 2026).** Strukturen är [version 2 av Markdown-mallen](mall/ai-inventering-dokument-uppgift-1-v2.md): kursledningens kapitel 1–5 oförändrade, med metodbeskrivning sist i kapitel 1, prioriterad handlingsplan som kapitel 6 och individuell reflektion som kapitel 7. Tilläggen följer mallens slutstycke. [Version 1](mall/ai-inventering-dokument-uppgift-1.md) återger bara kursledningens mall och finns kvar. Ingen version 3 och ingen separat "1b" skapas. Den extra texten används som innehållschecklista inom kapitlen, inte som egna rubriker.
+
+**Hur den extra texten motsvaras i version 2.**
+
+| Extra texten | Var den hör hemma i version 2 |
+|---|---|
+| 1 Verksamhetens nuläge, 9 Intressentanalys | Kapitel 1: Beskriv din verksamhet kort, Identifiera ansvar |
+| 2 Inventering av AI-användning ("AI-register") | Kapitel 2 och tabellen i kapitel 3 |
+| 3 Klassificering enligt EU AI Act | Kapitel 4: Risknivå |
+| 4 Dataanalys, 8 Juridisk analys | Kapitel 4: Data och integritet |
+| 5 Risk- och konsekvensanalys | Kapitel 4: Mänsklig kontroll och Stoppsignal |
+| 6 AI-governance | Kapitel 5: Styrning |
+| 7 Kompetensinventering | Kapitel 5: AI-kompetens |
+| 10 Möjlighetsanalys, 11 Prioritering, 12 GAP-analys | Kapitel 6: Prioriterad handlingsplan |
+| Resultatet av inventeringen (beslutsunderlag) | Samma innehåll, utspritt över kapitlen; "Rekommendationer" blir kapitel 6 |
+
+**Vad mallen inte uttryckligen uppmanar till.** Ämnena finns i version 2, men fyra moment ligger bara i den extra texten: AI Act-klassificering i fyra risknivåer, intressentanalys, möjlighetsanalys och GAP-analys (nuläge mot önskat läge). De tas med som meningar eller en kolumn i rätt kapitel, där Kent bedömer att de bär analysen, inte som nya rubriker.
+
+**Källor som den extra texten nämner.** Texten anger AI-kommissionens färdplan som "2024". I litteraturlistan förs den som [AI-kommissionen (2025), SOU 2025:12](../litteratur/litteraturlista.md#ref-sou-2025-12) (presenterad november 2024, publicerad som SOU februari 2025), och rapporten följer litteraturlistans uppgifter. Sveriges AI-strategi (2026) och dess handlingsplan finns i [litteraturlistans referensförteckning](../litteratur/litteraturlista.md#samlad-litteratur).
+
+**Öppet.** Vilka 4–5 punkter ur den extra texten Kent vill lyfta fram i sin egen process är inte bestämt. Det beslutar Kent när fas 4 når innehållet i kapitel 4–6; se öppen fråga 6 ovan.
+
+**Erfarenhet att bära vidare.** När kursledningen ger flera strukturer, fråga vilken som styr innan mallen byggs om. Här var svaret att titelindelningen styr och den extra texten är inspiration. Det sparade en tredje mall.
