@@ -13,13 +13,14 @@ Högskolan Kristianstad · 291 88 Kristianstad · 044-250 30 00 · [www.hkr.se](
 AI inventering, analys av ett tillämpningsområde för AI, 1.5 hp
 
 Termin år: HT 2026
+
 Fakulteten för Naturvetenskap: Datavetenskap
 
 **Titel:** AI inventering
 
 **Undertitel:** Undertitel *(formatmall Undertitel)*
 
-**Författare:** Författarens/författarnas namn *(formatmall Författarens namn)*
+**Författare:** Författaren/författarnas namn *(formatmall Författarens namn)*
 
 ---
 
@@ -75,7 +76,7 @@ Fakulteten för Naturvetenskap: Datavetenskap
 
 ## 3. Enkel Inventeringstabell
 
-| AI användning | Syfte | Data | Ansvarig | Risk/åtgärd |
+| AI användning | Syfte | Data | Ansvarig | Risk/Åtgärd |
 |---|---|---|---|---|
 | | | | | |
 | | | | | |
