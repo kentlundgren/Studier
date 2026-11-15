@@ -20,7 +20,7 @@
 
 ## 1. Förberedelse: Verksamhet och Ansvar
 
-**Fråga att besvara:** Vilket ledningsproblem eller vilken verksamhetsnytta ska AI-inventeringen bidra till? [KENT: formulera detta i en eller två meningar. Utgångspunkt från 4d: hur kalkyler som beslutsunderlag kan göras begripliga och granskningsbara för flera aktörer med hjälp av generativ AI, utan att AI ersätter kontrollerbara beräkningar.]
+**Fråga att besvara:** Hur kan en kalkyl, med stöd av generativ AI, synliggöra beräkningsgrunder, antaganden och konsekvenser för flera parter när reglerna är nya och olika parter har olika informationsbehov? [KENT: bekräfta eller justera formuleringen. Kapitlets övergripande fråga är vilket ledningsproblem eller vilken verksamhetsnytta inventeringen ska bidra till.]
 
 ### Beskriv din verksamhet kort
 
@@ -50,11 +50,13 @@ Samarbetet med generativ AI kräver att jag formulerar mål, avgränsningar och 
 
 I dag äger, förvaltar och använder jag kalkylerna och jag granskar kod och resultat. En möjlig framtid är att kalkylmodeller publiceras på [akademins webbplats](https://skanesvindkraftsakademi.se/). Det skulle kräva att akademin tar ansvar för att kalkylerna fungerar och räknar rätt, vilket jag inte kan besluta om ensam. Det är verksamhetsledaren som på styrelsens uppdrag beslutar vad som ska vara på akademins hemsida.
 
-### Enhet, process eller tjänst
+### Avgränsning och vald process
 
-Den verksamhet jag fokuserar på är kommunikationen om vindkraftens ekonomi både generellt och vid konkreta lokala etableringar. Rapporten analyserar AI-stödd utveckling av kalkyl- och beslutsverktyg i den kommunikationen. Fokus är alltså hur vi kan med hjälp av generativ AI när modeller byggs, förbättras och förklaras – inte att låta en språkmodell ersätta kalkylens kontrollerbara beräkningar.
+Den process jag inventerar är kommunikationen om vindkraftens ekonomi, både generellt och vid konkreta lokala etableringar. Rapporten analyserar AI-stödd utveckling av kalkyl- och beslutsverktyg i den kommunikationen. Fokus är hur generativ AI kan hjälpa till när modeller byggs, förbättras och förklaras – inte att låta en språkmodell ersätta kalkylens kontrollerbara beräkningar.
 
-Fallet avgränsas till utvecklingsprocessen och kalkylens användning som kunskapskälla kring vindkraftens ekonomi för olika parter, samt som beslutsunderlag i konkreta fall när en vindkraftspark ska byggas. Vindkraftsekonomin behandlas där den behövs för att analysera AI-användning, nytta och risk. Jag har valt vindkraftsersättning till ägare av bostadsbyggnader nära vindkraftsanläggningar som rapportens huvudexempel. [Lag (2026:1113) om intäktsdelning från vindkraftsanläggningar](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-20261113-om-intaktsdelning-fran_sfs-2026-1113/) trädde i kraft den 1 juli 2026. Vilka anläggningar och byggnader som omfattas beror också på lagens villkor och övergångsbestämmelser (SFS 2026:1113). En fråga jag vill undersöka är hur en kalkyl kan synliggöra beräkningsgrunder, antaganden och konsekvenser för flera parter när reglerna är nya och olika parter kan ha olika informationsbehov. 
+Avgränsningen gäller utvecklingsprocessen och kalkylens två användningar: generellt som kunskapskälla om vindkraftens ekonomi för olika parter, och i konkreta fall som beslutsunderlag när en vindkraftspark ska byggas. Vindkraftsekonomin behandlas där den behövs för att analysera AI-användning, nytta och risk. Som huvudexempel har jag valt vindkraftsersättning till ägare av bostadsbyggnader nära vindkraftsanläggningar, enligt [lag (2026:1113) om intäktsdelning från vindkraftsanläggningar](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-20261113-om-intaktsdelning-fran_sfs-2026-1113/) (i rapporten kallad intäktsdelningslagen), som trädde i kraft den 1 juli 2026. Vilka anläggningar och byggnader som omfattas beror på intäktsdelningslagens (2026:1113) villkor och övergångsbestämmelser. Kalkylen analyseras som beslutsunderlag, inte som ersättning för en rättslig bedömning.
+
+[KENT: bekräfta vad som ligger utanför, till exempel att enskilda personers rätt till ersättning inte prövas, och om ett visst geografiskt område gäller.]
 
 ### Metod och underlag
 
