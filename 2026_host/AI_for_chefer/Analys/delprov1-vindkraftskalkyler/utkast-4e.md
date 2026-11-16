@@ -249,8 +249,8 @@ Följande är arbetsförslag att ta ställning till, inte mina färdiga rekommen
 
 | Prioritet | Åtgärd/initiativ | Motivering | Ansvarig roll | Första steg/tid | Uppföljning |
 |---|---|---|---|---|---|
-| 1 | Dokumentera vilka AI-verktyg som användes och vad de bidrog med i respektive kalkylversion | [KENT: vilka belägg finns?] | [KENT] | [KENT] | AI-bidrag kan särskiljas från egna beslut och manuellt arbete |
-| 2 | Skapa en enkel kontrollista för formler, antaganden, källor och AI-genererad kod | [KENT: vilka kontroller använder du redan?] | [KENT] | [KENT] | Ändringar kan följas och granskas innan publicering |
+| 1 | Dokumentera vilka AI-verktyg som användes och vad de bidrog med i respektive kalkylversion | Strategin lyfter transparens och spårbarhet (Regeringskansliet, 2026, s. 13) och att användaren ansvarar för konsekvenserna (s. 15). [KENT: vilka egna belägg finns?] | [KENT] | [KENT] | AI-bidrag kan särskiljas från egna beslut och manuellt arbete |
+| 2 | Skapa en enkel kontrollista för formler, antaganden, källor och AI-genererad kod | Användaren ansvarar för avsiktliga och oavsiktliga konsekvenser (Regeringskansliet, 2026, s. 15), och kontrollen minskar risken för påhittade siffror. [KENT: vilka kontroller använder du redan?] | [KENT] | [KENT] | Ändringar kan följas och granskas innan publicering |
 | 3 | Prioritera nästa utvecklingssteg utifrån användarbehov och risk | [KENT: vem är viktigaste användargruppen och vilken fråga behöver kalkylen hjälpa till att besvara?] | [KENT] | [KENT] | [KENT: välj mått eller kontroll] |
 
 Prioriteringen behöver bli tydlig. En genomförbar AI-roadmap med ansvarig roll, första steg och uppföljning fördjupas i delprov 2. [KENT: välj vilka förslag du själv står bakom.]
