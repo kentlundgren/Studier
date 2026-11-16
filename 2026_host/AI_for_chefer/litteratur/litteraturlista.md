@@ -166,7 +166,8 @@ Den som hellre lyssnar kan höra poddavsnittet *#322 Vad fan ska vi med Ai till?
 **Länkar och noteringar**
 - Förlagsinformation (Natur & Kultur), verifierad 2026-09-04: <https://www.nok.se/titlar/laromedel-b2/vad-fan-ska-vi-med-ai-till/4fca71ea-b8d7-4940-871a-332c9dc68acf>
 - ISBN: 9789127470415 (häftad), 9789127470422 (e-bok).
-- Utgivningsår: 2025.
+- E-bok (Epub3), ISBN 9789127470422, utkom 2025-09-10: förlagets titelsida visar e-boken som eget format: <https://www.nok.se/titlar/laromedel-b2/vad-fan-ska-vi-med-ai-till/4fca71ea-b8d7-4940-871a-332c9dc68acf> (kontrollerad 2026-11-16; länk till en e-boksbutik ej verifierad).
+- Utgivningsdatum enligt förlaget (hämtat 2026-11-16): häftad 20 augusti 2025, e-bok 10 september 2025.
 - Poddavsnitt: *Det skaver*, #322 *Vad fan ska vi med Ai till?* (Spotify, publicerat 2026-02-16, cirka 64 min), uppgifterna lästa på Spotify-sidan 2026-11-16: <https://open.spotify.com/episode/2M9nFXQtFN0YLtnjuKxYCt>
 
 ↩ [Till litteraturkartan](litteraturlista.md#samlad-litteratur)
@@ -245,7 +246,7 @@ Högskolan Kristianstad (2026) *Litteraturlista: AI för chefer och ledare, AI10
 Luciano Floridi Agent (u.å.) *Luciano Floridi Agent*. Tillgänglig på: https://www.lucianofloridi.com/ (Hämtad 2026-11-09). *(AI-agent som genererar svar med utgångspunkt i Floridis arbeten; svaren är sekundärt AI-genererade och behöver kontrolleras mot primärkällor.)*
 
 
-Modlitba, P. (2025) *Vad fan ska vi med AI till? Affärsutveckling & innovation med AI*. 1 uppl. Stockholm: Natur & Kultur. ISBN 9789127470415. Förlagsinformation: https://www.nok.se/titlar/laromedel-b2/vad-fan-ska-vi-med-ai-till/4fca71ea-b8d7-4940-871a-332c9dc68acf (Hämtad 2026-09-04). *(Kurslitteratur i AI101A; den praktiskt inriktade titeln som stödjer kursens projektmoment om att ta fram en AI-handlingsplan för den egna verksamheten.)*
+Modlitba, P. (2025) *Vad fan ska vi med AI till? Affärsutveckling & innovation med AI*. 1 uppl. Stockholm: Natur & Kultur. Utkom 20 augusti 2025 (häftad) och 10 september 2025 (e-bok, [förlagets sida](https://www.nok.se/titlar/laromedel-b2/vad-fan-ska-vi-med-ai-till/4fca71ea-b8d7-4940-871a-332c9dc68acf)). ISBN 9789127470415 (häftad), 9789127470422 (e-bok). Förlagsinformation: https://www.nok.se/titlar/laromedel-b2/vad-fan-ska-vi-med-ai-till/4fca71ea-b8d7-4940-871a-332c9dc68acf (Hämtad 2026-09-04; utgivningsdatum hämtat 2026-11-16). *(Kurslitteratur i AI101A; den praktiskt inriktade titeln som stödjer kursens projektmoment om att ta fram en AI-handlingsplan för den egna verksamheten.)*
 
 Regeringen (2026) *Handlingsplan för Sveriges AI-strategi*. Stockholm: Regeringskansliet. Publicerad 2026-02-20. PDF: <https://www.regeringen.se/contentassets/541f2d592901483e858972fb7959d9f2/handlingsplan-for-sveriges-ai-strategi.pdf>. Landningssida: <https://www.regeringen.se/regeringens-politik/sveriges-ai-strategi/handlingsplan-for-sveriges-ai-strategi/> (Hämtad 2026-11-15). *(Kompletterande källa till regeringens AI-strategi: redovisar beslutade och planerade åtgärder som konkretiserar strategin, där merparten beslutades under 2025 och stora delar svarar mot AI-kommissionens förslag i SOU 2025:12. Visar vilka av färdplanens förslag som blivit beslut, och är därmed ett komplement till AI-kommissionen (2025).)*
 
