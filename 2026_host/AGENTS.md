@@ -43,6 +43,19 @@ I början av en skriftlig uppgift ska jag klargöra om kursledningen eller organ
 
 Erfarenheten från AI101A:s Delprov 1 är ett exempel: ett tidigare utkast skrevs friare, medan den senare arbetsversionen följer kursens mall och betygsmatris. För just det delprovet ska det fortsatta arbetet följa mallen; frågan om mallars nytta och påverkan på egen röst hör till metareflektionen och framtida uppgifter.
 
+## Fyra femmor: analys av en bok eller text i kurslitteraturen (arbetsnamn, Kent 2026-11-16)
+
+Ber Kent om en "fyra femmor-analys" (5+5+5+5) av en bok eller text, skriver jag en fil i `Analys/litteratur/` med samma form som [ai_kommissionens_fardplan_analys.md](AI_for_chefer/Analys/litteratur/ai_kommissionens_fardplan_analys.md) och [modlitba_2025_analys.md](AI_for_chefer/Analys/litteratur/modlitba_2025_analys.md):
+
+1. **Ingress** med underlag och datum. Bygger analysen inte på själva texten (boken är inte läst), står det överst i en ruta. En ruta förklarar också hur "samsyn" ska läsas.
+2. **Fem områden med bred samsyn.**
+3. **Fem omstridda områden:** där recensenter och skribenter pekar på sådant som kan förbättras. Finns ingen kritik, säg det och ange vem som väcker varje fråga.
+4. **Fem områden som texten inte täcker tillräckligt.** Saknas själva texten är varje punkt ett förslag märkt `[KONTROLLERA mot boken]`, med sökord Kent kan använda.
+5. **Fem kopplingar till övrig kurslitteratur** i litteraturlistan, och bara till sådant jag har läst.
+6. **Så tänker jag**, källförteckning (Harvard, alfabetisk, kursiv förklaring på varje post, hämtdatum) och länk tillbaka till litteraturkartan. Länka analysen från litteraturlistan.
+
+Exakt fem punkter i varje avdelning. Läst är läst: skilj det jag har läst från det jag har sett via en sammanfattning eller ett citat hos någon annan. Kopiera inte långa stycken ur en bok (högst en kort mening med sidnummer). Boken eller kopior av den läggs inte i det publika repot.
+
 ## Inget påhittat
 
 Jag hittar inte på analys, siffror, paragrafer, citat eller källor. Markeringar i texten:

@@ -20,7 +20,7 @@
 | 1 | Europaparlamentet och rådet (2024), *Artificial Intelligence Act* (förordning (EU) 2024/1689) | EU-förordning | Omfattande (rättsakt) | Finns på svenska och engelska | [📖 AI Act-analys →](../Analys/litteratur/ai_act_2024_analys.md#ref-ai-act-2024) |
 | 1a | Europaparlamentet och rådet (2026), ändringsförordning (EU) 2026/1744, *Digital Omnibus on AI* | Ändringsförordning | Ändringar av AI Act | Engelska / språkval i EUR-Lex | [📖 Fem ändringar 2026 →](../Analys/litteratur/ai_act_2024_analys.md#ai-act-2026-updates) |
 | 2 | Floridi, L. (2023), *The Ethics of Artificial Intelligence* | Akademisk monografi | ca 272 s. | Engelska | [📖 Floridi i listan ↓](#ref-floridi-2023) · [Medvetandeanalys →](../Analys/litteratur/floridi_ai_medvetande.md#ref-floridi-2023) |
-| 3 | Modlitba, P. (2025), *Vad fan ska vi med AI till?* | Populär facklitteratur | 170 s. | Svenska | [📖 Fördjupning ↓](#ref-modlitba-2025) |
+| 3 | Modlitba, P. (2025), *Vad fan ska vi med AI till?* | Populär facklitteratur | 170 s. | Svenska | [📖 Fördjupning ↓](#ref-modlitba-2025) · [Fyra femmor →](../Analys/litteratur/modlitba_2025_analys.md#ref-modlitba-2025-analys) |
 | 4 | AI-kommissionen (2025), *AI-kommissionens färdplan för Sverige* (SOU 2025:12) | Statlig utredning | Omfattande | Svenska | [📖 Fem gemensamma linjer och fem debatter →](../Analys/litteratur/ai_kommissionens_fardplan_analys.md#ref-sou-2025-12) |
 
 
@@ -163,10 +163,12 @@ artiklar och med Floridi.
 
 Den som hellre lyssnar kan höra poddavsnittet *#322 Vad fan ska vi med Ai till?* i podden *Det skaver* på [Spotify](https://open.spotify.com/episode/2M9nFXQtFN0YLtnjuKxYCt); se [Det skaver (2026)](litteraturlista.md#samlad-litteratur).
 
+**Fördjupning:** [Fyra femmor: samsyn, omstridda områden, det som saknas och kopplingar till kursens övriga litteratur](../Analys/litteratur/modlitba_2025_analys.md#ref-modlitba-2025-analys). Analysen bygger inte på själva boken.
+
 **Länkar och noteringar**
 - Förlagsinformation (Natur & Kultur), verifierad 2026-09-04: <https://www.nok.se/titlar/laromedel-b2/vad-fan-ska-vi-med-ai-till/4fca71ea-b8d7-4940-871a-332c9dc68acf>
 - ISBN: 9789127470415 (häftad), 9789127470422 (e-bok).
-- E-bok (Epub3), ISBN 9789127470422, utkom 2025-09-10: förlagets titelsida visar e-boken som eget format: <https://www.nok.se/titlar/laromedel-b2/vad-fan-ska-vi-med-ai-till/4fca71ea-b8d7-4940-871a-332c9dc68acf> (kontrollerad 2026-11-16; länk till en e-boksbutik ej verifierad).
+- E-bok (Epub3), ISBN 9789127470422, utkom 2025-09-10: förlagets titelsida visar e-boken som eget format: <https://www.nok.se/titlar/laromedel-b2/vad-fan-ska-vi-med-ai-till/4fca71ea-b8d7-4940-871a-332c9dc68acf> (kontrollerad 2026-11-16). E-boken i Storytel (sidan visar ISBN 9789127470422, kontrollerad 2026-11-16): <https://www.storytel.com/se/books/vad-fan-ska-vi-med-ai-till-aff%C3%A4rsutveckling-innovation-med-ai-10972286>.
 - Utgivningsdatum enligt förlaget (hämtat 2026-11-16): häftad 20 augusti 2025, e-bok 10 september 2025.
 - Poddavsnitt: *Det skaver*, #322 *Vad fan ska vi med Ai till?* (Spotify, publicerat 2026-02-16, cirka 64 min), uppgifterna lästa på Spotify-sidan 2026-11-16: <https://open.spotify.com/episode/2M9nFXQtFN0YLtnjuKxYCt>
 
