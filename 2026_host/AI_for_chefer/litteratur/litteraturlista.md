@@ -161,10 +161,13 @@ Styrkan är tillgänglighet och tillämpbarhet; för teoretisk stringens och
 källkritisk fördjupning bör den läsas tillsammans med kursens vetenskapliga
 artiklar och med Floridi.
 
+Den som hellre lyssnar kan höra poddavsnittet *#322 Vad fan ska vi med Ai till?* i podden *Det skaver* på [Spotify](https://open.spotify.com/episode/2M9nFXQtFN0YLtnjuKxYCt); se [Det skaver (2026)](litteraturlista.md#samlad-litteratur).
+
 **Länkar och noteringar**
 - Förlagsinformation (Natur & Kultur), verifierad 2026-09-04: <https://www.nok.se/titlar/laromedel-b2/vad-fan-ska-vi-med-ai-till/4fca71ea-b8d7-4940-871a-332c9dc68acf>
 - ISBN: 9789127470415 (häftad), 9789127470422 (e-bok).
 - Utgivningsår: 2025.
+- Poddavsnitt: *Det skaver*, #322 *Vad fan ska vi med Ai till?* (Spotify, publicerat 2026-02-16, cirka 64 min), uppgifterna lästa på Spotify-sidan 2026-11-16: <https://open.spotify.com/episode/2M9nFXQtFN0YLtnjuKxYCt>
 
 ↩ [Till litteraturkartan](litteraturlista.md#samlad-litteratur)
 
@@ -226,6 +229,8 @@ Harvard-referenser och länkar.
 ## Referensförteckning
 
 AI-kommissionen (2025) *AI-kommissionens Färdplan för Sverige*. SOU 2025:12. Stockholm: Finansdepartementet. Officiell PDF: https://www.regeringen.se/contentassets/7b80c90b74b04902afbb800bea581c9b/ai-kommissionens-fardplan-for-sverige-sou-202512.pdf. Lokal PDF-kopia och GitHub-kopia: https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/litteratur/ai-kommissionens-fardplan-for-sverige-sou-202512.pdf. Landningssida: https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/02/sou-202512/ (Hämtad 2026-11-10). *(Kurslitteratur i AI101A; primärkälla för färdplanens analys av Sveriges AI-ekosystem och dess förslag om ledarskap, kompetens, forskning och offentlig sektor.)*
+
+Det skaver (2026) *#322 Vad fan ska vi med Ai till?* [podd]. Avsnitt publicerat 16 februari 2026, cirka 64 minuter. Spotify. Tillgänglig på: https://open.spotify.com/episode/2M9nFXQtFN0YLtnjuKxYCt (Hämtad 2026-11-16). *(Poddavsnitt med samma titel som kursboken Modlitba (2025), för den som hellre lyssnar. Avsnittets innehåll är inte kontrollerat mot boken.)*
 
 Europaparlamentet och rådet (2024) *Förordning (EU) 2024/1689 av den 13 juni 2024 om harmoniserade regler för artificiell intelligens (förordningen om artificiell intelligens)*. EUT L, 2024/1689, 12.7.2024. Svensk fulltext: https://eur-lex.europa.eu/legal-content/SV/TXT/HTML/?uri=OJ:L_202401689. Svensk PDF-kopia i kursmappen: https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/litteratur/AI_act_2024_SV_TXT.pdf. Språkneutral ELI-länk: http://data.europa.eu/eli/reg/2024/1689/oj (Hämtad 2026-11-09). *(Kurslitteratur i AI101A; den primära rättskällan bakom kursens juridiska lärandemål om EU:s AI Act. HKR:s lista anger utfärdaren som "Europeiska kommissionen", men rättsakten är antagen av Europaparlamentet och rådet. PDF-kopian är 2024 års ursprungstext; se även ändringsförordning (EU) 2026/1744 för senare ändringar.)*
 
