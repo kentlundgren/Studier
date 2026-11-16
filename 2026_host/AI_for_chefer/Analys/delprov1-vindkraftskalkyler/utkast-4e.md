@@ -10,6 +10,8 @@
 
 > **Processnotering – tas bort före rapportversion:** Utkast 4e bygger på [mall version 2](../../delprov1-vindkraftskalkyler/mall/ai-inventering-dokument-uppgift-1-v2.md) ([samma mall på GitHub](https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/delprov1-vindkraftskalkyler/mall/ai-inventering-dokument-uppgift-1-v2.md)), som återger kursledningens Word-mall med tillägg för metodbeskrivning, nyttobedömning, slutsats, kort handlingsplan och individuell reflektion. Rubrikerna följer den mallen. Innehållet är hämtat från [utkast 4d](utkast-4d.md), som har en annan rubrikstruktur och bevaras oförändrat. Arbetsordningen följer den gemensamma [sjustegsprocessen](../../../../AGENTS.md); [PRD:n för Delprov 1](../../delprov1-vindkraftskalkyler/PRD_delprov1.md) visar hur varje steg används.
 
+> **AI-arbetslogg, 2026-11-16 – tas bort före rapportversion:** På Kents uttryckliga uppdrag lade ChatGPT in den föreslagna reflektionen om taker/shaper i kapitel 7 och en McKinsey-referens direkt i GitHub-versionen. Kent bidrog med erfarenheten av arbetet med instruktioner, skills och harness och valde att föra in textförslaget. Assistenten kontrollerade McKinseys originalartikel på webben. Den lokala filen ändrades inte i detta arbetspass.
+
 ## Sammanfattning
 
 [KENT: Skriv detta sist. Högst 250 ord på svenska: verksamheten (kommunikation om vindkraftens ekonomi), syftet, processen, minst två befintliga eller möjliga AI-användningar och deras mognadsgrad, den viktigaste nyttan och risken samt rekommendationen.]
@@ -243,6 +245,12 @@ Prioriteringen behöver bli tydlig. En genomförbar AI-roadmap med ansvarig roll
 
 ## 7. Individuell reflektion
 
+Min erfarenhet är att användning av färdiga generativa AI-verktyg kräver mer eget arbete än vad ordet ”användare” kan antyda. Jag behöver utveckla och underhålla instruktioner i exempelvis CLAUDE.md och skill-filer, ge relevant projektkontext och utforma rutiner för granskning och återkoppling. Arbetet gäller därmed både den konkreta uppgiften och hur samarbetet med AI ska fungera.
+
+Med McKinseys indelning tolkar jag mitt arbetssätt som en kombination av taker och shaper: jag använder befintliga modeller men anpassar hur de ingår i mitt arbete ([McKinsey & Company, 2023](https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/technologys-generational-moment-with-generative-ai-a-cio-and-cto-guide)). Anpassningen sker framför allt genom instruktioner, kontext, verktyg och kontroller runt modellen. Det är något annat än att finjustera modellens parametrar genom träning. Indelningen hjälper mig att beskriva vad jag anpassar, men synliggör inte i sig hur mycket löpande arbete detta kräver.
+
+För min nyttobedömning innebär det att även tiden för att utveckla, testa och underhålla arbetssättet behöver räknas med. Återanvändbara instruktioner kan vara en investering, men deras värde behöver bedömas utifrån om de faktiskt minskar omarbete eller förbättrar kvaliteten. I kalkylutvecklingen blir det därför relevant att följa både AI:s bidrag och den mänskliga insats som behövs för att resultaten ska kunna användas.
+
 Min ledarskapsreflektion ska beskriva hur jag skulle omsätta analysen i praktiken: vem som får föreslå förändringar, vem som kontrollerar dem, hur antaganden dokumenteras och när en uppdatering är tillräckligt säker för att användas. [KENT: skriv din egen reflektion och ange vad du själv skulle prioritera som chef eller ledare.]
 
 ## Referenser
@@ -276,6 +284,8 @@ Lundgren, K. (2026a) *Vindkraftens ekonomi – fem perspektiv* [interaktivt verk
 Lundgren, K. (2026b) ‘Att göra vindkraftens ekonomi synlig’. *Controller, lärare och coach utan gränser reflekterar*, 13 juli. Tillgänglig på: https://controllerutangranser.wordpress.com/2026/07/13/att-gora-vindkraftens-ekonomi-synlig/ (Hämtad: 11 november 2026). (*Beskriver bakgrund och utveckling från kalkyler till interaktiva webbsidor.*)
 
 Lundgren, K. (2026c) ‘Besked före beslut: att förbättra intäktsdelningen från vindkraft till närboende’. Blogginlägg, 11 november. Tillgänglig på: https://controllerutangranser.wordpress.com/2026/11/11/besked-fore-beslut-att-forbattra-intaktsdelningen-fran-vindkraft-till-narboende/ (*Författarens analys och förbättringsförslag, framtagen tillsammans med generativ AI. Används som fallmaterial, inte som primärkälla för gällande rätt eller belägg för observerade ersättningseffekter.*)
+
+McKinsey & Company (2023) *Technology’s generational moment with generative AI: A CIO and CTO guide*. 11 juli. Tillgänglig på: https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/technologys-generational-moment-with-generative-ai-a-cio-and-cto-guide (Hämtad: 16 november 2026). (*Originalbeskrivningen av taker, shaper och maker; används för reflektionen om anpassning av AI-arbetssätt och integration, som inte förutsätter modellträning.*)
 
 Mitchell, R.K., Agle, B.R. & Wood, D.J. (1997) ‘Toward a theory of stakeholder identification and salience: Defining the principle of who and what really counts’, *Academy of Management Review*, 22(4), s. 853–886. https://doi.org/10.5465/amr.1997.9711022105. (*Ger ett sätt att avgöra vilka parter som räknas, utifrån makt, legitimitet och angelägenhet; används för att motivera kalkylens fem perspektiv. Inte läst i original, uppgifterna bygger på bibliografiska poster och sammanfattning.*) [KONTROLLERA mot originalet.]
 
