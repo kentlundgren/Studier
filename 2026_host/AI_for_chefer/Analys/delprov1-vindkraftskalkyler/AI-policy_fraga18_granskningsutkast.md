@@ -1,12 +1,10 @@
 # AI-policy för vindkraftskalkyler
 
-**Kent Lundgren | AI101A | Fråga 18**
+Kent Lundgren | AI101A | Fråga 18 | AI-genererat granskningsutkast
 
-**Status:** AI-genererat granskningsutkast, 2026-11-16. Förslagen är inte beslutade.
+Underlag: min lokala AI-inventering, utkast 4e, och rubrikerna i fråga 18.
 
-**Underlag:** Min lokala [AI-inventering i utkast 4e](utkast-4e.md) och rubrikerna i fråga 18.
-
-**Granskning:** Min egen granskning återstår. I Word markeras tillägg med blå text och bortval med genomstrykning. I Markdown kan bortval markeras med dubbla tilde-tecken (~~text~~); blå text behöver hanteras vid Word-exporten.
+> Arbetskopians markeringar: **fetstil** motsvarar blå text i Word. Bortval kan markeras med ~~genomstrykning~~. Texten är synkroniserad från den committade Word-filen (d751f6a, 2026-11-16).
 
 ## Introduktion
 
@@ -18,7 +16,7 @@ AI ska bidra till begripliga och granskningsbara beslutsunderlag som synliggör 
 
 ## Syfte
 
-Policyn ska tydliggöra hur AI får användas och hur resultat granskas, så att effektivare arbete inte sker på bekostnad av tillförlitlighet.
+Policyn ska tydliggöra hur AI får **och kan** användas och hur resultat granskas, så att effektivare arbete inte sker på bekostnad av tillförlitlighet.
 
 ## Etiska riktlinjer
 
@@ -26,11 +24,11 @@ Antaganden, osäkerhet och olika aktörers perspektiv ska framgå. AI får inte 
 
 ## Användningsområden
 
-AI får stödja kodutveckling, testförslag, kalkylförklaringar och strukturering av källor. Ett inbyggt AI-lager eller en automatiserad frågeguide är möjliga framtida användningar som kräver separat bedömning.
+AI får stödja kodutveckling, testförslag, **för att utveckla och pröva ekonomiska kalkyler för aktörer som berörs av en vindkraftsetablering”,** kalkylförklaringar och strukturering av källor. Ett inbyggt AI-lager eller en automatiserad frågeguide är möjliga framtida användningar som kräver separat bedömning.
 
 ## Implementeringsstrategi
 
-Nya funktioner ska prövas i liten skala innan publicering. Förväntad nytta, testresultat och behov av mänsklig kontroll dokumenteras inför beslut om fortsatt användning.
+**Nya funktioner ska prövas i liten skala innan eventuell publicering på föreningens hemsida, efter beslut enligt föreningens ansvarsfördelning.** Förväntad nytta, testresultat och behov av mänsklig kontroll dokumenteras inför beslut om fortsatt användning.
 
 ## Datastyrning
 
@@ -38,11 +36,11 @@ Offentliga källor och konstruerade testdata ska användas i första hand. Perso
 
 ## Utbildning och kompetensutveckling
 
-Jag ska utveckla min förmåga att granska AI-genererad kod, källor och förklaringar. Instruktioner och skills kompletterar min kunskap; de ersätter inte eget omdöme.
+Jag ska utveckla min förmåga att granska AI-genererad kod, källor och förklaringar. Instruktioner **(agents.md, Claude.md etc)** och **förmågor (”skills”)** kompletterar min kunskap; de ersätter inte eget omdöme.
 
 ## Riskhantering
 
-Formler ska kontrolleras mot kända räkneexempel och sakuppgifter mot originalkällor. Vid oförklarade avvikelser eller osäkra rättsliga påståenden pausas publiceringen tills frågan är utredd.
+Formler ska kontrolleras mot kända räkneexempel och sakuppgifter mot originalkällor. Vid oförklarade avvikelser eller osäkra rättsliga påståenden pausas publiceringen tills frågan är utredd. **Resultaten från AI-stödda webbkalkyler jämförs med manuella beräkningar eller tidigare kontrollerade kalkyler med samma antaganden**.
 
 ## AI-verktyg
 
@@ -66,4 +64,4 @@ Policyn ska ses över när verktyg, användningsområden eller regler förändra
 
 ## Kontaktinformation
 
-Kent Lundgren, ansvarig för det egna kalkylprojektet. Kontaktväg kompletteras före eventuell extern publicering.
+Kent Lundgren, ansvarig för det egna kalkylprojektet. Kontaktväg kompletteras före eventuell extern publicering **på Skånes vindkaftsakademis hemsida (https://skanesvindkraftsakademi.se/).**
