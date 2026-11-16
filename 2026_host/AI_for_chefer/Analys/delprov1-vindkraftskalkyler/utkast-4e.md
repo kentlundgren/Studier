@@ -265,7 +265,9 @@ För min nyttobedömning innebär det att även tiden för att utveckla, testa o
 
 Jag kan använda strategisk framsyn genom att följa utvecklingen inom AI, energipriser och regelverk samt pröva olika framtidsscenarier i vindkraftskalkylerna. Det hjälper mig att identifiera behov av förändringar i verktyg och arbetssätt i tid och förstå konsekvenserna för olika berörda aktörer.
 
-Min ledarskapsreflektion ska beskriva hur jag skulle omsätta analysen i praktiken: vem som får föreslå förändringar, vem som kontrollerar dem, hur antaganden dokumenteras och när en uppdatering är tillräckligt säker för att användas. [KENT: skriv din egen reflektion och ange vad du själv skulle prioritera som chef eller ledare.]
+Ledarskap i en ideell förening ser annorlunda ut än i en organisation med anställda. Ledamöterna leder, verkar och arbetar ideellt eller på sin arbetstid, och ingen kan beordra någon att använda AI på ett visst sätt. Ledarskapet blir i stället att skapa utrymme och trygghet. Min erfarenhet är att det händer spännande saker i mindre organisationer, där det finns frihet att testa, leka och lära tillsammans med generativ AI. Strategin nämner civilsamhället i samband med standardisering (Regeringskansliet, 2026, s. 11) men inte föreningars egen AI-användning, så erfarenheterna behöver samlas inifrån.
+
+Friheten har ett pris: utan gemensamma ramar kan varje ledamot göra på sitt sätt, och fel upptäcks sent. Som ledare skulle jag därför vilja ha tre saker. Den första är en enkel regel om vem som granskar innan något publiceras: en kalkylkunnig person eller ekonom och en jurist (se kapitel 4 och 5). Den andra är att ledamöterna delar vad de har provat och vad som gick fel. Den tredje är en tydlig gräns: AI får testas fritt så länge resultatet inte publiceras eller påverkar enskilda, men publicerade kalkyler och förklaringar granskas. [KENT: stämmer detta med vad du själv skulle prioritera, och vilken av de tre kommer först?]
 
 ## Referenser
 
