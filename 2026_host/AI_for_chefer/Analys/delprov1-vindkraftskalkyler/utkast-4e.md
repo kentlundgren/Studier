@@ -197,6 +197,8 @@ Fallet väcker frågor om vilken kompetens som krävs för att använda generati
 
 Modlitba (2025, s. 77 och 82–83) menar att kompetensen behöver kartläggas både hos enskilda och i organisationen, att ledningsgrupp och styrelse bör få relevant kunskap och att alla som ansvarar för strategi, innovation och affärsutveckling bör få en grundutbildning. AI-kompetensen behöver inte bara finnas hos tekniska specialister. Kartläggningen omfattar också externa partners och leverantörer (s. 77–78). [KENT: vilka partners finns för kalkylarbetet, till exempel akademins medlemmar?]
 
+Artikel 4 i [AI-förordningen (EU) 2024/1689](https://eur-lex.europa.eu/legal-content/SV/TXT/?uri=CELEX:02024R1689-20260727) lyfter AI-kunnighet och betydelsen av att kompetensåtgärder anpassas till förkunskaper, användningssammanhang och berörda personer. I mitt kalkylarbete tolkar jag detta som att jag behöver kunna granska AI-genererad kod, kontrollera källor och bedöma om förklaringar kan vilseleda exempelvis närboende eller investerare. Min ekonomiska kompetens behöver därför kompletteras med förståelse för generativ AI:s begränsningar. Instruktionsfiler och skills kan stödja arbetet, men ersätter inte mitt eget omdöme.
+
 ### Styrning
 
 [KENT: finns policy, rutin, beslutsgång, dokumentation och uppföljning för AI-användningen i kalkylarbetet? Utgångspunkt: versionshistoriken i Git (se Metod och underlag) och de gemensamma arbetsreglerna som nämns i AI-deklarationen.]
@@ -261,7 +263,7 @@ Anthropic (2025) *Effective harnesses for long-running agents*. 26 november. Til
 
 Arbnor, I. & Bjerke, B. (1997) *Methodology for Creating Business Knowledge*. SAGE. (*Beskriver tre metodsynsätt, analytiskt, system och aktörer; aktörssynsättet är grunden i avhandlingen Lundgren (1998). Inte läst i original, uppgifterna bygger på bibliografiska poster.*) [KONTROLLERA: utgåva och sidor.]
 
-Europaparlamentet och Europeiska unionens råd (2024) *Förordning (EU) 2024/1689 om harmoniserade regler för artificiell intelligens (AI-förordningen).* Europeiska unionens officiella tidning, L 2024/1689. Tillgänglig på: https://data.europa.eu/eli/reg/2024/1689/oj (Hämtad: 11 november 2026). (*EU:s rättsakt som rapporten ska använda för den rättsliga analysen.*)
+Europaparlamentet och Europeiska unionens råd (2024) *Förordning (EU) 2024/1689 om harmoniserade regler för artificiell intelligens (AI-förordningen).* Europeiska unionens officiella tidning, L 2024/1689. Tillgänglig på: https://data.europa.eu/eli/reg/2024/1689/oj (Hämtad: 11 november 2026). Konsoliderad lydelse 27 juli 2026: [https://eur-lex.europa.eu/legal-content/SV/TXT/?uri=CELEX:02024R1689-20260727](https://eur-lex.europa.eu/legal-content/SV/TXT/?uri=CELEX:02024R1689-20260727) (Hämtad: 16 november 2026). (*EU:s rättsakt för den rättsliga analysen; artikel 4 används för kopplingen mellan AI-kunnighet, användningssammanhang och berörda personer. Tillämpningen på kalkylarbetet är min egen reflektion.*)
 
 Git (u.å.) *Git documentation*. Tillgänglig på: https://git-scm.com/docs/git (Hämtad: 11 november 2026). (*Officiell dokumentation som beskriver Git som ett distribuerat versionshanteringssystem.*)
 
