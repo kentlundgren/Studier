@@ -110,7 +110,7 @@ Skriv varje stycke som **en enda rad**, utan hårda radbrytningar inne i stycket
 När jag gör en Word-fil av en `.md`-fil (Kent 2026-11-06):
 - **Sidfot:** det datum som gäller (`ÅÅÅÅ-MM-DD`, dagens datum om inget annat sägs) längst ned till vänster och sidnumret som `sid X (Y)` längst ned till höger, där Y är det totala antalet sidor. En rapport på sju sidor visar `sid 1 (7)` på första och `sid 7 (7)` på sista sidan. Använd fälten PAGE och NUMPAGES så att Word räknar själv.
 - **Sidformat:** A4, marginaler 2,5 cm, Calibri 11 pt, rubriker i svart.
-- **Filnamn:** datumet i namnet följer dagens datum (`ÅÅÅÅMMDD_namn.docx`), och gamla versioner läggs i `old/` med sitt eget datum och `_old` sist.
+- **Filnamn:** exakt samma namn som md-filen, bara ändelsen skiljer (`utkast-4e.md` blir `utkast-4e.docx`), i samma mapp. Datumet står i sidfoten, inte i namnet. Gamla Word-versioner med samma namn läggs i `old/` med sitt eget datum och `_old` sist.
 - Interna versions- och statusrader i `.md`-filen tas inte med i Word-filen.
 
 ## Lärloop: skillnaden mellan mitt utkast och Kents version

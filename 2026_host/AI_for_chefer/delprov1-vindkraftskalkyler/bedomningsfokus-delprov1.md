@@ -54,7 +54,7 @@ Kapitelnamnen är de i [utkast 4f](../Analys/delprov1-vindkraftskalkyler/utkast-
 
 ## 4. När nästa utkast föreslås
 
-Aktuell arbetsversion är [utkast 4f](../Analys/delprov1-vindkraftskalkyler/utkast-4f.md), skapad 2026-11-16 som kopia av 4e. Utkast 4e är skrivskyddad och finns som Word-fil ([20261116_utkast-4e.docx](../Analys/delprov1-vindkraftskalkyler/20261116_utkast-4e.docx)). Nästa utkast blir 4g.
+Aktuell arbetsversion är [utkast 4f](../Analys/delprov1-vindkraftskalkyler/utkast-4f.md), skapad 2026-11-16 som kopia av 4e. Utkast 4e är skrivskyddad och finns som Word-fil ([utkast-4e.docx](../Analys/delprov1-vindkraftskalkyler/utkast-4e.docx)). Nästa utkast blir 4g.
 
 Assistenten föreslår ett nytt utkast, och väntar på Kents ja, när något av följande inträffar. Äldre version bevaras alltid.
 - Kent har gjort stora ändringar i en annan modell eller i Word och för in dem.
