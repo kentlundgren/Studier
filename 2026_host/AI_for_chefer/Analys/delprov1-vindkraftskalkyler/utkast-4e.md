@@ -201,6 +201,8 @@ Artikel 4 i [AI-förordningen (EU) 2024/1689](https://eur-lex.europa.eu/legal-co
 
 ### Styrning
 
+Erfarenheterna från min AI-stödda kalkylutveckling kan ligga till grund för en enkel AI-policy. Den bör utgå från hur AI redan används, vilka möjligheter och risker jag har identifierat och vilka ramar som behövs för data, granskning och publicering. Om arbetssättet ska användas inom Skånes vindkraftsakademi behöver berörda roller såsom verksamhetsledaren och ordföranden i föreningen involveras och ansvar förankras. Artikel 4 i [AI-förordningen (EU) 2024/1689](https://eur-lex.europa.eu/legal-content/SV/TXT/?uri=CELEX:02024R1689-20260727) ger en koppling till behovet av AI-kunnighet anpassad till användningen och dem som berörs. Instruktionsfiler och skills kan omsätta policyn i arbetsrutiner, medan upptäckta fel och nya erfarenheter används för att pröva och förbättra både rutinerna och policyn.
+
 [KENT: finns policy, rutin, beslutsgång, dokumentation och uppföljning för AI-användningen i kalkylarbetet? Utgångspunkt: versionshistoriken i Git (se Metod och underlag) och de gemensamma arbetsreglerna som nämns i AI-deklarationen.]
 
 Kartläggningen tittar också på kultur och förändringsberedskap, till exempel om det finns mandat, stöd och engagemang från ledningen (Modlitba, 2025, s. 79). [KENT: hur ser det ut i akademin, eller i ditt eget arbete, när det gäller att använda generativ AI i kommunikationen?]
