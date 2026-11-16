@@ -110,6 +110,8 @@ En traditionell kalkyl med projektörsperspektiv kan ge en avgränsad bild av in
 
 Behovet av flera perspektiv hänger samman med de två fallen: i fall 1 gör perspektiven det möjligt att visa vem som påverkas av ett ändrat antagande, och i fall 2 att förklara vad reglerna betyder för olika aktörer.
 
+Aktörsperspektivet har sitt ursprung i min licentiatavhandling. Där utgick jag från aktörssynsättet (Arbnor & Bjerke, 1997): aktörers föreställningar om verkligheten är en del av den, och olika aktörer kan därför förstå samma sak olika (Lundgren, 1998, s. 26). Med typaktörer och tre logiker, affärsmässig produktionslogik, affärsmässig hållbarhetslogik och socio-ekonomisk hållbarhetslogik, beskrev jag hur aktörer i energisystemet bedömer konkurrenskraft på olika sätt (s. 77–99). Det finns en parallell till institutionella logiker (Thornton, Ocasio & Lounsbury, 2012) och till intressentteori, där [Mitchell, Agle & Wood (1997)](https://doi.org/10.5465/amr.1997.9711022105) skiljer parter efter makt, legitimitet och angelägenhet. För vindkraft används begreppet social acceptans, med lokal acceptans som en av tre dimensioner ([Wüstenhagen, Wolsink & Bürer, 2007](https://doi.org/10.1016/j.enpol.2006.12.001)). Kalkylens fem perspektiv kan läsas som en tillämpning: samma projekt ser olika ut för parter med olika logik. [KENT: pröva hypotesen att perspektiven motsvarar logikerna. Närboende saknar motsvarighet bland avhandlingens typaktörer. KONTROLLERA mot Arbnor & Bjerke (1997), Thornton et al. (2012) och de två artiklarna innan citering.]
+
 ### Bedöm mognad
 
 Mognadsgraden skiljer här mellan det som har gjorts och det som är en idé. Underlaget är hämtat ur utkast 4d.
@@ -249,6 +251,8 @@ Anthropic (2024) *Building effective AI agents*. Tillgänglig på: https://www.a
 
 Anthropic (2025) *Effective harnesses for long-running agents*. 26 november. Tillgänglig på: https://www.anthropic.com/research/effective-harnesses-for-long-running-agents (Hämtad: 11 november 2026). (*Beskriver hur programvara runt modellen stödjer arbetsläge, kontinuitet och kontroll vid längre agentuppgifter.*)
 
+Arbnor, I. & Bjerke, B. (1997) *Methodology for Creating Business Knowledge*. SAGE. (*Beskriver tre metodsynsätt, analytiskt, system och aktörer; aktörssynsättet är grunden i avhandlingen Lundgren (1998). Inte läst i original, uppgifterna bygger på bibliografiska poster.*) [KONTROLLERA: utgåva och sidor.]
+
 Europaparlamentet och Europeiska unionens råd (2024) *Förordning (EU) 2024/1689 om harmoniserade regler för artificiell intelligens (AI-förordningen).* Europeiska unionens officiella tidning, L 2024/1689. Tillgänglig på: https://data.europa.eu/eli/reg/2024/1689/oj (Hämtad: 11 november 2026). (*EU:s rättsakt som rapporten ska använda för den rättsliga analysen.*)
 
 Git (u.å.) *Git documentation*. Tillgänglig på: https://git-scm.com/docs/git (Hämtad: 11 november 2026). (*Officiell dokumentation som beskriver Git som ett distribuerat versionshanteringssystem.*)
@@ -273,6 +277,8 @@ Lundgren, K. (2026b) ‘Att göra vindkraftens ekonomi synlig’. *Controller, l
 
 Lundgren, K. (2026c) ‘Besked före beslut: att förbättra intäktsdelningen från vindkraft till närboende’. Blogginlägg, 11 november. Tillgänglig på: https://controllerutangranser.wordpress.com/2026/11/11/besked-fore-beslut-att-forbattra-intaktsdelningen-fran-vindkraft-till-narboende/ (*Författarens analys och förbättringsförslag, framtagen tillsammans med generativ AI. Används som fallmaterial, inte som primärkälla för gällande rätt eller belägg för observerade ersättningseffekter.*)
 
+Mitchell, R.K., Agle, B.R. & Wood, D.J. (1997) ‘Toward a theory of stakeholder identification and salience: Defining the principle of who and what really counts’, *Academy of Management Review*, 22(4), s. 853–886. https://doi.org/10.5465/amr.1997.9711022105. (*Ger ett sätt att avgöra vilka parter som räknas, utifrån makt, legitimitet och angelägenhet; används för att motivera kalkylens fem perspektiv. Inte läst i original, uppgifterna bygger på bibliografiska poster och sammanfattning.*) [KONTROLLERA mot originalet.]
+
 Modlitba, P. (2025) *Vad fan ska vi med AI till? Affärsutveckling & innovation med AI*. 1 uppl. Stockholm: Natur & Kultur. E-bok (Epub3), ISBN 9789127470422. Tillgänglig på: https://www.nok.se/titlar/laromedel-b2/vad-fan-ska-vi-med-ai-till/4fca71ea-b8d7-4940-871a-332c9dc68acf (Hämtad 2026-11-16). (*Kursbok; kapitel 2 beskriver en AI-resa som börjar med kartläggning av nuläget och val av ett första användningsområde, och används som ram för inventeringen. Populär facklitteratur, inte en forskningsöversikt.*)
 
 OECD (2024) *Explanatory memorandum on the updated OECD definition of an AI system*. OECD Artificial Intelligence Papers, nr 8. Paris: OECD Publishing. https://doi.org/10.1787/623da898-en. (*Ger en bred definition som placerar generativ AI inom ett större AI-område.*)
@@ -286,6 +292,10 @@ Skånes vindkraftsakademi (u.å.a) *Skånes vindkraftsakademi* [webbplats, start
 Skånes vindkraftsakademi (u.å.b) *Styrelsen & Kansli* [webbsida]. Tillgänglig på: https://skanesvindkraftsakademi.se/om-oss/styrelsen-kansli/ (Hämtad: 15 november 2026). (*Anger styrelsens sammansättning, där Kent Lundgren står som suppleant, och föreningens verksamhet.*)
 
 Skånes vindkraftsakademi (u.å.c) *Om oss* [webbsida]. Tillgänglig på: https://skanesvindkraftsakademi.se/om-oss/ (Hämtad: 16 november 2026). (*Föreningens egen beskrivning av syfte och verksamhet; belägger bildandeåret 2009 och de citerade formuleringarna om uppdraget.*)
+
+Thornton, P.H., Ocasio, W. & Lounsbury, M. (2012) *The Institutional Logics Perspective: A New Approach to Culture, Structure, and Process*. Oxford: Oxford University Press. (*Beskriver institutionella logiker, där bland annat community är en egen ordning; används för parallellen till avhandlingens socio-ekonomiska hållbarhetslogik. Inte läst i original, uppgifterna bygger på bibliografiska poster och en recension.*) [KONTROLLERA mot originalet.]
+
+Wüstenhagen, R., Wolsink, M. & Bürer, M.J. (2007) ‘Social acceptance of renewable energy innovation: An introduction to the concept’, *Energy Policy*, 35(5), s. 2683–2691. https://doi.org/10.1016/j.enpol.2006.12.001. (*Beskriver social acceptans som socio-politisk, lokal och marknadsmässig; används för att koppla närboendes perspektiv till vindkraft. Inte läst i original, uppgifterna bygger på bibliografiska poster och abstract.*) [KONTROLLERA mot originalet.]
 
 ## Punkter att gå igenom tillsammans
 

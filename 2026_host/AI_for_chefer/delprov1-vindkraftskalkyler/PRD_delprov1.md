@@ -180,3 +180,7 @@ Lärdomen är att även AI-granskarens analys behöver bedömas. Ett påpekande 
 ## Modlitba (2025) som ram och jämförelse – 16 november 2026
 
 Kapitel 2 i *Vad fan ska vi med AI till?* (s. 72–86, lästa i skärmbilder) beskriver en AI-resa där första steget är en kartläggning, som liknar en inventering. [Jämförelsen med mall version 2](../Analys/delprov1-vindkraftskalkyler/jamforelse-modlitba-och-inventeringsmall.md) visar att mallen och kartläggningen kompletterar varandra: mallen är starkare på ansvar och rättigheter, boken på infrastruktur, kultur, mognad och prioritering. I [utkast 4e](../Analys/delprov1-vindkraftskalkyler/utkast-4e.md) ligger resans fem delar som inledning i kapitel 2, kartläggningens fem områden som lins för inventeringen, en fyrfältare i *Nyttobedömning* och en sammanfattande tabell i kapitel 6. Rapporttexten nämner inte mallen.
+
+## Aktörsperspektivet och avhandlingen – 16 november 2026
+
+Kalkylens aktörsperspektiv knyts till licentiatavhandlingen (Lundgren, 1998): aktörssynsättet enligt Arbnor & Bjerke, de nio typaktörerna och de tre logikerna. Jämförelsen, de valda källorna och det som återstår att kontrollera står i [arbetsanteckningen om aktörsperspektivets referensram](../Analys/delprov1-vindkraftskalkyler/aktorsperspektiv-teoretisk-referensram.md). Ett kort stycke ligger i [utkast 4e](../Analys/delprov1-vindkraftskalkyler/utkast-4e.md) under *Behovet av aktörsperspektiv*. Källorna utom avhandlingen är inte lästa i original.
