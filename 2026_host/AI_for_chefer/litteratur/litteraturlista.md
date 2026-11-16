@@ -22,6 +22,7 @@
 | 2 | Floridi, L. (2023), *The Ethics of Artificial Intelligence* | Akademisk monografi | ca 272 s. | Engelska | [📖 Floridi i listan ↓](#ref-floridi-2023) · [Medvetandeanalys →](../Analys/litteratur/floridi_ai_medvetande.md#ref-floridi-2023) |
 | 3 | Modlitba, P. (2025), *Vad fan ska vi med AI till?* | Populär facklitteratur | 170 s. | Svenska | [📖 Fördjupning ↓](#ref-modlitba-2025) · [Fyra femmor →](../Analys/litteratur/modlitba_2025_analys.md#ref-modlitba-2025-analys) |
 | 4 | AI-kommissionen (2025), *AI-kommissionens färdplan för Sverige* (SOU 2025:12) | Statlig utredning | Omfattande | Svenska | [📖 Fem gemensamma linjer och fem debatter →](../Analys/litteratur/ai_kommissionens_fardplan_analys.md#ref-sou-2025-12) |
+| 5 | Regeringskansliet (2026), *Sveriges AI-strategi*, med bilagan *Handlingsplan för Sveriges AI-strategi* | Regeringens strategi | 24 s. + 12 s. | Svenska | [📖 Fyra femmor →](../Analys/litteratur/sveriges_ai_strategi_analys.md#ref-sveriges-ai-strategi) |
 
 
 **Så fungerar litteraturens läs-spår:** `📖 Läs vidare →` går från samlingslistan till en analys eller källans avsnitt; `↩ Till litteraturkartan` i varje analys leder tillbaka hit. Använd samma stabila käll-ID i båda riktningarna för all kurslitteratur, även nytillkomna titlar. Saknar en källa en egen analysfil länkar pilen till dess avsnitt här.
@@ -205,7 +206,7 @@ för grundläggande rättigheter.
 
 För kursen fungerar rapporten som en aktuell lägesbild av det svenska
 AI-ekosystemet och som referenspunkt när den egna organisationens AI-arbete
-ska sättas i ett nationellt sammanhang. Den är ett beslutsunderlag, inte bindande lag. Regeringen har sedan dess publicerat en nationell AI-strategi som uttryckligen anger SOU 2025:12 som ett av underlagen; [se regeringens strategi](https://www.regeringen.se/regeringens-politik/sveriges-ai-strategi). Skilj därför mellan kommissionens rekommendationer och senare beslut.
+ska sättas i ett nationellt sammanhang. Den är ett beslutsunderlag, inte bindande lag. Regeringen har sedan dess publicerat en nationell AI-strategi som uttryckligen anger SOU 2025:12 som ett av underlagen; [se post 5 om regeringens strategi](#ref-sveriges-ai-strategi). Skilj därför mellan kommissionens rekommendationer och senare beslut.
 
 **Fördjupning:** [Analys av samsyn, remissperspektiv och kopplingar till EU:s AI Act](../Analys/litteratur/ai_kommissionens_fardplan_analys.md#ref-sou-2025-12).
 
@@ -213,6 +214,45 @@ ska sättas i ett nationellt sammanhang. Den är ett beslutsunderlag, inte binda
 - Landningssida med sammanfattning och nedladdning (regeringen.se), verifierad 2026-09-04: <https://regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2025/02/sou-202512/>
 - Riksdagens dokumentsida: <https://www.riksdagen.se/sv/dokument-och-lagar/dokument/statens-offentliga-utredningar/ai-kommissionens-fardplan-for-sverige_hdb312/>
 - Rapporten skickades på remiss under 2025; remissyttranden kan vara användliga som kritiska motröster.
+
+↩ [Till litteraturkartan](litteraturlista.md#samlad-litteratur)
+
+---
+
+<a id="ref-sveriges-ai-strategi"></a>
+
+## 5. Sveriges AI-strategi (regeringen, 2026)
+
+[Regeringskansliet (2026a)](https://www.regeringen.se/informationsmaterial/2026/02/sveriges-ai-strategi/),
+*Sveriges AI-strategi*, är regeringens långsiktiga inriktning för arbetet med AI.
+Den är informationsmaterial från Finansdepartementet, publicerad 20 februari 2026
+och uppdaterad 26 februari 2026, och är inte en lag eller en proposition. Strategin
+bygger på AI-kommissionens färdplan (SOU 2025:12) och digitaliseringsstrategin
+2025–2030 och ersätter den nationella inriktningen från 2018.
+
+**Hela dokumenten:** [strategin som PDF (24 s.)](https://www.regeringen.se/contentassets/541f2d592901483e858972fb7959d9f2/sveriges-ai-strategi.pdf) · [handlingsplanen som PDF (12 s.)](https://www.regeringen.se/contentassets/541f2d592901483e858972fb7959d9f2/handlingsplan-for-sveriges-ai-strategi.pdf) · [handlingsplanen som webbsida](https://www.regeringen.se/regeringens-politik/sveriges-ai-strategi/handlingsplan-for-sveriges-ai-strategi/).
+
+*Ingår inte i HKR:s publicerade litteraturlista, men är namngiven i bedömningsområdet om EU AI Act och Sveriges AI-strategi. Läggs därför till som egen post (Kent, 2026-11-16).*
+
+Strategin sätter målet att Sverige ska vara bland de tio främsta AI-nationerna och
+att AI ska ge samhällsnytta, hållbar utveckling, konkurrenskraft och innovation.
+Den är uppdelad i tre huvuddelar: AI för samhällsnytta (regler, data, standardisering,
+säkerhet och offentlig sektor), hållbar utveckling (människan i centrum, språkmodeller,
+klimat och energi, kompetens) samt AI för konkurrenskraft och innovation (ekosystem,
+infrastruktur, forskning). Genomförandet sker genom myndighetsuppdrag,
+författningsändringar, samverkansforum och budgetsatsningar, med årlig uppföljning.
+Handlingsplanen är bilagan som redovisar beslutade och planerade åtgärder.
+
+Skilj mellan strategin, som anger riktning, och bindande regler som AI-förordningen
+(EU) 2024/1689. Strategin vill ha enkla och förutsägbara regler och driver på för
+förenkling i EU.
+
+**Fördjupning:** [Analys: samsyn, omstridda frågor, luckor och kopplingar](../Analys/litteratur/sveriges_ai_strategi_analys.md#ref-sveriges-ai-strategi).
+
+**Länkar och noteringar**
+- Pressmeddelande: <https://www.regeringen.se/pressmeddelanden/2026/02/sveriges-forsta-heltackande-ai-strategi-ska-ge-en-topp-tio-placering/>
+- Engelsk version: <https://www.government.se/information-material/2026/02/swedens-ai-strategy/>
+- Adresserna till strategin, handlingsplanen och pressmeddelandet svarade 2026-11-16.
 
 ↩ [Till litteraturkartan](litteraturlista.md#samlad-litteratur)
 
@@ -250,7 +290,9 @@ Luciano Floridi Agent (u.å.) *Luciano Floridi Agent*. Tillgänglig på: https:/
 
 Modlitba, P. (2025) *Vad fan ska vi med AI till? Affärsutveckling & innovation med AI*. 1 uppl. Stockholm: Natur & Kultur. Utkom 20 augusti 2025 (häftad) och 10 september 2025 (e-bok, [förlagets sida](https://www.nok.se/titlar/laromedel-b2/vad-fan-ska-vi-med-ai-till/4fca71ea-b8d7-4940-871a-332c9dc68acf)). ISBN 9789127470415 (häftad), 9789127470422 (e-bok). Förlagsinformation: https://www.nok.se/titlar/laromedel-b2/vad-fan-ska-vi-med-ai-till/4fca71ea-b8d7-4940-871a-332c9dc68acf (Hämtad 2026-09-04; utgivningsdatum hämtat 2026-11-16). *(Kurslitteratur i AI101A; den praktiskt inriktade titeln som stödjer kursens projektmoment om att ta fram en AI-handlingsplan för den egna verksamheten.)*
 
-Regeringen (2026) *Handlingsplan för Sveriges AI-strategi*. Stockholm: Regeringskansliet. Publicerad 2026-02-20. PDF: <https://www.regeringen.se/contentassets/541f2d592901483e858972fb7959d9f2/handlingsplan-for-sveriges-ai-strategi.pdf>. Landningssida: <https://www.regeringen.se/regeringens-politik/sveriges-ai-strategi/handlingsplan-for-sveriges-ai-strategi/> (Hämtad 2026-11-15). *(Kompletterande källa till regeringens AI-strategi: redovisar beslutade och planerade åtgärder som konkretiserar strategin, där merparten beslutades under 2025 och stora delar svarar mot AI-kommissionens förslag i SOU 2025:12. Visar vilka av färdplanens förslag som blivit beslut, och är därmed ett komplement till AI-kommissionen (2025).)*
+Regeringskansliet (2026a) *Sveriges AI-strategi*. Informationsmaterial, Finansdepartementet. Publicerad 2026-02-20, uppdaterad 2026-02-26. Tillgänglig på: https://www.regeringen.se/informationsmaterial/2026/02/sveriges-ai-strategi/. PDF: https://www.regeringen.se/contentassets/541f2d592901483e858972fb7959d9f2/sveriges-ai-strategi.pdf (Hämtad 2026-11-16). *(Regeringens strategi för AI; bygger på AI-kommissionens färdplan (SOU 2025:12) och används för bedömningsområdet om Sveriges AI-strategi. Läst i full text, 24 sidor. Ingår inte i HKR:s litteraturlista.)*
+
+Regeringskansliet (2026b) *Handlingsplan för Sveriges AI-strategi*. Stockholm: Regeringskansliet. Publicerad 2026-02-20. PDF: <https://www.regeringen.se/contentassets/541f2d592901483e858972fb7959d9f2/handlingsplan-for-sveriges-ai-strategi.pdf>. Landningssida: <https://www.regeringen.se/regeringens-politik/sveriges-ai-strategi/handlingsplan-for-sveriges-ai-strategi/> (Hämtad 2026-11-15). *(Kompletterande källa till regeringens AI-strategi: redovisar beslutade och planerade åtgärder som konkretiserar strategin, där merparten beslutades under 2025 och stora delar svarar mot AI-kommissionens förslag i SOU 2025:12. Visar vilka av färdplanens förslag som blivit beslut, och är därmed ett komplement till AI-kommissionen (2025).)*
 
 Wikipedia-bidragsgivare (u.å.) *Luciano Floridi*. Svenska Wikipedia. Tillgänglig på: https://sv.wikipedia.org/wiki/Luciano_Floridi (Hämtad 2026-11-09). *(Översiktlig biografisk orientering om Floridi och informationsfilosofi; artikeln är sekundär, senast uppdaterad 2020 och flaggad för förtydligande.)*
 

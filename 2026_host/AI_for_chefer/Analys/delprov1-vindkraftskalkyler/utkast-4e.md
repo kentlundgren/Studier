@@ -255,6 +255,8 @@ Med McKinseys indelning tolkar jag mitt arbetssätt som en kombination av taker 
 
 För min nyttobedömning innebär det att även tiden för att utveckla, testa och underhålla arbetssättet behöver räknas med. Återanvändbara instruktioner kan vara en investering, men deras värde behöver bedömas utifrån om de faktiskt minskar omarbete eller förbättrar kvaliteten. I kalkylutvecklingen blir det därför relevant att följa både AI:s bidrag och den mänskliga insats som behövs för att resultaten ska kunna användas.
 
+Jag kan använda strategisk framsyn genom att följa utvecklingen inom AI, energipriser och regelverk samt pröva olika framtidsscenarier i vindkraftskalkylerna. Det hjälper mig att identifiera behov av förändringar i verktyg och arbetssätt i tid och förstå konsekvenserna för olika berörda aktörer.
+
 Min ledarskapsreflektion ska beskriva hur jag skulle omsätta analysen i praktiken: vem som får föreslå förändringar, vem som kontrollerar dem, hur antaganden dokumenteras och när en uppdatering är tillräckligt säker för att användas. [KENT: skriv din egen reflektion och ange vad du själv skulle prioritera som chef eller ledare.]
 
 ## Referenser
@@ -297,7 +299,7 @@ Modlitba, P. (2025) *Vad fan ska vi med AI till? Affärsutveckling & innovation 
 
 OECD (2024) *Explanatory memorandum on the updated OECD definition of an AI system*. OECD Artificial Intelligence Papers, nr 8. Paris: OECD Publishing. https://doi.org/10.1787/623da898-en. (*Ger en bred definition som placerar generativ AI inom ett större AI-område.*)
 
-Regeringskansliet (2026) *Sveriges AI-strategi.* Publicerad 20 februari 2026, uppdaterad 26 februari 2026. Tillgänglig på: https://www.regeringen.se/informationsmaterial/2026/02/sveriges-ai-strategi/ (Hämtad: 11 november 2026). (*Regeringens strategiska inriktning som kan kopplas till rapportens verksamhets- och ledarskapsanalys.*)
+Regeringskansliet (2026) *Sveriges AI-strategi.* Publicerad 20 februari 2026, uppdaterad 26 februari 2026. Tillgänglig på: https://www.regeringen.se/informationsmaterial/2026/02/sveriges-ai-strategi/ (Hämtad: 16 november 2026). (*Regeringens strategiska inriktning för AI, läst i full text tillsammans med bilagan Handlingsplan för Sveriges AI-strategi. Anger riktning och inte bindande regler; används för att sätta kalkylarbetet i ett nationellt sammanhang.*)
 
 SFS 2026:1113. *Lag om intäktsdelning från vindkraftsanläggningar.* Tillgänglig på: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-20261113-om-intaktsdelning-fran_sfs-2026-1113/ (Hämtad: 11 november 2026). (*Primärkälla för rapportens konkreta exempel om intäktsdelning till närboende.*)
 
