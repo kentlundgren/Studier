@@ -176,3 +176,7 @@ Lärdomen är att även AI-granskarens analys behöver bedömas. Ett påpekande 
 **Öppet.** Vilka 4–5 punkter ur den extra texten Kent vill lyfta fram i sin egen process är inte bestämt. Det beslutar Kent när fas 4 når innehållet i kapitel 4–6; se öppen fråga 6 ovan.
 
 **Erfarenhet att bära vidare.** När kursledningen ger flera strukturer, fråga vilken som styr innan mallen byggs om. Här var svaret att titelindelningen styr och den extra texten är inspiration. Det sparade en tredje mall.
+
+## Modlitba (2025) som ram och jämförelse – 16 november 2026
+
+Kapitel 2 i *Vad fan ska vi med AI till?* (s. 72–86, lästa i skärmbilder) beskriver en AI-resa där första steget är en kartläggning, som liknar en inventering. [Jämförelsen med mall version 2](../Analys/delprov1-vindkraftskalkyler/jamforelse-modlitba-och-inventeringsmall.md) visar att mallen och kartläggningen kompletterar varandra: mallen är starkare på ansvar och rättigheter, boken på infrastruktur, kultur, mognad och prioritering. I [utkast 4e](../Analys/delprov1-vindkraftskalkyler/utkast-4e.md) ligger resans fem delar som inledning i kapitel 2, kartläggningens fem områden som lins för inventeringen, en fyrfältare i *Nyttobedömning* och en sammanfattande tabell i kapitel 6. Rapporttexten nämner inte mallen.

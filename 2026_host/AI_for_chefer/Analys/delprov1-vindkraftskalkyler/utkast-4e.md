@@ -62,7 +62,7 @@ Avgränsningen gäller utvecklingsprocessen och kalkylens två användningar: ge
 
 Analysen bygger på jämförelser mellan kalkylens olika versioner, tidigare arbetsmaterial och min erfarenhet av att utveckla ekonomiska kalkyler. Utvecklingen från äldre webbkalkyler till en interaktiv modell med flera aktörsperspektiv beskrivs också i mitt blogginlägg om att göra vindkraftens ekonomi synlig ([Lundgren, 2026b](https://controllerutangranser.wordpress.com/2026/07/13/att-gora-vindkraftens-ekonomi-synlig/)). Som jämförelsematerial använder jag den äldre webbkalkylen ([Lundgren, 2024](https://kentlundgren.se/kalkyler/vindkraftskalkyl_old.html)) och en senare kalkylversion ([Lundgren, 2025](https://kentlundgren.se/kalkyler/vindkraftskalkyl.html)). Den nuvarande versionen, *Vindkraftens ekonomi – fem perspektiv*, beskrivs under Beskriv din verksamhet kort ([Lundgren, 2026a](https://kentlundgren.github.io/Vindkraft/vindkraftskalkyl/vindkraftskalkyl.html)).
 
-För inventeringens upplägg stöder jag mig på [Modlitba (2025)](https://www.nok.se/titlar/laromedel-b2/vad-fan-ska-vi-med-ai-till/4fca71ea-b8d7-4940-871a-332c9dc68acf), kapitel 2. Där börjar en AI-resa med en kartläggning av nuläget, innan strategier formuleras, pilotprojekt startas eller investeringar görs (s. 75). Kartläggningen går igenom fem områden: nuvarande AI-användningar, AI-kompetens och resurser, data och infrastruktur, affärsmål och strategisk inriktning samt organisatorisk kultur och AI-mognad (s. 76–79). Jag använder områdena som en lins för inventeringen och hänvisar till dem där de bidrar. Boken är populär facklitteratur, så den ger en praktisk ram men inget vetenskapligt belägg.
+För inventeringens upplägg stöder jag mig på [Modlitba (2025)](https://www.nok.se/titlar/laromedel-b2/vad-fan-ska-vi-med-ai-till/4fca71ea-b8d7-4940-871a-332c9dc68acf), kapitel 2, som presenteras i inledningen till kapitel 2. Boken är populär facklitteratur, så den ger en praktisk ram men inget vetenskapligt belägg.
 
 Git är ett versionshanteringssystem: det sparar ändringar som versioner i projektets historik, så att utvecklingen kan följas och olika versioner jämföras ([Git, u.å.](https://git-scm.com/docs/git)). GitHub är plattformen där repot kan lagras och göras tillgängligt för granskning. Där visas Markdown-filer i läsbar form, och en README kan beskriva projektets syfte, användning och innehåll ([GitHub, u.å.a](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)). När ett projekt dessutom publiceras som en webbplats med GitHub Pages kan den interaktiva kalkylen användas i webbläsaren ([GitHub, u.å.b](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)). När jag under 2026 började använda AI-modeller i ett Git-baserat arbetsflöde blev det lättare att hantera många versioner. I mitt [Vindkraftsrepo på GitHub](https://github.com/kentlundgren/Vindkraft) kan läsaren följa dokumentation, kod och publicerade kalkylversioner. Det gör underlaget mer granskningsbart, men insyn i koden garanterar inte att antaganden eller beräkningar är korrekta; de behöver fortfarande kontrolleras.
 
@@ -75,6 +75,8 @@ I arbetet med rapporten använder jag generativ AI genom ChatGPT och AI-stöd i 
 Jag arbetar också på en metanivå: jag reflekterar över hur instruktioner, mallar, källkontroll och samspelet mellan mig och AI påverkar resultatet. Erfarenheterna dokumenteras i projektets arbetsbeskrivning och gemensamma arbetsregler för att förbättra kommande arbetsprocesser. Syftet är att utveckla både rapporten och min förmåga att använda generativ AI med omdöme. Denna deklaration gäller rapportarbetet; AI:s bidrag till själva vindkraftskalkylerna redovisas separat i inventeringen.
 
 ## 2. Kartläggning av AI-användning
+
+Modlitba (2025, s. 73–75) beskriver en AI-transformation som en strukturerad och långsiktig förändringsprocess där organisationen steg för steg integrerar AI, och som inte bara handlar om att införa verktyg utan om att förändra sättet att arbeta. Resan innehåller bland annat fem delar: strategisk anpassning, kompetensutveckling, datahantering, processanpassning samt etiska och juridiska överväganden. Första steget är en kartläggning av nuläget, innan strategier formuleras eller pilotprojekt startas (s. 75). Den går igenom fem områden: nuvarande AI-användningar, AI-kompetens och resurser, data och infrastruktur, affärsmål och strategisk inriktning samt organisatorisk kultur och AI-mognad (s. 76–79). Jag använder dessa fem områden som lins för inventeringen av min verksamhet. Hur de täcks sammanfattas i kapitel 6.
 
 ### Lista användningar
 
@@ -134,7 +136,17 @@ Att material är tillgängligt på webben innebär inte automatiskt att läsaren
 
 Den möjliga nyttan är att fler antaganden och ekonomiska konsekvenser kan bli synliga i ett gemensamt beslutsunderlag. För att bedöma nyttan behöver jag jämföra vad användaren kunde förstå eller göra med den äldre kalkylen med vad den nyare modellen tillför. [KENT: ge ett konkret exempel på en fråga som den bredare modellen kan besvara bättre – och vad den inte kan besvara.]
 
-Modlitba (2025, s. 83–86) rekommenderar att börja där teknisk genomförbarhet möter verklig verksamhetsnytta, med en modell som hon tillskriver Andrew Ng. Idéerna bedöms sedan tekniskt (kan AI utföra uppgiften, finns data, vilka resurser krävs) och affärsmässigt (effektivisering eller lägre kostnader, ökade intäkter, förbättrade eller nya tjänster), och sorteras i en fyrfältare efter effekt och ansträngning. Hög effekt och låg ansträngning är den mest lockande kombinationen, medan hög effekt och hög ansträngning ofta behöver brytas ner i mindre etapper. [KENT: placera fall 1 och 2 i fyrfältaren och ange vad som motsvarar "affärsnytta" i din verksamhet, där nyttan inte främst är intäkter. Förslag att pröva: fall 1 hög effekt och låg ansträngning, eftersom arbetet redan pågår; fall 2 hög effekt och hög ansträngning, eftersom det kräver källor och granskning.]
+Modlitba (2025, s. 83–86) rekommenderar att börja där teknisk genomförbarhet möter verklig verksamhetsnytta, med en modell som hon tillskriver Andrew Ng. Idéerna bedöms sedan tekniskt (kan AI utföra uppgiften, finns data, vilka resurser krävs) och affärsmässigt (effektivisering eller lägre kostnader, ökade intäkter, förbättrade eller nya tjänster), och sorteras i en fyrfältare efter effekt och ansträngning. Hög effekt och låg ansträngning är den mest lockande kombinationen, medan hög effekt och hög ansträngning ofta behöver brytas ner i mindre etapper. Jag läser effekt som hur mycket en del ökar berörda parters förståelse och möjlighet att granska, och ansträngning som tid, kunskap, granskning och risk. Delarna i mognadstabellen i kapitel 2 placeras så:
+
+| Del | Effekt | Ansträngning | Ruta |
+|---|---|---|---|
+| 1a. Kalkylutveckling med generativ AI | Hög för mitt eget arbete. För andra oklar: kalkylen är offentlig, men jag vet inte om någon annan har använt den | Låg, eftersom verktygen finns | **Ja** |
+| 1b. AI-lager med förklaringar för olika användare | Potentiellt hög | Hög: kvalitetskontroll, kostnad och risk att AI ändrar siffror | **Kanske** (hög effekt, hög ansträngning): dela upp i etapper |
+| 2a. Regelanalys och bloggtext | Medel till hög, eftersom nya regler behöver förklaras | Låg till medel, eftersom arbetet redan är gjort | **Ja** |
+| 2b. Källanknuten frågeguide | Hög om närboende och projektörer använder den | Hög: källor, granskning och uppdatering | **Kanske** (hög effekt, hög ansträngning): dela upp i etapper |
+| 2c. Återkommande eller automatiserad tjänst | Oklar | Mycket hög, med rättsliga risker | **Nej**, tills vidare |
+
+[KENT: bekräfta eller ändra rutorna. 2a kan också bli Kanske (låg effekt, låg ansträngning). Ange också vad som motsvarar "affärsnytta" i din verksamhet, där nyttan inte främst är intäkter.]
 
 Jag behöver också bedöma processens strategiska betydelse och prioritera AI-initiativ utifrån verksamhetsmål, nytta, risk och genomförbarhet. [KENT: ange vilket mål eller vilket beslut kalkylen ska stödja och varför det är prioriterat.]
 
@@ -161,6 +173,8 @@ Rapporten ska behandla EU:s AI-förordning (förordning (EU) 2024/1689) och Sver
 
 Om kalkylen någon gång använder uppgifter om identifierbara fastigheter eller personer behöver även dataskyddsfrågan bedömas. [KENT: ange vilka data som faktiskt används i den aktuella kalkylen, till exempel om personuppgifter, känsliga uppgifter eller konfidentiell information förekommer.]
 
+Kartläggningen frågar också efter datakvalitet, plattformar och integration (Modlitba, 2025, s. 78). I mitt fall är infrastrukturen enkel: kalkylen publiceras som en webbsida via GitHub Pages och versionshanteras i Git (se Metod och underlag). [KENT: bekräfta, och ange hur kalkylens indata och källdatum kvalitetssäkras.]
+
 ### Mänsklig kontroll
 
 En central kontrollfråga är vem som granskar AI-genererade formler, kod och förklaringar. [KENT: beskriv din faktiska granskningsrutin, till exempel jämförelse med manuella beräkningar, testfall, källkontroll eller kodgranskning.] AI-stöd kan bidra till arbetet, men ansvaret för kalkylens användning, antaganden och publicerade resultat behöver vara tydligt placerat. [KENT: ange vem som i praktiken förvaltar kalkyl och källor.]
@@ -177,11 +191,13 @@ Den samlade avvägningen bör visa vilken nytta den bredare modellen ger, vilka 
 
 Fallet väcker frågor om vilken kompetens som krävs för att använda generativ AI i kalkylutveckling. Den som leder arbetet behöver kunna bedöma både verksamhetsbehovet och hur beräkningar, antaganden och AI-bidrag ska granskas. [KENT: knyt detta till din erfarenhet av ekonomistyrning och ange vilka roller som behöver förstå AI-systemets möjligheter, begränsningar, risker och ansvar.]
 
-Modlitba (2025, s. 77 och 82–83) menar att kompetensen behöver kartläggas både hos enskilda och i organisationen, att ledningsgrupp och styrelse bör få relevant kunskap och att alla som ansvarar för strategi, innovation och affärsutveckling bör få en grundutbildning. AI-kompetensen behöver inte bara finnas hos tekniska specialister.
+Modlitba (2025, s. 77 och 82–83) menar att kompetensen behöver kartläggas både hos enskilda och i organisationen, att ledningsgrupp och styrelse bör få relevant kunskap och att alla som ansvarar för strategi, innovation och affärsutveckling bör få en grundutbildning. AI-kompetensen behöver inte bara finnas hos tekniska specialister. Kartläggningen omfattar också externa partners och leverantörer (s. 77–78). [KENT: vilka partners finns för kalkylarbetet, till exempel akademins medlemmar?]
 
 ### Styrning
 
 [KENT: finns policy, rutin, beslutsgång, dokumentation och uppföljning för AI-användningen i kalkylarbetet? Utgångspunkt: versionshistoriken i Git (se Metod och underlag) och de gemensamma arbetsreglerna som nämns i AI-deklarationen.]
+
+Kartläggningen tittar också på kultur och förändringsberedskap, till exempel om det finns mandat, stöd och engagemang från ledningen (Modlitba, 2025, s. 79). [KENT: hur ser det ut i akademin, eller i ditt eget arbete, när det gäller att använda generativ AI i kommunikationen?]
 
 ### Ledningsfråga
 
@@ -198,6 +214,16 @@ Kapitlet är en kort avslutning och en försmak. Den fullständiga handlingsplan
 ### Slutsats
 
 [KENT: Besvara rapportens syfte. Sammanfatta vad AI har bidragit med eller skulle kunna bidra med, skilj observerad från förväntad nytta, vilka risker som kräver kontroll och vad du rekommenderar som nästa steg. Slutsatsen ska uttrycka din bedömning, inte enbart återge tidigare avsnitt.]
+
+Tabellen sammanfattar hur kartläggningens fem områden (Modlitba, 2025, s. 76–79) täcks av inventeringen.
+
+| Område | Vad inventeringen visar i min verksamhet | Var i rapporten | Återstår |
+|---|---|---|---|
+| 1. Nuvarande AI-användningar | Två fall med generativ AI: kalkylutveckling och regelanalys. AI-lager, frågeguide och tjänst är idéer | Kapitel 2 och 3 | [KENT: finns fler användningar, även informella?] |
+| 2. AI-kompetens och resurser | [KENT: vilka kan granska kalkyler och förklaringar, och vilken kompetens saknas?] | Kapitel 5, AI-kompetens | [KENT] |
+| 3. Data och infrastruktur | Kalkylen är en offentlig webbsida via GitHub Pages med versionshistorik i Git | Kapitel 1 (Metod och underlag) och 4 | [KENT: hur kvalitetssäkras indata och källdatum?] |
+| 4. Affärsmål och strategisk inriktning | Transparenta kalkyler som visar flera parters ekonomi, i linje med akademins syfte. Prioritering enligt fyrfältaren | Kapitel 1, 3 och 6 | [KENT: bekräfta målet] |
+| 5. Organisatorisk kultur och AI-mognad | [KENT: placera verksamheten på mognadstrappan] | Kapitel 2 (Bedöm mognad) och 5 (Styrning) | [KENT] |
 
 ### Prioriterad handlingsplan i korthet
 
