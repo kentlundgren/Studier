@@ -22,7 +22,7 @@
 
 ## 1. Förberedelse: Verksamhet och Ansvar
 
-**Fråga att besvara:** Hur kan en kalkyl, med stöd av generativ AI, synliggöra beräkningsgrunder, antaganden och konsekvenser för flera parter när reglerna är nya och olika parter har olika informationsbehov? [KENT: bekräfta eller justera formuleringen. Kapitlets övergripande fråga är vilket ledningsproblem eller vilken verksamhetsnytta inventeringen ska bidra till.]
+**Syfte med texten - Fråga att besvara:** Hur kan en kalkyl för vindkraft eller vindkraftspark, med stöd av generativ AI, synliggöra beräkningsgrunder, antaganden och konsekvenser för flera parter när reglerna är nya och olika parter har olika informationsbehov? Hur kan en kalkyl synliggöra flera parters, aktörers, ekonomiska intresse och utbyte.
 
 ### Beskriv din verksamhet kort
 
