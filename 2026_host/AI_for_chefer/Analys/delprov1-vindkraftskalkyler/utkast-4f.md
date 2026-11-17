@@ -22,7 +22,9 @@
 
 ## 1. Förberedelse: Verksamhet och Ansvar
 
-**Syfte med texten - Fråga att besvara:** Hur kan en kalkyl för vindkraft eller vindkraftspark, med stöd av generativ AI, synliggöra beräkningsgrunder, antaganden och konsekvenser för flera parter när reglerna är nya och olika parter har olika informationsbehov? Hur kan en kalkyl synliggöra flera parters, aktörers, ekonomiska intresse och utbyte.
+Frågor om vindkraftens ekonomi kommer till föreningen från medlemmar, intressenter och närboende. Med de nya reglerna om intäktsdelning (intäktsdelningslagen, 2026:1113) kan vem som helst bli berörd av ersättning till närboende. När någon frågar ska vilken styrelseledamot som helst kunna svara med en kalkyl som är så tydlig och transparent att den går att förklara och granska. Jag är den i styrelsen som är ekonomiskt utbildad och driver den här inventeringen. Den är en förelöpare: ett exempel på hur generativ AI kan användas i föreningen, till nytta för styrelsen och verksamhetsledaren.
+
+**Syfte och fråga att besvara:** Syftet är att inventera hur generativ AI kan hjälpa föreningen att ta fram och förklara kalkyler för vindkraftens ekonomi, särskilt ersättning till närboende, och att bedöma nytta, risker och ansvar. Frågan är: hur kan generativ AI bidra till kalkyler som vilken styrelseledamot som helst kan använda och förklara, och vilka risker och vilket ansvar följer med?
 
 ### Beskriv din verksamhet kort
 
@@ -173,7 +175,7 @@ Modlitba (2025, s. 79) nämner bristande insyn i hur AI-system fattar beslut, ha
 
 AI-förordningen (förordning (EU) 2024/1689; [Europaparlamentet och Europeiska unionens råd, 2024](https://data.europa.eu/eli/reg/2024/1689/oj)) är den bindande ramen. Den delar in AI-användning efter risk, och kraven beror på hur systemet används. Bilaga III räknar upp högriskanvändningarna, till exempel rekrytering, bedömning av studenters resultat och prövning av rätten till offentliga förmåner. Kalkylerna i fall 1 och 2 finns inte bland dem: de visar hur antaganden och regler påverkar olika aktörers ekonomi och fattar inga beslut om enskilda personer. Jag bedömer därför att de inte är högrisk.
 
-Artikel 50.4 gäller transparens ([Europaparlamentet och Europeiska unionens råd, 2024](https://data.europa.eu/eli/reg/2024/1689/oj)): AI-genererad text som publiceras för att informera allmänheten i frågor av allmänintresse ska märkas, om inte en person har granskat texten och har redaktionellt ansvar för den. Kalkylens förklaringar kan vara sådan text. Därför ska de granskas av en kalkylkunnig person eller ekonom och en jurist innan de publiceras, och kalkylen ska visa att AI har använts i arbetet.
+Artikel 50.4 gäller transparens ([Europaparlamentet och Europeiska unionens råd, 2024](https://data.europa.eu/eli/reg/2024/1689/oj)): AI-genererad text som publiceras för att informera allmänheten i frågor av allmänintresse ska märkas, om inte en person har granskat texten och har redaktionellt ansvar för den. Kalkylens förklaringar kan vara sådan text. Därför ska de granskas av en kalkylkunnig person eller ekonom och en jurist innan de publiceras, och kalkylen ska visa vem som har granskat och vem som ansvarar. Då krävs ingen märkning enligt artikel 50.4, och om föreningen ändå vill märka kalkylen som framtagen med AI är en fråga för föreningen.
 
 Kalkylen är ett underlag och inte ett beslut. Min bedömning är att de som använder den, till exempel närboende och investerare, gör det på eget ansvar, men att kalkylen ska ge dem möjlighet att pröva själva. I fall 1 ska antagandena och deras effekt synas, och i fall 2 ska gällande regel skiljas från antagande och förslag, med källornas datum. En tanke för framtiden är en dialog vid kalkylen, där nya användare kan se vad andra tycker och frågar om.
 
