@@ -14,7 +14,13 @@
 
 ## Sammanfattning
 
-[KENT: Skriv detta sist. Högst 250 ord på svenska: verksamheten (kommunikation om vindkraftens ekonomi), syftet, processen, minst två befintliga eller möjliga AI-användningar och deras mognadsgrad, den viktigaste nyttan och risken samt rekommendationen.]
+Rapporten inventerar hur generativ AI kan hjälpa Skånes vindkraftsakademi, en ideell förening, att ta fram och förklara kalkyler för vindkraftens ekonomi. Den nya lagen om intäktsdelning från vindkraftsanläggningar (2026:1113) kan ge många närboende ersättning, och frågorna kommer till föreningen. Frågan är hur AI kan bidra till kalkyler som vilken styrelseledamot som helst kan använda och förklara, och vilka risker och vilket ansvar som följer. Inventeringen följer Modlitbas kartläggning av nuläget och går igenom en process på djupet.
+
+Två användningar granskas. Den första är kalkylscenarier för projektören: AI hjälper till att utveckla kod och förklaringar i en lönsamhetskalkyl för vindkraft, och sådana kalkyler har redan utvecklats på det sättet. Ett AI-lager med förklaringar för olika användare är en idé. Den andra är att analysera och förklara juridiska regler och olika aktörers perspektiv. En bloggtext om intäktsdelning har tagits fram tillsammans med generativ AI, och en källanknuten frågeguide är en idé. Jag placerar arbetet på trappsteget utforskare, på väg mot utövare.
+
+Nyttan är att fler antaganden och konsekvenser blir synliga i ett gemensamt underlag. Risken är att AI ändrar eller hittar på siffror, eller att en tolkning presenteras som gällande regel. Jag bedömer att kalkylerna inte är högrisk enligt AI-förordningen. Skyddet byggs in genom att beräkningarna ligger i en kontrollerbar kalkyl och att förklaringarna granskas av en kalkylkunnig person eller ekonom och av en jurist.
+
+Jag rekommenderar att dokumentera vad AI bidrog med i varje kalkylversion och att införa en enkel kontrollista för formler, antaganden och källor.
 
 ## Ämnesord
 
