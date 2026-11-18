@@ -82,7 +82,7 @@ Jag arbetar också på en metanivå: jag reflekterar över hur instruktioner, ma
 
 ## 2. Kartläggning av AI-användning
 
-Modlitba (2025, s. 73–75) beskriver en AI-transformation som en strukturerad och långsiktig förändringsprocess där organisationen steg för steg integrerar AI, och som inte bara handlar om att införa verktyg utan om att förändra sättet att arbeta. Resan innehåller bland annat fem delar: strategisk anpassning, kompetensutveckling, datahantering, processanpassning samt etiska och juridiska överväganden. Första steget är en kartläggning av nuläget, innan strategier formuleras eller pilotprojekt startas (s. 75). Den går igenom fem områden: nuvarande AI-användningar, AI-kompetens och resurser, data och infrastruktur, affärsmål och strategisk inriktning samt organisatorisk kultur och AI-mognad (s. 76–79). Jag använder dessa fem områden som lins för inventeringen av min verksamhet. Hur de täcks sammanfattas i kapitel 6.
+Modlitba (2025, s. 73–75) beskriver en AI-transformation som en strukturerad och långsiktig förändringsprocess där organisationen steg för steg integrerar AI, och som inte bara handlar om att införa verktyg utan om att förändra sättet att arbeta. Resan innehåller bland annat fem delar: strategisk anpassning, kompetensutveckling, datahantering, processanpassning samt etiska och juridiska överväganden. Första steget är en kartläggning av nuläget, innan strategier formuleras eller pilotprojekt startas (s. 75). Modlitba går igenom fem områden: nuvarande AI-användningar, AI-kompetens och resurser, data och infrastruktur, affärsmål och strategisk inriktning samt organisatorisk kultur och AI-mognad (s. 76–79). Jag använder dessa fem områden som lins för inventeringen av min verksamhet. Hur de täcks sammanfattas i kapitel 6.
 
 ### Lista användningar
 
@@ -91,11 +91,11 @@ De två perspektiven – projektörens kalkyl och kalkylen med flera aktörer �
 Inventeringen avgränsas här till två fall:
 
 1. **Att utveckla och förklara kalkylscenarier.**
-2. **Att analysera och förklara regler och aktörsperspektiv.**
+2. **Att analysera och förklara juridiska regler och olika aktörers perspettiv, genom ett anlägga ett så kallat: aktörsperspektiv.**
 
-Den gemensamma frågan är hur jag, tillsammans med generativ AI, kan göra vindkraftens ekonomiska konsekvenser och deras förutsättningar mer begripliga och granskningsbara för olika aktörer.
+Den gemensamma frågan är hur vi [ska jag inte här lämpligen tala utifrån Skåne vindkraftsakademis [https://skanesvindkraftsakademi.se/](https://skanesvindkraftsakademi.se/) perspektiv ?!], tillsammans med generativ AI, kan göra vindkraftens ekonomiska konsekvenser och deras förutsättningar mer begripliga och granskningsbara för olika aktörer.
 
-Kartläggningen omfattar också AI-användning som sker informellt. Modlitba (2025, s. 75) påpekar att många organisationer redan har AI-initiativ utan att kalla dem det, och att medarbetare som själva har börjat utforska tekniken kan bli värdefulla förändringsambassadörer.
+Kartläggningen omfattar också AI-användning som sker informellt, ibland kallat "skugg-AI". Ibland kan skugg-AI ses "missbruk" [[https://computersweden.se/article/4204279/hogre-chefer-missbrukar-skugg-ai-dubbelt-sa-ofta-som-vanliga-anstallda.html](https://computersweden.se/article/4204279/hogre-chefer-missbrukar-skugg-ai-dubbelt-sa-ofta-som-vanliga-anstallda.html) ], men Modlitba (2025, s. 75) påpekar att många organisationer redan har AI-initiativ utan att kalla dem det, och att medarbetare som själva har börjat utforska tekniken kan bli värdefulla förändringsambassadörer.
 
 ### Beskriv varje användning
 
@@ -136,7 +136,7 @@ Mognaden kan också bedömas för verksamheten som helhet. Modlitba (2025, s. 79
 
 ### Nyttobedömning
 
-Nyttan med projektet kan bedömas utifrån tanken om "föreställningar om konkurrenskraft", som jag skrev om i min licentiatavhandling om förnyelsebara energibärares nuvarande och framtida konkurrenskraft. För att förstå vad som är "konkurrenskraftigt" eller "lönsamt" kan man skilja mellan tre logiker: affärsmässig produktionslogik, affärsmässig hållbarhetslogik och socio-ekonomisk hållbarhetslogik ([Lundgren, 1998, s. 93–99](../../litteratur/More/Lundgren_1998_lic_arbete.pdf)). De betonar produktionskostnader, efterfrågan på miljöprofilerade produkter respektive lokal förankring och legitimitet. Här använder jag dem som analytiska perspektiv på vilka frågor ett beslutsunderlag behöver belysa. 
+Nyttan med projektet kan bedömas utifrån tanken om "föreställningar om konkurrenskraft", som jag skrev om i min licentiatavhandling om förnyelsebara energibärares nuvarande och framtida konkurrenskraft. För att förstå vad som är "konkurrenskraftigt" eller "lönsamt" kan man skilja mellan tre logiker: affärsmässig produktionslogik, affärsmässig hållbarhetslogik och socio-ekonomisk hållbarhetslogik ([Lundgren, 1998, s. 93–99](../../litteratur/More/Lundgren_1998_lic_arbete.pdf)). De betonar produktionskostnader, efterfrågan på miljöprofilerade produkter respektive lokal förankring och legitimitet. Här använder jag dem som analytiska perspektiv på vilka frågor ett beslutsunderlag behöver belysa.  
 
 Min bloggtext *Besked före beslut* (Lundgren, 2026c), som jag tog fram tillsammans med generativ AI, konkretiserar ett informationsbehov: att kunna redovisa beräknade ersättningsintervall och antaganden före beslut. Textens förslag om tidiga besked, automatisk rätt och uppföljning är policyförslag som ska skiljas från gällande regler. Långhult/Lunnarsbo används i underlaget som räkneillustration och Önnerup som kontrastfall. Långhult beskrivs under Avgränsning och vald process. Intäktsdelningslagen (2026:1113) trädde i kraft den 1 juli 2026, och jag har inte identifierat några dokumenterade utbetalningsfall. Inventeringen bedömer möjliga nyttor och risker, inte uppmätta effekter.
 
