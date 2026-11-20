@@ -4,7 +4,7 @@
 
 Webbversion av policyrapporten *Besked före beslut: att förbättra intäktsdelningen från vindkraft till närboende* (ETE409 UPG2, Linköpings universitet). Texten är rapporten ordagrant, hämtad ur [261120_3000_ord.md](https://github.com/kentlundgren/Studier/blob/main/2026_host/Policy_i_energi_och_klimat/essa-upg2/261120_3000_ord.md). Den som vill ha Word-filen hittar den som [261120_3000_ord.docx](https://kentlundgren.github.io/Studier/2026_host/Policy_i_energi_och_klimat/essa-upg2/261120_3000_ord.docx).
 
-Version 1.1 · 2026-11-20
+Version 1.2 · 2026-11-20
 
 ## Det extra på webben
 
