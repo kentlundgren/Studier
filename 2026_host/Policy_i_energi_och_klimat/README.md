@@ -122,7 +122,7 @@ Policy_i_energi_och_klimat/
 
 ## Länkar
 
-- **Kursrum, Lisam (inloggning):** <https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY>
+- **Kursrum, Lisam (inloggning, läs [Så loggar du in på kursrummet](#så-loggar-du-in-på-kursrummet) först):** <https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY>
 - **Kursupplägg (sidan 0):** <https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY/SitePages/0.-Kurs-och-uppgiften-introduktion.aspx>
 - **UPG3-tester (Moodle/Moodular, inloggning):** <https://moodle.integration.it.liu.se/moodular/#/quiz?SPHostUrl=https:%2F%2Fliuonline.sharepoint.com%2Fsites%2FLisam_ETE409_2026HT_DY&HostTitle=Policys%20i%20energi-%20och%20klimatomst%C3%A4llningen%20(ETE409%202026HT%20DY)&CourseMomentCode=ETE409_2026HT_DY&CourseOfferingKey=ETE409_2026HT_DY&View=quiz&lang=sv>
 - Kursöversikt (LiU, marknadsföringssida): <https://liu.se/utbildning/kurs/ete409>
@@ -132,6 +132,40 @@ Policy_i_energi_och_klimat/
 - Kurslitteratur: <https://studieinfo.liu.se/kurs/ETE409/ht-2026#literature>
 - Kursmatris: <https://studieinfo.liu.se/kurs/ETE409/ht-2026#matrix>
 - Komplett kursplan som PDF: <https://studieinfo.liu.se/pdf/kursplan/ETE409/ht-2026>
+
+## Så loggar du in på kursrummet
+
+Skrivet 2026-11-20 efter att inloggningen strulat. Logga ut ur Microsoft-kontot
+först, och logga sedan in på nytt med LiU-kontot. Då får du välja konto.
+
+**Gör så här:**
+
+1. Öppna ett **privat fönster** (Ctrl+Skift+N i Chrome). Det fungerade 2026-11-20.
+   Alternativ: logga ut från alla Microsoft-konton på
+   <https://login.microsoftonline.com/logout.srf> och fortsätt i ett vanligt fönster.
+2. Öppna kursrummet: <https://liuonline.sharepoint.com/sites/Lisam_ETE409_2026HT_DY>.
+3. På sidan *Välj ett konto* väljer du **LiU-kontot** (LiU-ID följt av
+   `@student.liu.se`). Välj inte det privata hotmail-kontot, som också syns i listan.
+4. Om kontot inte finns i listan: välj *Använd ett annat konto* och skriv in LiU-kontot.
+
+**Vad som hände:** webbläsaren var redan inloggad med det privata Microsoft-kontot
+(hotmail). Kurslänken gav då felsidan *Det fungerade inte*, med texten att
+hotmail-adressen inte hittas i `liuonline.sharepoint.com`-katalogen. Länken
+*Klicka här om du vill logga in med ett annat konto* ledde tillbaka till samma
+felsida. Adressen i felet slutade på `accessdenied.aspx`, alltså åtkomst nekad.
+
+**Varför (min tolkning, inte bekräftad av LiU):** kursrummet ligger i LiU:s
+SharePoint, som bara släpper in konton i LiU:s egen Microsoft 365-katalog. Det privata
+kontot finns inte där. Microsoft återanvänder dessutom ett konto som webbläsaren
+redan är inloggad med och visar inte kontoväljaren, så man fastnar i en slinga.
+Ett privat fönster eller en utloggning tar bort den sparade inloggningen, och då visas
+kontoväljaren där LiU-kontot går att välja.
+
+**Om det ändå inte går:** kontakta kursadministratören eller LiU:s studentservice,
+ange kurskod ETE409 och korrelations-ID:t som felsidan visar.
+
+Skärmbilden av kontoväljaren ligger inte i repot, eftersom den visar personliga
+kontoadresser och repot är publikt.
 
 ## Kursupplägg enligt Lisam (2026-10-28)
 
