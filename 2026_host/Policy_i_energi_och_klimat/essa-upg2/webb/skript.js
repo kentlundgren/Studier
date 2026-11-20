@@ -2,11 +2,12 @@
  * skript.js: Besked före beslut (webbversion av policyrapporten, ETE409 UPG2).
  * Allt körs i webbläsaren. Ingen data skickas någonstans.
  *
+ * UPPDATERING 2026-11-20: version höjd för länk till LinkedIn-inlägget (mall.html). Version 1.3.
  * UPPDATERING 2026-11-20: version höjd för ändrad kursrad och borttagen mottagarrad (mall.html). Version 1.2.
  * UPPDATERING 2026-11-20: version höjd för ny kursrad i sidhuvudet (mall.html). Version 1.1.
  * UPPDATERING 2026-11-20: ny sida. Version 1.0.
  */
-const VERSION = '1.2';
+const VERSION = '1.3';
 const VERSIONSDATUM = '2026-11-20';
 
 (function () {

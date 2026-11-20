@@ -4,7 +4,7 @@
 
 Webbversion av policyrapporten *Besked före beslut: att förbättra intäktsdelningen från vindkraft till närboende* (ETE409 UPG2, Linköpings universitet). Texten är rapporten ordagrant, hämtad ur [261120_3000_ord.md](https://github.com/kentlundgren/Studier/blob/main/2026_host/Policy_i_energi_och_klimat/essa-upg2/261120_3000_ord.md). Den som vill ha Word-filen hittar den som [261120_3000_ord.docx](https://kentlundgren.github.io/Studier/2026_host/Policy_i_energi_och_klimat/essa-upg2/261120_3000_ord.docx).
 
-Version 1.2 · 2026-11-20
+Version 1.3 · 2026-11-20
 
 ## Det extra på webben
 
@@ -17,6 +17,7 @@ Rutorna märkta "Extra på webben" ligger utanför rapportens ordantal och anvä
 | Diagram 2. Var kommer beskedet? | Tidslinje med sju steg. Växlar mellan idag och med förslaget och visar i vilket steg ersättningen blir känd. |
 | Ordlista | Fackord förklaras vid hovring, fokus och tryck, första gången de förekommer. |
 | Källkort | Hänvisningar som "(Gross, 2007)" visar referensposten vid hovring, fokus och tryck. |
+| Korsreferens | Knapp i sidhuvudet och rad i sidfoten länkar till mitt LinkedIn-inlägg om samma fråga. |
 | Läsning | Framstegsstapel, innehållsförteckning, mörkt läge, utskriftsstil och knappen Kopiera hänvisning. |
 
 ## Filer
