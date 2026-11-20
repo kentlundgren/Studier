@@ -1,0 +1,25 @@
+<section class="extra kalkyl" id="Diagram1" aria-labelledby="kalkyl-rubrik">
+  <p class="extra-etikett">Extra på webben</p>
+  <h3 id="kalkyl-rubrik">Diagram 1. Vad hade jag fått? <a class="ankare" href="#Diagram1" aria-label="Länk till Diagram 1">#</a></h3>
+  <p>Fyll i ett avstånd och ett elpris och se ersättningen per bostad och år. Den följer 12–14 §§ i intäktsdelningslagen (2026:1113) och samma antaganden som <a href="#Tabell1">Tabell 1</a>: två verk i samma avståndssteg, 6,6 MW, 3 610 timmar och viktning 0,75. Gula fält går att ändra.</p>
+  <div class="falt-rutnat">
+    <label for="k-avstand">Avstånd till närmaste verk (meter)</label>
+    <input type="number" id="k-avstand" min="0" step="10" value="1900" inputmode="numeric">
+    <label for="k-hojd">Verkens höjd (meter)</label>
+    <input type="number" id="k-hojd" min="50" max="400" step="10" value="270" inputmode="numeric">
+    <label for="k-pris">Elpris före viktning (öre/kWh)</label>
+    <input type="number" id="k-pris" min="0" step="5" value="50" inputmode="numeric">
+    <label for="k-verk">Antal verk i parken</label>
+    <input type="number" id="k-verk" min="1" step="1" value="20" inputmode="numeric">
+    <label for="k-bostader">Antal bostäder som delar på taket</label>
+    <input type="number" id="k-bostader" min="1" step="1" value="200" inputmode="numeric">
+    <label for="k-ar">Antal år utan anmälan</label>
+    <input type="number" id="k-ar" min="1" max="30" step="1" value="1" inputmode="numeric">
+  </div>
+  <div class="resultat" aria-live="polite">
+    <p class="stor" id="k-huvud"></p>
+    <dl id="k-detaljer"></dl>
+  </div>
+  <div class="steg-staplar" id="k-staplar" role="img" aria-label="Ersättning per bostad i varje avståndssteg"></div>
+  <p class="liten">Beloppen är avrundade till närmaste hundratal kronor, som i <a href="#Tabell1">Tabell 1</a>. Beräkningen är en förenkling och inget besked från något bolag.</p>
+</section>

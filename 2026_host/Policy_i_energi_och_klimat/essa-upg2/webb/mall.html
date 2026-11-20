@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+  Besked före beslut: webbversion av policyrapporten (ETE409, UPG2).
+  Den här filen är genererad av bygg.py ur ../261120_3000_ord.md och mall.html. Ändra inte index.html för hand.
+  UPPDATERING 2026-11-20: ny sida. Version 1.0.
+-->
+<title>{{TITEL}}</title>
+<meta name="description" content="Under 2025 stoppades 93 procent av vindkraftsprojekten av kommunerna. Jag har granskat hur ersättningen till närboende är utformad och föreslår tre förbättringar. Pröva själv vad en bostad får.">
+<meta name="author" content="Kent Lundgren">
+<link rel="canonical" href="{{LIVE}}">
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="sv_SE">
+<meta property="og:site_name" content="Kent Lundgren">
+<meta property="og:title" content="Besked före beslut: ersättning från vindkraft till närboende">
+<meta property="og:description" content="93 procent av vindkraftsprojekten stoppades av kommunerna 2025. Vad får närboende i ersättning, och när får de veta det? Jag föreslår tre förbättringar. Pröva själv.">
+<meta property="og:url" content="{{LIVE}}">
+<meta property="og:image" content="{{LIVE}}og-bild.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Texten 93 procent av vindkraftsprojekten stoppades av kommunerna 2025, bredvid ett vindkraftverk omgivet av ringar som visar avstånd i verkshöjder.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Besked före beslut: ersättning från vindkraft till närboende">
+<meta name="twitter:description" content="93 procent av vindkraftsprojekten stoppades av kommunerna 2025. Vad får närboende i ersättning, och när får de veta det? Pröva själv.">
+<meta name="twitter:image" content="{{LIVE}}og-bild.jpg">
+<meta name="twitter:image:alt" content="Texten 93 procent av vindkraftsprojekten stoppades av kommunerna 2025, bredvid ett vindkraftverk omgivet av ringar som visar avstånd i verkshöjder.">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230e7490'/%3E%3Ccircle cx='32' cy='32' r='7' fill='%23fff'/%3E%3Cpath d='M32 32V8M32 32l21 12M32 32L11 44' stroke='%23fff' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="stil.css">
+<script>
+  try { var t = localStorage.getItem('tema'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+</script>
+</head>
+<body>
+<div id="progress" aria-hidden="true"></div>
+<a class="hoppa" href="#rapport">Hoppa till texten</a>
+
+<header class="hero" id="topp">
+  <div class="hero-text">
+    <p class="eyebrow">Policyrapport · ETE409 UPG2 · Linköpings universitet</p>
+    <h1>Besked före beslut</h1>
+    <p class="underrubrik">{{TITEL_HEL}}</p>
+    <p class="mottagare">{{SUB1}}</p>
+    <p class="meta"><span data-version-rad>Version 1.0 · 2026-11-20</span> · Kent Lundgren · brödtext {{ORDANTAL}} ord</p>
+    <div class="knappar">
+      <a class="knapp primar" href="#gissa">Börja med en gissning</a>
+      <a class="knapp" href="#rapport">Läs rapporten</a>
+      <a class="knapp" href="../261120_3000_ord.docx">Ladda ned Word</a>
+      <a class="knapp" href="{{GITHUB_MD}}" target="_blank" rel="noopener">Markdown på GitHub</a>
+      <button type="button" class="knapp" id="kopiera">Kopiera hänvisning</button>
+      <button type="button" class="knapp" id="temaknapp" aria-pressed="false">Mörkt läge</button>
+    </div>
+  </div>
+  <div class="hero-bild" aria-hidden="true">
+    <svg viewBox="0 0 400 400" role="presentation" focusable="false">
+      <g class="ringar">
+        <circle cx="200" cy="200" r="190"/>
+        <circle cx="200" cy="200" r="152"/>
+        <circle cx="200" cy="200" r="114"/>
+        <circle cx="200" cy="200" r="76"/>
+        <circle cx="200" cy="200" r="38"/>
+      </g>
+      <g class="hus">
+        <rect x="92" y="150" width="14" height="14"/><rect x="278" y="110" width="14" height="14"/>
+        <rect x="318" y="236" width="14" height="14"/><rect x="152" y="300" width="14" height="14"/>
+        <rect x="236" y="326" width="14" height="14"/><rect x="70" y="262" width="14" height="14"/>
+        <rect x="244" y="84" width="14" height="14"/><rect x="150" y="60" width="14" height="14"/>
+        <rect x="302" y="168" width="14" height="14"/><rect x="40" y="190" width="14" height="14"/>
+      </g>
+      <g class="rotor"><path d="M200 200 L200 108 M200 200 L280 246 M200 200 L120 246"/></g>
+      <circle class="nav" cx="200" cy="200" r="9"/>
+    </svg>
+  </div>
+</header>
+
+<div class="sida">
+  <details id="toc" open>
+    <summary>Innehåll</summary>
+    <nav aria-label="Innehåll">
+{{TOC}}
+    </nav>
+  </details>
+
+  <main id="rapport" class="text">
+    <section class="extra gissa" id="gissa" aria-labelledby="gissa-rubrik">
+      <p class="extra-etikett">Extra på webben</p>
+      <h2 id="gissa-rubrik">Jag började med en fråga</h2>
+      <p>Hur många av 46 landbaserade vindkraftsprojekt stoppades av kommunerna under 2025? Gissa innan du läser vidare.</p>
+      <div class="gissa-rad">
+        <label for="gissning">Min gissning (0 till 46)</label>
+        <input type="number" id="gissning" min="0" max="46" step="1" inputmode="numeric" placeholder="till exempel 20">
+        <button type="button" class="knapp primar" id="visa-svar">Visa svaret</button>
+      </div>
+      <div id="svar" class="svar" aria-live="polite" hidden>
+        <p id="svar-text"></p>
+        <div class="pricklager" id="prickar" aria-hidden="true"></div>
+        <div class="staplar" id="staplar">
+          <div class="stapel"><span class="stapel-namn">2021–2024, genomsnitt</span><span class="stapel-bar"><span style="--w:68%"></span></span><span class="stapel-varde">68 %</span></div>
+          <div class="stapel"><span class="stapel-namn">2025</span><span class="stapel-bar"><span class="ny" style="--w:93%"></span></span><span class="stapel-varde">93 %</span></div>
+        </div>
+        <p class="kalla-rad">Källa: <a href="https://greenpowersweden.se/nastan-all-vindkraft-stoppades-av-kommunerna-2025/" target="_blank" rel="noopener">Green Power Sweden, 2026</a> (se <a href="#ref-green-power-sweden-2026">referenslistan</a>). Andelen gäller projekt, inte verk. Green Power Sweden är en branschorganisation.</p>
+      </div>
+    </section>
+
+{{BODY}}
+
+    <p class="obs">Siffrorna är hämtade ur källorna i referenslistan och är inte kvalitetssäkrade. Kontrollera mot källan innan något återges.</p>
+  </main>
+</div>
+
+<footer class="sidfot">
+  <p><span data-version-rad>Version 1.0 · 2026-11-20</span> · Kent Lundgren · <a href="#topp">Till toppen</a></p>
+</footer>
+
+<a class="corner corner-left" href="{{GITHUB_MAPP}}" target="_blank" rel="noopener">{ } GitHub</a>
+<button type="button" class="corner corner-right" id="techBtn" aria-label="Tekniköversikt">&lt;/&gt; teknik</button>
+
+<div class="modal-overlay" id="techModal">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="techRubrik">
+    <button type="button" class="modal-close" id="techClose" aria-label="Stäng">&times;</button>
+    <h2 id="techRubrik">Hur den här sidan är byggd</h2>
+    <p>En statisk sida i HTML, CSS och JavaScript. Ingen server, inga bibliotek och ingen data som lämnar webbläsaren.</p>
+    <h3 class="tech-section-title">Tekniken</h3>
+    <div class="tech-grid">
+      <div class="tech-card"><h3>Genererad ur rapporten</h3><p><code>bygg.py</code> läser md-filen och skriver <code>index.html</code>. Rubriker, tabeller, källor och länkar kommer därför ur samma text som Word-filen.</p></div>
+      <div class="tech-card"><h3>Kalkylen i webbläsaren</h3><p>Diagram 1 räknar med 12–14 §§ i intäktsdelningslagen och samma antaganden som Tabell 1: 6,6 MW, 3 610 timmar, viktning 0,75, två verk i samma avståndssteg.</p></div>
+      <div class="tech-card"><h3>Förklaringar och källkort</h3><p>Fackord och källhänvisningar får en ruta vid hovring, fokus och tryck. Skriptet hittar dem i texten och kopplar dem till ordlistan och referenslistan.</p></div>
+      <div class="tech-card"><h3>Tillgänglighet</h3><p>Allt går att nå med tangentbord. Animationer stängs av om webbläsaren ber om minskad rörelse. Mörkt läge följer systemet och kan växlas.</p></div>
+    </div>
+    <h3 class="tech-section-title">Metoden</h3>
+    <div class="tech-grid">
+      <div class="tech-card"><h3>Rapporten är källan</h3><p>Texten visas ordagrant. Ändras md-filen körs skriptet igen, så sidan och Word-filen glider inte isär.</p></div>
+      <div class="tech-card"><h3>Extra bara ur rapporten</h3><p>Diagram 1 och 2 och ordlistan använder bara uppgifter som redan står i rapporten eller i lagtexten den hänvisar till. De är märkta "Extra på webben".</p></div>
+      <div class="tech-card"><h3>Öppna avvikelser</h3><p>Ringarna överst är en stiliserad bild utan mått. Diagram 1 förenklar: alla bostäder antas ligga i samma avståndssteg, och verkens layout ingår inte.</p></div>
+      <div class="tech-card"><h3>Kontrollera mot källan</h3><p>Siffrorna är hämtade ur källorna och inte kvalitetssäkrade. Läs originalet innan något återges.</p></div>
+    </div>
+  </div>
+</div>
+
+<div id="tip" role="tooltip" hidden></div>
+
+<script>
+window.ORDLISTA = {{ORDLISTA}};
+window.CITERINGAR = {{CITERINGAR}};
+</script>
+<script src="skript.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<title>og-mall</title>
+<!-- Källa till og-bild.jpg (1200 x 630). Rendera med Chrome: chrome --headless --screenshot --window-size=1200,630 og-mall.html -->
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1200px; height: 630px; overflow: hidden; }
+  body {
+    background: linear-gradient(135deg, #0b2a3a 0%, #0e4a5f 60%, #0e7490 100%);
+    color: #fff;
+    font-family: "Segoe UI", system-ui, Arial, sans-serif;
+    position: relative;
+  }
+  .vanster { position: absolute; left: 70px; top: 40px; width: 640px; }
+  .etikett { font-size: 24px; letter-spacing: 0.14em; text-transform: uppercase; color: #9be3f5; font-weight: 600; }
+  .stor { font-family: Georgia, "Times New Roman", serif; font-weight: 700; font-size: 205px; line-height: 0.95; letter-spacing: -0.03em; margin-top: 8px; color: #fff; }
+  .stor span { color: #fdba74; }
+  .text { font-size: 35px; line-height: 1.2; margin-top: 6px; font-weight: 500; max-width: 600px; }
+  .text b { color: #fdba74; }
+  .titel { position: absolute; left: 70px; bottom: 40px; width: 720px; }
+  .titel h1 { font-family: Georgia, "Times New Roman", serif; font-size: 50px; line-height: 1.05; }
+  .titel p { font-size: 23px; color: #cfeef7; margin-top: 8px; }
+  .titel p.namn { font-size: 20px; color: #9be3f5; margin-top: 4px; }
+  .kalla { position: absolute; right: 56px; bottom: 36px; font-size: 18px; color: #9be3f5; text-align: right; }
+  svg { position: absolute; right: -30px; top: 40px; width: 560px; height: 560px; }
+  .ringar circle { fill: none; stroke: #9be3f5; stroke-width: 2; }
+  .hus rect { fill: #cfeef7; opacity: 0.8; }
+  .rotor path { stroke: #fff; stroke-width: 9; stroke-linecap: round; fill: none; }
+</style>
+</head>
+<body>
+  <svg viewBox="0 0 400 400" aria-hidden="true">
+    <g class="ringar">
+      <circle cx="200" cy="200" r="190" opacity="0.5"/>
+      <circle cx="200" cy="200" r="152" opacity="0.5"/>
+      <circle cx="200" cy="200" r="114" opacity="0.6"/>
+      <circle cx="200" cy="200" r="76" opacity="0.7"/>
+      <circle cx="200" cy="200" r="38" opacity="0.8"/>
+    </g>
+    <g class="hus">
+      <rect x="92" y="150" width="14" height="14"/><rect x="278" y="110" width="14" height="14"/>
+      <rect x="318" y="236" width="14" height="14"/><rect x="152" y="300" width="14" height="14"/>
+      <rect x="236" y="326" width="14" height="14"/><rect x="70" y="262" width="14" height="14"/>
+      <rect x="244" y="84" width="14" height="14"/><rect x="150" y="60" width="14" height="14"/>
+      <rect x="302" y="168" width="14" height="14"/><rect x="40" y="190" width="14" height="14"/>
+    </g>
+    <g class="rotor"><path d="M200 200 L200 108 M200 200 L280 246 M200 200 L120 246"/></g>
+    <circle cx="200" cy="200" r="10" fill="#fdba74"/>
+  </svg>
+  <div class="vanster">
+    <div class="etikett">Policyrapport · ETE409</div>
+    <div class="stor">93<span> %</span></div>
+    <div class="text">av vindkraftsprojekten <b>stoppades av kommunerna</b> 2025</div>
+  </div>
+  <div class="titel">
+    <h1>Besked före beslut</h1>
+    <p>Vad får närboende i ersättning, och när får de veta det?</p><p class="namn">Kent Lundgren</p>
+  </div>
+  <div class="kalla">Källa: Green Power Sweden, 2026</div>
+</body>
+</html>
