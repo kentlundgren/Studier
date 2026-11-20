@@ -31,7 +31,7 @@ Rättesnöre för U: kritiska delar som saknas är EU AI Act och dataskyddslagst
 
 ## 2. Vilket kapitel bär vilket område
 
-Kapitelnamnen är de i [utkast 4f](../Analys/delprov1-vindkraftskalkyler/utkast-4f.md).
+Kapitelnamnen är de i [utkast 5a](../Analys/delprov1-vindkraftskalkyler/utkast-5a.md).
 
 | Bedömningsområde | Bärs av | Kommentar |
 |---|---|---|
@@ -54,7 +54,7 @@ Kapitelnamnen är de i [utkast 4f](../Analys/delprov1-vindkraftskalkyler/utkast-
 
 ## 4. När nästa utkast föreslås
 
-Aktuell arbetsversion är [utkast 4f](../Analys/delprov1-vindkraftskalkyler/utkast-4f.md), skapad 2026-11-16 som kopia av 4e. Utkast 4e är skrivskyddad och finns som Word-fil ([utkast-4e.docx](../Analys/delprov1-vindkraftskalkyler/utkast-4e.docx)). Nästa utkast blir 4g.
+Aktuell arbetsversion är [utkast 5a](../Analys/delprov1-vindkraftskalkyler/utkast-5a.md), skapad 2026-11-19 som kopia av 4f. Utkast 4e och 4f är skrivskyddade och finns som Word-filer ([utkast-4e.docx](../Analys/delprov1-vindkraftskalkyler/utkast-4e.docx), [utkast-4f.docx](../Analys/delprov1-vindkraftskalkyler/utkast-4f.docx)). Nästa utkast blir 5b.
 
 Assistenten föreslår ett nytt utkast, och väntar på Kents ja, när något av följande inträffar. Äldre version bevaras alltid.
 - Kent har gjort stora ändringar i en annan modell eller i Word och för in dem.
@@ -112,7 +112,7 @@ Kapitel 1 och 2 (ca 2 360 ord) är större än kapitel 4–6 tillsammans (ca 870
 1. Etik och EU AI Act i kapitel 4: Kent väljer bestämmelser och tar ställning till risknivå för fall 1 och 2. Sveriges AI-strategi hämtas in med ett eller två konkreta mål.
 2. Strategisk betydelse i kapitel 1 eller 3, samt ledarskapsreflektionen i kapitel 5 och 7.
 3. Kapitel 6: välj vilka rekommendationer Kent står bakom.
-4. Därefter gallring enligt tabellen i 5.2, och först därefter ett nytt utkast (4g).
+4. Därefter gallring enligt tabellen i 5.2, i utkast 5a.
 
 ### 5.6 Läget i 4f (2026-11-16)
 
