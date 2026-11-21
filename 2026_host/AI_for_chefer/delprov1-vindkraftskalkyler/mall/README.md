@@ -23,7 +23,7 @@ Kursledningens mall använder HKR:s formatmallar och har samma sidinställningar
 - **Brödtext:** Times New Roman 12 pt med radavstånd 18 pt, formatmallen Normal.
 - **Rubriker:** formatmallarna Rubrik 1 (18 pt), Rubrik 2 (16 pt) och Rubrik 3. Innehållsförteckningen byggs av rubrikformaten, så rubriker ska sättas med formatmall och inte med manuell fetstil.
 - **Övriga formatmallar:** Titel, Undertitel, Författarens namn, Abstract Rubrik, Abstract Normal, Blockcitat (för citat över 40 ord), Bildtext (kursiv) och listformaten Lista - Punkter och Lista - Nummer.
-- **Sidfot:** Högskolan Kristianstads adressrad.
+- **Sidnummer och sidfot:** sidnumret står uppe till höger som "X (Y)" i brödtextdelen (titelsidan har inget nummer). Sidfoten är Högskolan Kristianstads adressrad. Mallen har inget datum i sidfoten.
 
 HKR:s allmänna mall har dessutom ett försättsblad med uppgifter om arbetet, en abstract-sida på svenska och en på engelska (sammanfattning högst 250 ord och 5–8 ämnesord, med handledare och examinator), och sidnummer från sida 5. Kursledningens mall har förenklat det: den har en titelsida, en svensk sammanfattning (högst 250 ord) och ämnesord (5–8 st), och ingen engelsk abstract.
 
@@ -36,14 +36,14 @@ Mallens slutstycke anger att dokumentet ska vara sammanhållet och kunna läsas 
 ## Så görs slutdokumentet
 
 1. Slutversionen byggs i Word från kursledningens mall, `AI Inventering Dokument för Uppgift 1.docx`. Informationstexten i mallen tas bort och innehållet från det sista utkastet förs in med mallens formatmallar.
-2. [utkast-5a.docx](https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/Analys/delprov1-vindkraftskalkyler/utkast-5a.docx) är byggd direkt i kursledningens mall: HKR:s formatmallar, titelsida, sammanfattning, ämnesord, innehållsförteckning, Times New Roman 12 pt och marginaler 4,0/3,0/2,5/3,5 cm. Sidfoten har mallens adressrad, datum till vänster och "sid X (Y)" till höger. Mallens egen sidnumrering uppe till höger i brödtextdelen är borttagen i arbetskopian. Filen är en ögonblicksbild av utkastet och görs om när utkastet ändras. Word-filerna [utkast-4e.docx](https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/Analys/delprov1-vindkraftskalkyler/utkast-4e.docx) och [utkast-4f.docx](https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/Analys/delprov1-vindkraftskalkyler/utkast-4f.docx) är läsversioner med Calibri 11 pt och marginaler på 2,5 cm, utan HKR:s layout, och deras sidantal gäller inte inlämningen.
+2. [utkast-5a.docx](https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/Analys/delprov1-vindkraftskalkyler/utkast-5a.docx) är byggd direkt i kursledningens mall och följer den: HKR:s formatmallar, titelsida, sammanfattning, ämnesord, innehållsförteckning, Times New Roman 12 pt, marginaler 4,0/3,0/2,5/3,5 cm, mallens sidnummer uppe till höger och mallens sidfot. Filen är en ögonblicksbild av utkastet och görs om när utkastet ändras. Word-filerna [utkast-4e.docx](https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/Analys/delprov1-vindkraftskalkyler/utkast-4e.docx) och [utkast-4f.docx](https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/Analys/delprov1-vindkraftskalkyler/utkast-4f.docx) är läsversioner med Calibri 11 pt, marginaler på 2,5 cm och datum och sidnummer i sidfoten, utan HKR:s layout, och deras sidantal gäller inte inlämningen.
 3. Kent avgör när utkastet är färdigt och tar hand om inlämning, commit och push.
 
 ## Omfång i kursledningens layout
 
 Canvas (uppgiften *Din AI användningsinventering i företaget/organisationen*, sista inlämning söndag 6 december 2026 23.59) och kursledningens mall säger samma sak: "Rekommenderad längd är cirka 4–6 sidor, exklusive eventuella bilagor." Canvas nämner inte referenslistan. Vi arbetar med antagandet att **brödtexten är högst 6 sidor, exklusive referenslista och bilagor**. Bilagor och referenser ligger i samma dokument, efter brödtexten.
 
-Utkast 5a i kursledningens mall ([utkast-5a.docx](https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/Analys/delprov1-vindkraftskalkyler/utkast-5a.docx)) blev 33 sidor (Word 2026-11-21): 3 sidor titel, sammanfattning och innehållsförteckning, 22 sidor brödtext (sidorna 4–25) och 8 sidor referenser. Det är ungefär 250 ord per sida när rubriker och tabeller räknas in, så 6 sidor brödtext motsvarar ungefär 1 500 ord.
+Utkast 5a i kursledningens mall ([utkast-5a.docx](https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/Analys/delprov1-vindkraftskalkyler/utkast-5a.docx)) blev 35 sidor (Word 2026-11-21): 3 sidor titel, sammanfattning och innehållsförteckning, 24 sidor brödtext (sidorna 4–27) och 8 sidor referenser. Det är ungefär 250–300 ord per sida när rubriker och tabeller räknas in, så 6 sidor brödtext motsvarar ungefär 1 500–1 700 ord.
 
 ## Repo
 

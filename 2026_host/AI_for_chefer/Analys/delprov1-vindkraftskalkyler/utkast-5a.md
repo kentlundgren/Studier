@@ -60,7 +60,7 @@ Samarbetet med generativ AI kräver att jag formulerar mål, avgränsningar och 
 
 I dag äger, förvaltar och använder jag kalkylerna och jag granskar kod och resultat. En möjlig framtid är att kalkylmodeller publiceras på [akademins webbplats](https://skanesvindkraftsakademi.se/). Det skulle kräva att akademin tar ansvar för att kalkylerna fungerar och räknar rätt, vilket jag inte kan besluta om ensam. Det är verksamhetsledaren som på styrelsens uppdrag beslutar vad som ska vara på akademins hemsida.
 
-### Avgränsning och vald process
+### Enhet, process eller tjänst
 
 Den process jag inventerar är kommunikationen om vindkraftens ekonomi, både generellt och vid konkreta lokala etableringar. Rapporten analyserar AI-stödd utveckling av kalkyl- och beslutsverktyg i den kommunikationen. Fokus är hur generativ AI kan hjälpa till när modeller byggs, förbättras och förklaras.
 
@@ -140,7 +140,7 @@ Mognaden kan också bedömas för verksamheten som helhet. Modlitba (2025, s. 79
 
 Nyttan med projektet kan bedömas utifrån tanken om "föreställningar om konkurrenskraft", som jag skrev om i min licentiatavhandling om förnyelsebara energibärares nuvarande och framtida konkurrenskraft. För att förstå vad som är "konkurrenskraftigt" eller "lönsamt" kan man skilja mellan tre logiker: affärsmässig produktionslogik, affärsmässig hållbarhetslogik och socio-ekonomisk hållbarhetslogik ([Lundgren, 1998, s. 93–99](../../litteratur/More/Lundgren_1998_lic_arbete.pdf)). De betonar produktionskostnader (APL), efterfrågan på miljöprofilerade produkter (AHL) respektive lokal förankring och legitimitet (SEHL). Här använder jag dem som analytiska perspektiv som visar vilka frågor ett beslutsunderlag behöver belysa.  
 
-Min bloggtext *Besked före beslut* (Lundgren, 2026c) konkretiserar ett informationsbehov: att kunna redovisa beräknade ersättningsintervall och antaganden före beslut. Textens förslag om tidiga besked, automatisk rätt och uppföljning är policyförslag som ska skiljas från gällande regler. Långhult/Lunnarsbo används i underlaget som räkneillustration. Vindkraftsparken i Långhult beskrivs mer under Avgränsning och vald process.
+Min bloggtext *Besked före beslut* (Lundgren, 2026c) konkretiserar ett informationsbehov: att kunna redovisa beräknade ersättningsintervall och antaganden före beslut. Textens förslag om tidiga besked, automatisk rätt och uppföljning är policyförslag som ska skiljas från gällande regler. Långhult/Lunnarsbo används i underlaget som räkneillustration. Vindkraftsparken i Långhult beskrivs mer under Enhet, process eller tjänst.
 
 Att intäktsdelningslagen (2026:1113) och visst material är tillgängliga på webben innebär inte automatiskt att läsaren kan förstå eller granska det. I fall 1 kan samarbetet med AI användas för att tydliggöra sambandet mellan antagande, beräkning och resultat. I fall 2 kan det användas för att tolka en regel och förklara vad olika aktörer behöver veta. Nyttan kan prövas genom att låta läsare besvara några konkreta frågor utifrån materialet: kan de hitta rätt i materialet, förstå vad som påverkar utfallet och skilja ett förslag från ett besked om faktisk ersättning? 
 
