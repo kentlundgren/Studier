@@ -36,12 +36,14 @@ Mallens slutstycke anger att dokumentet ska vara sammanhållet och kunna läsas 
 ## Så görs slutdokumentet
 
 1. Slutversionen byggs i Word från kursledningens mall, `AI Inventering Dokument för Uppgift 1.docx`. Informationstexten i mallen tas bort och innehållet från det sista utkastet förs in med mallens formatmallar.
-2. Word-filerna som tidigare gjorts ur Markdown, [utkast-4e.docx](https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/Analys/delprov1-vindkraftskalkyler/utkast-4e.docx) och [utkast-4f.docx](https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/Analys/delprov1-vindkraftskalkyler/utkast-4f.docx), är läsversioner. De har Calibri 11 pt och marginaler på 2,5 cm, och saknar HKR:s layout. Deras sidantal gäller inte inlämningen.
+2. [utkast-5a.docx](https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/Analys/delprov1-vindkraftskalkyler/utkast-5a.docx) är byggd direkt i kursledningens mall: HKR:s formatmallar, titelsida, sammanfattning, ämnesord, innehållsförteckning, Times New Roman 12 pt och marginaler 4,0/3,0/2,5/3,5 cm. Sidfoten har mallens adressrad, datum till vänster och "sid X (Y)" till höger. Mallens egen sidnumrering uppe till höger i brödtextdelen är borttagen i arbetskopian. Filen är en ögonblicksbild av utkastet och görs om när utkastet ändras. Word-filerna [utkast-4e.docx](https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/Analys/delprov1-vindkraftskalkyler/utkast-4e.docx) och [utkast-4f.docx](https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/Analys/delprov1-vindkraftskalkyler/utkast-4f.docx) är läsversioner med Calibri 11 pt och marginaler på 2,5 cm, utan HKR:s layout, och deras sidantal gäller inte inlämningen.
 3. Kent avgör när utkastet är färdigt och tar hand om inlämning, commit och push.
 
 ## Omfång i kursledningens layout
 
-Utkast 5a, med bara texten flyttad in i kursledningens mall, blev 31 sidor och 7 889 ord (mätt med Word 2026-11-21, med referenser och utan titelsida). Det är ungefär 250 ord per sida när rubriker och tabeller räknas in. Det visar hur mycket som behöver gallras för att nå rekommendationen om 4–6 sidor.
+Canvas (uppgiften *Din AI användningsinventering i företaget/organisationen*, sista inlämning söndag 6 december 2026 23.59) och kursledningens mall säger samma sak: "Rekommenderad längd är cirka 4–6 sidor, exklusive eventuella bilagor." Canvas nämner inte referenslistan. Vi arbetar med antagandet att **brödtexten är högst 6 sidor, exklusive referenslista och bilagor**. Bilagor och referenser ligger i samma dokument, efter brödtexten.
+
+Utkast 5a i kursledningens mall ([utkast-5a.docx](https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/Analys/delprov1-vindkraftskalkyler/utkast-5a.docx)) blev 33 sidor (Word 2026-11-21): 3 sidor titel, sammanfattning och innehållsförteckning, 22 sidor brödtext (sidorna 4–25) och 8 sidor referenser. Det är ungefär 250 ord per sida när rubriker och tabeller räknas in, så 6 sidor brödtext motsvarar ungefär 1 500 ord.
 
 ## Repo
 
