@@ -52,13 +52,14 @@ I kursbilden anges tre kommande quiz kopplade till Paulina Modlitbas bok *Vad fa
 
 *Sidintervallen är uppskattade från kapitlens start på innehållssidan. Quizdatum och eventuella ytterligare instruktioner meddelas i kursplattformen.*
 
-## Skrivmall för kursens skriftliga arbeten
+## Skrivmallar för kursens skriftliga arbeten
 
-**Utgångsmall:** [HKR:s mall för examensarbete (Word)](https://www.hkr.se/globalassets/avdelningar/bhp/larverkstader/mall-exemensarbete/hkr-examensarbete-mall2.docx) från [HKR:s officiella mallsida](https://www.hkr.se/uppsatsmall/).
+Två Word-mallar gäller för uppgift 1, och de hänger ihop. Detaljer finns i [README för mallarna](https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/delprov1-vindkraftskalkyler/mall/README.md).
 
-Använd den aktuella HKR-mallen som grund när du skriver kursens skriftliga arbeten. Följ mallens instruktioner för rubrikformat, så att dokumentets innehållsförteckning fungerar. HKR anger att mallen är gjord för skrivbordsversionen av Office 365 och rekommenderar att man skriver direkt i mallen från början.
+- **Layout:** [HKR:s mall för examensarbete](https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/delprov1-vindkraftskalkyler/mall/hkr-examensarbete-mall2.docx) (Word), från [HKR:s officiella mallsida](https://www.hkr.se/uppsatsmall/). Den ger formatmallar, typsnitt (Times New Roman 12 pt), marginaler och rubrikformat. Följ mallens instruktioner för rubrikformat, så att innehållsförteckningen fungerar. HKR anger att mallen är gjord för skrivbordsversionen av Office 365 och rekommenderar att man skriver direkt i mallen från början.
+- **Innehåll för uppgift 1:** kursledningens mall [AI Inventering Dokument för Uppgift 1.docx](https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/delprov1-vindkraftskalkyler/mall/AI%20Inventering%20Dokument%20f%C3%B6r%20Uppgift%201.docx), byggd på HKR:s mall. Den anger kapitel, rubriker, inventeringstabell och rekommenderad längd, cirka 4–6 sidor exklusive bilagor. Den läsbara kopian på GitHub är [ai-inventering-dokument-uppgift-1.md](https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/delprov1-vindkraftskalkyler/mall/ai-inventering-dokument-uppgift-1.md). Vårt arbetsutkast följer [version 2](https://github.com/kentlundgren/Studier/blob/main/2026_host/AI_for_chefer/delprov1-vindkraftskalkyler/mall/ai-inventering-dokument-uppgift-1-v2.md), som lägger till metod, nyttobedömning, kort handlingsplan och reflektion.
 
-**Kursens uppgiftsinstruktioner i Canvas styr innehållet och eventuella särskilda formkrav.** Mallen är HKR:s examensarbetsmall; krav som gäller examensarbetens titel- och abstractsidor ska därför bara användas när de passar den aktuella uppgiften eller uttryckligen efterfrågas. Vid motstridiga instruktioner, följ kursens instruktioner och fråga kursansvarig om det är oklart.
+Slutdokumentet byggs i Word från kursledningens mall. Kursens uppgiftsinstruktioner i Canvas styr innehållet och eventuella särskilda formkrav, och vid motstridiga instruktioner följer vi kursens instruktioner och frågar kursansvarig om det är oklart. Krav som gäller examensarbetens titel- och abstractsidor används bara när de passar den aktuella uppgiften eller uttryckligen efterfrågas.
 
 ## Innehåll i mappen
 
@@ -76,7 +77,7 @@ Använd den aktuella HKR-mallen som grund när du skriver kursens skriftliga arb
   - [Floridi och frågan om AI-medvetande](Analys/litteratur/floridi_ai_medvetande.md) – vidareutveckling och källkritisk granskning av svaret från Floridi Agent.
   - [Bifogat svar från Floridi Agent](litteratur/More/Hur_vet_man_om_AI_generativ_A_response.md).
 - `delprov1-vindkraftskalkyler/` – arbete med analys av ett AI-tillämpningsområde.
-  - [Aktuellt arbetsutkast 4d: analys av ett AI-tillämpningsområde](Analys/delprov1-vindkraftskalkyler/utkast-4d.md) – den sammanhållna rapportversionen som utvecklas vidare enligt PRD:n och arbetsguiden.
+  - [Aktuellt arbetsutkast 5a: analys av ett AI-tillämpningsområde](Analys/delprov1-vindkraftskalkyler/utkast-5a.md) – den sammanhållna rapportversionen som utvecklas vidare enligt PRD:n och arbetsguiden.
 - `delprov2-handlingsplan/` – arbete med handlingsplan för Skånes vindkraftsakademi.
 
 ### Litteraturens läs-spår
