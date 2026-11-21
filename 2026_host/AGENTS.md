@@ -107,6 +107,8 @@ Skriv varje stycke som **en enda rad**, utan hårda radbrytningar inne i stycket
 
 ## Word-filer från markdown
 
+**Finns en föreskriven mall** (kursledningens eller institutionens Word-mall) **gäller mallen före punkterna nedan**: layout, sidnummer, sidfot och rubriker följer mallen, och Word-filen byggs i mallen. Rutinen och skriptet finns i skillen `kent-skriv-enligt-mall` (`.claude/skills/kent-skriv-enligt-mall/SKILL.md` i Studier-repots rot). Punkterna nedan gäller bara när ingen mall finns.
+
 När jag gör en Word-fil av en `.md`-fil (Kent 2026-11-06):
 - **Sidfot:** det datum som gäller (`ÅÅÅÅ-MM-DD`, dagens datum om inget annat sägs) längst ned till vänster och sidnumret som `sid X (Y)` längst ned till höger, där Y är det totala antalet sidor. En rapport på sju sidor visar `sid 1 (7)` på första och `sid 7 (7)` på sista sidan. Använd fälten PAGE och NUMPAGES så att Word räknar själv.
 - **Sidformat:** A4, marginaler 2,5 cm, Calibri 11 pt, rubriker i svart.

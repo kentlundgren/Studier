@@ -2,7 +2,7 @@
 
 **Nivå:** Projekt (`C:\Users\kentl\OneDrive\AI\Studier\CLAUDE.md`)
 **Gäller:** Claude Code-sessioner som är öppnade i den här mappen
-**Skapad:** 2026-09-04 · **Senast ändrad:** 2026-09-04
+**Skapad:** 2026-09-04 · **Senast ändrad:** 2026-11-21
 
 Den här filen kompletterar den globala `C:\Users\kentl\.claude\CLAUDE.md`
 (som alltid gäller). Vid konflikt: fråga Kent.
@@ -104,7 +104,7 @@ kursens arbetsdokument, inte i en regelfil.
 
 ## Skriftliga uppgifter
 
-Skriver jag eller hjälper jag till med en text i Studier-repot: den gemensamma sjustegsprocessen läses in från @AGENTS.md. För kurstexter under `2026_host/`, läs också [`2026_host/AGENTS.md`](2026_host/AGENTS.md) för roll, kursregler, mallreflektion och lärloop mot Kents omskrivningar.
+Skriver jag eller hjälper jag till med en text i Studier-repot: den gemensamma sjustegsprocessen läses in från @AGENTS.md. För kurstexter under `2026_host/`, läs också [`2026_host/AGENTS.md`](2026_host/AGENTS.md) för roll, kursregler, mallreflektion och lärloop mot Kents omskrivningar. Ska en text lämnas in och det finns en föreskriven mall (kursledningens eller HKR:s): ladda skillen `kent-skriv-enligt-mall` (`.claude/skills/kent-skriv-enligt-mall/SKILL.md`). Mallens layout, sidnummer och sidfot går före Kents vanliga Word-standard.
 
 ## Månadsrapport
 
@@ -118,3 +118,4 @@ Skriver Kent nyckelordet **månadsrapport** (eventuellt med månad), eller fråg
   `beslutslogg.md`; nytt avsnitt "Lärandeprojekt – håll tänkandet öppet";
   struktur uppdaterad mot faktiskt innehåll. Bakgrund: samtal med Kent om
   att en lokal CLAUDE.md inte ska låsa fast provisoriska val.
+- 2026-11-21: pekare i "Skriftliga uppgifter" till skillen `kent-skriv-enligt-mall`; en föreskriven mall går före Kents vanliga Word-standard.
